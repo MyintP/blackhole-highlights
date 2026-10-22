@@ -135,11 +135,11 @@ export function liveFrom(summary, team = TEAM) {
 // `others` are kickoff times of the week's other AFC West games: 10 minutes while one is on, for the scores strip.
 export function nextWait(g, now = new Date(), others = []) {
   const M = 6e4, t = now.getTime(), waits = [];
-  if (g && !g.timeTBD && !g.final) {
+  if (g && !g.timeTBD && !g.final && !g.postponed) {
     const kick = new Date(g.date).getTime(), open = kick - 12 * 60 * M, close = kick - 60 * M;
     if (!isNaN(kick) && t >= kick - 18 * 60 * M && t <= kick + 270 * M) {
       if (t < open) waits.push(Math.min(open - t + 2 * M, 60 * M));
-      else if (t < close) waits.push(close - t > 65 * M ? 60 * M : Math.max(close - t - 3 * M, M));
+      else if (t < close) waits.push(close - t > 70 * M ? 60 * M : Math.max(close - t - 8 * M, M));
       else waits.push(10 * M);
     }
   }
@@ -322,7 +322,8 @@ export function grade(odds, games) {
   for (const g of games) {
     const h = odds.closing[g.id];
     if (!g.final || !h || !g.score) continue;
-    const margin = g.score.us - g.score.them, pts = g.score.us + g.score.them, sp = num(h.spread), tot = num(h.total);
+    const margin = g.score.us - g.score.them, pts = g.score.us + g.score.them, tot = num(h.total);
+    const sp = /^\s*(pk|pick|even)\s*$/i.test(String(h.spread ?? "")) ? 0 : num(h.spread); // pick'em = 0
     h.final = { us: g.score.us, them: g.score.them };
     h.result = {
       ats: sp == null || isNaN(sp) ? null : margin + sp > 0 ? "W" : margin + sp < 0 ? "L" : "P",

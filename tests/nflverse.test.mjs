@@ -107,7 +107,9 @@ test("nextWait chains around game time and leaves the rest to cron", () => {
   assert.equal(P.nextWait(g, at(-17)), 3600); // chain starts, hourly
   assert.equal(P.nextWait(g, at(-12.5)), 32 * 60); // lands just after the odds window opens
   assert.equal(P.nextWait(g, at(-6)), 3600);
-  assert.equal(P.nextWait(g, at(-1.5)), 27 * 60); // last capture just before the window closes
+  assert.equal(P.nextWait(g, at(-1.5)), 22 * 60); // last capture ~7 min before the window closes, leaving start-up slack
+  assert.equal(P.nextWait(g, at(-1.15)), 60); // inside the slack: check again in a minute
+  assert.equal(P.nextWait({ ...g, postponed: true }, at(-6)), null);
   assert.equal(P.nextWait(g, at(1)), 600); // live scores
   assert.equal(P.nextWait(g, at(5)), null);
   assert.equal(P.nextWait({ ...g, timeTBD: true }, at(-6)), null);

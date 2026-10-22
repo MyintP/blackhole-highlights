@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: "7 * * * *"
   workflow_dispatch:
+    inputs:
+      chain_test:
+        description: "Test the self-dispatch: schedule one follow-up run in 60 seconds (it won't chain further outside a game window)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -53,14 +58,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages build request failed; it will rebuild on the next push"
       - name: Schedule the next run (game windows only)
-        if: always() && steps.update.outputs.wait != ''
+        if: always() && (steps.update.outputs.wait != '' || inputs.chain_test)
         env:
           GH_TOKEN: ${{ github.token }}
-          WAIT: ${{ steps.update.outputs.wait }}
+          WAIT: ${{ inputs.chain_test && '60' || steps.update.outputs.wait }}
         run: |
-          echo "Next run in $((WAIT / 60)) min"
+          echo "Next run in $WAIT s"
           sleep "$WAIT"
           # A run already waiting (cron, or one held by the concurrency group) would start a second chain; let it carry on instead.
           queued=$(gh run list -R "${{ github.repository }}" -w update.yml -L 20 --json status -q '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting")] | length')
           if [ "$queued" != "0" ]; then echo "A run is already queued"; exit 0; fi
           gh workflow run update.yml -R "${{ github.repository }}" --ref main
+          echo "Dispatched the next run"
