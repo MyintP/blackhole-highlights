@@ -166,8 +166,18 @@ async function news() {
     .map(i => ({ title: i.title, link: i.link, date: i.iso, src: i.src, tag: tagFor(i.title), desc: i.desc.slice(0, 220) }));
 }
 
+// YouTube's feed intermittently 404s for cloud IPs (GitHub runners), so retry, then try the uploads-playlist feed.
+async function youtubeFeed() {
+  const urls = [`channel_id=${YT_CHANNEL}`, `channel_id=${YT_CHANNEL}`, `channel_id=${YT_CHANNEL}`, `playlist_id=UU${YT_CHANNEL.slice(2)}`];
+  let err;
+  for (const [i, q] of urls.entries()) {
+    try { return await get(`https://www.youtube.com/feeds/videos.xml?${q}`, "text"); }
+    catch (e) { err = e; await new Promise(r => setTimeout(r, 2000 * (i + 1))); }
+  }
+  throw err;
+}
 async function videos() {
-  const x = await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${YT_CHANNEL}`, "text");
+  const x = await youtubeFeed();
   return x.split("<entry>").slice(1, 9).map(s => ({
     id: (s.match(/<yt:videoId>([^<]+)/) || [])[1],
     title: decode((s.match(/<title>([^<]*)/) || [])[1] || ""),
