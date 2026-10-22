@@ -1,0 +1,24 @@
+name: Checks
+
+# Unit tests, generated pages up to date, links/anchors/metadata/data shape/secrets.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/build-pages.mjs --check
+      - run: node scripts/check-site.mjs

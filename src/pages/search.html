@@ -1,0 +1,24 @@
+<!--
+{"file": "search.html", "nav": "", "script": "search",
+ "title": "Search · Black Hole Highlights",
+ "description": "Search Raiders stories, players, games and pages on Black Hole Highlights."}
+-->
+<div class="page-head">
+  <div class="wrap">
+    <h1>Search</h1>
+    <form class="filters" id="s-form" role="search" action="search.html" style="margin-top:20px">
+      <div class="field">
+        <label for="s-q">Search for</label>
+        <input class="input grow" id="s-q" name="q" type="search" placeholder="Try Jeanty, injuries, Broncos, Week 9" autocomplete="off">
+        <button class="btn" type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+</div>
+<section aria-label="Results" style="border-bottom:0">
+  <div class="wrap">
+    <p class="count-line" id="s-count" role="status" aria-live="polite"></p>
+    <div id="page-error"></div>
+    <div id="s-results"></div>
+  </div>
+</section>

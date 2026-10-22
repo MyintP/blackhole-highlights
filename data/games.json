@@ -1,0 +1,926 @@
+{
+ "updated": "2026-10-22T00:43:36.501Z",
+ "games": {
+  "401872928": {
+   "id": "401872928",
+   "week": 1,
+   "date": "2026-09-13T20:25Z",
+   "home": true,
+   "opp": {
+    "id": "15",
+    "name": "Dolphins",
+    "location": "Miami",
+    "abbr": "MIA",
+    "record": "0-5"
+   },
+   "score": {
+    "us": 27,
+    "them": 13
+   },
+   "win": true,
+   "tie": false,
+   "lines": {
+    "us": [
+     7,
+     10,
+     10,
+     0
+    ],
+    "them": [
+     0,
+     6,
+     7,
+     0
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "290",
+     "them": "259"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "160",
+     "them": "185"
+    },
+    {
+     "key": "rushingYards",
+     "us": "130",
+     "them": "74"
+    },
+    {
+     "key": "firstDowns",
+     "us": "21",
+     "them": "13"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "5-13",
+     "them": "2-10"
+    },
+    {
+     "key": "turnovers",
+     "us": "2",
+     "them": "2"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "6-29",
+     "them": "8-61"
+    },
+    {
+     "key": "possessionTime",
+     "us": "34:53",
+     "them": "25:07"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "160",
+      "unit": "YDS",
+      "line": "21/30, 3 TD, 2 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Ashton Jeanty",
+      "value": "102",
+      "unit": "YDS",
+      "line": "23 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Ashton Jeanty",
+      "value": "45",
+      "unit": "YDS",
+      "line": "6 REC, 2 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Kwity Paye",
+      "value": "2",
+      "unit": "SACKS",
+      "line": "2"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Kwity Paye",
+      "value": "6",
+      "unit": "TOT",
+      "line": "3 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Malik Willis",
+      "value": "220",
+      "unit": "YDS",
+      "line": "15/27, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Malik Willis",
+      "value": "39",
+      "unit": "YDS",
+      "line": "6 CAR, 1 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Caleb Douglas",
+      "value": "94",
+      "unit": "YDS",
+      "line": "5 REC"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Jacob Rodriguez",
+      "value": "14",
+      "unit": "TOT",
+      "line": "5 SOLO"
+     }
+    ]
+   },
+   "recap": {
+    "title": "Kirk Cousins hits 301 career TD passes as Raiders open the season with a 27-13 win over Dolphins",
+    "link": "https://www.espn.com/nfl/recap?gameId=401872928",
+    "desc": "— Kirk Cousins was brought in to be Las Vegas' present and a bridge to a future where top draft pick "
+   },
+   "attendance": 62541
+  },
+  "401872941": {
+   "id": "401872941",
+   "week": 2,
+   "date": "2026-09-20T20:05Z",
+   "home": false,
+   "opp": {
+    "id": "24",
+    "name": "Chargers",
+    "location": "Los Angeles",
+    "abbr": "LAC",
+    "record": "0-6"
+   },
+   "score": {
+    "us": 26,
+    "them": 14
+   },
+   "win": true,
+   "tie": false,
+   "lines": {
+    "us": [
+     0,
+     10,
+     7,
+     9
+    ],
+    "them": [
+     0,
+     7,
+     7,
+     0
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "305",
+     "them": "310"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "248",
+     "them": "183"
+    },
+    {
+     "key": "rushingYards",
+     "us": "57",
+     "them": "127"
+    },
+    {
+     "key": "firstDowns",
+     "us": "14",
+     "them": "17"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "4-14",
+     "them": "5-14"
+    },
+    {
+     "key": "turnovers",
+     "us": "1",
+     "them": "3"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "6-42",
+     "them": "8-45"
+    },
+    {
+     "key": "possessionTime",
+     "us": "27:43",
+     "them": "32:17"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "253",
+      "unit": "YDS",
+      "line": "19/29, 3 TD, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Ashton Jeanty",
+      "value": "48",
+      "unit": "YDS",
+      "line": "21 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Tre Tucker",
+      "value": "119",
+      "unit": "YDS",
+      "line": "5 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Malcolm Koonce",
+      "value": "1.5",
+      "unit": "SACKS",
+      "line": "1.5"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Quay Walker",
+      "value": "10",
+      "unit": "TOT",
+      "line": "5 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Justin Herbert",
+      "value": "192",
+      "unit": "YDS",
+      "line": "15/27, 1 TD, 2 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Omarion Hampton",
+      "value": "94",
+      "unit": "YDS",
+      "line": "23 CAR, 1 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Tre' Harris",
+      "value": "53",
+      "unit": "YDS",
+      "line": "1 REC"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Khalil Mack",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Derwin James Jr.",
+      "value": "7",
+      "unit": "TOT",
+      "line": "2 SOLO"
+     }
+    ]
+   },
+   "recap": {
+    "title": "Kirk Cousins connects with Cody White for 2 TDs and Raiders beat Chargers 26-14",
+    "link": "https://www.espn.com/nfl/recap?gameId=401872941",
+    "desc": "— Kirk Cousins used to watch Cody White attacking the football at Michigan State. The veteran quarterback figured the same thing would work for the Las Vegas Raiders."
+   },
+   "attendance": 71567
+  },
+  "401872961": {
+   "id": "401872961",
+   "week": 3,
+   "date": "2026-09-27T20:25Z",
+   "home": false,
+   "opp": {
+    "id": "18",
+    "name": "Saints",
+    "location": "New Orleans",
+    "abbr": "NO",
+    "record": "2-4"
+   },
+   "score": {
+    "us": 35,
+    "them": 27
+   },
+   "win": true,
+   "tie": false,
+   "lines": {
+    "us": [
+     3,
+     13,
+     6,
+     13
+    ],
+    "them": [
+     6,
+     7,
+     14,
+     0
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "340",
+     "them": "381"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "227",
+     "them": "233"
+    },
+    {
+     "key": "rushingYards",
+     "us": "113",
+     "them": "148"
+    },
+    {
+     "key": "firstDowns",
+     "us": "24",
+     "them": "27"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "7-12",
+     "them": "9-15"
+    },
+    {
+     "key": "turnovers",
+     "us": "1",
+     "them": "4"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "5-19",
+     "them": "8-36"
+    },
+    {
+     "key": "possessionTime",
+     "us": "27:32",
+     "them": "32:28"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "248",
+      "unit": "YDS",
+      "line": "22/33, 3 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Ashton Jeanty",
+      "value": "56",
+      "unit": "YDS",
+      "line": "19 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Brock Bowers",
+      "value": "116",
+      "unit": "YDS",
+      "line": "10 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Jeremy Chinn",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Nakobe Dean",
+      "value": "12",
+      "unit": "TOT",
+      "line": "11 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Tyler Shough",
+      "value": "255",
+      "unit": "YDS",
+      "line": "29/42, 4 TD, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Travis Etienne Jr.",
+      "value": "57",
+      "unit": "YDS",
+      "line": "13 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Chris Olave",
+      "value": "107",
+      "unit": "YDS",
+      "line": "9 REC"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Chase Young",
+      "value": "2",
+      "unit": "SACKS",
+      "line": "2"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Kaden Elliss",
+      "value": "9",
+      "unit": "TOT",
+      "line": "4 SOLO"
+     }
+    ]
+   },
+   "recap": {
+    "title": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
+    "link": "https://www.espn.com/nfl/recap?gameId=401872961",
+    "desc": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025."
+   },
+   "attendance": 70006
+  },
+  "401872976": {
+   "id": "401872976",
+   "week": 4,
+   "date": "2026-10-04T20:25Z",
+   "home": true,
+   "opp": {
+    "id": "12",
+    "name": "Chiefs",
+    "location": "Kansas City",
+    "abbr": "KC",
+    "record": "5-0"
+   },
+   "score": {
+    "us": 27,
+    "them": 30
+   },
+   "win": false,
+   "tie": false,
+   "lines": {
+    "us": [
+     7,
+     6,
+     0,
+     14
+    ],
+    "them": [
+     7,
+     3,
+     0,
+     20
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "437",
+     "them": "399"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "365",
+     "them": "210"
+    },
+    {
+     "key": "rushingYards",
+     "us": "72",
+     "them": "189"
+    },
+    {
+     "key": "firstDowns",
+     "us": "28",
+     "them": "18"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "5-14",
+     "them": "5-13"
+    },
+    {
+     "key": "turnovers",
+     "us": "2",
+     "them": "0"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "6-30",
+     "them": "8-59"
+    },
+    {
+     "key": "possessionTime",
+     "us": "35:42",
+     "them": "24:18"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "365",
+      "unit": "YDS",
+      "line": "31/52, 2 TD, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Ashton Jeanty",
+      "value": "58",
+      "unit": "YDS",
+      "line": "15 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Brock Bowers",
+      "value": "86",
+      "unit": "YDS",
+      "line": "6 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Quay Walker",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Hezekiah Masses",
+      "value": "7",
+      "unit": "TOT",
+      "line": "3 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Patrick Mahomes",
+      "value": "225",
+      "unit": "YDS",
+      "line": "15/30, 2 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Kenneth Walker III",
+      "value": "177",
+      "unit": "YDS",
+      "line": "22 CAR, 2 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Tyquan Thornton",
+      "value": "111",
+      "unit": "YDS",
+      "line": "5 REC, 2 TD"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Mansoor Delane",
+      "value": "10",
+      "unit": "TOT",
+      "line": "7 SOLO"
+     }
+    ]
+   },
+   "recap": {
+    "title": "Chiefs beat the Raiders 30-27 to move to 4-0 behind Patrick Mahomes and Kenneth Walker III",
+    "link": "https://www.espn.com/nfl/recap?gameId=401872976",
+    "desc": "— Patrick Mahomes said he loves playing in Allegiant Stadium, and it's no wonder, given his perfect record in one of the NFL's newer venues."
+   },
+   "attendance": 62593
+  },
+  "401872986": {
+   "id": "401872986",
+   "week": 5,
+   "date": "2026-10-11T17:00Z",
+   "home": false,
+   "opp": {
+    "id": "17",
+    "name": "Patriots",
+    "location": "New England",
+    "abbr": "NE",
+    "record": "4-2"
+   },
+   "score": {
+    "us": 17,
+    "them": 45
+   },
+   "win": false,
+   "tie": false,
+   "lines": {
+    "us": [
+     7,
+     0,
+     3,
+     7
+    ],
+    "them": [
+     14,
+     7,
+     14,
+     10
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "306",
+     "them": "536"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "268",
+     "them": "371"
+    },
+    {
+     "key": "rushingYards",
+     "us": "38",
+     "them": "165"
+    },
+    {
+     "key": "firstDowns",
+     "us": "16",
+     "them": "29"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "5-13",
+     "them": "6-12"
+    },
+    {
+     "key": "turnovers",
+     "us": "1",
+     "them": "1"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "8-101",
+     "them": "12-116"
+    },
+    {
+     "key": "possessionTime",
+     "us": "25:33",
+     "them": "34:27"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "243",
+      "unit": "YDS",
+      "line": "19/28, 1 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Ashton Jeanty",
+      "value": "27",
+      "unit": "YDS",
+      "line": "10 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Brock Bowers",
+      "value": "110",
+      "unit": "YDS",
+      "line": "8 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Malcolm Koonce",
+      "value": "0.5",
+      "unit": "SACKS",
+      "line": "0.5"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Nakobe Dean",
+      "value": "12",
+      "unit": "TOT",
+      "line": "5 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Drake Maye",
+      "value": "374",
+      "unit": "YDS",
+      "line": "26/34, 4 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Rhamondre Stevenson",
+      "value": "64",
+      "unit": "YDS",
+      "line": "13 CAR, 1 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Kyle Williams",
+      "value": "91",
+      "unit": "YDS",
+      "line": "3 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Elijah Ponder",
+      "value": "2",
+      "unit": "SACKS",
+      "line": "2"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Christian Elliss",
+      "value": "7",
+      "unit": "TOT",
+      "line": "3 SOLO"
+     }
+    ]
+   },
+   "recap": {
+    "title": "Drake Maye accounts for 5 TDs as Patriots roll past Raiders 45-17",
+    "link": "https://www.espn.com/nfl/recap?gameId=401872986",
+    "desc": "— Drake Maye didn't have his top receiver, and the New England Patriots were missing both of their starting cornerbacks."
+   },
+   "attendance": 64628
+  },
+  "401873005": {
+   "id": "401873005",
+   "week": 6,
+   "date": "2026-10-18T20:25Z",
+   "home": true,
+   "opp": {
+    "id": "2",
+    "name": "Bills",
+    "location": "Buffalo",
+    "abbr": "BUF",
+    "record": "5-1"
+   },
+   "score": {
+    "us": 30,
+    "them": 33
+   },
+   "win": false,
+   "tie": false,
+   "lines": {
+    "us": [
+     7,
+     6,
+     0,
+     17
+    ],
+    "them": [
+     3,
+     10,
+     10,
+     10
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "378",
+     "them": "345"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "313",
+     "them": "242"
+    },
+    {
+     "key": "rushingYards",
+     "us": "65",
+     "them": "103"
+    },
+    {
+     "key": "firstDowns",
+     "us": "25",
+     "them": "23"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "7-12",
+     "them": "4-11"
+    },
+    {
+     "key": "turnovers",
+     "us": "1",
+     "them": "0"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "7-62",
+     "them": "8-77"
+    },
+    {
+     "key": "possessionTime",
+     "us": "28:12",
+     "them": "31:48"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "313",
+      "unit": "YDS",
+      "line": "23/41, 2 TD, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Mike Washington Jr.",
+      "value": "43",
+      "unit": "YDS",
+      "line": "9 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Tre Tucker",
+      "value": "97",
+      "unit": "YDS",
+      "line": "5 REC, 2 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Kwity Paye",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Nakobe Dean",
+      "value": "12",
+      "unit": "TOT",
+      "line": "3 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Josh Allen",
+      "value": "255",
+      "unit": "YDS",
+      "line": "23/33, 2 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "James Cook III",
+      "value": "95",
+      "unit": "YDS",
+      "line": "22 CAR, 1 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Keon Coleman",
+      "value": "59",
+      "unit": "YDS",
+      "line": "4 REC, 1 TD"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Terrel Bernard",
+      "value": "9",
+      "unit": "TOT",
+      "line": "5 SOLO"
+     }
+    ]
+   },
+   "recap": {
+    "title": "Josh Allen ties Jim Kelly's Bills TD pass record as Buffalo holds off Raiders 33-30",
+    "link": "https://www.espn.com/nfl/recap?gameId=401873005",
+    "desc": "— Jim Kelly set the standard for every Bills quarterback, but even the Hall of Famer likely wouldn't have made the type of play Josh Allen pulled off Sunday."
+   },
+   "attendance": 62618
+  }
+ }
+}

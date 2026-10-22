@@ -1,0 +1,87 @@
+<!--
+{"file": "index.html", "nav": "home", "script": "home",
+ "title": "Black Hole Highlights: Las Vegas Raiders news, scores, stats and odds",
+ "description": "Las Vegas Raiders news, game previews, scores, injuries, betting odds and stats in one place, updated every hour. Fan-run, not affiliated with the team.",
+ "head": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Black Hole Highlights\",\"url\":\"https://myintp.github.io/blackhole-highlights/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://myintp.github.io/blackhole-highlights/search.html?q={query}\",\"query-input\":\"required name=query\"}}</script>\n"}
+-->
+<div class="hero">
+  <canvas id="disk" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow" id="h-eyebrow">Las Vegas Raiders fan hub</span>
+      <h1 id="h-title">Raiders news, scores and stats, <b>updated hourly</b>.</h1>
+      <p class="lede" id="h-lede">Breaking news, the next game, injuries, odds and the numbers that matter, in one place.</p>
+      <div class="actions"><a class="btn" href="games.html#next">Game Center</a><a class="btn ghost" href="news.html">All Raiders news</a></div>
+      <noscript><p class="lede">This site loads scores, odds and news with JavaScript. Turn it on to see them, or browse <a href="https://www.raiders.com/news/">Raiders.com</a> and <a href="https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders">ESPN</a> directly.</p></noscript>
+    </div>
+    <div id="h-board"><div class="board" aria-hidden="true"><span class="sk h"></span><span class="sk t"></span><span class="sk"></span></div></div>
+  </div>
+</div>
+<div class="wrap" id="page-error"></div>
+
+<section id="news" aria-labelledby="news-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="news-h">Top stories</h2><a class="more" href="news.html">All news</a></div>
+    <div class="split">
+      <div>
+        <div id="lead"><div class="lead"><span class="sk h"></span><span class="sk"></span><span class="sk"></span></div></div>
+        <ul class="stories" id="top-stories"></ul>
+      </div>
+      <aside class="sticky" aria-labelledby="latest-h">
+        <h3 class="panel-title" id="latest-h">Latest</h3>
+        <ul class="stories compact" id="latest"><li class="story"><span class="sk"></span><span class="sk"></span></li></ul>
+        <p style="margin-top:14px"><a class="more" href="news.html">More news</a></p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="gameweek" aria-labelledby="gw-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="gw-h">Game week</h2><a class="more" href="games.html#next" id="matchup">Full preview and tale of the tape</a></div>
+    <div class="grid-3">
+      <div id="pick"><div class="card"><span class="sk h"></span><span class="sk t"></span></div></div>
+      <div id="odds"><div class="card"><span class="sk h"></span><span class="sk t"></span></div></div>
+      <div id="injuries"><div class="card"><span class="sk h"></span><span class="sk t"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="stats" aria-labelledby="stats-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="stats-h">Team dashboard</h2><a class="more" href="stats.html">All stats</a></div>
+    <div class="kpis tnum" id="kpis"><div class="kpi"><span class="sk"></span></div></div>
+    <div class="split" style="margin-top:var(--gap)">
+      <div>
+        <h3 class="panel-title">Season leaders</h3>
+        <div class="tiles tnum" id="leaders" style="margin-top:12px"></div>
+        <div id="milestones" hidden>
+          <div class="sub-head"><h3>Milestones in reach</h3><span class="eyebrow">What to watch for</span></div>
+          <div class="tiles three tnum" id="miles"></div>
+        </div>
+      </div>
+      <div>
+        <h3 class="panel-title">AFC West</h3>
+        <div class="table-wrap"><table><thead><tr><th>Team</th><th class="n">W</th><th class="n">L</th><th class="n">Pct</th><th class="n">Diff</th></tr></thead><tbody id="standings"></tbody></table></div>
+        <p style="margin-top:14px"><a class="more" href="stats.html#standings">Full AFC standings</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule" aria-labelledby="sched-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="sched-h">Schedule</h2><a class="more" href="games.html#schedule">Full schedule and results</a></div>
+    <div id="sched"><span class="sk t"></span></div>
+  </div>
+</section>
+
+<section id="videos" aria-labelledby="media-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="media-h">Media</h2><a class="more" href="media.html">All media</a></div>
+    <div class="split">
+      <div id="clips"><h3 class="panel-title">Black Hole Highlights videos</h3><div id="yt" style="margin-top:14px"><span class="sk t"></span></div></div>
+      <div><h3 class="panel-title">Official podcasts</h3><div id="pods"><span class="sk"></span><span class="sk"></span></div></div>
+    </div>
+  </div>
+</section>

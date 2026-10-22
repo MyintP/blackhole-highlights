@@ -1,0 +1,3 @@
+# Keep LF everywhere so generated pages match on Windows and in CI.
+* text=auto eol=lf
+*.png binary

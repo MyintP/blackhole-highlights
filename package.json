@@ -1,0 +1,14 @@
+{
+  "name": "blackhole-highlights",
+  "private": true,
+  "description": "Black Hole Highlights: static Raiders fan site on GitHub Pages. No runtime dependencies.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "pages": "node scripts/build-pages.mjs",
+    "update": "node scripts/update.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/build-pages.mjs --check && node scripts/check-site.mjs",
+    "serve": "python -m http.server 8765"
+  }
+}

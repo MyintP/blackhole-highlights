@@ -1,0 +1,31 @@
+<!--
+{"file": "news.html", "nav": "news", "script": "news",
+ "title": "Raiders news: latest stories, injuries, roster moves and analysis · Black Hole Highlights",
+ "description": "Every Las Vegas Raiders story from Raiders.com, ESPN, the Review-Journal and fan outlets in one searchable feed, labelled official, reporting, opinion or rumor."}
+-->
+<div class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">Updated hourly</span>
+    <h1>Raiders news</h1>
+    <p>Stories from the team, established outlets and fan sites, newest first. Each one links to its original publisher and is labelled so you know who's talking: <strong>Official</strong>, <strong>Reporting</strong>, <strong>Opinion</strong> or <strong>Rumor</strong>.</p>
+  </div>
+</div>
+<section aria-label="News feed" style="border-bottom:0">
+  <div class="wrap">
+    <form class="filters" id="filters" role="search" aria-label="Filter stories">
+      <div class="chips" id="cats" role="group" aria-label="Topic"></div>
+      <div class="field">
+        <label for="f-q">Search</label><input class="input grow" id="f-q" name="q" type="search" placeholder="Player, opponent, topic">
+        <label for="f-kind">Type</label>
+        <select class="input" id="f-kind" name="kind"><option value="">All types</option><option>Official</option><option>Reporting</option><option>Opinion</option><option>Rumor</option></select>
+        <label for="f-src">Source</label>
+        <select class="input" id="f-src" name="src"><option value="">All sources</option></select>
+      </div>
+    </form>
+    <p class="count-line" id="count" role="status" aria-live="polite"></p>
+    <div id="page-error"></div>
+    <div id="feed"><span class="sk h"></span><span class="sk"></span><span class="sk"></span><span class="sk h"></span><span class="sk"></span></div>
+    <p style="margin-top:24px;text-align:center"><button class="btn ghost" type="button" id="more" hidden>Show more stories</button></p>
+    <noscript><p class="note">The news feed needs JavaScript. You can read Raiders news directly at <a href="https://www.raiders.com/news/">Raiders.com</a>.</p></noscript>
+  </div>
+</section>

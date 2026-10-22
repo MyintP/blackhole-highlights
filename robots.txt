@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myintp.github.io/blackhole-highlights/sitemap.xml

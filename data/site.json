@@ -1,7 +1,8 @@
 {
- "updated": "2026-10-22T00:26:04.501Z",
+ "updated": "2026-10-22T00:43:36.501Z",
  "season": 2026,
  "record": "3-3",
+ "divisionPlace": "3rd in AFC West",
  "next": {
   "id": "401873021",
   "week": 7,
@@ -20,6 +21,7 @@
   "final": false,
   "score": null,
   "win": null,
+  "tie": false,
   "oppRecord": "2-4",
   "venue": {
    "name": "Allegiant Stadium",
@@ -47,6 +49,7 @@
    "them": 33
   },
   "win": false,
+  "tie": false,
   "leaders": [
    {
     "cat": "Passing Yards",
@@ -75,11 +78,19 @@
     "value": "1",
     "unit": "SACKS",
     "line": "1"
+   },
+   {
+    "cat": "Tackles",
+    "name": "Nakobe Dean",
+    "value": "12",
+    "unit": "TOT",
+    "line": "3 SOLO"
    }
   ],
   "recap": {
    "title": "Josh Allen ties Jim Kelly's Bills TD pass record as Buffalo holds off Raiders 33-30",
-   "link": "http://www.espn.com/nfl/recap?gameId=401873005"
+   "link": "https://www.espn.com/nfl/recap?gameId=401873005",
+   "desc": "— Jim Kelly set the standard for every Bills quarterback, but even the Hall of Famer likely wouldn't have made the type of play Josh Allen pulled off Sunday."
   }
  },
  "schedule": {
@@ -105,7 +116,8 @@
      "us": 27,
      "them": 13
     },
-    "win": true
+    "win": true,
+    "tie": false
    },
    {
     "id": "401872941",
@@ -127,7 +139,8 @@
      "us": 26,
      "them": 14
     },
-    "win": true
+    "win": true,
+    "tie": false
    },
    {
     "id": "401872961",
@@ -149,7 +162,8 @@
      "us": 35,
      "them": 27
     },
-    "win": true
+    "win": true,
+    "tie": false
    },
    {
     "id": "401872976",
@@ -171,7 +185,8 @@
      "us": 27,
      "them": 30
     },
-    "win": false
+    "win": false,
+    "tie": false
    },
    {
     "id": "401872986",
@@ -193,7 +208,8 @@
      "us": 17,
      "them": 45
     },
-    "win": false
+    "win": false,
+    "tie": false
    },
    {
     "id": "401873005",
@@ -215,7 +231,8 @@
      "us": 30,
      "them": 33
     },
-    "win": false
+    "win": false,
+    "tie": false
    },
    {
     "id": "401873021",
@@ -234,7 +251,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873029",
@@ -253,7 +271,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873047",
@@ -272,7 +291,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873062",
@@ -291,7 +311,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873075",
@@ -310,7 +331,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873086",
@@ -329,7 +351,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873118",
@@ -348,7 +371,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873137",
@@ -367,7 +391,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873152",
@@ -386,7 +411,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873168",
@@ -405,7 +431,8 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    },
    {
     "id": "401873178",
@@ -424,48 +451,233 @@
     "state": "pre",
     "final": false,
     "score": null,
-    "win": null
+    "win": null,
+    "tie": false
    }
   ]
  },
- "standings": [
-  {
-   "id": "12",
-   "name": "Kansas City",
-   "w": 5,
-   "l": 0,
-   "t": 0,
-   "pct": "1.000",
-   "us": false
-  },
-  {
-   "id": "7",
-   "name": "Denver",
-   "w": 4,
-   "l": 2,
-   "t": 0,
-   "pct": ".667",
-   "us": false
-  },
-  {
-   "id": "13",
-   "name": "Las Vegas",
-   "w": 3,
-   "l": 3,
-   "t": 0,
-   "pct": ".500",
-   "us": true
-  },
-  {
-   "id": "24",
-   "name": "LA Chargers",
-   "w": 0,
-   "l": 6,
-   "t": 0,
-   "pct": ".000",
-   "us": false
-  }
- ],
+ "standings": {
+  "west": [
+   {
+    "id": "12",
+    "name": "Kansas City",
+    "w": 5,
+    "l": 0,
+    "t": 0,
+    "pct": "1.000",
+    "diff": "+57",
+    "us": false
+   },
+   {
+    "id": "7",
+    "name": "Denver",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "diff": "-11",
+    "us": false
+   },
+   {
+    "id": "13",
+    "name": "Las Vegas",
+    "w": 3,
+    "l": 3,
+    "t": 0,
+    "pct": ".500",
+    "diff": "0",
+    "us": true
+   },
+   {
+    "id": "24",
+    "name": "LA Chargers",
+    "w": 0,
+    "l": 6,
+    "t": 0,
+    "pct": ".000",
+    "diff": "-61",
+    "us": false
+   }
+  ],
+  "afc": [
+   {
+    "id": "12",
+    "name": "Kansas City",
+    "w": 5,
+    "l": 0,
+    "t": 0,
+    "pct": "1.000",
+    "seed": 1,
+    "diff": "+57",
+    "us": false
+   },
+   {
+    "id": "2",
+    "name": "Buffalo",
+    "w": 5,
+    "l": 1,
+    "t": 0,
+    "pct": ".833",
+    "seed": 2,
+    "diff": "+26",
+    "us": false
+   },
+   {
+    "id": "30",
+    "name": "Jacksonville",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "seed": 3,
+    "diff": "+50",
+    "us": false
+   },
+   {
+    "id": "5",
+    "name": "Cleveland",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "seed": 4,
+    "diff": "-16",
+    "us": false
+   },
+   {
+    "id": "17",
+    "name": "New England",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "seed": 5,
+    "diff": "+23",
+    "us": false
+   },
+   {
+    "id": "7",
+    "name": "Denver",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "seed": 6,
+    "diff": "-11",
+    "us": false
+   },
+   {
+    "id": "23",
+    "name": "Pittsburgh",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "seed": 7,
+    "diff": "+9",
+    "us": false
+   },
+   {
+    "id": "33",
+    "name": "Baltimore",
+    "w": 4,
+    "l": 2,
+    "t": 0,
+    "pct": ".667",
+    "seed": 8,
+    "diff": "+24",
+    "us": false
+   },
+   {
+    "id": "4",
+    "name": "Cincinnati",
+    "w": 3,
+    "l": 2,
+    "t": 0,
+    "pct": ".600",
+    "seed": 9,
+    "diff": "+19",
+    "us": false
+   },
+   {
+    "id": "13",
+    "name": "Las Vegas",
+    "w": 3,
+    "l": 3,
+    "t": 0,
+    "pct": ".500",
+    "seed": 10,
+    "diff": "0",
+    "us": true
+   },
+   {
+    "id": "20",
+    "name": "NY Jets",
+    "w": 2,
+    "l": 4,
+    "t": 0,
+    "pct": ".333",
+    "seed": 11,
+    "diff": "-10",
+    "us": false
+   },
+   {
+    "id": "11",
+    "name": "Indianapolis",
+    "w": 2,
+    "l": 4,
+    "t": 0,
+    "pct": ".333",
+    "seed": 12,
+    "diff": "-20",
+    "us": false
+   },
+   {
+    "id": "34",
+    "name": "Houston",
+    "w": 2,
+    "l": 4,
+    "t": 0,
+    "pct": ".333",
+    "seed": 13,
+    "diff": "+1",
+    "us": false
+   },
+   {
+    "id": "10",
+    "name": "Tennessee",
+    "w": 1,
+    "l": 5,
+    "t": 0,
+    "pct": ".167",
+    "seed": 14,
+    "diff": "-45",
+    "us": false
+   },
+   {
+    "id": "15",
+    "name": "Miami",
+    "w": 0,
+    "l": 5,
+    "t": 0,
+    "pct": ".000",
+    "seed": 15,
+    "diff": "-62",
+    "us": false
+   },
+   {
+    "id": "24",
+    "name": "LA Chargers",
+    "w": 0,
+    "l": 6,
+    "t": 0,
+    "pct": ".000",
+    "seed": 16,
+    "diff": "-61",
+    "us": false
+   }
+  ]
+ },
  "matchup": {
   "gameId": "401873021",
   "opp": "Rams",
@@ -545,6 +757,7 @@
   ]
  },
  "injuries": {
+  "gameId": "401873021",
   "us": [
    {
     "name": "Carter Runyon",
@@ -647,16 +860,16 @@
     "ret": "2026-11-01"
    },
    {
-    "name": "Nate Landman",
-    "pos": "LB",
-    "injury": "Concussion",
+    "name": "Trent McDuffie",
+    "pos": "CB",
+    "injury": "Groin",
     "status": "Questionable",
     "ret": "2026-10-25"
    },
    {
-    "name": "Trent McDuffie",
-    "pos": "CB",
-    "injury": "Groin",
+    "name": "Nate Landman",
+    "pos": "LB",
+    "injury": "Concussion",
     "status": "Questionable",
     "ret": "2026-10-25"
    }
@@ -700,121 +913,130 @@
    "line": "56"
   }
  ],
- "news": [
-  {
-   "title": "Raiders-Rams Week 7 Injury Report",
-   "link": "https://www.raiders.com/news/las-vegas-raiders-los-angeles-rams-week-7-injury-report-2026",
-   "date": "2026-10-21T23:36:41.000Z",
-   "src": "Raiders.com",
-   "tag": "Injury",
-   "desc": "Take a look at the Raiders' injury report as the team prepares to face the Los Angeles Rams."
-  },
-  {
-   "title": "Raiders injury report: Tonka Hemingway is still out",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143646/raiders-injury-report-tonka-hemingway-concussion-protocol",
-   "date": "2026-10-21T23:33:07.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "Injury",
-   "desc": ""
-  },
-  {
-   "title": "Raiders Mailbag: Where things stand at two positions entering Week 7",
-   "link": "https://www.raiders.com/news/mailbag/raiders-mailbag-where-things-stand-at-two-positions-entering-week-7",
-   "date": "2026-10-21T23:28:00.000Z",
-   "src": "Raiders.com",
-   "tag": "Preview",
-   "desc": "Raiders.com's Levi Edwards takes a look at the cornerback and right guard positions with the Los Angeles Rams on the horizon."
-  },
-  {
-   "title": "How James Cook ran right through Las Vegas Raiders’ defense in Week 6 loss to Buffalo Bills",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143407/raiders-bills-week-6-film-breakdown-james-cook",
-   "date": "2026-10-21T21:46:00.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "Recap",
-   "desc": ""
-  },
-  {
-   "title": "The Las Vegas Raiders should trade for Quenton Nelson",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/143459/raiders-trade-rumorss-quenton-nelson",
-   "date": "2026-10-21T19:03:00.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "Roster",
-   "desc": ""
-  },
-  {
-   "title": "Game Preview: Raiders must slow another top offense in clash with Rams",
-   "link": "https://www.raiders.com/news/game-preview-las-vegas-raiders-vs-los-angeles-rams-102526-matthew-stafford-sean-mcvay",
-   "date": "2026-10-21T17:32:12.000Z",
-   "src": "Raiders.com",
-   "tag": "Preview",
-   "desc": "A Week 7 clash between the Raiders and Rams brings another marquee matchup to Allegiant Stadium."
-  },
-  {
-   "title": "5 things about the Rams",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143545/raiders-rams-week-7-preview",
-   "date": "2026-10-21T17:01:00.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "News",
-   "desc": ""
-  },
-  {
-   "title": "Darien Porter definitely a starter again",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143412/raiders-darien-porter-zeke-masses-cornerback-starrting-job-battle",
-   "date": "2026-10-21T15:05:00.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "News",
-   "desc": ""
-  },
-  {
-   "title": "Bills had a 2nd spitter in Las Vegas",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143588/bills-sam-franklin-cj-gardner-johnson-spit-raiders",
-   "date": "2026-10-21T13:59:18.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "News",
-   "desc": ""
-  },
-  {
-   "title": "Raiders news: Jeanty at good career scoring pace",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143160/raiders-news-jeanty-touchdowns",
-   "date": "2026-10-21T13:19:38.000Z",
-   "src": "Silver & Black Pride",
-   "tag": "News",
-   "desc": ""
-  }
- ],
- "videos": [],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
   },
-  "last game": {
+  "game 1": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "game 2": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "game 3": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "game 4": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "game 5": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "game 6": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "roster": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "player stats": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "matchup": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
   },
-  "news": {
+  "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "news: Las Vegas Review-Journal": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "news: Silver & Black Pride": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "news: RaidersBeat": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "news: ESPN": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-22T00:26:04.501Z"
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "podcasts": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2016": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2017": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2018": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2019": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2020": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2021": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2022": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2023": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2024": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
+  },
+  "history 2025": {
+   "ok": true,
+   "at": "2026-10-22T00:43:36.501Z"
   }
  }
 }

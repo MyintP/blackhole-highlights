@@ -1,6 +1,6 @@
 name: Update data
 
-# Hourly: refresh scores, schedule, standings, stats, injuries, news and videos.
+# Hourly: refresh scores, schedule, standings, stats, roster, injuries, news, podcasts and videos.
 # Odds are only snapshotted from 12 hours to 1 hour before kickoff (logic in scripts/update.mjs).
 on:
   schedule:
@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/site.json data/odds.json
+          git add data/
           if git diff --cached --quiet; then echo "No data changes"; exit 0; fi
           git commit -m "Update data $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase
