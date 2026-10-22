@@ -78,7 +78,9 @@ export async function dataNotice(site) {
   const el = $("notice");
   if (!el) return;
   const msgs = [];
-  const bad = Object.entries(site?.sources || {}).filter(([, s]) => !s.ok).map(([k]) => k);
+  // Videos are excluded: YouTube blocks its feed for GitHub's servers until a YT_API_KEY secret exists (README).
+  // That known limit is listed on the About page's source status rather than warned about on every page.
+  const bad = Object.entries(site?.sources || {}).filter(([k, s]) => !s.ok && k !== "videos").map(([k]) => k);
   if (bad.length) msgs.push(`Some feeds didn't respond on the last check (${bad.join(", ")}). Showing the last good data for those.`);
   try {
     let run = JSON.parse(sessionStorage.getItem("bhh-run") || "null");
