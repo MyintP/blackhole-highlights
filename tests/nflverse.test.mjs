@@ -12,6 +12,7 @@ test("parseCSV handles quotes, commas, doubled quotes, newlines and CRLF", () =>
   assert.deepEqual(rows[0], { a: "1", b: "x, y", c: 'say "hi"' });
   assert.equal(rows[1].b, "two\nlines");
   assert.equal(rows[1].c, "");
+  assert.deepEqual(NV.parseCSV('a,b,c\n1,"x\ny",3\n', new Set(["a", "c"])), [{ a: "1", c: "3" }]); // keeps only chosen columns
 });
 
 const play = (o = {}) => ({

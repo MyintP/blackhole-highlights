@@ -2,10 +2,18 @@
 // Pure functions, unit-tested: parseCSV turns the release CSV into rows, advanced() ranks all 32 teams.
 // Plays counted: regular season, pass or rush, EPA present (the usual nflverse/rbsdm filter).
 
-// RFC 4180 CSV: quoted fields may hold commas, doubled quotes and newlines.
-export function parseCSV(text) {
-  const rows = [];
-  let row = [], f = "", q = false;
+// RFC 4180 CSV: quoted fields may hold commas, doubled quotes and newlines. Rows with the wrong field count are
+// dropped. `columns` (a Set) keeps only those fields: play-by-play has 372 columns and ~50k rows by season's end,
+// and each row becomes an object as soon as it's read, so only the kept fields stay in memory.
+export function parseCSV(text, columns = null) {
+  const out = [];
+  let head = null, keep = null, row = [], f = "", q = false;
+  const end = () => {
+    row.push(f); f = "";
+    if (!head) { head = row; keep = head.map((h, i) => [h, i]).filter(([h]) => !columns || columns.has(h)); }
+    else if (row.length === head.length) { const o = {}; for (const [h, i] of keep) o[h] = row[i]; out.push(o); }
+    row = [];
+  };
   for (let i = 0; i < text.length; i++) {
     const c = text[i];
     if (q) {
@@ -15,13 +23,23 @@ export function parseCSV(text) {
     else if (c === ",") { row.push(f); f = ""; }
     else if (c === "\n" || c === "\r") {
       if (c === "\r" && text[i + 1] === "\n") i++;
-      row.push(f); f = ""; rows.push(row); row = [];
+      end();
     } else f += c;
   }
-  if (f || row.length) { row.push(f); rows.push(row); }
-  const [head, ...body] = rows;
-  return body.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+  if (f || row.length) end();
+  return out;
 }
+
+// Every play-by-play field the functions below read.
+export const PBP_COLUMNS = new Set([
+  "game_id", "play_id", "season_type", "week", "home_team", "away_team", "posteam", "defteam", "qtr", "time", "down", "desc",
+  "pass", "rush", "qb_dropback", "pass_attempt", "sack", "qb_hit", "no_huddle", "air_yards", "yards_gained", "first_down", "touchdown",
+  "epa", "success", "wpa", "qb_epa", "cpoe", "passer_player_name", "passer_player_id",
+  "sp", "td_team", "safety", "total_home_score", "total_away_score",
+  "extra_point_attempt", "extra_point_result", "two_point_attempt", "two_point_conv_result",
+  "field_goal_attempt", "field_goal_result", "kick_distance", "kicker_player_name",
+  "fixed_drive", "fixed_drive_result", "drive_quarter_start", "drive_start_yard_line", "drive_play_count", "drive_time_of_possession",
+]);
 
 const num = v => (v === "" || v === "NA" || v == null ? null : Number(v));
 const mean = a => (a.length ? a.reduce((s, x) => s + x, 0) / a.length : null);
