@@ -76,6 +76,7 @@ export function initChrome() {
 // Notice bar: failed sources, or the update job hasn't succeeded for a while (2 hours around a game, 8 otherwise;
 // checked via the public GitHub API).
 export async function dataNotice(site) {
+  if (site) initStrip(site);
   const el = $("notice");
   if (!el) return;
   const msgs = [];
@@ -257,4 +258,184 @@ export function videosHTML(v) {
 export function linkListHTML(items) {
   if (!items?.length) return empty("Nothing new right now.");
   return `<ul class="stories compact">${items.map(i => `<li class="story"><div class="story-meta"><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>${i.desc ? `<p>${esc(i.desc)}</p>` : ""}</li>`).join("")}</ul>`;
+}
+
+// ---------- game-week strip + AFC West scores (under the header on every page) ----------
+const teamLine = (g, us = "LV") => {
+  const a = g.home ? g.opp.abbr : us, h = g.home ? us : g.opp.abbr;
+  if (!g.score) return `${esc(a)} at ${esc(h)}`;
+  const sa = g.home ? g.score.them : g.score.us, sh = g.home ? g.score.us : g.score.them;
+  return `${esc(a)} <b>${esc(sa)}</b> · ${esc(h)} <b>${esc(sh)}</b>`;
+};
+const link = (href, label) => `<a href="${esc(href)}">${esc(label)}</a>`;
+
+export function stripHTML(site, now = Date.now()) {
+  const s = L.stripState(site, now), g = s.game;
+  const when = x => (x.timeTBD ? "Time TBD" : `${L.day(x.date)} · ${L.time(x.date)} PT`) + (x.tv ? ` · ${x.tv}` : "");
+  let tag = "", main = "", links = [];
+  switch (s.kind) {
+    case "pre":
+      tag = `Week ${g.week}`;
+      main = `${g.home ? esc(g.opp.name) + " at Raiders" : "Raiders at " + esc(g.opp.name)}${g.oppRecord ? ` <small>(${esc(g.oppRecord)})</small>` : ""} · ${esc(when(g))}`;
+      links = [link("games.html#odds", "Odds"), link("games.html#injuries", "Injuries"), link("games.html#matchup", "Matchup"), link("games.html#pick", "Pick")];
+      break;
+    case "live":
+      tag = `<span class="dot" aria-hidden="true"></span>Live`;
+      main = `${teamLine(g)}${g.detail ? ` · ${esc(g.detail)}` : ""}${s.stale ? ` <small>(as of ${esc(L.time(site.updated))} PT)</small>` : ""}`;
+      links = [link("games.html#next", "Game Center")];
+      break;
+    case "kickoff":
+      tag = `Week ${g.week}`;
+      main = `${teamLine({ ...g, score: null })} · kicked off ${esc(L.time(g.date))} PT <small>(score updating)</small>`;
+      links = [link("games.html#next", "Game Center")];
+      break;
+    case "awaiting":
+      tag = `Week ${g.week}`;
+      main = `${teamLine({ ...g, score: null })} · awaiting the final score`;
+      links = [link("games.html#results", "Results")];
+      break;
+    case "post": {
+      const res = g.tie ? "T" : g.win ? "W" : "L";
+      tag = "Final";
+      main = `${teamLine(g)} <span class="${g.tie ? "" : g.win ? "is-win" : "is-loss"}">${res}</span> <small>· Next: ${s.next.home ? "vs" : "at"} ${esc(s.next.opp.name)}, ${esc(L.day(s.next.date))}</small>`;
+      links = [link(`games.html#g-${g.id}`, "Box score"), link(`games.html#g-${g.id}`, "Drives & swings")];
+      if (site.last?.recap?.link) links.push(`<a class="ext" href="${L.url(site.last.recap.link)}" target="_blank" rel="noopener">Recap</a>`);
+      break;
+    }
+    case "bye":
+      tag = `Week ${s.week}`;
+      main = `Bye week <small>· Next: ${g.home ? "vs" : "at"} ${esc(g.opp.name)}, ${esc(when(g))}</small>`;
+      links = [link("games.html#next", "Next game")];
+      break;
+    case "postponed":
+      tag = `Week ${g.week}`;
+      main = `${teamLine({ ...g, score: null })} · postponed`;
+      links = [link("news.html?cat=Games", "Latest news")];
+      break;
+    case "done":
+      tag = `${site.season}`;
+      main = `Season complete · ${esc(site.record || "")}`;
+      links = [link("stats.html#history", "Season history")];
+      break;
+    default: return "";
+  }
+  // Head: what the game is. Rail: its links, then the AFC West scores (one swipeable row on phones).
+  return `<div class="gs-head"><span class="gs-tag${s.kind === "live" ? " live" : ""}">${tag}</span><span class="gs-main">${main}</span></div>
+    <div class="gs-rail"><nav class="gs-links" aria-label="This game">${links.join("")}</nav>${scoresHTML(site, now)}</div>`;
+}
+
+// This week's AFC West games. Only scores from the feed; "Live" needs a live status, and a stale live score says so.
+export function scoresHTML(site, now = Date.now()) {
+  const w = site?.week, games = w?.games || [];
+  const place = site?.divisionPlace ? `<span class="gs-place">LV ${esc(site.divisionPlace)}</span>` : "";
+  if (!games.length && !w?.byes?.length) return place ? `<div class="gs-scores">${place}</div>` : "";
+  const stale = now - new Date(site.updated).getTime() > 25 * 6e4;
+  const item = g => {
+    const st = g.postponed ? "Postponed" : g.state === "in" ? (g.detail || "Live") + (stale ? " · as of " + L.time(site.updated) : "") : g.final ? "Final" : `${L.fmt(g.date, { weekday: "short" })} ${L.time(g.date)}`;
+    const side = x => `<span class="${g.final && x.winner ? "w" : ""}">${esc(x.abbr)}${x.score != null && g.state !== "pre" ? " " + esc(x.score) : ""}</span>`;
+    const ours = g.away.abbr === "LV" || g.home.abbr === "LV";
+    const attrs = ours ? `href="${g.final ? `games.html#g-${esc(g.id)}` : "games.html#next"}"` : `href="${L.url(g.link)}" target="_blank" rel="noopener"`;
+    return `<a class="gs-score${g.state === "in" ? " live" : ""}" ${attrs}>${side(g.away)}${side(g.home)}<small>${esc(st)}</small></a>`;
+  };
+  return `<div class="gs-scores" role="group" aria-label="AFC West this week${w.week ? ", week " + esc(w.week) : ""}">${games.map(item).join("")}${(w.byes || []).map(b => `<span class="gs-score bye"><span>${esc(b)}</span><small>Bye</small></span>`).join("")}${place}</div>`;
+}
+
+function initStrip(site) {
+  const el = $("gamestrip");
+  if (!el) return;
+  const draw = s => { const html = stripHTML(s); el.innerHTML = html ? `<div class="wrap">${html}</div>` : ""; el.hidden = !html; };
+  draw(site);
+  // Poll while a Raiders or AFC West game is on, so the strip doesn't sit on an old score
+  const busy = s => L.stripState(s).kind === "live" || (s.week?.games || []).some(g => g.state === "in");
+  if (!busy(site) || el._poll) return;
+  el._poll = setInterval(async () => {
+    if (document.hidden) return;
+    try { const s = await loadJSON("site", { tries: 1 }); draw(s); if (!busy(s)) clearInterval(el._poll); } catch { /* keep what's shown */ }
+  }, 120000);
+}
+
+// ---------- stat of the day ----------
+export function statCardHTML(st) {
+  if (!st) return `<div class="sotd">${empty("Today's stat appears once this season's player data has loaded.")}</div>`;
+  const body = st.question
+    ? `<p class="sotd-q">${esc(st.question)}</p><details class="sotd-a"><summary>Show the answer</summary><div class="sotd-big"><b>${esc(st.big)}</b><span>${esc(st.unit)}</span></div><p>${esc(st.text)}</p></details>`
+    : `<div class="sotd-big"><b>${esc(st.big)}</b><span>${esc(st.unit)}</span></div><p class="sotd-who">${esc(st.who)}</p><p>${esc(st.text)}</p>`;
+  return `<article class="sotd" aria-labelledby="sotd-h">
+    <div class="sotd-head"><h3 id="sotd-h" class="panel-title">Stat of the day</h3><span class="eyebrow">${esc(st.kind)} · ${esc(L.short(st.date + "T12:00:00Z"))}</span></div>
+    ${body}
+    <p class="note">Source: ${esc(st.source)}.</p>
+    <div class="sotd-actions"><a class="btn sm ghost" href="${esc(st.link)}">More</a><button type="button" class="btn sm ghost" data-sotd-save>Save as image</button></div>
+  </article>`;
+}
+
+// 1080x1350 card (a 4:5 social post) drawn on a canvas, so it can be saved without a server.
+export async function statCardImage(st) {
+  await Promise.all(["400 120px Anton", "600 40px 'Barlow Condensed'", "400 36px Barlow"].map(f => document.fonts?.load(f).catch(() => null)));
+  const c = document.createElement("canvas"); c.width = 1080; c.height = 1350;
+  const x = c.getContext("2d"), pad = 90;
+  x.fillStyle = "#09090b"; x.fillRect(0, 0, c.width, c.height);
+  x.strokeStyle = "#34373d"; x.lineWidth = 4; x.strokeRect(40, 40, c.width - 80, c.height - 80);
+  const wrap = (text, font, color, y, lh, max = c.width - pad * 2) => {
+    x.font = font; x.fillStyle = color;
+    let line = "";
+    for (const w of String(text).split(" ")) { const t = line ? line + " " + w : w; if (x.measureText(t).width > max && line) { x.fillText(line, pad, y); y += lh; line = w; } else line = t; }
+    if (line) { x.fillText(line, pad, y); y += lh; }
+    return y;
+  };
+  let y = 170;
+  y = wrap(`STAT OF THE DAY · ${L.short(st.date + "T12:00:00Z").toUpperCase()}`, "600 40px 'Barlow Condensed', sans-serif", "#9aa1aa", y, 56);
+  if (st.question) y = wrap(st.question, "400 64px Anton, Impact, sans-serif", "#c9cdd2", y + 30, 80);
+  // shrink the big number until it fits the card
+  let size = 300;
+  do { x.font = `400 ${size}px Anton, Impact, sans-serif`; size -= 20; } while (x.measureText(st.big).width > c.width - pad * 2 && size > 100);
+  x.fillStyle = "#f1f2f4"; x.fillText(st.big, pad - 8, y + size); y += size + 60;
+  y = wrap(st.unit.toUpperCase(), "600 54px 'Barlow Condensed', sans-serif", "#c9cdd2", y, 64);
+  y = wrap(st.text, "400 42px Barlow, sans-serif", "#f1f2f4", y + 40, 58);
+  wrap(`Source: ${st.source}`, "400 28px Barlow, sans-serif", "#9aa1aa", c.height - 190, 38);
+  x.font = "400 44px Anton, Impact, sans-serif"; x.fillStyle = "#f1f2f4"; x.fillText("BLACK HOLE HIGHLIGHTS", pad, c.height - 90);
+  return new Promise(r => c.toBlob(r, "image/png"));
+}
+
+export function mountStatOfDay(el, data) {
+  const st = L.statOfDay(L.statCandidates(data));
+  el.innerHTML = statCardHTML(st);
+  el.querySelector("[data-sotd-save]")?.addEventListener("click", async () => {
+    const blob = await statCardImage(st);
+    if (!blob) return;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = `raiders-stat-${st.date}.png`;
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  });
+}
+
+// ---------- odds history and grading ----------
+// Every hourly capture for this game, oldest first, so the line's movement is visible and the closing line auditable.
+export function lineHistoryHTML(odds, n) {
+  const h = n && odds?.history?.[n.id];
+  if (!h?.length) return "";
+  const signed = v => (v == null ? "-" : Number(v) > 0 ? "+" + v : String(v));
+  return `<div class="card"><h3 class="panel-title">Line history <small class="muted">${h.length} capture${h.length === 1 ? "" : "s"}</small></h3>
+    <div class="table-wrap"><table><thead><tr><th scope="col">Captured (PT)</th><th scope="col" class="n">LV spread</th><th scope="col" class="n">LV ML</th><th scope="col" class="n">${esc(n.opp.abbr)} ML</th><th scope="col" class="n">Total</th></tr></thead><tbody>${
+    h.map((c, i) => `<tr${i === h.length - 1 ? ' class="us"' : ""}><td>${esc(L.dateTime(c.asOf))}</td><td class="n">${esc(signed(c.spread))}</td><td class="n">${esc(signed(c.ml))}</td><td class="n">${esc(signed(c.oppMl))}</td><td class="n">${esc(c.total ?? "-")}</td></tr>`).join("")}</tbody></table></div>
+    <p class="note">${esc(h[h.length - 1].book || "Sportsbook")} via ESPN. The last capture before the window closes is the closing line used for grading.</p></div>`;
+}
+
+// Against the spread and over/under, game by game. Weeks before this site captured lines come from public reports.
+export function atsLogHTML(odds, site) {
+  if (!odds) return "";
+  const games = (site?.schedule?.games || []).filter(g => odds.closing?.[g.id]);
+  const b = odds.baseline;
+  const cls = v => (v === "W" ? "is-win" : v === "L" ? "is-loss" : "");
+  const rows = games.map(g => {
+    const c = odds.closing[g.id], r = c.result;
+    return `<tr><td>Week ${esc(g.week)}</td><td>${esc(L.gameLabel(g))}</td><td class="n">${esc(Number(c.spread) > 0 ? "+" + c.spread : c.spread)}</td><td class="n">${esc(c.total ?? "-")}</td>
+      <td class="n">${c.final ? `${esc(c.final.us)}-${esc(c.final.them)}` : g.postponed ? "Postponed" : "-"}</td>
+      <td class="n ${cls(r?.ats)}">${r?.ats ? { W: "Covered", L: "Didn't cover", P: "Push" }[r.ats] : g.final ? "No line" : "Pending"}</td><td class="n">${r?.ou ? { O: "Over", U: "Under", P: "Push" }[r.ou] : g.final ? "No line" : "Pending"}</td></tr>`;
+  }).join("");
+  return `<div class="card"><h3 class="panel-title">Against the spread, game by game</h3>
+    <div class="table-wrap"><table><thead><tr><th scope="col">Week</th><th scope="col">Game</th><th scope="col" class="n">LV close</th><th scope="col" class="n">Total</th><th scope="col" class="n">Final</th><th scope="col" class="n">ATS</th><th scope="col" class="n">O/U</th></tr></thead><tbody>
+      ${b ? `<tr><td>Weeks 1-${esc(b.throughWeek)}</td><td colspan="4" class="muted">From public reports; lines weren't captured by this site</td><td class="n">${esc(L.recordText(b.ats))}</td><td class="n">${esc(b.ou[0])}-${esc(b.ou[1])}${b.ou[2] ? "-" + esc(b.ou[2]) : ""}</td></tr>` : ""}
+      ${rows || `<tr><td colspan="7" class="muted">No closing lines captured yet. The first is taken 1 hour before the next kickoff.</td></tr>`}</tbody></table></div>
+    <p class="note">Graded automatically from the captured closing line and ESPN's final score, and regraded if a score is corrected. A push counts as neither. Games without a captured line aren't graded. ${GAMBLING}</p></div>`;
 }

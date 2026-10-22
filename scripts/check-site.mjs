@@ -55,10 +55,17 @@ for (const m of html["index.html"].matchAll(/<nav class="primary"[\s\S]*?<\/nav>
 const data = async n => JSON.parse(await read(`data/${n}.json`));
 try {
   const site = await data("site");
-  if (!Array.isArray(site.schedule?.games) || !site.schedule.games.length) fail("data/site.json", "no schedule");
-  if (!site.standings?.west?.length) fail("data/site.json", "no standings");
+  const games = site.schedule?.games || [];
+  // Health: critical data present, counts plausible, timestamps valid
+  const when = (f, v) => { if (v == null || isNaN(new Date(v))) fail(f, `bad timestamp ${v}`); };
+  when("data/site.json", site.updated);
+  if (games.length < 17) fail("data/site.json", `schedule has ${games.length} games (expected 17)`);
+  for (const g of games) if (!g.id || !g.opp?.abbr || isNaN(new Date(g.date)) || (g.final && !g.score)) { fail("data/site.json", `bad game ${g.id}`); break; }
+  if ((site.standings?.west?.length ?? 0) !== 4) fail("data/site.json", "AFC West standings should have 4 teams");
+  if (site.next && !games.some(g => g.id === site.next.id)) fail("data/site.json", "next game not in schedule");
+  if (site.week && !Array.isArray(site.week.games)) fail("data/site.json", "week.games missing");
   const news = await data("news");
-  if (!news.items?.length) fail("data/news.json", "no stories");
+  if ((news.items?.length ?? 0) < 20) fail("data/news.json", `only ${news.items?.length ?? 0} stories`);
   for (const i of news.items) if (!i.title || !/^https?:\/\//.test(i.link) || isNaN(new Date(i.date)) || !i.src || !i.kind) { fail("data/news.json", `bad item ${i.id}`); break; }
   for (const n of ["odds", "stats", "games", "media", "history", "editorial"]) await data(n);
   // nflverse files appear after the update job's first nflverse pass; until then pages show their empty states
@@ -66,6 +73,12 @@ try {
   await optional("breakdown");
   const pl = (await optional("players")) || { players: [] };
   if (!Array.isArray(pl.players)) fail("data/players.json", "no players list");
+  if (pl.players?.length && pl.players.length < 20) fail("data/players.json", `only ${pl.players.length} players`);
+  if (pl.fetched) when("data/players.json", pl.fetched);
+  const stats = await data("stats");
+  if ((stats.roster?.length ?? 0) < 40) fail("data/stats.json", `roster has ${stats.roster?.length ?? 0} players`);
+  const odds = await data("odds");
+  for (const [id, c] of Object.entries(odds.closing || {})) if (c.spread == null || isNaN(Number(c.spread)) || isNaN(new Date(c.asOf))) { fail("data/odds.json", `bad closing line ${id}`); break; }
   for (const p of pl.players || []) if (!p.id || !p.name || typeof p.stats !== "object") { fail("data/players.json", `bad player ${p.id}`); break; }
   if (new Set((pl.players || []).map(p => p.id)).size !== (pl.players || []).length) fail("data/players.json", "duplicate player ids");
 } catch (e) { fail("data", e.message); }

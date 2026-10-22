@@ -32,6 +32,10 @@ jobs:
         run: node scripts/update.mjs
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
+      # Health check before anything is published: schema, record counts, timestamps (scripts/check-site.mjs).
+      # A failing check stops the commit, so the site keeps the last good data.
+      - name: Validate data
+        run: node scripts/check-site.mjs
       - name: Commit changed data
         id: commit
         run: |
@@ -49,7 +53,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages build request failed; it will rebuild on the next push"
       - name: Schedule the next run (game windows only)
-        if: steps.update.outputs.wait != ''
+        if: always() && steps.update.outputs.wait != ''
         env:
           GH_TOKEN: ${{ github.token }}
           WAIT: ${{ steps.update.outputs.wait }}

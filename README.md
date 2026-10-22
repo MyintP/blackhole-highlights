@@ -21,6 +21,10 @@ Live site: https://myintp.github.io/blackhole-highlights/ (GitHub Pages from the
 
 Old home-page anchors still work: `#news`, `#gameweek`, `#odds`, `#pick`, `#injuries`, `#matchup`, `#schedule`, `#stats`, `#milestones`, `#videos`, `#clips`.
 
+Every page also has the **game-week strip** under the header. It shows the next game with links to odds, injuries, matchup and pick, then the live score and clock, then the final with links to the box score and breakdown, plus bye, postponed and season-complete states. Next to it are this week's **AFC West scores** and the Raiders' division place. The logic is `stripState` in `assets/js/lib.js`: a game only reads "Live" when ESPN reports it live, and a live score older than 25 minutes shows its time.
+
+The home page's **Stat of the day** picks one verified stat per Pacific day from the published data: a player stat with an NFL rank, a team-leader quiz, a team trend or a historical comparison. Each carries its source and date range, and "Save as image" draws a 1080x1350 card in the browser. See `statCandidates` and `statOfDay` in `assets/js/lib.js`.
+
 ## How it fits together
 - **No build step for hosting.** GitHub Pages serves the committed files as they are. All URLs are relative, so the site works under `/blackhole-highlights/`.
 - **Pages are generated from `src/`.** `src/layout.html` holds the shared head, header, menu and footer; `src/pages/*.html` hold each page's main content, starting with a JSON comment for title, description and script. Run `node scripts/build-pages.mjs` after editing `src/`; it also writes `sitemap.xml`. Don't edit the root `*.html` files directly.
@@ -29,8 +33,8 @@ Old home-page anchors still work: `#news`, `#gameweek`, `#odds`, `#pick`, `#inju
 
 | File | Contents | Source |
 |---|---|---|
-| `site.json` | schedule, results, standings, next game, injuries, matchup, leaders, source status | ESPN |
-| `odds.json` | current line, opening line, closing lines, ATS and over/under record | ESPN (DraftKings) |
+| `site.json` | schedule, results, standings, next game (with live score and clock during games), this week's AFC West games (`week`), injuries, matchup, leaders, source status | ESPN |
+| `odds.json` | current line, every hourly capture per game (`history`), closing lines with automatic ATS/over-under grading, season record | ESPN (DraftKings) |
 | `news.json` | 180-day story archive with type, topic and duplicate grouping | Raiders.com, Review-Journal, ESPN, Silver & Black Pride, RaidersBeat (RSS) |
 | `stats.json` | team stats with ranks, player leaders, roster; `advanced` and `tendencies` | ESPN; nflverse play-by-play and FTN charting |
 | `games.json` | box score, line score, leaders and recap link per finished game (fetched once) | ESPN |
@@ -41,7 +45,7 @@ Old home-page anchors still work: `#news`, `#gameweek`, `#odds`, `#pick`, `#inju
 | `editorial.json` | **hand-written**: headline, lede, Pundit's Pick, keys, milestones | us |
 
 - **Automation:** `.github/workflows/update.yml` runs the updater every hour at :07 and commits only when data changed. GitHub runs that cron late (every 3-6 hours on this repo), so from 18 hours before kickoff the job re-runs itself: hourly through the odds window, every 10 minutes during the game, until 4.5 hours after kickoff (`nextWait` in `scripts/lib/parse.mjs`). nflverse files are fetched at most every 12 hours (`scripts/lib/nflverse.mjs`, about 15 MB in all). `.github/workflows/ci.yml` runs the tests and checks on every push and pull request.
-- **Reliability:** each feed has a timeout and retries with backoff. A failed feed keeps its last good data and is listed in `site.json` `sources`; pages then show a notice. Pages also show a notice when the update job hasn't succeeded for 2 hours around a game or 8 hours otherwise (via the public GitHub API), skeletons while loading, and a retry button if data can't load.
+- **Reliability:** each feed has a timeout and retries with backoff. A feed that answers with nothing, or far fewer records than last time, counts as failed and keeps its last good data. The update job runs `scripts/check-site.mjs` (schema, record counts, timestamps) before committing, so a bad run publishes nothing. A failed feed keeps its last good data and is listed in `site.json` `sources`; pages then show a notice. Pages also show a notice when the update job hasn't succeeded for 2 hours around a game or 8 hours otherwise (via the public GitHub API), skeletons while loading, and a retry button if data can't load.
 
 ## Odds timing
 Lines are captured every hour from **12 hours before kickoff to 1 hour before**. The last capture is the closing line, used to
