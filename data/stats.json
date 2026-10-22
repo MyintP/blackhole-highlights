@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T00:43:36.501Z",
+ "updated": "2026-10-22T21:32:22.578Z",
  "season": 2026,
  "team": [
   {
@@ -1520,5 +1520,236 @@
    "college": "Monmouth",
    "link": "https://www.espn.com/nfl/player/_/id/4249616/owen-wright"
   }
- ]
+ ],
+ "advanced": {
+  "throughWeek": 6,
+  "teams": 32,
+  "qualifiedQbs": 33,
+  "minDropbacks": 100,
+  "metrics": [
+   {
+    "key": "epa",
+    "label": "EPA per play",
+    "side": "off",
+    "higher": true,
+    "v": 0.036,
+    "rank": 13,
+    "nfl": 0.003
+   },
+   {
+    "key": "sr",
+    "label": "Success rate",
+    "side": "off",
+    "higher": true,
+    "v": 0.44,
+    "rank": 15,
+    "nfl": 0.435
+   },
+   {
+    "key": "pass",
+    "label": "EPA per dropback",
+    "side": "off",
+    "higher": true,
+    "v": 0.204,
+    "rank": 5,
+    "nfl": 0.07
+   },
+   {
+    "key": "rush",
+    "label": "EPA per rush",
+    "side": "off",
+    "higher": true,
+    "v": -0.243,
+    "rank": 29,
+    "nfl": -0.105
+   },
+   {
+    "key": "epa",
+    "label": "EPA per play allowed",
+    "side": "def",
+    "higher": false,
+    "v": 0.018,
+    "rank": 21,
+    "nfl": 0.003
+   },
+   {
+    "key": "sr",
+    "label": "Success rate allowed",
+    "side": "def",
+    "higher": false,
+    "v": 0.45,
+    "rank": 25,
+    "nfl": 0.435
+   },
+   {
+    "key": "pass",
+    "label": "EPA per dropback allowed",
+    "side": "def",
+    "higher": false,
+    "v": 0.127,
+    "rank": 25,
+    "nfl": 0.07
+   },
+   {
+    "key": "rush",
+    "label": "EPA per rush allowed",
+    "side": "def",
+    "higher": false,
+    "v": -0.154,
+    "rank": 9,
+    "nfl": -0.105
+   }
+  ],
+  "passers": [
+   {
+    "name": "K.Cousins",
+    "dropbacks": 221,
+    "epa": 0.207,
+    "epaRank": 8,
+    "cpoe": -0.7,
+    "cpoeRank": 21
+   }
+  ],
+  "fetched": "2026-10-22T21:32:22.578Z"
+ },
+ "tendencies": {
+  "charted": 1,
+  "rows": [
+   {
+    "key": "passRate",
+    "label": "Pass rate",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.625,
+    "rank": 15,
+    "nfl": 0.621
+   },
+   {
+    "key": "earlyPass",
+    "label": "Early-down pass rate",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.564,
+    "rank": 15,
+    "nfl": 0.565
+   },
+   {
+    "key": "shotgun",
+    "label": "Shotgun or pistol",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.583,
+    "rank": 21,
+    "nfl": 0.621
+   },
+   {
+    "key": "motion",
+    "label": "Motion at the snap",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.618,
+    "rank": 10,
+    "nfl": 0.586
+   },
+   {
+    "key": "playAction",
+    "label": "Play action (of dropbacks)",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.227,
+    "rank": 15,
+    "nfl": 0.23
+   },
+   {
+    "key": "screen",
+    "label": "Screens (of passes)",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.072,
+    "rank": 19,
+    "nfl": 0.081
+   },
+   {
+    "key": "rpo",
+    "label": "RPOs",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.03,
+    "rank": 24,
+    "nfl": 0.046
+   },
+   {
+    "key": "noHuddle",
+    "label": "No huddle",
+    "side": "off",
+    "fmt": "pct",
+    "v": 0.068,
+    "rank": 12,
+    "nfl": 0.064
+   },
+   {
+    "key": "adot",
+    "label": "Average depth of target (yds)",
+    "side": "off",
+    "fmt": "num",
+    "v": 8.298,
+    "rank": 10,
+    "nfl": 7.857
+   },
+   {
+    "key": "blitz",
+    "label": "Blitz rate (of dropbacks)",
+    "side": "def",
+    "fmt": "pct",
+    "v": 0.267,
+    "rank": 23,
+    "nfl": 0.317
+   },
+   {
+    "key": "rushers",
+    "label": "Pass rushers per dropback",
+    "side": "def",
+    "fmt": "num",
+    "v": 4.285,
+    "rank": 27,
+    "nfl": 4.395
+   },
+   {
+    "key": "box8",
+    "label": "8+ in the box (of runs)",
+    "side": "def",
+    "fmt": "pct",
+    "v": 0.053,
+    "rank": 21,
+    "nfl": 0.084
+   },
+   {
+    "key": "box",
+    "label": "Defenders in the box",
+    "side": "def",
+    "fmt": "num",
+    "v": 6.227,
+    "rank": 29,
+    "nfl": 6.391
+   },
+   {
+    "key": "sackRate",
+    "label": "Sack rate",
+    "side": "def",
+    "fmt": "pct",
+    "v": 0.068,
+    "rank": 13,
+    "nfl": 0.061
+   },
+   {
+    "key": "hitRate",
+    "label": "QB hit rate",
+    "side": "def",
+    "fmt": "pct",
+    "v": 0.195,
+    "rank": 4,
+    "nfl": 0.154
+   }
+  ]
+ }
 }

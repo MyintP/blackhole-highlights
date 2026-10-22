@@ -1,0 +1,2305 @@
+{
+ "fetched": "2026-10-22T21:32:22.578Z",
+ "throughWeek": 6,
+ "games": {
+  "401872928": {
+   "week": 1,
+   "home": true,
+   "offense": {
+    "plays": 65,
+    "epa": -0.029,
+    "sr": 0.431,
+    "explosive": 5,
+    "third": [
+     6,
+     12
+    ]
+   },
+   "defense": {
+    "plays": 55,
+    "epa": -0.242,
+    "sr": 0.345,
+    "explosive": 6,
+    "third": [
+     2,
+     10
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "01:38",
+     "team": "LV",
+     "desc": "(1:38) (Shotgun) 8-K.Cousins pass short middle to 18-J.Bech for 15 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 0
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "10:26",
+     "team": "LV",
+     "desc": "(10:26) 14-M.Gay 47 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 0
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "04:12",
+     "team": "MIA",
+     "desc": "(4:12) 47-R.Patterson 41 yard field goal is GOOD, Center-46-T.Addington, Holder-48-B.Pinion. ** Injury Update: MIA-46-T.Addington has returned to the game.",
+     "score": {
+      "us": 10,
+      "them": 3
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "01:12",
+     "team": "LV",
+     "desc": "(1:12) (Shotgun) 8-K.Cousins pass short middle to 2-A.Jeanty for 13 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 3
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "00:05",
+     "team": "MIA",
+     "desc": "(:05) 47-R.Patterson 37 yard field goal is GOOD, Center-46-T.Addington, Holder-48-B.Pinion.",
+     "score": {
+      "us": 17,
+      "them": 6
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "12:52",
+     "team": "MIA",
+     "desc": "(12:52) (Shotgun) 2-M.Willis scrambles right end for 14 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 13
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "10:06",
+     "team": "LV",
+     "desc": "(10:06) 8-K.Cousins pass short left to 2-A.Jeanty for 13 yards, TOUCHDOWN.",
+     "score": {
+      "us": 24,
+      "them": 13
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "02:38",
+     "team": "LV",
+     "desc": "(2:38) 14-M.Gay 30 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 27,
+      "them": 13
+     }
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 3,
+     "time": "12:52",
+     "wpa": -0.074,
+     "desc": "(12:52) (Shotgun) 2-M.Willis scrambles right end for 14 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 3,
+     "time": "14:34",
+     "wpa": -0.069,
+     "desc": "(14:34) (No Huddle, Shotgun) 8-K.Cousins pass deep left intended for 18-J.Bech INTERCEPTED by 16-M.Taaffe at MIA 46. 16-M.Taaffe to MIA 48 for 2 yards (18-J.Bech)."
+    },
+    {
+     "qtr": 2,
+     "time": "05:35",
+     "wpa": -0.066,
+     "desc": "(5:35) (Shotgun) 2-M.Willis pass deep right to 7-C.Douglas pushed ob at LV 22 for 25 yards (31-T.Stukes)."
+    },
+    {
+     "qtr": 1,
+     "time": "01:38",
+     "wpa": 0.065,
+     "desc": "(1:38) (Shotgun) 8-K.Cousins pass short middle to 18-J.Bech for 15 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "12:14",
+     "wpa": -0.062,
+     "desc": "(12:14) (Shotgun) 2-M.Willis pass short left to 28-D.Achane to LV 45 for 14 yards (31-T.Stukes)."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "MIA",
+     "qtr": 1,
+     "start": "MIA 25",
+     "plays": 8,
+     "top": "4:29",
+     "result": "Punt"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 7",
+     "plays": 16,
+     "top": "8:58",
+     "result": "Touchdown"
+    },
+    {
+     "n": 3,
+     "team": "MIA",
+     "qtr": 1,
+     "start": "MIA 24",
+     "plays": 3,
+     "top": "2:25",
+     "result": "Punt"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 33",
+     "plays": 9,
+     "top": "3:46",
+     "result": "Field goal"
+    },
+    {
+     "n": 5,
+     "team": "MIA",
+     "qtr": 2,
+     "start": "MIA 35",
+     "plays": 10,
+     "top": "6:14",
+     "result": "Field goal"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 46",
+     "plays": 7,
+     "top": "3:01",
+     "result": "Touchdown"
+    },
+    {
+     "n": 7,
+     "team": "MIA",
+     "qtr": 2,
+     "start": "MIA 30",
+     "plays": 6,
+     "top": "1:07",
+     "result": "Field goal"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 35",
+     "plays": 2,
+     "top": "0:31",
+     "result": "Turnover"
+    },
+    {
+     "n": 9,
+     "team": "MIA",
+     "qtr": 3,
+     "start": "MIA 48",
+     "plays": 4,
+     "top": "1:45",
+     "result": "Touchdown"
+    },
+    {
+     "n": 10,
+     "team": "LV",
+     "qtr": 3,
+     "start": "50",
+     "plays": 5,
+     "top": "2:46",
+     "result": "Touchdown"
+    },
+    {
+     "n": 11,
+     "team": "MIA",
+     "qtr": 3,
+     "start": "MIA 23",
+     "plays": 2,
+     "top": "0:17",
+     "result": "Turnover"
+    },
+    {
+     "n": 12,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 34",
+     "plays": 13,
+     "top": "7:07",
+     "result": "Field goal"
+    },
+    {
+     "n": 13,
+     "team": "MIA",
+     "qtr": 3,
+     "start": "LV 18",
+     "plays": 4,
+     "top": "2:27",
+     "result": "Missed field goal"
+    },
+    {
+     "n": 14,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 31",
+     "plays": 3,
+     "top": "1:00",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "MIA",
+     "qtr": 4,
+     "start": "MIA 20",
+     "plays": 3,
+     "top": "1:46",
+     "result": "Punt"
+    },
+    {
+     "n": 16,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 45",
+     "plays": 2,
+     "top": "0:59",
+     "result": "Turnover"
+    },
+    {
+     "n": 17,
+     "team": "MIA",
+     "qtr": 4,
+     "start": "LV 44",
+     "plays": 3,
+     "top": "0:59",
+     "result": "Punt"
+    },
+    {
+     "n": 18,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 12",
+     "plays": 6,
+     "top": "4:25",
+     "result": "Punt"
+    },
+    {
+     "n": 19,
+     "team": "MIA",
+     "qtr": 4,
+     "start": "MIA 23",
+     "plays": 6,
+     "top": "2:00",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 20,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 47",
+     "plays": 3,
+     "top": "0:29",
+     "result": "Punt"
+    },
+    {
+     "n": 21,
+     "team": "MIA",
+     "qtr": 4,
+     "start": "MIA 3",
+     "plays": 4,
+     "top": "1:38",
+     "result": "Turnover"
+    },
+    {
+     "n": 22,
+     "team": "LV",
+     "qtr": 4,
+     "start": "MIA 34",
+     "plays": 3,
+     "top": "1:51",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 47,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 30,
+     "result": "made"
+    }
+   ]
+  },
+  "401872941": {
+   "week": 2,
+   "home": false,
+   "offense": {
+    "plays": 60,
+    "epa": -0.098,
+    "sr": 0.35,
+    "explosive": 4,
+    "third": [
+     5,
+     14
+    ]
+   },
+   "defense": {
+    "plays": 67,
+    "epa": -0.301,
+    "sr": 0.343,
+    "explosive": 4,
+    "third": [
+     6,
+     15
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 2,
+     "time": "11:57",
+     "team": "LV",
+     "desc": "(11:57) (No Huddle, Shotgun) 8-K.Cousins pass deep left to 1-T.Tucker for 40 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 0
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "05:30",
+     "team": "LAC",
+     "desc": "(5:30) (Shotgun) 8-O.Hampton left guard for 1 yard, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 7
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "00:08",
+     "team": "LV",
+     "desc": "(:08) 14-M.Gay 59 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 7
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "09:53",
+     "team": "LAC",
+     "desc": "(9:53) (Shotgun) 10-J.Herbert pass short right to 86-O.Gadsden for 10 yards, TOUCHDOWN.",
+     "score": {
+      "us": 10,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "03:59",
+     "team": "LV",
+     "desc": "(3:59) (Shotgun) 8-K.Cousins pass short right to 82-C.White for 13 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "03:03",
+     "team": "LV",
+     "desc": "(3:03) (Shotgun) 8-K.Cousins pass short left to 82-C.White for 11 yards, TOUCHDOWN.",
+     "score": {
+      "us": 24,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "01:46",
+     "team": "LV",
+     "desc": "(1:46) (Shotgun) 10-J.Herbert pass incomplete deep left to 12-D.Davis. PENALTY on LAC-76-J.Alt, Offensive Holding, 6 yards, enforced in End Zone, SAFETY - No Play.",
+     "score": {
+      "us": 26,
+      "them": 14
+     }
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 4,
+     "time": "03:52",
+     "wpa": 0.354,
+     "desc": "(3:52) (Shotgun) 8-O.Hampton up the middle to LV 46 for 2 yards (17-N.Dean). FUMBLES (17-N.Dean), RECOVERED by LV-11-J.Chinn at LV 41. 11-J.Chinn to LAC 16 for 43 yards (10-J.Herbert)."
+    },
+    {
+     "qtr": 3,
+     "time": "11:14",
+     "wpa": -0.181,
+     "desc": "(11:14) (Shotgun) 10-J.Herbert pass deep left to 9-T.Harris pushed ob at LV 5 for 53 yards (11-J.Chinn)."
+    },
+    {
+     "qtr": 4,
+     "time": "03:52",
+     "wpa": -0.178,
+     "desc": "(3:52) (Run formation) PENALTY on LV, Defensive Too Many Men on Field, 6 yards, enforced at LAC 46 - No Play."
+    },
+    {
+     "qtr": 1,
+     "time": "03:26",
+     "wpa": 0.135,
+     "desc": "(3:26) (Shotgun) 10-J.Herbert pass deep left intended for 83-D.Njoku INTERCEPTED by 35-H.Masses at LV 48. 35-H.Masses to LAC 23 for 29 yards (28-K.Vidal)."
+    },
+    {
+     "qtr": 1,
+     "time": "09:05",
+     "wpa": -0.127,
+     "desc": "(9:05) 8-K.Cousins pass deep left intended for 1-T.Tucker INTERCEPTED by 20-C.Hart at LAC 15. 20-C.Hart to LAC 17 for 2 yards (2-A.Jeanty)."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "LAC",
+     "qtr": 1,
+     "start": "LAC 32",
+     "plays": 8,
+     "top": "3:21",
+     "result": "Missed field goal"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 48",
+     "plays": 5,
+     "top": "2:42",
+     "result": "Turnover"
+    },
+    {
+     "n": 3,
+     "team": "LAC",
+     "qtr": 1,
+     "start": "LAC 17",
+     "plays": 6,
+     "top": "3:28",
+     "result": "Punt"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 21",
+     "plays": 3,
+     "top": "1:25",
+     "result": "Punt"
+    },
+    {
+     "n": 5,
+     "team": "LAC",
+     "qtr": 1,
+     "start": "LAC 17",
+     "plays": 3,
+     "top": "0:50",
+     "result": "Turnover"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LAC 23",
+     "plays": 5,
+     "top": "2:39",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 7,
+     "team": "LAC",
+     "qtr": 1,
+     "start": "LAC 1",
+     "plays": 3,
+     "top": "2:22",
+     "result": "Punt"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 49",
+     "plays": 3,
+     "top": "1:22",
+     "result": "Touchdown"
+    },
+    {
+     "n": 9,
+     "team": "LAC",
+     "qtr": 2,
+     "start": "LAC 31",
+     "plays": 10,
+     "top": "6:25",
+     "result": "Touchdown"
+    },
+    {
+     "n": 10,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 35",
+     "plays": 5,
+     "top": "3:33",
+     "result": "Punt"
+    },
+    {
+     "n": 11,
+     "team": "LAC",
+     "qtr": 2,
+     "start": "LAC 10",
+     "plays": 6,
+     "top": "1:18",
+     "result": "Punt"
+    },
+    {
+     "n": 12,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 16",
+     "plays": 6,
+     "top": "0:31",
+     "result": "Field goal"
+    },
+    {
+     "n": 13,
+     "team": "LAC",
+     "qtr": 2,
+     "start": "LAC 35",
+     "plays": 1,
+     "top": "0:04",
+     "result": "End of half"
+    },
+    {
+     "n": 14,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 17",
+     "plays": 3,
+     "top": "1:04",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "LAC",
+     "qtr": 3,
+     "start": "LAC 26",
+     "plays": 7,
+     "top": "4:07",
+     "result": "Touchdown"
+    },
+    {
+     "n": 16,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 26",
+     "plays": 11,
+     "top": "5:56",
+     "result": "Touchdown"
+    },
+    {
+     "n": 17,
+     "team": "LAC",
+     "qtr": 3,
+     "start": "LAC 23",
+     "plays": 3,
+     "top": "2:24",
+     "result": "Punt"
+    },
+    {
+     "n": 18,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 31",
+     "plays": 8,
+     "top": "4:03",
+     "result": "Punt"
+    },
+    {
+     "n": 19,
+     "team": "LAC",
+     "qtr": 4,
+     "start": "LAC 10",
+     "plays": 6,
+     "top": "4:07",
+     "result": "Punt"
+    },
+    {
+     "n": 20,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 17",
+     "plays": 3,
+     "top": "1:32",
+     "result": "Punt"
+    },
+    {
+     "n": 21,
+     "team": "LAC",
+     "qtr": 4,
+     "start": "LAC 24",
+     "plays": 6,
+     "top": "3:05",
+     "result": "Turnover"
+    },
+    {
+     "n": 22,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LAC 16",
+     "plays": 3,
+     "top": "0:43",
+     "result": "Touchdown"
+    },
+    {
+     "n": 23,
+     "team": "LAC",
+     "qtr": 4,
+     "start": "LAC 35",
+     "plays": 3,
+     "top": "0:35",
+     "result": "Turnover"
+    },
+    {
+     "n": 24,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LAC 48",
+     "plays": 3,
+     "top": "0:32",
+     "result": "Punt"
+    },
+    {
+     "n": 25,
+     "team": "LAC",
+     "qtr": 4,
+     "start": "LAC 6",
+     "plays": 1,
+     "top": "0:11",
+     "result": "Safety"
+    },
+    {
+     "n": 26,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LAC 42",
+     "plays": 3,
+     "top": "1:41",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 59,
+     "result": "made"
+    }
+   ]
+  },
+  "401872961": {
+   "week": 3,
+   "home": false,
+   "offense": {
+    "plays": 68,
+    "epa": 0.146,
+    "sr": 0.456,
+    "explosive": 4,
+    "third": [
+     9,
+     15
+    ]
+   },
+   "defense": {
+    "plays": 74,
+    "epa": -0.071,
+    "sr": 0.541,
+    "explosive": 4,
+    "third": [
+     9,
+     15
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "07:39",
+     "team": "LV",
+     "desc": "(7:39) 14-M.Gay 41 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 3,
+      "them": 0
+     }
+    },
+    {
+     "qtr": 1,
+     "time": "00:54",
+     "team": "NO",
+     "desc": "(:54) (Shotgun) 6-T.Shough pass short left to 83-J.Johnson for 2 yards, TOUCHDOWN.",
+     "score": {
+      "us": 3,
+      "them": 6
+     },
+     "pat": "XP missed"
+    },
+    {
+     "qtr": 2,
+     "time": "11:30",
+     "team": "LV",
+     "desc": "(11:30) 14-M.Gay 37 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 6,
+      "them": 6
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "05:49",
+     "team": "LV",
+     "desc": "(5:49) 66-T.Zuhn reported in as eligible. 8-K.Cousins pass short right to 87-M.Mayer for 3 yards, TOUCHDOWN.",
+     "score": {
+      "us": 13,
+      "them": 6
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "01:57",
+     "team": "NO",
+     "desc": "(1:57) (Shotgun) 6-T.Shough pass short left to 87-N.Fant for 3 yards, TOUCHDOWN.",
+     "score": {
+      "us": 13,
+      "them": 13
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "00:04",
+     "team": "LV",
+     "desc": "(:04) 14-M.Gay 25 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 16,
+      "them": 13
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "06:44",
+     "team": "NO",
+     "desc": "(6:44) 6-T.Shough pass short left to 83-J.Johnson for 1 yard, TOUCHDOWN [98-M.Crosby].",
+     "score": {
+      "us": 16,
+      "them": 20
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "05:54",
+     "team": "NO",
+     "desc": "(5:54) 6-T.Shough pass short right to 87-N.Fant for 16 yards, TOUCHDOWN.",
+     "score": {
+      "us": 16,
+      "them": 27
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "03:29",
+     "team": "LV",
+     "desc": "(3:29) 4-M.Washington right guard pushed ob at NO 1 for 35 yards (21-J.Reid). Las Vegas challenged the short of the goal line ruling, and the play was REVERSED. 4-M.Washington right guard for 36 yards, TOUCHDOWN.",
+     "score": {
+      "us": 22,
+      "them": 27
+     },
+     "pat": "2-pt failed"
+    },
+    {
+     "qtr": 4,
+     "time": "09:27",
+     "team": "LV",
+     "desc": "(9:27) 8-K.Cousins pass short left to 82-C.White for 4 yards, TOUCHDOWN.",
+     "score": {
+      "us": 28,
+      "them": 27
+     },
+     "pat": "2-pt failed"
+    },
+    {
+     "qtr": 4,
+     "time": "06:28",
+     "team": "LV",
+     "desc": "(6:28) (Shotgun) 8-K.Cousins pass short left to 89-B.Bowers for 4 yards, TOUCHDOWN.",
+     "score": {
+      "us": 35,
+      "them": 27
+     },
+     "pat": "XP good"
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 4,
+     "time": "08:03",
+     "wpa": 0.292,
+     "desc": "(8:03) (Shotgun) 6-T.Shough pass short left intended for 18-B.Lance INTERCEPTED by 35-H.Masses [51-M.Koonce] at NO 43. 35-H.Masses to NO 8 for 35 yards (83-J.Johnson). FUMBLES (83-J.Johnson), touched at NO 7, recovered by LV-69-A.Butler at…"
+    },
+    {
+     "qtr": 4,
+     "time": "13:04",
+     "wpa": 0.145,
+     "desc": "(13:04) (Shotgun) 6-T.Shough sacked at LV 39 for -10 yards (51-M.Koonce). FUMBLES (51-M.Koonce) [51-M.Koonce], touched at LV 39, RECOVERED by LV-98-M.Crosby at LV 45."
+    },
+    {
+     "qtr": 3,
+     "time": "06:40",
+     "wpa": -0.122,
+     "desc": "10-D.Carlson kicks 63 yards from NO 35 to LV 2. 23-D.Laube to LV 30 for 28 yards (33-A.Jennings). FUMBLES (33-A.Jennings), RECOVERED by NO-31-J.Howden at LV 32."
+    },
+    {
+     "qtr": 3,
+     "time": "03:29",
+     "wpa": 0.094,
+     "desc": "(3:29) 4-M.Washington right guard pushed ob at NO 1 for 35 yards (21-J.Reid). Las Vegas challenged the short of the goal line ruling, and the play was REVERSED. 4-M.Washington right guard for 36 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "02:45",
+     "wpa": -0.085,
+     "desc": "(2:45) (Shotgun) 6-T.Shough pass short left to 12-C.Olave to LV 6 for 12 yards (35-H.Masses) [51-M.Koonce]."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "NO",
+     "qtr": 1,
+     "start": "NO 27",
+     "plays": 3,
+     "top": "0:53",
+     "result": "Punt"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 24",
+     "plays": 12,
+     "top": "6:32",
+     "result": "Field goal"
+    },
+    {
+     "n": 3,
+     "team": "NO",
+     "qtr": 1,
+     "start": "NO 21",
+     "plays": 13,
+     "top": "6:45",
+     "result": "Touchdown"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 40",
+     "plays": 9,
+     "top": "4:23",
+     "result": "Field goal"
+    },
+    {
+     "n": 5,
+     "team": "NO",
+     "qtr": 2,
+     "start": "NO 22",
+     "plays": 3,
+     "top": "1:56",
+     "result": "Punt"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 47",
+     "plays": 8,
+     "top": "3:45",
+     "result": "Touchdown"
+    },
+    {
+     "n": 7,
+     "team": "NO",
+     "qtr": 2,
+     "start": "NO 28",
+     "plays": 10,
+     "top": "3:52",
+     "result": "Touchdown"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 35",
+     "plays": 11,
+     "top": "1:54",
+     "result": "Field goal"
+    },
+    {
+     "n": 9,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 37",
+     "plays": 3,
+     "top": "1:30",
+     "result": "Punt"
+    },
+    {
+     "n": 10,
+     "team": "NO",
+     "qtr": 3,
+     "start": "NO 13",
+     "plays": 12,
+     "top": "6:50",
+     "result": "Touchdown"
+    },
+    {
+     "n": 11,
+     "team": "LV",
+     "qtr": 3,
+     "start": null,
+     "plays": 0,
+     "top": "0:07",
+     "result": "Touchdown"
+    },
+    {
+     "n": 12,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 29",
+     "plays": 5,
+     "top": "2:26",
+     "result": "Touchdown"
+    },
+    {
+     "n": 13,
+     "team": "NO",
+     "qtr": 3,
+     "start": "NO 40",
+     "plays": 5,
+     "top": "1:19",
+     "result": "Punt"
+    },
+    {
+     "n": 14,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 10",
+     "plays": 3,
+     "top": "0:25",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "NO",
+     "qtr": 3,
+     "start": "NO 39",
+     "plays": 9,
+     "top": "3:41",
+     "result": "Turnover"
+    },
+    {
+     "n": 16,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 45",
+     "plays": 6,
+     "top": "3:34",
+     "result": "Touchdown"
+    },
+    {
+     "n": 17,
+     "team": "NO",
+     "qtr": 4,
+     "start": "NO 27",
+     "plays": 3,
+     "top": "1:33",
+     "result": "Turnover"
+    },
+    {
+     "n": 18,
+     "team": "LV",
+     "qtr": 4,
+     "start": "NO 4",
+     "plays": 3,
+     "top": "1:26",
+     "result": "Touchdown"
+    },
+    {
+     "n": 19,
+     "team": "NO",
+     "qtr": 4,
+     "start": "NO 24",
+     "plays": 9,
+     "top": "4:07",
+     "result": "Turnover"
+    },
+    {
+     "n": 20,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 32",
+     "plays": 4,
+     "top": "0:37",
+     "result": "Punt"
+    },
+    {
+     "n": 21,
+     "team": "NO",
+     "qtr": 4,
+     "start": "NO 20",
+     "plays": 3,
+     "top": "0:45",
+     "result": "Turnover"
+    },
+    {
+     "n": 22,
+     "team": "LV",
+     "qtr": 4,
+     "start": "NO 35",
+     "plays": 2,
+     "top": "0:53",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 41,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 37,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 25,
+     "result": "made"
+    }
+   ]
+  },
+  "401872976": {
+   "week": 4,
+   "home": true,
+   "offense": {
+    "plays": 81,
+    "epa": 0.075,
+    "sr": 0.506,
+    "explosive": 8,
+    "third": [
+     7,
+     16
+    ]
+   },
+   "defense": {
+    "plays": 60,
+    "epa": 0.127,
+    "sr": 0.433,
+    "explosive": 8,
+    "third": [
+     5,
+     13
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "08:18",
+     "team": "LV",
+     "desc": "(8:18) 8-K.Cousins pass deep left to 80-I.Thomas for 27 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 0
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 1,
+     "time": "02:26",
+     "team": "KC",
+     "desc": "(2:26) (Shotgun) 15-P.Mahomes pass short right to 2-T.Thornton for 2 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 7
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "03:23",
+     "team": "LV",
+     "desc": "(3:23) 14-M.Gay 32 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 7
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "01:26",
+     "team": "KC",
+     "desc": "(1:26) 7-H.Butker 28 yard field goal is GOOD, Center-41-J.Winchester, Holder-14-M.Araiza.",
+     "score": {
+      "us": 10,
+      "them": 10
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "00:03",
+     "team": "LV",
+     "desc": "(:03) 14-M.Gay 48 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 13,
+      "them": 10
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "14:54",
+     "team": "KC",
+     "desc": "(14:54) (Shotgun) 15-P.Mahomes pass short left to 2-T.Thornton for 8 yards, TOUCHDOWN.",
+     "score": {
+      "us": 13,
+      "them": 17
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "11:17",
+     "team": "LV",
+     "desc": "(11:17) 14-M.Gay 44 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 16,
+      "them": 17
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "04:58",
+     "team": "LV",
+     "desc": "(4:58) 14-M.Gay 48 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 19,
+      "them": 17
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "03:25",
+     "team": "KC",
+     "desc": "(3:25) 9-K.Walker up the middle for 2 yards, TOUCHDOWN.",
+     "score": {
+      "us": 19,
+      "them": 23
+     },
+     "pat": "2-pt failed"
+    },
+    {
+     "qtr": 4,
+     "time": "03:10",
+     "team": "KC",
+     "desc": "(3:10) 9-K.Walker right end for 22 yards, TOUCHDOWN.",
+     "score": {
+      "us": 19,
+      "them": 30
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "01:54",
+     "team": "LV",
+     "desc": "(1:54) (Shotgun) 8-K.Cousins pass deep right to 89-B.Bowers for 20 yards, TOUCHDOWN.",
+     "score": {
+      "us": 27,
+      "them": 30
+     },
+     "pat": "2-pt good"
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 4,
+     "time": "03:35",
+     "wpa": -0.349,
+     "desc": "(3:35) (Shotgun) 15-P.Mahomes pass deep left to 2-T.Thornton to LV 5 for 55 yards (31-T.Stukes). KC-2-T.Thornton was injured during the play. PENALTY on LV-7-Q.Walker, Unnecessary Roughness, 3 yards, enforced at LV 5."
+    },
+    {
+     "qtr": 3,
+     "time": "00:30",
+     "wpa": -0.222,
+     "desc": "(:30) 9-K.Walker right guard pushed ob at LV 8 for 76 yards (3-T.Johnson)."
+    },
+    {
+     "qtr": 4,
+     "time": "13:25",
+     "wpa": 0.206,
+     "desc": "(13:25) (Shotgun) 8-K.Cousins pass short right to 89-B.Bowers to KC 25 for 21 yards (5-M.Delane)."
+    },
+    {
+     "qtr": 4,
+     "time": "03:21",
+     "wpa": -0.152,
+     "desc": "7-H.Butker kicks 59 yards from KC 35 to LV 6. 81-D.Young to LV 22 for 16 yards (29-X.Nwankpa, 31-J.Bassa). FUMBLES (31-J.Bassa), RECOVERED by KC-43-J.Cochrane at LV 22."
+    },
+    {
+     "qtr": 4,
+     "time": "00:10",
+     "wpa": -0.121,
+     "desc": "(:10) (Shotgun) 8-K.Cousins pass short left intended for 87-M.Mayer INTERCEPTED by 29-X.Nwankpa (56-G.Karlaftis) [56-G.Karlaftis] at KC 36. 29-X.Nwankpa to KC 39 for 3 yards (82-C.White). Penalty on LV-2-A.Jeanty, Illegal Shift, declined."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "KC",
+     "qtr": 1,
+     "start": "KC 29",
+     "plays": 8,
+     "top": "4:34",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "50",
+     "plays": 4,
+     "top": "2:16",
+     "result": "Touchdown"
+    },
+    {
+     "n": 3,
+     "team": "KC",
+     "qtr": 1,
+     "start": "KC 31",
+     "plays": 10,
+     "top": "5:47",
+     "result": "Touchdown"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 31",
+     "plays": 4,
+     "top": "2:23",
+     "result": "Punt"
+    },
+    {
+     "n": 5,
+     "team": "KC",
+     "qtr": null,
+     "start": null,
+     "plays": null,
+     "top": null,
+     "result": "Punt"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 12",
+     "plays": 15,
+     "top": "8:00",
+     "result": "Field goal"
+    },
+    {
+     "n": 7,
+     "team": "KC",
+     "qtr": 2,
+     "start": "KC 20",
+     "plays": 10,
+     "top": "1:57",
+     "result": "Field goal"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 29",
+     "plays": 8,
+     "top": "1:22",
+     "result": "Field goal"
+    },
+    {
+     "n": 9,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 33",
+     "plays": 7,
+     "top": "3:28",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 10,
+     "team": "KC",
+     "qtr": 3,
+     "start": "KC 19",
+     "plays": 6,
+     "top": "2:54",
+     "result": "Punt"
+    },
+    {
+     "n": 11,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 12",
+     "plays": 7,
+     "top": "4:05",
+     "result": "Punt"
+    },
+    {
+     "n": 12,
+     "team": "KC",
+     "qtr": 3,
+     "start": "KC 42",
+     "plays": 3,
+     "top": "0:58",
+     "result": "Punt"
+    },
+    {
+     "n": 13,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 15",
+     "plays": 6,
+     "top": "3:05",
+     "result": "Punt"
+    },
+    {
+     "n": 14,
+     "team": "KC",
+     "qtr": 3,
+     "start": "KC 16",
+     "plays": 3,
+     "top": "0:40",
+     "result": "Touchdown"
+    },
+    {
+     "n": 15,
+     "team": "LV",
+     "qtr": 4,
+     "start": "KC 45",
+     "plays": 7,
+     "top": "3:38",
+     "result": "Field goal"
+    },
+    {
+     "n": 16,
+     "team": "KC",
+     "qtr": 4,
+     "start": "KC 30",
+     "plays": 3,
+     "top": "1:36",
+     "result": "Punt"
+    },
+    {
+     "n": 17,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 10",
+     "plays": 8,
+     "top": "4:43",
+     "result": "Field goal"
+    },
+    {
+     "n": 18,
+     "team": "KC",
+     "qtr": 4,
+     "start": "KC 35",
+     "plays": 4,
+     "top": "1:32",
+     "result": "Touchdown"
+    },
+    {
+     "n": 19,
+     "team": "LV",
+     "qtr": 4,
+     "start": null,
+     "plays": 0,
+     "top": "0:11",
+     "result": "Touchdown"
+    },
+    {
+     "n": 20,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 35",
+     "plays": 5,
+     "top": "1:16",
+     "result": "Touchdown"
+    },
+    {
+     "n": 21,
+     "team": "KC",
+     "qtr": 4,
+     "start": "KC 45",
+     "plays": 3,
+     "top": "0:30",
+     "result": "Punt"
+    },
+    {
+     "n": 22,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 1",
+     "plays": 11,
+     "top": "1:15",
+     "result": "Turnover"
+    },
+    {
+     "n": 23,
+     "team": "KC",
+     "qtr": 4,
+     "start": "KC 39",
+     "plays": 1,
+     "top": "0:01",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 32,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 48,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 44,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 48,
+     "result": "made"
+    }
+   ]
+  },
+  "401872986": {
+   "week": 5,
+   "home": false,
+   "offense": {
+    "plays": 60,
+    "epa": -0.034,
+    "sr": 0.417,
+    "explosive": 4,
+    "third": [
+     5,
+     14
+    ]
+   },
+   "defense": {
+    "plays": 72,
+    "epa": 0.366,
+    "sr": 0.528,
+    "explosive": 11,
+    "third": [
+     7,
+     14
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "11:30",
+     "team": "NE",
+     "desc": "(11:30) (Shotgun) 10-D.Maye pass deep right to 3-D.Douglas for 35 yards, TOUCHDOWN.",
+     "score": {
+      "us": 0,
+      "them": 7
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 1,
+     "time": "08:24",
+     "team": "LV",
+     "desc": "(8:24) (Shotgun) 8-K.Cousins pass short right to 89-B.Bowers for 13 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 7
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 1,
+     "time": "01:37",
+     "team": "NE",
+     "desc": "(1:37) 38-R.Stevenson left guard for 5 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "00:28",
+     "team": "NE",
+     "desc": "(:28) (Shotgun) 10-D.Maye pass short middle to 85-H.Henry for 11 yards, TOUCHDOWN [98-M.Crosby]. Penalty on LV-17-N.Dean, Defensive Holding, declined.",
+     "score": {
+      "us": 7,
+      "them": 21
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "13:04",
+     "team": "NE",
+     "desc": "(13:04) (Shotgun) 10-D.Maye pass deep left to 18-K.Williams for 34 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 28
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "08:34",
+     "team": "LV",
+     "desc": "(8:34) 14-M.Gay 46 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 28
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "03:14",
+     "team": "NE",
+     "desc": "(3:14) (Shotgun) 10-D.Maye left end for 3 yards, TOUCHDOWN.",
+     "score": {
+      "us": 10,
+      "them": 35
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "14:15",
+     "team": "NE",
+     "desc": "(14:15) 8-A.Borregales 28 yard field goal is GOOD, Center-47-J.Ashby, Holder-19-M.Wishnowsky.",
+     "score": {
+      "us": 10,
+      "them": 38
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "10:54",
+     "team": "LV",
+     "desc": "(10:54) (Shotgun) 23-D.Laube right tackle for 2 yards, TOUCHDOWN. NE-94-C.Durden was injured during the play. Penalty on NE-99-Da.Jones, Defensive Holding, declined.",
+     "score": {
+      "us": 17,
+      "them": 38
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "06:11",
+     "team": "NE",
+     "desc": "(6:11) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas for 8 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 45
+     },
+     "pat": "XP good"
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 2,
+     "time": "04:33",
+     "wpa": 0.108,
+     "desc": "(4:33) (Shotgun) 9-C.Kiner up the middle to NE 37 for 2 yards (69-A.Butler). FUMBLES (69-A.Butler), touched at NE 39, RECOVERED by LV-26-D.Porter at NE 38. Penalty on NE, Illegal Shift, declined."
+    },
+    {
+     "qtr": 1,
+     "time": "02:34",
+     "wpa": -0.07,
+     "desc": "(2:34) (Shotgun) 10-D.Maye pass short middle to 85-H.Henry to LV 1 for 7 yards (31-T.Stukes)."
+    },
+    {
+     "qtr": 1,
+     "time": "11:30",
+     "wpa": -0.066,
+     "desc": "(11:30) (Shotgun) 10-D.Maye pass deep right to 3-D.Douglas for 35 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "04:00",
+     "wpa": -0.065,
+     "desc": "(4:00) (Shotgun) 10-D.Maye pass incomplete deep right to 87-R.Doubs. PENALTY on LV-5-E.Stokes, Defensive Pass Interference, 27 yards, enforced at LV 42 - No Play."
+    },
+    {
+     "qtr": 1,
+     "time": "04:35",
+     "wpa": -0.064,
+     "desc": "(4:35) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas pushed ob at LV 42 for 6 yards (3-T.Johnson)."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 35",
+     "plays": 3,
+     "top": "1:04",
+     "result": "Punt"
+    },
+    {
+     "n": 2,
+     "team": "NE",
+     "qtr": 1,
+     "start": "NE 21",
+     "plays": 5,
+     "top": "2:33",
+     "result": "Touchdown"
+    },
+    {
+     "n": 3,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 20",
+     "plays": 6,
+     "top": "3:04",
+     "result": "Touchdown"
+    },
+    {
+     "n": 4,
+     "team": "NE",
+     "qtr": 1,
+     "start": "NE 16",
+     "plays": 11,
+     "top": "6:49",
+     "result": "Touchdown"
+    },
+    {
+     "n": 5,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 27",
+     "plays": 3,
+     "top": "1:47",
+     "result": "Punt"
+    },
+    {
+     "n": 6,
+     "team": "NE",
+     "qtr": 2,
+     "start": "NE 28",
+     "plays": 9,
+     "top": "3:52",
+     "result": "Punt"
+    },
+    {
+     "n": 7,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 13",
+     "plays": 10,
+     "top": "5:39",
+     "result": "Punt"
+    },
+    {
+     "n": 8,
+     "team": "NE",
+     "qtr": 2,
+     "start": "NE 20",
+     "plays": 2,
+     "top": "0:45",
+     "result": "Turnover"
+    },
+    {
+     "n": 9,
+     "team": "LV",
+     "qtr": 2,
+     "start": "NE 38",
+     "plays": 6,
+     "top": "2:35",
+     "result": "Missed field goal"
+    },
+    {
+     "n": 10,
+     "team": "NE",
+     "qtr": 2,
+     "start": "NE 39",
+     "plays": 5,
+     "top": "1:28",
+     "result": "Touchdown"
+    },
+    {
+     "n": 11,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 31",
+     "plays": 1,
+     "top": "0:24",
+     "result": "End of half"
+    },
+    {
+     "n": 12,
+     "team": "NE",
+     "qtr": 3,
+     "start": "NE 32",
+     "plays": 4,
+     "top": "2:02",
+     "result": "Touchdown"
+    },
+    {
+     "n": 13,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 32",
+     "plays": 3,
+     "top": "1:32",
+     "result": "Punt"
+    },
+    {
+     "n": 14,
+     "team": "NE",
+     "qtr": 3,
+     "start": "NE 13",
+     "plays": 3,
+     "top": "1:38",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 49",
+     "plays": 5,
+     "top": "1:18",
+     "result": "Field goal"
+    },
+    {
+     "n": 16,
+     "team": "NE",
+     "qtr": 3,
+     "start": "NE 29",
+     "plays": 9,
+     "top": "5:20",
+     "result": "Touchdown"
+    },
+    {
+     "n": 17,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 42",
+     "plays": 4,
+     "top": "1:15",
+     "result": "Turnover"
+    },
+    {
+     "n": 18,
+     "team": "NE",
+     "qtr": 3,
+     "start": "NE 34",
+     "plays": 7,
+     "top": "2:43",
+     "result": "Field goal"
+    },
+    {
+     "n": 19,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 26",
+     "plays": 8,
+     "top": "3:23",
+     "result": "Touchdown"
+    },
+    {
+     "n": 20,
+     "team": "NE",
+     "qtr": 4,
+     "start": "LV 44",
+     "plays": 8,
+     "top": "4:43",
+     "result": "Touchdown"
+    },
+    {
+     "n": 21,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 35",
+     "plays": 10,
+     "top": "3:32",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 22,
+     "team": "NE",
+     "qtr": 4,
+     "start": "NE 11",
+     "plays": 4,
+     "top": "2:34",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 49,
+     "result": "missed"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 46,
+     "result": "made"
+    }
+   ]
+  },
+  "401873005": {
+   "week": 6,
+   "home": true,
+   "offense": {
+    "plays": 66,
+    "epa": 0.127,
+    "sr": 0.455,
+    "explosive": 6,
+    "third": [
+     8,
+     13
+    ]
+   },
+   "defense": {
+    "plays": 65,
+    "epa": 0.185,
+    "sr": 0.477,
+    "explosive": 7,
+    "third": [
+     5,
+     11
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "10:16",
+     "team": "BUF",
+     "desc": "(10:16) 16-T.Bass 44 yard field goal is GOOD, Center-69-R.Ferguson, Holder-39-T.Doman.",
+     "score": {
+      "us": 0,
+      "them": 3
+     }
+    },
+    {
+     "qtr": 1,
+     "time": "04:32",
+     "team": "LV",
+     "desc": "(4:32) 2-A.Jeanty left tackle for 1 yard, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 3
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "14:48",
+     "team": "BUF",
+     "desc": "(14:48) 16-T.Bass 28 yard field goal is GOOD, Center-69-R.Ferguson, Holder-39-T.Doman.",
+     "score": {
+      "us": 7,
+      "them": 6
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "07:17",
+     "team": "BUF",
+     "desc": "(7:17) (Shotgun) 17-J.Allen pass short right to 10-K.Shakir for 9 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 13
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "02:18",
+     "team": "LV",
+     "desc": "(2:18) 14-M.Gay 35 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 13
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "00:04",
+     "team": "LV",
+     "desc": "(:04) 14-M.Gay 27 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 13,
+      "them": 13
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "09:50",
+     "team": "BUF",
+     "desc": "(9:50) 16-T.Bass 47 yard field goal is GOOD, Center-69-R.Ferguson, Holder-39-T.Doman.",
+     "score": {
+      "us": 13,
+      "them": 16
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "06:30",
+     "team": "BUF",
+     "desc": "(6:30) (Shotgun) 17-J.Allen pass short middle to 0-K.Coleman for 12 yards, TOUCHDOWN [98-M.Crosby].",
+     "score": {
+      "us": 13,
+      "them": 23
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "13:35",
+     "team": "LV",
+     "desc": "(13:35) 14-M.Gay 23 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 16,
+      "them": 23
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "08:13",
+     "team": "LV",
+     "desc": "(8:13) (Shotgun) 8-K.Cousins pass short right to 1-T.Tucker for 11 yards, TOUCHDOWN.",
+     "score": {
+      "us": 23,
+      "them": 23
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "04:49",
+     "team": "BUF",
+     "desc": "(4:49) 63-A.Corbett reported in as eligible. 4-J.Cook left guard for 3 yards, TOUCHDOWN.",
+     "score": {
+      "us": 23,
+      "them": 30
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "02:00",
+     "team": "BUF",
+     "desc": "(2:00) 16-T.Bass 38 yard field goal is GOOD, Center-69-R.Ferguson, Holder-39-T.Doman.",
+     "score": {
+      "us": 23,
+      "them": 33
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "01:39",
+     "team": "LV",
+     "desc": "(1:39) (Shotgun) 8-K.Cousins pass deep middle to 1-T.Tucker for 44 yards, TOUCHDOWN.",
+     "score": {
+      "us": 30,
+      "them": 33
+     },
+     "pat": "XP good"
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 4,
+     "time": "08:13",
+     "wpa": 0.211,
+     "desc": "(8:13) (Shotgun) 8-K.Cousins pass short right to 1-T.Tucker for 11 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 4,
+     "time": "04:56",
+     "wpa": -0.148,
+     "desc": "(4:56) 17-J.Allen pass short left to 4-J.Cook pushed ob at LV 3 for 26 yards (11-J.Chinn)."
+    },
+    {
+     "qtr": 1,
+     "time": "12:49",
+     "wpa": -0.116,
+     "desc": "(12:49) (Shotgun) 17-J.Allen pass short right to 26-T.Johnson pushed ob at LV 28 for 14 yards (11-J.Chinn)."
+    },
+    {
+     "qtr": 4,
+     "time": "09:33",
+     "wpa": 0.101,
+     "desc": "(9:33) 8-K.Cousins pass deep left to 89-B.Bowers pushed ob at BUF 13 for 29 yards (3-D.Hamlin)."
+    },
+    {
+     "qtr": 4,
+     "time": "04:49",
+     "wpa": -0.101,
+     "desc": "(4:49) 63-A.Corbett reported in as eligible. 4-J.Cook left guard for 3 yards, TOUCHDOWN."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "BUF",
+     "qtr": 1,
+     "start": "BUF 44",
+     "plays": 9,
+     "top": "4:48",
+     "result": "Field goal"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 30",
+     "plays": 9,
+     "top": "5:45",
+     "result": "Touchdown"
+    },
+    {
+     "n": 3,
+     "team": "BUF",
+     "qtr": 1,
+     "start": "BUF 32",
+     "plays": 10,
+     "top": "4:42",
+     "result": "Field goal"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 31",
+     "plays": 3,
+     "top": "1:44",
+     "result": "Punt"
+    },
+    {
+     "n": 5,
+     "team": "BUF",
+     "qtr": 2,
+     "start": "BUF 15",
+     "plays": 9,
+     "top": "5:48",
+     "result": "Touchdown"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 26",
+     "plays": 10,
+     "top": "4:59",
+     "result": "Field goal"
+    },
+    {
+     "n": 7,
+     "team": "BUF",
+     "qtr": 2,
+     "start": "BUF 30",
+     "plays": 3,
+     "top": "0:34",
+     "result": "Punt"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 33",
+     "plays": 8,
+     "top": "1:40",
+     "result": "Field goal"
+    },
+    {
+     "n": 9,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 30",
+     "plays": 3,
+     "top": "0:35",
+     "result": "Punt"
+    },
+    {
+     "n": 10,
+     "team": "BUF",
+     "qtr": 3,
+     "start": "BUF 35",
+     "plays": 9,
+     "top": "4:40",
+     "result": "Field goal"
+    },
+    {
+     "n": 11,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 31",
+     "plays": 2,
+     "top": "0:51",
+     "result": "Turnover"
+    },
+    {
+     "n": 12,
+     "team": "BUF",
+     "qtr": 3,
+     "start": "LV 32",
+     "plays": 6,
+     "top": "2:32",
+     "result": "Touchdown"
+    },
+    {
+     "n": 13,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 26",
+     "plays": 15,
+     "top": "7:50",
+     "result": "Field goal"
+    },
+    {
+     "n": 14,
+     "team": "BUF",
+     "qtr": 4,
+     "start": "BUF 24",
+     "plays": 4,
+     "top": "1:36",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 9",
+     "plays": 9,
+     "top": "3:49",
+     "result": "Touchdown"
+    },
+    {
+     "n": 16,
+     "team": "BUF",
+     "qtr": 4,
+     "start": "BUF 34",
+     "plays": 7,
+     "top": "3:24",
+     "result": "Touchdown"
+    },
+    {
+     "n": 17,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 18",
+     "plays": 3,
+     "top": "0:35",
+     "result": "Punt"
+    },
+    {
+     "n": 18,
+     "team": "BUF",
+     "qtr": 4,
+     "start": "LV 49",
+     "plays": 8,
+     "top": "2:12",
+     "result": "Field goal"
+    },
+    {
+     "n": 19,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 34",
+     "plays": 2,
+     "top": "0:24",
+     "result": "Touchdown"
+    },
+    {
+     "n": 20,
+     "team": "BUF",
+     "qtr": 4,
+     "start": "BUF 45",
+     "plays": 3,
+     "top": "1:32",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 35,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 27,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 23,
+     "result": "made"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,6555 @@
+{
+ "fetched": "2026-10-22T21:32:22.578Z",
+ "throughWeek": 6,
+ "players": [
+  {
+   "id": "kirk-cousins",
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "group": "QB",
+   "games": 6,
+   "stats": {
+    "Passing": [
+     {
+      "k": "attempts",
+      "label": "Att",
+      "v": 213,
+      "rank": null
+     },
+     {
+      "k": "completions",
+      "label": "Cmp",
+      "v": 135,
+      "rank": null
+     },
+     {
+      "k": "passing_yards",
+      "label": "Yds",
+      "v": 1582,
+      "rank": 5
+     },
+     {
+      "k": "passing_tds",
+      "label": "TD",
+      "v": 14,
+      "rank": 1,
+      "tied": 3
+     },
+     {
+      "k": "passing_interceptions",
+      "label": "INT",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "sacks_suffered",
+      "label": "Sacked",
+      "v": 8,
+      "rank": null
+     },
+     {
+      "k": "passing_first_downs",
+      "label": "1st downs",
+      "v": 82,
+      "rank": 3
+     },
+     {
+      "k": "passing_epa",
+      "label": "EPA",
+      "v": 45.84,
+      "rank": 5
+     },
+     {
+      "k": "passing_cpoe",
+      "label": "CPOE",
+      "v": -0.75,
+      "rank": null
+     }
+    ],
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 12,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": -2,
+      "rank": null
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -8.149,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 401,
+    "def": 0,
+    "st": 0,
+    "offPct": 0.972,
+    "defPct": 0,
+    "stPct": 0
+   },
+   "contact": {
+    "carries": 12,
+    "ybc": -2,
+    "yac": 0,
+    "ybcPer": -0.2,
+    "yacPer": 0,
+    "broken": 0
+   },
+   "pocket": {
+    "badThrows": 33,
+    "drops": 11,
+    "pressured": 54,
+    "blitzed": 57,
+    "hurried": 15,
+    "hit": 31,
+    "sacked": 8
+   },
+   "jersey": "8",
+   "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
+   "status": "Offense"
+  },
+  {
+   "id": "fernando-mendoza",
+   "name": "Fernando Mendoza",
+   "pos": "QB",
+   "group": "QB",
+   "games": 1,
+   "stats": {
+    "Passing": [
+     {
+      "k": "attempts",
+      "label": "Att",
+      "v": 8,
+      "rank": null
+     },
+     {
+      "k": "completions",
+      "label": "Cmp",
+      "v": 6,
+      "rank": null
+     },
+     {
+      "k": "passing_yards",
+      "label": "Yds",
+      "v": 48,
+      "rank": 46
+     },
+     {
+      "k": "passing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "passing_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "sacks_suffered",
+      "label": "Sacked",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "passing_first_downs",
+      "label": "1st downs",
+      "v": 3,
+      "rank": 46
+     },
+     {
+      "k": "passing_epa",
+      "label": "EPA",
+      "v": 1.242,
+      "rank": 26
+     },
+     {
+      "k": "passing_cpoe",
+      "label": "CPOE",
+      "v": 8.817,
+      "rank": null
+     }
+    ],
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": 3,
+      "rank": 188,
+      "tied": 10
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -2.939,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 1,
+    "off": 10,
+    "def": 0,
+    "st": 0,
+    "offPct": 0.17,
+    "defPct": 0,
+    "stPct": 0
+   },
+   "contact": {
+    "carries": 1,
+    "ybc": 1,
+    "yac": 2,
+    "ybcPer": 1,
+    "yacPer": 2,
+    "broken": 0
+   },
+   "pocket": {
+    "badThrows": 0,
+    "drops": 1,
+    "pressured": 2,
+    "blitzed": 1,
+    "hurried": 1,
+    "hit": 1,
+    "sacked": 0
+   },
+   "jersey": "15",
+   "link": "https://www.espn.com/nfl/player/_/id/4837248/fernando-mendoza",
+   "status": "Offense"
+  },
+  {
+   "id": "ashton-jeanty",
+   "name": "Ashton Jeanty",
+   "pos": "RB",
+   "group": "RB",
+   "games": 6,
+   "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 98,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": 313,
+      "rank": 19
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 1,
+      "rank": 36,
+      "tied": 50
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 15,
+      "rank": 25,
+      "tied": 3
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -28.828,
+      "rank": null
+     }
+    ],
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 36,
+      "rank": 38,
+      "tied": 5
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 26,
+      "rank": 34,
+      "tied": 7
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 251,
+      "rank": 51
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 2,
+      "rank": 35,
+      "tied": 33
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 214,
+      "rank": 4
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 11,
+      "rank": 59,
+      "tied": 15
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.171,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 2.174,
+      "rank": 166
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 779,
+      "tied": 230
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 286,
+    "def": 0,
+    "st": 0,
+    "offPct": 0.695,
+    "defPct": 0,
+    "stPct": 0
+   },
+   "contact": {
+    "carries": 98,
+    "ybc": 151,
+    "yac": 162,
+    "ybcPer": 1.5,
+    "yacPer": 1.7,
+    "broken": 7
+   },
+   "catching": {
+    "broken": 2,
+    "drops": 5
+   },
+   "jersey": "2",
+   "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
+   "status": "Offense"
+  },
+  {
+   "id": "mike-washington",
+   "name": "Mike Washington Jr.",
+   "pos": "RB",
+   "group": "RB",
+   "games": 6,
+   "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 34,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": 168,
+      "rank": 41,
+      "tied": 3
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 1,
+      "rank": 36,
+      "tied": 50
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 7,
+      "rank": 57,
+      "tied": 7
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -3.003,
+      "rank": null
+     }
+    ],
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 5,
+      "rank": 268,
+      "tied": 19
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 3,
+      "rank": 269,
+      "tied": 32
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 11,
+      "rank": 331,
+      "tied": 2
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 18,
+      "rank": 258,
+      "tied": 5
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.024,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": -2.212,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 82,
+    "def": 0,
+    "st": 0,
+    "offPct": 0.197,
+    "defPct": 0,
+    "stPct": 0
+   },
+   "contact": {
+    "carries": 34,
+    "ybc": 79,
+    "yac": 89,
+    "ybcPer": 2.3,
+    "yacPer": 2.6,
+    "broken": 1
+   },
+   "jersey": "4",
+   "link": "https://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr",
+   "status": "Offense"
+  },
+  {
+   "id": "dylan-laube",
+   "name": "Dylan Laube",
+   "pos": "RB",
+   "group": "RB",
+   "games": 6,
+   "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": 9,
+      "rank": 166,
+      "tied": 3
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 1,
+      "rank": 36,
+      "tied": 50
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 1,
+      "rank": 128,
+      "tied": 47
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -0.132,
+      "rank": null
+     }
+    ],
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 4,
+      "rank": 287,
+      "tied": 24
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 4,
+      "rank": 245,
+      "tied": 24
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 15,
+      "rank": 315,
+      "tied": 4
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 12,
+      "rank": 282,
+      "tied": 8
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 1,
+      "rank": 257,
+      "tied": 71
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.019,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": -0.948,
+      "rank": null
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 3,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Returns": [
+     {
+      "k": "kickoff_returns",
+      "label": "KR",
+      "v": 12,
+      "rank": null
+     },
+     {
+      "k": "kickoff_return_yards",
+      "label": "KR yds",
+      "v": 357,
+      "rank": 16
+     },
+     {
+      "k": "punt_returns",
+      "label": "PR",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "punt_return_yards",
+      "label": "PR yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "special_teams_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 1,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 57,
+    "def": 0,
+    "st": 142,
+    "offPct": 0.147,
+    "defPct": 0,
+    "stPct": 0.818
+   },
+   "contact": {
+    "carries": 5,
+    "ybc": 9,
+    "yac": 0,
+    "ybcPer": 1.8,
+    "yacPer": 0,
+    "broken": 0
+   },
+   "jersey": "23",
+   "link": "https://www.espn.com/nfl/player/_/id/4366963/dylan-laube",
+   "status": "Offense"
+  },
+  {
+   "id": "connor-heyward",
+   "name": "Connor Heyward",
+   "pos": "FB",
+   "group": "RB",
+   "games": 6,
+   "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": -2,
+      "rank": null
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 3,
+      "rank": 90,
+      "tied": 20
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": 4.906,
+      "rank": 19
+     }
+    ],
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 1,
+      "rank": 363,
+      "tied": 40
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 1,
+      "rank": 334,
+      "tied": 52
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 9,
+      "rank": 339,
+      "tied": 7
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 8,
+      "rank": 306,
+      "tied": 8
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.005,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 0.69,
+      "rank": 212
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 779,
+      "tied": 230
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 10,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 115,
+    "def": 0,
+    "st": 68,
+    "offPct": 0.282,
+    "defPct": 0,
+    "stPct": 0.392
+   },
+   "contact": {
+    "carries": 4,
+    "ybc": -4,
+    "yac": 2,
+    "ybcPer": -1,
+    "yacPer": 0.5,
+    "broken": 0
+   },
+   "jersey": "34",
+   "link": "https://www.espn.com/nfl/player/_/id/4241961/connor-heyward",
+   "status": "Offense"
+  },
+  {
+   "id": "tre-tucker",
+   "name": "Tre Tucker",
+   "pos": "WR",
+   "group": "WR",
+   "games": 6,
+   "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": -6,
+      "rank": null
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -1.503,
+      "rank": null
+     }
+    ],
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 35,
+      "rank": 43,
+      "tied": 4
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 24,
+      "rank": 44,
+      "tied": 7
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 371,
+      "rank": 20
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 3,
+      "rank": 14,
+      "tied": 21
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 42,
+      "rank": 167,
+      "tied": 4
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 15,
+      "rank": 26,
+      "tied": 9
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.166,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 19.211,
+      "rank": 22
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 10,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 272,
+    "def": 0,
+    "st": 1,
+    "offPct": 0.665,
+    "defPct": 0,
+    "stPct": 0.007
+   },
+   "contact": {
+    "carries": 2,
+    "ybc": -6,
+    "yac": 0,
+    "ybcPer": -3,
+    "yacPer": 0,
+    "broken": 0
+   },
+   "catching": {
+    "broken": 0,
+    "drops": 1
+   },
+   "jersey": "1",
+   "link": "https://www.espn.com/nfl/player/_/id/4428718/tre-tucker",
+   "status": "Offense"
+  },
+  {
+   "id": "jalen-nailor",
+   "name": "Jalen Nailor",
+   "pos": "WR",
+   "group": "WR",
+   "games": 4,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 15,
+      "rank": 141,
+      "tied": 7
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 6,
+      "rank": 200,
+      "tied": 15
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 61,
+      "rank": 200,
+      "tied": 3
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 14,
+      "rank": 268,
+      "tied": 9
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 6,
+      "rank": 117,
+      "tied": 14
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.071,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": -1.521,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 180,
+    "def": 0,
+    "st": 0,
+    "offPct": 0.528,
+    "defPct": 0,
+    "stPct": 0
+   },
+   "catching": {
+    "broken": 0,
+    "drops": 1
+   },
+   "jersey": "9",
+   "link": "https://www.espn.com/nfl/player/_/id/4382466/jalen-nailor",
+   "status": "Offense"
+  },
+  {
+   "id": "cody-white",
+   "name": "Cody White",
+   "pos": "WR",
+   "group": "WR",
+   "games": 6,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 16,
+      "rank": 138,
+      "tied": 3
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 7,
+      "rank": 180,
+      "tied": 20
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 108,
+      "rank": 144
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 3,
+      "rank": 14,
+      "tied": 21
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 15,
+      "rank": 267
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 7,
+      "rank": 104,
+      "tied": 13
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.076,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 9.289,
+      "rank": 59
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 3,
+      "rank": 545,
+      "tied": 125
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 136,
+    "def": 0,
+    "st": 51,
+    "offPct": 0.322,
+    "defPct": 0,
+    "stPct": 0.313
+   },
+   "catching": {
+    "broken": 0,
+    "drops": 2
+   },
+   "jersey": "82",
+   "link": "https://www.espn.com/nfl/player/_/id/4241983/cody-white",
+   "status": "Offense"
+  },
+  {
+   "id": "jack-bech",
+   "name": "Jack Bech",
+   "pos": "WR",
+   "group": "WR",
+   "games": 2,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 6,
+      "rank": 248,
+      "tied": 20
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 5,
+      "rank": 215,
+      "tied": 30
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 48,
+      "rank": 226,
+      "tied": 2
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 1,
+      "rank": 68,
+      "tied": 97
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 14,
+      "rank": 268,
+      "tied": 9
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 2,
+      "rank": 221,
+      "tied": 36
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.028,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": -1.436,
+      "rank": null
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 779,
+      "tied": 230
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 3,
+    "off": 72,
+    "def": 0,
+    "st": 8,
+    "offPct": 0.367,
+    "defPct": 0,
+    "stPct": 0.1
+   },
+   "catching": {
+    "broken": 1,
+    "drops": 0
+   },
+   "jersey": "18",
+   "link": "https://www.espn.com/nfl/player/_/id/4603186/jack-bech",
+   "status": "Injured reserve / out"
+  },
+  {
+   "id": "dareke-young",
+   "name": "Dareke Young",
+   "pos": "WR",
+   "group": "WR",
+   "games": 5,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 3,
+      "rank": 311,
+      "tied": 24
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 2,
+      "rank": 301,
+      "tied": 33
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 36,
+      "rank": 251,
+      "tied": 4
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 14,
+      "rank": 268,
+      "tied": 9
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 1,
+      "rank": 257,
+      "tied": 71
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.014,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 1.573,
+      "rank": 186
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 3,
+      "rank": 545,
+      "tied": 125
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Returns": [
+     {
+      "k": "kickoff_returns",
+      "label": "KR",
+      "v": 11,
+      "rank": null
+     },
+     {
+      "k": "kickoff_return_yards",
+      "label": "KR yds",
+      "v": 277,
+      "rank": 28,
+      "tied": 2
+     },
+     {
+      "k": "punt_returns",
+      "label": "PR",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "punt_return_yards",
+      "label": "PR yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "special_teams_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 1,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 63,
+    "def": 0,
+    "st": 103,
+    "offPct": 0.153,
+    "defPct": 0,
+    "stPct": 0.595
+   },
+   "jersey": "81",
+   "link": "https://www.espn.com/nfl/player/_/id/4401805/dareke-young",
+   "status": "Offense"
+  },
+  {
+   "id": "malik-benson",
+   "name": "Malik Benson",
+   "pos": "WR",
+   "group": "WR",
+   "games": 6,
+   "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": -8,
+      "rank": null
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": -1.403,
+      "rank": null
+     }
+    ],
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 8,
+      "rank": 215,
+      "tied": 17
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 2,
+      "rank": 301,
+      "tied": 33
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 12,
+      "rank": 327,
+      "tied": 4
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 7,
+      "rank": 314,
+      "tied": 9
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.038,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": -6.597,
+      "rank": null
+     }
+    ],
+    "Returns": [
+     {
+      "k": "kickoff_returns",
+      "label": "KR",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "kickoff_return_yards",
+      "label": "KR yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "punt_returns",
+      "label": "PR",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "punt_return_yards",
+      "label": "PR yds",
+      "v": 68,
+      "rank": 22
+     },
+     {
+      "k": "special_teams_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 50,
+    "def": 0,
+    "st": 15,
+    "offPct": 0.127,
+    "defPct": 0,
+    "stPct": 0.087
+   },
+   "contact": {
+    "carries": 1,
+    "ybc": -8,
+    "yac": 0,
+    "ybcPer": -8,
+    "yacPer": 0,
+    "broken": 0
+   },
+   "catching": {
+    "broken": 0,
+    "drops": 1
+   },
+   "jersey": "19",
+   "link": "https://www.espn.com/nfl/player/_/id/5150247/malik-benson",
+   "status": "Offense"
+  },
+  {
+   "id": "deven-thompkins",
+   "name": "Deven Thompkins",
+   "pos": "WR",
+   "group": "WR",
+   "games": 1,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 1,
+      "rank": 363,
+      "tied": 40
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 1,
+      "rank": 334,
+      "tied": 52
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 8,
+      "rank": 346,
+      "tied": 6
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 4,
+      "rank": 336,
+      "tied": 10
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.005,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 0.512,
+      "rank": 217
+     }
+    ],
+    "Returns": [
+     {
+      "k": "kickoff_returns",
+      "label": "KR",
+      "v": 3,
+      "rank": null
+     },
+     {
+      "k": "kickoff_return_yards",
+      "label": "KR yds",
+      "v": 80,
+      "rank": 76
+     },
+     {
+      "k": "punt_returns",
+      "label": "PR",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "punt_return_yards",
+      "label": "PR yds",
+      "v": 18,
+      "rank": 38,
+      "tied": 3
+     },
+     {
+      "k": "special_teams_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 1,
+    "off": 13,
+    "def": 0,
+    "st": 9,
+    "offPct": 0.22,
+    "defPct": 0,
+    "stPct": 0.31
+   },
+   "jersey": "83",
+   "link": "https://www.espn.com/nfl/player/_/id/4374187/deven-thompkins",
+   "status": "Offense"
+  },
+  {
+   "id": "michael-mayer",
+   "name": "Michael Mayer",
+   "pos": "TE",
+   "group": "TE",
+   "games": 6,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 34,
+      "rank": 47,
+      "tied": 5
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 28,
+      "rank": 23,
+      "tied": 6
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 266,
+      "rank": 46
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 1,
+      "rank": 68,
+      "tied": 97
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 162,
+      "rank": 20,
+      "tied": 2
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 18,
+      "rank": 21
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.161,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 8.606,
+      "rank": 64
+     }
+    ],
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 779,
+      "tied": 230
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 334,
+    "def": 0,
+    "st": 30,
+    "offPct": 0.807,
+    "defPct": 0,
+    "stPct": 0.167
+   },
+   "catching": {
+    "broken": 4,
+    "drops": 1
+   },
+   "jersey": "87",
+   "link": "https://www.espn.com/nfl/player/_/id/4429086/michael-mayer",
+   "status": "Offense"
+  },
+  {
+   "id": "brock-bowers",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "group": "TE",
+   "games": 4,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 43,
+      "rank": 21,
+      "tied": 4
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 28,
+      "rank": 23,
+      "tied": 6
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 382,
+      "rank": 18
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 3,
+      "rank": 14,
+      "tied": 21
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 114,
+      "rank": 52,
+      "tied": 2
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 20,
+      "rank": 15,
+      "tied": 4
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.204,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 20.604,
+      "rank": 16
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 1,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 4,
+    "off": 231,
+    "def": 0,
+    "st": 0,
+    "offPct": 0.822,
+    "defPct": 0,
+    "stPct": 0
+   },
+   "catching": {
+    "broken": 0,
+    "drops": 1
+   },
+   "jersey": "89",
+   "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
+   "status": "Offense"
+  },
+  {
+   "id": "ian-thomas",
+   "name": "Ian Thomas",
+   "pos": "TE",
+   "group": "TE",
+   "games": 3,
+   "stats": {
+    "Receiving": [
+     {
+      "k": "targets",
+      "label": "Tgt",
+      "v": 4,
+      "rank": 287,
+      "tied": 24
+     },
+     {
+      "k": "receptions",
+      "label": "Rec",
+      "v": 4,
+      "rank": 245,
+      "tied": 24
+     },
+     {
+      "k": "receiving_yards",
+      "label": "Yds",
+      "v": 52,
+      "rank": 215,
+      "tied": 5
+     },
+     {
+      "k": "receiving_tds",
+      "label": "TD",
+      "v": 1,
+      "rank": 68,
+      "tied": 97
+     },
+     {
+      "k": "receiving_yards_after_catch",
+      "label": "YAC",
+      "v": 22,
+      "rank": 241,
+      "tied": 5
+     },
+     {
+      "k": "receiving_first_downs",
+      "label": "1st downs",
+      "v": 4,
+      "rank": 153,
+      "tied": 31
+     },
+     {
+      "k": "target_share",
+      "label": "Tgt share",
+      "v": 0.019,
+      "rank": null
+     },
+     {
+      "k": "receiving_epa",
+      "label": "EPA",
+      "v": 5.823,
+      "rank": 96
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 140,
+    "def": 0,
+    "st": 22,
+    "offPct": 0.345,
+    "defPct": 0,
+    "stPct": 0.12
+   },
+   "catching": {
+    "broken": 1,
+    "drops": 0
+   },
+   "jersey": "80",
+   "link": "https://www.espn.com/nfl/player/_/id/4045305/ian-thomas",
+   "status": "Offense"
+  },
+  {
+   "id": "chris-myarick",
+   "name": "Chris Myarick",
+   "pos": "TE",
+   "group": null,
+   "games": 2,
+   "stats": {},
+   "snaps": {
+    "games": 2,
+    "off": 8,
+    "def": 0,
+    "st": 3,
+    "offPct": 0.06,
+    "defPct": 0,
+    "stPct": 0.06
+   },
+   "jersey": "41",
+   "link": "https://www.espn.com/nfl/player/_/id/3138744/chris-myarick",
+   "status": "Offense"
+  },
+  {
+   "id": "kolton-miller",
+   "name": "Kolton Miller",
+   "pos": "T",
+   "group": null,
+   "games": 6,
+   "stats": {},
+   "snaps": {
+    "games": 6,
+    "off": 411,
+    "def": 0,
+    "st": 31,
+    "offPct": 1,
+    "defPct": 0,
+    "stPct": 0.182
+   },
+   "jersey": "74",
+   "link": "https://www.espn.com/nfl/player/_/id/3134312/kolton-miller",
+   "status": "Offense"
+  },
+  {
+   "id": "charles-grant",
+   "name": "Charles Grant",
+   "pos": "T",
+   "group": null,
+   "games": 6,
+   "stats": {},
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 0,
+    "st": 31,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.182
+   },
+   "jersey": "60",
+   "link": "https://www.espn.com/nfl/player/_/id/4694505/charles-grant",
+   "status": "Offense"
+  },
+  {
+   "id": "dj-glaze",
+   "name": "DJ Glaze",
+   "pos": "OT",
+   "group": "OL",
+   "games": 1,
+   "stats": {
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 10,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 411,
+    "def": 0,
+    "st": 31,
+    "offPct": 1,
+    "defPct": 0,
+    "stPct": 0.182
+   },
+   "jersey": "71",
+   "link": "https://www.espn.com/nfl/player/_/id/4606683/dj-glaze",
+   "status": "Offense"
+  },
+  {
+   "id": "spencer-burford",
+   "name": "Spencer Burford",
+   "pos": "G",
+   "group": "OL",
+   "games": 2,
+   "stats": {
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 18,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 411,
+    "def": 0,
+    "st": 31,
+    "offPct": 1,
+    "defPct": 0,
+    "stPct": 0.182
+   },
+   "jersey": "70",
+   "link": "https://www.espn.com/nfl/player/_/id/4362999/spencer-burford",
+   "status": "Offense"
+  },
+  {
+   "id": "caleb-rogers",
+   "name": "Caleb Rogers",
+   "pos": "G",
+   "group": "OL",
+   "games": 3,
+   "stats": {
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 3,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 19,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 155,
+    "def": 0,
+    "st": 31,
+    "offPct": 0.345,
+    "defPct": 0,
+    "stPct": 0.182
+   },
+   "jersey": "76",
+   "link": "https://www.espn.com/nfl/player/_/id/4433889/caleb-rogers",
+   "status": "Offense"
+  },
+  {
+   "id": "trey-zuhn",
+   "name": "Trey Zuhn",
+   "pos": "G",
+   "group": null,
+   "games": 5,
+   "stats": {},
+   "snaps": {
+    "games": 5,
+    "off": 16,
+    "def": 0,
+    "st": 23,
+    "offPct": 0.044,
+    "defPct": 0,
+    "stPct": 0.164
+   },
+   "jersey": "66",
+   "link": "https://www.espn.com/nfl/player/_/id/4431623/trey-zuhn-iii",
+   "status": "Offense"
+  },
+  {
+   "id": "bryce-cabeldue",
+   "name": "Bryce Cabeldue",
+   "pos": "G",
+   "group": null,
+   "games": 2,
+   "stats": {},
+   "snaps": {
+    "games": 2,
+    "off": 0,
+    "def": 0,
+    "st": 10,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.165
+   },
+   "jersey": "77",
+   "link": "https://www.espn.com/nfl/player/_/id/4612077/bryce-cabeldue",
+   "status": "Offense"
+  },
+  {
+   "id": "tyler-linderbaum",
+   "name": "Tyler Linderbaum",
+   "pos": "C",
+   "group": "OL",
+   "games": 4,
+   "stats": {
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 17,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 411,
+    "def": 0,
+    "st": 5,
+    "offPct": 1,
+    "defPct": 0,
+    "stPct": 0.027
+   },
+   "jersey": "65",
+   "link": "https://www.espn.com/nfl/player/_/id/4360499/tyler-linderbaum",
+   "status": "Offense"
+  },
+  {
+   "id": "jackson-powers-johnson",
+   "name": "Jackson Powers-Johnson",
+   "pos": "C",
+   "group": "OL",
+   "games": 2,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 256,
+    "def": 0,
+    "st": 24,
+    "offPct": 0.786,
+    "defPct": 0,
+    "stPct": 0.172
+   },
+   "jersey": "58",
+   "link": "https://www.espn.com/nfl/player/_/id/4875295/jackson-powers-johnson",
+   "status": "Offense"
+  },
+  {
+   "id": "maxx-crosby",
+   "name": "Maxx Crosby",
+   "pos": "DE",
+   "group": "DL",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 5,
+      "rank": 405,
+      "tied": 71
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 9,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 2,
+      "rank": 121,
+      "tied": 99
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 2,
+      "rank": 54,
+      "tied": 36
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 15,
+      "rank": 2,
+      "tied": 2
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 1,
+      "rank": 210,
+      "tied": 160
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 1,
+      "rank": 25,
+      "tied": 120
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 1,
+      "rank": 6,
+      "tied": 97
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 15,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 345,
+    "st": 37,
+    "offPct": 0,
+    "defPct": 0.862,
+    "stPct": 0.215
+   },
+   "coverage": {
+    "targets": 1,
+    "completions": 1,
+    "yards": 7,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 7,
+    "rating": 95.8
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 24,
+    "hurries": 11,
+    "hits": 10,
+    "sacks": 2
+   },
+   "tackling": {
+    "tackles": 14,
+    "missed": 1,
+    "missedPct": 0.067
+   },
+   "jersey": "98",
+   "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
+   "status": "Defense"
+  },
+  {
+   "id": "kwity-paye",
+   "name": "Kwity Paye",
+   "pos": "DE",
+   "group": "DL",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 3,
+      "rank": 545,
+      "tied": 125
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 11,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 3,
+      "rank": 66,
+      "tied": 55
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 3,
+      "rank": 28,
+      "tied": 21
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 7,
+      "rank": 25,
+      "tied": 14
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 237,
+    "st": 0,
+    "offPct": 0,
+    "defPct": 0.588,
+    "stPct": 0
+   },
+   "coverage": {
+    "targets": 3,
+    "completions": 2,
+    "yards": 16,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 0.667,
+    "ydsPerTgt": 5.3,
+    "rating": 79.9
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 9,
+    "hurries": 2,
+    "hits": 3,
+    "sacks": 3
+   },
+   "tackling": {
+    "tackles": 12,
+    "missed": 2,
+    "missedPct": 0.143
+   },
+   "jersey": "95",
+   "link": "https://www.espn.com/nfl/player/_/id/4258194/kwity-paye",
+   "status": "Defense"
+  },
+  {
+   "id": "malcolm-koonce",
+   "name": "Malcolm Koonce",
+   "pos": "DE",
+   "group": "DL",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 6,
+      "rank": 365,
+      "tied": 40
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 3,
+      "rank": 28,
+      "tied": 21
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 6,
+      "rank": 39,
+      "tied": 17
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 2,
+      "rank": 7,
+      "tied": 18
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 187,
+    "st": 8,
+    "offPct": 0,
+    "defPct": 0.468,
+    "stPct": 0.042
+   },
+   "coverage": {
+    "targets": 3,
+    "completions": 3,
+    "yards": 45,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 15,
+    "rating": 118.8
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 9,
+    "hurries": 3,
+    "hits": 2,
+    "sacks": 3
+   },
+   "tackling": {
+    "tackles": 10,
+    "missed": 1,
+    "missedPct": 0.091
+   },
+   "jersey": "51",
+   "link": "https://www.espn.com/nfl/player/_/id/4239719/malcolm-koonce",
+   "status": "Defense"
+  },
+  {
+   "id": "patrick-johnson",
+   "name": "Patrick Johnson",
+   "pos": "DE",
+   "group": "DL",
+   "games": 4,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 2,
+      "rank": 670,
+      "tied": 109
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 1,
+      "rank": 244,
+      "tied": 139
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 24,
+    "st": 139,
+    "offPct": 0,
+    "defPct": 0.06,
+    "stPct": 0.8
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 2,
+    "hurries": 1,
+    "hits": 1,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 2,
+    "missed": 0,
+    "missedPct": 0
+   },
+   "jersey": "93",
+   "link": "https://www.espn.com/nfl/player/_/id/4243916/patrick-johnson",
+   "status": "Defense"
+  },
+  {
+   "id": "adam-butler",
+   "name": "Adam Butler",
+   "pos": "DT",
+   "group": "DL",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 2,
+      "rank": 670,
+      "tied": 109
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 10,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0.5,
+      "rank": 221,
+      "tied": 43
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 1,
+      "rank": 244,
+      "tied": 139
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 1,
+      "rank": 25,
+      "tied": 120
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 192,
+    "st": 7,
+    "offPct": 0,
+    "defPct": 0.475,
+    "stPct": 0.04
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 2,
+    "hurries": 1,
+    "hits": 0,
+    "sacks": 0.5
+   },
+   "tackling": {
+    "tackles": 5,
+    "missed": 1,
+    "missedPct": 0.167
+   },
+   "jersey": "69",
+   "link": "https://www.espn.com/nfl/player/_/id/2972342/adam-butler",
+   "status": "Defense"
+  },
+  {
+   "id": "foley-fatukasi",
+   "name": "Foley Fatukasi",
+   "pos": "DT",
+   "group": "DL",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 2,
+      "rank": 670,
+      "tied": 109
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 10,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0.5,
+      "rank": 221,
+      "tied": 43
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 2,
+      "rank": 157,
+      "tied": 87
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 1,
+      "rank": 210,
+      "tied": 160
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 175,
+    "st": 6,
+    "offPct": 0,
+    "defPct": 0.435,
+    "stPct": 0.038
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 4,
+    "hurries": 2,
+    "hits": 1,
+    "sacks": 0.5
+   },
+   "tackling": {
+    "tackles": 6,
+    "missed": 1,
+    "missedPct": 0.143
+   }
+  },
+  {
+   "id": "tonka-hemingway",
+   "name": "Tonka Hemingway",
+   "pos": "DT",
+   "group": "DL",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 3,
+      "rank": 545,
+      "tied": 125
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 11,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 2,
+      "rank": 157,
+      "tied": 87
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 3,
+      "rank": 78,
+      "tied": 44
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 0,
+    "def": 170,
+    "st": 45,
+    "offPct": 0,
+    "defPct": 0.524,
+    "stPct": 0.322
+   },
+   "coverage": {
+    "targets": 1,
+    "completions": 1,
+    "yards": 2,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 2,
+    "rating": 79.2
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 4,
+    "hurries": 2,
+    "hits": 2,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 10,
+    "missed": 1,
+    "missedPct": 0.091
+   },
+   "jersey": "97",
+   "link": "https://www.espn.com/nfl/player/_/id/4429109/tonka-hemingway",
+   "status": "Defense"
+  },
+  {
+   "id": "thomas-booker",
+   "name": "Thomas Booker",
+   "pos": "DT",
+   "group": "DL",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 8,
+      "rank": 304,
+      "tied": 31
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 3,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 1,
+      "rank": 244,
+      "tied": 139
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 148,
+    "st": 37,
+    "offPct": 0,
+    "defPct": 0.365,
+    "stPct": 0.215
+   },
+   "coverage": {
+    "targets": 2,
+    "completions": 2,
+    "yards": 22,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 11,
+    "rating": 112.5
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 1,
+    "hurries": 0,
+    "hits": 1,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 4,
+    "missed": 0,
+    "missedPct": 0
+   },
+   "jersey": "99",
+   "link": "https://www.espn.com/nfl/player/_/id/4360749/thomas-booker-iv",
+   "status": "Defense"
+  },
+  {
+   "id": "jonah-laulu",
+   "name": "Jonah Laulu",
+   "pos": "DT",
+   "group": "DL",
+   "games": 4,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 779,
+      "tied": 230
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0.5,
+      "rank": 221,
+      "tied": 43
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 3,
+      "rank": 111,
+      "tied": 46
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 0,
+    "def": 110,
+    "st": 24,
+    "offPct": 0,
+    "defPct": 0.322,
+    "stPct": 0.168
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 3,
+    "hurries": 0,
+    "hits": 2,
+    "sacks": 0.5
+   },
+   "tackling": {
+    "tackles": 3,
+    "missed": 0,
+    "missedPct": 0
+   },
+   "jersey": "96",
+   "link": "https://www.espn.com/nfl/player/_/id/4373956/jonah-laulu",
+   "status": "Defense"
+  },
+  {
+   "id": "jj-pegues",
+   "name": "JJ Pegues",
+   "pos": "DT",
+   "group": "DL",
+   "games": 2,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 2,
+      "rank": 670,
+      "tied": 109
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 2,
+    "off": 0,
+    "def": 10,
+    "st": 7,
+    "offPct": 0,
+    "defPct": 0.08,
+    "stPct": 0.11
+   },
+   "coverage": {
+    "targets": 1,
+    "completions": 1,
+    "yards": 9,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 9,
+    "rating": 104.2
+   },
+   "tackling": {
+    "tackles": 1,
+    "missed": 0,
+    "missedPct": 0
+   },
+   "jersey": "92",
+   "link": "https://www.espn.com/nfl/player/_/id/4430896/jj-pegues",
+   "status": "Defense"
+  },
+  {
+   "id": "quay-walker",
+   "name": "Quay Walker",
+   "pos": "LB",
+   "group": "LB",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 17,
+      "rank": 102,
+      "tied": 19
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 23,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 3,
+      "rank": 66,
+      "tied": 55
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 2,
+      "rank": 54,
+      "tied": 36
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 2,
+      "rank": 157,
+      "tied": 87
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 1,
+      "rank": 6,
+      "tied": 97
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 3,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 11,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 401,
+    "st": 0,
+    "offPct": 0,
+    "defPct": 1,
+    "stPct": 0
+   },
+   "coverage": {
+    "targets": 22,
+    "completions": 16,
+    "yards": 155,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 0.727,
+    "ydsPerTgt": 7,
+    "rating": 92
+   },
+   "passRush": {
+    "blitzes": 24,
+    "pressures": 4,
+    "hurries": 2,
+    "hits": 0,
+    "sacks": 2
+   },
+   "tackling": {
+    "tackles": 40,
+    "missed": 2,
+    "missedPct": 0.048
+   },
+   "jersey": "7",
+   "link": "https://www.espn.com/nfl/player/_/id/4379416/quay-walker",
+   "status": "Defense"
+  },
+  {
+   "id": "nakobe-dean",
+   "name": "Nakobe Dean",
+   "pos": "LB",
+   "group": "LB",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 33,
+      "rank": 1,
+      "tied": 2
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 23,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 4,
+      "rank": 36,
+      "tied": 30
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 1.5,
+      "rank": 90,
+      "tied": 18
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 3,
+      "rank": 111,
+      "tied": 46
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 1,
+      "rank": 210,
+      "tied": 160
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 3,
+      "rank": 1,
+      "tied": 6
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 397,
+    "st": 0,
+    "offPct": 0,
+    "defPct": 0.99,
+    "stPct": 0
+   },
+   "coverage": {
+    "targets": 17,
+    "completions": 15,
+    "yards": 153,
+    "td": 1,
+    "int": 0,
+    "cmpPct": 0.882,
+    "ydsPerTgt": 9,
+    "rating": 123.8
+   },
+   "passRush": {
+    "blitzes": 14,
+    "pressures": 3,
+    "hurries": 0,
+    "hits": 1,
+    "sacks": 1.5
+   },
+   "tackling": {
+    "tackles": 57,
+    "missed": 7,
+    "missedPct": 0.109
+   },
+   "jersey": "17",
+   "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
+   "status": "Defense"
+  },
+  {
+   "id": "tommy-eichenberg",
+   "name": "Tommy Eichenberg",
+   "pos": "LB",
+   "group": "LB",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 3,
+      "rank": 545,
+      "tied": 125
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 8,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 65,
+    "st": 142,
+    "offPct": 0,
+    "defPct": 0.165,
+    "stPct": 0.818
+   },
+   "coverage": {
+    "targets": 1,
+    "completions": 1,
+    "yards": 1,
+    "td": 1,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 1,
+    "rating": 118.8
+   },
+   "tackling": {
+    "tackles": 4,
+    "missed": 1,
+    "missedPct": 0.2
+   },
+   "jersey": "44",
+   "link": "https://www.espn.com/nfl/player/_/id/4429560/tommy-eichenberg",
+   "status": "Defense"
+  },
+  {
+   "id": "cody-lindenberg",
+   "name": "Cody Lindenberg",
+   "pos": "LB",
+   "group": "LB",
+   "games": 4,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 5,
+      "rank": 405,
+      "tied": 71
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 3,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 0,
+    "def": 0,
+    "st": 90,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.614
+   },
+   "jersey": "55",
+   "link": "https://www.espn.com/nfl/player/_/id/4685126/cody-lindenberg",
+   "status": "Defense"
+  },
+  {
+   "id": "segun-olubi",
+   "name": "Segun Olubi",
+   "pos": "LB",
+   "group": "LB",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 3,
+      "rank": 545,
+      "tied": 125
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 25,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 0,
+    "st": 142,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.818
+   },
+   "jersey": "50",
+   "link": "https://www.espn.com/nfl/player/_/id/4260703/segun-olubi",
+   "status": "Defense"
+  },
+  {
+   "id": "eric-stokes",
+   "name": "Eric Stokes",
+   "pos": "CB",
+   "group": "DB",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 13,
+      "rank": 176,
+      "tied": 19
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 6,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 1,
+      "rank": 108,
+      "tied": 113
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 1,
+      "rank": 210,
+      "tied": 160
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 1,
+      "rank": 25,
+      "tied": 120
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 1,
+      "rank": 6,
+      "tied": 97
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 51,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 389,
+    "st": 0,
+    "offPct": 0,
+    "defPct": 0.973,
+    "stPct": 0
+   },
+   "coverage": {
+    "targets": 30,
+    "completions": 17,
+    "yards": 246,
+    "td": 2,
+    "int": 0,
+    "cmpPct": 0.567,
+    "ydsPerTgt": 8.2,
+    "rating": 105.7
+   },
+   "passRush": {
+    "blitzes": 4,
+    "pressures": 2,
+    "hurries": 1,
+    "hits": 0,
+    "sacks": 1
+   },
+   "tackling": {
+    "tackles": 19,
+    "missed": 2,
+    "missedPct": 0.095
+   },
+   "jersey": "5",
+   "link": "https://www.espn.com/nfl/player/_/id/4259561/eric-stokes",
+   "status": "Defense"
+  },
+  {
+   "id": "taron-johnson",
+   "name": "Taron Johnson",
+   "pos": "CB",
+   "group": "DB",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 18,
+      "rank": 82,
+      "tied": 20
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 7,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 2,
+      "rank": 157,
+      "tied": 87
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 2,
+      "rank": 122,
+      "tied": 88
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 1,
+      "rank": 25,
+      "tied": 120
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 1,
+      "rank": 6,
+      "tied": 97
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 340,
+    "st": 1,
+    "offPct": 0,
+    "defPct": 0.845,
+    "stPct": 0.007
+   },
+   "coverage": {
+    "targets": 27,
+    "completions": 18,
+    "yards": 176,
+    "td": 2,
+    "int": 0,
+    "cmpPct": 0.667,
+    "ydsPerTgt": 6.5,
+    "rating": 109.5
+   },
+   "passRush": {
+    "blitzes": 11,
+    "pressures": 4,
+    "hurries": 2,
+    "hits": 2,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 26,
+    "missed": 2,
+    "missedPct": 0.071
+   },
+   "jersey": "3",
+   "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson",
+   "status": "Defense"
+  },
+  {
+   "id": "hezekiah-masses",
+   "name": "Hezekiah Masses",
+   "pos": "CB",
+   "group": "DB",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 12,
+      "rank": 195,
+      "tied": 18
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 8,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 1,
+      "rank": 244,
+      "tied": 139
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 3,
+      "rank": 1,
+      "tied": 6
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 64,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 6,
+      "rank": 13,
+      "tied": 9
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 41,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 236,
+    "st": 0,
+    "offPct": 0,
+    "defPct": 0.583,
+    "stPct": 0
+   },
+   "coverage": {
+    "targets": 23,
+    "completions": 11,
+    "yards": 176,
+    "td": 2,
+    "int": 3,
+    "cmpPct": 0.478,
+    "ydsPerTgt": 7.7,
+    "rating": 63.2
+   },
+   "passRush": {
+    "blitzes": 0,
+    "pressures": 1,
+    "hurries": 0,
+    "hits": 1,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 20,
+    "missed": 2,
+    "missedPct": 0.091
+   },
+   "jersey": "35",
+   "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
+   "status": "Defense"
+  },
+  {
+   "id": "darien-porter",
+   "name": "Darien Porter",
+   "pos": "CB",
+   "group": "DB",
+   "games": 4,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 8,
+      "rank": 304,
+      "tied": 31
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 4,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 5,
+      "rank": 22,
+      "tied": 20
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 1,
+      "rank": 6,
+      "tied": 97
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 0,
+    "def": 153,
+    "st": 68,
+    "offPct": 0,
+    "defPct": 0.466,
+    "stPct": 0.466
+   },
+   "coverage": {
+    "targets": 13,
+    "completions": 4,
+    "yards": 96,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 0.308,
+    "ydsPerTgt": 7.4,
+    "rating": 58.5
+   },
+   "tackling": {
+    "tackles": 11,
+    "missed": 1,
+    "missedPct": 0.083
+   },
+   "jersey": "26",
+   "link": "https://www.espn.com/nfl/player/_/id/4430330/darien-porter",
+   "status": "Defense"
+  },
+  {
+   "id": "jermod-mccoy",
+   "name": "Jermod McCoy",
+   "pos": "CB",
+   "group": "DB",
+   "games": 2,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 2,
+      "rank": 670,
+      "tied": 109
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 0,
+    "def": 30,
+    "st": 60,
+    "offPct": 0,
+    "defPct": 0.084,
+    "stPct": 0.4
+   },
+   "coverage": {
+    "targets": 2,
+    "completions": 2,
+    "yards": 23,
+    "td": 0,
+    "int": 0,
+    "cmpPct": 1,
+    "ydsPerTgt": 11.5,
+    "rating": 114.6
+   },
+   "passRush": {
+    "blitzes": 1,
+    "pressures": 0,
+    "hurries": 0,
+    "hits": 0,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 3,
+    "missed": 0,
+    "missedPct": 0
+   },
+   "jersey": "28",
+   "link": "https://www.espn.com/nfl/player/_/id/5157289/jermod-mccoy",
+   "status": "Defense"
+  },
+  {
+   "id": "darrell-luter",
+   "name": "Darrell Luter Jr.",
+   "pos": "CB",
+   "group": "DB",
+   "games": 1,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 3,
+    "off": 0,
+    "def": 0,
+    "st": 57,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.65
+   },
+   "jersey": "25",
+   "link": "https://www.espn.com/nfl/player/_/id/4685978/darrell-luter-jr",
+   "status": "Defense"
+  },
+  {
+   "id": "dalton-johnson",
+   "name": "Dalton Johnson",
+   "pos": "S",
+   "group": null,
+   "games": 1,
+   "stats": {},
+   "snaps": {
+    "games": 1,
+    "off": 0,
+    "def": 0,
+    "st": 12,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.38
+   },
+   "jersey": "43",
+   "link": "https://www.espn.com/nfl/player/_/id/4682488/dalton-johnson",
+   "status": "Defense"
+  },
+  {
+   "id": "tristin-mccollum",
+   "name": "Tristin McCollum",
+   "pos": "S",
+   "group": null,
+   "games": 2,
+   "stats": {},
+   "snaps": {
+    "games": 2,
+    "off": 0,
+    "def": 0,
+    "st": 33,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.62
+   },
+   "jersey": "27",
+   "link": "https://www.espn.com/nfl/player/_/id/4250393/tristin-mccollum",
+   "status": "Defense"
+  },
+  {
+   "id": "jeremy-chinn",
+   "name": "Jeremy Chinn",
+   "pos": "SAF",
+   "group": "DB",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 31,
+      "rank": 4,
+      "tied": 3
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 8,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 220,
+      "tied": 180
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 1,
+      "rank": 108,
+      "tied": 113
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 2,
+      "rank": 157,
+      "tied": 87
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 1,
+      "rank": 210,
+      "tied": 160
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 2,
+      "rank": 7,
+      "tied": 18
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 1,
+      "rank": 6,
+      "tied": 97
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 43,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 401,
+    "st": 8,
+    "offPct": 0,
+    "defPct": 1,
+    "stPct": 0.05
+   },
+   "coverage": {
+    "targets": 14,
+    "completions": 12,
+    "yards": 133,
+    "td": 1,
+    "int": 0,
+    "cmpPct": 0.857,
+    "ydsPerTgt": 9.5,
+    "rating": 130.1
+   },
+   "passRush": {
+    "blitzes": 4,
+    "pressures": 1,
+    "hurries": 0,
+    "hits": 0,
+    "sacks": 1
+   },
+   "tackling": {
+    "tackles": 39,
+    "missed": 3,
+    "missedPct": 0.071
+   },
+   "jersey": "11",
+   "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
+   "status": "Defense"
+  },
+  {
+   "id": "treydan-stukes",
+   "name": "Treydan Stukes",
+   "pos": "SAF",
+   "group": "DB",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 16,
+      "rank": 121,
+      "tied": 10
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 10,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 1,
+      "rank": 23,
+      "tied": 80
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 2,
+      "rank": 122,
+      "tied": 88
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 5,
+    "off": 0,
+    "def": 290,
+    "st": 17,
+    "offPct": 0,
+    "defPct": 0.892,
+    "stPct": 0.13
+   },
+   "coverage": {
+    "targets": 18,
+    "completions": 10,
+    "yards": 186,
+    "td": 2,
+    "int": 1,
+    "cmpPct": 0.556,
+    "ydsPerTgt": 10.3,
+    "rating": 105.3
+   },
+   "passRush": {
+    "blitzes": 3,
+    "pressures": 0,
+    "hurries": 0,
+    "hits": 0,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 26,
+    "missed": 3,
+    "missedPct": 0.103
+   },
+   "jersey": "31",
+   "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
+   "status": "Defense"
+  },
+  {
+   "id": "isaiah-pola-mao",
+   "name": "Isaiah Pola-Mao",
+   "pos": "SAF",
+   "group": "DB",
+   "games": 5,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 9,
+      "rank": 267,
+      "tied": 37
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 6,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 112,
+    "st": 123,
+    "offPct": 0,
+    "defPct": 0.26,
+    "stPct": 0.702
+   },
+   "coverage": {
+    "targets": 7,
+    "completions": 6,
+    "yards": 89,
+    "td": 2,
+    "int": 0,
+    "cmpPct": 0.857,
+    "ydsPerTgt": 12.7,
+    "rating": 158.3
+   },
+   "passRush": {
+    "blitzes": 1,
+    "pressures": 0,
+    "hurries": 0,
+    "hits": 0,
+    "sacks": 0
+   },
+   "tackling": {
+    "tackles": 10,
+    "missed": 1,
+    "missedPct": 0.091
+   },
+   "jersey": "20",
+   "link": "https://www.espn.com/nfl/player/_/id/4259632/isaiah-pola-mao",
+   "status": "Defense"
+  },
+  {
+   "id": "matt-gay",
+   "name": "Matt Gay",
+   "pos": "K",
+   "group": "SPEC",
+   "games": 6,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 779,
+      "tied": 230
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Kicking": [
+     {
+      "k": "fg_made",
+      "label": "FG",
+      "v": 14,
+      "rank": 3,
+      "tied": 3
+     },
+     {
+      "k": "fg_att",
+      "label": "FGA",
+      "v": 15,
+      "rank": null
+     },
+     {
+      "k": "fg_pct",
+      "label": "FG %",
+      "v": 0.933,
+      "rank": null
+     },
+     {
+      "k": "fg_long",
+      "label": "Long",
+      "v": 59,
+      "rank": 5,
+      "tied": 3
+     },
+     {
+      "k": "fg_made_50_59",
+      "label": "50-59",
+      "v": 1,
+      "rank": 21,
+      "tied": 7
+     },
+     {
+      "k": "pat_made",
+      "label": "XP",
+      "v": 14,
+      "rank": null
+     },
+     {
+      "k": "pat_att",
+      "label": "XPA",
+      "v": 14,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 0,
+    "st": 65,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.378
+   },
+   "jersey": "14",
+   "link": "https://www.espn.com/nfl/player/_/id/4249087/matt-gay",
+   "status": "Special teams"
+  },
+  {
+   "id": "aj-cole",
+   "name": "AJ Cole",
+   "pos": "P",
+   "group": "SPEC",
+   "games": 6,
+   "stats": {
+    "Punting": [
+     {
+      "k": "pt_att",
+      "label": "Punts",
+      "v": 22,
+      "rank": null
+     },
+     {
+      "k": "pt_yards",
+      "label": "Yds",
+      "v": 1114,
+      "rank": null
+     },
+     {
+      "k": "pt_net_yards",
+      "label": "Net yds",
+      "v": 953,
+      "rank": null
+     },
+     {
+      "k": "pt_long",
+      "label": "Long",
+      "v": 72,
+      "rank": null
+     },
+     {
+      "k": "pt_inside_20",
+      "label": "Inside 20",
+      "v": 8,
+      "rank": 18,
+      "tied": 6
+     },
+     {
+      "k": "pt_touchback",
+      "label": "TB",
+      "v": 2,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 0,
+    "st": 53,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.31
+   },
+   "jersey": "6",
+   "link": "https://www.espn.com/nfl/player/_/id/3686689/aj-cole",
+   "status": "Special teams"
+  },
+  {
+   "id": "alex-ward",
+   "name": "Alex Ward",
+   "pos": "LS",
+   "group": "SPEC",
+   "games": 2,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ],
+    "Discipline": [
+     {
+      "k": "penalties",
+      "label": "Penalties",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "penalty_yards",
+      "label": "Pen yds",
+      "v": 5,
+      "rank": null
+     },
+     {
+      "k": "fumbles_total",
+      "label": "Fumbles",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumbles_lost_total",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 6,
+    "off": 0,
+    "def": 0,
+    "st": 53,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.31
+   },
+   "jersey": "47",
+   "link": "https://www.espn.com/nfl/player/_/id/4243545/alex-ward",
+   "status": "Special teams"
+  },
+  {
+   "id": "chris-collier",
+   "name": "Chris Collier",
+   "pos": null,
+   "group": null,
+   "games": null,
+   "stats": {},
+   "tackling": {
+    "tackles": 0,
+    "missed": 1,
+    "missedPct": 1
+   },
+   "jersey": "33",
+   "link": "https://www.espn.com/nfl/player/_/id/4698191/chris-collier",
+   "status": "Injured reserve / out"
+  }
+ ]
+}
