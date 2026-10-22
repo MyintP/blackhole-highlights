@@ -20,6 +20,7 @@ Edit `index.html`:
 
 ## Sharing
 - `assets/og-image.png` is the link-preview card (source: `assets/og-image.html`, render command inside).
-- Once the site is hosted, change `og:image` in `index.html` to the full URL so previews work everywhere.
+- Live site: https://myintp.github.io/blackhole-highlights/ (GitHub Pages, `main` branch, root folder).
+- `og:url` and `og:image` in `index.html` use full URLs. Update them if the site address changes.
 - Tale of the Tape: the `rows` array in the script.
 - Clips: the four `.clip` cards.
