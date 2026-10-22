@@ -73,7 +73,8 @@ export function initChrome() {
   }
 }
 
-// Notice bar: failed sources, or the hourly job hasn't succeeded for 3+ hours (checked via the public GitHub API).
+// Notice bar: failed sources, or the update job hasn't succeeded for a while (2 hours around a game, 8 otherwise;
+// checked via the public GitHub API).
 export async function dataNotice(site) {
   const el = $("notice");
   if (!el) return;
@@ -94,7 +95,7 @@ export async function dataNotice(site) {
     }
     if (run?.at) {
       document.querySelectorAll("[data-checked]").forEach(n => { n.textContent = L.ago(run.at); n.title = L.dateTime(run.at); });
-      if (L.isStale(run.at, 3)) msgs.push(`Data was last checked ${L.ago(run.at)}. Scores and news may be out of date.`);
+      if (L.isStale(run.at, L.staleHours(site?.next))) msgs.push(`Data was last checked ${L.ago(run.at)}. Scores and news may be out of date.`);
     }
   } catch { /* GitHub API unavailable or rate-limited: no notice */ }
   if (msgs.length) { el.querySelector(".wrap").textContent = msgs.join(" "); el.hidden = false; }
@@ -127,22 +128,30 @@ export function boardHTML(site, n, ed) {
     <div class="teams">
       <div class="team"><span class="abbr">${esc(away.abbr)}</span><span class="rec tnum">${esc(away.rec || "")} · AWAY</span></div>
       <div class="vs"><span class="at" data-cd-label>KICKOFF IN</span>
-        <div class="count tnum" data-cd><div><span data-d>--</span><small>DAYS</small></div><div><span data-h>--</span><small>HRS</small></div><div><span data-m>--</span><small>MIN</small></div></div></div>
+        <div class="count tnum" data-cd role="timer" aria-live="off"><div><span data-d>--</span><small>DAYS</small></div><div><span data-h>--</span><small>HRS</small></div><div><span data-m>--</span><small>MIN</small></div></div></div>
       <div class="team r"><span class="abbr">${esc(home.abbr)}</span><span class="rec tnum">${esc(home.rec || "")} · HOME</span></div>
     </div>
     <div class="meta">${meta.join("")}</div></div>`;
 }
 
-// Countdown -> LIVE for 4 hours after kickoff -> FINAL
+// Countdown -> live score (polled every 2 minutes during the game) -> FINAL
 export function countdown(root, n) {
   const box = root.querySelector("[data-cd]"), label = root.querySelector("[data-cd-label]");
   if (!box) return;
+  clearInterval(root._tick);
   if (n.timeTBD) { label.textContent = "KICKOFF"; box.innerHTML = "<div><span>TBD</span><small>TIME</small></div>"; return; }
   const kick = new Date(n.date).getTime();
   const tick = () => {
     const ms = kick - Date.now();
+    if (n.score && n.state !== "pre") {
+      const away = n.home ? n.score.them : n.score.us, home = n.home ? n.score.us : n.score.them;
+      label.textContent = n.state === "post" ? "FINAL" : "LIVE" + (n.detail ? " · " + n.detail.toUpperCase() : "");
+      box.innerHTML = `<div><span>${esc(away)}</span><small>AWAY</small></div><div class="dash" aria-hidden="true"><span>–</span></div><div><span>${esc(home)}</span><small>HOME</small></div>`;
+      box.setAttribute("aria-label", `${n.state === "post" ? "Final" : "Live"} score: away ${away}, home ${home}${n.detail ? ", " + n.detail : ""}`);
+      return;
+    }
     if (ms <= 0) {
-      const live = ms > -4 * 36e5;
+      const live = ms > -4.5 * 36e5;
       label.textContent = live ? "KICKED OFF" : "FULL TIME";
       box.innerHTML = live ? `<div><span>LIVE</span><small>${esc(("on " + (n.tv || "TV")).toUpperCase())}</small></div>` : "<div><span>FINAL</span><small>RESULT SOON</small></div>";
       return;
@@ -152,7 +161,26 @@ export function countdown(root, n) {
     box.querySelector("[data-h]").textContent = pad(Math.floor(ms % 864e5 / 36e5));
     box.querySelector("[data-m]").textContent = pad(Math.floor(ms % 36e5 / 6e4));
   };
-  tick(); setInterval(tick, 30000);
+  tick(); root._tick = setInterval(tick, 30000);
+}
+
+// Scoreboard for the next game. During the game it re-reads site.json every 2 minutes and redraws the score.
+export function liveBoard(root, site, ed) {
+  const draw = s => { root.innerHTML = boardHTML(s, s.next, ed); countdown(root, s.next); };
+  draw(site);
+  clearInterval(root._poll);
+  if (!L.isLive(site.next)) return;
+  const id = site.next.id;
+  root._poll = setInterval(async () => {
+    if (document.hidden) return;
+    try {
+      const s = await loadJSON("site", { tries: 1 });
+      // Game over and the job has moved on to next week: keep showing this game's final score until reload.
+      if (s.next?.id === id) draw(s);
+      else if (s.last?.id === id) { draw({ ...s, next: { ...site.next, ...s.last, state: "post" } }); clearInterval(root._poll); }
+      if (!L.isLive(s.next?.id === id ? s.next : null)) clearInterval(root._poll);
+    } catch { /* keep the last score; try again next time */ }
+  }, 120000);
 }
 
 export function pickHTML(n, ed) {

@@ -7,7 +7,7 @@ import { readFile, writeFile, readdir } from "node:fs/promises";
 export const BASE = "https://myintp.github.io/blackhole-highlights/";
 export const NAV = [
   ["home", "./", "Home"], ["news", "news.html", "News"], ["games", "games.html", "Game Center"],
-  ["stats", "stats.html", "Stats"], ["media", "media.html", "Media"], ["about", "about.html", "About"],
+  ["stats", "stats.html", "Stats"], ["players", "players.html", "Players"], ["media", "media.html", "Media"], ["about", "about.html", "About"],
 ];
 const root = new URL("../", import.meta.url);
 const check = process.argv.includes("--check");

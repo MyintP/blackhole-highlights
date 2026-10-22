@@ -15,8 +15,7 @@ A.runPage($("page-error"), async () => {
       : n.home ? `${esc(n.opp.location + " " + n.opp.name)} come to <b>Allegiant</b>.` : `Raiders head to <b>${esc(n.opp.location)}</b>.`;
     $("h-lede").textContent = on && ed.lede ? ed.lede
       : `The Raiders are ${site.record}, ${site.divisionPlace || ""}. The ${n.opp.name} are ${n.oppRecord || "-"}. Kickoff is ${L.day(n.date)}${n.timeTBD ? ", time to be announced" : " at " + L.time(n.date) + " PT"}${n.tv ? " on " + n.tv : ""}.`;
-    $("h-board").innerHTML = A.boardHTML(site, n, ed);
-    A.countdown($("h-board"), n);
+    A.liveBoard($("h-board"), site, ed);
   } else {
     $("h-title").innerHTML = `${site.season} season <b>complete</b>.`;
     $("h-lede").textContent = `The Raiders finished ${site.record}.`;

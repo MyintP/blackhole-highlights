@@ -2,6 +2,9 @@ name: Update data
 
 # Hourly: refresh scores, schedule, standings, stats, roster, injuries, news, podcasts and videos.
 # Odds are only snapshotted from 12 hours to 1 hour before kickoff (logic in scripts/update.mjs).
+# GitHub runs scheduled workflows late (every 3-6 hours on this repo), so around game time the job re-runs itself:
+# the updater says how long to wait (hourly before kickoff, every 10 minutes during the game) and the last step
+# dispatches the next run. Outside those windows the cron is all there is.
 on:
   schedule:
     - cron: "7 * * * *"
@@ -10,6 +13,7 @@ on:
 permissions:
   contents: write
   pages: write
+  actions: write # dispatch the next run during game windows
 
 concurrency:
   group: update-data
@@ -18,13 +22,14 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/update.mjs
+      - id: update
+        run: node scripts/update.mjs
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
       - name: Commit changed data
@@ -43,3 +48,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages build request failed; it will rebuild on the next push"
+      - name: Schedule the next run (game windows only)
+        if: steps.update.outputs.wait != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WAIT: ${{ steps.update.outputs.wait }}
+        run: |
+          echo "Next run in $((WAIT / 60)) min"
+          sleep "$WAIT"
+          # A run already waiting (cron, or one held by the concurrency group) would start a second chain; let it carry on instead.
+          queued=$(gh run list -R "${{ github.repository }}" -w update.yml -L 20 --json status -q '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting")] | length')
+          if [ "$queued" != "0" ]; then echo "A run is already queued"; exit 0; fi
+          gh workflow run update.yml -R "${{ github.repository }}" --ref main

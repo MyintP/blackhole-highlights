@@ -4,9 +4,11 @@
 //   node scripts/update.mjs --force-odds  take an odds snapshot now, whatever the time (testing only)
 // Every source fails on its own: when a feed is down, the last good data for it is kept and the failure is
 // recorded in site.json `sources`, which the page shows as a stale-data notice.
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, appendFile } from "node:fs/promises";
+import { gunzipSync } from "node:zlib";
 import { get } from "./lib/fetch.mjs";
 import * as P from "./lib/parse.mjs";
+import * as NV from "./lib/nflverse.mjs";
 
 const TEAM = P.TEAM;
 const AFC_WEST = ["13", "12", "7", "24"]; // LV, KC, DEN, LAC
@@ -16,6 +18,7 @@ const YT_CHANNEL = "UC24qVyqQyKXDeXLFqBF6F_Q";
 const SITE = "https://site.api.espn.com/apis/site/v2/sports/football/nfl";
 const CORE = "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl";
 const ODDS_OPEN_H = 12, ODDS_CLOSE_H = 1, H = 36e5;
+const NFLVERSE_EVERY_H = 12; // the play-by-play release is rebuilt about once a day
 const NEWS_FEEDS = [
   ["Raiders.com", "https://www.raiders.com/rss/news"],
   ["Las Vegas Review-Journal", "https://www.reviewjournal.com/sports/raiders/feed/"],
@@ -73,6 +76,9 @@ const next = games.find(g => !g.final) || null;
 const last = [...games].reverse().find(g => g.final) || null;
 
 const nextSumm = next ? await source("game preview", () => get(`${SITE}/summary?event=${next.id}`), null) : null;
+// During a game the summary's score and clock are fresher than the team schedule's.
+const live = P.liveFrom(nextSumm);
+if (next && live) Object.assign(next, live);
 
 // Finished games: fetch each box score once, then keep it.
 const gameDetails = clone(prev.games?.games) || {};
@@ -86,6 +92,43 @@ for (const id of Object.keys(gameDetails)) if (!games.some(g => g.id === id)) de
 const roster = await source("roster", async () => P.mapRoster(await get(`${SITE}/teams/${TEAM}/roster`)), clone(prev.stats?.roster) || []);
 const teamStats = await source("team stats", async () => P.mapTeamStats(await get(`${CORE}/seasons/${SEASON}/types/2/teams/${TEAM}/statistics`)), clone(prev.stats?.team) || []);
 const players = await source("player stats", async () => P.mapPlayerLeaders(await get(`${CORE}/seasons/${SEASON}/types/2/teams/${TEAM}/leaders`), roster), clone(prev.stats?.players) || []);
+
+// nflverse (twice a day): EPA and tendencies for the Stats page, a profile for every player, a play-level breakdown
+// of each game. Each file is fetched on its own, so one missing release only blanks the part that needs it.
+const NV_BASE = "https://github.com/nflverse/nflverse-data/releases/download";
+const prevPlayers = await readJSON("players.json", null), prevBreakdown = await readJSON("breakdown.json", null);
+let adv = clone(prev.stats?.advanced) || null, tend = clone(prev.stats?.tendencies) || null;
+let playersOut = clone(prevPlayers), breakdown = clone(prevBreakdown);
+if (!playersOut?.fetched || now - new Date(playersOut.fetched) > NFLVERSE_EVERY_H * H) {
+  const csv = (name, file, gz = false) => source(`nflverse ${name}`, async () => {
+    const b = await get(`${NV_BASE}/${file}`, { type: "buffer", timeout: 90000 });
+    return NV.parseCSV((gz ? gunzipSync(b) : b).toString("utf8"));
+  }, null);
+  const pbp = await csv("play-by-play", `pbp/play_by_play_${SEASON}.csv.gz`, true);
+  const ftn = await csv("charting", `ftn_charting/ftn_charting_${SEASON}.csv`);
+  const statsReg = await csv("player stats", `stats_player/stats_player_reg_${SEASON}.csv`);
+  const pfr = {};
+  for (const k of ["def", "rec", "rush", "pass"]) pfr[k] = await csv(`PFR ${k}`, `pfr_advstats/advstats_week_${k}_${SEASON}.csv`);
+  const snaps = await csv("snap counts", `snap_counts/snap_counts_${SEASON}.csv`);
+  const fetched = now.toISOString();
+  if (pbp) {
+    adv = NV.advanced(pbp, "LV") ?? adv;
+    if (adv) adv.fetched = fetched;
+    if (ftn) tend = NV.tendencies(pbp, ftn, "LV") ?? tend;
+    // nflverse ids games by week and teams (2026_07_LA_LV); the site uses ESPN ids
+    const byWeek = Object.fromEntries(games.map(g => [g.week, g.id]));
+    const bd = NV.gameBreakdowns(pbp, "LV"), mapped = {};
+    for (const g of Object.values(bd)) if (byWeek[g.week]) mapped[byWeek[g.week]] = g;
+    breakdown = { fetched, throughWeek: adv?.throughWeek ?? null, games: mapped };
+  }
+  if (statsReg) {
+    playersOut = { fetched, throughWeek: adv?.throughWeek ?? playersOut?.throughWeek ?? null,
+      players: NV.players({ statsReg, pfrDef: pfr.def || [], pfrRec: pfr.rec || [], pfrRush: pfr.rush || [], pfrPass: pfr.pass || [], snaps: snaps || [] }, "LV") };
+    // Link each profile to the ESPN player page and jersey number from the ESPN roster when the names match
+    const espn = Object.fromEntries((roster || []).map(r => [NV.slug(r.name), r]));
+    for (const p of playersOut.players) { const r = espn[p.id]; if (r) { p.jersey = r.jersey ?? null; p.link = r.link ?? null; p.status = r.group; } }
+  }
+}
 
 let matchup = keep("matchup") || null;
 if (next && allStandings) {
@@ -229,9 +272,15 @@ const changed = {
   site: await save("site.json", site, prev.site),
   odds: await save("odds.json", odds, prev.odds),
   news: await save("news.json", { updated: now.toISOString(), items: newsItems }, prev.news),
-  stats: await save("stats.json", { updated: now.toISOString(), season: SEASON, team: teamStats, players, roster }, prev.stats),
+  stats: await save("stats.json", { updated: now.toISOString(), season: SEASON, team: teamStats, players, roster, advanced: adv, tendencies: tend }, prev.stats),
   games: await save("games.json", { updated: now.toISOString(), games: gameDetails }, prev.games),
   media: await save("media.json", media, prev.media),
   history: await save("history.json", history, prev.history),
+  players: playersOut ? await save("players.json", playersOut, prevPlayers) : false,
+  breakdown: breakdown ? await save("breakdown.json", breakdown, prevBreakdown) : false,
 };
+// Tell the workflow when to run again (see P.nextWait); outside game windows the hourly cron is all there is.
+const wait = P.nextWait(next, now);
+if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `wait=${wait ?? ""}\n`);
+log("next run", wait == null ? "on cron" : `in ${Math.round(wait / 60)} min`);
 log("done", { changed: Object.keys(changed).filter(k => changed[k]), failed: Object.entries(status).filter(([, s]) => !s.ok).map(([k]) => k) });

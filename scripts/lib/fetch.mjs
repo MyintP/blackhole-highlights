@@ -13,7 +13,7 @@ export async function get(url, { type = "json", tries = 3, timeout = 20000 } = {
       const r = await fetch(url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(timeout) });
       // 4xx other than 429 won't fix itself on retry
       if (!r.ok) { err = new Error(`${r.status} ${redact(url)}`); if (r.status < 500 && r.status !== 429) break; }
-      else return type === "json" ? await r.json() : await r.text();
+      else return type === "json" ? await r.json() : type === "buffer" ? Buffer.from(await r.arrayBuffer()) : await r.text();
     } catch (e) { err = new Error(`${e.name === "TimeoutError" ? "timeout" : e.message} ${redact(url)}`); }
     if (i < tries - 1) await sleep(1000 * 2 ** i);
   }

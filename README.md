@@ -11,8 +11,9 @@ Live site: https://myintp.github.io/blackhole-highlights/ (GitHub Pages from the
 |---|---|
 | `index.html` Home | Hero with next-game scoreboard, top stories, game week (pick, odds, injuries), team dashboard, schedule strip, media |
 | `news.html` News | Every story, grouped by day; filter by topic, type (Official / Reporting / Opinion / Rumor), source and keywords. Filters live in the URL |
-| `games.html` Game Center | Next game, pick, odds and line movement, both injury reports, tale of the tape, full schedule, results with box scores and recaps |
-| `stats.html` Stats | AFC and AFC West standings, team stats with NFL ranks, player leaders, searchable roster, records since 2016 |
+| `games.html` Game Center | Next game (live score during the game), pick, odds and line movement, both injury reports, tale of the tape, full schedule, results with box scores, a play-by-play breakdown (efficiency, scoring plays, biggest win-probability swings, drives) and recaps |
+| `stats.html` Stats | AFC and AFC West standings, team stats with NFL ranks, advanced (EPA, success rate, QB EPA and CPOE), scheme tendencies (motion, play action, shotgun, blitz rate, box counts), player leaders, searchable roster, records since 2016 |
+| `players.html` Players | A profile for every Raider who has played: box-score stats with NFL ranks, snap share, coverage allowed, pass rush, tackling, yards after contact, drops. `?p=<slug>` links to one player |
 | `media.html` Media | Channel videos, official Raiders podcasts, ESPN Raiders video |
 | `search.html` Search | Stories, players, games and pages (`?q=`) |
 | `about.html` About | Purpose, editorial labels, data sources, live source status, contact |
@@ -31,14 +32,16 @@ Old home-page anchors still work: `#news`, `#gameweek`, `#odds`, `#pick`, `#inju
 | `site.json` | schedule, results, standings, next game, injuries, matchup, leaders, source status | ESPN |
 | `odds.json` | current line, opening line, closing lines, ATS and over/under record | ESPN (DraftKings) |
 | `news.json` | 180-day story archive with type, topic and duplicate grouping | Raiders.com, Review-Journal, ESPN, Silver & Black Pride, RaidersBeat (RSS) |
-| `stats.json` | team stats with ranks, player leaders, roster | ESPN |
+| `stats.json` | team stats with ranks, player leaders, roster; `advanced` and `tendencies` | ESPN; nflverse play-by-play and FTN charting |
 | `games.json` | box score, line score, leaders and recap link per finished game (fetched once) | ESPN |
 | `media.json` | channel videos, podcasts, ESPN video | YouTube, Raiders.com, ESPN |
 | `history.json` | regular-season records since 2016 (fetched once) | ESPN |
+| `players.json` | every player's season stats with NFL ranks, snaps and charting | nflverse (stats_player, snap_counts, PFR advanced stats) |
+| `breakdown.json` | per finished game: unit efficiency, scoring plays, top win-probability swings, drives, field goals | nflverse play-by-play |
 | `editorial.json` | **hand-written**: headline, lede, Pundit's Pick, keys, milestones | us |
 
-- **Automation:** `.github/workflows/update.yml` runs the updater every hour at :07 and commits only when data changed. `.github/workflows/ci.yml` runs the tests and checks on every push and pull request.
-- **Reliability:** each feed has a timeout and retries with backoff. A failed feed keeps its last good data and is listed in `site.json` `sources`; pages then show a notice. Pages also show a notice when the hourly job hasn't succeeded for 3 hours (via the public GitHub API), skeletons while loading, and a retry button if data can't load.
+- **Automation:** `.github/workflows/update.yml` runs the updater every hour at :07 and commits only when data changed. GitHub runs that cron late (every 3-6 hours on this repo), so from 18 hours before kickoff the job re-runs itself: hourly through the odds window, every 10 minutes during the game, until 4.5 hours after kickoff (`nextWait` in `scripts/lib/parse.mjs`). nflverse files are fetched at most every 12 hours (`scripts/lib/nflverse.mjs`, about 15 MB in all). `.github/workflows/ci.yml` runs the tests and checks on every push and pull request.
+- **Reliability:** each feed has a timeout and retries with backoff. A failed feed keeps its last good data and is listed in `site.json` `sources`; pages then show a notice. Pages also show a notice when the update job hasn't succeeded for 2 hours around a game or 8 hours otherwise (via the public GitHub API), skeletons while loading, and a retry button if data can't load.
 
 ## Odds timing
 Lines are captured every hour from **12 hours before kickoff to 1 hour before**. The last capture is the closing line, used to
@@ -55,6 +58,11 @@ Until then the site shows an automatic headline and "the pick drops before kicko
 - `node scripts/check-site.mjs` checks links, anchors, page metadata, data shape, secrets and placeholder text.
 - `python -m http.server 8765` previews at http://127.0.0.1:8765/ (pages can't load data from `file://`).
 - Run the hourly job on demand: GitHub, Actions tab, "Update data", "Run workflow".
+
+## Advanced data limits
+- nflverse updates the morning after games, so Players, Advanced and the play-by-play breakdown lag ESPN's box scores by up to a day.
+- Coverage shells (Cover 2, Cover 3, man/zone) aren't in any free 2026 source (nflverse's participation file stops at 2024; PFF and Next Gen Stats are paid). The site shows what is charted for free instead.
+- Charting (coverage allowed, pressures, missed tackles, drops) is Pro Football Reference's film review: a judgement, not a measurement.
 
 ## Configuration
 - Optional repo secret `YT_API_KEY` (YouTube Data API v3). YouTube blocks its RSS feed for GitHub's servers, so channel videos only update automatically with this key. Everything else needs no keys.

@@ -6,14 +6,16 @@ const PAGES = [
   { title: "Home", href: "./", text: "top stories game week dashboard schedule media" },
   { title: "News", href: "news.html", text: "latest stories injuries roster moves analysis rumors official" },
   { title: "Game Center", href: "games.html", text: "next game schedule results box scores odds betting lines injury report tale of the tape" },
-  { title: "Stats", href: "stats.html", text: "standings team stats player leaders roster history seasons" },
+  { title: "Stats", href: "stats.html", text: "standings team stats advanced epa success rate tendencies blitz motion play action player leaders roster history seasons" },
+  { title: "Players", href: "players.html", text: "player profiles stats snaps coverage pass rush pressures missed tackles drops interceptions sacks" },
   { title: "Media", href: "media.html", text: "videos podcasts youtube highlights" },
   { title: "About", href: "about.html", text: "sources editorial approach contact corrections disclaimer" },
 ];
 
 A.initChrome();
 A.runPage($("page-error"), async () => {
-  const d = await A.loadAll(["news"], ["stats", "site"]);
+  const d = await A.loadAll(["news"], ["stats", "site", "players"]);
+  const profiles = new Set((d.players?.players || []).map(p => p.id));
   const data = { news: d.news.items || [], roster: d.stats?.roster || [], games: d.site?.schedule?.games || [], pages: PAGES };
   A.dataNotice(d.site);
 
@@ -26,7 +28,7 @@ A.runPage($("page-error"), async () => {
     const block = (title, html) => `<div class="sub-head"><h2 class="panel-title" style="border:0;margin:0">${esc(title)}</h2></div>${html}`;
     let html = "";
     if (r.players.length) html += block(`Players (${r.players.length})`, `<div class="table-wrap"><table><thead><tr><th scope="col">Player</th><th scope="col">Pos</th><th scope="col">Group</th></tr></thead><tbody>${r.players.slice(0, 10).map(p =>
-      `<tr><td>${p.link ? `<a class="ext" href="${L.url(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.jersey ? ` <small>#${esc(p.jersey)}</small>` : ""}</td><td>${esc(p.pos)}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")}</tbody></table></div>`);
+      `<tr><td>${profiles.has(L.slug(p.name)) ? `<a href="players.html?p=${encodeURIComponent(L.slug(p.name))}">${esc(p.name)}</a>` : p.link ? `<a class="ext" href="${L.url(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.jersey ? ` <small>#${esc(p.jersey)}</small>` : ""}</td><td>${esc(p.pos)}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")}</tbody></table></div>`);
     if (r.games.length) html += block(`Games (${r.games.length})`, `<ul class="stories compact">${r.games.map(g =>
       `<li class="story"><div class="story-meta"><span>Week ${esc(g.week)}</span><span>${esc(L.short(g.date))}</span></div><h3><a href="games.html${g.final ? "#g-" + esc(g.id) : "#schedule"}">${esc(L.gameLabel(g))}${g.final ? " · " + esc(L.resultText(g)) : ""}</a></h3></li>`).join("")}</ul>`);
     if (r.stories.length) html += block(`Stories (${r.stories.length})`, `<ul class="stories">${r.stories.slice(0, 30).map(i => A.storyHTML(i)).join("")}</ul>${r.stories.length > 30 ? `<p class="note"><a href="news.html?q=${encodeURIComponent(q)}">See all ${r.stories.length} stories in News</a></p>` : ""}`);

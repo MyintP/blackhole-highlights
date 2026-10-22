@@ -1,0 +1,31 @@
+<!--
+{"file": "players.html", "nav": "players", "script": "players",
+ "title": "Raiders players: every player's stats, snaps, coverage and pass rush · Black Hole Highlights",
+ "description": "A profile for every Las Vegas Raider who has played this season: box-score stats with NFL ranks, snap counts, coverage allowed, pressures, missed tackles, yards after contact and drops."}
+-->
+<div class="page-head">
+  <div class="wrap">
+    <span class="eyebrow" id="pl-season">Players</span>
+    <h1>Players</h1>
+    <p>Every Raider who has taken a snap this season. Box-score stats with NFL ranks, snap counts, and charting: coverage allowed, pressures, missed tackles, yards after contact and drops. Updated daily from nflverse.</p>
+  </div>
+</div>
+<div class="wrap" id="page-error"></div>
+
+<section aria-labelledby="pl-h" class="tight">
+  <div class="wrap">
+    <h2 id="pl-h" class="vh">Player profiles</h2>
+    <form class="filters" id="pl-filters" role="search" aria-label="Find a player">
+      <div class="field">
+        <label for="pl-q">Search</label><input class="input grow" id="pl-q" type="search" placeholder="Name or position" autocomplete="off">
+        <label for="pl-unit">Unit</label><select class="input" id="pl-unit"><option value="">All</option><option>Offense</option><option>Defense</option><option>Special teams</option></select>
+        <label for="pl-sort">Sort</label><select class="input" id="pl-sort"><option value="pos">Position</option><option value="snaps">Snaps</option><option value="name">Name</option></select>
+      </div>
+    </form>
+    <div class="pl-layout">
+      <div class="pl-list" id="pl-list" aria-label="Players"><span class="sk t"></span></div>
+      <article class="pl-profile" id="pl-profile" aria-live="polite"><span class="sk t"></span></article>
+    </div>
+    <p class="note">Box-score stats, snap counts and charting from <a class="ext" href="https://github.com/nflverse/nflverse-data" target="_blank" rel="noopener">nflverse</a> (CC BY 4.0), which compiles NFL play-by-play and Pro Football Reference charting. Ranks are among every NFL player with at least one in that stat. Charting is judged by people watching film, so treat it as a guide.</p>
+  </div>
+</section>
