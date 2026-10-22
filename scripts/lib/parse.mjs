@@ -99,6 +99,9 @@ export function mergeNews(archive, fresh, { now = new Date(), maxDays = 180, max
 }
 
 // ---------- schedule, standings, history ----------
+// ESPN status names: STATUS_POSTPONED, STATUS_CANCELED, STATUS_SUSPENDED (a weather delay is STATUS_DELAYED and still live)
+export const isPostponed = st => /POSTPONED|CANCELED|CANCELLED|SUSPENDED/.test(st?.name || "");
+
 export function mapEvent(e, team = TEAM) {
   const c = e.competitions[0], st = c.status.type;
   const us = c.competitors.find(x => x.team.id === team), them = c.competitors.find(x => x.team.id !== team);
@@ -109,7 +112,7 @@ export function mapEvent(e, team = TEAM) {
     home: us.homeAway === "home",
     opp: { id: them.team.id, name: them.team.shortDisplayName, location: them.team.location, abbr: them.team.abbreviation },
     tv: (c.broadcasts || []).map(b => b.media?.shortName).filter(Boolean).join(" / ") || null,
-    state: st.state, final: !!st.completed, detail: st.state === "in" ? st.shortDetail || null : null,
+    state: st.state, final: !!st.completed, detail: st.state === "in" ? st.shortDetail || null : null, postponed: isPostponed(st),
     score: scored ? { us: sc(us), them: sc(them) } : null,
     win: st.completed ? (sc(us) === sc(them) ? null : !!us.winner) : null,
     tie: st.completed && sc(us) === sc(them),
@@ -127,18 +130,44 @@ export function liveFrom(summary, team = TEAM) {
 }
 
 // How long the update job should wait before running itself again, in seconds, or null to leave it to the
-// (best-effort, often hours-late) cron. Chains from 18h before kickoff: hourly through the odds window with a
-// last capture just before it closes, then every 10 minutes for live scores until 4.5h after kickoff.
-export function nextWait(g, now = new Date()) {
-  if (!g || g.timeTBD || g.final) return null;
-  const M = 6e4, t = now.getTime(), kick = new Date(g.date).getTime();
-  const open = kick - 12 * 60 * M, close = kick - 60 * M;
-  if (isNaN(kick) || t < kick - 18 * 60 * M || t > kick + 270 * M) return null;
-  let wait;
-  if (t < open) wait = Math.min(open - t + 2 * M, 60 * M);
-  else if (t < close) wait = close - t > 65 * M ? 60 * M : Math.max(close - t - 3 * M, M);
-  else wait = 10 * M;
-  return Math.round(wait / 1000);
+// (best-effort, often hours-late) cron. Chains from 18h before a Raiders kickoff: hourly through the odds window
+// with a last capture just before it closes, then every 10 minutes for live scores until 4.5h after kickoff.
+// `others` are kickoff times of the week's other AFC West games: 10 minutes while one is on, for the scores strip.
+export function nextWait(g, now = new Date(), others = []) {
+  const M = 6e4, t = now.getTime(), waits = [];
+  if (g && !g.timeTBD && !g.final) {
+    const kick = new Date(g.date).getTime(), open = kick - 12 * 60 * M, close = kick - 60 * M;
+    if (!isNaN(kick) && t >= kick - 18 * 60 * M && t <= kick + 270 * M) {
+      if (t < open) waits.push(Math.min(open - t + 2 * M, 60 * M));
+      else if (t < close) waits.push(close - t > 65 * M ? 60 * M : Math.max(close - t - 3 * M, M));
+      else waits.push(10 * M);
+    }
+  }
+  for (const d of others) {
+    const k = new Date(d).getTime();
+    if (isNaN(k)) continue;
+    if (t >= k && t <= k + 270 * M) waits.push(10 * M);
+    else if (t < k && k - t <= 60 * M) waits.push(Math.max(k - t + M, M)); // first check just after kickoff
+  }
+  return waits.length ? Math.round(Math.min(...waits) / 1000) : null;
+}
+
+// This week's games involving `teams` (ESPN ids) from the league scoreboard, plus which of them are on bye.
+export function mapScoreboard(json, teams) {
+  const sc = x => { const v = Number(x?.score?.value ?? x?.score); return isNaN(v) ? null : v; };
+  const games = (json?.events || []).flatMap(e => {
+    const c = e.competitions?.[0], st = c?.status?.type;
+    if (!c || !st || !c.competitors?.some(x => teams.includes(x.team?.id))) return [];
+    const side = ha => { const x = c.competitors.find(y => y.homeAway === ha); return { id: x?.team?.id, abbr: x?.team?.abbreviation, score: st.state === "pre" ? null : sc(x), winner: !!x?.winner }; };
+    return [{
+      id: e.id, date: e.date, state: st.state, final: !!st.completed, detail: st.shortDetail || null,
+      postponed: isPostponed(st),
+      away: side("away"), home: side("home"),
+      link: (e.links || []).find(l => (l.rel || []).includes("summary"))?.href || null,
+    }];
+  }).sort((a, b) => new Date(a.date) - new Date(b.date));
+  const byes = (json?.week?.teamsOnBye || []).filter(t => teams.includes(t.id)).map(t => t.abbreviation);
+  return { week: json?.week?.number ?? null, games, byes };
 }
 
 export function seasonRecord(events, team = TEAM) {
@@ -287,14 +316,17 @@ export function snapshot(summ, next, now = new Date()) {
 }
 
 // Grade closing lines against final scores, then total them on top of the published Weeks 1-6 baseline.
+// Regraded on every run from the current final score, so a stat correction to a score flows through. Games that
+// aren't final (scheduled, live, postponed) and games without a captured line aren't graded or counted.
 export function grade(odds, games) {
   for (const g of games) {
     const h = odds.closing[g.id];
-    if (!g.final || !h || h.result) continue;
-    const margin = g.score.us - g.score.them, pts = g.score.us + g.score.them, sp = num(h.spread);
+    if (!g.final || !h || !g.score) continue;
+    const margin = g.score.us - g.score.them, pts = g.score.us + g.score.them, sp = num(h.spread), tot = num(h.total);
+    h.final = { us: g.score.us, them: g.score.them };
     h.result = {
-      ats: sp == null ? null : margin + sp > 0 ? "W" : margin + sp < 0 ? "L" : "P",
-      ou: h.total == null ? null : pts > h.total ? "O" : pts < h.total ? "U" : "P",
+      ats: sp == null || isNaN(sp) ? null : margin + sp > 0 ? "W" : margin + sp < 0 ? "L" : "P",
+      ou: tot == null || isNaN(tot) ? null : pts > tot ? "O" : pts < tot ? "U" : "P",
     };
   }
   const ats = [...odds.baseline.ats], ou = [...odds.baseline.ou];

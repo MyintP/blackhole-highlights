@@ -121,3 +121,95 @@ export const KINDS = {
   Rumor: "Unconfirmed: speculation or a report not confirmed by the team.",
 };
 export const CATS = ["Games", "Injuries", "Roster", "Coaching", "Draft", "Analysis", "Team"];
+
+// ---------- game-week strip ----------
+// Which game the strip is about, and in what state, from the schedule and the time. Never "live" without a live
+// status from the feed: a game past kickoff with no live data reads "kickoff", and past 4.5h "awaiting final".
+const HR = 36e5;
+export function stripState(site, now = Date.now()) {
+  const n = site?.next || null, last = site?.last || null;
+  if (!n) return last ? { kind: "done", game: last } : { kind: "none" };
+  if (n.postponed) return { kind: "postponed", game: n };
+  const kick = new Date(n.date).getTime(), age = now - new Date(site.updated).getTime();
+  if (n.state === "in") return { kind: "live", game: n, stale: age > 25 * 6e4 };
+  if (!n.timeTBD && now >= kick) return { kind: now > kick + 4.5 * HR ? "awaiting" : "kickoff", game: n };
+  const lastKick = last ? new Date(last.date).getTime() : null;
+  // Recent result first: until 3.5 days after the last kickoff, unless the next game is less than a day away
+  if (last?.final && now - lastKick < 84 * HR && kick - now > 24 * HR) return { kind: "post", game: last, next: n };
+  if (last && n.week - last.week > 1 && kick - now > 7 * 864e5) return { kind: "bye", game: n, week: last.week + 1 };
+  return { kind: "pre", game: n };
+}
+
+// ---------- stat of the day ----------
+// Day in Pacific time ("2026-10-23"), so the pick changes at midnight PT for everyone.
+export const ptDate = (d = Date.now()) => { const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date(d)).map(x => [x.type, x.value])); return `${p.year}-${p.month}-${p.day}`; };
+const hash = s => { let h = 2166136261; for (const c of String(s)) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
+
+// How a stat reads in a sentence ("14 touchdown passes"). Stats without a phrase aren't used as headline facts.
+const PHRASE = {
+  passing_yards: "passing yards", passing_tds: "touchdown passes", passing_first_downs: "passing first downs",
+  rushing_yards: "rushing yards", rushing_tds: "rushing touchdowns", rushing_first_downs: "rushing first downs",
+  receptions: "catches", targets: "targets", receiving_yards: "receiving yards", receiving_tds: "receiving touchdowns",
+  receiving_yards_after_catch: "yards after the catch", receiving_first_downs: "receiving first downs",
+  def_tackles_solo: "solo tackles", def_tackles_for_loss: "tackles for loss", def_sacks: "sacks", def_qb_hits: "QB hits",
+  def_interceptions: "interceptions", def_pass_defended: "passes defended", def_fumbles_forced: "forced fumbles",
+  fumble_recovery_opp: "fumble recoveries", def_tds: "defensive touchdowns", kickoff_return_yards: "kickoff return yards",
+  punt_return_yards: "punt return yards", fg_made: "field goals", pt_inside_20: "punts inside the 20",
+};
+const n0 = v => Number(v).toLocaleString("en-US");
+
+// Every candidate is built from the published data and carries its source and date range. Kinds rotate by day.
+export function statCandidates({ players, stats, history, site } = {}) {
+  const thru = players?.throughWeek, season = site?.season ?? stats?.season;
+  const range = thru ? `${season} regular season through Week ${thru}` : `${season} season`;
+  const out = { player: [], quiz: [], team: [], history: [] };
+  const list = players?.players || [];
+  const rk = s => (s.tied ? "tied for " : "") + ordinal(s.rank);
+  for (const p of list) for (const [group, rows] of Object.entries(p.stats || {})) for (const s of rows) {
+    // whole tie group inside the top 10, so "tied for 1st" never hides a 40-way tie
+    if (PHRASE[s.k] && s.rank && s.v > 0 && s.rank + (s.tied || 1) - 1 <= 10) out.player.push({
+      id: `p:${p.id}:${s.k}`, kind: "Player stat", big: n0(s.v), unit: PHRASE[s.k], who: p.name,
+      text: `${p.name} has ${n0(s.v)} ${PHRASE[s.k]}, ${rk(s)} in the NFL.`, link: `players.html?p=${encodeURIComponent(p.id)}`,
+      source: `nflverse player stats (${group.toLowerCase()}), ${range}`,
+    });
+  }
+  const QUIZ = [["Defense", "def_qb_hits", "QB hits"], ["Defense", "def_sacks", "sacks"], ["Defense", "def_interceptions", "interceptions"],
+    ["Defense", "def_tackles_solo", "solo tackles"], ["Receiving", "receiving_yards", "receiving yards"], ["Receiving", "receptions", "catches"], ["Rushing", "rushing_yards", "rushing yards"]];
+  for (const [group, k, label] of QUIZ) {
+    const ranked = list.map(p => ({ p, v: p.stats?.[group]?.find(s => s.k === k)?.v ?? 0 })).filter(x => x.v > 0).sort((a, b) => b.v - a.v);
+    if (!ranked.length || (ranked[1] && ranked[0].v === ranked[1].v)) continue; // no clear leader, no question
+    out.quiz.push({ id: `q:${k}`, kind: "Quiz", question: `Who leads the Raiders in ${label}?`, big: n0(ranked[0].v), unit: label, who: ranked[0].p.name,
+      text: `${ranked[0].p.name} leads the team with ${n0(ranked[0].v)} ${label}. ${ranked[1] ? `Next: ${ranked[1].p.name}, ${n0(ranked[1].v)}.` : "No other Raider has one yet."}`, link: `players.html?p=${encodeURIComponent(ranked[0].p.id)}`,
+      source: `nflverse player stats, ${range}` });
+  }
+  const adv = stats?.advanced, advRange = adv?.throughWeek ? `${season} regular season through Week ${adv.throughWeek}` : range;
+  for (const m of adv?.metrics || []) if (m.rank && (m.rank <= 8 || m.rank >= 25)) out.team.push({
+    id: `t:${m.side}:${m.key}`, kind: "Team trend", big: ordinal(m.rank), unit: m.label, who: "Raiders " + (m.side === "off" ? "offense" : "defense"),
+    text: `The Raiders rank ${ordinal(m.rank)} of 32 in ${m.label.replace(/^Success/, "success")} (${m.key === "sr" ? pctText(m.v) : epaText(m.v)}; NFL average ${m.key === "sr" ? pctText(m.nfl) : epaText(m.nfl)}).`,
+    link: "stats.html#advanced", source: `nflverse play-by-play (EPA model: nflfastR), ${advRange}` });
+  for (const r of stats?.tendencies?.rows || []) if (r.rank && (r.rank <= 5 || r.rank >= 28)) out.team.push({
+    id: `t:tend:${r.key}`, kind: "Team trend", big: ordinal(r.rank), unit: r.label, who: "Raiders " + (r.side === "off" ? "offense" : "defense"),
+    // rank 1 = does it most; near the bottom it reads better as "fewest" (32nd highest = fewest)
+    text: `${r.label}: ${r.fmt === "pct" ? pctText(r.v) : r.v.toFixed(1)}, ${r.rank <= 5 ? (r.rank === 1 ? "the most" : `${ordinal(r.rank)} most`) : (r.rank === 32 ? "the fewest" : `${ordinal(33 - r.rank)} fewest`)} in the NFL (average ${r.fmt === "pct" ? pctText(r.nfl) : r.nfl.toFixed(1)}).`,
+    link: "stats.html#advanced", source: `FTN charting via nflverse, ${advRange}` });
+  // History: this season's scoring pace against each full season since the oldest on record
+  const ppg = stats?.team?.find(t => t.key === "totalPointsPerGame")?.v, past = (history?.seasons || []).filter(s => s.w + s.l + s.t > 0);
+  if (ppg && past.length) {
+    const better = past.filter(s => s.pf / (s.w + s.l + s.t) >= ppg).sort((a, b) => b.year - a.year)[0];
+    const oldest = Math.min(...past.map(s => s.year));
+    out.history.push({ id: "h:ppg", kind: "History", big: Number(ppg).toFixed(1), unit: "points per game", who: `${season} Raiders`,
+      text: better ? `The Raiders are scoring ${Number(ppg).toFixed(1)} points a game, their most since ${better.year} (${(better.pf / (better.w + better.l + better.t)).toFixed(1)}).`
+        : `The Raiders are scoring ${Number(ppg).toFixed(1)} points a game, more than in any full season since at least ${oldest}.`,
+      link: "stats.html#history", source: `ESPN team stats (${season} to date) and ESPN season records ${oldest}-${season - 1}` });
+  }
+  return out;
+}
+
+// One pick per Pacific day: the kind rotates by day number, the item within it by a hash of the date.
+export function statOfDay(cands, date = ptDate()) {
+  const kinds = ["player", "quiz", "team", "history"].filter(k => cands?.[k]?.length);
+  if (!kinds.length) return null;
+  const dayNum = Math.floor(Date.parse(date + "T12:00:00Z") / 864e5);
+  const list = cands[kinds[dayNum % kinds.length]];
+  return { ...list[hash(date) % list.length], date };
+}

@@ -39,10 +39,10 @@ function summary(p) {
 
 const rankText = s => (s.tied ? "T-" : "") + L.ordinal(s.rank);
 
-// Headline facts: the stats where this player ranks near the top of the league (not shared with half the league).
+// Headline facts: the stats where this player ranks near the top of the league, ties included.
 function facts(p) {
   const out = [];
-  for (const rows of Object.values(p.stats || {})) for (const s of rows) if (s.rank && s.rank <= 25 && s.v > 0 && !(s.tied > 5)) out.push(s);
+  for (const rows of Object.values(p.stats || {})) for (const s of rows) if (s.rank && s.v > 0 && s.rank + (s.tied || 1) - 1 <= 25) out.push(s); // whole tie group inside the top 25
   return out.sort((a, b) => a.rank - b.rank).slice(0, 4);
 }
 

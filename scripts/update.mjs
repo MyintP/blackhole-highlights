@@ -63,11 +63,18 @@ const prev = {
 const keep = k => clone(prev.site?.[k]);
 
 // ---------- schedule, standings, games ----------
+// A feed that answers with nothing (or far less than last time) is treated as failed, so its last good data is kept
+// instead of an empty page being published. Throwing inside source() records the failure and returns the fallback.
+const nonEmpty = (name, list, prevList, min = 1) => {
+  const n = list?.length ?? 0, p = prevList?.length ?? 0;
+  if (n < min || (p >= 10 && n < p / 2)) throw new Error(`${name}: ${n} records (last good run had ${p}); keeping the last good data`);
+  return list;
+};
 const sched = await source("schedule", async () => {
   const j = await get(`${SITE}/teams/lv/schedule?season=${SEASON}`);
-  return { bye: j.byeWeek ?? null, games: j.events.map(e => P.mapEvent(e)) };
+  return { bye: j.byeWeek ?? null, games: nonEmpty("schedule", (j.events || []).map(e => P.mapEvent(e)), prev.site?.schedule?.games) };
 }, keep("schedule"));
-const allStandings = await source("standings", async () => P.mapStandings(await get(`https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=${SEASON}`)), null);
+const allStandings = await source("standings", async () => nonEmpty("standings", P.mapStandings(await get(`https://site.api.espn.com/apis/v2/sports/football/nfl/standings?season=${SEASON}`)), null, 32), null);
 const byId = Object.fromEntries((allStandings || []).map(r => [r.id, r]));
 
 const games = sched?.games || [];
@@ -89,9 +96,12 @@ for (const g of games.filter(g => g.final && !gameDetails[g.id]?.recap)) {
 for (const id of Object.keys(gameDetails)) if (!games.some(g => g.id === id)) delete gameDetails[id];
 
 // ---------- team stats, players, injuries ----------
-const roster = await source("roster", async () => P.mapRoster(await get(`${SITE}/teams/${TEAM}/roster`)), clone(prev.stats?.roster) || []);
-const teamStats = await source("team stats", async () => P.mapTeamStats(await get(`${CORE}/seasons/${SEASON}/types/2/teams/${TEAM}/statistics`)), clone(prev.stats?.team) || []);
-const players = await source("player stats", async () => P.mapPlayerLeaders(await get(`${CORE}/seasons/${SEASON}/types/2/teams/${TEAM}/leaders`), roster), clone(prev.stats?.players) || []);
+const roster = await source("roster", async () => nonEmpty("roster", P.mapRoster(await get(`${SITE}/teams/${TEAM}/roster`)), prev.stats?.roster, 40), clone(prev.stats?.roster) || []);
+const teamStats = await source("team stats", async () => nonEmpty("team stats", P.mapTeamStats(await get(`${CORE}/seasons/${SEASON}/types/2/teams/${TEAM}/statistics`)), prev.stats?.team), clone(prev.stats?.team) || []);
+const players = await source("player stats", async () => nonEmpty("player stats", P.mapPlayerLeaders(await get(`${CORE}/seasons/${SEASON}/types/2/teams/${TEAM}/leaders`), roster), prev.stats?.players), clone(prev.stats?.players) || []);
+
+// This week's AFC West games for the scores strip
+const week = await source("scoreboard", async () => P.mapScoreboard(await get(`${SITE}/scoreboard`), AFC_WEST), keep("week") || null);
 
 // nflverse (twice a day): EPA and tendencies for the Stats page, a profile for every player, a play-level breakdown
 // of each game. Each file is fetched on its own, so one missing release only blanks the part that needs it.
@@ -123,14 +133,18 @@ if (nvDue && (!nflverseTried || now - new Date(nflverseTried) > H)) {
     const byWeek = Object.fromEntries(games.map(g => [g.week, g.id]));
     const bd = NV.gameBreakdowns(pbp, "LV"), mapped = {};
     for (const g of Object.values(bd)) if (byWeek[g.week]) mapped[byWeek[g.week]] = g;
-    breakdown = { fetched, throughWeek: adv?.throughWeek ?? null, games: mapped };
+    // Merge over the last good file: a game is replaced when the new file has it, never dropped when it doesn't
+    breakdown = { fetched, throughWeek: adv?.throughWeek ?? breakdown?.throughWeek ?? null, games: { ...(breakdown?.games || {}), ...mapped } };
   }
   if (statsReg) {
-    playersOut = { fetched, throughWeek: adv?.throughWeek ?? playersOut?.throughWeek ?? null,
-      players: NV.players({ statsReg, pfrDef: pfr.def || [], pfrRec: pfr.rec || [], pfrRush: pfr.rush || [], pfrPass: pfr.pass || [], snaps: snaps || [] }, "LV") };
-    // Link each profile to the ESPN player page and jersey number from the ESPN roster when the names match
-    const espn = Object.fromEntries((roster || []).map(r => [NV.slug(r.name), r]));
-    for (const p of playersOut.players) { const r = espn[p.id]; if (r) { p.jersey = r.jersey ?? null; p.link = r.link ?? null; p.status = r.group; } }
+    const list = await source("nflverse player profiles", async () => nonEmpty("player profiles",
+      NV.players({ statsReg, pfrDef: pfr.def || [], pfrRec: pfr.rec || [], pfrRush: pfr.rush || [], pfrPass: pfr.pass || [], snaps: snaps || [] }, "LV"), prevPlayers?.players, 20), null);
+    if (list) {
+      playersOut = { fetched, throughWeek: adv?.throughWeek ?? playersOut?.throughWeek ?? null, players: list };
+      // Link each profile to the ESPN player page and jersey number from the ESPN roster when the names match
+      const espn = Object.fromEntries((roster || []).map(r => [NV.slug(r.name), r]));
+      for (const p of playersOut.players) { const r = espn[p.id]; if (r) { p.jersey = r.jersey ?? null; p.link = r.link ?? null; p.status = r.group; } }
+    }
   }
 }
 
@@ -239,7 +253,11 @@ if (next) {
     const snap = P.snapshot(nextSumm, next, now);
     if (snap) {
       odds.current = snap;
-      odds.closing[next.id] = { week: next.week, spread: snap.us.spread, total: snap.total.line, asOf: snap.asOf, book: snap.book };
+      // Every capture is kept (about 12 a game) so line movement can be shown and the closing line audited.
+      const hist = ((odds.history ||= {})[next.id] ||= []);
+      hist.push({ asOf: snap.asOf, spread: snap.us.spread, spreadOdds: snap.us.spreadOdds, ml: snap.us.ml, oppMl: snap.them.ml, total: snap.total.line, book: snap.book });
+      if (hist.length > 30) hist.splice(0, hist.length - 30);
+      odds.closing[next.id] = { week: next.week, opp: next.opp.abbr, spread: snap.us.spread, ml: snap.us.ml, total: snap.total.line, asOf: snap.asOf, book: snap.book, captures: hist.length };
       log("odds snapshot", snap.us.spread, snap.total.line);
     } else log("odds: no lines posted yet");
   } else log("odds: outside window", odds.window.opens, "to", odds.window.closes);
@@ -265,6 +283,7 @@ const site = {
   } : null,
   last: last ? { ...last, leaders: lastDetail?.leaders?.us ?? [], recap: lastDetail?.recap ?? null } : null,
   schedule: sched,
+  week,
   standings: west.length ? { west, afc } : keep("standings"),
   matchup,
   injuries,
@@ -285,7 +304,7 @@ const changed = {
   breakdown: breakdown ? await save("breakdown.json", breakdown, prevBreakdown) : false,
 };
 // Tell the workflow when to run again (see P.nextWait); outside game windows the hourly cron is all there is.
-const wait = P.nextWait(next, now);
+const wait = P.nextWait(next, now, (week?.games || []).filter(g => g.id !== next?.id && !g.final && !g.postponed).map(g => g.date));
 if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `wait=${wait ?? ""}\n`);
 log("next run", wait == null ? "on cron" : `in ${Math.round(wait / 60)} min`);
 log("done", { changed: Object.keys(changed).filter(k => changed[k]), failed: Object.entries(status).filter(([, s]) => !s.ok).map(([k]) => k) });

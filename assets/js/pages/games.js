@@ -19,7 +19,8 @@ A.runPage($("page-error"), async () => {
     A.liveBoard($("board"), site, ed);
   } else $("board").innerHTML = A.empty("No upcoming game. The season is complete.");
   $("pick").innerHTML = A.pickHTML(n, ed);
-  $("odds").innerHTML = A.oddsHTML(n, d.odds);
+  $("odds").innerHTML = A.oddsHTML(n, d.odds) + A.lineHistoryHTML(d.odds, n);
+  $("ats").innerHTML = A.atsLogHTML(d.odds, site);
 
   const inj = site.injuries && n && site.injuries.gameId === n.id ? site.injuries : null;
   $("inj-us").innerHTML = inj ? A.injuriesHTML(inj.us) : A.empty("No report yet.");

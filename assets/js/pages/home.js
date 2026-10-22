@@ -4,7 +4,7 @@ const { $ } = A, { esc } = L;
 
 A.initChrome();
 A.runPage($("page-error"), async () => {
-  const d = await A.loadAll(["site", "news"], ["odds", "editorial", "stats", "media"]);
+  const d = await A.loadAll(["site", "news"], ["odds", "editorial", "stats", "media", "players", "history"]);
   const site = d.site, n = site.next, ed = d.editorial || {}, on = !!(n && ed.gameId === n.id);
   A.dataNotice(site);
 
@@ -65,6 +65,9 @@ A.runPage($("page-error"), async () => {
   // Media
   $("yt").innerHTML = A.videosHTML(d.media?.youtube);
   $("pods").innerHTML = A.linkListHTML((d.media?.podcasts || []).slice(0, 4));
+
+  // Stat of the day: one verified stat per Pacific day from the published datasets
+  A.mountStatOfDay($("sotd"), { players: d.players, stats: d.stats, history: d.history, site });
 });
 
 // Ambient accretion disk behind the hero (paused off screen and for reduced motion)

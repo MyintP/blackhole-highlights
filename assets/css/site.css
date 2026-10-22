@@ -366,3 +366,50 @@ section.tight{padding-top:24px}
 .plays .us .sc{color:var(--chrome)}
 @media (max-width:520px){.plays li{grid-template-columns:1fr auto}.plays .when{grid-column:1/-1}}
 
+
+/* ---------- Game-week strip + AFC West scores ---------- */
+.gamestrip{border-bottom:1px solid var(--line);background:var(--pitch);font-size:14px}
+.gamestrip .wrap{display:flex;align-items:center;gap:12px 24px;min-height:44px;padding-block:6px}
+.gs-head{display:flex;align-items:center;gap:10px;min-width:0}
+.gs-rail{display:flex;align-items:center;gap:8px 18px;flex:1;min-width:0}
+.gs-tag{font-family:var(--label);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:var(--silver);padding:2px 8px;display:inline-flex;align-items:center;gap:6px}
+.gs-tag.live{background:var(--loss);color:var(--ink)}
+.gs-tag .dot{width:7px;height:7px;border-radius:50%;background:var(--ink);animation:gs-pulse 1.6s ease-in-out infinite}
+@keyframes gs-pulse{50%{opacity:.25}}
+.gs-main b{font-weight:700;font-variant-numeric:tabular-nums}
+.gs-main small{color:var(--muted)}
+.gs-links{display:flex;gap:4px 14px;flex-wrap:wrap}
+.gs-links a{font-family:var(--label);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--silver);text-decoration:none;padding:6px 0;white-space:nowrap}
+.gs-links a:hover{color:var(--chrome);text-decoration:underline;text-underline-offset:3px}
+.gs-scores{display:flex;align-items:center;gap:8px;margin-left:auto;overflow-x:auto;scrollbar-width:none;flex:none;max-width:100%}
+.gs-scores::-webkit-scrollbar{display:none}
+.gs-score{display:grid;grid-template-columns:auto auto;gap:0 8px;padding:3px 10px;border:1px solid var(--line-2);text-decoration:none;font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--chrome)}
+a.gs-score:hover{border-color:var(--silver)}
+.gs-score .w{font-weight:700}
+.gs-score small{grid-column:1/-1;font-family:var(--label);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.gs-score.live{border-color:var(--loss)}
+.gs-score.bye{grid-template-columns:auto;color:var(--muted)}
+.gs-place{font-family:var(--label);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);white-space:nowrap;padding-left:4px}
+@media (max-width:900px){
+  .gamestrip .wrap{flex-direction:column;align-items:stretch;gap:4px}
+  .gs-main{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .gs-rail{overflow-x:auto;scrollbar-width:none;gap:14px}
+  .gs-rail::-webkit-scrollbar{display:none}
+  .gs-links{flex-wrap:nowrap;flex:none}
+  .gs-scores{margin-left:0;overflow:visible;max-width:none}
+}
+
+/* ---------- Stat of the day ---------- */
+.sotd-slot{margin-bottom:var(--gap)}
+.sotd{border:1px solid var(--line);background:var(--pitch);padding:20px 24px;display:grid;gap:10px;max-width:760px}
+.sotd-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sotd-head .panel-title{margin:0;border:0;padding:0}
+.sotd-big{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.sotd-big b{font-family:var(--display);font-weight:400;font-size:clamp(56px,8vw,88px);line-height:1}
+.sotd-big span{font-family:var(--label);font-weight:600;font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:var(--silver)}
+.sotd-who{font-weight:600}
+.sotd-q{font-family:var(--display);font-size:clamp(26px,3.6vw,36px);line-height:1.1}
+.sotd-a summary{cursor:pointer;font-family:var(--label);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--silver);min-height:44px;display:flex;align-items:center}
+.sotd-a[open] summary{margin-bottom:8px}
+.sotd-actions{display:flex;gap:10px;flex-wrap:wrap}
+.stack{display:grid;gap:var(--gap);align-content:start}
