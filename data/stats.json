@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:32:22.578Z",
+ "updated": "2026-10-22T22:06:22.573Z",
  "season": 2026,
  "team": [
   {
@@ -1421,20 +1421,6 @@
    "exp": 3,
    "college": "Michigan",
    "link": "https://www.espn.com/nfl/player/_/id/4372085/cameron-mcgrone"
-  },
-  {
-   "id": "4567134",
-   "name": "Evan Neal",
-   "jersey": null,
-   "pos": "G",
-   "posName": "Guard",
-   "group": "Practice squad",
-   "age": 26,
-   "ht": "6' 7\"",
-   "wt": "340 lbs",
-   "exp": 5,
-   "college": "Alabama",
-   "link": "https://www.espn.com/nfl/player/_/id/4567134/evan-neal"
   },
   {
    "id": "4379409",
