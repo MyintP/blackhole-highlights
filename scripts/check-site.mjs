@@ -61,6 +61,13 @@ try {
   if (!news.items?.length) fail("data/news.json", "no stories");
   for (const i of news.items) if (!i.title || !/^https?:\/\//.test(i.link) || isNaN(new Date(i.date)) || !i.src || !i.kind) { fail("data/news.json", `bad item ${i.id}`); break; }
   for (const n of ["odds", "stats", "games", "media", "history", "editorial"]) await data(n);
+  // nflverse files appear after the update job's first nflverse pass; until then pages show their empty states
+  const optional = async n => { try { return await data(n); } catch (e) { if (e.code === "ENOENT") return null; throw e; } };
+  await optional("breakdown");
+  const pl = (await optional("players")) || { players: [] };
+  if (!Array.isArray(pl.players)) fail("data/players.json", "no players list");
+  for (const p of pl.players || []) if (!p.id || !p.name || typeof p.stats !== "object") { fail("data/players.json", `bad player ${p.id}`); break; }
+  if (new Set((pl.players || []).map(p => p.id)).size !== (pl.players || []).length) fail("data/players.json", "duplicate player ids");
 } catch (e) { fail("data", e.message); }
 
 // Secrets and placeholders in tracked files

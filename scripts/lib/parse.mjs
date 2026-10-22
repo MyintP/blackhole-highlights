@@ -109,11 +109,36 @@ export function mapEvent(e, team = TEAM) {
     home: us.homeAway === "home",
     opp: { id: them.team.id, name: them.team.shortDisplayName, location: them.team.location, abbr: them.team.abbreviation },
     tv: (c.broadcasts || []).map(b => b.media?.shortName).filter(Boolean).join(" / ") || null,
-    state: st.state, final: !!st.completed,
+    state: st.state, final: !!st.completed, detail: st.state === "in" ? st.shortDetail || null : null,
     score: scored ? { us: sc(us), them: sc(them) } : null,
     win: st.completed ? (sc(us) === sc(them) ? null : !!us.winner) : null,
     tie: st.completed && sc(us) === sc(them),
   };
+}
+
+// Live state from a game summary (fresher than the team schedule during a game): score, clock, quarter.
+export function liveFrom(summary, team = TEAM) {
+  const c = summary?.header?.competitions?.[0], st = c?.status?.type;
+  const us = c?.competitors?.find(x => x.team?.id === team), them = c?.competitors?.find(x => x.team?.id !== team);
+  if (!st || !us || !them || st.state === "pre") return null;
+  const sc = x => Number(x.score?.value ?? x.score);
+  if (isNaN(sc(us)) || isNaN(sc(them))) return null;
+  return { state: st.state, detail: st.state === "in" ? st.shortDetail || null : null, score: { us: sc(us), them: sc(them) } };
+}
+
+// How long the update job should wait before running itself again, in seconds, or null to leave it to the
+// (best-effort, often hours-late) cron. Chains from 18h before kickoff: hourly through the odds window with a
+// last capture just before it closes, then every 10 minutes for live scores until 4.5h after kickoff.
+export function nextWait(g, now = new Date()) {
+  if (!g || g.timeTBD || g.final) return null;
+  const M = 6e4, t = now.getTime(), kick = new Date(g.date).getTime();
+  const open = kick - 12 * 60 * M, close = kick - 60 * M;
+  if (isNaN(kick) || t < kick - 18 * 60 * M || t > kick + 270 * M) return null;
+  let wait;
+  if (t < open) wait = Math.min(open - t + 2 * M, 60 * M);
+  else if (t < close) wait = close - t > 65 * M ? 60 * M : Math.max(close - t - 3 * M, M);
+  else wait = 10 * M;
+  return Math.round(wait / 1000);
 }
 
 export function seasonRecord(events, team = TEAM) {

@@ -93,6 +93,26 @@ export const recordText =a => a ? a.slice(0, a[2] ? 3 : 2).join("-") : "";
 
 // The data is stale when the hourly job hasn't succeeded for `hours`.
 export const isStale = (iso, hours = 3, now = Date.now()) => !iso || now - new Date(iso).getTime() > hours * 36e5;
+// Kickoff to 4.5 hours after: scores move, so pages poll for fresh data.
+export const isLive = (g, now = Date.now()) => {
+  if (!g || g.final || g.timeTBD) return false;
+  const k = new Date(g.date).getTime();
+  return g.state === "in" || (now >= k && now <= k + 4.5 * 36e5);
+};
+// How old the last successful update can be before pages warn. Around a game the job runs hourly or faster
+// (see nextWait in scripts/lib/parse.mjs); otherwise GitHub's cron often runs 3-6 hours late, which isn't news.
+export const staleHours = (g, now = Date.now()) => {
+  if (!g || g.timeTBD) return 8;
+  const k = new Date(g.date).getTime();
+  return now >= k - 12 * 36e5 && now <= k + 4.5 * 36e5 ? 2 : 8;
+};
+// Same as slug() in scripts/lib/nflverse.mjs: player ids on the Players page (?p=maxx-crosby).
+export const slug = name => String(name).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/\b(jr|sr|ii|iii|iv)\b\.?/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+export const ordinal = n => { const v = n % 100; return n + (["th", "st", "nd", "rd"][(v - 20) % 10] || ["th", "st", "nd", "rd"][v] || "th"); };
+// EPA reads as +0.204 / -0.243; success rates as 44.0%.
+export const epaText = v => (v == null ? "-" : (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(3));
+export const pctText = v => (v == null ? "-" : (v * 100).toFixed(1) + "%");
 
 export const KINDS = {
   Official: "Published by the Raiders.",

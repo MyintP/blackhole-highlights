@@ -43,6 +43,7 @@
         <a href="news.html">News</a>
         <a href="games.html">Game Center</a>
         <a href="stats.html">Stats</a>
+        <a href="players.html">Players</a>
         <a href="media.html">Media</a>
         <a href="about.html" aria-current="page">About</a>
     </nav>
@@ -64,6 +65,7 @@
         <a href="news.html">News</a>
         <a href="games.html">Game Center</a>
         <a href="stats.html">Stats</a>
+        <a href="players.html">Players</a>
         <a href="media.html">Media</a>
         <a href="about.html" aria-current="page">About</a>
       </nav>
@@ -112,8 +114,9 @@
 
     <h2 id="sources">Data sources and update schedule</h2>
     <ul>
-      <li><strong>Scores, schedule, standings, team and player stats, injuries, roster:</strong> ESPN's public data feeds, checked every hour.</li>
-      <li><strong>Betting lines:</strong> DraftKings lines published by ESPN, captured every hour from 12 hours to 1 hour before kickoff. The last capture is the closing line used to grade results against the spread.</li>
+      <li><strong>Scores, schedule, standings, team and player stats, injuries, roster:</strong> ESPN's public data feeds, checked every hour, and every 10 minutes during a game.</li>
+      <li><strong>Advanced stats, tendencies, player profiles and play-by-play breakdowns:</strong> <a class="ext" href="https://github.com/nflverse/nflverse-data" target="_blank" rel="noopener">nflverse</a> (CC BY 4.0): NFL play-by-play with the nflfastR EPA and win-probability models, FTN charting (formation, motion, play action, blitzers, box counts), Pro Football Reference charting (coverage, pressures, missed tackles, drops, yards after contact) and snap counts. Checked twice a day; nflverse usually updates the morning after each game. Coverage shells such as Cover 2 aren't in any free 2026 source, so the site doesn't show them.</li>
+      <li><strong>Betting lines:</strong> DraftKings lines published by ESPN, captured every hour from 12 hours to 1 hour before kickoff (around game time the update job re-runs itself on that schedule, because GitHub's own timer often runs hours late). The last capture is the closing line used to grade results against the spread.</li>
       <li><strong>News:</strong> the public news feeds of <a class="ext" href="https://www.raiders.com/news/" target="_blank" rel="noopener">Raiders.com</a>, <a class="ext" href="https://www.reviewjournal.com/sports/raiders/" target="_blank" rel="noopener">Las Vegas Review-Journal</a>, <a class="ext" href="https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders" target="_blank" rel="noopener">ESPN</a>, <a class="ext" href="https://www.silverandblackpride.com/" target="_blank" rel="noopener">Silver &amp; Black Pride</a> and <a class="ext" href="https://raidersbeat.com/" target="_blank" rel="noopener">RaidersBeat</a>, checked every hour. Stories are kept for 180 days.</li>
       <li><strong>Podcasts:</strong> the Raiders.com audio feed. <strong>Videos:</strong> the Black Hole Highlights YouTube channel.</li>
       <li><strong>Records against the spread for Weeks 1-6 of 2026</strong> come from public betting reports. Later weeks are graded from our own closing-line captures.</li>
@@ -142,6 +145,7 @@
           <li><a href="news.html">News</a></li>
           <li><a href="games.html">Game Center</a></li>
           <li><a href="stats.html">Stats</a></li>
+          <li><a href="players.html">Players</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="search.html">Search</a></li>
         </ul>

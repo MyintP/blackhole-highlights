@@ -5,16 +5,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script type="module" src="assets/js/pages/stats.js"></script>
-<title>Raiders stats: standings, team and player stats, roster and history · Black Hole Highlights</title>
-<meta name="description" content="Las Vegas Raiders team stats with NFL ranks, player leaders, AFC West and AFC standings, the full roster and season-by-season records.">
+<title>Raiders stats: standings, team, advanced and player stats, roster and history · Black Hole Highlights</title>
+<meta name="description" content="Las Vegas Raiders team stats with NFL ranks, EPA and success rate, player leaders, AFC West and AFC standings, the full roster and season-by-season records.">
 <link rel="canonical" href="https://myintp.github.io/blackhole-highlights/stats.html">
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <meta name="theme-color" content="#09090b">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://myintp.github.io/blackhole-highlights/stats.html">
 <meta property="og:site_name" content="Black Hole Highlights">
-<meta property="og:title" content="Raiders stats: standings, team and player stats, roster and history · Black Hole Highlights">
-<meta property="og:description" content="Las Vegas Raiders team stats with NFL ranks, player leaders, AFC West and AFC standings, the full roster and season-by-season records.">
+<meta property="og:title" content="Raiders stats: standings, team, advanced and player stats, roster and history · Black Hole Highlights">
+<meta property="og:description" content="Las Vegas Raiders team stats with NFL ranks, EPA and success rate, player leaders, AFC West and AFC standings, the full roster and season-by-season records.">
 <meta property="og:image" content="https://myintp.github.io/blackhole-highlights/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -43,6 +43,7 @@
         <a href="news.html">News</a>
         <a href="games.html">Game Center</a>
         <a href="stats.html" aria-current="page">Stats</a>
+        <a href="players.html">Players</a>
         <a href="media.html">Media</a>
         <a href="about.html">About</a>
     </nav>
@@ -64,6 +65,7 @@
         <a href="news.html">News</a>
         <a href="games.html">Game Center</a>
         <a href="stats.html" aria-current="page">Stats</a>
+        <a href="players.html">Players</a>
         <a href="media.html">Media</a>
         <a href="about.html">About</a>
       </nav>
@@ -83,8 +85,8 @@
   <div class="wrap">
     <span class="eyebrow" id="st-season">Stats</span>
     <h1>Stats</h1>
-    <p>Standings, team and player numbers with NFL ranks, the roster and recent seasons. Source: ESPN, checked hourly.</p>
-    <nav class="subnav" aria-label="On this page"><a href="#standings">Standings</a><a href="#team">Team</a><a href="#players">Players</a><a href="#roster">Roster</a><a href="#history">History</a></nav>
+    <p>Standings, team and player numbers with NFL ranks, efficiency stats, the roster and recent seasons. Sources: ESPN, checked hourly, and nflverse play-by-play, updated daily.</p>
+    <nav class="subnav" aria-label="On this page"><a href="#standings">Standings</a><a href="#team">Team</a><a href="#advanced">Advanced</a><a href="#players">Players</a><a href="#roster">Roster</a><a href="#history">History</a></nav>
   </div>
 </div>
 <div class="wrap" id="page-error"></div>
@@ -103,6 +105,15 @@
   <div class="wrap">
     <div class="sec-head"><h2 id="team-h">Team stats</h2><span class="eyebrow">Season to date · NFL rank</span></div>
     <div class="kpis tnum" id="team-stats"><div class="kpi"><span class="sk"></span></div></div>
+  </div>
+</section>
+
+<section id="advanced" aria-labelledby="adv-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="adv-h">Advanced</h2><span class="eyebrow" id="adv-sub">Efficiency · NFL rank of 32</span></div>
+    <div class="split even" id="adv"><span class="sk t"></span></div>
+    <div class="split even" id="tend" style="margin-top:32px"><span class="sk t"></span></div>
+    <p class="note"><strong>EPA</strong> (expected points added) measures how much each play changed a team's expected points, given down, distance and field position. <strong>Success rate</strong> is the share of plays with positive EPA. <strong>CPOE</strong> is completion percentage above what's expected for the throws attempted. Tendencies rank 1 for the team that does it most. Formation, motion, play action, blitzers and box counts are charted by FTN; coverage shells (Cover 2, Cover 3 and so on) aren't published for free this season, so they aren't shown. Regular-season pass and rush plays only. Data: <a class="ext" href="https://github.com/nflverse/nflverse-data" target="_blank" rel="noopener">nflverse</a> play-by-play and FTN charting (CC BY 4.0), updated daily. Every player's numbers are on the <a href="players.html">Players</a> page.</p>
   </div>
 </section>
 
@@ -152,6 +163,7 @@
           <li><a href="news.html">News</a></li>
           <li><a href="games.html">Game Center</a></li>
           <li><a href="stats.html">Stats</a></li>
+          <li><a href="players.html">Players</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="search.html">Search</a></li>
         </ul>
