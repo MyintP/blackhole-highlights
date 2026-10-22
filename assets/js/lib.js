@@ -112,6 +112,13 @@ export const slug = name => String(name).toLowerCase().normalize("NFD").replace(
 export const ordinal = n => { const v = n % 100; return n + (["th", "st", "nd", "rd"][(v - 20) % 10] || ["th", "st", "nd", "rd"][v] || "th"); };
 // EPA reads as +0.204 / -0.243; success rates as 44.0%.
 export const epaText = v => (v == null ? "-" : (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(3));
+// Odds arrive as signed strings ("+3.5", "-205") or numbers; show a "+" exactly once. Pick'em reads "PK".
+export const signed = v => {
+  if (v == null || v === "") return "-";
+  const s = String(v).trim();
+  if (/^[+-]/.test(s) || isNaN(Number(s))) return s;
+  return Number(s) > 0 ? "+" + s : Number(s) === 0 ? "PK" : s;
+};
 export const pctText = v => (v == null ? "-" : (v * 100).toFixed(1) + "%");
 
 export const KINDS = {

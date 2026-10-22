@@ -119,6 +119,24 @@ test("grade: covers, pushes, missing lines, postponed games and score correction
   assert.deepEqual(odds.record.ats, [5, 2, 1]);
 });
 
+test("odds strings from ESPN keep one sign; pick'em grades as a spread of 0", async () => {
+  assert.deepEqual(["+3.5", "-3.5", 3.5, -205, "+170", 0, "PK", null].map(L.signed), ["+3.5", "-3.5", "+3.5", "-205", "+170", "PK", "PK", "-"]);
+  const odds = { baseline: { throughWeek: 6, ats: [0, 0, 0], ou: [0, 0, 0] }, closing: { a: { week: 7, spread: "PK", total: 44 }, b: { week: 8, spread: "+3.5", total: "48.5" } } };
+  P.grade(odds, [{ id: "a", final: true, score: { us: 20, them: 20 } }, { id: "b", final: true, score: { us: 21, them: 24 } }]);
+  assert.equal(odds.closing.a.result.ats, "P"); // tie on a pick'em: push, not "no line"
+  assert.deepEqual(odds.closing.b.result, { ats: "W", ou: "U" }); // lost by 3 getting 3.5
+  globalThis.document = globalThis.document || { getElementById: () => null };
+  const A = await import("../assets/js/app.js");
+  const site = { schedule: { games: [{ id: "b", week: 8, home: true, opp: { name: "Rams", abbr: "LAR" }, final: true, score: { us: 21, them: 24 } }] } };
+  const log = A.atsLogHTML({ ...odds, closing: { b: { ...odds.closing.b, asOf: "2026-10-25T19:20:00Z" } } }, site);
+  assert.match(log, />\+3\.5</);
+  assert.doesNotMatch(log, /\+\+/);
+  assert.match(log, /Sun, Oct 25, 12:20 PM PT/); // capture time shown for the closing line
+  const hist = A.lineHistoryHTML({ history: { b: [{ asOf: "2026-10-25T08:27:00Z", spread: "+3.5", ml: "+170", oppMl: "-205", total: 48.5 }] } }, { id: "b", opp: { abbr: "LAR" } });
+  assert.doesNotMatch(hist, /\+\+/);
+  assert.match(hist, /\+170/);
+});
+
 test("strip and scores markup: no live label without live status, links to the right places", async () => {
   globalThis.document = globalThis.document || { getElementById: () => null }; // app.js reads the DOM only when called
   const A = await import("../assets/js/app.js");

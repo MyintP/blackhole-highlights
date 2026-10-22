@@ -414,7 +414,7 @@ export function mountStatOfDay(el, data) {
 export function lineHistoryHTML(odds, n) {
   const h = n && odds?.history?.[n.id];
   if (!h?.length) return "";
-  const signed = v => (v == null ? "-" : Number(v) > 0 ? "+" + v : String(v));
+  const signed = L.signed;
   return `<div class="card"><h3 class="panel-title">Line history <small class="muted">${h.length} capture${h.length === 1 ? "" : "s"}</small></h3>
     <div class="table-wrap"><table><thead><tr><th scope="col">Captured (PT)</th><th scope="col" class="n">LV spread</th><th scope="col" class="n">LV ML</th><th scope="col" class="n">${esc(n.opp.abbr)} ML</th><th scope="col" class="n">Total</th></tr></thead><tbody>${
     h.map((c, i) => `<tr${i === h.length - 1 ? ' class="us"' : ""}><td>${esc(L.dateTime(c.asOf))}</td><td class="n">${esc(signed(c.spread))}</td><td class="n">${esc(signed(c.ml))}</td><td class="n">${esc(signed(c.oppMl))}</td><td class="n">${esc(c.total ?? "-")}</td></tr>`).join("")}</tbody></table></div>
@@ -429,7 +429,7 @@ export function atsLogHTML(odds, site) {
   const cls = v => (v === "W" ? "is-win" : v === "L" ? "is-loss" : "");
   const rows = games.map(g => {
     const c = odds.closing[g.id], r = c.result;
-    return `<tr><td>Week ${esc(g.week)}</td><td>${esc(L.gameLabel(g))}</td><td class="n">${esc(Number(c.spread) > 0 ? "+" + c.spread : c.spread)}</td><td class="n">${esc(c.total ?? "-")}</td>
+    return `<tr><td>Week ${esc(g.week)}</td><td>${esc(L.gameLabel(g))}</td><td class="n">${esc(L.signed(c.spread))}${c.asOf ? `<br><small>${esc(L.dateTime(c.asOf))}</small>` : ""}</td><td class="n">${esc(c.total ?? "-")}</td>
       <td class="n">${c.final ? `${esc(c.final.us)}-${esc(c.final.them)}` : g.postponed ? "Postponed" : "-"}</td>
       <td class="n ${cls(r?.ats)}">${r?.ats ? { W: "Covered", L: "Didn't cover", P: "Push" }[r.ats] : g.final ? "No line" : "Pending"}</td><td class="n">${r?.ou ? { O: "Over", U: "Under", P: "Push" }[r.ou] : g.final ? "No line" : "Pending"}</td></tr>`;
   }).join("");

@@ -47,8 +47,11 @@ The home page's **Stat of the day** picks one verified stat per Pacific day from
 - **Automation:** `.github/workflows/update.yml` runs the updater every hour at :07 and commits only when data changed. GitHub runs that cron late (every 3-6 hours on this repo), so from 18 hours before kickoff the job re-runs itself: hourly through the odds window, every 10 minutes during the game, until 4.5 hours after kickoff (`nextWait` in `scripts/lib/parse.mjs`). nflverse files are fetched at most every 12 hours (`scripts/lib/nflverse.mjs`, about 15 MB in all). `.github/workflows/ci.yml` runs the tests and checks on every push and pull request.
 - **Reliability:** each feed has a timeout and retries with backoff. A feed that answers with nothing, or far fewer records than last time, counts as failed and keeps its last good data. The update job runs `scripts/check-site.mjs` (schema, record counts, timestamps) before committing, so a bad run publishes nothing. A failed feed keeps its last good data and is listed in `site.json` `sources`; pages then show a notice. Pages also show a notice when the update job hasn't succeeded for 2 hours around a game or 8 hours otherwise (via the public GitHub API), skeletons while loading, and a retry button if data can't load.
 
+## Game day
+See [docs/GAMEDAY.md](docs/GAMEDAY.md): the update schedule around a game, the first-game validation checklist and failure recovery.
+
 ## Odds timing
-Lines are captured every hour from **12 hours before kickoff to 1 hour before**. The last capture is the closing line, used to
+Lines are captured every hour from **12 hours before kickoff to 1 hour before**; the last run is aimed about 7 minutes before the window closes. The last capture is the closing line, used to
 grade the Raiders against the spread and the total. Weeks 1-6 of 2026 come from public reports (the `baseline` in `odds.json`).
 
 ## Each game week (by hand)
