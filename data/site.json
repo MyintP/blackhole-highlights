@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:32:22.578Z",
+ "updated": "2026-10-22T21:46:29.335Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -20,6 +20,7 @@
   "state": "pre",
   "final": false,
   "detail": null,
+  "postponed": false,
   "score": null,
   "win": null,
   "tie": false,
@@ -46,6 +47,7 @@
   "state": "post",
   "final": true,
   "detail": null,
+  "postponed": false,
   "score": {
    "us": 30,
    "them": 33
@@ -115,6 +117,7 @@
     "state": "post",
     "final": true,
     "detail": null,
+    "postponed": false,
     "score": {
      "us": 27,
      "them": 13
@@ -139,6 +142,7 @@
     "state": "post",
     "final": true,
     "detail": null,
+    "postponed": false,
     "score": {
      "us": 26,
      "them": 14
@@ -163,6 +167,7 @@
     "state": "post",
     "final": true,
     "detail": null,
+    "postponed": false,
     "score": {
      "us": 35,
      "them": 27
@@ -187,6 +192,7 @@
     "state": "post",
     "final": true,
     "detail": null,
+    "postponed": false,
     "score": {
      "us": 27,
      "them": 30
@@ -211,6 +217,7 @@
     "state": "post",
     "final": true,
     "detail": null,
+    "postponed": false,
     "score": {
      "us": 17,
      "them": 45
@@ -235,6 +242,7 @@
     "state": "post",
     "final": true,
     "detail": null,
+    "postponed": false,
     "score": {
      "us": 30,
      "them": 33
@@ -259,6 +267,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -280,6 +289,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -301,6 +311,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -322,6 +333,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -343,6 +355,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -364,6 +377,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -385,6 +399,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -406,6 +421,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -427,6 +443,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -448,6 +465,7 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
@@ -469,10 +487,82 @@
     "state": "pre",
     "final": false,
     "detail": null,
+    "postponed": false,
     "score": null,
     "win": null,
     "tie": false
    }
+  ]
+ },
+ "week": {
+  "week": 7,
+  "games": [
+   {
+    "id": "401873019",
+    "date": "2026-10-25T20:05Z",
+    "state": "pre",
+    "final": false,
+    "detail": "10/25 - 4:05 PM EDT",
+    "postponed": false,
+    "away": {
+     "id": "7",
+     "abbr": "DEN",
+     "score": null,
+     "winner": false
+    },
+    "home": {
+     "id": "22",
+     "abbr": "ARI",
+     "score": null,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873019/broncos-cardinals"
+   },
+   {
+    "id": "401873021",
+    "date": "2026-10-25T20:25Z",
+    "state": "pre",
+    "final": false,
+    "detail": "10/25 - 4:25 PM EDT",
+    "postponed": false,
+    "away": {
+     "id": "14",
+     "abbr": "LAR",
+     "score": null,
+     "winner": false
+    },
+    "home": {
+     "id": "13",
+     "abbr": "LV",
+     "score": null,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873021/rams-raiders"
+   },
+   {
+    "id": "401873022",
+    "date": "2026-10-26T00:20Z",
+    "state": "pre",
+    "final": false,
+    "detail": "10/25 - 8:20 PM EDT",
+    "postponed": false,
+    "away": {
+     "id": "12",
+     "abbr": "KC",
+     "score": null,
+     "winner": false
+    },
+    "home": {
+     "id": "26",
+     "abbr": "SEA",
+     "score": null,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks"
+   }
+  ],
+  "byes": [
+   "LAC"
   ]
  },
  "standings": {
@@ -942,95 +1032,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
-  "nflverse play-by-play": {
+  "scoreboard": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-22T21:32:22.578Z"
+   "at": "2026-10-22T21:46:29.335Z"
   }
  },
  "nflverseTried": "2026-10-22T21:32:22.578Z"
