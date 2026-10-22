@@ -1,0 +1,36 @@
+{
+ "updated": "2026-10-22T00:25:34.471Z",
+ "current": null,
+ "window": {
+  "gameId": "401873021",
+  "opens": "2026-10-25T08:25:00.000Z",
+  "closes": "2026-10-25T19:25:00.000Z"
+ },
+ "closing": {},
+ "record": {
+  "ats": [
+   5,
+   1,
+   0
+  ],
+  "ou": [
+   4,
+   2,
+   0
+  ]
+ },
+ "baseline": {
+  "throughWeek": 6,
+  "ats": [
+   5,
+   1,
+   0
+  ],
+  "ou": [
+   4,
+   2,
+   0
+  ],
+  "note": "Weeks 1-6 from public reports"
+ }
+}

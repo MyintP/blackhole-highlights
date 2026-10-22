@@ -1,26 +1,38 @@
 # Black Hole Highlights
 
 Fan site and brand assets for the Black Hole Highlights YouTube channel (@BlackHoleHighlights).
-Not affiliated with the NFL or the Las Vegas Raiders.
+Not affiliated with the NFL or the Las Vegas Raiders. Never use official team logos or NFL marks
+(the data feeds include logo URLs; the page deliberately doesn't render them).
 
-## Files
-- `index.html`: the site (single static page, no build step). Open it in a browser or deploy as-is.
-- `assets/logo.svg`: channel profile picture (800×800).
-- `assets/banner.svg`: channel banner (2560×1440, text inside YouTube's 1546×423 safe area).
+Live site: https://myintp.github.io/blackhole-highlights/ (GitHub Pages, `main` branch, root folder).
 
-## Updating each week
-Edit `index.html`:
-- Hero: opponent, records, kickoff date/time (also update `kick` in the script for the countdown).
-- Odds panel (`#odds`): spread, moneyline, total, open vs. latest line, ATS and over/under records, plus the "as of" date and source. Look up current lines on every update.
-- Pundit's Pick (`#pick`): score call and three keys for the next game.
-- Schedule (`#schedule`): move the played game to a result and refresh opponent records.
-- Season Leaders (`#leaders`): Cousins, Jeanty, Bowers and Crosby season totals.
-- News list, AFC West table, injury reports, milestones.
-- Countdown: also update "ON FOX" in the script if the next game is on another network.
+## How it works
+- `index.html`: the page (static HTML/CSS/JS, no build step). It renders everything from `data/*.json`.
+- `data/site.json`: schedule, results, standings, team stats, injuries, season leaders, news, videos. **Generated.**
+- `data/odds.json`: current lines, opening line, closing lines and the Raiders' ATS / over-under record. **Generated.**
+- `data/editorial.json`: hand-written content (hero headline, Pundit's Pick, keys to the game, milestones).
+- `scripts/update.mjs`: pulls the data (Node 20+, no dependencies). Each source fails on its own and keeps its last good data.
+- `.github/workflows/update.yml`: runs the updater every hour at :07 and commits only when data changed.
+
+## Data sources
+- ESPN public JSON feeds: schedule, scores, standings, team stats and ranks, injuries, leaders, DraftKings odds.
+- News: Raiders.com RSS, Silver & Black Pride RSS, ESPN Raiders stories.
+- Videos: the channel's YouTube RSS feed (channel id `UC24qVyqQyKXDeXLFqBF6F_Q`). New uploads appear on their own.
+
+## Odds timing
+Lines are captured every hour from **12 hours before kickoff to 1 hour before**. The last capture is the closing line,
+used to grade the Raiders against the spread and the total after the game. Weeks 1-6 records come from public reports
+(the `baseline` in `odds.json`).
+
+## Each week (by hand)
+Update `data/editorial.json` for the next game: set `gameId` to `next.id` from `data/site.json`, then write the
+headline, lede, pick and keys. Until you do, the page shows an automatic headline and "pick drops before kickoff".
+
+## Run locally
+- Refresh data: `node scripts/update.mjs` (add `--force-odds` to test an odds snapshot outside the window).
+- Preview: `python -m http.server 8765`, then open http://127.0.0.1:8765/ (the page can't load data from `file://`).
+- Run the GitHub job on demand: Actions tab > Update data > Run workflow.
 
 ## Sharing
 - `assets/og-image.png` is the link-preview card (source: `assets/og-image.html`, render command inside).
-- Live site: https://myintp.github.io/blackhole-highlights/ (GitHub Pages, `main` branch, root folder).
 - `og:url` and `og:image` in `index.html` use full URLs. Update them if the site address changes.
-- Tale of the Tape: the `rows` array in the script.
-- Clips: the four `.clip` cards.

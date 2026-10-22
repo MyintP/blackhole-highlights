@@ -1,0 +1,820 @@
+{
+ "updated": "2026-10-22T00:26:04.501Z",
+ "season": 2026,
+ "record": "3-3",
+ "next": {
+  "id": "401873021",
+  "week": 7,
+  "date": "2026-10-25T20:25Z",
+  "timeTBD": false,
+  "home": true,
+  "opp": {
+   "id": "14",
+   "name": "Rams",
+   "location": "Los Angeles",
+   "abbr": "LAR",
+   "record": "2-4"
+  },
+  "tv": "Fox",
+  "state": "pre",
+  "final": false,
+  "score": null,
+  "win": null,
+  "oppRecord": "2-4",
+  "venue": {
+   "name": "Allegiant Stadium",
+   "city": "Las Vegas"
+  }
+ },
+ "last": {
+  "id": "401873005",
+  "week": 6,
+  "date": "2026-10-18T20:25Z",
+  "timeTBD": false,
+  "home": true,
+  "opp": {
+   "id": "2",
+   "name": "Bills",
+   "location": "Buffalo",
+   "abbr": "BUF",
+   "record": "5-1"
+  },
+  "tv": "CBS",
+  "state": "post",
+  "final": true,
+  "score": {
+   "us": 30,
+   "them": 33
+  },
+  "win": false,
+  "leaders": [
+   {
+    "cat": "Passing Yards",
+    "name": "Kirk Cousins",
+    "value": "313",
+    "unit": "YDS",
+    "line": "23/41, 2 TD, 1 INT"
+   },
+   {
+    "cat": "Rushing Yards",
+    "name": "Mike Washington Jr.",
+    "value": "43",
+    "unit": "YDS",
+    "line": "9 CAR"
+   },
+   {
+    "cat": "Receiving Yards",
+    "name": "Tre Tucker",
+    "value": "97",
+    "unit": "YDS",
+    "line": "5 REC, 2 TD"
+   },
+   {
+    "cat": "Sacks",
+    "name": "Kwity Paye",
+    "value": "1",
+    "unit": "SACKS",
+    "line": "1"
+   }
+  ],
+  "recap": {
+   "title": "Josh Allen ties Jim Kelly's Bills TD pass record as Buffalo holds off Raiders 33-30",
+   "link": "http://www.espn.com/nfl/recap?gameId=401873005"
+  }
+ },
+ "schedule": {
+  "bye": 13,
+  "games": [
+   {
+    "id": "401872928",
+    "week": 1,
+    "date": "2026-09-13T20:25Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "15",
+     "name": "Dolphins",
+     "location": "Miami",
+     "abbr": "MIA",
+     "record": "0-5"
+    },
+    "tv": "Fox",
+    "state": "post",
+    "final": true,
+    "score": {
+     "us": 27,
+     "them": 13
+    },
+    "win": true
+   },
+   {
+    "id": "401872941",
+    "week": 2,
+    "date": "2026-09-20T20:05Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "24",
+     "name": "Chargers",
+     "location": "Los Angeles",
+     "abbr": "LAC",
+     "record": "0-6"
+    },
+    "tv": "CBS",
+    "state": "post",
+    "final": true,
+    "score": {
+     "us": 26,
+     "them": 14
+    },
+    "win": true
+   },
+   {
+    "id": "401872961",
+    "week": 3,
+    "date": "2026-09-27T20:25Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "18",
+     "name": "Saints",
+     "location": "New Orleans",
+     "abbr": "NO",
+     "record": "2-4"
+    },
+    "tv": "CBS",
+    "state": "post",
+    "final": true,
+    "score": {
+     "us": 35,
+     "them": 27
+    },
+    "win": true
+   },
+   {
+    "id": "401872976",
+    "week": 4,
+    "date": "2026-10-04T20:25Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "12",
+     "name": "Chiefs",
+     "location": "Kansas City",
+     "abbr": "KC",
+     "record": "5-0"
+    },
+    "tv": "CBS",
+    "state": "post",
+    "final": true,
+    "score": {
+     "us": 27,
+     "them": 30
+    },
+    "win": false
+   },
+   {
+    "id": "401872986",
+    "week": 5,
+    "date": "2026-10-11T17:00Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "17",
+     "name": "Patriots",
+     "location": "New England",
+     "abbr": "NE",
+     "record": "4-2"
+    },
+    "tv": "CBS",
+    "state": "post",
+    "final": true,
+    "score": {
+     "us": 17,
+     "them": 45
+    },
+    "win": false
+   },
+   {
+    "id": "401873005",
+    "week": 6,
+    "date": "2026-10-18T20:25Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "2",
+     "name": "Bills",
+     "location": "Buffalo",
+     "abbr": "BUF",
+     "record": "5-1"
+    },
+    "tv": "CBS",
+    "state": "post",
+    "final": true,
+    "score": {
+     "us": 30,
+     "them": 33
+    },
+    "win": false
+   },
+   {
+    "id": "401873021",
+    "week": 7,
+    "date": "2026-10-25T20:25Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "14",
+     "name": "Rams",
+     "location": "Los Angeles",
+     "abbr": "LAR",
+     "record": "2-4"
+    },
+    "tv": "Fox",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873029",
+    "week": 8,
+    "date": "2026-11-01T18:00Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "20",
+     "name": "Jets",
+     "location": "New York",
+     "abbr": "NYJ",
+     "record": "2-4"
+    },
+    "tv": "Fox",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873047",
+    "week": 9,
+    "date": "2026-11-08T21:05Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "25",
+     "name": "49ers",
+     "location": "San Francisco",
+     "abbr": "SF",
+     "record": "6-0"
+    },
+    "tv": "CBS",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873062",
+    "week": 10,
+    "date": "2026-11-15T21:05Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "26",
+     "name": "Seahawks",
+     "location": "Seattle",
+     "abbr": "SEA",
+     "record": "3-3"
+    },
+    "tv": "CBS",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873075",
+    "week": 11,
+    "date": "2026-11-22T21:25Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "7",
+     "name": "Broncos",
+     "location": "Denver",
+     "abbr": "DEN",
+     "record": "4-2"
+    },
+    "tv": "CBS",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873086",
+    "week": 12,
+    "date": "2026-11-29T18:00Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "5",
+     "name": "Browns",
+     "location": "Cleveland",
+     "abbr": "CLE",
+     "record": "4-2"
+    },
+    "tv": "Fox",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873118",
+    "week": 14,
+    "date": "2026-12-13T21:05Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "24",
+     "name": "Chargers",
+     "location": "Los Angeles",
+     "abbr": "LAC",
+     "record": "0-6"
+    },
+    "tv": "CBS",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873137",
+    "week": 15,
+    "date": "2026-12-20T21:25Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "7",
+     "name": "Broncos",
+     "location": "Denver",
+     "abbr": "DEN",
+     "record": "4-2"
+    },
+    "tv": "CBS",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873152",
+    "week": 16,
+    "date": "2026-12-27T21:05Z",
+    "timeTBD": false,
+    "home": true,
+    "opp": {
+     "id": "10",
+     "name": "Titans",
+     "location": "Tennessee",
+     "abbr": "TEN",
+     "record": "1-5"
+    },
+    "tv": "Fox",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873168",
+    "week": 17,
+    "date": "2027-01-03T21:05Z",
+    "timeTBD": false,
+    "home": false,
+    "opp": {
+     "id": "22",
+     "name": "Cardinals",
+     "location": "Arizona",
+     "abbr": "ARI",
+     "record": "2-4"
+    },
+    "tv": "CBS",
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   },
+   {
+    "id": "401873178",
+    "week": 18,
+    "date": "2027-01-10T05:00Z",
+    "timeTBD": true,
+    "home": false,
+    "opp": {
+     "id": "12",
+     "name": "Chiefs",
+     "location": "Kansas City",
+     "abbr": "KC",
+     "record": "5-0"
+    },
+    "tv": null,
+    "state": "pre",
+    "final": false,
+    "score": null,
+    "win": null
+   }
+  ]
+ },
+ "standings": [
+  {
+   "id": "12",
+   "name": "Kansas City",
+   "w": 5,
+   "l": 0,
+   "t": 0,
+   "pct": "1.000",
+   "us": false
+  },
+  {
+   "id": "7",
+   "name": "Denver",
+   "w": 4,
+   "l": 2,
+   "t": 0,
+   "pct": ".667",
+   "us": false
+  },
+  {
+   "id": "13",
+   "name": "Las Vegas",
+   "w": 3,
+   "l": 3,
+   "t": 0,
+   "pct": ".500",
+   "us": true
+  },
+  {
+   "id": "24",
+   "name": "LA Chargers",
+   "w": 0,
+   "l": 6,
+   "t": 0,
+   "pct": ".000",
+   "us": false
+  }
+ ],
+ "matchup": {
+  "gameId": "401873021",
+  "opp": "Rams",
+  "rows": [
+   {
+    "label": "Points / game",
+    "us": {
+     "v": 27,
+     "rank": "6th"
+    },
+    "them": {
+     "v": 22.5,
+     "rank": "20th"
+    },
+    "higher": true
+   },
+   {
+    "label": "Total offense",
+    "us": {
+     "v": 350.833,
+     "rank": "15th"
+    },
+    "them": {
+     "v": 413.833,
+     "rank": "3rd"
+    },
+    "higher": true
+   },
+   {
+    "label": "Passing offense",
+    "us": {
+     "v": 271.667,
+     "rank": "8th"
+    },
+    "them": {
+     "v": 301.167,
+     "rank": "2nd"
+    },
+    "higher": true
+   },
+   {
+    "label": "Rushing offense",
+    "us": {
+     "v": 79.2,
+     "rank": "30th"
+    },
+    "them": {
+     "v": 112.7,
+     "rank": "15th"
+    },
+    "higher": true
+   },
+   {
+    "label": "Yards allowed",
+    "us": {
+     "v": 387.8,
+     "rank": null
+    },
+    "them": {
+     "v": 300.8,
+     "rank": null
+    },
+    "higher": false
+   },
+   {
+    "label": "Points allowed",
+    "us": {
+     "v": 27,
+     "rank": "26th"
+    },
+    "them": {
+     "v": 23,
+     "rank": "T-17th"
+    },
+    "higher": false
+   }
+  ]
+ },
+ "injuries": {
+  "us": [
+   {
+    "name": "Carter Runyon",
+    "pos": "TE",
+    "injury": "Lower Body",
+    "status": "Injured Reserve",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Dont'e Thornton Jr.",
+    "pos": "WR",
+    "injury": "Hamstring",
+    "status": "Injured Reserve",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Kolton Miller",
+    "pos": "OT",
+    "injury": "Shoulder",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Folorunso Fatukasi",
+    "pos": "DT",
+    "injury": "Shoulder",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Mike Washington Jr.",
+    "pos": "RB",
+    "injury": "Foot",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Hamstring",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Quay Walker",
+    "pos": "LB",
+    "injury": "Chest",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Tonka Hemingway",
+    "pos": "DT",
+    "injury": "Concussion",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   }
+  ],
+  "them": [
+   {
+    "name": "Kobie Turner",
+    "pos": "DE",
+    "injury": "Groin",
+    "status": "Injured Reserve",
+    "ret": "2026-11-25"
+   },
+   {
+    "name": "Poona Ford",
+    "pos": "DT",
+    "injury": "Triceps",
+    "status": "Injured Reserve",
+    "ret": "2027-02-15"
+   },
+   {
+    "name": "Terrance Ferguson",
+    "pos": "TE",
+    "injury": "Ankle",
+    "status": "Injured Reserve",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Davante Adams",
+    "pos": "WR",
+    "injury": "Hamstring",
+    "status": "Injured Reserve",
+    "ret": "2026-11-25"
+   },
+   {
+    "name": "Blake Grupe",
+    "pos": "PK",
+    "injury": "Knee - ACL",
+    "status": "Injured Reserve",
+    "ret": "2027-02-15"
+   },
+   {
+    "name": "Myles Garrett",
+    "pos": "DE",
+    "injury": "Knee",
+    "status": "Injured Reserve",
+    "ret": "2026-11-01"
+   },
+   {
+    "name": "Nate Landman",
+    "pos": "LB",
+    "injury": "Concussion",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   },
+   {
+    "name": "Trent McDuffie",
+    "pos": "CB",
+    "injury": "Groin",
+    "status": "Questionable",
+    "ret": "2026-10-25"
+   }
+  ],
+  "opp": "Rams"
+ },
+ "leaders": [
+  {
+   "cat": "Passing Yards",
+   "name": "Kirk Cousins",
+   "value": "1,582",
+   "unit": "YDS",
+   "line": "135/213, 14 TD, 5 INT"
+  },
+  {
+   "cat": "Rushing Yards",
+   "name": "Ashton Jeanty",
+   "value": "313",
+   "unit": "YDS",
+   "line": "98 CAR, 1 TD"
+  },
+  {
+   "cat": "Receiving Yards",
+   "name": "Brock Bowers",
+   "value": "382",
+   "unit": "YDS",
+   "line": "28 REC, 3 TD"
+  },
+  {
+   "cat": "Sacks",
+   "name": "Malcolm Koonce",
+   "value": "3",
+   "unit": "SACKS",
+   "line": "3"
+  },
+  {
+   "cat": "Tackles",
+   "name": "Nakobe Dean",
+   "value": "56",
+   "unit": "TOT",
+   "line": "56"
+  }
+ ],
+ "news": [
+  {
+   "title": "Raiders-Rams Week 7 Injury Report",
+   "link": "https://www.raiders.com/news/las-vegas-raiders-los-angeles-rams-week-7-injury-report-2026",
+   "date": "2026-10-21T23:36:41.000Z",
+   "src": "Raiders.com",
+   "tag": "Injury",
+   "desc": "Take a look at the Raiders' injury report as the team prepares to face the Los Angeles Rams."
+  },
+  {
+   "title": "Raiders injury report: Tonka Hemingway is still out",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143646/raiders-injury-report-tonka-hemingway-concussion-protocol",
+   "date": "2026-10-21T23:33:07.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "Injury",
+   "desc": ""
+  },
+  {
+   "title": "Raiders Mailbag: Where things stand at two positions entering Week 7",
+   "link": "https://www.raiders.com/news/mailbag/raiders-mailbag-where-things-stand-at-two-positions-entering-week-7",
+   "date": "2026-10-21T23:28:00.000Z",
+   "src": "Raiders.com",
+   "tag": "Preview",
+   "desc": "Raiders.com's Levi Edwards takes a look at the cornerback and right guard positions with the Los Angeles Rams on the horizon."
+  },
+  {
+   "title": "How James Cook ran right through Las Vegas Raiders’ defense in Week 6 loss to Buffalo Bills",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143407/raiders-bills-week-6-film-breakdown-james-cook",
+   "date": "2026-10-21T21:46:00.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "Recap",
+   "desc": ""
+  },
+  {
+   "title": "The Las Vegas Raiders should trade for Quenton Nelson",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/143459/raiders-trade-rumorss-quenton-nelson",
+   "date": "2026-10-21T19:03:00.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "Roster",
+   "desc": ""
+  },
+  {
+   "title": "Game Preview: Raiders must slow another top offense in clash with Rams",
+   "link": "https://www.raiders.com/news/game-preview-las-vegas-raiders-vs-los-angeles-rams-102526-matthew-stafford-sean-mcvay",
+   "date": "2026-10-21T17:32:12.000Z",
+   "src": "Raiders.com",
+   "tag": "Preview",
+   "desc": "A Week 7 clash between the Raiders and Rams brings another marquee matchup to Allegiant Stadium."
+  },
+  {
+   "title": "5 things about the Rams",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143545/raiders-rams-week-7-preview",
+   "date": "2026-10-21T17:01:00.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "News",
+   "desc": ""
+  },
+  {
+   "title": "Darien Porter definitely a starter again",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143412/raiders-darien-porter-zeke-masses-cornerback-starrting-job-battle",
+   "date": "2026-10-21T15:05:00.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "News",
+   "desc": ""
+  },
+  {
+   "title": "Bills had a 2nd spitter in Las Vegas",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143588/bills-sam-franklin-cj-gardner-johnson-spit-raiders",
+   "date": "2026-10-21T13:59:18.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "News",
+   "desc": ""
+  },
+  {
+   "title": "Raiders news: Jeanty at good career scoring pace",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143160/raiders-news-jeanty-touchdowns",
+   "date": "2026-10-21T13:19:38.000Z",
+   "src": "Silver & Black Pride",
+   "tag": "News",
+   "desc": ""
+  }
+ ],
+ "videos": [],
+ "sources": {
+  "schedule": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "standings": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "game preview": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "last game": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "team stats": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "injuries": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "news": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  },
+  "videos": {
+   "ok": true,
+   "at": "2026-10-22T00:26:04.501Z"
+  }
+ }
+}
