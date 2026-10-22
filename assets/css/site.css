@@ -167,7 +167,7 @@ td a:hover{text-decoration:underline;text-underline-offset:3px}
 .chip{font-family:var(--label);font-weight:600;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:transparent;border:1px solid var(--line-2);padding:6px 12px;min-height:38px;cursor:pointer}
 .chip:hover{color:var(--chrome);border-color:var(--muted)}
 .chip[aria-pressed="true"]{background:var(--silver);color:var(--ink);border-color:var(--silver)}
-.chip .c{opacity:.7;margin-left:4px}
+.chip .c{margin-left:6px;font-weight:500}
 .field{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .field label{font-family:var(--label);font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .input,select.input{background:var(--ink);color:var(--chrome);border:1px solid var(--line-2);font:inherit;font-size:16px;min-height:44px;padding:8px 12px;border-radius:2px}
