@@ -4,7 +4,9 @@ export const TZ = "America/Los_Angeles";
 export function esc(s) {
   return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
-export const fmt = (d, o) => new Date(d).toLocaleString("en-US", { timeZone: TZ, ...o });
+// Escaped URL for href/src: only http(s) gets through, anything else (javascript:, data:) becomes "#".
+export const url = u => (/^https?:\/\//i.test(String(u || "")) ? esc(u) : "#");
+export const fmt =(d, o) => new Date(d).toLocaleString("en-US", { timeZone: TZ, ...o });
 export const day = d => fmt(d, { weekday: "short", month: "short", day: "numeric" });
 export const short = d => fmt(d, { month: "short", day: "numeric" });
 export const time = d => fmt(d, { hour: "numeric", minute: "2-digit" });

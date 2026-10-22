@@ -63,9 +63,12 @@ export function similar(a, b) {
   return inter / (A.size + B.size - inter) >= 0.5;
 }
 
+// Only http(s) links reach the page: a feed could otherwise inject javascript: or data: URLs.
+export const isWebUrl = u => /^https?:\/\/[^\s"<>]+$/i.test(String(u || ""));
+
 export function toItem(raw, src) {
   const d = new Date(raw.date);
-  if (!raw.title || !raw.link || isNaN(d)) return null;
+  if (!raw.title || !isWebUrl(raw.link) || isNaN(d)) return null;
   return {
     id: hash(raw.link), title: raw.title, link: raw.link, src, date: d.toISOString(),
     kind: kindFor(raw.title, src), cat: categoryFor(raw.title),

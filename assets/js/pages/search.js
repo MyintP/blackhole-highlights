@@ -26,7 +26,7 @@ A.runPage($("page-error"), async () => {
     const block = (title, html) => `<div class="sub-head"><h2 class="panel-title" style="border:0;margin:0">${esc(title)}</h2></div>${html}`;
     let html = "";
     if (r.players.length) html += block(`Players (${r.players.length})`, `<div class="table-wrap"><table><thead><tr><th scope="col">Player</th><th scope="col">Pos</th><th scope="col">Group</th></tr></thead><tbody>${r.players.slice(0, 10).map(p =>
-      `<tr><td>${p.link ? `<a class="ext" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.jersey ? ` <small>#${esc(p.jersey)}</small>` : ""}</td><td>${esc(p.pos)}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")}</tbody></table></div>`);
+      `<tr><td>${p.link ? `<a class="ext" href="${L.url(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}${p.jersey ? ` <small>#${esc(p.jersey)}</small>` : ""}</td><td>${esc(p.pos)}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")}</tbody></table></div>`);
     if (r.games.length) html += block(`Games (${r.games.length})`, `<ul class="stories compact">${r.games.map(g =>
       `<li class="story"><div class="story-meta"><span>Week ${esc(g.week)}</span><span>${esc(L.short(g.date))}</span></div><h3><a href="games.html${g.final ? "#g-" + esc(g.id) : "#schedule"}">${esc(L.gameLabel(g))}${g.final ? " · " + esc(L.resultText(g)) : ""}</a></h3></li>`).join("")}</ul>`);
     if (r.stories.length) html += block(`Stories (${r.stories.length})`, `<ul class="stories">${r.stories.slice(0, 30).map(i => A.storyHTML(i)).join("")}</ul>${r.stories.length > 30 ? `<p class="note"><a href="news.html?q=${encodeURIComponent(q)}">See all ${r.stories.length} stories in News</a></p>` : ""}`);

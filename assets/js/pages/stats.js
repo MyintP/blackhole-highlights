@@ -17,7 +17,7 @@ A.runPage($("page-error"), async () => {
   $("team-stats").innerHTML = (stats.team || []).map(s => `<div class="kpi"><b>${esc(L.statValue(s))}</b><span>${esc(s.label.replace(/ %$/, ""))}${s.rank ? " · " + esc(s.rank) : ""}</span></div>`).join("") || A.empty("Team stats unavailable.");
 
   $("player-tables").innerHTML = (stats.players || []).map(c => `<div><h3 class="panel-title">${esc(c.label)}</h3><table><thead><tr><th scope="col">Player</th><th scope="col" class="n">${esc(c.label === "Passing" || c.label === "Rushing" || c.label === "Receiving" ? "Yds" : "Total")}</th></tr></thead><tbody>${
-    c.rows.map(r => `<tr><td>${r.link ? `<a class="ext" href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)} <small>${esc(r.pos)}</small>${r.line && String(r.line) !== String(r.value) ? `<br><small>${esc(r.line)}</small>` : ""}</td><td class="n">${esc(Number(r.value).toLocaleString("en-US"))}</td></tr>`).join("")}</tbody></table></div>`).join("") || A.empty("Player stats unavailable.");
+    c.rows.map(r => `<tr><td>${r.link ? `<a class="ext" href="${L.url(r.link)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)} <small>${esc(r.pos)}</small>${r.line && String(r.line) !== String(r.value) ? `<br><small>${esc(r.line)}</small>` : ""}</td><td class="n">${esc(Number(r.value).toLocaleString("en-US"))}</td></tr>`).join("")}</tbody></table></div>`).join("") || A.empty("Player stats unavailable.");
 
   // Roster with search + group filter
   const roster = stats.roster || [];
@@ -27,7 +27,7 @@ A.runPage($("page-error"), async () => {
     const q = L.tokenize($("ro-q").value), g = $("ro-g").value;
     const list = roster.filter(p => (!g || p.group === g) && (!q.length || L.search(q.join(" "), { roster: [p] }).players.length));
     $("ro-count").textContent = `${list.length} of ${roster.length} players`;
-    $("ro-body").innerHTML = list.map(p => `<tr><td class="n">${esc(p.jersey ?? "")}</td><td>${p.link ? `<a class="ext" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</td><td>${esc(p.pos)}</td><td class="n">${esc(p.age ?? "")}</td><td>${esc([p.ht, p.wt].filter(Boolean).join(", "))}</td><td class="n">${p.exp === 0 ? "R" : esc(p.exp ?? "")}</td><td>${esc(p.college || "")}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")
+    $("ro-body").innerHTML = list.map(p => `<tr><td class="n">${esc(p.jersey ?? "")}</td><td>${p.link ? `<a class="ext" href="${L.url(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</td><td>${esc(p.pos)}</td><td class="n">${esc(p.age ?? "")}</td><td>${esc([p.ht, p.wt].filter(Boolean).join(", "))}</td><td class="n">${p.exp === 0 ? "R" : esc(p.exp ?? "")}</td><td>${esc(p.college || "")}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")
       || `<tr><td colspan="8" class="muted">No players match.</td></tr>`;
   };
   $("ro-q").addEventListener("input", drawRoster);

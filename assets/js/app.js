@@ -13,8 +13,8 @@ export async function loadJSON(name, { timeout = 10000, tries = 3 } = {}) {
     const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), timeout);
     try {
       const r = await fetch(`data/${name}.json?t=${Date.now()}`, { cache: "no-store", signal: ctl.signal });
-      if (!r.ok) throw new Error(`${name}.json: HTTP ${r.status}`);
-      return await r.json();
+      if (!r.ok) { err = new Error(`${name}.json: HTTP ${r.status}`); if (r.status < 500) break; } // a 404 won't fix itself
+      else return await r.json();
     } catch (e) { err = e; } finally { clearTimeout(t); }
     if (i < tries - 1) await new Promise(r => setTimeout(r, 500 * 2 ** i));
   }
@@ -41,7 +41,12 @@ export const empty = (msg, action = "") => `<div class="empty"><span>${msg}</spa
 export async function runPage(errorEl, fn) {
   const go = async () => {
     document.body.classList.remove("load-failed");
-    try { await fn(); errorEl.innerHTML = ""; }
+    try {
+      await fn(); errorEl.innerHTML = "";
+      // Content above the target grew while loading, so re-apply a #section link once rendered
+      const target = location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) target.scrollIntoView();
+    }
     catch (e) {
       console.error(e);
       document.body.classList.add("load-failed"); // stops the skeleton shimmer so nothing looks like it's still loading
@@ -78,9 +83,9 @@ export async function dataNotice(site) {
   try {
     let run = JSON.parse(sessionStorage.getItem("bhh-run") || "null");
     if (!run || Date.now() - run.t > 10 * 60e3) {
-      const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/update.yml/runs?per_page=5&status=completed`, { cache: "no-store" });
+      const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/update.yml/runs?per_page=1&status=success`, { cache: "no-store" });
       if (r.ok) {
-        const j = await r.json(), ok = (j.workflow_runs || []).find(x => x.conclusion === "success");
+        const j = await r.json(), ok = (j.workflow_runs || [])[0];
         run = { t: Date.now(), at: ok?.updated_at || null };
         try { sessionStorage.setItem("bhh-run", JSON.stringify(run)); } catch {}
       }
@@ -97,8 +102,8 @@ export async function dataNotice(site) {
 export function storyHTML(i, { lead = false } = {}) {
   const meta = `<div class="story-meta"><span class="badge ${i.kind.toLowerCase()}" title="${esc(L.KINDS[i.kind] || "")}">${esc(i.kind)}</span>` +
     `<span>${esc(i.cat)}</span><span>${esc(i.src)}</span><time datetime="${esc(i.date)}" title="${esc(L.dateTime(i.date))}">${esc(L.ago(i.date))}</time></div>`;
-  const also = i.also?.length ? `<p class="also">Also covered by ${i.also.slice(0, 3).map(a => `<a class="ext" href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.src)}</a>`).join(", ")}</p>` : "";
-  const h = `<a class="ext" href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>`;
+  const also = i.also?.length ? `<p class="also">Also covered by ${i.also.slice(0, 3).map(a => `<a class="ext" href="${L.url(a.link)}" target="_blank" rel="noopener">${esc(a.src)}</a>`).join(", ")}</p>` : "";
+  const h = `<a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>`;
   return lead
     ? `<article class="lead">${meta}<h3>${h}</h3>${i.desc ? `<p>${esc(i.desc)}</p>` : ""}${also}</article>`
     : `<li class="story">${meta}<h3>${h}</h3>${i.desc ? `<p>${esc(i.desc)}</p>` : ""}${also}</li>`;
@@ -167,7 +172,7 @@ export function oddsHTML(n, odds, { full = true } = {}) {
   const recRows = rec ? `<tr><td>Raiders vs. the spread</td><td class="n" colspan="2">${L.recordText(rec.ats)}</td></tr><tr><td>Raiders over/under</td><td class="n" colspan="2">${rec.ou[0]} over, ${rec.ou[1]} under${rec.ou[2] ? ", " + rec.ou[2] + " push" : ""}</td></tr>` : "";
   if (!c) {
     const w = odds?.window?.gameId === n.id ? odds.window : null;
-    return `<div class="card">${title}<div class="odds-wait">Lines load <strong>${w ? esc(L.dateTime(w.opens)) : "12 hours before kickoff"}</strong>, 12 hours before kickoff, and refresh every hour until 1 hour before.</div>
+    return `<div class="card">${title}<div class="odds-wait">${w ? `Lines load <strong>${esc(L.dateTime(w.opens))}</strong>, 12 hours before kickoff,` : "Lines load <strong>12 hours before kickoff</strong>"} and refresh every hour until 1 hour before.</div>
       ${recRows ? `<table><tbody>${recRows}</tbody></table>` : ""}<p class="note">Lines: DraftKings via ESPN. ${GAMBLING}</p></div>`;
   }
   const t = esc(c.them.abbr), closed = odds.window && Date.now() > new Date(odds.window.closes).getTime();
@@ -192,8 +197,8 @@ export function tapeHTML(m, n) {
   return `<div class="tape-key" aria-hidden="true"><div>RAIDERS</div><div></div><div>${esc(m.opp.toUpperCase())}</div></div>
     <div class="tape tnum" role="table" aria-label="Raiders vs ${esc(m.opp)} season stats">${m.rows.map(r => {
       const a = r.us.v, b = r.them.v, max = Math.max(a, b) || 1, usBetter = r.higher ? a >= b : a <= b;
-      const side = (cls, v, rank, better, who) => `<div class="side ${cls}" role="cell"><div class="v"><span class="vh">${who} </span>${Number(v).toFixed(1)}<small>${esc(rank || "")}</small></div><div class="bar" aria-hidden="true"><i${better ? "" : ' class="dim"'} style="width:${(v / max) * 100}%"></i></div></div>`;
-      return `<div class="tape-row" role="row">${side("l", a, r.us.rank, usBetter, "Raiders")}<div class="k" role="rowheader">${esc(r.label)}</div>${side("r", b, r.them.rank, !usBetter, esc(m.opp))}</div>`;
+      const side = (cls, v, rank, better, who) => `<div class="side ${cls}" role="cell"><div class="v"><span class="vh">${who} </span>${Number(v).toFixed(1)}<small>${esc(rank || "")}</small></div><div class="meter" aria-hidden="true"><i${better ? "" : ' class="dim"'} style="width:${(v / max) * 100}%"></i></div></div>`;
+      return `<div class="tape-row" role="row">${side("lft", a, r.us.rank, usBetter, "Raiders")}<div class="k" role="rowheader">${esc(r.label)}</div>${side("rgt", b, r.them.rank, !usBetter, esc(m.opp))}</div>`;
     }).join("")}</div>`;
 }
 
@@ -202,7 +207,7 @@ export function scheduleHTML(site, n, { games = site.schedule?.games || [], link
   games.forEach(g => {
     if (s?.bye && g.week === s.bye + 1 && games[0].week <= s.bye) cards.push(`<div class="g bye"><div class="wk"><span>Week ${s.bye}</span></div><div class="opp">Bye</div></div>`);
     const isNext = n && g.id === n.id;
-    const body = g.final ? `<div class="res ${g.win ? "w" : g.tie ? "" : "l"}">${esc(L.resultText(g))}</div>`
+    const body = g.final ? `<div class="res ${g.win ? "is-win" : g.tie ? "" : "is-loss"}">${esc(L.resultText(g))}</div>`
       : `<div class="when">${g.timeTBD ? "Date &amp; time TBD" : esc(L.short(g.date)) + " · " + esc(L.time(g.date))}${g.tv ? " · " + esc(g.tv) : ""}</div>`;
     const tag = link ? "a" : "div", href = link ? ` href="${esc(link)}${g.final ? "#g-" + esc(g.id) : isNext ? "#next" : "#schedule"}"` : "";
     cards.push(`<${tag} class="g${isNext ? " next" : ""}"${href}><div class="wk"><span>Week ${esc(g.week)}</span>${isNext ? '<span class="tag">Next</span>' : ""}</div><div class="opp">${esc(L.gameLabel(g))}${g.opp.record ? `<small>${esc(g.opp.record)}</small>` : ""}</div>${body}</${tag}>`);
@@ -216,10 +221,10 @@ export function tilesHTML(list) {
 
 export function videosHTML(v) {
   if (!v?.length) return empty("New uploads from the channel show up here automatically. Nothing is posted yet.", '<a class="btn" href="https://www.youtube.com/@BlackHoleHighlights" target="_blank" rel="noopener">Go to the channel</a>');
-  return `<div class="vids">${v.map(x => `<a class="vid" href="${esc(x.url)}" target="_blank" rel="noopener"><img src="${esc(x.thumb)}" alt="" loading="lazy" width="480" height="270"><h3>${esc(x.title)}</h3><span class="eyebrow">${esc(L.short(x.date))}</span></a>`).join("")}</div>`;
+  return `<div class="vids">${v.map(x => `<a class="vid" href="${L.url(x.url)}" target="_blank" rel="noopener"><img src="${L.url(x.thumb)}" alt="" loading="lazy" width="480" height="270"><h3>${esc(x.title)}</h3><span class="eyebrow">${esc(L.short(x.date))}</span></a>`).join("")}</div>`;
 }
 
 export function linkListHTML(items) {
   if (!items?.length) return empty("Nothing new right now.");
-  return `<ul class="stories compact">${items.map(i => `<li class="story"><div class="story-meta"><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>${i.desc ? `<p>${esc(i.desc)}</p>` : ""}</li>`).join("")}</ul>`;
+  return `<ul class="stories compact">${items.map(i => `<li class="story"><div class="story-meta"><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>${i.desc ? `<p>${esc(i.desc)}</p>` : ""}</li>`).join("")}</ul>`;
 }

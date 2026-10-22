@@ -24,10 +24,9 @@ for (const f of files) {
   const nav = NAV.map(([key, href, label]) => `        <a href="${href}"${key === meta.nav ? ' aria-current="page"' : ""}>${label}</a>`).join("\n");
   const url = BASE + (meta.file === "index.html" ? "" : meta.file);
   const head = (meta.head || "") + (meta.script ? `<script type="module" src="assets/js/pages/${meta.script}.js"></script>\n` : "");
-  const html = layout
-    .replaceAll("{{title}}", meta.title).replaceAll("{{description}}", meta.description).replaceAll("{{url}}", url)
-    .replaceAll("{{page}}", meta.nav || "none").replaceAll("{{nav}}", nav).replace("{{head}}", head)
-    .replace("{{main}}", src.slice(m[0].length).trim());
+  // Function replacers: page content may contain "$&" or "$1", which string replacements would expand.
+  const vals = { title: meta.title, description: meta.description, url, page: meta.nav || "none", nav, head, main: src.slice(m[0].length).trim() };
+  const html = layout.replace(/\{\{(\w+)\}\}/g, (all, k) => (k in vals ? vals[k] : all));
   if (meta.sitemap !== false) urls.push(url);
   const out = new URL(meta.file, root);
   const cur = await readFile(out, "utf8").catch(() => null);

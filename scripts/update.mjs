@@ -141,7 +141,7 @@ const newsItems = P.mergeNews(prev.news?.items, fresh, { now });
 const media = {
   updated: now.toISOString(),
   youtube: await source("videos", youtube, clone(prev.media?.youtube) || []),
-  podcasts: await source("podcasts", async () => P.parseFeed(await get("https://www.raiders.com/rss/audio", { type: "text" })).slice(0, 12)
+  podcasts: await source("podcasts", async () => P.parseFeed(await get("https://www.raiders.com/rss/audio", { type: "text" })).filter(i => P.isWebUrl(i.link) && !isNaN(new Date(i.date))).slice(0, 12)
     .map(i => ({ title: i.title, link: i.link, date: new Date(i.date).toISOString(), desc: i.desc.slice(0, 220), src: "Raiders.com" })), clone(prev.media?.podcasts) || []),
   espn: espnArticles.length ? espnArticles.filter(a => a.type === "Media" && (a.categories || []).some(c => c.type === "team" && String(c.teamId) === TEAM))
     .slice(0, 12).map(a => ({ title: a.headline, link: (a.links?.web?.href || "").replace(/^http:/, "https:"), date: a.published, desc: (a.description || "").slice(0, 220), src: "ESPN" }))
@@ -173,8 +173,8 @@ async function youtube() {
 const history = clone(prev.history) || { seasons: [] };
 for (let y = HISTORY_FROM; y < SEASON; y++) {
   if (history.seasons.some(s => s.year === y)) continue;
-  const r = await source(`history ${y}`, async () => ({ year: y, ...P.seasonRecord((await get(`${SITE}/teams/lv/schedule?season=${y}&seasontype=2`)).events) }), null);
-  if (r) history.seasons.push(r);
+  const r = await source(`history ${y}`, async () => ({ year: y, ...P.seasonRecord((await get(`${SITE}/teams/lv/schedule?season=${y}&seasontype=2`)).events || []) }), null);
+  if (r && r.w + r.l + r.t > 0) history.seasons.push(r); // an empty response would otherwise be stored as 0-0 for good
 }
 history.seasons.sort((a, b) => b.year - a.year);
 

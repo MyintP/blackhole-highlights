@@ -29,8 +29,9 @@ A.runPage($("page-error"), async () => {
   const lead = fresh.find(i => i.kind === "Official" || i.kind === "Reporting") || items[0];
   const rest = items.filter(i => i !== lead);
   $("lead").innerHTML = lead ? A.storyHTML(lead, { lead: true }) : A.empty("No stories right now.");
-  $("top-stories").innerHTML = rest.filter(i => i.kind !== "Rumor").slice(0, 4).map(i => A.storyHTML(i)).join("");
-  $("latest").innerHTML = rest.slice(4, 12).map(i => `<li class="story"><div class="story-meta"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3></li>`).join("");
+  const top = rest.filter(i => i.kind !== "Rumor").slice(0, 4);
+  $("top-stories").innerHTML = top.map(i => A.storyHTML(i)).join("");
+  $("latest").innerHTML = rest.filter(i => !top.includes(i)).slice(0, 8).map(i => `<li class="story"><div class="story-meta"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3></li>`).join("");
 
   // Game week
   $("pick").innerHTML = A.pickHTML(n, ed);

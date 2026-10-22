@@ -35,7 +35,7 @@ A.runPage($("page-error"), async () => {
   const finals = (site.schedule?.games || []).filter(g => g.final).reverse();
   $("res").innerHTML = finals.length ? finals.map((g, idx) => {
     const x = details[g.id];
-    const head = `<summary><span class="wkl">Week ${esc(g.week)}</span><span class="who">${esc(L.gameLabel(g))}</span><span class="fs ${g.win ? "w" : g.tie ? "" : "l"}">${esc(L.resultText(g))}</span></summary>`;
+    const head = `<summary><span class="wkl">Week ${esc(g.week)}</span><span class="who">${esc(L.gameLabel(g))}</span><span class="fs ${g.win ? "is-win" : g.tie ? "" : "is-loss"}">${esc(L.resultText(g))}</span></summary>`;
     if (!x) return `<details class="result" id="g-${esc(g.id)}">${head}<div class="body">${A.empty("Box score not available yet.")}</div></details>`;
     const q = Math.max(x.lines.us.length, x.lines.them.length);
     const qh = Array.from({ length: q }, (_, i) => `<th class="n" scope="col">${i < 4 ? "Q" + (i + 1) : "OT"}</th>`).join("");
@@ -50,7 +50,7 @@ A.runPage($("page-error"), async () => {
           ${x.box.map(b => `<tr><td>${esc(BOX_LABELS[b.key] || b.key)}</td><td class="n">${esc(b.us ?? "-")}</td><td class="n">${esc(b.them ?? "-")}</td></tr>`).join("")}</tbody></table></div></div>
         <div style="display:grid;gap:20px">${leaders(x.leaders.us, "Raiders")}${leaders(x.leaders.them, g.opp.name)}</div>
       </div>
-      ${x.recap ? `<div><h3 class="panel-title">Recap</h3><p style="margin-top:10px"><a class="ext" href="${esc(x.recap.link)}" target="_blank" rel="noopener">${esc(x.recap.title)}</a> <span class="muted">· ESPN</span></p>${x.recap.desc ? `<p class="muted" style="margin-top:6px">${esc(x.recap.desc)}</p>` : ""}</div>` : ""}
+      ${x.recap ? `<div><h3 class="panel-title">Recap</h3><p style="margin-top:10px"><a class="ext" href="${L.url(x.recap.link)}" target="_blank" rel="noopener">${esc(x.recap.title)}</a> <span class="muted">· ESPN</span></p>${x.recap.desc ? `<p class="muted" style="margin-top:6px">${esc(x.recap.desc)}</p>` : ""}</div>` : ""}
     </div></details>`;
   }).join("") : A.empty("No games played yet.");
 

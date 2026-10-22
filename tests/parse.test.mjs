@@ -131,3 +131,15 @@ test("ordinal and rankText", () => {
   assert.deepEqual([1, 2, 3, 4, 11, 12, 13, 21, 22, 30].map(P.ordinal), ["1st", "2nd", "3rd", "4th", "11th", "12th", "13th", "21st", "22nd", "30th"]);
   assert.equal(P.rankText("Tied-12th"), "T-12th");
 });
+
+test("toItem rejects non-web links from feeds", () => {
+  const base = { title: "A real headline here", date: "2026-10-21T10:00:00Z" };
+  assert.equal(P.toItem({ ...base, link: "javascript:alert(1)" }, "ESPN"), null);
+  assert.equal(P.toItem({ ...base, link: "data:text/html,x" }, "ESPN"), null);
+  assert.ok(P.toItem({ ...base, link: "https://www.espn.com/x" }, "ESPN"));
+});
+
+test("redact strips query strings (API keys) from error messages", async () => {
+  const { redact } = await import("../scripts/lib/fetch.mjs");
+  assert.equal(redact("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&key=SECRET"), "https://www.googleapis.com/youtube/v3/playlistItems?…");
+});

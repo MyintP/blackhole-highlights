@@ -70,3 +70,10 @@ test("injury and game helpers", () => {
   assert.equal(L.statValue({ label: "3rd-down conversion %", value: "42.31" }), "42.3%");
   assert.equal(L.statValue({ label: "Points per game", value: "27.0" }), "27.0");
 });
+
+test("url lets only http(s) links through", () => {
+  assert.equal(L.url("https://www.raiders.com/a?b=1&c=2"), "https://www.raiders.com/a?b=1&amp;c=2");
+  assert.equal(L.url("javascript:alert(1)"), "#");
+  assert.equal(L.url("JaVaScRiPt:alert(1)"), "#");
+  assert.equal(L.url(null), "#");
+});
