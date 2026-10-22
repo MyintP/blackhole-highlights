@@ -89,10 +89,11 @@ function profileHTML(p, through) {
 
 A.initChrome();
 A.runPage($("page-error"), async () => {
-  const d = await A.loadAll(["players"], ["site"]);
+  // players.json is optional: it appears after the update job's first nflverse pass, and the page says so until then
+  const d = await A.loadAll(["site"], ["players"]);
   A.dataNotice(d.site);
-  const all = d.players.players || [], through = d.players.throughWeek;
-  $("pl-season").textContent = `${d.site?.season ?? ""} season${through ? ` · through Week ${through}` : ""} · ${all.length} players`;
+  const all = d.players?.players || [], through = d.players?.throughWeek;
+  $("pl-season").textContent = `${d.site.season} season${through ? ` · through Week ${through}` : ""} · ${all.length} players`;
   if (!all.length) { $("pl-list").innerHTML = ""; $("pl-profile").innerHTML = A.empty("Player stats aren't available yet."); return; }
 
   const params = new URLSearchParams(location.search);

@@ -99,12 +99,16 @@ const NV_BASE = "https://github.com/nflverse/nflverse-data/releases/download";
 const prevPlayers = await readJSON("players.json", null), prevBreakdown = await readJSON("breakdown.json", null);
 let adv = clone(prev.stats?.advanced) || null, tend = clone(prev.stats?.tendencies) || null;
 let playersOut = clone(prevPlayers), breakdown = clone(prevBreakdown);
-if (!playersOut?.fetched || now - new Date(playersOut.fetched) > NFLVERSE_EVERY_H * H) {
-  const csv = (name, file, gz = false) => source(`nflverse ${name}`, async () => {
+// The last attempt is kept in site.json, so a failing nflverse is retried hourly, not on every 10-minute game-day run.
+let nflverseTried = prev.site?.nflverseTried ?? null;
+const nvDue = !playersOut?.fetched || now - new Date(playersOut.fetched) > NFLVERSE_EVERY_H * H;
+if (nvDue && (!nflverseTried || now - new Date(nflverseTried) > H)) {
+  nflverseTried = now.toISOString();
+  const csv = (name, file, gz = false, columns = null) => source(`nflverse ${name}`, async () => {
     const b = await get(`${NV_BASE}/${file}`, { type: "buffer", timeout: 90000 });
-    return NV.parseCSV((gz ? gunzipSync(b) : b).toString("utf8"));
+    return NV.parseCSV((gz ? gunzipSync(b) : b).toString("utf8"), columns);
   }, null);
-  const pbp = await csv("play-by-play", `pbp/play_by_play_${SEASON}.csv.gz`, true);
+  const pbp = await csv("play-by-play", `pbp/play_by_play_${SEASON}.csv.gz`, true, NV.PBP_COLUMNS);
   const ftn = await csv("charting", `ftn_charting/ftn_charting_${SEASON}.csv`);
   const statsReg = await csv("player stats", `stats_player/stats_player_reg_${SEASON}.csv`);
   const pfr = {};
@@ -266,6 +270,7 @@ const site = {
   injuries,
   leaders: nextSumm ? P.leadersFrom(nextSumm, TEAM, ["passingYards", "rushingYards", "receivingYards", "sacks", "totalTackles"]) : keep("leaders") ?? [],
   sources: status,
+  nflverseTried,
 };
 
 const changed = {
