@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Black Hole Highlights: Las Vegas Raiders news, stats, game previews and clips.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<title>Black Hole Highlights</title>
+<meta name="theme-color" content="#09090b">
+<!-- Link previews. Once hosted, change og:image to the full URL (https://yoursite/assets/og-image.png). -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Black Hole Highlights">
+<meta property="og:title" content="Black Hole Highlights">
+<meta property="og:description" content="Las Vegas Raiders news, stats, odds and clips from a fan-run YouTube channel.">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Black Hole Highlights: Raiders news, stats, odds and clips">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Layout: broadcast-style game-week hub — scoreboard hero, then a two-column news + sidebar grid, matchup tape, clip rail. Single dark "Silver & Black" look by choice. */
+:root{
+  --ink:#09090b;        /* page ground */
+  --pitch:#121316;      /* raised surface */
+  --line:#26282d;       /* rules */
+  --silver:#c9cdd2;     /* accent */
+  --chrome:#f1f2f4;     /* primary text */
+  --muted:#9097a0;      /* secondary text */
+  --win:#7fd1a3; --loss:#e58c8c;
+  --display:"Anton",Impact,"Arial Narrow",sans-serif;
+  --label:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--ink);color:var(--chrome);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--ink)}
+a{color:var(--chrome)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--silver);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--label);font-weight:600;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+h1,h2,h3{text-wrap:balance;margin:0}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(28px,4vw,40px);letter-spacing:.01em;line-height:1}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* Header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(9,9,11,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand span{font-family:var(--display);font-size:22px;letter-spacing:.03em;line-height:1}
+.brand em{font-style:normal;color:var(--muted)}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{font-family:var(--label);font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--chrome)}
+.sub-btn{font-family:var(--label);font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--ink);background:var(--silver);padding:10px 16px;border-radius:2px;white-space:nowrap}
+.sub-btn:hover{background:var(--chrome)}
+@media (max-width:760px){
+  header.top .wrap{flex-wrap:wrap;row-gap:4px}
+  .brand span{font-size:19px}
+  header.top .sub-btn{padding:8px 12px;font-size:13px}
+  nav{order:3;width:100%;flex-wrap:nowrap;overflow-x:auto;gap:18px;scrollbar-width:none}
+  nav::-webkit-scrollbar{display:none}
+  nav a{white-space:nowrap;padding-block:8px}
+}
+
+/* Hero scoreboard */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.55;pointer-events:none}
+.hero .wrap{position:relative;padding-block:56px 48px;display:grid;gap:28px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,8vw,96px);line-height:.92;letter-spacing:.01em;max-width:14ch}
+.hero h1 b{font-weight:400;color:var(--silver)}
+.hero p.lede{max-width:60ch;color:var(--muted);font-size:18px;margin:0}
+.board{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;border:1px solid var(--line);background:rgba(18,19,22,.85);padding:24px;max-width:760px}
+.team{display:grid;gap:4px}
+.team.r{text-align:right}
+.team .abbr{font-family:var(--display);font-size:clamp(40px,7vw,64px);line-height:1}
+.team .rec{font-family:var(--label);font-size:16px;letter-spacing:.1em;color:var(--muted)}
+.vs{display:grid;justify-items:center;gap:6px;text-align:center}
+.vs .at{font-family:var(--label);font-weight:700;letter-spacing:.2em;color:var(--muted);font-size:13px}
+.count{display:flex;gap:10px;font-family:var(--display);font-size:clamp(22px,3.4vw,30px);line-height:1}
+.count div{display:grid;justify-items:center;gap:2px}
+.count small{font-family:var(--label);font-size:11px;letter-spacing:.14em;color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--label);font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.meta strong{color:var(--chrome);font-weight:600}
+@media (max-width:520px){.board{grid-template-columns:1fr 1fr}.vs{grid-column:1/-1;order:3}}
+
+/* Main grid */
+section{padding-block:56px;border-bottom:1px solid var(--line)}
+section,.panel{scroll-margin-top:72px}
+@media (max-width:760px){section,.panel{scroll-margin-top:110px}}
+.sec-head{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+.grid-main{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:48px}
+@media (max-width:900px){.grid-main{grid-template-columns:1fr}}
+
+.lead-story{display:grid;gap:12px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.lead-story h3{font-family:var(--display);font-weight:400;font-size:clamp(28px,4vw,42px);line-height:1.02}
+.lead-story p{margin:0;color:var(--muted);max-width:62ch}
+.stats-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:8px}
+.stats-row div{background:var(--pitch);padding:14px}
+.stats-row b{display:block;font-family:var(--display);font-weight:400;font-size:28px;line-height:1}
+.stats-row span{font-family:var(--label);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:520px){.stats-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.news{list-style:none;margin:0;padding:0;display:grid}
+.news li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;padding-block:20px;border-bottom:1px solid var(--line)}
+.news .tag{font-family:var(--label);font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--silver);padding-top:4px}
+.news h4{margin:0 0 4px;font-family:var(--body);font-weight:600;font-size:19px;line-height:1.3}
+.news h4 a{text-decoration:none}
+.news h4 a:hover{text-decoration:underline;text-underline-offset:3px}
+.news p{margin:0;color:var(--muted);font-size:15px}
+.news .src{font-family:var(--label);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+@media (max-width:520px){.news li{grid-template-columns:1fr;gap:6px}}
+
+aside{display:grid;gap:36px;align-content:start}
+.panel h3{font-family:var(--label);font-weight:700;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding-bottom:10px;border-bottom:2px solid var(--silver);margin-bottom:4px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+td,th{padding:10px 4px;border-bottom:1px solid var(--line);text-align:left;font-size:15px}
+th{font-family:var(--label);font-weight:600;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+td.n,th.n{text-align:right}
+tr.us td{color:var(--chrome);font-weight:600}
+tr.us td:first-child{box-shadow:inset 3px 0 0 var(--silver);padding-left:10px}
+.res{font-family:var(--label);font-weight:700;letter-spacing:.06em}
+.res.w{color:var(--win)}.res.l{color:var(--loss)}
+td small{color:var(--muted);font-size:13px}
+.odds table+table{margin-top:14px}
+.odds-note{margin:10px 0 0;font-size:13px;color:var(--muted)}
+
+/* Pundit's pick */
+.pick{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:48px;align-items:start}
+@media (max-width:820px){.pick{grid-template-columns:1fr}}
+.call{border:1px solid var(--line);background:var(--pitch);padding:24px;display:grid;gap:16px}
+.score{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;font-family:var(--display);font-size:clamp(36px,6vw,56px);line-height:1}
+.score span:nth-child(even){text-align:right}
+.call p{margin:0;color:var(--muted)}
+.keys{list-style:none;margin:0;padding:0;counter-reset:k;border-top:1px solid var(--line)}
+.keys li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:16px;padding-block:18px;border-bottom:1px solid var(--line);counter-increment:k}
+.keys li::before{content:counter(k,decimal-leading-zero);font-family:var(--display);font-size:32px;line-height:1;color:var(--silver)}
+.keys h4{margin:0 0 4px;font-size:18px}
+.keys p{margin:0;color:var(--muted);font-size:15px}
+
+/* Matchup tape */
+.tape{display:grid;gap:0;border-top:1px solid var(--line)}
+.tape-row{display:grid;grid-template-columns:minmax(0,1fr) 180px minmax(0,1fr);align-items:center;gap:16px;padding-block:14px;border-bottom:1px solid var(--line)}
+.tape-row .k{text-align:center;font-family:var(--label);font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.side{display:flex;align-items:center;gap:12px}
+.side.l{flex-direction:row-reverse}
+.bar{height:10px;background:var(--line);flex:1;position:relative}
+.bar i{position:absolute;top:0;bottom:0;background:var(--silver)}
+.side.l .bar i{right:0}.side.r .bar i{left:0}
+.bar i.dim{background:#5b6068}
+.v{font-family:var(--display);font-size:24px;line-height:1;min-width:64px}
+.side.l .v{text-align:right}
+.v small{display:block;font-family:var(--label);font-size:12px;letter-spacing:.1em;color:var(--muted)}
+.tape-key{display:grid;grid-template-columns:minmax(0,1fr) 180px minmax(0,1fr);gap:16px;padding-bottom:12px}
+.tape-key div{font-family:var(--display);font-size:22px}
+.tape-key div:last-child{text-align:right}
+@media (max-width:620px){.tape-row,.tape-key{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.tape-row .k{grid-column:1/-1;order:-1;text-align:left}}
+
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;margin-top:48px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.inj{list-style:none;margin:0;padding:0}
+.inj li{display:flex;justify-content:space-between;gap:12px;padding-block:10px;border-bottom:1px solid var(--line);font-size:15px}
+.inj li span:last-child{font-family:var(--label);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:13px;color:var(--muted);text-align:right}
+.inj .out{color:var(--loss)!important}
+.inj .q{color:#e8c37a!important}
+.inj .back{color:var(--win)!important}
+
+/* Milestones */
+.miles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.mile{background:var(--pitch);padding:24px;display:grid;gap:10px;align-content:start}
+.mile b{font-family:var(--display);font-weight:400;font-size:56px;line-height:.9}
+.mile b small{font-family:var(--label);font-size:16px;letter-spacing:.12em;color:var(--muted);margin-left:6px}
+.mile h4{margin:0;font-size:18px}
+.mile p{margin:0;color:var(--muted);font-size:15px}
+@media (max-width:820px){.miles{grid-template-columns:1fr}}
+.miles.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1000px){.miles.four{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.miles.four{grid-template-columns:1fr}}
+
+/* Clips */
+.clips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+@media (max-width:1000px){.clips{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.clips{grid-template-columns:1fr}}
+.clip{display:grid;gap:12px;text-decoration:none;color:var(--chrome)}
+.thumb{aspect-ratio:9/16;max-width:100%;max-height:340px;width:100%;background:var(--pitch);border:1px solid var(--line);position:relative;overflow:hidden;display:grid;align-content:end;padding:16px}
+.thumb::before{content:"";position:absolute;inset:-30% -30% auto auto;width:90%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#000 46%,rgba(201,205,210,.55) 50%,rgba(201,205,210,0) 70%)}
+.thumb .hook{position:relative;font-family:var(--display);font-size:24px;line-height:1.02;text-transform:uppercase}
+.thumb .st{position:absolute;top:12px;left:12px;font-family:var(--label);font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;background:var(--silver);color:var(--ink);padding:4px 8px}
+.thumb .st.live{background:transparent;color:var(--silver);border:1px solid var(--silver)}
+.clip:hover .thumb{border-color:var(--silver)}
+.clip h4{margin:0;font-size:16px;font-weight:600;line-height:1.35}
+.clip p{margin:0;font-family:var(--label);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+footer{padding-block:40px 56px;color:var(--muted);font-size:14px}
+footer .wrap{display:grid;gap:20px}
+footer .row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer p{margin:0;max-width:70ch}
+.sources{display:flex;flex-wrap:wrap;gap:8px 18px}
+.sources a{color:var(--muted);font-size:13px}
+@media (prefers-reduced-motion:reduce){.hero canvas{display:none}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Black Hole Highlights home">
+      <svg width="36" height="36" viewBox="0 0 800 800" aria-hidden="true">
+        <defs><radialGradient id="h" cx="400" cy="400" r="380" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#000"/><stop offset=".56" stop-color="#EEF0F2"/><stop offset=".66" stop-color="#9AA0A8" stop-opacity=".5"/><stop offset="1" stop-color="#09090b" stop-opacity="0"/></radialGradient></defs>
+        <circle cx="400" cy="400" r="380" fill="url(#h)"/><circle cx="400" cy="400" r="200" fill="#000"/>
+        <path d="M60 400A340 46 0 0 0 740 400" fill="none" stroke="#EEF0F2" stroke-width="22"/>
+      </svg>
+      <span>BLACK HOLE <em>HIGHLIGHTS</em></span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#news">News</a><a href="#pick">Pick</a><a href="#matchup">Rams Week</a><a href="#leaders">Leaders</a><a href="#milestones">Milestones</a><a href="#clips">Clips</a>
+    </nav>
+    <a class="sub-btn" href="https://www.youtube.com/@BlackHoleHighlights">Subscribe</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <canvas id="disk" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="eyebrow">Week 7 · Game Week</div>
+      <h1>Three straight losses. <b>Stafford's Rams</b> come to Allegiant.</h1>
+      <p class="lede">The Raiders sit at 3-3 after a 33-30 loss to Buffalo. Los Angeles arrives at 2-4 with the league's passing-yards leader and no Davante Adams.</p>
+      <div class="board" role="group" aria-label="Rams at Raiders, Sunday October 25">
+        <div class="team"><span class="abbr">LAR</span><span class="rec tnum">2-4 · NFC WEST</span></div>
+        <div class="vs">
+          <span class="at" id="cd-label">KICKOFF IN</span>
+          <div class="count tnum" id="count" aria-live="off">
+            <div><span id="cd-d">--</span><small>DAYS</small></div>
+            <div><span id="cd-h">--</span><small>HRS</small></div>
+            <div><span id="cd-m">--</span><small>MIN</small></div>
+          </div>
+        </div>
+        <div class="team r"><span class="abbr">LV</span><span class="rec tnum">3-3 · AFC WEST</span></div>
+      </div>
+      <div class="meta">
+        <span><strong>Sun, Oct 25</strong> · 1:25 PM PT</span>
+        <span><strong>Allegiant Stadium</strong> · Las Vegas</span>
+        <span><strong>FOX</strong> · Myers / Vilma</span>
+        <span>Radio <strong>92.3 FM · 920 AM</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <section id="news">
+    <div class="wrap grid-main">
+      <div>
+        <div class="sec-head"><h2>Latest from the Black Hole</h2><span class="eyebrow">Updated Oct 22</span></div>
+
+        <article class="lead-story">
+          <span class="eyebrow">Week 6 recap · Bills 33, Raiders 30</span>
+          <h3>Cousins rallies late, but seven drops sink the Raiders</h3>
+          <p>Kirk Cousins threw for 313 yards and hit Tre Tucker for a 44-yard touchdown with 1:39 left to cut it to three. The onside kick failed. Seven dropped passes and a 65-yard rushing day kept Las Vegas from leading after the first quarter.</p>
+          <div class="stats-row tnum">
+            <div><b>313</b><span>Pass yds</span></div>
+            <div><b>2</b><span>Tucker TDs</span></div>
+            <div><b>7</b><span>Drops</span></div>
+            <div><b>0</b><span>Sacks allowed</span></div>
+          </div>
+        </article>
+
+        <ul class="news">
+          <li>
+            <span class="tag">Preview</span>
+            <div>
+              <h4><a href="https://www.raiders.com/news/game-preview-las-vegas-raiders-vs-los-angeles-rams-102526-matthew-stafford-sean-mcvay">Raiders must slow another top offense against the Rams</a></h4>
+              <p>Matthew Stafford leads the NFL in attempts, completions and passing yards (1,794). The all-time series is tied 8-8.</p>
+              <div class="src">Raiders.com</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Injury</span>
+            <div>
+              <h4><a href="https://www.silverandblackpride.com/las-vegas-raiders-news/143646/raiders-injury-report-tonka-hemingway-concussion-protocol">Tonka Hemingway still in concussion protocol</a></h4>
+              <p>The defensive tackle remains limited heading into Rams week. Watch Friday's final report for his status.</p>
+              <div class="src">Silver &amp; Black Pride</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Roster</span>
+            <div>
+              <h4><a href="https://www.raiders.com/news/raiders-unofficial-depth-chart-for-week-7-vs-los-angeles-rams-102526">Unofficial depth chart for Week 7 vs. Los Angeles</a></h4>
+              <p>Dont'e Thornton Jr. and Carter Runyon are expected back from injured reserve.</p>
+              <div class="src">Raiders.com</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Players</span>
+            <div>
+              <h4><a href="https://www.silverandblackpride.com/las-vegas-raiders-news/143160/raiders-news-jeanty-touchdowns">Ashton Jeanty on a strong career scoring pace</a></h4>
+              <p>Jeanty punched in a 1-yard touchdown against Buffalo, even as the run game ranks 30th in the league.</p>
+              <div class="src">Silver &amp; Black Pride</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Rams</span>
+            <div>
+              <h4><a href="https://www.cbssports.com/nfl/teams/lar/los-angeles-rams/injuries/">Rams list Adams, Turner and Ford on injured reserve</a></h4>
+              <p>Davante Adams (hamstring) and Kobie Turner (groin) are out. Trent McDuffie and Nate Landman are questionable.</p>
+              <div class="src">CBS Sports</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <aside>
+        <div class="panel odds" id="odds">
+          <h3>Rams at Raiders odds</h3>
+          <table>
+            <thead><tr><th>Line</th><th class="n">LAR</th><th class="n">LV</th></tr></thead>
+            <tbody>
+              <tr><td>Spread</td><td class="n">-4.5 <small>(-105)</small></td><td class="n">+4.5 <small>(-112)</small></td></tr>
+              <tr><td>Moneyline</td><td class="n">-210</td><td class="n">+175</td></tr>
+              <tr><td>Total</td><td class="n">O 47.5 <small>(-110)</small></td><td class="n">U 47.5 <small>(-110)</small></td></tr>
+            </tbody>
+          </table>
+          <table>
+            <thead><tr><th>Trend</th><th class="n">Spread</th><th class="n">Total</th></tr></thead>
+            <tbody>
+              <tr><td>Open <small>FanDuel, Oct 19</small></td><td class="n">LAR -5.5</td><td class="n">47.5</td></tr>
+              <tr><td>Latest <small>BetMGM, Oct 20</small></td><td class="n">LAR -4.5</td><td class="n">47.5</td></tr>
+              <tr><td>Raiders 2026</td><td class="n">5-1 ATS</td><td class="n">4-2 over</td></tr>
+            </tbody>
+          </table>
+          <p class="odds-note">Open and latest lines come from different books (FanDuel via Yahoo, BetMGM via SI). The Raiders' records against the spread and over/under run through Week 6. Lines move, so check a sportsbook before betting. For entertainment only. 21+. Gambling problem? Call 1-800-GAMBLER.</p>
+        </div>
+        <div class="panel">
+          <h3>AFC West</h3>
+          <table>
+            <thead><tr><th>Team</th><th class="n">W</th><th class="n">L</th><th class="n">Pct</th></tr></thead>
+            <tbody>
+              <tr><td>Kansas City</td><td class="n">5</td><td class="n">0</td><td class="n">1.000</td></tr>
+              <tr><td>Denver</td><td class="n">4</td><td class="n">2</td><td class="n">.667</td></tr>
+              <tr class="us"><td>Las Vegas</td><td class="n">3</td><td class="n">3</td><td class="n">.500</td></tr>
+              <tr><td>LA Chargers</td><td class="n">0</td><td class="n">6</td><td class="n">.000</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel" id="schedule">
+          <h3>2026 Schedule</h3>
+          <table>
+            <thead><tr><th>Wk</th><th>Opponent <small>record</small></th><th class="n">Result · PT</th></tr></thead>
+            <tbody>
+              <tr><td>Wk 1</td><td>vs Dolphins</td><td class="n"><span class="res w">W</span> 27-13</td></tr>
+              <tr><td>Wk 2</td><td>at Chargers</td><td class="n"><span class="res w">W</span> 26-14</td></tr>
+              <tr><td>Wk 3</td><td>at Saints</td><td class="n"><span class="res w">W</span> 35-27</td></tr>
+              <tr><td>Wk 4</td><td>vs Chiefs</td><td class="n"><span class="res l">L</span> 27-30</td></tr>
+              <tr><td>Wk 5</td><td>at Patriots</td><td class="n"><span class="res l">L</span> 17-45</td></tr>
+              <tr><td>Wk 6</td><td>vs Bills</td><td class="n"><span class="res l">L</span> 30-33</td></tr>
+              <tr class="us"><td>Wk 7</td><td>vs Rams <small>2-4</small></td><td class="n">Oct 25 · 1:25 · FOX</td></tr>
+              <tr><td>Wk 8</td><td>at Jets <small>2-4</small></td><td class="n">Nov 1 · 10:00 · FOX</td></tr>
+              <tr><td>Wk 9</td><td>at 49ers <small>6-0</small></td><td class="n">Nov 8 · 1:05 · CBS</td></tr>
+              <tr><td>Wk 10</td><td>vs Seahawks <small>3-3</small></td><td class="n">Nov 15 · 1:05 · CBS</td></tr>
+              <tr><td>Wk 11</td><td>at Broncos <small>4-2</small></td><td class="n">Nov 22 · 1:25 · CBS</td></tr>
+              <tr><td>Wk 12</td><td>at Browns <small>4-2</small></td><td class="n">Nov 29 · 10:00 · FOX</td></tr>
+              <tr><td>Wk 13</td><td>Bye</td><td class="n">-</td></tr>
+              <tr><td>Wk 14</td><td>vs Chargers <small>0-6</small></td><td class="n">Dec 13 · 1:05 · CBS</td></tr>
+              <tr><td>Wk 15</td><td>vs Broncos <small>4-2</small></td><td class="n">Dec 20 · 1:25 · CBS</td></tr>
+              <tr><td>Wk 16</td><td>vs Titans <small>1-5</small></td><td class="n">Dec 27 · 1:05 · FOX</td></tr>
+              <tr><td>Wk 17</td><td>at Cardinals <small>2-4</small></td><td class="n">Jan 3 · 1:05 · CBS</td></tr>
+              <tr><td>Wk 18</td><td>at Chiefs <small>5-0</small></td><td class="n">TBD</td></tr>
+            </tbody>
+          </table>
+          <p class="odds-note">Opponent records as of Oct 22. Week 17 and 18 times can still change.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="pick">
+    <div class="wrap">
+      <div class="sec-head"><h2>Pundit's Pick</h2><span class="eyebrow">Rams at Raiders · Week 7</span></div>
+      <div class="pick">
+        <div class="call">
+          <span class="eyebrow">Final score call</span>
+          <div class="score tnum"><span>RAMS</span><span>27</span><span>RAIDERS</span><span>24</span></div>
+          <p>Rams by three, but the Raiders cover +4.5. Las Vegas is 5-1 against the spread, and two of its three losses came by exactly three points. Total: 51, over 47.5.</p>
+        </div>
+        <ol class="keys">
+          <li><div><h4>Catch the ball</h4><p>Seven drops sank the Bills game. Cousins has 14 touchdowns to 5 interceptions this season, so the passing game works when the hands do.</p></div></li>
+          <li><div><h4>Make Stafford uncomfortable</h4><p>Stafford leads the NFL with 1,794 passing yards, and the Raiders allow 371.7 yards a game (28th). Crosby has 2 sacks through six games. This is the week he needs more.</p></div></li>
+          <li><div><h4>Feed Jeanty early</h4><p>The run game ranks 30th at 79.2 yards a game. Even a modest ground game keeps Stafford on the sideline and takes pressure off Cousins.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="matchup">
+    <div class="wrap">
+      <div class="sec-head"><h2>Tale of the Tape</h2><span class="eyebrow">Season averages · NFL rank</span></div>
+      <div class="tape-key"><div>RAIDERS</div><div></div><div>RAMS</div></div>
+      <div class="tape tnum" id="tape"></div>
+
+      <div class="two">
+        <div class="panel">
+          <h3>Raiders injury report</h3>
+          <ul class="inj">
+            <li><span>Tonka Hemingway · DT · Concussion</span><span class="q">Questionable</span></li>
+            <li><span>Dont'e Thornton Jr. · WR · Hamstring</span><span class="back">Expected back</span></li>
+            <li><span>Carter Runyon · TE · Lower body</span><span class="back">Expected back</span></li>
+            <li><span>Jack Bech · WR · Forearm</span><span class="out">IR · Wk 8</span></li>
+            <li><span>Keyron Crawford · DE · Ankle</span><span class="out">IR</span></li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Rams injury report</h3>
+          <ul class="inj">
+            <li><span>Davante Adams · WR · Hamstring</span><span class="out">IR</span></li>
+            <li><span>Kobie Turner · DE · Groin</span><span class="out">IR</span></li>
+            <li><span>Poona Ford · DT · Triceps</span><span class="out">Season</span></li>
+            <li><span>Trent McDuffie · CB · Groin</span><span class="q">Questionable</span></li>
+            <li><span>Nate Landman · LB · Concussion</span><span class="q">Questionable</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="leaders">
+    <div class="wrap">
+      <div class="sec-head"><h2>Season Leaders</h2><span class="eyebrow">Through Week 6 · ESPN</span></div>
+      <div class="miles four tnum">
+        <div class="mile"><b>1,582<small>PASS YDS</small></b><h4>Kirk Cousins</h4><p>135 of 213, 14 TD, 5 INT in 6 games.</p></div>
+        <div class="mile"><b>313<small>RUSH YDS</small></b><h4>Ashton Jeanty</h4><p>98 carries, 1 TD. Plus 28 catches for 266 yards and a score.</p></div>
+        <div class="mile"><b>382<small>REC YDS</small></b><h4>Brock Bowers</h4><p>28 catches, 3 TD in 4 games.</p></div>
+        <div class="mile"><b>2.0<small>SACKS</small></b><h4>Maxx Crosby</h4><p>14 tackles, 3 for a loss in 6 games.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="milestones">
+    <div class="wrap">
+      <div class="sec-head"><h2>Milestones in Reach</h2><span class="eyebrow">What to clip on Sunday</span></div>
+      <div class="miles tnum">
+        <div class="mile"><b>18<small>CATCHES</small></b><h4>Brock Bowers</h4><p>To pass Trey McBride's 221 for the most receptions by a tight end in his first three seasons.</p></div>
+        <div class="mile"><b>5.0<small>SACKS</small></b><h4>Maxx Crosby</h4><p>For his eighth straight season with at least 7.0 sacks.</p></div>
+        <div class="mile"><b>424<small>RUSH YDS</small></b><h4>Ashton Jeanty</h4><p>To pass Marcus Allen's 1,711 for the second-most by a Raider in his first two seasons.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="clips">
+    <div class="wrap">
+      <div class="sec-head"><h2>Rams Week Clips</h2><a class="sub-btn" href="https://www.youtube.com/@BlackHoleHighlights">Watch on YouTube</a></div>
+      <div class="clips">
+        <a class="clip" href="https://www.youtube.com/@BlackHoleHighlights/shorts">
+          <div class="thumb"><span class="st">Short</span><span class="hook">44 yards. 1:39 left.</span></div>
+          <h4>Tucker's 44-Yard TD: Cousins' Best Throw of the Year?</h4><p>Bills recap</p>
+        </a>
+        <a class="clip" href="https://www.youtube.com/@BlackHoleHighlights/shorts">
+          <div class="thumb"><span class="st">Short</span><span class="hook">7 drops cost them</span></div>
+          <h4>7 Drops Cost the Raiders vs Buffalo</h4><p>Film breakdown</p>
+        </a>
+        <a class="clip" href="https://www.youtube.com/@BlackHoleHighlights/shorts">
+          <div class="thumb"><span class="st">Short</span><span class="hook">No Adams. Now what?</span></div>
+          <h4>Rams Without Davante Adams: Raiders' Big Chance</h4><p>Preview</p>
+        </a>
+        <a class="clip" href="https://www.youtube.com/@BlackHoleHighlights/shorts">
+          <div class="thumb"><span class="st live">Sunday</span><span class="hook">End the skid?</span></div>
+          <h4>Can the Raiders End the 3-Game Skid vs Stafford's Rams?</h4><p>Game day</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span class="brand"><span>BLACK HOLE <em>HIGHLIGHTS</em></span></span>
+      <a class="sub-btn" href="https://www.youtube.com/@BlackHoleHighlights">Subscribe on YouTube</a>
+    </div>
+    <p>Fan-run channel and site. Not affiliated with, endorsed by, or sponsored by the NFL or the Las Vegas Raiders. Team names are used for identification only.</p>
+    <div class="sources" aria-label="Sources">
+      <span>Sources:</span>
+      <a href="https://www.raiders.com/news/game-preview-las-vegas-raiders-vs-los-angeles-rams-102526-matthew-stafford-sean-mcvay">Raiders.com preview</a>
+      <a href="https://www.raiders.com/news/raiders-unofficial-depth-chart-for-week-7-vs-los-angeles-rams-102526">Raiders.com depth chart</a>
+      <a href="https://www.cbssports.com/nfl/teams/lv/las-vegas-raiders/injuries/">CBS Raiders injuries</a>
+      <a href="https://www.cbssports.com/nfl/teams/lar/los-angeles-rams/injuries/">CBS Rams injuries</a>
+      <a href="https://www.silverandblackpride.com/las-vegas-raiders-news/143646/raiders-injury-report-tonka-hemingway-concussion-protocol">Silver &amp; Black Pride</a>
+      <a href="https://www.espn.com/nfl/game/_/gameId/401873021/rams-raiders">ESPN</a>
+      <a href="https://www.si.com/betting/rams-vs-raiders-prediction-odds-spread-injuries-trends-for-nfl-week-7-2026">SI odds (BetMGM)</a>
+      <a href="https://www.covers.com/nfl/rams-vs-raiders-prediction-picks-odds-early-leans-week-7-2026">Covers</a>
+      <a href="https://sports.yahoo.com/articles/raiders-vs-rams-odds-opening-023000814.html">Yahoo opening lines</a>
+      <a href="https://www.raiders.com/schedule/">Raiders.com schedule</a>
+      <a href="https://www.espn.com/nfl/team/stats/_/name/lv/las-vegas-raiders">ESPN team stats</a>
+      <a href="https://www.espn.com/nfl/standings">ESPN standings</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Tale of the tape: [label, LV value, LV rank, LA value, LA rank, higherIsBetter]
+  var rows=[
+    ["Points / game",27.0,"6th",22.5,"20th",true],
+    ["Total offense",342.7,"15th",401.3,"3rd",true],
+    ["Passing offense",263.5,"7th",288.7,"2nd",true],
+    ["Rushing offense",79.2,"30th",112.7,"15th",true],
+    ["Yards allowed",371.7,"28th",294.0,"3rd",false],
+    ["Points allowed",27.0,"26th",23.0,"T-17th",false]
+  ];
+  var tape=document.getElementById("tape");
+  rows.forEach(function(r){
+    var max=Math.max(r[1],r[3]);
+    var lvBetter=r[5]?r[1]>=r[3]:r[1]<=r[3];
+    var row=document.createElement("div");row.className="tape-row";
+    function side(cls,val,rank,better){
+      var s=document.createElement("div");s.className="side "+cls;
+      var v=document.createElement("div");v.className="v";v.textContent=val.toFixed(1);
+      var sm=document.createElement("small");sm.textContent=rank;v.appendChild(sm);
+      var b=document.createElement("div");b.className="bar";
+      var i=document.createElement("i");i.style.width=(val/max*100)+"%";if(!better)i.className="dim";
+      b.appendChild(i);s.appendChild(v);s.appendChild(b);return s;
+    }
+    var k=document.createElement("div");k.className="k";k.textContent=r[0];
+    row.appendChild(side("l",r[1],r[2],lvBetter));row.appendChild(k);row.appendChild(side("r",r[3],r[4],!lvBetter));
+    tape.appendChild(row);
+  });
+
+  // Countdown to kickoff: Sun Oct 25 2026, 1:25 PM PT = 20:25 UTC
+  var kick=Date.UTC(2026,9,25,20,25);
+  function tick(){
+    var ms=kick-Date.now(),el=document.getElementById("count");
+    if(ms<=0){
+      // Live for ~4 hours after kickoff, then point to the recap
+      var live=ms>-4*36e5;
+      document.getElementById("cd-label").textContent=live?"KICKED OFF":"FULL TIME";
+      el.innerHTML=live?'<div><span>LIVE</span><small>ON FOX</small></div>':'<div><span>FINAL</span><small>RECAP SOON</small></div>';
+      return;
+    }
+    var d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4);
+    document.getElementById("cd-d").textContent=String(d).padStart(2,"0");
+    document.getElementById("cd-h").textContent=String(h).padStart(2,"0");
+    document.getElementById("cd-m").textContent=String(m).padStart(2,"0");
+  }
+  tick();setInterval(tick,30000);
+
+  // Ambient accretion disk behind the hero
+  var c=document.getElementById("disk");
+  if(!c||matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  var x=c.getContext("2d"),W,H,dpr=Math.min(devicePixelRatio||1,2),pts=[];
+  function size(){W=c.clientWidth;H=c.clientHeight;c.width=W*dpr;c.height=H*dpr;x.setTransform(dpr,0,0,dpr,0,0);}
+  size();addEventListener("resize",size);
+  for(var i=0;i<420;i++)pts.push({a:Math.random()*Math.PI*2,r:.35+Math.random()*.75,s:.0008+Math.random()*.0022,o:.15+Math.random()*.6});
+  function frame(){
+    x.clearRect(0,0,W,H);
+    var cx=W*.82,cy=H*.42,R=Math.min(W,H)*.55;
+    var g=x.createRadialGradient(cx,cy,R*.18,cx,cy,R*.42);
+    g.addColorStop(0,"#000");g.addColorStop(.6,"rgba(201,205,210,.35)");g.addColorStop(1,"rgba(201,205,210,0)");
+    x.fillStyle=g;x.beginPath();x.arc(cx,cy,R*.42,0,7);x.fill();
+    pts.forEach(function(p){
+      p.a+=p.s/p.r;
+      var px=cx+Math.cos(p.a)*R*p.r,py=cy+Math.sin(p.a)*R*p.r*.16;
+      x.fillStyle="rgba(230,232,235,"+p.o*(Math.sin(p.a)>0?1:.45)+")";
+      x.fillRect(px,py,1.6,1.6);
+    });
+    x.fillStyle="#000";x.beginPath();x.arc(cx,cy,R*.2,0,7);x.fill();
+    raf=requestAnimationFrame(frame);
+  }
+  // Only animate while the hero is on screen
+  var raf,on=true;
+  frame();
+  new IntersectionObserver(function(e){
+    var vis=e[0].isIntersecting;
+    if(vis&&!on){on=true;frame();}
+    else if(!vis&&on){on=false;cancelAnimationFrame(raf);}
+  }).observe(c);
+})();
+</script>
+</body>
+</html>
