@@ -25,6 +25,8 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/update.mjs
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
       - name: Commit changed data
         id: commit
         run: |

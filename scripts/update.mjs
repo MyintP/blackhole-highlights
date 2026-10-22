@@ -177,6 +177,16 @@ async function youtubeFeed() {
   throw err;
 }
 async function videos() {
+  // Optional: with a YouTube Data API key (repo secret YT_API_KEY) use the official API, which GitHub runners can reach.
+  const key = process.env.YT_API_KEY;
+  if (key) {
+    const j = await get(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=8&playlistId=UU${YT_CHANNEL.slice(2)}&key=${key}`);
+    return (j.items || []).map(i => i.snippet).filter(s => s.resourceId?.videoId).map(s => ({
+      id: s.resourceId.videoId, title: s.title, date: s.publishedAt,
+      thumb: s.thumbnails?.high?.url || s.thumbnails?.default?.url,
+      url: /shorts/i.test(s.title) ? `https://www.youtube.com/shorts/${s.resourceId.videoId}` : `https://www.youtube.com/watch?v=${s.resourceId.videoId}`,
+    }));
+  }
   const x = await youtubeFeed();
   return x.split("<entry>").slice(1, 9).map(s => ({
     id: (s.match(/<yt:videoId>([^<]+)/) || [])[1],
