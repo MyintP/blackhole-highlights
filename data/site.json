@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T23:57:32.138Z",
+ "updated": "2026-10-23T04:33:09.049Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -211,7 +211,7 @@
      "name": "Patriots",
      "location": "New England",
      "abbr": "NE",
-     "record": "4-2"
+     "record": "4-3"
     },
     "tv": "CBS",
     "state": "post",
@@ -654,24 +654,13 @@
     "us": false
    },
    {
-    "id": "17",
-    "name": "New England",
-    "w": 4,
-    "l": 2,
-    "t": 0,
-    "pct": ".667",
-    "seed": 5,
-    "diff": "+23",
-    "us": false
-   },
-   {
     "id": "7",
     "name": "Denver",
     "w": 4,
     "l": 2,
     "t": 0,
     "pct": ".667",
-    "seed": 6,
+    "seed": 5,
     "diff": "-11",
     "us": false
    },
@@ -682,7 +671,7 @@
     "l": 2,
     "t": 0,
     "pct": ".667",
-    "seed": 7,
+    "seed": 6,
     "diff": "+9",
     "us": false
    },
@@ -693,7 +682,7 @@
     "l": 2,
     "t": 0,
     "pct": ".667",
-    "seed": 8,
+    "seed": 7,
     "diff": "+24",
     "us": false
    },
@@ -704,8 +693,19 @@
     "l": 2,
     "t": 0,
     "pct": ".600",
-    "seed": 9,
+    "seed": 8,
     "diff": "+19",
+    "us": false
+   },
+   {
+    "id": "17",
+    "name": "New England",
+    "w": 4,
+    "l": 3,
+    "t": 0,
+    "pct": ".571",
+    "seed": 9,
+    "diff": "+17",
     "us": false
    },
    {
@@ -955,13 +955,6 @@
     "ret": "2026-10-25"
    },
    {
-    "name": "Keir Thomas II",
-    "pos": "LB",
-    "injury": "Groin",
-    "status": "Questionable",
-    "ret": "2026-10-25"
-   },
-   {
     "name": "Trent McDuffie",
     "pos": "CB",
     "injury": "Groin",
@@ -1018,67 +1011,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   },
   "videos": {
-   "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "ok": false,
+   "at": "2026-10-23T04:33:09.049Z",
+   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-22T23:57:32.138Z"
+   "at": "2026-10-23T04:33:09.049Z"
   }
  },
  "nflverseTried": "2026-10-22T21:32:22.578Z"
