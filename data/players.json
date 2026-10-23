@@ -1,6 +1,6 @@
 {
- "fetched": "2026-10-22T21:32:22.578Z",
- "throughWeek": 6,
+ "fetched": "2026-10-23T09:55:39.898Z",
+ "throughWeek": 7,
  "players": [
   {
    "id": "kirk-cousins",
@@ -26,7 +26,7 @@
       "k": "passing_yards",
       "label": "Yds",
       "v": 1582,
-      "rank": 5
+      "rank": 6
      },
      {
       "k": "passing_tds",
@@ -318,14 +318,14 @@
       "k": "rushing_tds",
       "label": "TD",
       "v": 1,
-      "rank": 36,
-      "tied": 50
+      "rank": 37,
+      "tied": 49
      },
      {
       "k": "rushing_first_downs",
       "label": "1st downs",
       "v": 15,
-      "rank": 25,
+      "rank": 26,
       "tied": 3
      },
      {
@@ -346,7 +346,7 @@
       "k": "targets",
       "label": "Tgt",
       "v": 36,
-      "rank": 38,
+      "rank": 40,
       "tied": 5
      },
      {
@@ -354,32 +354,32 @@
       "label": "Rec",
       "v": 26,
       "rank": 34,
-      "tied": 7
+      "tied": 9
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 251,
-      "rank": 51
+      "rank": 53
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 2,
       "rank": 35,
-      "tied": 33
+      "tied": 36
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 214,
-      "rank": 4
+      "rank": 5
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 11,
-      "rank": 59,
+      "rank": 60,
       "tied": 15
      },
      {
@@ -392,7 +392,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 2.174,
-      "rank": 166
+      "rank": 167
      }
     ],
     "Defense": [
@@ -400,7 +400,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 779,
+      "rank": 781,
       "tied": 230
      },
      {
@@ -527,8 +527,8 @@
       "k": "rushing_tds",
       "label": "TD",
       "v": 1,
-      "rank": 36,
-      "tied": 50
+      "rank": 37,
+      "tied": 49
      },
      {
       "k": "rushing_first_downs",
@@ -555,15 +555,15 @@
       "k": "targets",
       "label": "Tgt",
       "v": 5,
-      "rank": 268,
-      "tied": 19
+      "rank": 269,
+      "tied": 18
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 3,
-      "rank": 269,
-      "tied": 32
+      "rank": 270,
+      "tied": 31
      },
      {
       "k": "receiving_yards",
@@ -582,7 +582,7 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 18,
-      "rank": 258,
+      "rank": 259,
       "tied": 5
      },
      {
@@ -651,8 +651,8 @@
       "k": "rushing_tds",
       "label": "TD",
       "v": 1,
-      "rank": 36,
-      "tied": 50
+      "rank": 37,
+      "tied": 49
      },
      {
       "k": "rushing_first_downs",
@@ -686,7 +686,7 @@
       "k": "receptions",
       "label": "Rec",
       "v": 4,
-      "rank": 245,
+      "rank": 246,
       "tied": 24
      },
      {
@@ -706,15 +706,15 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 12,
-      "rank": 282,
-      "tied": 8
+      "rank": 283,
+      "tied": 7
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 257,
-      "tied": 71
+      "rank": 258,
+      "tied": 70
      },
      {
       "k": "target_share",
@@ -986,7 +986,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 0.69,
-      "rank": 212
+      "rank": 213
      }
     ],
     "Defense": [
@@ -994,7 +994,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 779,
+      "rank": 781,
       "tied": 230
      },
      {
@@ -1168,21 +1168,21 @@
       "k": "targets",
       "label": "Tgt",
       "v": 35,
-      "rank": 43,
+      "rank": 45,
       "tied": 4
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 24,
-      "rank": 44,
-      "tied": 7
+      "rank": 46,
+      "tied": 8
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 371,
-      "rank": 20
+      "rank": 22
      },
      {
       "k": "receiving_tds",
@@ -1195,14 +1195,14 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 42,
-      "rank": 167,
+      "rank": 169,
       "tied": 4
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 15,
-      "rank": 26,
+      "rank": 29,
       "tied": 9
      },
      {
@@ -1282,21 +1282,21 @@
       "k": "targets",
       "label": "Tgt",
       "v": 15,
-      "rank": 141,
-      "tied": 7
+      "rank": 143,
+      "tied": 8
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 6,
-      "rank": 200,
-      "tied": 15
+      "rank": 201,
+      "tied": 14
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 61,
-      "rank": 200,
+      "rank": 202,
       "tied": 3
      },
      {
@@ -1309,14 +1309,14 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 14,
-      "rank": 268,
+      "rank": 269,
       "tied": 9
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 6,
-      "rank": 117,
+      "rank": 118,
       "tied": 14
      },
      {
@@ -1362,21 +1362,21 @@
       "k": "targets",
       "label": "Tgt",
       "v": 16,
-      "rank": 138,
-      "tied": 3
+      "rank": 139,
+      "tied": 4
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 7,
-      "rank": 180,
-      "tied": 20
+      "rank": 182,
+      "tied": 19
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 108,
-      "rank": 144
+      "rank": 145
      },
      {
       "k": "receiving_tds",
@@ -1389,14 +1389,14 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 15,
-      "rank": 267
+      "rank": 268
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 7,
-      "rank": 104,
-      "tied": 13
+      "rank": 106,
+      "tied": 12
      },
      {
       "k": "target_share",
@@ -1408,7 +1408,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 9.289,
-      "rank": 59
+      "rank": 60
      }
     ],
     "Defense": [
@@ -1416,8 +1416,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 545,
-      "tied": 125
+      "rank": 549,
+      "tied": 122
      },
      {
       "k": "def_tackle_assists",
@@ -1522,7 +1522,7 @@
       "k": "targets",
       "label": "Tgt",
       "v": 6,
-      "rank": 248,
+      "rank": 249,
       "tied": 20
      },
      {
@@ -1530,7 +1530,7 @@
       "label": "Rec",
       "v": 5,
       "rank": 215,
-      "tied": 30
+      "tied": 31
      },
      {
       "k": "receiving_yards",
@@ -1543,21 +1543,21 @@
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 68,
-      "tied": 97
+      "rank": 71,
+      "tied": 95
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 14,
-      "rank": 268,
+      "rank": 269,
       "tied": 9
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 2,
-      "rank": 221,
+      "rank": 222,
       "tied": 36
      },
      {
@@ -1578,7 +1578,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 779,
+      "rank": 781,
       "tied": 230
      },
      {
@@ -1724,7 +1724,7 @@
       "k": "receiving_yards",
       "label": "Yds",
       "v": 36,
-      "rank": 251,
+      "rank": 252,
       "tied": 4
      },
      {
@@ -1737,15 +1737,15 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 14,
-      "rank": 268,
+      "rank": 269,
       "tied": 9
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 257,
-      "tied": 71
+      "rank": 258,
+      "tied": 70
      },
      {
       "k": "target_share",
@@ -1765,8 +1765,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 545,
-      "tied": 125
+      "rank": 549,
+      "tied": 122
      },
      {
       "k": "def_tackle_assists",
@@ -2129,7 +2129,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 0.512,
-      "rank": 217
+      "rank": 218
      }
     ],
     "Returns": [
@@ -2191,8 +2191,8 @@
       "k": "targets",
       "label": "Tgt",
       "v": 34,
-      "rank": 47,
-      "tied": 5
+      "rank": 49,
+      "tied": 6
      },
      {
       "k": "receptions",
@@ -2205,27 +2205,28 @@
       "k": "receiving_yards",
       "label": "Yds",
       "v": 266,
-      "rank": 46
+      "rank": 47
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 68,
-      "tied": 97
+      "rank": 71,
+      "tied": 95
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 162,
-      "rank": 20,
+      "rank": 23,
       "tied": 2
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 18,
-      "rank": 21
+      "rank": 21,
+      "tied": 2
      },
      {
       "k": "target_share",
@@ -2237,7 +2238,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 8.606,
-      "rank": 64
+      "rank": 65
      }
     ],
     "Defense": [
@@ -2245,7 +2246,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 779,
+      "rank": 781,
       "tied": 230
      },
      {
@@ -2377,8 +2378,8 @@
       "k": "targets",
       "label": "Tgt",
       "v": 43,
-      "rank": 21,
-      "tied": 4
+      "rank": 22,
+      "tied": 3
      },
      {
       "k": "receptions",
@@ -2391,7 +2392,7 @@
       "k": "receiving_yards",
       "label": "Yds",
       "v": 382,
-      "rank": 18
+      "rank": 19
      },
      {
       "k": "receiving_tds",
@@ -2490,7 +2491,7 @@
       "k": "receptions",
       "label": "Rec",
       "v": 4,
-      "rank": 245,
+      "rank": 246,
       "tied": 24
      },
      {
@@ -2504,22 +2505,22 @@
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 68,
-      "tied": 97
+      "rank": 71,
+      "tied": 95
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 22,
-      "rank": 241,
-      "tied": 5
+      "rank": 243,
+      "tied": 4
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 4,
-      "rank": 153,
-      "tied": 31
+      "rank": 155,
+      "tied": 30
      },
      {
       "k": "target_share",
@@ -2531,7 +2532,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 5.823,
-      "rank": 96
+      "rank": 97
      }
     ]
    },
@@ -2979,8 +2980,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 5,
-      "rank": 405,
-      "tied": 71
+      "rank": 410,
+      "tied": 73
      },
      {
       "k": "def_tackle_assists",
@@ -2992,14 +2993,14 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 2,
-      "rank": 121,
-      "tied": 99
+      "rank": 123,
+      "tied": 101
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 2,
-      "rank": 54,
+      "rank": 55,
       "tied": 36
      },
      {
@@ -3026,7 +3027,7 @@
       "label": "PD",
       "v": 1,
       "rank": 210,
-      "tied": 160
+      "tied": 161
      },
      {
       "k": "def_fumbles_forced",
@@ -3135,8 +3136,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 545,
-      "tied": 125
+      "rank": 549,
+      "tied": 122
      },
      {
       "k": "def_tackle_assists",
@@ -3148,14 +3149,14 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 3,
-      "rank": 66,
-      "tied": 55
+      "rank": 67,
+      "tied": 56
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 3,
-      "rank": 28,
+      "rank": 29,
       "tied": 21
      },
      {
@@ -3262,8 +3263,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 6,
-      "rank": 365,
-      "tied": 40
+      "rank": 367,
+      "tied": 43
      },
      {
       "k": "def_tackle_assists",
@@ -3275,14 +3276,14 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 3,
-      "rank": 28,
+      "rank": 29,
       "tied": 21
      },
      {
@@ -3290,7 +3291,7 @@
       "label": "QB hits",
       "v": 6,
       "rank": 39,
-      "tied": 17
+      "tied": 19
      },
      {
       "k": "def_interceptions",
@@ -3390,8 +3391,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 2,
-      "rank": 670,
-      "tied": 109
+      "rank": 671,
+      "tied": 110
      },
      {
       "k": "def_tackle_assists",
@@ -3415,7 +3416,7 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 244,
+      "rank": 245,
       "tied": 139
      },
      {
@@ -3531,8 +3532,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 2,
-      "rank": 670,
-      "tied": 109
+      "rank": 671,
+      "tied": 110
      },
      {
       "k": "def_tackle_assists",
@@ -3544,21 +3545,21 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 0.5,
-      "rank": 221,
+      "rank": 222,
       "tied": 43
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 244,
+      "rank": 245,
       "tied": 139
      },
      {
@@ -3649,8 +3650,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 2,
-      "rank": 670,
-      "tied": 109
+      "rank": 671,
+      "tied": 110
      },
      {
       "k": "def_tackle_assists",
@@ -3668,15 +3669,15 @@
       "k": "def_sacks",
       "label": "Sacks",
       "v": 0.5,
-      "rank": 221,
+      "rank": 222,
       "tied": 43
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 157,
-      "tied": 87
+      "rank": 161,
+      "tied": 84
      },
      {
       "k": "def_interceptions",
@@ -3695,7 +3696,7 @@
       "label": "PD",
       "v": 1,
       "rank": 210,
-      "tied": 160
+      "tied": 161
      },
      {
       "k": "def_fumbles_forced",
@@ -3789,8 +3790,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 545,
-      "tied": 125
+      "rank": 549,
+      "tied": 122
      },
      {
       "k": "def_tackle_assists",
@@ -3802,8 +3803,8 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
@@ -3815,8 +3816,8 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 157,
-      "tied": 87
+      "rank": 161,
+      "tied": 84
      },
      {
       "k": "def_interceptions",
@@ -3835,7 +3836,7 @@
       "label": "PD",
       "v": 3,
       "rank": 78,
-      "tied": 44
+      "tied": 46
      },
      {
       "k": "def_fumbles_forced",
@@ -3916,8 +3917,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 8,
-      "rank": 304,
-      "tied": 31
+      "rank": 306,
+      "tied": 29
      },
      {
       "k": "def_tackle_assists",
@@ -3929,8 +3930,8 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
@@ -3942,7 +3943,7 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 244,
+      "rank": 245,
       "tied": 139
      },
      {
@@ -4068,7 +4069,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 779,
+      "rank": 781,
       "tied": 230
      },
      {
@@ -4087,15 +4088,15 @@
       "k": "def_sacks",
       "label": "Sacks",
       "v": 0.5,
-      "rank": 221,
+      "rank": 222,
       "tied": 43
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 3,
-      "rank": 111,
-      "tied": 46
+      "rank": 114,
+      "tied": 47
      },
      {
       "k": "def_interceptions",
@@ -4184,8 +4185,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 2,
-      "rank": 670,
-      "tied": 109
+      "rank": 671,
+      "tied": 110
      },
      {
       "k": "def_tackle_assists",
@@ -4301,8 +4302,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 17,
-      "rank": 102,
-      "tied": 19
+      "rank": 106,
+      "tied": 17
      },
      {
       "k": "def_tackle_assists",
@@ -4314,22 +4315,22 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 3,
-      "rank": 66,
-      "tied": 55
+      "rank": 67,
+      "tied": 56
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 2,
-      "rank": 54,
+      "rank": 55,
       "tied": 36
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 157,
-      "tied": 87
+      "rank": 161,
+      "tied": 84
      },
      {
       "k": "def_interceptions",
@@ -4468,22 +4469,22 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 4,
-      "rank": 36,
+      "rank": 37,
       "tied": 30
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1.5,
-      "rank": 90,
-      "tied": 18
+      "rank": 91,
+      "tied": 20
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 3,
-      "rank": 111,
-      "tied": 46
+      "rank": 114,
+      "tied": 47
      },
      {
       "k": "def_interceptions",
@@ -4502,7 +4503,7 @@
       "label": "PD",
       "v": 1,
       "rank": 210,
-      "tied": 160
+      "tied": 161
      },
      {
       "k": "def_fumbles_forced",
@@ -4584,8 +4585,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 545,
-      "tied": 125
+      "rank": 549,
+      "tied": 122
      },
      {
       "k": "def_tackle_assists",
@@ -4701,8 +4702,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 5,
-      "rank": 405,
-      "tied": 71
+      "rank": 410,
+      "tied": 73
      },
      {
       "k": "def_tackle_assists",
@@ -4803,8 +4804,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 545,
-      "tied": 125
+      "rank": 549,
+      "tied": 122
      },
      {
       "k": "def_tackle_assists",
@@ -4931,8 +4932,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 13,
-      "rank": 176,
-      "tied": 19
+      "rank": 181,
+      "tied": 16
      },
      {
       "k": "def_tackle_assists",
@@ -4944,15 +4945,15 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1,
-      "rank": 108,
-      "tied": 113
+      "rank": 111,
+      "tied": 111
      },
      {
       "k": "def_qb_hits",
@@ -4977,7 +4978,7 @@
       "label": "PD",
       "v": 1,
       "rank": 210,
-      "tied": 160
+      "tied": 161
      },
      {
       "k": "def_fumbles_forced",
@@ -5086,8 +5087,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 18,
-      "rank": 82,
-      "tied": 20
+      "rank": 87,
+      "tied": 19
      },
      {
       "k": "def_tackle_assists",
@@ -5099,8 +5100,8 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
@@ -5112,8 +5113,8 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 157,
-      "tied": 87
+      "rank": 161,
+      "tied": 84
      },
      {
       "k": "def_interceptions",
@@ -5131,8 +5132,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 2,
-      "rank": 122,
-      "tied": 88
+      "rank": 124,
+      "tied": 86
      },
      {
       "k": "def_fumbles_forced",
@@ -5215,8 +5216,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 12,
-      "rank": 195,
-      "tied": 18
+      "rank": 197,
+      "tied": 17
      },
      {
       "k": "def_tackle_assists",
@@ -5228,8 +5229,8 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
@@ -5241,7 +5242,7 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 244,
+      "rank": 245,
       "tied": 139
      },
      {
@@ -5369,8 +5370,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 8,
-      "rank": 304,
-      "tied": 31
+      "rank": 306,
+      "tied": 29
      },
      {
       "k": "def_tackle_assists",
@@ -5413,7 +5414,7 @@
       "label": "PD",
       "v": 5,
       "rank": 22,
-      "tied": 20
+      "tied": 21
      },
      {
       "k": "def_fumbles_forced",
@@ -5488,8 +5489,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 2,
-      "rank": 670,
-      "tied": 109
+      "rank": 671,
+      "tied": 110
      },
      {
       "k": "def_tackle_assists",
@@ -5766,22 +5767,22 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 220,
-      "tied": 180
+      "rank": 224,
+      "tied": 178
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1,
-      "rank": 108,
-      "tied": 113
+      "rank": 111,
+      "tied": 111
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 157,
-      "tied": 87
+      "rank": 161,
+      "tied": 84
      },
      {
       "k": "def_interceptions",
@@ -5800,7 +5801,7 @@
       "label": "PD",
       "v": 1,
       "rank": 210,
-      "tied": 160
+      "tied": 161
      },
      {
       "k": "def_fumbles_forced",
@@ -5909,8 +5910,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 16,
-      "rank": 121,
-      "tied": 10
+      "rank": 123,
+      "tied": 12
      },
      {
       "k": "def_tackle_assists",
@@ -5941,7 +5942,7 @@
       "label": "INT",
       "v": 1,
       "rank": 23,
-      "tied": 80
+      "tied": 81
      },
      {
       "k": "def_interception_yards",
@@ -5953,8 +5954,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 2,
-      "rank": 122,
-      "tied": 88
+      "rank": 124,
+      "tied": 86
      },
      {
       "k": "def_fumbles_forced",
@@ -6061,7 +6062,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 9,
-      "rank": 267,
+      "rank": 269,
       "tied": 37
      },
      {
@@ -6185,7 +6186,7 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 779,
+      "rank": 781,
       "tied": 230
      },
      {
@@ -6384,8 +6385,8 @@
       "k": "pt_inside_20",
       "label": "Inside 20",
       "v": 8,
-      "rank": 18,
-      "tied": 6
+      "rank": 19,
+      "tied": 5
      },
      {
       "k": "pt_touchback",
