@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T14:54:19.299Z",
+ "updated": "2026-10-23T19:04:26.604Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -906,6 +906,20 @@
   ],
   "them": [
    {
+    "name": "Nate Landman",
+    "pos": "LB",
+    "injury": "Concussion",
+    "status": "Out",
+    "ret": "2026-11-01"
+   },
+   {
+    "name": "Myles Garrett",
+    "pos": "DE",
+    "injury": "Knee",
+    "status": "Injured Reserve",
+    "ret": "2026-11-01"
+   },
+   {
     "name": "Kobie Turner",
     "pos": "DE",
     "injury": "Groin",
@@ -941,13 +955,6 @@
     "ret": "2027-02-15"
    },
    {
-    "name": "Myles Garrett",
-    "pos": "DE",
-    "injury": "Knee",
-    "status": "Injured Reserve",
-    "ret": "2026-11-01"
-   },
-   {
     "name": "Puka Nacua",
     "pos": "WR",
     "injury": "Calf",
@@ -958,13 +965,6 @@
     "name": "Trent McDuffie",
     "pos": "CB",
     "injury": "Groin",
-    "status": "Questionable",
-    "ret": "2026-10-25"
-   },
-   {
-    "name": "Nate Landman",
-    "pos": "LB",
-    "injury": "Concussion",
     "status": "Questionable",
     "ret": "2026-10-25"
    }
@@ -1011,67 +1011,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-23T14:54:19.299Z"
+   "at": "2026-10-23T19:04:26.604Z"
   }
  },
  "nflverseTried": "2026-10-23T09:55:39.898Z"
