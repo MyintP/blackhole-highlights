@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T10:46:44.241Z",
+ "updated": "2026-10-24T23:05:03.161Z",
  "season": 2026,
  "team": [
   {
@@ -947,6 +947,20 @@
    "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson"
   },
   {
+   "id": "4431414",
+   "name": "Tim Keenan III",
+   "jersey": null,
+   "pos": "DT",
+   "posName": "Defensive Tackle",
+   "group": "Defense",
+   "age": 23,
+   "ht": "6' 1\"",
+   "wt": "327 lbs",
+   "exp": 0,
+   "college": "Alabama",
+   "link": "https://www.espn.com/nfl/player/_/id/4431414/tim-keenan-iii"
+  },
+  {
    "id": "4239719",
    "name": "Malcolm Koonce",
    "jersey": "51",
@@ -1381,20 +1395,6 @@
    "link": "https://www.espn.com/nfl/player/_/id/5348412/niklas-henning"
   },
   {
-   "id": "4431414",
-   "name": "Tim Keenan III",
-   "jersey": null,
-   "pos": "DT",
-   "posName": "Defensive Tackle",
-   "group": "Practice squad",
-   "age": 23,
-   "ht": "6' 1\"",
-   "wt": "327 lbs",
-   "exp": 0,
-   "college": "Alabama",
-   "link": "https://www.espn.com/nfl/player/_/id/4431414/tim-keenan-iii"
-  },
-  {
    "id": "5158921",
    "name": "Kansei Matsuzawa",
    "jersey": "38",
@@ -1596,10 +1596,10 @@
     "cpoeRank": 21
    }
   ],
-  "fetched": "2026-10-24T10:46:44.241Z"
+  "fetched": "2026-10-24T23:05:03.161Z"
  },
  "tendencies": {
-  "charted": 0.99,
+  "charted": 1,
   "rows": [
    {
     "key": "passRate",
@@ -1625,7 +1625,7 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.583,
-    "rank": 21,
+    "rank": 22,
     "nfl": 0.621
    },
    {
@@ -1643,8 +1643,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.227,
-    "rank": 15,
-    "nfl": 0.23
+    "rank": 14,
+    "nfl": 0.231
    },
    {
     "key": "screen",
@@ -1689,7 +1689,7 @@
     "fmt": "pct",
     "v": 0.267,
     "rank": 23,
-    "nfl": 0.317
+    "nfl": 0.318
    },
    {
     "key": "rushers",
@@ -1698,7 +1698,7 @@
     "fmt": "num",
     "v": 4.285,
     "rank": 27,
-    "nfl": 4.395
+    "nfl": 4.398
    },
    {
     "key": "box8",
