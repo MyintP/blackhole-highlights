@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:28:47.988Z",
+ "updated": "2026-10-25T14:29:30.991Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -869,16 +869,16 @@
   "gameId": "401873021",
   "us": [
    {
-    "name": "Dont'e Thornton Jr.",
-    "pos": "WR",
-    "injury": "Hamstring",
+    "name": "Carter Runyon",
+    "pos": "TE",
+    "injury": "Foot",
     "status": "Injured Reserve",
     "ret": "2026-11-01"
    },
    {
-    "name": "Carter Runyon",
-    "pos": "TE",
-    "injury": "Foot",
+    "name": "Dont'e Thornton Jr.",
+    "pos": "WR",
+    "injury": "Hamstring",
     "status": "Injured Reserve",
     "ret": "2026-11-01"
    },
@@ -1004,67 +1004,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-25T12:28:47.988Z"
+   "at": "2026-10-25T14:29:30.991Z"
   }
  },
  "nflverseTried": "2026-10-25T11:28:22.716Z"
