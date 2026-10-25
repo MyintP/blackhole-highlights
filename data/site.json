@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T21:40:02.651Z",
+ "updated": "2026-10-25T21:50:24.816Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "1:56 - 2nd",
+  "detail": "1:18 - 2nd",
   "postponed": false,
   "score": {
    "us": 3,
-   "them": 21
+   "them": 28
   },
   "win": null,
   "tie": false,
@@ -269,11 +269,11 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "1:56 - 2nd",
+    "detail": "1:18 - 2nd",
     "postponed": false,
     "score": {
      "us": 3,
-     "them": 21
+     "them": 28
     },
     "win": null,
     "tie": false
@@ -529,12 +529,12 @@
     "date": "2026-10-25T20:25Z",
     "state": "in",
     "final": false,
-    "detail": "1:56 - 2nd",
+    "detail": "1:18 - 2nd",
     "postponed": false,
     "away": {
      "id": "14",
      "abbr": "LAR",
-     "score": 21,
+     "score": 28,
      "winner": false
     },
     "home": {
@@ -924,13 +924,6 @@
     "injury": "Hamstring",
     "status": "Injured Reserve",
     "ret": "2026-11-01"
-   },
-   {
-    "name": "Ian Thomas",
-    "pos": "TE",
-    "injury": "",
-    "status": "Questionable",
-    "ret": null
    }
   ],
   "them": [
@@ -1052,76 +1045,76 @@
   },
   {
    "cat": "Tackles",
-   "name": "Hezekiah Masses",
-   "value": "5",
+   "name": "Nakobe Dean",
+   "value": "6",
    "unit": "TOT",
-   "line": "4 SOLO"
+   "line": "2 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-25T21:40:02.651Z"
+   "at": "2026-10-25T21:50:24.816Z"
   }
  },
  "nflverseTried": "2026-10-25T11:28:22.716Z"
