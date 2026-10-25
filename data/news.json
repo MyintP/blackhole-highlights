@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:30:39.909Z",
+ "updated": "2026-10-25T18:31:04.671Z",
  "items": [
   {
    "id": "10uqjp5",
@@ -11,6 +11,17 @@
    "cat": "Team",
    "desc": "The Las Vegas Raiders will try to win their first home game since Week 1 when they host the Los Angeles Rams on Sunday. Check back for updates from the game.",
    "author": "David Schoen"
+  },
+  {
+   "id": "1og0ws5",
+   "title": "Keys to the Game: Raiders need to set the pace against the Rams",
+   "link": "https://www.raiders.com/news/keys-to-the-game-raiders-need-to-set-the-pace-against-the-rams",
+   "src": "Raiders.com",
+   "date": "2026-10-25T15:00:00.000Z",
+   "kind": "Official",
+   "cat": "Games",
+   "desc": "The Raiders will want to keep Stafford and Co. on the sidelines by winning the time-of-possession battle with an efficient offensive performance.",
+   "author": null
   },
   {
    "id": "1liojw0",
