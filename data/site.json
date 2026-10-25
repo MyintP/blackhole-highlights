@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:52:39.232Z",
+ "updated": "2026-10-25T23:03:03.034Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -19,10 +19,10 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "14:51 - 4th",
+  "detail": "13:12 - 4th",
   "postponed": false,
   "score": {
-   "us": 12,
+   "us": 18,
    "them": 28
   },
   "win": null,
@@ -269,10 +269,10 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "14:51 - 4th",
+    "detail": "13:12 - 4th",
     "postponed": false,
     "score": {
-     "us": 12,
+     "us": 18,
      "them": 28
     },
     "win": null,
@@ -508,7 +508,7 @@
     "date": "2026-10-25T20:05Z",
     "state": "in",
     "final": false,
-    "detail": "8:39 - 4th",
+    "detail": "6:15 - 4th",
     "postponed": false,
     "away": {
      "id": "7",
@@ -519,7 +519,7 @@
     "home": {
      "id": "22",
      "abbr": "ARI",
-     "score": 13,
+     "score": 16,
      "winner": false
     },
     "link": null
@@ -529,7 +529,7 @@
     "date": "2026-10-25T20:25Z",
     "state": "in",
     "final": false,
-    "detail": "14:51 - 4th",
+    "detail": "13:12 - 4th",
     "postponed": false,
     "away": {
      "id": "14",
@@ -540,7 +540,7 @@
     "home": {
      "id": "13",
      "abbr": "LV",
-     "score": 12,
+     "score": 18,
      "winner": false
     },
     "link": null
@@ -1018,9 +1018,9 @@
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "215",
+   "value": "242",
    "unit": "YDS",
-   "line": "20/34, 1 TD"
+   "line": "22/37, 2 TD"
   },
   {
    "cat": "Rushing Yards",
@@ -1054,67 +1054,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-25T22:52:39.232Z"
+   "at": "2026-10-25T23:03:03.034Z"
   }
  },
  "nflverseTried": "2026-10-25T11:28:22.716Z"
