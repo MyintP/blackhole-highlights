@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T20:16:36.954Z",
+ "updated": "2026-10-25T20:26:55.223Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -17,11 +17,14 @@
    "record": "2-4"
   },
   "tv": "Fox",
-  "state": "pre",
+  "state": "in",
   "final": false,
-  "detail": null,
+  "detail": "15:00 - 1st",
   "postponed": false,
-  "score": null,
+  "score": {
+   "us": 0,
+   "them": 0
+  },
   "win": null,
   "tie": false,
   "oppRecord": "2-4",
@@ -264,11 +267,14 @@
      "record": "2-4"
     },
     "tv": "Fox",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": null,
+    "detail": "15:00 - 1st",
     "postponed": false,
-    "score": null,
+    "score": {
+     "us": 0,
+     "them": 0
+    },
     "win": null,
     "tie": false
    },
@@ -502,7 +508,7 @@
     "date": "2026-10-25T20:05Z",
     "state": "in",
     "final": false,
-    "detail": "11:00 - 1st",
+    "detail": "7:47 - 1st",
     "postponed": false,
     "away": {
      "id": "7",
@@ -521,23 +527,23 @@
    {
     "id": "401873021",
     "date": "2026-10-25T20:25Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "10/25 - 4:25 PM EDT",
+    "detail": "15:00 - 1st",
     "postponed": false,
     "away": {
      "id": "14",
      "abbr": "LAR",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "13",
      "abbr": "LV",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873021/rams-raiders"
+    "link": null
    },
    {
     "id": "401873022",
@@ -720,24 +726,13 @@
     "us": true
    },
    {
-    "id": "34",
-    "name": "Houston",
-    "w": 2,
-    "l": 4,
-    "t": 0,
-    "pct": ".333",
-    "seed": 11,
-    "diff": "+1",
-    "us": false
-   },
-   {
     "id": "20",
     "name": "NY Jets",
     "w": 2,
     "l": 5,
     "t": 0,
     "pct": ".286",
-    "seed": 12,
+    "seed": 11,
     "diff": "-13",
     "us": false
    },
@@ -748,8 +743,19 @@
     "l": 5,
     "t": 0,
     "pct": ".286",
-    "seed": 13,
+    "seed": 12,
     "diff": "-26",
+    "us": false
+   },
+   {
+    "id": "34",
+    "name": "Houston",
+    "w": 2,
+    "l": 5,
+    "t": 0,
+    "pct": ".286",
+    "seed": 13,
+    "diff": "-5",
     "us": false
    },
    {
@@ -840,18 +846,6 @@
     "higher": true
    },
    {
-    "label": "Yards allowed",
-    "us": {
-     "v": 387.8,
-     "rank": null
-    },
-    "them": {
-     "v": 300.8,
-     "rank": null
-    },
-    "higher": false
-   },
-   {
     "label": "Points allowed",
     "us": {
      "v": 27,
@@ -859,7 +853,7 @@
     },
     "them": {
      "v": 23,
-     "rank": "17th"
+     "rank": "T-17th"
     },
     "higher": false
    }
@@ -1020,107 +1014,71 @@
   ],
   "opp": "Rams"
  },
- "leaders": [
-  {
-   "cat": "Passing Yards",
-   "name": "Kirk Cousins",
-   "value": "1,582",
-   "unit": "YDS",
-   "line": "135/213, 14 TD, 5 INT"
-  },
-  {
-   "cat": "Rushing Yards",
-   "name": "Ashton Jeanty",
-   "value": "313",
-   "unit": "YDS",
-   "line": "98 CAR, 1 TD"
-  },
-  {
-   "cat": "Receiving Yards",
-   "name": "Brock Bowers",
-   "value": "382",
-   "unit": "YDS",
-   "line": "28 REC, 3 TD"
-  },
-  {
-   "cat": "Sacks",
-   "name": "Malcolm Koonce",
-   "value": "3",
-   "unit": "SACKS",
-   "line": "3"
-  },
-  {
-   "cat": "Tackles",
-   "name": "Nakobe Dean",
-   "value": "56",
-   "unit": "TOT",
-   "line": "56"
-  }
- ],
+ "leaders": [],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-25T20:16:36.954Z"
+   "at": "2026-10-25T20:26:55.223Z"
   }
  },
  "nflverseTried": "2026-10-25T11:28:22.716Z"
