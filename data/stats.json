@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:28:22.716Z",
+ "updated": "2026-10-25T23:34:12.874Z",
  "season": 2026,
  "team": [
   {
@@ -1510,7 +1510,7 @@
  "advanced": {
   "throughWeek": 7,
   "teams": 32,
-  "qualifiedQbs": 33,
+  "qualifiedQbs": 34,
   "minDropbacks": 100,
   "metrics": [
    {
@@ -1519,8 +1519,8 @@
     "side": "off",
     "higher": true,
     "v": 0.036,
-    "rank": 14,
-    "nfl": 0.005
+    "rank": 13,
+    "nfl": 0.01
    },
    {
     "key": "sr",
@@ -1529,7 +1529,7 @@
     "higher": true,
     "v": 0.44,
     "rank": 15,
-    "nfl": 0.435
+    "nfl": 0.438
    },
    {
     "key": "pass",
@@ -1537,8 +1537,8 @@
     "side": "off",
     "higher": true,
     "v": 0.204,
-    "rank": 6,
-    "nfl": 0.073
+    "rank": 7,
+    "nfl": 0.078
    },
    {
     "key": "rush",
@@ -1546,8 +1546,8 @@
     "side": "off",
     "higher": true,
     "v": -0.243,
-    "rank": 29,
-    "nfl": -0.106
+    "rank": 30,
+    "nfl": -0.1
    },
    {
     "key": "epa",
@@ -1555,8 +1555,8 @@
     "side": "def",
     "higher": false,
     "v": 0.018,
-    "rank": 21,
-    "nfl": 0.005
+    "rank": 19,
+    "nfl": 0.01
    },
    {
     "key": "sr",
@@ -1564,8 +1564,8 @@
     "side": "def",
     "higher": false,
     "v": 0.45,
-    "rank": 25,
-    "nfl": 0.435
+    "rank": 24,
+    "nfl": 0.438
    },
    {
     "key": "pass",
@@ -1573,8 +1573,8 @@
     "side": "def",
     "higher": false,
     "v": 0.127,
-    "rank": 25,
-    "nfl": 0.073
+    "rank": 24,
+    "nfl": 0.078
    },
    {
     "key": "rush",
@@ -1582,8 +1582,8 @@
     "side": "def",
     "higher": false,
     "v": -0.154,
-    "rank": 9,
-    "nfl": -0.106
+    "rank": 8,
+    "nfl": -0.1
    }
   ],
   "passers": [
@@ -1593,13 +1593,13 @@
     "epa": 0.207,
     "epaRank": 8,
     "cpoe": -0.7,
-    "cpoeRank": 21
+    "cpoeRank": 24
    }
   ],
-  "fetched": "2026-10-25T11:28:22.716Z"
+  "fetched": "2026-10-25T23:34:12.874Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.926,
   "rows": [
    {
     "key": "passRate",
@@ -1607,8 +1607,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.625,
-    "rank": 15,
-    "nfl": 0.621
+    "rank": 13,
+    "nfl": 0.616
    },
    {
     "key": "earlyPass",
@@ -1616,8 +1616,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.564,
-    "rank": 15,
-    "nfl": 0.565
+    "rank": 13,
+    "nfl": 0.561
    },
    {
     "key": "shotgun",
@@ -1679,8 +1679,8 @@
     "side": "off",
     "fmt": "num",
     "v": 8.298,
-    "rank": 10,
-    "nfl": 7.869
+    "rank": 9,
+    "nfl": 7.799
    },
    {
     "key": "blitz",
@@ -1724,7 +1724,7 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.068,
-    "rank": 13,
+    "rank": 12,
     "nfl": 0.061
    },
    {
@@ -1734,7 +1734,7 @@
     "fmt": "pct",
     "v": 0.195,
     "rank": 4,
-    "nfl": 0.154
+    "nfl": 0.153
    }
   ]
  }
