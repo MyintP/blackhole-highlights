@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:42:10.210Z",
+ "updated": "2026-10-25T22:52:39.232Z",
  "season": 2026,
  "record": "3-3",
  "divisionPlace": "3rd in AFC West",
@@ -19,10 +19,10 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "2:26 - 3rd",
+  "detail": "14:51 - 4th",
   "postponed": false,
   "score": {
-   "us": 6,
+   "us": 12,
    "them": 28
   },
   "win": null,
@@ -269,10 +269,10 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "2:26 - 3rd",
+    "detail": "14:51 - 4th",
     "postponed": false,
     "score": {
-     "us": 6,
+     "us": 12,
      "them": 28
     },
     "win": null,
@@ -508,12 +508,12 @@
     "date": "2026-10-25T20:05Z",
     "state": "in",
     "final": false,
-    "detail": "12:50 - 4th",
+    "detail": "8:39 - 4th",
     "postponed": false,
     "away": {
      "id": "7",
      "abbr": "DEN",
-     "score": 27,
+     "score": 30,
      "winner": false
     },
     "home": {
@@ -529,7 +529,7 @@
     "date": "2026-10-25T20:25Z",
     "state": "in",
     "final": false,
-    "detail": "2:26 - 3rd",
+    "detail": "14:51 - 4th",
     "postponed": false,
     "away": {
      "id": "14",
@@ -540,7 +540,7 @@
     "home": {
      "id": "13",
      "abbr": "LV",
-     "score": 6,
+     "score": 12,
      "winner": false
     },
     "link": null
@@ -1018,23 +1018,23 @@
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "130",
+   "value": "215",
    "unit": "YDS",
-   "line": "17/30"
+   "line": "20/34, 1 TD"
   },
   {
    "cat": "Rushing Yards",
    "name": "Mike Washington Jr.",
-   "value": "21",
+   "value": "27",
    "unit": "YDS",
-   "line": "4 CAR"
+   "line": "6 CAR"
   },
   {
    "cat": "Receiving Yards",
-   "name": "Ashton Jeanty",
-   "value": "46",
+   "name": "Tre Tucker",
+   "value": "103",
    "unit": "YDS",
-   "line": "7 REC"
+   "line": "5 REC, 1 TD"
   },
   {
    "cat": "Sacks",
@@ -1045,76 +1045,76 @@
   },
   {
    "cat": "Tackles",
-   "name": "Quay Walker",
-   "value": "8",
+   "name": "Nakobe Dean",
+   "value": "9",
    "unit": "TOT",
-   "line": "6 SOLO"
+   "line": "3 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-25T22:42:10.210Z"
+   "at": "2026-10-25T22:52:39.232Z"
   }
  },
  "nflverseTried": "2026-10-25T11:28:22.716Z"
