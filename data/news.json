@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T20:26:55.223Z",
+ "updated": "2026-10-25T20:47:39.368Z",
  "items": [
   {
    "id": "i86o4t",
@@ -10,7 +10,17 @@
    "kind": "Official",
    "cat": "Games",
    "desc": "Follow along for live updates during the game.",
-   "author": null
+   "author": null,
+   "also": [
+    {
+     "id": "5l7ytj",
+     "title": "Las Vegas Raiders-Los Angeles Rams live updates",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/142803/raiders-rams-live-updates",
+     "src": "Silver & Black Pride",
+     "date": "2026-10-25T20:29:37.000Z",
+     "kind": "Opinion"
+    }
+   ]
   },
   {
    "id": "13zx7zb",
