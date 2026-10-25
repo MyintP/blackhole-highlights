@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T00:43:36.501Z",
+ "updated": "2026-10-25T23:44:43.696Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -921,6 +921,159 @@
     "desc": "— Jim Kelly set the standard for every Bills quarterback, but even the Hall of Famer likely wouldn't have made the type of play Josh Allen pulled off Sunday."
    },
    "attendance": 62618
+  },
+  "401873021": {
+   "id": "401873021",
+   "week": 7,
+   "date": "2026-10-25T20:25Z",
+   "home": true,
+   "opp": {
+    "id": "14",
+    "name": "Rams",
+    "location": "Los Angeles",
+    "abbr": "LAR",
+    "record": "3-4"
+   },
+   "score": {
+    "us": 21,
+    "them": 35
+   },
+   "win": false,
+   "tie": false,
+   "lines": {
+    "us": [
+     3,
+     3,
+     0,
+     15
+    ],
+    "them": [
+     7,
+     21,
+     0,
+     7
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "350",
+     "them": "386"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "302",
+     "them": "187"
+    },
+    {
+     "key": "rushingYards",
+     "us": "48",
+     "them": "199"
+    },
+    {
+     "key": "firstDowns",
+     "us": "18",
+     "them": "28"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "3-14",
+     "them": "5-10"
+    },
+    {
+     "key": "turnovers",
+     "us": "0",
+     "them": "2"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "6-64",
+     "them": "7-90"
+    },
+    {
+     "key": "possessionTime",
+     "us": "25:46",
+     "them": "34:14"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "295",
+      "unit": "YDS",
+      "line": "26/44, 2 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Mike Washington Jr.",
+      "value": "27",
+      "unit": "YDS",
+      "line": "6 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Tre Tucker",
+      "value": "103",
+      "unit": "YDS",
+      "line": "5 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Tonka Hemingway",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Quay Walker",
+      "value": "12",
+      "unit": "TOT",
+      "line": "6 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Matthew Stafford",
+      "value": "195",
+      "unit": "YDS",
+      "line": "23/29, 3 TD, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Kyren Williams",
+      "value": "99",
+      "unit": "YDS",
+      "line": "16 CAR, 1 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Puka Nacua",
+      "value": "68",
+      "unit": "YDS",
+      "line": "8 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Braden Fiske",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Quentin Lake",
+      "value": "7",
+      "unit": "TOT",
+      "line": "4 SOLO"
+     }
+    ]
+   },
+   "recap": null,
+   "attendance": 62550
   }
  }
 }
