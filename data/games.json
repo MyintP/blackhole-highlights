@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T23:44:43.696Z",
+ "updated": "2026-10-26T00:21:21.691Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1072,7 +1072,11 @@
      }
     ]
    },
-   "recap": null,
+   "recap": {
+    "title": "Matthew Stafford sets Rams TD pass record as Los Angeles rolls past Raiders 35-21",
+    "link": "https://www.espn.com/nfl/recap?gameId=401873021",
+    "desc": "— Matthew Stafford threw for 195 yards and three touchdowns to become the Rams' career leader in passing TDs, and Los..."
+   },
    "attendance": 62550
   }
  }
