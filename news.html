@@ -40,11 +40,9 @@
     </a>
     <nav class="primary" aria-label="Primary">
         <a href="./">Home</a>
-        <a href="news.html" aria-current="page">News</a>
         <a href="games.html">Game Center</a>
-        <a href="stats.html">Stats</a>
-        <a href="players.html">Players</a>
-        <a href="media.html">Media</a>
+        <a href="news.html" aria-current="page">News</a>
+        <a href="stats.html">Team</a>
         <a href="about.html">About</a>
     </nav>
     <div class="head-tools">
@@ -62,12 +60,13 @@
     <div class="wrap">
       <nav aria-label="Menu">
         <a href="./">Home</a>
-        <a href="news.html" aria-current="page">News</a>
         <a href="games.html">Game Center</a>
-        <a href="stats.html">Stats</a>
-        <a href="players.html">Players</a>
-        <a href="media.html">Media</a>
+        <a href="news.html" aria-current="page">News</a>
+        <a href="stats.html">Team</a>
         <a href="about.html">About</a>
+        <a class="sub" href="players.html">Players and roster</a>
+        <a class="sub" href="media.html">Videos and podcasts</a>
+        <a class="sub" href="search.html">Search</a>
       </nav>
       <form class="search-form" action="search.html" role="search">
         <label class="vh" for="q-drawer">Search the site</label>
@@ -89,6 +88,7 @@
     <p>Stories from the team, established outlets and fan sites, newest first. Each one links to its original publisher and is labelled so you know who's talking: <strong>Official</strong>, <strong>Reporting</strong>, <strong>Opinion</strong> or <strong>Rumor</strong>.</p>
   </div>
 </div>
+<nav class="secbar" aria-label="News sections"><div class="wrap"><a href="news.html" aria-current="page">Stories</a><a href="media.html#videos">Our videos</a><a href="media.html#podcasts">Podcasts</a><a href="media.html#espn">ESPN video</a></div></nav>
 <section aria-label="News feed" style="border-bottom:0">
   <div class="wrap">
     <form class="filters" id="filters" role="search" aria-label="Filter stories">
@@ -121,11 +121,11 @@
       <div>
         <h2>Sections</h2>
         <ul>
-          <li><a href="news.html">News</a></li>
           <li><a href="games.html">Game Center</a></li>
-          <li><a href="stats.html">Stats</a></li>
-          <li><a href="players.html">Players</a></li>
-          <li><a href="media.html">Media</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="media.html">Videos and podcasts</a></li>
+          <li><a href="stats.html">Team stats</a></li>
+          <li><a href="players.html">Players and roster</a></li>
           <li><a href="search.html">Search</a></li>
         </ul>
       </div>
@@ -147,5 +147,12 @@
   </div>
 </footer>
 <button class="totop" id="totop" type="button" aria-label="Back to top">&uarr;</button>
+<nav class="tabbar" aria-label="Sections">
+  <a href="./"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a>
+  <a href="games.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M12 5v14M3 12h4M17 12h4"/></svg><span>Games</span></a>
+  <a href="news.html" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/></svg><span>News</span></a>
+  <a href="stats.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 7.7 8 9 4.6-1.3 8-4.5 8-9V6z"/></svg><span>Team</span></a>
+  <button type="button" class="more-btn" aria-expanded="false" aria-controls="drawer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></button>
+</nav>
 </body>
 </html>

@@ -41,11 +41,9 @@
     </a>
     <nav class="primary" aria-label="Primary">
         <a href="./" aria-current="page">Home</a>
-        <a href="news.html">News</a>
         <a href="games.html">Game Center</a>
-        <a href="stats.html">Stats</a>
-        <a href="players.html">Players</a>
-        <a href="media.html">Media</a>
+        <a href="news.html">News</a>
+        <a href="stats.html">Team</a>
         <a href="about.html">About</a>
     </nav>
     <div class="head-tools">
@@ -63,12 +61,13 @@
     <div class="wrap">
       <nav aria-label="Menu">
         <a href="./" aria-current="page">Home</a>
-        <a href="news.html">News</a>
         <a href="games.html">Game Center</a>
-        <a href="stats.html">Stats</a>
-        <a href="players.html">Players</a>
-        <a href="media.html">Media</a>
+        <a href="news.html">News</a>
+        <a href="stats.html">Team</a>
         <a href="about.html">About</a>
+        <a class="sub" href="players.html">Players and roster</a>
+        <a class="sub" href="media.html">Videos and podcasts</a>
+        <a class="sub" href="search.html">Search</a>
       </nav>
       <form class="search-form" action="search.html" role="search">
         <label class="vh" for="q-drawer">Search the site</label>
@@ -98,26 +97,9 @@
 </div>
 <div class="wrap" id="page-error"></div>
 
-<section id="news" aria-labelledby="news-h">
-  <div class="wrap">
-    <div class="sec-head"><h2 id="news-h">Top stories</h2><a class="more" href="news.html">All news</a></div>
-    <div class="split">
-      <div>
-        <div id="lead"><div class="lead"><span class="sk h"></span><span class="sk"></span><span class="sk"></span></div></div>
-        <ul class="stories" id="top-stories"></ul>
-      </div>
-      <aside class="sticky" aria-labelledby="latest-h">
-        <h3 class="panel-title" id="latest-h">Latest</h3>
-        <ul class="stories compact" id="latest"><li class="story"><span class="sk"></span><span class="sk"></span></li></ul>
-        <p style="margin-top:14px"><a class="more" href="news.html">More news</a></p>
-      </aside>
-    </div>
-  </div>
-</section>
-
 <section id="gameweek" aria-labelledby="gw-h">
   <div class="wrap">
-    <div class="sec-head"><h2 id="gw-h">Game week</h2><a class="more" href="games.html#next" id="matchup">Full preview and tale of the tape</a></div>
+    <div class="sec-head"><h2 id="gw-h">Game week</h2><a class="more" href="games.html#next">Full preview</a></div>
     <div class="grid-3">
       <div id="pick"><div class="card"><span class="sk h"></span><span class="sk t"></span></div></div>
       <div id="odds"><div class="card"><span class="sk h"></span><span class="sk t"></span></div></div>
@@ -126,42 +108,39 @@
   </div>
 </section>
 
-<section id="stats" aria-labelledby="stats-h">
+<section id="news" aria-labelledby="news-h">
   <div class="wrap">
-    <div class="sec-head"><h2 id="stats-h">Team dashboard</h2><a class="more" href="stats.html">All stats</a></div>
-    <div id="sotd" class="sotd-slot"><div class="sotd"><span class="sk h"></span><span class="sk t"></span></div></div>
-    <div class="kpis tnum" id="kpis"><div class="kpi"><span class="sk"></span></div></div>
-    <div class="split" style="margin-top:var(--gap)">
+    <div class="sec-head"><h2 id="news-h">Top stories</h2><a class="more" href="news.html">All news</a></div>
+    <div class="split">
       <div>
-        <h3 class="panel-title">Season leaders</h3>
-        <div class="tiles tnum" id="leaders" style="margin-top:12px"></div>
-        <div id="milestones" hidden>
-          <div class="sub-head"><h3>Milestones in reach</h3><span class="eyebrow">What to watch for</span></div>
-          <div class="tiles three tnum" id="miles"></div>
-        </div>
+        <div id="lead"><div class="lead"><span class="sk h"></span><span class="sk"></span><span class="sk"></span></div></div>
+        <ul class="stories" id="top-stories"></ul>
       </div>
-      <div>
-        <h3 class="panel-title">AFC West</h3>
-        <div class="table-wrap"><table><thead><tr><th>Team</th><th class="n">W</th><th class="n">L</th><th class="n">Pct</th><th class="n">Diff</th></tr></thead><tbody id="standings"></tbody></table></div>
-        <p style="margin-top:14px"><a class="more" href="stats.html#standings">Full AFC standings</a></p>
-      </div>
+      <aside class="sticky latest-panel" aria-labelledby="latest-h">
+        <h3 class="panel-title" id="latest-h">Latest</h3>
+        <ul class="stories compact" id="latest"><li class="story"><span class="sk"></span><span class="sk"></span></li></ul>
+        <p style="margin-top:14px"><a class="more" href="news.html">More news</a></p>
+      </aside>
     </div>
   </div>
 </section>
 
-<section id="schedule" aria-labelledby="sched-h">
+<section id="stats" aria-labelledby="stats-h">
   <div class="wrap">
-    <div class="sec-head"><h2 id="sched-h">Schedule</h2><a class="more" href="games.html#schedule">Full schedule and results</a></div>
-    <div id="sched"><span class="sk t"></span></div>
+    <div class="sec-head"><h2 id="stats-h">By the numbers</h2><a class="more" href="stats.html">Team stats</a></div>
+    <div id="sotd" class="sotd-slot"><div class="sotd"><span class="sk h"></span><span class="sk t"></span></div></div>
+    <div class="kpis tnum" id="kpis"><div class="kpi"><span class="sk"></span></div></div>
   </div>
 </section>
 
-<section id="videos" aria-labelledby="media-h">
+<section id="explore" aria-labelledby="ex-h" style="border-bottom:0">
   <div class="wrap">
-    <div class="sec-head"><h2 id="media-h">Media</h2><a class="more" href="media.html">All media</a></div>
-    <div class="split">
-      <div id="clips"><h3 class="panel-title">Black Hole Highlights videos</h3><div id="yt" style="margin-top:14px"><span class="sk t"></span></div></div>
-      <div><h3 class="panel-title">Official podcasts</h3><div id="pods"><span class="sk"></span><span class="sk"></span></div></div>
+    <h2 id="ex-h" class="vh">More on the site</h2>
+    <div class="explore">
+      <a href="games.html#schedule"><b>Schedule and results</b><span>Every game, box scores, drives and the biggest plays</span></a>
+      <a href="stats.html#standings"><b>Standings and stats</b><span>AFC West, team ranks, EPA and tendencies</span></a>
+      <a href="players.html"><b>Players and roster</b><span>A profile for every Raider who has played</span></a>
+      <a href="media.html"><b>Videos and podcasts</b><span>Our channel, official podcasts and ESPN video</span></a>
     </div>
   </div>
 </section>
@@ -178,11 +157,11 @@
       <div>
         <h2>Sections</h2>
         <ul>
-          <li><a href="news.html">News</a></li>
           <li><a href="games.html">Game Center</a></li>
-          <li><a href="stats.html">Stats</a></li>
-          <li><a href="players.html">Players</a></li>
-          <li><a href="media.html">Media</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="media.html">Videos and podcasts</a></li>
+          <li><a href="stats.html">Team stats</a></li>
+          <li><a href="players.html">Players and roster</a></li>
           <li><a href="search.html">Search</a></li>
         </ul>
       </div>
@@ -204,5 +183,12 @@
   </div>
 </footer>
 <button class="totop" id="totop" type="button" aria-label="Back to top">&uarr;</button>
+<nav class="tabbar" aria-label="Sections">
+  <a href="./" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a>
+  <a href="games.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M12 5v14M3 12h4M17 12h4"/></svg><span>Games</span></a>
+  <a href="news.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/></svg><span>News</span></a>
+  <a href="stats.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 7.7 8 9 4.6-1.3 8-4.5 8-9V6z"/></svg><span>Team</span></a>
+  <button type="button" class="more-btn" aria-expanded="false" aria-controls="drawer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></button>
+</nav>
 </body>
 </html>

@@ -4,7 +4,7 @@ const { $ } = A, { esc } = L;
 
 A.initChrome();
 A.runPage($("page-error"), async () => {
-  const d = await A.loadAll(["site", "news"], ["odds", "editorial", "stats", "media", "players", "history"]);
+  const d = await A.loadAll(["site", "news"], ["odds", "editorial", "stats", "players", "history"]);
   const site = d.site, n = site.next, ed = d.editorial || {}, on = !!(n && ed.gameId === n.id);
   A.dataNotice(site);
 
@@ -28,19 +28,19 @@ A.runPage($("page-error"), async () => {
   const lead = fresh.find(i => i.kind === "Official" || i.kind === "Reporting") || items[0];
   const rest = items.filter(i => i !== lead);
   $("lead").innerHTML = lead ? A.storyHTML(lead, { lead: true }) : A.empty("No stories right now.");
-  const top = rest.filter(i => i.kind !== "Rumor").slice(0, 4);
+  const top = rest.filter(i => i.kind !== "Rumor").slice(0, 3);
   $("top-stories").innerHTML = top.map(i => A.storyHTML(i)).join("");
-  $("latest").innerHTML = rest.filter(i => !top.includes(i)).slice(0, 8).map(i => `<li class="story"><div class="story-meta"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3></li>`).join("");
+  $("latest").innerHTML = rest.filter(i => !top.includes(i)).slice(0, 5).map(i => `<li class="story"><div class="story-meta"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span><span>${esc(i.src)}</span><time datetime="${esc(i.date)}">${esc(L.ago(i.date))}</time></div><h3><a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3></li>`).join("");
 
   // Game week
-  $("pick").innerHTML = A.pickHTML(n, ed);
+  $("pick").innerHTML = A.pickHTML(n, ed, { keys: false });
   $("odds").innerHTML = A.oddsHTML(n, d.odds, { full: false });
   if (site.injuries && n && site.injuries.gameId === n.id) {
     const us = site.injuries.us || [];
     const c = s => us.filter(i => L.injuryClass(i.status) === s).length;
     $("injuries").innerHTML = `<div class="card"><h3 class="panel-title">Raiders injuries</h3>
       <div class="inj-sum"><span><b>${c("out")}</b>Out / IR</span><span><b>${c("q")}</b>Questionable</span></div>
-      ${A.injuriesHTML(us.slice(0, 7))}
+      ${A.injuriesHTML(us.filter(i => L.injuryClass(i.status) === "q").slice(0, 4))}
       <a class="more" href="games.html#injuries">Both teams' full reports</a></div>`;
   } else $("injuries").innerHTML = `<div class="card"><h3 class="panel-title">Raiders injuries</h3>${A.empty("No report yet for the next game.")}</div>`;
 
@@ -50,22 +50,6 @@ A.runPage($("page-error"), async () => {
   $("kpis").innerHTML = kpi(site.record, "Record") + kpi(site.divisionPlace?.split(" ")[0], "In AFC West") +
     [["totalPointsPerGame", "Points / game"], ["yardsPerGame", "Yards / game"], ["turnOverDifferential", "Turnover diff."]]
       .map(([k, l]) => { const s = stat(k); return s ? kpi(s.value, `${l}${s.rank ? " · " + s.rank : ""}`) : ""; }).join("");
-  $("leaders").innerHTML = A.tilesHTML((site.leaders || []).slice(0, 4)) || A.empty("Leaders load once the season starts.");
-  if (on && ed.milestones?.length) {
-    $("miles").innerHTML = ed.milestones.map(m => `<div class="tile"><b>${esc(m.num)}<small>${esc(m.unit)}</small></b><h4>${esc(m.name)}</h4><p>${esc(m.text)}</p></div>`).join("");
-    $("milestones").hidden = false;
-  }
-  $("standings").innerHTML = (site.standings?.west || []).map(r => `<tr${r.us ? ' class="us"' : ""}><td>${esc(r.name)}</td><td class="n">${r.w}</td><td class="n">${r.l}${r.t ? "-" + r.t : ""}</td><td class="n">${esc(r.pct)}</td><td class="n">${esc(r.diff ?? "")}</td></tr>`).join("");
-
-  // Schedule strip: last result + next four
-  const games = site.schedule?.games || [];
-  const i = n ? games.findIndex(g => g.id === n.id) : games.length;
-  $("sched").innerHTML = A.scheduleHTML(site, n, { games: games.slice(Math.max(0, i - 1), i + 4), link: "games.html" });
-
-  // Media
-  $("yt").innerHTML = A.videosHTML(d.media?.youtube);
-  $("pods").innerHTML = A.linkListHTML((d.media?.podcasts || []).slice(0, 4));
-
   // Stat of the day: one verified stat per Pacific day from the published datasets
   A.mountStatOfDay($("sotd"), { players: d.players, stats: d.stats, history: d.history, site });
 });

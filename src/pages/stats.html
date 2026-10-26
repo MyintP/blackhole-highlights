@@ -1,5 +1,5 @@
 <!--
-{"file": "stats.html", "nav": "stats", "script": "stats",
+{"file": "stats.html", "nav": "team", "script": "stats",
  "title": "Raiders stats: standings, team, advanced and player stats, roster and history · Black Hole Highlights",
  "description": "Las Vegas Raiders team stats with NFL ranks, EPA and success rate, player leaders, AFC West and AFC standings, the full roster and season-by-season records."}
 -->
@@ -7,10 +7,10 @@
   <div class="wrap">
     <span class="eyebrow" id="st-season">Stats</span>
     <h1>Stats</h1>
-    <p>Standings, team and player numbers with NFL ranks, efficiency stats, the roster and recent seasons. Sources: ESPN, checked hourly, and nflverse play-by-play, updated daily.</p>
-    <nav class="subnav" aria-label="On this page"><a href="#standings">Standings</a><a href="#team">Team</a><a href="#advanced">Advanced</a><a href="#players">Players</a><a href="#roster">Roster</a><a href="#history">History</a></nav>
+    <p>Standings, team and player numbers with NFL ranks, efficiency stats and recent seasons. Sources: ESPN, checked hourly, and nflverse play-by-play, updated daily.</p>
   </div>
 </div>
+<!--sections-->
 <div class="wrap" id="page-error"></div>
 
 <section id="standings" aria-labelledby="stand-h">
@@ -39,27 +39,10 @@
   </div>
 </section>
 
-<section id="players" aria-labelledby="pl-h">
+<section id="leaders" aria-labelledby="pl-h">
   <div class="wrap">
     <div class="sec-head"><h2 id="pl-h">Player leaders</h2><span class="eyebrow">Season to date</span></div>
     <div class="grid-3" id="player-tables"><span class="sk t"></span></div>
-  </div>
-</section>
-
-<section id="roster" aria-labelledby="ro-h">
-  <div class="wrap">
-    <div class="sec-head"><h2 id="ro-h">Roster</h2><span class="eyebrow" id="ro-count"></span></div>
-    <form class="filters" id="ro-filters" role="search" aria-label="Filter roster">
-      <div class="field">
-        <label for="ro-q">Search</label><input class="input grow" id="ro-q" type="search" placeholder="Name, position, college">
-        <label for="ro-g">Group</label><select class="input" id="ro-g"><option value="">All players</option></select>
-      </div>
-    </form>
-    <div class="table-wrap"><table>
-      <caption class="vh">Raiders roster</caption>
-      <thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Pos</th><th scope="col" class="n">Age</th><th scope="col">Ht / Wt</th><th scope="col" class="n">Exp</th><th scope="col">College</th><th scope="col">Group</th></tr></thead>
-      <tbody id="ro-body"></tbody>
-    </table></div>
   </div>
 </section>
 
