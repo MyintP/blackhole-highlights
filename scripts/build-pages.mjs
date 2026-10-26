@@ -13,8 +13,8 @@ export const NAV = [
 export const SECTIONS = {
   games: [["games.html#next", "Next game"], ["games.html#injuries", "Injuries"], ["games.html#matchup", "Matchup"], ["games.html#schedule", "Schedule"], ["games.html#results", "Results"]],
   news: [["news.html", "Stories"], ["media.html#videos", "Our videos"], ["media.html#podcasts", "Podcasts"], ["media.html#espn", "ESPN video"]],
-  team: [["stats.html#standings", "Standings"], ["stats.html#team", "Team stats"], ["stats.html#advanced", "Advanced"], ["stats.html#leaders", "Leaders"], ["stats.html#history", "History"],
-    ["players.html#profiles", "Players"], ["players.html#roster", "Roster"]],
+  team: [["stats.html#standings", "Standings"], ["stats.html#team", "Team stats"], ["stats.html#advanced", "Advanced"], ["stats.html#leaders", "Team leaders"], ["stats.html#history", "History"],
+    ["players.html#profiles", "Player profiles"], ["players.html#roster", "Roster"]],
 };
 // Mobile bottom bar: the four areas plus More (opens the menu drawer with About, search and subscribe)
 const ICONS = {

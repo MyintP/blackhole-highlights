@@ -96,11 +96,9 @@
     <form class="filters" id="filters" role="search" aria-label="Filter stories">
       <div class="chips" id="cats" role="group" aria-label="Topic"></div>
       <div class="field">
-        <label for="f-q">Search</label><input class="input grow" id="f-q" name="q" type="search" placeholder="Player, opponent, topic">
-        <label for="f-kind">Type</label>
-        <select class="input" id="f-kind" name="kind"><option value="">All types</option><option>Official</option><option>Reporting</option><option>Opinion</option><option>Rumor</option></select>
-        <label for="f-src">Source</label>
-        <select class="input" id="f-src" name="src"><option value="">All sources</option></select>
+        <div class="fld grow"><label for="f-q">Search</label><input class="input" id="f-q" name="q" type="search" placeholder="Player, opponent, topic"></div>
+        <div class="fld"><label for="f-kind">Type</label><select class="input" id="f-kind" name="kind"><option value="">All types</option><option>Official</option><option>Reporting</option><option>Opinion</option><option>Rumor</option></select></div>
+        <div class="fld"><label for="f-src">Source</label><select class="input" id="f-src" name="src"><option value="">All sources</option></select></div>
       </div>
     </form>
     <p class="count-line" id="count" role="status" aria-live="polite"></p>

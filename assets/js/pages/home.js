@@ -57,6 +57,7 @@ A.runPage($("page-error"), async () => {
   // EPA grades it quotes are present; otherwise it is written from the grades.
   const rw = L.rewind({ games: d.games, breakdown: d.breakdown, advanced: d.stats?.advanced });
   if (rw) { $("rw-body").innerHTML = rewindHTML(rw, ed.rewind?.after === rw.lastId && rw.subjects.some(s => s.fmt === "epa") ? ed.rewind : null); $("rewind").hidden = false; }
+  else $("jump-rewind")?.remove();
 });
 
 function rewindHTML(rw, take) {

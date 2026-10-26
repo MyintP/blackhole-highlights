@@ -125,6 +125,7 @@ A.runPage($("page-error"), async () => {
     document.title = `${p.name} stats · Raiders players · Black Hole Highlights`;
     history.replaceState(null, "", `?p=${encodeURIComponent(p.id)}${location.hash}`);
     document.querySelectorAll("#pl-list a").forEach(a => a.toggleAttribute("aria-current", a.dataset.id === p.id));
+    if ([...$("pl-pick").options].some(o => o.value === p.id)) $("pl-pick").value = p.id;
     if (focus) {
       const h = $("pl-profile").querySelector("h2");
       h.tabIndex = -1; h.focus({ preventScroll: true });
@@ -141,6 +142,10 @@ A.runPage($("page-error"), async () => {
     $("pl-list").innerHTML = list.length ? `<ul>${list.map(p => `<li><a href="?p=${encodeURIComponent(p.id)}" data-id="${esc(p.id)}"${p.id === current.id ? " aria-current" : ""}>
       <span class="nm">${esc(p.name)}</span><span class="ps">${esc(p.pos || "")}${p.jersey != null ? " #" + esc(p.jersey) : ""}</span><span class="ln">${esc(summary(p))}</span></a></li>`).join("")}</ul>`
       : A.empty("No players match.");
+    // Narrow screens use this picker instead of the list, so the page has one scroll and the profile sits right below
+    const opts = list.map(p => `<option value="${esc(p.id)}">${esc(p.name)} · ${esc(p.pos || "")}${p.jersey != null ? " #" + esc(p.jersey) : ""}</option>`).join("");
+    $("pl-pick").innerHTML = (list.some(p => p.id === current.id) ? "" : `<option value="">${list.length ? `Choose from ${list.length} matching` : "No players match"}</option>`) + opts;
+    $("pl-pick").value = list.some(p => p.id === current.id) ? current.id : "";
   };
 
   $("pl-list").addEventListener("click", e => {
@@ -149,6 +154,7 @@ A.runPage($("page-error"), async () => {
     e.preventDefault();
     show(all.find(p => p.id === a.dataset.id), { focus: true });
   });
+  $("pl-pick").addEventListener("change", e => { const p = all.find(x => x.id === e.target.value); if (p) { show(p); draw(); } });
   $("pl-q").addEventListener("input", draw);
   $("pl-unit").addEventListener("change", draw);
   $("pl-sort").addEventListener("change", draw);
