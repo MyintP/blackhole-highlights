@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:08:56.589Z",
+ "updated": "2026-10-26T03:19:26.819Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -186,7 +186,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "5-0"
+     "record": "5-1"
     },
     "tv": "CBS",
     "state": "post",
@@ -330,7 +330,7 @@
      "name": "Seahawks",
      "location": "Seattle",
      "abbr": "SEA",
-     "record": "3-3"
+     "record": "4-3"
     },
     "tv": "CBS",
     "state": "pre",
@@ -484,7 +484,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "5-0"
+     "record": "5-1"
     },
     "tv": null,
     "state": "pre",
@@ -545,9 +545,9 @@
    {
     "id": "401873022",
     "date": "2026-10-26T00:20Z",
-    "state": "in",
-    "final": false,
-    "detail": "3:13 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "12",
@@ -559,9 +559,9 @@
      "id": "26",
      "abbr": "SEA",
      "score": 20,
-     "winner": false
+     "winner": true
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks"
    }
   ],
   "byes": [
@@ -574,10 +574,10 @@
     "id": "12",
     "name": "Kansas City",
     "w": 5,
-    "l": 0,
+    "l": 1,
     "t": 0,
-    "pct": "1.000",
-    "diff": "+57",
+    "pct": ".833",
+    "diff": "+40",
     "us": false
    },
    {
@@ -616,11 +616,11 @@
     "id": "12",
     "name": "Kansas City",
     "w": 5,
-    "l": 0,
+    "l": 1,
     "t": 0,
-    "pct": "1.000",
+    "pct": ".833",
     "seed": 1,
-    "diff": "+57",
+    "diff": "+40",
     "us": false
    },
    {
@@ -1049,68 +1049,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-10-26T03:08:56.589Z",
+   "at": "2026-10-26T03:19:26.819Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-26T03:08:56.589Z"
+   "at": "2026-10-26T03:19:26.819Z"
   }
  },
  "nflverseTried": "2026-10-25T23:34:12.874Z"
