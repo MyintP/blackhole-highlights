@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T00:21:21.691Z",
+ "updated": "2026-10-26T00:31:47.495Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -545,23 +545,23 @@
    {
     "id": "401873022",
     "date": "2026-10-26T00:20Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "10/25 - 8:20 PM EDT",
+    "detail": "11:57 - 1st",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "26",
      "abbr": "SEA",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks"
+    "link": null
    }
   ],
   "byes": [
@@ -1049,71 +1049,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
-  },
-  "game 7": {
-   "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   },
   "videos": {
-   "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "ok": false,
+   "at": "2026-10-26T00:31:47.495Z",
+   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-26T00:21:21.691Z"
+   "at": "2026-10-26T00:31:47.495Z"
   }
  },
  "nflverseTried": "2026-10-25T23:34:12.874Z"
