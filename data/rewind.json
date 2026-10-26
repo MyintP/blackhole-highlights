@@ -1,0 +1,126 @@
+{
+ "_help": "The Rewind: a written analysis of why the last few games went the way they did and what would fix it. Hand-authored after each game (AI-assisted) from nflverse play-by-play, FTN charting and PFR data; shown while 'after' is the latest completed game (site.json last.id). Numbers must come from the data; 'fix' items are opinion and are labelled as ours on the page. 'before', 'now' and 'nfl' are display strings.",
+ "after": "401873021",
+ "weeks": [4, 7],
+ "before": [1, 3],
+ "published": "2026-10-27",
+ "headline": "The defense loses the first half, and the offense can't finish drives.",
+ "verdict": "Four straight losses, and a clear pattern. Opponents have scored touchdowns on 9 of their 18 first-half drives since Week 4, against 3 of 15 in the first three games. The Raiders trailed 7-21 and 6-28 at halftime in the two blowouts. Four things drive it. Fewer pass rushers are getting home. Runs to the edge are going for more than eight yards a carry, which sets up play action. Short passes underneath turn into big gains. And when the offense reaches the red zone, it kicks field goals instead of scoring touchdowns. The passing game itself is fine. The fixes are in the play-calling and the plan, not a rebuild.",
+ "short": [
+  "Opponents score touchdowns on half their first-half drives (9 of 18). In Weeks 1-3 it was 3 of 15.",
+  "Runs outside the tackles: 17 carries, 8.1 yards each. Opponents then use play action on 29% of dropbacks (league average 23%), and it works.",
+  "Short passes against this defense gain ten times the league average in expected points.",
+  "In the red zone the Raiders score touchdowns on 41% of trips, down from 64%. Their last 11 second-quarter drives produced five field goals and no touchdowns."
+ ],
+ "findings": [
+  {
+   "title": "The pass rush stopped finishing",
+   "level": "Critical",
+   "what": "The Raiders still pressure the quarterback at about a league-average rate, but they no longer get him down. Maxx Crosby is still producing; almost everyone else has gone quiet. Sending extra rushers hasn't solved it.",
+   "evidence": [
+    { "label": "Sack rate", "now": "4.3%", "before": "8.8%", "nfl": "6.0%" },
+    { "label": "QB hit rate", "now": "15.2%", "before": "22.1%", "nfl": "15.1%" },
+    { "label": "Pressures per game (Weeks 4-6)", "now": "9.7", "before": "14.7", "nfl": "9.2" },
+    { "label": "Pressures by players other than Crosby", "now": "18 in 3 games", "before": "31 in 3 games", "nfl": "" },
+    { "label": "Blitz rate", "now": "32.4%", "before": "21.2%", "nfl": "31.8%" },
+    { "label": "EPA per dropback when blitzing", "now": "+0.398", "before": "−0.739", "nfl": "−0.005" }
+   ],
+   "why": "Through Week 3, pressure ended plays: one dropback in eleven was a sack. Since then quarterbacks are hit or flushed and still get the ball out. The staff answered by blitzing half again as often, and blitzes have been no better than standard rushes (+0.398 against +0.384 EPA per dropback). Extra rushers leave fewer defenders in coverage, and better quarterbacks (Mahomes, Maye, Allen, Stafford) find the open man.",
+   "fix": [
+    "Win with four, not five or six. Use stunts and twists that create one-on-ones, rather than adding blitzers that the line picks up.",
+    "Move Crosby around (left, right, inside) so protections can't slide to him, and let Kwity Paye and Malcolm Koonce face single blocks. Paye had 7 pressures in Weeks 1-3 and 2 in Weeks 4-6.",
+    "When they do blitz, disguise it. Simulated pressures (four rushers from unexpected spots) keep seven in coverage."
+   ]
+  },
+  {
+   "title": "The edge leaks, and play action feeds on it",
+   "level": "Critical",
+   "what": "Runs outside the tackles are gashing this defense, mostly to the offense's left (the Raiders' right side). Once the run works, opponents fake it: play action against Las Vegas gains +0.442 EPA per dropback, almost five times the league rate.",
+   "evidence": [
+    { "label": "Runs outside the tackles (Weeks 4-7)", "now": "17 carries, 8.1 yds", "before": "", "nfl": "" },
+    { "label": "Yards per carry allowed", "now": "5.6", "before": "3.6", "nfl": "3.9" },
+    { "label": "10+ yard runs allowed", "now": "15.8%", "before": "8.0%", "nfl": "9.0%" },
+    { "label": "Play action faced (share of dropbacks)", "now": "28.7%", "before": "18.6%", "nfl": "23.1%" },
+    { "label": "EPA per play-action dropback allowed", "now": "+0.442", "before": "+0.168", "nfl": "+0.095" },
+    { "label": "Quay Walker in coverage (Weeks 4-6)", "now": "9 of 12, 121 yds", "before": "7 of 10, 34 yds", "nfl": "" }
+   ],
+   "why": "Fourteen of the 17 edge runs went to the offense's left, so the same edge is losing contain week after week. The Raiders also play light against the run (6.3 defenders in the box, below the 6.6 average), so a won edge becomes a big gain. Linebackers then have to respect the run fake, and the middle of the field opens behind them.",
+   "fix": [
+    "Fix the right-side edge first: a defensive end or outside linebacker who sets the edge and forces runs back inside, where the Raiders are better.",
+    "On early downs against run-first teams, add the seventh defender to the box rather than living at six.",
+    "Linebacker eye discipline against play action: get depth first, then come downhill. The Jets have the fourth-best edge-run offense in the league, so this gets tested on Sunday."
+   ]
+  },
+  {
+   "title": "Short passes turn into chunk plays",
+   "level": "Major",
+   "what": "Deep shots hurt too, but the steadiest damage is underneath. Quick throws are completed and then run after the catch. Missed tackles are about league average, so it's spacing and leverage, not effort.",
+   "evidence": [
+    { "label": "EPA on throws under 10 air yards", "now": "+0.385", "before": "+0.147", "nfl": "+0.039" },
+    { "label": "Completion rate allowed", "now": "68.5%", "before": "61.5%", "nfl": "64.1%" },
+    { "label": "Yards after catch per completion", "now": "6.4", "before": "5.5", "nfl": "5.1" },
+    { "label": "EPA on throws of 15+ air yards", "now": "+0.651", "before": "−0.181", "nfl": "+0.436" },
+    { "label": "3rd-down conversions allowed", "now": "48.9%", "before": "42.5%", "nfl": "41.9%" },
+    { "label": "Missed tackles per game (Weeks 4-6)", "now": "5.0", "before": "5.7", "nfl": "5.1" },
+    { "label": "Taron Johnson in coverage (Weeks 4-6)", "now": "11 of 14, 2 TD", "before": "7 of 13, 0 TD", "nfl": "" }
+   ],
+   "why": "Both levels of the coverage are leaking, which points back to the rush: with sacks halved, coverage has to hold longer, and it can't. Defenders play off and react, so receivers catch the ball in space. Treydan Stukes (9 of 13, 147 yards, 2 touchdowns) and Eric Stokes (9 of 13, 152 yards) were also targeted with success in Weeks 4-6.",
+   "fix": [
+    "Tighter coverage underneath on early downs, with a safety kept deep: press or squat on the short routes, and make quarterbacks hold the ball long enough for the rush to get home.",
+    "On third and medium, fewer soft zones with cushions past the sticks.",
+    "Rally to the ball: the yards after the catch are the difference between a 4-yard and an 11-yard completion."
+   ]
+  },
+  {
+   "title": "Red-zone trips end in field goals",
+   "level": "Major",
+   "what": "The offense moves the ball, then stalls inside the 20. That's four points left on the field on almost every trip, while opponents finish nearly eight times in ten.",
+   "evidence": [
+    { "label": "Red-zone touchdown rate", "now": "41.2%", "before": "64.3%", "nfl": "60.5%" },
+    { "label": "Red-zone touchdown rate allowed", "now": "78.9%", "before": "77.8%", "nfl": "60.5%" },
+    { "label": "EPA per red-zone pass", "now": "−0.260", "before": "+0.399", "nfl": "" },
+    { "label": "Red-zone touchdown passes", "now": "4 on 30 dropbacks", "before": "8 on 22", "nfl": "" },
+    { "label": "Second-quarter drives (Weeks 4-7)", "now": "5 FG, 0 TD", "before": "", "nfl": "" }
+   ],
+   "why": "Red-zone passing has collapsed. Targets are spread across six players with no clear first read, and inside the 10 the passing game has been negative. Brock Bowers, the best mismatch on the roster, got 5 of the 26 red-zone targets.",
+   "fix": [
+    "Make Bowers the first read inside the 20, and move him to get him isolated on linebackers and safeties.",
+    "Fewer spread-out empty looks near the goal line; condensed formations and rub routes create easier throws.",
+    "Treat fourth-and-short inside the 10 as a four-down zone more often. Field goals have not kept pace with what opponents score."
+   ]
+  },
+  {
+   "title": "The run game is a blocking problem, not an Ashton Jeanty problem",
+   "level": "Major",
+   "what": "Raiders backs are hit almost immediately. Yards after contact are close to league average, so the runners are doing their part. Defenses have noticed and play the Raiders with lighter boxes, and the runs still fail.",
+   "evidence": [
+    { "label": "Yards before contact per carry (Weeks 4-6)", "now": "1.3", "before": "1.5", "nfl": "2.4" },
+    { "label": "Yards after contact per carry (Weeks 4-6)", "now": "1.5", "before": "1.7", "nfl": "1.7" },
+    { "label": "Runs stopped at or behind the line", "now": "30.0%", "before": "25.9%", "nfl": "21.0%" },
+    { "label": "EPA per run against a light box (6 or fewer)", "now": "−0.333", "before": "−0.122", "nfl": "−0.105" },
+    { "label": "EPA on 1st-down runs vs 1st-down passes", "now": "−0.279 vs +0.266", "before": "−0.174 vs +0.266", "nfl": "−0.108 vs +0.110" }
+   ],
+   "why": "Runs through the right guard and right tackle have been the worst (−0.590 and −0.374 EPA per carry since Week 4). The staff has already adjusted, down from 28 to 20 designed runs a game and passing on 60% of early downs. That's the right call: early-down efficiency went from below average to above it.",
+   "fix": [
+    "Keep passing first on early downs. It's working, and the Jets' run defense ranks seventh while their pass defense ranks 23rd.",
+    "Treat the run as a change-up, and give the right side help with tight-end chips and pulling guards.",
+    "Don't judge Jeanty on rushing totals while blocking gives him 1.3 yards before contact. Get him the ball in space as a receiver; he leads the team in red-zone targets."
+   ]
+  }
+ ],
+ "working": [
+  "The passing game: +0.097 EPA per dropback since Week 4 (NFL +0.063). Only 2.7% sacks and a 1.1% interception rate.",
+  "Early-down offense improved from −0.092 to +0.032 EPA per play after the shift to passing.",
+  "Discipline: fewer penalty yards than opponents in Weeks 4-7."
+ ],
+ "context": "Schedule explains part of it, not all. Kansas City and Buffalo, two of the league's best offenses, did about what they usually do against Las Vegas (KC +0.127 EPA per play vs +0.096 in their other games; Buffalo +0.185 vs +0.211). New England (+0.366 vs −0.005) and the Rams (+0.152 vs +0.039) did far better than their norm. In Weeks 1-3 the defense held Miami and New Orleans well below theirs. So this is a real decline, against stronger opponents.",
+ "watch": {
+  "opp": "Jets",
+  "items": [
+   "Edge runs: the Jets average +0.200 EPA on runs outside the tackles, fourth in the NFL, with Braelon Allen (4.6 yards a carry) as the lead back.",
+   "Sacks: Geno Smith is taken down on 8.7% of dropbacks, fourth most. If the four-man rush can't finish this week, it's a real problem.",
+   "Red zone, both ways: the Jets score touchdowns on 50% of trips (27th). It's a chance for the defense to hold them to field goals, and for the offense to prove it can finish."
+  ]
+ },
+ "method": "Comparisons are Weeks 4-7 against Weeks 1-3 and against the 2026 NFL average. Play-by-play and EPA (expected points added) come from nflverse (nflfastR models). Play action, blitz and box counts are FTN charting via nflverse. Pressures, coverage allowed, missed tackles and yards before contact are Pro Football Reference charting via nflverse; the Raiders' Week 7 charting wasn't published yet, so those rows cover Weeks 4-6. Small samples: four games is a trend, not proof. The fixes are our opinion."
+}

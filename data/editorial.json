@@ -14,12 +14,6 @@
    { "title": "Stop giving up 28", "text": "Las Vegas allows 28.1 points a game (29th) and 388.7 yards. Without Hall, holding the Jets under their 19.6 average is the whole game." }
   ]
  },
- "rewind": {
-  "_help": "Hot take for the home page's Rewind. Shown only while 'after' is the latest completed game (site.json last.id); otherwise the Rewind writes its own from the grades. Every number must match the report card.",
-  "after": "401873021",
-  "title": "They can't cover, and they can't run.",
-  "text": "Four straight losses, 35.8 points allowed a game. Through Week 3 this pass defense was elite: opponents lost 0.126 EPA every time they dropped back. Over the last four they gained 0.348, more than four times the NFL average. The run game was already bad and got worse (−0.278 EPA per rush; the average is −0.102). And the damage comes before halftime: the Raiders have been outscored 41-15 in second quarters. Cousins and the passing game still grade a B, and the Raiders give away fewer penalty yards than their opponents. This isn't a sloppy team. It's a secondary and a run game."
- },
  "milestones": [
   { "num": "12", "unit": "CATCHES", "name": "Brock Bowers", "text": "To pass Trey McBride's 221 for the most receptions by a tight end in his first three seasons." },
   { "num": "5.0", "unit": "SACKS", "name": "Maxx Crosby", "text": "For his eighth straight season with at least 7.0 sacks." },

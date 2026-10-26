@@ -554,3 +554,37 @@ section,[id]{scroll-margin-top:calc(var(--head-h) + var(--secbar-h) + 16px)}
 
 /* Home "On this page" bar: the section bar's look, as plain jump links */
 .jumpbar a[aria-current]{color:var(--chrome);border-bottom-color:var(--silver)}
+
+/* The Rewind report (rewind.html) and its home summary */
+.rv-teaser{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:var(--gap);align-items:start}
+@media (max-width:900px){.rv-teaser{grid-template-columns:1fr}}
+.rv-short{margin:0;padding-left:1.2em;display:grid;gap:8px;font-size:17px;max-width:70ch}
+.rv-short li::marker{color:var(--silver)}
+.rv-list{list-style:none;margin:0;padding:0;counter-reset:rv}
+.rv-list li{counter-increment:rv;border-bottom:1px solid var(--line)}
+.rv-list a{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:4px 10px;align-items:center;padding:12px 0;text-decoration:none;min-height:44px}
+.rv-list a::before{content:counter(rv);font-family:var(--display);font-size:22px;color:var(--muted)}
+.rv-list a:hover b{text-decoration:underline;text-underline-offset:3px}
+.rv-list .rv-toc-more{counter-increment:none}
+.rv-list .rv-toc-more a{grid-template-columns:1fr;font-family:var(--label);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:14px;color:var(--silver)}
+.rv-list .rv-toc-more a::before{content:none}
+.rv-lv.crit{color:var(--loss);border-color:var(--loss)}
+.rv-byline{font-size:14px!important;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.rv-stale{color:var(--warn);font-weight:600}
+#rv-results{margin-top:20px}
+.rv-finding{padding-block:clamp(28px,4vw,44px);border-bottom:1px solid var(--line);display:grid;gap:18px;max-width:1000px}
+.rv-finding:first-child{padding-top:0}
+.rv-finding:last-child{border-bottom:0;padding-bottom:0}
+.rv-finding header{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start}
+.rv-num{font-family:var(--display);font-size:clamp(48px,7vw,72px);line-height:.9;color:var(--muted)}
+.rv-finding h2{font-family:var(--display);font-weight:400;font-size:clamp(26px,3.6vw,38px);line-height:1.05;margin-top:8px}
+.rv-what{font-size:18px;max-width:70ch}
+.rv-ev{max-width:760px}
+.rv-ev th[scope=row]{font-family:var(--body);font-size:15px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--chrome);white-space:normal}
+.rv-ev td b{font-weight:700}
+.rv-cols p{margin-top:12px;color:var(--prose)}
+.rv-fix{margin:12px 0 0;padding-left:1.2em;display:grid;gap:10px;color:var(--prose)}
+.rv-cols .panel-title{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.rv-gpa{display:inline-grid;margin-bottom:16px}
+#context p{margin-top:12px;color:var(--prose);max-width:70ch}
+#context .rv-short,#watch .rv-short{margin-top:12px}
