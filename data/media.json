@@ -1,7 +1,14 @@
 {
- "updated": "2026-10-26T17:16:00.463Z",
+ "updated": "2026-10-26T22:35:23.665Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak Presser - 10.26.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-presser-nfl-week-7-rams-2026",
+   "date": "2026-10-26T19:45:00.000Z",
+   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 7 matchup against the Los Angeles Rams.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Kirk Cousins Postgame Presser | Week 7 vs. Rams",
    "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-postgame-presser-nfl-week-7-rams-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/recap-bills-nfl-week-6-rams-preview-2026-season",
    "date": "2026-10-20T00:00:00.000Z",
    "desc": "Jason Horowitz and Kirk Morrison react to the Silver and Black's narrow Week 6 loss to the Bills, discuss tight end Michael Mayer's career-high 95 receiving yards and look ahead to how the Raiders can close out wins.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak Presser - 10.19.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-presser-recap-bills-nfl-week-6",
-   "date": "2026-10-19T19:45:00.000Z",
-   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 6 matchup against the Buffalo Bills.",
    "src": "Raiders.com"
   }
  ],
