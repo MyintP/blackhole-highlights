@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T10:57:52.823Z",
+ "updated": "2026-10-26T17:16:00.463Z",
  "season": 2026,
  "team": [
   {
@@ -1534,8 +1534,8 @@
     "label": "EPA per play",
     "side": "off",
     "higher": true,
-    "v": 0.036,
-    "rank": 13,
+    "v": 0.013,
+    "rank": 16,
     "nfl": 0.01
    },
    {
@@ -1543,35 +1543,35 @@
     "label": "Success rate",
     "side": "off",
     "higher": true,
-    "v": 0.44,
-    "rank": 15,
-    "nfl": 0.438
+    "v": 0.429,
+    "rank": 18,
+    "nfl": 0.437
    },
    {
     "key": "pass",
     "label": "EPA per dropback",
     "side": "off",
     "higher": true,
-    "v": 0.204,
-    "rank": 7,
-    "nfl": 0.078
+    "v": 0.156,
+    "rank": 9,
+    "nfl": 0.08
    },
    {
     "key": "rush",
     "label": "EPA per rush",
     "side": "off",
     "higher": true,
-    "v": -0.243,
-    "rank": 30,
-    "nfl": -0.1
+    "v": -0.252,
+    "rank": 31,
+    "nfl": -0.102
    },
    {
     "key": "epa",
     "label": "EPA per play allowed",
     "side": "def",
     "higher": false,
-    "v": 0.018,
-    "rank": 19,
+    "v": 0.038,
+    "rank": 22,
     "nfl": 0.01
    },
    {
@@ -1579,51 +1579,51 @@
     "label": "Success rate allowed",
     "side": "def",
     "higher": false,
-    "v": 0.45,
-    "rank": 24,
-    "nfl": 0.438
+    "v": 0.47,
+    "rank": 27,
+    "nfl": 0.437
    },
    {
     "key": "pass",
     "label": "EPA per dropback allowed",
     "side": "def",
     "higher": false,
-    "v": 0.127,
+    "v": 0.138,
     "rank": 24,
-    "nfl": 0.078
+    "nfl": 0.08
    },
    {
     "key": "rush",
     "label": "EPA per rush allowed",
     "side": "def",
     "higher": false,
-    "v": -0.154,
-    "rank": 8,
-    "nfl": -0.1
+    "v": -0.105,
+    "rank": 13,
+    "nfl": -0.102
    }
   ],
   "passers": [
    {
     "name": "K.Cousins",
-    "dropbacks": 221,
-    "epa": 0.207,
-    "epaRank": 8,
-    "cpoe": -0.7,
-    "cpoeRank": 24
+    "dropbacks": 269,
+    "epa": 0.143,
+    "epaRank": 11,
+    "cpoe": -2,
+    "cpoeRank": 26
    }
   ],
-  "fetched": "2026-10-25T23:34:12.874Z"
+  "fetched": "2026-10-26T17:16:00.463Z"
  },
  "tendencies": {
-  "charted": 0.926,
+  "charted": 0.89,
   "rows": [
    {
     "key": "passRate",
     "label": "Pass rate",
     "side": "off",
     "fmt": "pct",
-    "v": 0.625,
-    "rank": 13,
+    "v": 0.648,
+    "rank": 9,
     "nfl": 0.616
    },
    {
@@ -1631,8 +1631,8 @@
     "label": "Early-down pass rate",
     "side": "off",
     "fmt": "pct",
-    "v": 0.564,
-    "rank": 13,
+    "v": 0.586,
+    "rank": 10,
     "nfl": 0.561
    },
    {
@@ -1685,8 +1685,8 @@
     "label": "No huddle",
     "side": "off",
     "fmt": "pct",
-    "v": 0.068,
-    "rank": 12,
+    "v": 0.085,
+    "rank": 8,
     "nfl": 0.063
    },
    {
@@ -1694,9 +1694,9 @@
     "label": "Average depth of target (yds)",
     "side": "off",
     "fmt": "num",
-    "v": 8.298,
-    "rank": 9,
-    "nfl": 7.799
+    "v": 8.125,
+    "rank": 11,
+    "nfl": 7.783
    },
    {
     "key": "blitz",
@@ -1739,18 +1739,18 @@
     "label": "Sack rate",
     "side": "def",
     "fmt": "pct",
-    "v": 0.068,
-    "rank": 12,
-    "nfl": 0.061
+    "v": 0.064,
+    "rank": 15,
+    "nfl": 0.06
    },
    {
     "key": "hitRate",
     "label": "QB hit rate",
     "side": "def",
     "fmt": "pct",
-    "v": 0.195,
+    "v": 0.183,
     "rank": 4,
-    "nfl": 0.153
+    "nfl": 0.151
    }
   ]
  }
