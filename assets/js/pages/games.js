@@ -53,17 +53,20 @@ A.runPage($("page-error"), async () => {
       <div class="table-wrap"><table><caption class="vh">Score by quarter</caption><thead><tr><th scope="col">Team</th>${qh}<th class="n" scope="col">Final</th></tr></thead><tbody>
         ${g.home ? row(g.opp.name, x.lines.them, g.score.them) + row("Raiders", x.lines.us, g.score.us) : row("Raiders", x.lines.us, g.score.us) + row(g.opp.name, x.lines.them, g.score.them)}</tbody></table></div>
       <div class="grid-2">
-        <div><h3 class="panel-title">Team stats</h3><div class="table-wrap"><table><thead><tr><th scope="col">Stat</th><th class="n" scope="col">Raiders</th><th class="n" scope="col">${esc(g.opp.name)}</th></tr></thead><tbody>
+        <div id="g-${esc(g.id)}-box"><h3 class="panel-title">Team stats</h3><div class="table-wrap"><table><thead><tr><th scope="col">Stat</th><th class="n" scope="col">Raiders</th><th class="n" scope="col">${esc(g.opp.name)}</th></tr></thead><tbody>
           ${x.box.map(b => `<tr><td>${esc(BOX_LABELS[b.key] || b.key)}</td><td class="n">${esc(b.us ?? "-")}</td><td class="n">${esc(b.them ?? "-")}</td></tr>`).join("")}</tbody></table></div></div>
         <div style="display:grid;gap:20px">${leaders(x.leaders.us, "Raiders")}${leaders(x.leaders.them, g.opp.name)}</div>
       </div>
-      ${breakdownHTML(plays[g.id], g)}
+      ${breakdownHTML(plays[g.id], g) || `<div id="g-${esc(g.id)}-plays">${A.empty("Play-by-play for this game arrives within a day of the final.")}</div>`}
       ${x.recap ? `<div><h3 class="panel-title">Recap</h3><p style="margin-top:10px"><a class="ext" href="${L.url(x.recap.link)}" target="_blank" rel="noopener">${esc(x.recap.title)}</a> <span class="muted">· ESPN</span></p>${x.recap.desc ? `<p class="muted" style="margin-top:6px">${esc(x.recap.desc)}</p>` : ""}</div>` : ""}
     </div></details>`;
   }).join("") : A.empty("No games played yet.");
 
-  // Open a result when arriving from a schedule card link (#g-<id>)
-  const openHash = () => { const el = location.hash.startsWith("#g-") && document.getElementById(location.hash.slice(1)); if (el) { el.open = true; el.scrollIntoView(); } };
+  // Open a result when arriving from a schedule card or the score strip (#g-<id>, #g-<id>-box, #g-<id>-plays)
+  const openHash = () => {
+    const el = location.hash.startsWith("#g-") && document.getElementById(location.hash.slice(1)), res = el?.closest("details.result");
+    if (res) { res.open = true; el.querySelector(":scope > details.drives")?.setAttribute("open", ""); el.scrollIntoView(); }
+  };
   openHash(); addEventListener("hashchange", openHash);
 });
 
@@ -84,7 +87,7 @@ function breakdownHTML(b, g) {
   const drives = `<div class="table-wrap"><table><caption class="vh">Drives</caption><thead><tr><th scope="col">Team</th><th scope="col" class="n">Qtr</th><th scope="col">Start</th><th scope="col" class="n">Plays</th><th scope="col" class="n">Time</th><th scope="col">Result</th></tr></thead><tbody>${
     b.drives.map(r => `<tr${r.team === us ? ' class="us"' : ""}><td>${r.team === us ? "Raiders" : esc(opp)}</td><td class="n">${esc(r.qtr ?? "")}</td><td>${esc(r.start ?? "")}</td><td class="n">${esc(r.plays ?? "")}</td><td class="n">${esc(r.top ?? "")}</td><td>${esc(r.result ?? "")}</td></tr>`).join("")}</tbody></table></div>`;
   const kicks = b.kicks.length ? `<p class="muted" style="margin-top:10px">Raiders field goals: ${b.kicks.map(k => `${esc(k.dist)} yds ${k.result === "made" ? "good" : esc(k.result)}`).join(", ")}</p>` : "";
-  return `<div class="breakdown"><h3 class="pl-sec">Play-by-play breakdown</h3>
+  return `<div class="breakdown" id="g-${esc(g.id)}-plays"><h3 class="pl-sec">Plays and drives</h3>
     <div class="grid-2">${eff(b.offense, "Raiders offense")}${eff(b.defense, "Raiders defense (allowed)")}</div>
     <div class="grid-2" style="margin-top:20px"><div><h3 class="panel-title">Scoring plays</h3>${scoring}${kicks}</div>
       <div><h3 class="panel-title">Biggest swings <small class="muted">Raiders win probability</small></h3>${swings}</div></div>

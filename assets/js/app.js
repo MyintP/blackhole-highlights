@@ -80,9 +80,12 @@ export function initChrome() {
     btns.forEach(b => b.addEventListener("click", () => { opener = b; set(!isOpen()); if (isOpen()) drawer.querySelector("a")?.focus(); }));
     document.addEventListener("keydown", e => { if (e.key === "Escape" && isOpen()) { set(false); opener.focus(); } });
     drawer.addEventListener("click", e => { if (e.target.closest("a")) set(false); });
+    // The drawer overlays the page, so a tap outside it closes it
+    document.addEventListener("click", e => { if (isOpen() && !drawer.contains(e.target) && !btns.some(b => b.contains(e.target))) set(false); });
     matchMedia("(min-width: 901px)").addEventListener("change", e => { if (e.matches) set(false); });
   }
   initSections();
+  initJumpbar();
   const top = $("totop");
   if (top) {
     addEventListener("scroll", () => top.classList.toggle("on", scrollY > 900), { passive: true });
@@ -135,6 +138,22 @@ function initSections() {
   showSection(fromHash());
   addEventListener("hashchange", () => { const t = fromHash(); showSection(t); t.scrollIntoView(); });
   for (const x of secs) x.addEventListener("beforematch", () => { history.replaceState(null, "", "#" + x.id); showSection(x); });
+}
+// Home's "On this page" bar: plain jump links. The section whose top has passed 40% of the screen is marked as the
+// current location (the last one once the page bottoms out).
+function initJumpbar() {
+  const links = [...document.querySelectorAll(".jumpbar a[href^='#']")];
+  if (!links.length) return;
+  let queued = false;
+  const mark = () => {
+    queued = false;
+    const live = links.filter(a => document.getElementById(a.getAttribute("href").slice(1)));
+    const end = innerHeight + scrollY >= document.documentElement.scrollHeight - 4;
+    const cur = end ? live[live.length - 1] : live.filter(a => document.getElementById(a.getAttribute("href").slice(1)).getBoundingClientRect().top <= innerHeight * 0.4).pop();
+    links.forEach(a => { if (a === cur) a.setAttribute("aria-current", "location"); else a.removeAttribute("aria-current"); });
+  };
+  addEventListener("scroll", () => { if (!queued) { queued = true; requestAnimationFrame(mark); } }, { passive: true });
+  mark();
 }
 // A short preview next to a section's name in the bar, e.g. "Results 3-4"
 export function secNote(id, text) {
@@ -368,7 +387,7 @@ export function stripHTML(site, now = Date.now()) {
       const res = g.tie ? "T" : g.win ? "W" : "L";
       tag = "Final";
       main = `${teamLine(g)} <span class="${g.tie ? "" : g.win ? "is-win" : "is-loss"}">${res}</span> <small>· Next: ${s.next.home ? "vs" : "at"} ${esc(s.next.opp.name)}, ${esc(L.day(s.next.date))}</small>`;
-      links = [link(`games.html#g-${g.id}`, "Box score"), link(`games.html#g-${g.id}`, "Drives & swings")];
+      links = [link(`games.html#g-${g.id}-box`, "Box score"), link(`games.html#g-${g.id}-plays`, "Plays & drives")];
       if (site.last?.recap?.link) links.push(`<a class="ext" href="${L.url(site.last.recap.link)}" target="_blank" rel="noopener">Recap</a>`);
       break;
     }

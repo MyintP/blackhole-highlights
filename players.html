@@ -88,9 +88,10 @@
     <span class="eyebrow" id="pl-season">Players</span>
     <h1>Players</h1>
     <p>Every Raider who has taken a snap this season. Box-score stats with NFL ranks, snap counts, and charting: coverage allowed, pressures, missed tackles, yards after contact and drops. Updated daily from nflverse.</p>
+    <p>Team totals, NFL ranks and the top Raiders in each category are on <a href="stats.html#team">Team stats</a> and <a href="stats.html#leaders">Team leaders</a>.</p>
   </div>
 </div>
-<nav class="secbar" aria-label="Team sections"><div class="wrap"><a href="stats.html#standings">Standings</a><a href="stats.html#team">Team stats</a><a href="stats.html#advanced">Advanced</a><a href="stats.html#leaders">Leaders</a><a href="stats.html#history">History</a><a href="#profiles" data-tab="profiles">Players</a><a href="#roster" data-tab="roster">Roster</a></div></nav>
+<nav class="secbar" aria-label="Team sections"><div class="wrap"><a href="stats.html#standings">Standings</a><a href="stats.html#team">Team stats</a><a href="stats.html#advanced">Advanced</a><a href="stats.html#leaders">Team leaders</a><a href="stats.html#history">History</a><a href="#profiles" data-tab="profiles">Player profiles</a><a href="#roster" data-tab="roster">Roster</a></div></nav>
 <div class="wrap" id="page-error"></div>
 
 <section id="profiles" aria-labelledby="pl-h" class="tight">
@@ -98,9 +99,10 @@
     <h2 id="pl-h" class="vh">Player profiles</h2>
     <form class="filters" id="pl-filters" role="search" aria-label="Find a player">
       <div class="field">
-        <label for="pl-q">Search</label><input class="input grow" id="pl-q" type="search" placeholder="Name or position" autocomplete="off">
-        <label for="pl-unit">Unit</label><select class="input" id="pl-unit"><option value="">All</option><option>Offense</option><option>Defense</option><option>Special teams</option></select>
-        <label for="pl-sort">Sort</label><select class="input" id="pl-sort"><option value="pos">Position</option><option value="snaps">Snaps</option><option value="name">Name</option></select>
+        <div class="fld grow"><label for="pl-q">Search</label><input class="input" id="pl-q" type="search" placeholder="Name or position" autocomplete="off"></div>
+        <div class="fld"><label for="pl-unit">Unit</label><select class="input" id="pl-unit"><option value="">All</option><option>Offense</option><option>Defense</option><option>Special teams</option></select></div>
+        <div class="fld"><label for="pl-sort">Sort</label><select class="input" id="pl-sort"><option value="pos">Position</option><option value="snaps">Snaps</option><option value="name">Name</option></select></div>
+        <div class="fld pl-pick"><label for="pl-pick">Player</label><select class="input" id="pl-pick"><option>Loading players</option></select></div>
       </div>
     </form>
     <div class="pl-layout">
@@ -116,8 +118,8 @@
     <div class="sec-head"><h2 id="ro-h">Roster</h2><span class="eyebrow" id="ro-count"></span></div>
     <form class="filters" id="ro-filters" role="search" aria-label="Filter roster">
       <div class="field">
-        <label for="ro-q">Search</label><input class="input grow" id="ro-q" type="search" placeholder="Name, position, college">
-        <label for="ro-g">Group</label><select class="input" id="ro-g"><option value="">All players</option></select>
+        <div class="fld grow"><label for="ro-q">Search</label><input class="input" id="ro-q" type="search" placeholder="Name, position, college"></div>
+        <div class="fld"><label for="ro-g">Group</label><select class="input" id="ro-g"><option value="">All players</option></select></div>
       </div>
     </form>
     <div class="table-wrap"><table class="roster">
