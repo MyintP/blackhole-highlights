@@ -139,7 +139,8 @@ export function nextWait(g, now = new Date(), others = []) {
     const kick = new Date(g.date).getTime(), open = kick - 12 * 60 * M, close = kick - 60 * M;
     if (!isNaN(kick) && t >= kick - 18 * 60 * M && t <= kick + 270 * M) {
       if (t < open) waits.push(Math.min(open - t + 2 * M, 60 * M));
-      else if (t < close) waits.push(close - t > 70 * M ? 60 * M : Math.max(close - t - 8 * M, M));
+      // Aim the last capture ~8 min before the close; a run already inside that slack skips past it, not a 1-min loop.
+      else if (t < close) waits.push(close - t > 70 * M ? 60 * M : close - t >= 9 * M ? close - t - 8 * M : close - t + M);
       else waits.push(10 * M);
     }
   }
