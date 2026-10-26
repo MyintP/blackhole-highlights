@@ -220,3 +220,71 @@ export function statOfDay(cands, date = ptDate()) {
   const list = cands[kinds[dayNum % kinds.length]];
   return { ...list[hash(date) % list.length], date };
 }
+
+// ---------- The Rewind: a report card on the last few games ----------
+// EPA units are graded against the NFL average (season to date, from stats.advanced): each letter is a band of EPA per
+// play, sign flipped for defense. The other subjects are graded on the margin against the opponents in those games.
+export const GRADE_POINTS = { A: 4, B: 3, C: 2, D: 1, F: 0 };
+const band = (x, [a, b, c, d]) => (x >= a ? "A" : x >= b ? "B" : x > c ? "C" : x > d ? "D" : "F");
+const EPA_BANDS = [0.1, 0.04, -0.04, -0.1];
+const pool = (bds, side, k) => { // play-weighted EPA across games
+  let n = 0, s = 0;
+  for (const b of bds) { const u = b?.[side]?.[k]; if (u?.plays && u.epa != null) { n += u.plays; s += u.plays * u.epa; } }
+  return n ? { plays: n, epa: s / n } : null;
+};
+const boxPair = (g, key) => g.box?.find(b => b.key === key);
+const boxNum = (g, key, side, i = 0) => { const v = boxPair(g, key)?.[side]; return v == null ? null : Number(String(v).split("-")[i]); };
+const perGame = (gs, f) => { const v = gs.map(f).filter(x => x != null && !isNaN(x)); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
+
+export function rewind({ games, breakdown, advanced } = {}, n = 4) {
+  const played = Object.values(games?.games || {}).filter(g => g.score).sort((a, b) => a.week - b.week);
+  if (played.length < 2) return null;
+  const k = Math.min(n, played.length), win = played.slice(-k), before = played.slice(0, -k);
+  const bd = gs => gs.map(g => breakdown?.games?.[g.id]).filter(Boolean);
+  const nfl = (side, key) => advanced?.metrics?.find(m => m.side === side && m.key === key)?.nfl;
+  const subjects = [];
+
+  for (const [side, key, label, what] of [["offense", "pass", "Passing offense", "EPA per dropback"], ["offense", "rush", "Run game", "EPA per rush"],
+    ["defense", "pass", "Pass defense", "EPA per dropback allowed"], ["defense", "rush", "Run defense", "EPA per rush allowed"]]) {
+    const now = pool(bd(win), side, key), then = pool(bd(before), side, key), avg = nfl(side === "offense" ? "off" : "def", key);
+    if (!now || avg == null) continue;
+    const edge = side === "offense" ? now.epa - avg : avg - now.epa;
+    subjects.push({ key: side + ":" + key, label, what, fmt: "epa", v: now.epa, before: then?.epa ?? null, bench: avg, benchLabel: "NFL avg",
+      better: side === "offense" ? "higher" : "lower", grade: band(edge, EPA_BANDS), edge, unit: "EPA/play", plays: now.plays });
+  }
+
+  // Margin subjects: Raiders minus opponents, per game (positive = Raiders better)
+  const margin = (gs, key, i, flip = false) => perGame(gs, g => { const u = boxNum(g, key, "us", i), t = boxNum(g, key, "them", i); return u == null || t == null ? null : (flip ? t - u : u - t); });
+  const third = gs => { // conversion rate both ways, pooled
+    let a = 0, b = 0, c = 0, d = 0;
+    for (const g of gs) { const u = boxPair(g, "thirdDownEff"); if (!u) continue; const [x, y] = u.us.split("-").map(Number), [z, w] = u.them.split("-").map(Number); a += x; b += y; c += z; d += w; }
+    return b && d ? { us: a / b, them: c / d, edge: a / b - c / d } : null;
+  };
+  const to = margin(win, "turnovers", 0, true);
+  if (to != null) subjects.push({ key: "turnovers", label: "Ball security", what: "Takeaways minus giveaways per game", fmt: "signed1", v: to,
+    before: margin(before, "turnovers", 0, true), grade: band(to, [1, 0.5, -0.5, -1]), edge: to, better: "higher" });
+  const pen = margin(win, "totalPenaltiesYards", 1, true);
+  if (pen != null) subjects.push({ key: "penalties", label: "Discipline", what: "Penalty yards vs opponents per game (fewer is better)", fmt: "signed0", v: pen,
+    before: margin(before, "totalPenaltiesYards", 1, true), grade: band(pen, [20, 8, -8, -20]), edge: pen, better: "higher" });
+  const t3 = third(win), t3b = third(before);
+  if (t3) subjects.push({ key: "third", label: "Third downs", what: "Conversion rate minus opponents'", fmt: "pts", v: t3.edge, us: t3.us, them: t3.them,
+    before: t3b?.edge ?? null, grade: band(t3.edge, [0.15, 0.05, -0.05, -0.15]), edge: t3.edge, better: "higher" });
+
+  // Points by quarter across the window (overtime folded into Q4)
+  const q = side => [0, 1, 2, 3].map(i => win.reduce((s, g) => s + (g.lines?.[side]?.[i] ?? 0) + (i === 3 ? (g.lines?.[side] || []).slice(4).reduce((a, b) => a + b, 0) : 0), 0));
+  const W = win.filter(g => g.win).length, T = win.filter(g => g.tie).length;
+  const gpa = subjects.length ? subjects.reduce((s, x) => s + GRADE_POINTS[x.grade], 0) / subjects.length : null;
+  const ranked = [...subjects].sort((a, b) => GRADE_POINTS[a.grade] - GRADE_POINTS[b.grade] || (a.fmt === "epa" && b.fmt === "epa" ? a.edge - b.edge : 0));
+  return {
+    n: k, weeks: [win[0].week, win[k - 1].week], lastId: win[k - 1].id,
+    games: win.map(g => ({ id: g.id, week: g.week, opp: g.opp.abbr, home: g.home, us: g.score.us, them: g.score.them, win: g.win, tie: g.tie })),
+    record: `${W}-${k - W - T}${T ? "-" + T : ""}`,
+    pf: win.reduce((s, g) => s + g.score.us, 0) / k, pa: win.reduce((s, g) => s + g.score.them, 0) / k,
+    pfBefore: before.length ? before.reduce((s, g) => s + g.score.us, 0) / before.length : null,
+    paBefore: before.length ? before.reduce((s, g) => s + g.score.them, 0) / before.length : null,
+    beforeWeeks: before.length ? [before[0].week, before[before.length - 1].week] : null,
+    quarters: { us: q("us"), them: q("them") },
+    subjects, gpa, worst: ranked.filter(s => GRADE_POINTS[s.grade] <= 1).slice(0, 2),
+  };
+}
+export const gpaGrade = g => (g == null ? "-" : g >= 3.5 ? "A" : g >= 2.5 ? "B" : g >= 1.5 ? "C" : g >= 0.75 ? "D" : "F");

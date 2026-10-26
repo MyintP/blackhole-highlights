@@ -77,3 +77,37 @@ test("url lets only http(s) links through", () => {
   assert.equal(L.url("JaVaScRiPt:alert(1)"), "#");
   assert.equal(L.url(null), "#");
 });
+
+test("rewind grades the last four games against the NFL average and the opponents", () => {
+  const box = (to, pen, third) => [{ key: "turnovers", us: String(to[0]), them: String(to[1]) },
+    { key: "totalPenaltiesYards", us: `5-${pen[0]}`, them: `6-${pen[1]}` }, { key: "thirdDownEff", us: third[0], them: third[1] }];
+  const g = (id, week, us, them, b) => ({ id, week, home: true, opp: { abbr: "X" }, score: { us, them }, win: us > them, tie: us === them,
+    lines: { us: [us, 0, 0, 0], them: [0, them, 0, 0] }, box: b });
+  const games = { games: {
+    a: g("a", 1, 30, 10, box([0, 3], [40, 40], ["5-10", "2-10"])),
+    b: g("b", 2, 10, 20, box([2, 0], [30, 60], ["2-10", "5-10"])), c: g("c", 3, 10, 20, box([1, 0], [30, 50], ["3-10", "5-10"])),
+    d: g("d", 4, 10, 20, box([1, 1], [50, 50], ["4-10", "4-10"])), e: g("e", 5, 10, 20, box([1, 0], [50, 50], ["3-10", "5-10"])),
+  } };
+  const u = (pe, re) => ({ pass: { plays: 10, epa: pe }, rush: { plays: 10, epa: re } });
+  const breakdown = { games: Object.fromEntries(["a", "b", "c", "d", "e"].map(k => [k, { offense: u(0.2, -0.1), defense: u(k === "a" ? -0.2 : 0.3, -0.1) }])) };
+  const advanced = { metrics: [["off", "pass", 0.08], ["off", "rush", -0.1], ["def", "pass", 0.08], ["def", "rush", -0.1]].map(([side, key, nfl]) => ({ side, key, nfl })) };
+  const r = L.rewind({ games, breakdown, advanced });
+  assert.equal(r.n, 4);
+  assert.deepEqual(r.weeks, [2, 5]);
+  assert.equal(r.record, "0-4");
+  assert.equal(r.lastId, "e");
+  const by = Object.fromEntries(r.subjects.map(s => [s.key, s]));
+  assert.equal(by["offense:pass"].grade, "A"); // +0.12 over average
+  assert.equal(by["offense:rush"].grade, "C");
+  assert.equal(by["defense:pass"].grade, "F"); // 0.22 worse than average
+  assert.equal(by["defense:pass"].before, -0.2);
+  assert.equal(by["turnovers"].v, -1);
+  assert.equal(by["turnovers"].grade, "F");
+  assert.equal(by["penalties"].v, 12.5); // 12.5 fewer penalty yards a game than opponents
+  assert.equal(by["penalties"].grade, "B");
+  assert.equal(by["third"].grade, "F"); // 12 of 40 vs 19 of 40
+  assert.deepEqual(r.quarters, { us: [40, 0, 0, 0], them: [0, 80, 0, 0] });
+  assert.equal(r.worst[0].key, "defense:pass");
+  assert.equal(L.gpaGrade(r.gpa), "C");
+  assert.equal(L.rewind({ games: { games: { a: games.games.a } } }), null, "needs two games");
+});

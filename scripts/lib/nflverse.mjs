@@ -304,8 +304,11 @@ export function gameBreakdowns(pbpRows, team = "LV") {
     const unit = side => {
       const p = rows.filter(r => (r.pass === "1" || r.rush === "1") && num(r.epa) != null && (side === "off" ? r.posteam === team : r.defteam === team));
       const third = p.filter(r => num(r.down) === 3);
+      // Pass and run splits, defined as in advanced(), for the home page's Rewind report card
+      const split = k => { const s = p.filter(r => r[k] === "1"); return { plays: s.length, epa: r3(mean(s.map(r => num(r.epa)))) }; };
       return {
         plays: p.length, epa: r3(mean(p.map(r => num(r.epa)))), sr: r3(mean(p.map(r => num(r.success) || 0))),
+        pass: split("pass"), rush: split("rush"),
         explosive: p.filter(r => (r.pass === "1" && num(r.yards_gained) >= 20) || (r.rush === "1" && num(r.yards_gained) >= 10)).length,
         third: [third.filter(r => r.first_down === "1" || r.touchdown === "1").length, third.length],
       };
