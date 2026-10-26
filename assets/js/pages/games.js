@@ -19,6 +19,11 @@ A.runPage($("page-error"), async () => {
     A.liveBoard($("board"), site, ed);
   } else $("board").innerHTML = A.empty("No upcoming game. The season is complete.");
   $("pick").innerHTML = A.pickHTML(n, ed);
+  if (n && ed.gameId === n.id && ed.milestones?.length) {
+    $("miles").innerHTML = ed.milestones.map(m => `<div class="tile"><b>${esc(m.num)}<small>${esc(m.unit)}</small></b><h4>${esc(m.name)}</h4><p>${esc(m.text)}</p></div>`).join("");
+    $("milestones").hidden = false;
+  }
+  if (n) A.secNote("next", (n.home ? "v " : "@ ") + n.opp.abbr);
   $("odds").innerHTML = A.oddsHTML(n, d.odds) + A.lineHistoryHTML(d.odds, n);
   $("ats").innerHTML = A.atsLogHTML(d.odds, site);
 
@@ -26,6 +31,7 @@ A.runPage($("page-error"), async () => {
   $("inj-us").innerHTML = inj ? A.injuriesHTML(inj.us) : A.empty("No report yet.");
   $("inj-them-h").textContent = inj ? inj.opp : n ? n.opp.name : "Opponent";
   $("inj-them").innerHTML = inj ? A.injuriesHTML(inj.them) : A.empty("No report yet.");
+  if (inj) A.secNote("injuries", `${inj.us.filter(i => L.injuryClass(i.status) === "q").length} Q`);
   $("tape").innerHTML = A.tapeHTML(site.matchup, n);
 
   $("sched").innerHTML = A.scheduleHTML(site, n, { link: "games.html" });
@@ -33,6 +39,7 @@ A.runPage($("page-error"), async () => {
   // Results, newest first; each opens to line score, team stats, leaders and the recap link.
   const details = d.games?.games || {}, plays = d.breakdown?.games || {};
   const finals = (site.schedule?.games || []).filter(g => g.final).reverse();
+  A.secNote("results", site.record);
   $("res").innerHTML = finals.length ? finals.map((g, idx) => {
     const x = details[g.id];
     const head = `<summary><span class="wkl">Week ${esc(g.week)}</span><span class="who">${esc(L.gameLabel(g))}</span><span class="fs ${g.win ? "is-win" : g.tie ? "" : "is-loss"}">${esc(L.resultText(g))}</span></summary>`;

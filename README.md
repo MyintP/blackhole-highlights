@@ -9,17 +9,19 @@ Live site: https://myintp.github.io/blackhole-highlights/ (GitHub Pages from the
 ## Pages
 | Page | What it shows |
 |---|---|
-| `index.html` Home | Hero with next-game scoreboard, top stories, game week (pick, odds, injuries), team dashboard, schedule strip, media |
+| `index.html` Home | What matters now: hero with next-game scoreboard, game week (pick, odds, injuries), top stories, stat of the day and key numbers, links into each area |
 | `news.html` News | Every story, grouped by day; filter by topic, type (Official / Reporting / Opinion / Rumor), source and keywords. Filters live in the URL |
-| `games.html` Game Center | Next game (live score during the game), pick, odds and line movement, both injury reports, tale of the tape, full schedule, results with box scores, a play-by-play breakdown (efficiency, scoring plays, biggest win-probability swings, drives) and recaps |
-| `stats.html` Stats | AFC and AFC West standings, team stats with NFL ranks, advanced (EPA, success rate, QB EPA and CPOE), scheme tendencies (motion, play action, shotgun, blitz rate, box counts), player leaders, searchable roster, records since 2016 |
-| `players.html` Players | A profile for every Raider who has played: box-score stats with NFL ranks, snap share, coverage allowed, pass rush, tackling, yards after contact, drops. `?p=<slug>` links to one player |
+| `games.html` Game Center | Next game (live score during the game), pick, odds and line movement, both injury reports, tale of the tape, full schedule, milestones, results with box scores, a play-by-play breakdown (efficiency, scoring plays, biggest win-probability swings, drives) and recaps |
+| `stats.html` Stats | AFC and AFC West standings, team stats with NFL ranks, advanced (EPA, success rate, QB EPA and CPOE), scheme tendencies (motion, play action, shotgun, blitz rate, box counts), player leaders, records since 2016 |
+| `players.html` Players | A profile for every Raider who has played: box-score stats with NFL ranks, snap share, coverage allowed, pass rush, tackling, yards after contact, drops. `?p=<slug>` links to one player. Also the searchable roster (`#roster`) |
 | `media.html` Media | Channel videos, official Raiders podcasts, ESPN Raiders video |
 | `search.html` Search | Stories, players, games and pages (`?q=`) |
 | `about.html` About | Purpose, editorial labels, data sources, live source status, contact |
 | `404.html` | Not-found page (uses `<base href="/blackhole-highlights/">`) |
 
-Old home-page anchors still work: `#news`, `#gameweek`, `#odds`, `#pick`, `#injuries`, `#matchup`, `#schedule`, `#stats`, `#milestones`, `#videos`, `#clips`.
+**Navigation.** Four areas (Home, Game Center, News, Team) plus About; on phones they sit in a bottom bar with More (the menu: Players, Videos, Search, About). Game Center, Team (Stats and Players) and News (Stories and Media) have a sticky section bar that shows one section at a time; the URL hash picks the section (`games.html#results`, or any element inside one such as `#odds` or `#g-<id>`), so links, sharing and Back work. Areas and sections are configured in `NAV` and `SECTIONS` in `scripts/build-pages.mjs`; the tab behaviour is `initSections` in `assets/js/app.js`.
+
+Old anchors still work: `#news`, `#gameweek`, `#odds`, `#pick`, `#injuries` and `#stats` on the home page, and `MOVED` in `assets/js/app.js` redirects ones that moved (home `#schedule`, `#matchup`, `#milestones`, `#videos`, `#clips`; `stats.html#roster` and `#players`).
 
 Every page also has the **game-week strip** under the header. It shows the next game with links to odds, injuries, matchup and pick, then the live score and clock, then the final with links to the box score and breakdown, plus bye, postponed and season-complete states. Next to it are this week's **AFC West scores** and the Raiders' division place. The logic is `stripState` in `assets/js/lib.js`: a game only reads "Live" when ESPN reports it live, and a live score older than 25 minutes shows its time.
 

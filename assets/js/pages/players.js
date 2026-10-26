@@ -90,10 +90,29 @@ function profileHTML(p, through) {
 A.initChrome();
 A.runPage($("page-error"), async () => {
   // players.json is optional: it appears after the update job's first nflverse pass, and the page says so until then
-  const d = await A.loadAll(["site"], ["players"]);
+  const d = await A.loadAll(["site"], ["players", "stats"]);
   A.dataNotice(d.site);
   const all = d.players?.players || [], through = d.players?.throughWeek;
   $("pl-season").textContent = `${d.site.season} season${through ? ` · through Week ${through}` : ""} · ${all.length} players`;
+  // Roster with search + group filter (everyone on the team; profiles exist for those who have played)
+  const roster = d.stats?.roster || [], profiles = new Set(all.map(p => p.id));
+  const groups = [...new Set(roster.map(p => p.group))];
+  $("ro-g").insertAdjacentHTML("beforeend", groups.map(g => `<option>${esc(g)}</option>`).join(""));
+  const drawRoster = () => {
+    const q = L.tokenize($("ro-q").value), g = $("ro-g").value;
+    const list = roster.filter(p => (!g || p.group === g) && (!q.length || L.search(q.join(" "), { roster: [p] }).players.length));
+    $("ro-count").textContent = `${list.length} of ${roster.length} players`;
+    $("ro-body").innerHTML = list.map(p => `<tr><td class="n">${esc(p.jersey ?? "")}</td><td>${profiles.has(L.slug(p.name)) ? `<a href="players.html?p=${encodeURIComponent(L.slug(p.name))}">${esc(p.name)}</a>` : p.link ? `<a class="ext" href="${L.url(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</td><td>${esc(p.pos)}</td><td class="n">${esc(p.age ?? "")}</td><td>${esc([p.ht, p.wt].filter(Boolean).join(", "))}</td><td class="n">${p.exp === 0 ? "R" : esc(p.exp ?? "")}</td><td>${esc(p.college || "")}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")
+      || `<tr><td colspan="8" class="muted">No players match.</td></tr>`;
+  };
+  $("ro-q").addEventListener("input", drawRoster);
+  $("ro-g").addEventListener("change", drawRoster);
+  $("ro-filters").addEventListener("submit", e => e.preventDefault());
+  drawRoster();
+
+  A.secNote("roster", roster.length ? String(roster.length) : "");
+  A.secNote("profiles", all.length ? String(all.length) : "");
+
   if (!all.length) { $("pl-list").innerHTML = ""; $("pl-profile").innerHTML = A.empty("Player stats aren't available yet."); return; }
 
   const params = new URLSearchParams(location.search);

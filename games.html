@@ -40,11 +40,9 @@
     </a>
     <nav class="primary" aria-label="Primary">
         <a href="./">Home</a>
-        <a href="news.html">News</a>
         <a href="games.html" aria-current="page">Game Center</a>
-        <a href="stats.html">Stats</a>
-        <a href="players.html">Players</a>
-        <a href="media.html">Media</a>
+        <a href="news.html">News</a>
+        <a href="stats.html">Team</a>
         <a href="about.html">About</a>
     </nav>
     <div class="head-tools">
@@ -62,12 +60,13 @@
     <div class="wrap">
       <nav aria-label="Menu">
         <a href="./">Home</a>
-        <a href="news.html">News</a>
         <a href="games.html" aria-current="page">Game Center</a>
-        <a href="stats.html">Stats</a>
-        <a href="players.html">Players</a>
-        <a href="media.html">Media</a>
+        <a href="news.html">News</a>
+        <a href="stats.html">Team</a>
         <a href="about.html">About</a>
+        <a class="sub" href="players.html">Players and roster</a>
+        <a class="sub" href="media.html">Videos and podcasts</a>
+        <a class="sub" href="search.html">Search</a>
       </nav>
       <form class="search-form" action="search.html" role="search">
         <label class="vh" for="q-drawer">Search the site</label>
@@ -87,9 +86,9 @@
     <span class="eyebrow" id="gc-season">Game Center</span>
     <h1>Game Center</h1>
     <p>The next game, both injury reports, betting lines and the full schedule with box scores for every result.</p>
-    <nav class="subnav" aria-label="On this page"><a href="#next">Next game</a><a href="#injuries">Injuries</a><a href="#matchup">Tale of the tape</a><a href="#schedule">Schedule</a><a href="#results">Results</a></nav>
   </div>
 </div>
+<nav class="secbar" aria-label="Game Center sections"><div class="wrap"><a href="#next" data-tab="next">Next game</a><a href="#injuries" data-tab="injuries">Injuries</a><a href="#matchup" data-tab="matchup">Matchup</a><a href="#schedule" data-tab="schedule">Schedule</a><a href="#results" data-tab="results">Results</a></div></nav>
 <div class="wrap" id="page-error"></div>
 
 <section id="next" aria-labelledby="next-h">
@@ -100,14 +99,28 @@
       <div id="pick"><div class="card"><span class="sk t"></span></div></div>
       <div id="odds" class="stack"><div class="card"><span class="sk t"></span></div></div>
     </div>
+    <div id="milestones" hidden>
+      <div class="sub-head"><h3>Milestones in reach</h3><span class="eyebrow">What to watch for</span></div>
+      <div class="tiles three tnum" id="miles"></div>
+    </div>
     <div class="sub-head" id="ats-log"><h3>Odds results</h3><span class="eyebrow">Closing lines and grading</span></div>
     <div id="ats"><div class="card"><span class="sk t"></span></div></div>
-    <div class="sub-head" id="injuries"><h3>Injury report</h3><span class="eyebrow">Source: ESPN · checked hourly</span></div>
+  </div>
+</section>
+
+<section id="injuries" aria-labelledby="inj-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="inj-h">Injury report</h2><span class="eyebrow">Source: ESPN · checked hourly</span></div>
     <div class="grid-2">
-      <div><h4 class="panel-title">Raiders</h4><div id="inj-us"><span class="sk"></span><span class="sk"></span></div></div>
-      <div><h4 class="panel-title" id="inj-them-h">Opponent</h4><div id="inj-them"><span class="sk"></span><span class="sk"></span></div></div>
+      <div><h3 class="panel-title">Raiders</h3><div id="inj-us"><span class="sk"></span><span class="sk"></span></div></div>
+      <div><h3 class="panel-title" id="inj-them-h">Opponent</h3><div id="inj-them"><span class="sk"></span><span class="sk"></span></div></div>
     </div>
-    <div class="sub-head" id="matchup"><h3>Tale of the tape</h3><span class="eyebrow">Per game · NFL rank</span></div>
+  </div>
+</section>
+
+<section id="matchup" aria-labelledby="tape-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="tape-h">Tale of the tape</h2><span class="eyebrow">Per game · NFL rank</span></div>
     <div id="tape"><span class="sk t"></span></div>
   </div>
 </section>
@@ -138,11 +151,11 @@
       <div>
         <h2>Sections</h2>
         <ul>
-          <li><a href="news.html">News</a></li>
           <li><a href="games.html">Game Center</a></li>
-          <li><a href="stats.html">Stats</a></li>
-          <li><a href="players.html">Players</a></li>
-          <li><a href="media.html">Media</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="media.html">Videos and podcasts</a></li>
+          <li><a href="stats.html">Team stats</a></li>
+          <li><a href="players.html">Players and roster</a></li>
           <li><a href="search.html">Search</a></li>
         </ul>
       </div>
@@ -164,5 +177,12 @@
   </div>
 </footer>
 <button class="totop" id="totop" type="button" aria-label="Back to top">&uarr;</button>
+<nav class="tabbar" aria-label="Sections">
+  <a href="./"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a>
+  <a href="games.html" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M12 5v14M3 12h4M17 12h4"/></svg><span>Games</span></a>
+  <a href="news.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/></svg><span>News</span></a>
+  <a href="stats.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 7.7 8 9 4.6-1.3 8-4.5 8-9V6z"/></svg><span>Team</span></a>
+  <button type="button" class="more-btn" aria-expanded="false" aria-controls="drawer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></button>
+</nav>
 </body>
 </html>

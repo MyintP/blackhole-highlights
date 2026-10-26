@@ -43,9 +43,9 @@ export async function runPage(errorEl, fn) {
     document.body.classList.remove("load-failed");
     try {
       await fn(); errorEl.innerHTML = "";
-      // Content above the target grew while loading, so re-apply a #section link once rendered
+      // Content above the target grew while loading (and it may sit in a tab that only exists now), so re-apply a #link
       const target = location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1)));
-      if (target) target.scrollIntoView();
+      if (target) { showSection(target); target.scrollIntoView(); }
     }
     catch (e) {
       console.error(e);
@@ -57,20 +57,66 @@ export async function runPage(errorEl, fn) {
 }
 
 // ---------- chrome ----------
+// Anchors from before the section redesign (Oct 2026) that now live elsewhere, so old links and bookmarks still land
+const MOVED = {
+  "index.html": { schedule: "games.html#schedule", milestones: "games.html#milestones", matchup: "games.html#matchup", videos: "media.html#videos", clips: "media.html#videos" },
+  "stats.html": { roster: "players.html#roster", players: "#leaders" },
+};
+function redirectMoved() {
+  const page = location.pathname.split("/").pop() || "index.html", to = MOVED[page]?.[decodeURIComponent(location.hash.slice(1))];
+  if (to) location.replace(to);
+  return !!to;
+}
+
 export function initChrome() {
-  const btn = $("menu-btn"), drawer = $("drawer");
-  if (btn && drawer) {
-    const set = open => { btn.setAttribute("aria-expanded", String(open)); drawer.dataset.open = String(open); btn.setAttribute("aria-label", open ? "Close menu" : "Open menu"); };
-    btn.addEventListener("click", () => set(btn.getAttribute("aria-expanded") !== "true"));
-    document.addEventListener("keydown", e => { if (e.key === "Escape" && btn.getAttribute("aria-expanded") === "true") { set(false); btn.focus(); } });
+  if (redirectMoved()) return;
+  // The drawer opens from the header menu button or the bottom bar's More button
+  const btns = [$("menu-btn"), document.querySelector(".tabbar .more-btn")].filter(Boolean), drawer = $("drawer");
+  if (btns.length && drawer) {
+    let opener = btns[0];
+    const isOpen = () => drawer.dataset.open === "true";
+    const set = open => { drawer.dataset.open = String(open); btns.forEach(b => b.setAttribute("aria-expanded", String(open))); $("menu-btn")?.setAttribute("aria-label", open ? "Close menu" : "Open menu"); };
+    btns.forEach(b => b.addEventListener("click", () => { opener = b; set(!isOpen()); if (isOpen()) drawer.querySelector("a")?.focus(); }));
+    document.addEventListener("keydown", e => { if (e.key === "Escape" && isOpen()) { set(false); opener.focus(); } });
     drawer.addEventListener("click", e => { if (e.target.closest("a")) set(false); });
     matchMedia("(min-width: 901px)").addEventListener("change", e => { if (e.matches) set(false); });
   }
+  initSections();
   const top = $("totop");
   if (top) {
     addEventListener("scroll", () => top.classList.toggle("on", scrollY > 900), { passive: true });
     top.addEventListener("click", () => { scrollTo({ top: 0 }); document.querySelector("main")?.focus({ preventScroll: true }); });
   }
+}
+
+// ---------- section tabs ----------
+// Pages with a section bar show one section at a time. The URL hash picks it (#advanced, or any element inside a
+// section, like #odds or #g-<id>), so links, sharing and Back all work. Hidden sections use hidden="until-found":
+// find-in-page still finds them in browsers that support it, and opening a match switches to its tab.
+const tabs = () => [...document.querySelectorAll(".secbar a[data-tab]")];
+const tabSections = () => tabs().map(a => document.getElementById(a.dataset.tab)).filter(Boolean);
+function showSection(el) {
+  const secs = tabSections();
+  if (secs.length < 2) return;
+  const sec = secs.find(x => x === el || x.contains(el)) || secs.find(x => !x.hidden) || secs[0];
+  for (const x of secs) { if (x === sec) x.removeAttribute("hidden"); else x.setAttribute("hidden", "until-found"); }
+  for (const a of tabs()) { if (a.dataset.tab === sec.id) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); }
+  tabs().find(a => a.dataset.tab === sec.id)?.scrollIntoView({ block: "nearest", inline: "nearest" });
+}
+function initSections() {
+  const secs = tabSections();
+  if (secs.length < 2) return;
+  document.body.classList.add("tabbed");
+  const fromHash = () => (location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1)))) || secs[0];
+  showSection(fromHash());
+  addEventListener("hashchange", () => { const t = fromHash(); showSection(t); t.scrollIntoView(); });
+  for (const x of secs) x.addEventListener("beforematch", () => { history.replaceState(null, "", "#" + x.id); showSection(x); });
+}
+// A short preview next to a section's name in the bar, e.g. "Results 3-4"
+export function secNote(id, text) {
+  const a = document.querySelector(`.secbar a[data-tab="${id}"]`);
+  if (!a || !text) return;
+  (a.querySelector("small") || a.appendChild(document.createElement("small"))).textContent = text;
 }
 
 // Notice bar: failed sources, or the update job hasn't succeeded for a while (2 hours around a game, 8 otherwise;
@@ -184,7 +230,7 @@ export function liveBoard(root, site, ed) {
   }, 120000);
 }
 
-export function pickHTML(n, ed) {
+export function pickHTML(n, ed, { keys = true } = {}) {
   if (!(ed && n && ed.gameId === n.id && ed.pick)) {
     return `<div class="card"><h3 class="panel-title">Pundit's Pick</h3><p class="muted">The pick for ${n ? esc(n.opp.location + " " + n.opp.name) + " week" : "the next game"} drops before kickoff.</p></div>`;
   }
@@ -192,7 +238,7 @@ export function pickHTML(n, ed) {
   return `<div class="card"><h3 class="panel-title">Pundit's Pick</h3>
     <div class="score tnum"><span>${esc(n.opp.name.toUpperCase())}</span><span>${esc(p.them)}</span><span>RAIDERS</span><span>${esc(p.us)}</span></div>
     <p class="muted">${esc(p.text)}</p>
-    ${p.keys?.length ? `<ol class="keys">${p.keys.map(k => `<li><div><h4>${esc(k.title)}</h4><p>${esc(k.text)}</p></div></li>`).join("")}</ol>` : ""}</div>`;
+    ${!keys ? `<a class="more" href="games.html#pick">Three keys to the game</a>` : p.keys?.length ? `<ol class="keys">${p.keys.map(k => `<li><div><h4>${esc(k.title)}</h4><p>${esc(k.text)}</p></div></li>`).join("")}</ol>` : ""}</div>`;
 }
 
 const GAMBLING = "For entertainment only. 21+. Gambling problem? Call 1-800-GAMBLER.";

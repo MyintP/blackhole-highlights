@@ -10,6 +10,7 @@ A.runPage($("page-error"), async () => {
   const profiles = new Set((d.players?.players || []).map(p => p.id));
   A.dataNotice(site);
   $("st-season").textContent = `${site.season} season · ${site.record || ""}`;
+  A.secNote("standings", site.divisionPlace?.split(" ")[0]);
 
   const standings = (rows, seed) => `<table><thead><tr>${seed ? '<th scope="col" class="n">Seed</th>' : ""}<th scope="col">Team</th><th scope="col" class="n">W</th><th scope="col" class="n">L</th><th scope="col" class="n">Pct</th><th scope="col" class="n">Diff</th></tr></thead><tbody>${rows.map(r =>
     `<tr${r.us ? ' class="us"' : ""}>${seed ? `<td class="n">${esc(r.seed ?? "")}</td>` : ""}<td>${esc(r.name)}</td><td class="n">${r.w}</td><td class="n">${r.l}${r.t ? "-" + r.t : ""}</td><td class="n">${esc(r.pct)}</td><td class="n">${esc(r.diff ?? "")}</td></tr>`).join("")}</tbody></table>`;
@@ -22,6 +23,8 @@ A.runPage($("page-error"), async () => {
   const adv = stats.advanced;
   if (adv?.metrics?.length) {
     $("adv-sub").textContent = `Through Week ${adv.throughWeek} · NFL rank of ${adv.teams}`;
+    const epa = adv.metrics.find(m => m.side === "off" && m.key === "epa");
+    if (epa?.rank) A.secNote("advanced", `EPA ${L.ordinal(epa.rank)}`);
     const fmt = m => (m.key === "sr" ? L.pctText(m.v) : L.epaText(m.v)), avg = m => (m.key === "sr" ? L.pctText(m.nfl) : L.epaText(m.nfl));
     const tone = (r, n) => (r == null ? "" : r <= Math.ceil(n / 3) ? " is-win" : r > n - Math.ceil(n / 3) ? " is-loss" : "");
     const table = (side, title) => `<div><h3 class="panel-title">${title}</h3><table><caption class="vh">Raiders ${title.toLowerCase()} efficiency</caption>
@@ -45,22 +48,6 @@ A.runPage($("page-error"), async () => {
 
   $("player-tables").innerHTML = (stats.players || []).map(c => `<div><h3 class="panel-title">${esc(c.label)}</h3><table><thead><tr><th scope="col">Player</th><th scope="col" class="n">${esc(c.label === "Passing" || c.label === "Rushing" || c.label === "Receiving" ? "Yds" : "Total")}</th></tr></thead><tbody>${
     c.rows.map(r => `<tr><td>${profiles.has(L.slug(r.name)) ? `<a href="players.html?p=${encodeURIComponent(L.slug(r.name))}">${esc(r.name)}</a>` : r.link ? `<a class="ext" href="${L.url(r.link)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)} <small>${esc(r.pos)}</small>${r.line && String(r.line).replace(/,/g, "") !== String(r.value) ? `<br><small>${esc(r.line)}</small>` : ""}</td><td class="n">${esc(Number(r.value).toLocaleString("en-US"))}</td></tr>`).join("")}</tbody></table></div>`).join("") || A.empty("Player stats unavailable.");
-
-  // Roster with search + group filter
-  const roster = stats.roster || [];
-  const groups = [...new Set(roster.map(p => p.group))];
-  $("ro-g").insertAdjacentHTML("beforeend", groups.map(g => `<option>${esc(g)}</option>`).join(""));
-  const drawRoster = () => {
-    const q = L.tokenize($("ro-q").value), g = $("ro-g").value;
-    const list = roster.filter(p => (!g || p.group === g) && (!q.length || L.search(q.join(" "), { roster: [p] }).players.length));
-    $("ro-count").textContent = `${list.length} of ${roster.length} players`;
-    $("ro-body").innerHTML = list.map(p => `<tr><td class="n">${esc(p.jersey ?? "")}</td><td>${profiles.has(L.slug(p.name)) ? `<a href="players.html?p=${encodeURIComponent(L.slug(p.name))}">${esc(p.name)}</a>` : p.link ? `<a class="ext" href="${L.url(p.link)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</td><td>${esc(p.pos)}</td><td class="n">${esc(p.age ?? "")}</td><td>${esc([p.ht, p.wt].filter(Boolean).join(", "))}</td><td class="n">${p.exp === 0 ? "R" : esc(p.exp ?? "")}</td><td>${esc(p.college || "")}</td><td><small>${esc(p.group)}</small></td></tr>`).join("")
-      || `<tr><td colspan="8" class="muted">No players match.</td></tr>`;
-  };
-  $("ro-q").addEventListener("input", drawRoster);
-  $("ro-g").addEventListener("change", drawRoster);
-  $("ro-filters").addEventListener("submit", e => e.preventDefault());
-  drawRoster();
 
   // History: completed seasons plus this season so far
   const seasons = [{ year: site.season, record: (site.record || "") + " (in progress)", current: true }, ...(d.history?.seasons || [])];

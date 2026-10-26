@@ -1,5 +1,5 @@
 <!--
-{"file": "players.html", "nav": "players", "script": "players",
+{"file": "players.html", "nav": "team", "script": "players",
  "title": "Raiders players: every player's stats, snaps, coverage and pass rush · Black Hole Highlights",
  "description": "A profile for every Las Vegas Raider who has played this season: box-score stats with NFL ranks, snap counts, coverage allowed, pressures, missed tackles, yards after contact and drops."}
 -->
@@ -10,9 +10,10 @@
     <p>Every Raider who has taken a snap this season. Box-score stats with NFL ranks, snap counts, and charting: coverage allowed, pressures, missed tackles, yards after contact and drops. Updated daily from nflverse.</p>
   </div>
 </div>
+<!--sections-->
 <div class="wrap" id="page-error"></div>
 
-<section aria-labelledby="pl-h" class="tight">
+<section id="profiles" aria-labelledby="pl-h" class="tight">
   <div class="wrap">
     <h2 id="pl-h" class="vh">Player profiles</h2>
     <form class="filters" id="pl-filters" role="search" aria-label="Find a player">
@@ -27,5 +28,22 @@
       <article class="pl-profile" id="pl-profile" aria-live="polite"><span class="sk t"></span></article>
     </div>
     <p class="note">Box-score stats, snap counts and charting from <a class="ext" href="https://github.com/nflverse/nflverse-data" target="_blank" rel="noopener">nflverse</a> (CC BY 4.0), which compiles NFL play-by-play and Pro Football Reference charting. Ranks are among every NFL player with at least one in that stat. Charting is judged by people watching film, so treat it as a guide.</p>
+  </div>
+</section>
+
+<section id="roster" aria-labelledby="ro-h">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="ro-h">Roster</h2><span class="eyebrow" id="ro-count"></span></div>
+    <form class="filters" id="ro-filters" role="search" aria-label="Filter roster">
+      <div class="field">
+        <label for="ro-q">Search</label><input class="input grow" id="ro-q" type="search" placeholder="Name, position, college">
+        <label for="ro-g">Group</label><select class="input" id="ro-g"><option value="">All players</option></select>
+      </div>
+    </form>
+    <div class="table-wrap"><table class="roster">
+      <caption class="vh">Raiders roster</caption>
+      <thead><tr><th scope="col">#</th><th scope="col">Player</th><th scope="col">Pos</th><th scope="col" class="n">Age</th><th scope="col">Ht / Wt</th><th scope="col" class="n">Exp</th><th scope="col">College</th><th scope="col">Group</th></tr></thead>
+      <tbody id="ro-body"></tbody>
+    </table></div>
   </div>
 </section>
