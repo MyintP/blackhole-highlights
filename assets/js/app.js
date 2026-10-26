@@ -528,3 +528,78 @@ export function atsLogHTML(odds, site) {
       ${rows || `<tr><td colspan="7" class="muted">No closing lines captured yet. The first is taken 1 hour before the next kickoff.</td></tr>`}</tbody></table></div>
     <p class="note">Graded automatically from the captured closing line and ESPN's final score, and regraded if a score is corrected. A push counts as neither. Games without a captured line aren't graded. ${GAMBLING}</p></div>`;
 }
+
+// ---------- The Rewind ----------
+// The written breakdown (data/rewind.json, hand-authored after each game) leads; the computed scorecard (L.rewind)
+// backs it up. Home shows a summary; rewind.html shows the whole report.
+const weeksText = ([a, b]) => (a === b ? `Week ${a}` : `Weeks ${a}-${b}`);
+export const rewindResultsHTML = rw => `<div class="rw-games tnum">${rw.games.map(g => `<a href="games.html#g-${esc(g.id)}" class="${g.win ? "is-win" : g.tie ? "" : "is-loss"}"><span>Wk ${g.week} ${g.home ? "vs" : "at"} ${esc(g.opp)}</span><b>${g.win ? "W" : g.tie ? "T" : "L"} ${g.us}-${g.them}</b></a>`).join("")}</div>`;
+const levelBadge = lv => `<span class="badge rv-lv ${lv === "Critical" ? "crit" : ""}">${esc(lv)}</span>`;
+
+export function rewindTeaserHTML(rep, rw) {
+  return `<div class="rv-teaser">
+    <div class="rw-take"><span class="eyebrow">${weeksText(rep.weeks)} · ${esc(rw.record)} · AI analysis</span>
+      <h3 class="rw-title">${esc(rep.headline)}</h3>
+      <ul class="rv-short">${rep.short.map(s => `<li>${esc(s)}</li>`).join("")}</ul>
+      ${rewindResultsHTML(rw)}
+      <p><a class="btn" href="rewind.html">Read the full breakdown</a></p>
+    </div>
+    <div class="card"><h3 class="panel-title">What's going wrong</h3>
+      <ol class="rv-list">${rep.findings.map((f, i) => `<li><a href="rewind.html#f-${i + 1}"><b>${esc(f.title)}</b>${levelBadge(f.level)}</a></li>`).join("")}</ol>
+      <p class="muted" style="font-size:14px">Each one comes with the evidence and how to fix it.</p>
+    </div>
+  </div>`;
+}
+
+// No written breakdown for the latest game yet: a short automatic summary from the scorecard
+export function rewindAutoHTML(rw) {
+  const one = v => v.toFixed(1);
+  const worst = rw.worst.map(s => s.label.toLowerCase());
+  return `<div class="rw-take"><span class="eyebrow">${weeksText(rw.weeks)} · ${esc(rw.record)} · Scorecard</span>
+    <h3 class="rw-title">${esc(rw.record)} in the last ${rw.n}.${worst.length ? ` Start with the ${esc(worst.join(" and "))}.` : ""}</h3>
+    <p>The Raiders scored ${one(rw.pf)} and allowed ${one(rw.pa)} points a game over ${weeksText(rw.weeks)}${rw.paBefore != null ? ` (${one(rw.pfBefore)} and ${one(rw.paBefore)} in ${weeksText(rw.beforeWeeks)})` : ""}. The written breakdown of this game is on its way.</p>
+    ${rewindResultsHTML(rw)}
+    <p><a class="btn ghost" href="rewind.html#scorecard">See the scorecard</a></p></div>`;
+}
+
+export function rewindReportHTML(rep) {
+  const ev = f => `<div class="table-wrap"><table class="rv-ev tnum"><caption class="vh">Evidence: ${esc(f.title)}</caption>
+    <thead><tr><th scope="col">Stat</th><th scope="col" class="n">${weeksText(rep.weeks)}</th><th scope="col" class="n">${weeksText(rep.before)}</th><th scope="col" class="n">NFL</th></tr></thead>
+    <tbody>${f.evidence.map(e => `<tr><th scope="row">${esc(e.label)}</th><td class="n"><b>${esc(e.now)}</b></td><td class="n muted">${esc(e.before || "")}</td><td class="n muted">${esc(e.nfl || "")}</td></tr>`).join("")}</tbody></table></div>`;
+  return rep.findings.map((f, i) => `<article class="rv-finding" id="f-${i + 1}" aria-labelledby="f-${i + 1}-h">
+    <header><span class="rv-num">${i + 1}</span><div>${levelBadge(f.level)}<h2 id="f-${i + 1}-h">${esc(f.title)}</h2></div></header>
+    <p class="rv-what">${esc(f.what)}</p>
+    ${ev(f)}
+    <div class="grid-2 rv-cols">
+      <div><h3 class="panel-title">Why it's happening</h3><p>${esc(f.why)}</p></div>
+      <div><h3 class="panel-title">How to fix it <span class="badge opinion">Our take</span></h3><ol class="rv-fix">${f.fix.map(x => `<li>${esc(x)}</li>`).join("")}</ol></div>
+    </div>
+  </article>`).join("");
+}
+
+// The computed scorecard: grades per unit against the NFL average and the opponents, plus points by quarter
+export function scorecardHTML(rw) {
+  const sg = (v, dp) => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(dp);
+  const val = (s, v) => v == null ? "-" : s.fmt === "epa" ? L.epaText(v) : s.fmt === "pts" ? sg(v * 100, 1) + " pts" : s.fmt === "signed0" ? sg(v, 0) + " yds" : sg(v, 1);
+  // Trend against the earlier games: arrow and colour on the recent value
+  const trend = s => s.before == null || s.v === s.before ? "" : (s.better === "lower" ? s.v < s.before : s.v > s.before)
+    ? ` class="is-win"><span class="vh">up from earlier, </span><i aria-hidden="true">▲</i` : ` class="is-loss"><span class="vh">down from earlier, </span><i aria-hidden="true">▼</i`;
+  const max = Math.max(1, ...rw.quarters.us, ...rw.quarters.them);
+  const bar = (v, cls) => `<span class="rw-bar ${cls}" style="--w:${(v / max * 100).toFixed(1)}%"><b>${v}</b></span>`;
+  return `<div class="split">
+    <div>
+      <div class="rw-gpa rv-gpa"><span class="eyebrow">Overall</span><b class="rw-letter g-${L.gpaGrade(rw.gpa)}">${L.gpaGrade(rw.gpa)}</b><span class="muted tnum">GPA ${rw.gpa == null ? "-" : rw.gpa.toFixed(2)} across ${rw.subjects.length} subjects</span></div>
+      <table class="rw-card tnum"><caption class="vh">Scorecard, ${weeksText(rw.weeks)}</caption>
+        <thead><tr><th scope="col">Subject</th><th scope="col">Grade</th><th scope="col">${weeksText(rw.weeks)}</th><th scope="col">${rw.beforeWeeks ? weeksText(rw.beforeWeeks) : "Before"}</th><th scope="col">NFL avg</th></tr></thead>
+        <tbody>${rw.subjects.map(s => `<tr><th scope="row">${esc(s.label)}<small>${esc(s.what)}</small></th><td><b class="rw-g g-${s.grade}">${s.grade}</b></td><td${trend(s)}>${val(s, s.v)}</td><td class="muted">${val(s, s.before)}</td><td class="muted">${s.bench != null ? val(s, s.bench) : "-"}</td></tr>`).join("")}</tbody>
+      </table>
+    </div>
+    <div class="card"><h3 class="panel-title">Points by quarter, ${weeksText(rw.weeks)}</h3>
+      <div class="rw-q tnum">${["1st", "2nd", "3rd", "4th"].map((q, i) => `<div><span>${q}</span><div>${bar(rw.quarters.us[i], "us")}${bar(rw.quarters.them[i], "them")}</div></div>`).join("")}</div>
+      <p class="muted rw-key"><span class="rw-sw us"></span>Raiders <span class="rw-sw them"></span>Opponents. Overtime counts in the 4th.</p>
+    </div>
+  </div>
+  <details class="rw-how"><summary>How the grades work</summary>
+    <p>The scorecard is computed from the site's data and updates after each game. The four unit grades compare EPA (expected points added, from nflverse play-by-play) per play over the last ${rw.n} games with the NFL average for the season so far: A is 0.10 or more better than average, B 0.04, C within 0.04, D 0.04 worse, F 0.10 or more worse. Ball security, discipline and third downs are graded on the margin against the opponents in those games. A needs at least +1 turnover, 20 fewer penalty yards or a third-down rate 15 points higher, per game; B needs +0.5, 8 yards or 5 points; D and F are the same amounts the other way. The overall grade is the average of the subjects, A = 4 to F = 0.</p>
+  </details>`;
+}

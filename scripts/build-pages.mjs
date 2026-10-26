@@ -11,7 +11,7 @@ export const NAV = [
   ["home", "./", "Home"], ["games", "games.html", "Game Center"], ["news", "news.html", "News"], ["team", "stats.html", "Team"], ["about", "about.html", "About"],
 ];
 export const SECTIONS = {
-  games: [["games.html#next", "Next game"], ["games.html#injuries", "Injuries"], ["games.html#matchup", "Matchup"], ["games.html#schedule", "Schedule"], ["games.html#results", "Results"]],
+  games: [["games.html#next", "Next game"], ["games.html#injuries", "Injuries"], ["games.html#matchup", "Matchup"], ["games.html#schedule", "Schedule"], ["games.html#results", "Results"], ["rewind.html", "The Rewind"]],
   news: [["news.html", "Stories"], ["media.html#videos", "Our videos"], ["media.html#podcasts", "Podcasts"], ["media.html#espn", "ESPN video"]],
   team: [["stats.html#standings", "Standings"], ["stats.html#team", "Team stats"], ["stats.html#advanced", "Advanced"], ["stats.html#leaders", "Team leaders"], ["stats.html#history", "History"],
     ["players.html#profiles", "Player profiles"], ["players.html#roster", "Roster"]],
