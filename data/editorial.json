@@ -1,23 +1,22 @@
 {
  "_help": "Hand-written content. Shown only while gameId matches the next game (ESPN event id from data/site.json next.id). Everything factual on the page comes from site.json and odds.json, which update automatically.",
- "gameId": "401873021",
- "headline": "Three straight losses. <b>Stafford's Rams</b> come to Allegiant.",
- "lede": "The Raiders sit at 3-3 after a 33-30 loss to Buffalo. Los Angeles arrives at 2-4 with the league's passing-yards leader and no Davante Adams.",
- "crew": "Myers / Vilma",
+ "gameId": "401873029",
+ "headline": "Four straight losses. The slide stops at <b>MetLife</b>, or it doesn't.",
+ "lede": "The Raiders fell to 3-4 after a 35-21 loss to the Rams, their fourth in a row. The Jets are 2-5, score 19.6 points a game (27th) and will be without Breece Hall.",
  "radio": "92.3 FM · 920 AM",
  "pick": {
-  "us": 24,
-  "them": 27,
-  "text": "Rams by three, but the Raiders cover. Las Vegas is 5-1 against the spread, and two of its three losses came by exactly three points. Total: 51, so the over.",
+  "us": 27,
+  "them": 20,
+  "text": "Raiders by seven. New York's offense ranks 27th in scoring and loses its lead back, and Las Vegas still scores 26.1 a game, sixth in the league. The pick is graded against the closing line on Sunday.",
   "keys": [
-   { "title": "Catch the ball", "text": "Seven drops sank the Bills game. Cousins has 14 touchdowns to 5 interceptions this season, so the passing game works when the hands do." },
-   { "title": "Make Stafford uncomfortable", "text": "Stafford leads the NFL in passing yards, and the Raiders allow 387.8 yards a game. Crosby has 2 sacks through six games. This is the week he needs more." },
-   { "title": "Feed Jeanty early", "text": "The run game ranks 30th at 79.2 yards a game. Even a modest ground game keeps Stafford on the sideline and takes pressure off Cousins." }
+   { "title": "Lean on Cousins", "text": "He leads the NFL with 16 touchdown passes and the offense ranks 5th in passing yards. Against a 2-5 team, a two-score lead should hold." },
+   { "title": "Find any run game", "text": "The Raiders run for 74.7 yards a game, 31st in the league, and Jeanty had 15 yards on Sunday. Even 100 on the ground keeps the defense off the field." },
+   { "title": "Stop giving up 28", "text": "Las Vegas allows 28.1 points a game (29th) and 388.7 yards. Without Hall, holding the Jets under their 19.6 average is the whole game." }
   ]
  },
  "milestones": [
-  { "num": "18", "unit": "CATCHES", "name": "Brock Bowers", "text": "To pass Trey McBride's 221 for the most receptions by a tight end in his first three seasons." },
+  { "num": "12", "unit": "CATCHES", "name": "Brock Bowers", "text": "To pass Trey McBride's 221 for the most receptions by a tight end in his first three seasons." },
   { "num": "5.0", "unit": "SACKS", "name": "Maxx Crosby", "text": "For his eighth straight season with at least 7.0 sacks." },
-  { "num": "424", "unit": "RUSH YDS", "name": "Ashton Jeanty", "text": "To pass Marcus Allen's 1,711 for the second-most by a Raider in his first two seasons." }
+  { "num": "409", "unit": "RUSH YDS", "name": "Ashton Jeanty", "text": "To pass Marcus Allen's 1,711 for the second-most by a Raider in his first two seasons." }
  ]
 }
