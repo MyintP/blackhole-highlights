@@ -1,34 +1,34 @@
 {
- "updated": "2026-10-25T23:34:12.874Z",
+ "updated": "2026-10-26T10:57:52.823Z",
  "season": 2026,
  "team": [
   {
    "key": "totalPointsPerGame",
    "label": "Points per game",
-   "value": "27.0",
-   "v": 27,
+   "value": "26.1",
+   "v": 26.14,
    "rank": "6th"
   },
   {
    "key": "yardsPerGame",
    "label": "Total yards per game",
-   "value": "350.8",
-   "v": 350.833,
-   "rank": "15th"
+   "value": "351.6",
+   "v": 351.571,
+   "rank": "14th"
   },
   {
    "key": "passingYardsPerGame",
    "label": "Passing yards per game",
-   "value": "271.7",
-   "v": 271.667,
-   "rank": "8th"
+   "value": "276.9",
+   "v": 276.857,
+   "rank": "5th"
   },
   {
    "key": "rushingYardsPerGame",
    "label": "Rushing yards per game",
-   "value": "79.2",
-   "v": 79.2,
-   "rank": "30th"
+   "value": "74.7",
+   "v": 74.7,
+   "rank": "31st"
   },
   {
    "key": "yardsPerRushAttempt",
@@ -40,51 +40,51 @@
   {
    "key": "completionPct",
    "label": "Completion %",
-   "value": "63.8",
-   "v": 63.8,
-   "rank": "18th"
+   "value": "63.2",
+   "v": 63.2,
+   "rank": "20th"
   },
   {
    "key": "QBRating",
    "label": "Passer rating",
-   "value": "97.7",
-   "v": 97.7,
-   "rank": "11th"
+   "value": "97.3",
+   "v": 97.3,
+   "rank": "9th"
   },
   {
    "key": "thirdDownConvPct",
    "label": "3rd-down conversion %",
-   "value": "42.31",
-   "v": 42.308,
-   "rank": "9th"
+   "value": "39.13",
+   "v": 39.13,
+   "rank": "T-17th"
   },
   {
    "key": "redzoneScoringPct",
    "label": "Red-zone scoring %",
-   "value": "86.96",
-   "v": 86.96,
-   "rank": "17th"
+   "value": "85.71",
+   "v": 85.71,
+   "rank": "T-20th"
   },
   {
    "key": "turnOverDifferential",
    "label": "Turnover differential",
-   "value": "2",
-   "v": 2,
-   "rank": "T-12th"
+   "value": "4",
+   "v": 4,
+   "rank": "T-6th"
   },
   {
    "key": "sacks",
    "label": "Defensive sacks",
-   "value": "15",
-   "v": 15,
-   "rank": "T-13th"
+   "value": "16",
+   "v": 16,
+   "rank": "T-15th"
   },
   {
    "key": "interceptions",
    "label": "Interceptions",
-   "value": "4",
-   "v": 4,
-   "rank": "T-12th"
+   "value": "5",
+   "v": 5,
+   "rank": "T-10th"
   }
  ],
  "players": [
@@ -97,8 +97,8 @@
      "name": "Kirk Cousins",
      "pos": "QB",
      "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
-     "value": 1582,
-     "line": "1,582"
+     "value": 1877,
+     "line": "1,877"
     },
     {
      "id": "4837248",
@@ -107,6 +107,14 @@
      "link": "https://www.espn.com/nfl/player/_/id/4837248/fernando-mendoza",
      "value": 48,
      "line": "48"
+    },
+    {
+     "id": "3686689",
+     "name": "AJ Cole",
+     "pos": "P",
+     "link": "https://www.espn.com/nfl/player/_/id/3686689/aj-cole",
+     "value": 13,
+     "line": "13"
     }
    ]
   },
@@ -119,16 +127,16 @@
      "name": "Ashton Jeanty",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
-     "value": 313,
-     "line": "313"
+     "value": 328,
+     "line": "328"
     },
     {
      "id": "4686658",
      "name": "Mike Washington Jr.",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr",
-     "value": 168,
-     "line": "168"
+     "value": 195,
+     "line": "195"
     },
     {
      "id": "4366963",
@@ -139,20 +147,20 @@
      "line": "9"
     },
     {
+     "id": "14880",
+     "name": "Kirk Cousins",
+     "pos": "QB",
+     "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
+     "value": 4,
+     "line": "4"
+    },
+    {
      "id": "4837248",
      "name": "Fernando Mendoza",
      "pos": "QB",
      "link": "https://www.espn.com/nfl/player/_/id/4837248/fernando-mendoza",
      "value": 3,
      "line": "3"
-    },
-    {
-     "id": "14880",
-     "name": "Kirk Cousins",
-     "pos": "QB",
-     "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
-     "value": -2,
-     "line": "-2"
     },
     {
      "id": "4241961",
@@ -185,60 +193,60 @@
    "label": "Receiving",
    "rows": [
     {
-     "id": "4432665",
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
-     "value": 382,
-     "line": "382"
-    },
-    {
      "id": "4428718",
      "name": "Tre Tucker",
      "pos": "WR",
      "link": "https://www.espn.com/nfl/player/_/id/4428718/tre-tucker",
-     "value": 371,
-     "line": "371"
+     "value": 474,
+     "line": "474"
     },
     {
-     "id": "4429086",
-     "name": "Michael Mayer",
+     "id": "4432665",
+     "name": "Brock Bowers",
      "pos": "TE",
-     "link": "https://www.espn.com/nfl/player/_/id/4429086/michael-mayer",
-     "value": 266,
-     "line": "266"
+     "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
+     "value": 455,
+     "line": "455"
     },
     {
      "id": "4890973",
      "name": "Ashton Jeanty",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
-     "value": 251,
-     "line": "251"
+     "value": 312,
+     "line": "312"
+    },
+    {
+     "id": "4429086",
+     "name": "Michael Mayer",
+     "pos": "TE",
+     "link": "https://www.espn.com/nfl/player/_/id/4429086/michael-mayer",
+     "value": 298,
+     "line": "298"
     },
     {
      "id": "4241983",
      "name": "Cody White",
      "pos": "WR",
      "link": "https://www.espn.com/nfl/player/_/id/4241983/cody-white",
-     "value": 108,
-     "line": "108"
+     "value": 112,
+     "line": "112"
     },
     {
      "id": "4382466",
      "name": "Jalen Nailor",
      "pos": "WR",
      "link": "https://www.espn.com/nfl/player/_/id/4382466/jalen-nailor",
-     "value": 61,
-     "line": "61"
+     "value": 75,
+     "line": "75"
     },
     {
      "id": "4045305",
      "name": "Ian Thomas",
      "pos": "TE",
      "link": "https://www.espn.com/nfl/player/_/id/4045305/ian-thomas",
-     "value": 52,
-     "line": "52"
+     "value": 60,
+     "line": "60"
     },
     {
      "id": "4603186",
@@ -259,64 +267,64 @@
      "name": "Nakobe Dean",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
-     "value": 56,
-     "line": "56"
+     "value": 68,
+     "line": "68"
     },
     {
      "id": "4379416",
      "name": "Quay Walker",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4379416/quay-walker",
-     "value": 40,
-     "line": "40"
+     "value": 52,
+     "line": "52"
     },
     {
      "id": "4043169",
      "name": "Jeremy Chinn",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
-     "value": 39,
-     "line": "39"
-    },
-    {
-     "id": "3121003",
-     "name": "Taron Johnson",
-     "pos": "CB",
-     "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson",
-     "value": 26,
-     "line": "26"
+     "value": 46,
+     "line": "46"
     },
     {
      "id": "4697757",
      "name": "Treydan Stukes",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
-     "value": 26,
-     "line": "26"
+     "value": 30,
+     "line": "30"
+    },
+    {
+     "id": "3121003",
+     "name": "Taron Johnson",
+     "pos": "CB",
+     "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson",
+     "value": 27,
+     "line": "27"
     },
     {
      "id": "4917354",
      "name": "Hezekiah Masses",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
-     "value": 20,
-     "line": "20"
+     "value": 26,
+     "line": "26"
     },
     {
      "id": "4259561",
      "name": "Eric Stokes",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/4259561/eric-stokes",
-     "value": 19,
-     "line": "19"
+     "value": 22,
+     "line": "22"
     },
     {
-     "id": "4258194",
-     "name": "Kwity Paye",
-     "pos": "DE",
-     "link": "https://www.espn.com/nfl/player/_/id/4258194/kwity-paye",
-     "value": 15,
-     "line": "15"
+     "id": "4430330",
+     "name": "Darien Porter",
+     "pos": "CB",
+     "link": "https://www.espn.com/nfl/player/_/id/4430330/darien-porter",
+     "value": 19,
+     "line": "19"
     }
    ]
   },
@@ -381,12 +389,12 @@
      "line": "1"
     },
     {
-     "id": "2972342",
-     "name": "Adam Butler",
+     "id": "4429109",
+     "name": "Tonka Hemingway",
      "pos": "DT",
-     "link": "https://www.espn.com/nfl/player/_/id/2972342/adam-butler",
-     "value": 0.5,
-     "line": "0.5"
+     "link": "https://www.espn.com/nfl/player/_/id/4429109/tonka-hemingway",
+     "value": 1,
+     "line": "1"
     }
    ]
   },
@@ -401,6 +409,14 @@
      "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
      "value": 3,
      "line": "3"
+    },
+    {
+     "id": "4426340",
+     "name": "Nakobe Dean",
+     "pos": "LB",
+     "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
+     "value": 1,
+     "line": "1"
     },
     {
      "id": "4697757",
