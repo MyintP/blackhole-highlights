@@ -98,6 +98,9 @@ test("gameBreakdowns folds extra points into touchdowns and flips win probabilit
   assert.equal(b.drives.length, 2);
   assert.deepEqual(b.offense.third, [1, 1]);
   assert.equal(b.offense.explosive, 1);
+  assert.deepEqual(b.offense.pass, { plays: 1, epa: 3 });
+  assert.deepEqual(b.offense.rush, { plays: 0, epa: null });
+  assert.deepEqual(b.defense.pass, { plays: 1, epa: -4 });
 });
 
 test("nextWait chains around game time and leaves the rest to cron", () => {

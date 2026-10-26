@@ -457,3 +457,45 @@ section,[id]{scroll-margin-top:calc(var(--head-h) + var(--secbar-h) + 16px)}
   .explore{grid-template-columns:1fr 1fr}
 }
 @media (max-width:900px){.drawer nav a.sub{font-size:15px;min-height:44px;padding-left:16px}}
+
+/* The Rewind: home-page report card on the last four games */
+.rewind{background:linear-gradient(180deg,var(--pitch),var(--ink) 70%)}
+.rw-top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--gap);align-items:start;margin-bottom:var(--gap)}
+.rw-take{display:grid;gap:12px;max-width:760px}
+.rw-title{font-family:var(--display);font-weight:400;font-size:clamp(28px,4.2vw,46px);line-height:1.05;text-transform:uppercase}
+.rw-games{display:flex;flex-wrap:wrap;gap:8px}
+.rw-games a{display:grid;border:1px solid var(--line-2);padding:6px 10px;text-decoration:none;min-width:110px}
+.rw-games a span{font-family:var(--label);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.rw-games a b{font-family:var(--label);font-size:18px}
+.rw-games a:hover{background:var(--raise)}
+.rw-gpa{display:grid;justify-items:center;text-align:center;gap:4px;border:1px solid var(--line-2);background:var(--pitch);padding:16px 28px;min-width:180px}
+.rw-letter{font-family:var(--display);font-weight:400;font-size:112px;line-height:1}
+.g-A{color:var(--win)}.g-B{color:#b7dfa0}.g-C{color:var(--warn)}.g-D{color:#efb08a}.g-F{color:var(--loss)}
+.rw-card{width:100%;border-collapse:collapse}
+.rw-card th,.rw-card td{padding:10px 8px;border-bottom:1px solid var(--line);text-align:right;vertical-align:middle}
+.rw-card thead th{font-family:var(--label);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--silver)}
+.rw-card th[scope=row],.rw-card thead th:first-child{text-align:left}
+.rw-card tbody th{white-space:normal;font-family:var(--body);font-size:16px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--chrome)}
+.rw-card td i{font-style:normal;font-size:10px;margin-right:6px;vertical-align:1px}
+.rw-card th small{display:block;font-weight:400;font-size:13px;color:var(--muted)}
+.rw-card td{white-space:nowrap}
+.rw-card td:nth-child(2){text-align:center}
+.rw-g{font-family:var(--display);font-weight:400;font-size:30px;line-height:1}
+.rw-q{display:grid;gap:10px}
+.rw-q>div{display:grid;grid-template-columns:36px minmax(0,1fr);gap:10px;align-items:center}
+.rw-q>div>span{font-family:var(--label);font-weight:700;letter-spacing:.1em;color:var(--muted)}
+.rw-q>div>div{display:grid;gap:3px}
+.rw-bar{display:block;width:max(var(--w),28px);padding:1px 6px;font-size:13px;line-height:1.4}
+.rw-bar.us,.rw-sw.us{background:var(--silver);color:var(--ink)}
+.rw-bar.them,.rw-sw.them{background:var(--line-2);color:var(--chrome)}
+.rw-key{font-size:13px}
+.rw-sw{display:inline-block;width:10px;height:10px;margin:0 4px 0 10px}.rw-sw:first-child{margin-left:0}
+.rw-how{margin-top:var(--gap);max-width:860px;color:var(--muted);font-size:15px}
+.rw-how summary{cursor:pointer;font-family:var(--label);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--silver);min-height:44px;display:flex;align-items:center}
+@media (max-width:760px){
+  .rw-top{grid-template-columns:1fr}
+  .rw-gpa{grid-template-columns:auto 1fr;justify-items:start;text-align:left;column-gap:16px;padding:12px 16px}
+  .rw-gpa .eyebrow{grid-column:2}.rw-gpa .rw-letter{grid-row:1/3;grid-column:1;font-size:72px}
+  .rw-card th small{display:none}
+  .rw-card td:nth-child(5),.rw-card thead th:nth-child(5){display:none}
+}
