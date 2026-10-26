@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T02:27:07.442Z",
+ "updated": "2026-10-26T02:37:35.652Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -547,12 +547,12 @@
     "date": "2026-10-26T00:20Z",
     "state": "in",
     "final": false,
-    "detail": "2:16 - 3rd",
+    "detail": "14:17 - 4th",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": 0,
+     "score": 3,
      "winner": false
     },
     "home": {
@@ -1049,68 +1049,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-10-26T02:27:07.442Z",
+   "at": "2026-10-26T02:37:35.652Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-26T02:27:07.442Z"
+   "at": "2026-10-26T02:37:35.652Z"
   }
  },
  "nflverseTried": "2026-10-25T23:34:12.874Z"
