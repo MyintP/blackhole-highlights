@@ -70,6 +70,7 @@ function redirectMoved() {
 
 export function initChrome() {
   if (redirectMoved()) return;
+  initTheme();
   // The drawer opens from the header menu button or the bottom bar's More button
   const btns = [$("menu-btn"), document.querySelector(".tabbar .more-btn")].filter(Boolean), drawer = $("drawer");
   if (btns.length && drawer) {
@@ -87,6 +88,29 @@ export function initChrome() {
     addEventListener("scroll", () => top.classList.toggle("on", scrollY > 900), { passive: true });
     top.addEventListener("click", () => { scrollTo({ top: 0 }); document.querySelector("main")?.focus({ preventScroll: true }); });
   }
+}
+
+// ---------- colour theme ----------
+// System (follow the device), light or dark. The choice is stored per browser; an inline script in <head> applies it
+// before first paint, so there is no flash of the wrong theme.
+const THEMES = ["system", "light", "dark"];
+function initTheme() {
+  const btn = $("theme-btn"), root = document.documentElement;
+  if (!btn) return;
+  const get = () => root.dataset.theme || "system";
+  const show = () => {
+    const t = get(), next = THEMES[(THEMES.indexOf(t) + 1) % THEMES.length];
+    btn.dataset.mode = t;
+    btn.querySelector(".theme-name").textContent = t[0].toUpperCase() + t.slice(1);
+    btn.setAttribute("aria-label", `Colour theme: ${t}. Switch to ${next}`);
+  };
+  btn.addEventListener("click", () => {
+    const next = THEMES[(THEMES.indexOf(get()) + 1) % THEMES.length];
+    if (next === "system") delete root.dataset.theme; else root.dataset.theme = next;
+    try { if (next === "system") localStorage.removeItem("bhh-theme"); else localStorage.setItem("bhh-theme", next); } catch { /* private mode: applies to this page only */ }
+    show();
+  });
+  show();
 }
 
 // ---------- section tabs ----------
