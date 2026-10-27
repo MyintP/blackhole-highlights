@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-26T17:16:00.463Z",
+ "fetched": "2026-10-27T07:40:32.567Z",
  "throughWeek": 7,
  "games": {
   "401872928": {
@@ -9,6 +9,14 @@
     "plays": 65,
     "epa": -0.029,
     "sr": 0.431,
+    "pass": {
+     "plays": 32,
+     "epa": 0.027
+    },
+    "rush": {
+     "plays": 33,
+     "epa": -0.083
+    },
     "explosive": 5,
     "third": [
      6,
@@ -19,6 +27,14 @@
     "plays": 55,
     "epa": -0.242,
     "sr": 0.345,
+    "pass": {
+     "plays": 40,
+     "epa": -0.183
+    },
+    "rush": {
+     "plays": 15,
+     "epa": -0.399
+    },
     "explosive": 6,
     "third": [
      2,
@@ -363,6 +379,14 @@
     "plays": 60,
     "epa": -0.098,
     "sr": 0.35,
+    "pass": {
+     "plays": 33,
+     "epa": 0.23
+    },
+    "rush": {
+     "plays": 27,
+     "epa": -0.499
+    },
     "explosive": 4,
     "third": [
      5,
@@ -373,6 +397,14 @@
     "plays": 67,
     "epa": -0.301,
     "sr": 0.343,
+    "pass": {
+     "plays": 34,
+     "epa": -0.069
+    },
+    "rush": {
+     "plays": 33,
+     "epa": -0.54
+    },
     "explosive": 4,
     "third": [
      6,
@@ -739,6 +771,14 @@
     "plays": 68,
     "epa": 0.146,
     "sr": 0.456,
+    "pass": {
+     "plays": 43,
+     "epa": 0.303
+    },
+    "rush": {
+     "plays": 25,
+     "epa": -0.124
+    },
     "explosive": 4,
     "third": [
      9,
@@ -749,6 +789,14 @@
     "plays": 74,
     "epa": -0.071,
     "sr": 0.541,
+    "pass": {
+     "plays": 47,
+     "epa": -0.12
+    },
+    "rush": {
+     "plays": 27,
+     "epa": 0.013
+    },
     "explosive": 4,
     "third": [
      9,
@@ -1132,6 +1180,14 @@
     "plays": 81,
     "epa": 0.075,
     "sr": 0.506,
+    "pass": {
+     "plays": 54,
+     "epa": 0.248
+    },
+    "rush": {
+     "plays": 27,
+     "epa": -0.273
+    },
     "explosive": 8,
     "third": [
      7,
@@ -1142,6 +1198,14 @@
     "plays": 60,
     "epa": 0.127,
     "sr": 0.433,
+    "pass": {
+     "plays": 36,
+     "epa": 0.063
+    },
+    "rush": {
+     "plays": 24,
+     "epa": 0.223
+    },
     "explosive": 8,
     "third": [
      5,
@@ -1537,6 +1601,14 @@
     "plays": 60,
     "epa": -0.034,
     "sr": 0.417,
+    "pass": {
+     "plays": 42,
+     "epa": 0.05
+    },
+    "rush": {
+     "plays": 18,
+     "epa": -0.231
+    },
     "explosive": 4,
     "third": [
      5,
@@ -1547,6 +1619,14 @@
     "plays": 72,
     "epa": 0.366,
     "sr": 0.528,
+    "pass": {
+     "plays": 45,
+     "epa": 0.696
+    },
+    "rush": {
+     "plays": 27,
+     "epa": -0.185
+    },
     "explosive": 11,
     "third": [
      7,
@@ -1915,6 +1995,14 @@
     "plays": 66,
     "epa": 0.127,
     "sr": 0.455,
+    "pass": {
+     "plays": 46,
+     "epa": 0.306
+    },
+    "rush": {
+     "plays": 20,
+     "epa": -0.285
+    },
     "explosive": 6,
     "third": [
      8,
@@ -1925,6 +2013,14 @@
     "plays": 65,
     "epa": 0.185,
     "sr": 0.477,
+    "pass": {
+     "plays": 39,
+     "epa": 0.317
+    },
+    "rush": {
+     "plays": 26,
+     "epa": -0.012
+    },
     "explosive": 7,
     "third": [
      5,
@@ -2308,6 +2404,14 @@
     "plays": 69,
     "epa": -0.124,
     "sr": 0.362,
+    "pass": {
+     "plays": 54,
+     "epa": -0.066
+    },
+    "rush": {
+     "plays": 15,
+     "epa": -0.334
+    },
     "explosive": 4,
     "third": [
      3,
@@ -2318,6 +2422,14 @@
     "plays": 69,
     "epa": 0.152,
     "sr": 0.58,
+    "pass": {
+     "plays": 32,
+     "epa": 0.217
+    },
+    "rush": {
+     "plays": 37,
+     "epa": 0.096
+    },
     "explosive": 4,
     "third": [
      6,

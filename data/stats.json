@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:16:00.463Z",
+ "updated": "2026-10-27T07:40:32.567Z",
  "season": 2026,
  "team": [
   {
@@ -7,14 +7,14 @@
    "label": "Points per game",
    "value": "26.1",
    "v": 26.14,
-   "rank": "6th"
+   "rank": "7th"
   },
   {
    "key": "yardsPerGame",
    "label": "Total yards per game",
    "value": "351.6",
    "v": 351.571,
-   "rank": "14th"
+   "rank": "15th"
   },
   {
    "key": "passingYardsPerGame",
@@ -1536,7 +1536,7 @@
     "higher": true,
     "v": 0.013,
     "rank": 16,
-    "nfl": 0.01
+    "nfl": 0.012
    },
    {
     "key": "sr",
@@ -1554,7 +1554,7 @@
     "higher": true,
     "v": 0.156,
     "rank": 9,
-    "nfl": 0.08
+    "nfl": 0.081
    },
    {
     "key": "rush",
@@ -1563,7 +1563,7 @@
     "higher": true,
     "v": -0.252,
     "rank": 31,
-    "nfl": -0.102
+    "nfl": -0.098
    },
    {
     "key": "epa",
@@ -1572,7 +1572,7 @@
     "higher": false,
     "v": 0.038,
     "rank": 22,
-    "nfl": 0.01
+    "nfl": 0.012
    },
    {
     "key": "sr",
@@ -1589,8 +1589,8 @@
     "side": "def",
     "higher": false,
     "v": 0.138,
-    "rank": 24,
-    "nfl": 0.08
+    "rank": 23,
+    "nfl": 0.081
    },
    {
     "key": "rush",
@@ -1599,7 +1599,7 @@
     "higher": false,
     "v": -0.105,
     "rank": 13,
-    "nfl": -0.102
+    "nfl": -0.098
    }
   ],
   "passers": [
@@ -1612,10 +1612,10 @@
     "cpoeRank": 26
    }
   ],
-  "fetched": "2026-10-26T17:16:00.463Z"
+  "fetched": "2026-10-27T07:40:32.567Z"
  },
  "tendencies": {
-  "charted": 0.89,
+  "charted": 0.99,
   "rows": [
    {
     "key": "passRate",
@@ -1623,8 +1623,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.648,
-    "rank": 9,
-    "nfl": 0.616
+    "rank": 8,
+    "nfl": 0.615
    },
    {
     "key": "earlyPass",
@@ -1633,52 +1633,52 @@
     "fmt": "pct",
     "v": 0.586,
     "rank": 10,
-    "nfl": 0.561
+    "nfl": 0.56
    },
    {
     "key": "shotgun",
     "label": "Shotgun or pistol",
     "side": "off",
     "fmt": "pct",
-    "v": 0.583,
-    "rank": 22,
-    "nfl": 0.621
+    "v": 0.603,
+    "rank": 19,
+    "nfl": 0.62
    },
    {
     "key": "motion",
     "label": "Motion at the snap",
     "side": "off",
     "fmt": "pct",
-    "v": 0.618,
-    "rank": 10,
-    "nfl": 0.586
+    "v": 0.614,
+    "rank": 13,
+    "nfl": 0.587
    },
    {
     "key": "playAction",
     "label": "Play action (of dropbacks)",
     "side": "off",
     "fmt": "pct",
-    "v": 0.227,
+    "v": 0.225,
     "rank": 14,
-    "nfl": 0.231
+    "nfl": 0.229
    },
    {
     "key": "screen",
     "label": "Screens (of passes)",
     "side": "off",
     "fmt": "pct",
-    "v": 0.072,
-    "rank": 19,
-    "nfl": 0.081
+    "v": 0.086,
+    "rank": 16,
+    "nfl": 0.082
    },
    {
     "key": "rpo",
     "label": "RPOs",
     "side": "off",
     "fmt": "pct",
-    "v": 0.03,
-    "rank": 24,
-    "nfl": 0.046
+    "v": 0.028,
+    "rank": 25,
+    "nfl": 0.047
    },
    {
     "key": "noHuddle",
@@ -1687,7 +1687,7 @@
     "fmt": "pct",
     "v": 0.085,
     "rank": 8,
-    "nfl": 0.063
+    "nfl": 0.064
    },
    {
     "key": "adot",
@@ -1696,43 +1696,43 @@
     "fmt": "num",
     "v": 8.125,
     "rank": 11,
-    "nfl": 7.783
+    "nfl": 7.789
    },
    {
     "key": "blitz",
     "label": "Blitz rate (of dropbacks)",
     "side": "def",
     "fmt": "pct",
-    "v": 0.267,
-    "rank": 23,
-    "nfl": 0.318
+    "v": 0.275,
+    "rank": 20,
+    "nfl": 0.317
    },
    {
     "key": "rushers",
     "label": "Pass rushers per dropback",
     "side": "def",
     "fmt": "num",
-    "v": 4.285,
-    "rank": 27,
-    "nfl": 4.398
+    "v": 4.303,
+    "rank": 24,
+    "nfl": 4.396
    },
    {
     "key": "box8",
     "label": "8+ in the box (of runs)",
     "side": "def",
     "fmt": "pct",
-    "v": 0.053,
-    "rank": 21,
-    "nfl": 0.084
+    "v": 0.043,
+    "rank": 27,
+    "nfl": 0.087
    },
    {
     "key": "box",
     "label": "Defenders in the box",
     "side": "def",
     "fmt": "num",
-    "v": 6.227,
-    "rank": 29,
-    "nfl": 6.391
+    "v": 6.321,
+    "rank": 26,
+    "nfl": 6.407
    },
    {
     "key": "sackRate",
@@ -1750,7 +1750,7 @@
     "fmt": "pct",
     "v": 0.183,
     "rank": 4,
-    "nfl": 0.151
+    "nfl": 0.15
    }
   ]
  }
