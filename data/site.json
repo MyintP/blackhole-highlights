@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T23:41:39.755Z",
+ "updated": "2026-10-28T05:24:04.926Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -498,75 +498,73 @@
   ]
  },
  "week": {
-  "week": 7,
+  "week": 8,
   "games": [
    {
-    "id": "401873019",
-    "date": "2026-10-25T20:05Z",
-    "state": "post",
-    "final": true,
-    "detail": "Final",
+    "id": "401873029",
+    "date": "2026-11-01T18:00Z",
+    "state": "pre",
+    "final": false,
+    "detail": "11/1 - 1:00 PM EST",
     "postponed": false,
     "away": {
-     "id": "7",
-     "abbr": "DEN",
-     "score": 30,
-     "winner": true
-    },
-    "home": {
-     "id": "22",
-     "abbr": "ARI",
-     "score": 16,
-     "winner": false
-    },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873019/broncos-cardinals"
-   },
-   {
-    "id": "401873021",
-    "date": "2026-10-25T20:25Z",
-    "state": "post",
-    "final": true,
-    "detail": "Final",
-    "postponed": false,
-    "away": {
-     "id": "14",
-     "abbr": "LAR",
-     "score": 35,
-     "winner": true
-    },
-    "home": {
      "id": "13",
      "abbr": "LV",
-     "score": 21,
+     "score": null,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873021/rams-raiders"
+    "home": {
+     "id": "20",
+     "abbr": "NYJ",
+     "score": null,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873029/raiders-jets"
    },
    {
-    "id": "401873022",
-    "date": "2026-10-26T00:20Z",
-    "state": "post",
-    "final": true,
-    "detail": "Final",
+    "id": "401873032",
+    "date": "2026-11-01T21:05Z",
+    "state": "pre",
+    "final": false,
+    "detail": "11/1 - 4:05 PM EST",
+    "postponed": false,
+    "away": {
+     "id": "24",
+     "abbr": "LAC",
+     "score": null,
+     "winner": false
+    },
+    "home": {
+     "id": "14",
+     "abbr": "LAR",
+     "score": null,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873032/chargers-rams"
+   },
+   {
+    "id": "401873033",
+    "date": "2026-11-01T21:25Z",
+    "state": "pre",
+    "final": false,
+    "detail": "11/1 - 4:25 PM EST",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": 3,
+     "score": null,
      "winner": false
     },
     "home": {
-     "id": "26",
-     "abbr": "SEA",
-     "score": 20,
-     "winner": true
+     "id": "7",
+     "abbr": "DEN",
+     "score": null,
+     "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks"
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873033/chiefs-broncos"
    }
   ],
-  "byes": [
-   "LAC"
-  ]
+  "byes": []
  },
  "standings": {
   "west": [
@@ -986,68 +984,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-10-27T23:41:39.755Z",
+   "at": "2026-10-28T05:24:04.926Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-27T23:41:39.755Z"
+   "at": "2026-10-28T05:24:04.926Z"
   }
  },
  "nflverseTried": "2026-10-27T20:00:02.827Z"

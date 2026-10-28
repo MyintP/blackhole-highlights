@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T20:00:02.827Z",
+ "updated": "2026-10-28T05:24:04.926Z",
  "season": 2026,
  "team": [
   {
@@ -739,6 +739,20 @@
    "link": "https://www.espn.com/nfl/player/_/id/4374187/deven-thompkins"
   },
   {
+   "id": "4432775",
+   "name": "Dont'e Thornton Jr.",
+   "jersey": "10",
+   "pos": "WR",
+   "posName": "Wide Receiver",
+   "group": "Offense",
+   "age": 23,
+   "ht": "6' 5\"",
+   "wt": "205 lbs",
+   "exp": 2,
+   "college": "Tennessee",
+   "link": "https://www.espn.com/nfl/player/_/id/4432775/donte-thornton-jr"
+  },
+  {
    "id": "4428718",
    "name": "Tre Tucker",
    "jersey": "1",
@@ -989,20 +1003,6 @@
    "exp": 6,
    "college": "Buffalo",
    "link": "https://www.espn.com/nfl/player/_/id/4239719/malcolm-koonce"
-  },
-  {
-   "id": "4373956",
-   "name": "Jonah Laulu",
-   "jersey": "96",
-   "pos": "DT",
-   "posName": "Defensive Tackle",
-   "group": "Defense",
-   "age": 26,
-   "ht": "6' 5\"",
-   "wt": "289 lbs",
-   "exp": 3,
-   "college": "Oklahoma",
-   "link": "https://www.espn.com/nfl/player/_/id/4373956/jonah-laulu"
   },
   {
    "id": "4685126",
@@ -1341,20 +1341,6 @@
    "link": "https://www.espn.com/nfl/player/_/id/5155825/carter-runyon"
   },
   {
-   "id": "4432775",
-   "name": "Dont'e Thornton Jr.",
-   "jersey": "10",
-   "pos": "WR",
-   "posName": "Wide Receiver",
-   "group": "Injured reserve / out",
-   "age": 23,
-   "ht": "6' 5\"",
-   "wt": "205 lbs",
-   "exp": 2,
-   "college": "Tennessee",
-   "link": "https://www.espn.com/nfl/player/_/id/4432775/donte-thornton-jr"
-  },
-  {
    "id": "4685305",
    "name": "Brandon Cleveland",
    "jersey": "90",
@@ -1479,20 +1465,6 @@
    "exp": 3,
    "college": "Cincinnati",
    "link": "https://www.espn.com/nfl/player/_/id/4565908/tyler-scott"
-  },
-  {
-   "id": "4428678",
-   "name": "Jamari Thrash",
-   "jersey": null,
-   "pos": "WR",
-   "posName": "Wide Receiver",
-   "group": "Practice squad",
-   "age": 25,
-   "ht": "6' 0\"",
-   "wt": "190 lbs",
-   "exp": null,
-   "college": "Louisville",
-   "link": "https://www.espn.com/nfl/player/_/id/4428678/jamari-thrash"
   },
   {
    "id": "4686337",
