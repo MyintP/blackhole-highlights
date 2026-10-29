@@ -1,7 +1,14 @@
 {
- "updated": "2026-10-28T23:05:51.942Z",
+ "updated": "2026-10-29T02:22:07.511Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Run game will be key on both sides of the ball against the Jets",
+   "link": "https://www.raiders.com/audio/preview-run-game-jets-nfl-week-8-2026-season",
+   "date": "2026-10-28T23:00:00.000Z",
+   "desc": "JT The Brick and Q Myers are joined by Eric Allen and Cynthia Frelund to preview Week 8 against the New York Jets on Raiders Weekly.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Kirk Cousins Presser - 10.28.26",
    "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-week-8-jets-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/preview-raiders-rams-nfl-week-7-2026-season",
    "date": "2026-10-21T23:30:00.000Z",
    "desc": "JT The Brick and Q Myers are joined by Lincoln Kennedy and Cynthia Frelund to preview Week 7 against the Los Angeles Rams on Raiders Weekly.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Kirk Cousins Presser - 10.21.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-week-7-2026-season",
-   "date": "2026-10-21T19:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media.",
    "src": "Raiders.com"
   }
  ],
