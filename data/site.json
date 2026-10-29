@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:51:51.632Z",
+ "updated": "2026-10-29T21:43:55.798Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -877,10 +877,10 @@
     "ret": "2026-11-01"
    },
    {
-    "name": "Carter Runyon",
-    "pos": "TE",
-    "injury": "Foot",
-    "status": "Injured Reserve",
+    "name": "Jackson Powers-Johnson",
+    "pos": "G",
+    "injury": "Back",
+    "status": "Questionable",
     "ret": "2026-11-01"
    },
    {
@@ -898,13 +898,6 @@
     "ret": "2026-11-01"
    },
    {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Calf",
-    "status": "Questionable",
-    "ret": "2026-11-01"
-   },
-   {
     "name": "Folorunso Fatukasi",
     "pos": "DT",
     "injury": "Shoulder",
@@ -915,13 +908,6 @@
     "name": "DJ Glaze",
     "pos": "OT",
     "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-01"
-   },
-   {
-    "name": "Quay Walker",
-    "pos": "LB",
-    "injury": "Chest",
     "status": "Questionable",
     "ret": "2026-11-01"
    }
@@ -949,23 +935,16 @@
     "ret": "2026-11-01"
    },
    {
-    "name": "David Bailey",
-    "pos": "LB",
-    "injury": "Groin",
-    "status": "Questionable",
-    "ret": "2026-11-01"
-   },
-   {
-    "name": "Braelon Allen",
-    "pos": "RB",
-    "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-01"
-   },
-   {
     "name": "Breece Hall",
     "pos": "RB",
     "injury": "Quadriceps",
+    "status": "Questionable",
+    "ret": "2026-11-01"
+   },
+   {
+    "name": "David Bailey",
+    "pos": "LB",
+    "injury": "Groin",
     "status": "Questionable",
     "ret": "2026-11-01"
    },
@@ -1026,103 +1005,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-29T16:51:51.632Z"
+   "at": "2026-10-29T21:43:55.798Z"
   }
  },
  "nflverseTried": "2026-10-29T16:51:51.632Z"
