@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:51:51.632Z",
+ "updated": "2026-10-30T08:29:43.496Z",
  "season": 2026,
  "team": [
   {
@@ -70,7 +70,7 @@
    "label": "Turnover differential",
    "value": "4",
    "v": 4,
-   "rank": "T-6th"
+   "rank": "T-5th"
   },
   {
    "key": "sacks",
@@ -1496,7 +1496,7 @@
   }
  ],
  "advanced": {
-  "throughWeek": 7,
+  "throughWeek": 8,
   "teams": 32,
   "qualifiedQbs": 34,
   "minDropbacks": 100,
@@ -1507,8 +1507,8 @@
     "side": "off",
     "higher": true,
     "v": 0.013,
-    "rank": 16,
-    "nfl": 0.012
+    "rank": 15,
+    "nfl": 0.011
    },
    {
     "key": "sr",
@@ -1516,7 +1516,7 @@
     "side": "off",
     "higher": true,
     "v": 0.429,
-    "rank": 18,
+    "rank": 17,
     "nfl": 0.437
    },
    {
@@ -1526,7 +1526,7 @@
     "higher": true,
     "v": 0.156,
     "rank": 9,
-    "nfl": 0.081
+    "nfl": 0.08
    },
    {
     "key": "rush",
@@ -1544,7 +1544,7 @@
     "higher": false,
     "v": 0.038,
     "rank": 22,
-    "nfl": 0.012
+    "nfl": 0.011
    },
    {
     "key": "sr",
@@ -1562,7 +1562,7 @@
     "higher": false,
     "v": 0.138,
     "rank": 23,
-    "nfl": 0.081
+    "nfl": 0.08
    },
    {
     "key": "rush",
@@ -1581,13 +1581,13 @@
     "epa": 0.143,
     "epaRank": 11,
     "cpoe": -2,
-    "cpoeRank": 26
+    "cpoeRank": 27
    }
   ],
-  "fetched": "2026-10-29T16:51:51.632Z"
+  "fetched": "2026-10-30T08:29:43.496Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.99,
   "rows": [
    {
     "key": "passRate",
@@ -1596,7 +1596,7 @@
     "fmt": "pct",
     "v": 0.648,
     "rank": 8,
-    "nfl": 0.615
+    "nfl": 0.616
    },
    {
     "key": "earlyPass",
@@ -1667,8 +1667,8 @@
     "side": "off",
     "fmt": "num",
     "v": 8.125,
-    "rank": 11,
-    "nfl": 7.789
+    "rank": 10,
+    "nfl": 7.781
    },
    {
     "key": "blitz",
@@ -1712,7 +1712,7 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.064,
-    "rank": 15,
+    "rank": 16,
     "nfl": 0.06
    },
    {
@@ -1722,7 +1722,7 @@
     "fmt": "pct",
     "v": 0.183,
     "rank": 4,
-    "nfl": 0.151
+    "nfl": 0.15
    }
   ]
  }

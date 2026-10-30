@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T01:50:10.673Z",
+ "updated": "2026-10-30T08:29:43.496Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -1005,69 +1005,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "videos": {
-   "ok": false,
-   "at": "2026-10-30T01:50:10.673Z",
-   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
+   "ok": true,
+   "at": "2026-10-30T08:29:43.496Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-10-30T01:50:10.673Z"
+   "at": "2026-10-30T08:29:43.496Z"
   }
  },
- "nflverseTried": "2026-10-29T16:51:51.632Z"
+ "nflverseTried": "2026-10-30T08:29:43.496Z"
 }
