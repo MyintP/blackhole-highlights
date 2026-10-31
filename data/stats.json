@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:40:04.533Z",
+ "updated": "2026-10-31T13:33:36.023Z",
  "season": 2026,
  "team": [
   {
@@ -1584,10 +1584,10 @@
     "cpoeRank": 27
    }
   ],
-  "fetched": "2026-10-30T20:40:04.533Z"
+  "fetched": "2026-10-31T13:33:36.023Z"
  },
  "tendencies": {
-  "charted": 0.99,
+  "charted": 1,
   "rows": [
    {
     "key": "passRate",
@@ -1613,8 +1613,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.603,
-    "rank": 19,
-    "nfl": 0.62
+    "rank": 17,
+    "nfl": 0.613
    },
    {
     "key": "motion",
@@ -1622,8 +1622,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.614,
-    "rank": 13,
-    "nfl": 0.586
+    "rank": 12,
+    "nfl": 0.58
    },
    {
     "key": "playAction",
@@ -1632,7 +1632,7 @@
     "fmt": "pct",
     "v": 0.225,
     "rank": 14,
-    "nfl": 0.229
+    "nfl": 0.226
    },
    {
     "key": "screen",
@@ -1640,8 +1640,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.086,
-    "rank": 16,
-    "nfl": 0.082
+    "rank": 15,
+    "nfl": 0.081
    },
    {
     "key": "rpo",
@@ -1650,7 +1650,7 @@
     "fmt": "pct",
     "v": 0.028,
     "rank": 25,
-    "nfl": 0.047
+    "nfl": 0.046
    },
    {
     "key": "noHuddle",
@@ -1677,7 +1677,7 @@
     "fmt": "pct",
     "v": 0.275,
     "rank": 19,
-    "nfl": 0.316
+    "nfl": 0.313
    },
    {
     "key": "rushers",
