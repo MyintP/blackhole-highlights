@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:40:04.533Z",
+ "updated": "2026-10-31T06:53:47.966Z",
  "youtube": [],
  "podcasts": [
   {
@@ -87,5 +87,13 @@
    "src": "Raiders.com"
   }
  ],
- "espn": []
+ "espn": [
+  {
+   "title": "Can the Raiders get Jalen Nailor more involved?",
+   "link": "https://www.espn.com/video/clip/_/id/50332498/can-raiders-get-jalen-nailor-more-involved",
+   "date": "2026-10-31T01:43:54Z",
+   "desc": "Ryan McFadden breaks down Jalen Nailor's lack of opportunities with the Raiders so far.",
+   "src": "ESPN"
+  }
+ ]
 }
