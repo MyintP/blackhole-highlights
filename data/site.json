@@ -1,9 +1,36 @@
 {
- "updated": "2026-11-01T20:59:17.316Z",
+ "updated": "2026-11-01T21:06:18.912Z",
  "season": 2026,
- "record": "3-4",
+ "record": "4-4",
  "divisionPlace": "3rd in AFC West",
  "next": {
+  "id": "401873047",
+  "week": 9,
+  "date": "2026-11-08T21:25Z",
+  "timeTBD": false,
+  "home": false,
+  "opp": {
+   "id": "25",
+   "name": "49ers",
+   "location": "San Francisco",
+   "abbr": "SF",
+   "record": "6-1"
+  },
+  "tv": "Fox",
+  "state": "pre",
+  "final": false,
+  "detail": null,
+  "postponed": false,
+  "score": null,
+  "win": null,
+  "tie": false,
+  "oppRecord": "6-1",
+  "venue": {
+   "name": "Levi's Stadium",
+   "city": "Santa Clara"
+  }
+ },
+ "last": {
   "id": "401873029",
   "week": 8,
   "date": "2026-11-01T18:00Z",
@@ -14,37 +41,7 @@
    "name": "Jets",
    "location": "New York",
    "abbr": "NYJ",
-   "record": "2-5"
-  },
-  "tv": "Fox",
-  "state": "in",
-  "final": false,
-  "detail": "0:27 - 4th",
-  "postponed": false,
-  "score": {
-   "us": 38,
-   "them": 33
-  },
-  "win": null,
-  "tie": false,
-  "oppRecord": "2-5",
-  "venue": {
-   "name": "MetLife Stadium",
-   "city": "East Rutherford"
-  }
- },
- "last": {
-  "id": "401873021",
-  "week": 7,
-  "date": "2026-10-25T20:25Z",
-  "timeTBD": false,
-  "home": true,
-  "opp": {
-   "id": "14",
-   "name": "Rams",
-   "location": "Los Angeles",
-   "abbr": "LAR",
-   "record": "3-4"
+   "record": "2-6"
   },
   "tv": "Fox",
   "state": "post",
@@ -52,53 +49,49 @@
   "detail": null,
   "postponed": false,
   "score": {
-   "us": 21,
-   "them": 35
+   "us": 38,
+   "them": 33
   },
-  "win": false,
+  "win": true,
   "tie": false,
   "leaders": [
    {
     "cat": "Passing Yards",
     "name": "Kirk Cousins",
-    "value": "295",
+    "value": "247",
     "unit": "YDS",
-    "line": "26/44, 2 TD"
+    "line": "19/26, 3 TD"
    },
    {
     "cat": "Rushing Yards",
     "name": "Mike Washington Jr.",
-    "value": "27",
+    "value": "83",
     "unit": "YDS",
-    "line": "6 CAR"
+    "line": "25 CAR"
    },
    {
     "cat": "Receiving Yards",
-    "name": "Tre Tucker",
-    "value": "103",
+    "name": "Brock Bowers",
+    "value": "92",
     "unit": "YDS",
-    "line": "5 REC, 1 TD"
+    "line": "7 REC, 2 TD"
    },
    {
     "cat": "Sacks",
-    "name": "Tonka Hemingway",
+    "name": "Maxx Crosby",
     "value": "1",
     "unit": "SACKS",
     "line": "1"
    },
    {
     "cat": "Tackles",
-    "name": "Quay Walker",
+    "name": "Nakobe Dean",
     "value": "12",
     "unit": "TOT",
-    "line": "6 SOLO"
+    "line": "2 SOLO"
    }
   ],
-  "recap": {
-   "title": "Matthew Stafford sets Rams TD pass record as Los Angeles rolls past Raiders 35-21",
-   "link": "https://www.espn.com/nfl/recap?gameId=401873021",
-   "desc": "— Matthew Stafford threw for 195 yards and three touchdowns to become the Rams' career leader in passing TDs, and Los..."
-  }
+  "recap": null
  },
  "schedule": {
   "bye": 13,
@@ -289,18 +282,18 @@
      "name": "Jets",
      "location": "New York",
      "abbr": "NYJ",
-     "record": "2-5"
+     "record": "2-6"
     },
     "tv": "Fox",
-    "state": "in",
-    "final": false,
-    "detail": "0:27 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": null,
     "postponed": false,
     "score": {
      "us": 38,
      "them": 33
     },
-    "win": null,
+    "win": true,
     "tie": false
    },
    {
@@ -509,15 +502,15 @@
    {
     "id": "401873029",
     "date": "2026-11-01T18:00Z",
-    "state": "in",
-    "final": false,
-    "detail": "0:27 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "13",
      "abbr": "LV",
      "score": 38,
-     "winner": false
+     "winner": true
     },
     "home": {
      "id": "20",
@@ -525,28 +518,28 @@
      "score": 33,
      "winner": false
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873029/raiders-jets"
    },
    {
     "id": "401873032",
     "date": "2026-11-01T21:05Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/1 - 4:05 PM EST",
+    "detail": "15:00 - 1st",
     "postponed": false,
     "away": {
      "id": "24",
      "abbr": "LAC",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "14",
      "abbr": "LAR",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873032/chargers-rams"
+    "link": null
    },
    {
     "id": "401873033",
@@ -597,11 +590,11 @@
    {
     "id": "13",
     "name": "Las Vegas",
-    "w": 3,
+    "w": 4,
     "l": 4,
     "t": 0,
-    "pct": ".429",
-    "diff": "-14",
+    "pct": ".500",
+    "diff": "-9",
     "us": true
    },
    {
@@ -718,24 +711,13 @@
    {
     "id": "13",
     "name": "Las Vegas",
-    "w": 3,
+    "w": 4,
     "l": 4,
     "t": 0,
-    "pct": ".429",
+    "pct": ".500",
     "seed": 10,
-    "diff": "-14",
+    "diff": "-9",
     "us": true
-   },
-   {
-    "id": "20",
-    "name": "NY Jets",
-    "w": 2,
-    "l": 5,
-    "t": 0,
-    "pct": ".286",
-    "seed": 11,
-    "diff": "-13",
-    "us": false
    },
    {
     "id": "11",
@@ -744,7 +726,7 @@
     "l": 5,
     "t": 0,
     "pct": ".286",
-    "seed": 12,
+    "seed": 11,
     "diff": "-26",
     "us": false
    },
@@ -755,8 +737,19 @@
     "l": 5,
     "t": 0,
     "pct": ".286",
-    "seed": 13,
+    "seed": 12,
     "diff": "-5",
+    "us": false
+   },
+   {
+    "id": "20",
+    "name": "NY Jets",
+    "w": 2,
+    "l": 6,
+    "t": 0,
+    "pct": ".250",
+    "seed": 13,
+    "diff": "-18",
     "us": false
    },
    {
@@ -795,8 +788,8 @@
   ]
  },
  "matchup": {
-  "gameId": "401873029",
-  "opp": "Jets",
+  "gameId": "401873047",
+  "opp": "49ers",
   "rows": [
    {
     "label": "Points / game",
@@ -805,8 +798,8 @@
      "rank": "6th"
     },
     "them": {
-     "v": 19.57,
-     "rank": "27th"
+     "v": 28.14,
+     "rank": "3rd"
     },
     "higher": true
    },
@@ -817,8 +810,8 @@
      "rank": "15th"
     },
     "them": {
-     "v": 328.286,
-     "rank": "22nd"
+     "v": 377.143,
+     "rank": "9th"
     },
     "higher": true
    },
@@ -829,8 +822,8 @@
      "rank": "5th"
     },
     "them": {
-     "v": 231.857,
-     "rank": "20th"
+     "v": 249.714,
+     "rank": "12th"
     },
     "higher": true
    },
@@ -841,27 +834,39 @@
      "rank": "31st"
     },
     "them": {
-     "v": 96.4,
-     "rank": "22nd"
+     "v": 127.4,
+     "rank": "8th"
     },
     "higher": true
    },
    {
-    "label": "Points allowed",
+    "label": "Yards allowed",
     "us": {
-     "v": 28.142857142857142,
-     "rank": "29th"
+     "v": 388.7,
+     "rank": null
     },
     "them": {
-     "v": 21.428571428571427,
-     "rank": "14th"
+     "v": 312.9,
+     "rank": null
+    },
+    "higher": false
+   },
+   {
+    "label": "Points allowed",
+    "us": {
+     "v": 28.75,
+     "rank": "31st"
+    },
+    "them": {
+     "v": 19.857142857142858,
+     "rank": "7th"
     },
     "higher": false
    }
   ]
  },
  "injuries": {
-  "gameId": "401873029",
+  "gameId": "401873047",
   "us": [
    {
     "name": "Malik Benson",
@@ -936,165 +941,183 @@
   ],
   "them": [
    {
-    "name": "David Bailey",
+    "name": "Demarcus Robinson",
+    "pos": "WR",
+    "injury": "Ankle",
+    "status": "Injured Reserve",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "De'Zhaun Stribling",
+    "pos": "WR",
+    "injury": "Ankle",
+    "status": "Injured Reserve",
+    "ret": "2026-11-22"
+   },
+   {
+    "name": "Marques Sigle",
+    "pos": "S",
+    "injury": "Ankle",
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Garret Wallow",
+    "pos": "LB",
+    "injury": "Hamstring",
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Luke Gifford",
     "pos": "LB",
     "injury": "Groin",
-    "status": "Out",
+    "status": "Questionable",
     "ret": "2026-11-08"
    },
    {
-    "name": "Tim Patrick",
-    "pos": "WR",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Nahshon Wright",
+    "name": "Upton Stout",
     "pos": "CB",
-    "injury": "Coach's Decision",
-    "status": "Out",
+    "injury": "Shoulder - AC Joint",
+    "status": "Questionable",
     "ret": "2026-11-08"
    },
    {
-    "name": "Max Mitchell",
-    "pos": "OT",
-    "injury": "Concussion",
-    "status": "Out",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Joseph Ossai",
+    "name": "Nick Bosa",
     "pos": "DE",
-    "injury": "Ankle",
-    "status": "Out",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Kohl Levao",
-    "pos": "G",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Breece Hall",
-    "pos": "RB",
-    "injury": "Quadriceps",
-    "status": "Out",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "T'Vondre Sweat",
-    "pos": "DT",
     "injury": "Knee",
-    "status": "Injured Reserve",
-    "ret": "2026-11-29"
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "injury": "Hamstring",
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Mike Evans",
+    "pos": "WR",
+    "injury": "Achilles",
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "injury": "Hamstring",
+    "status": "Questionable",
+    "ret": "2026-11-08"
    }
   ],
-  "opp": "Jets"
+  "opp": "49ers"
  },
  "leaders": [
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "247",
+   "value": "1,877",
    "unit": "YDS",
-   "line": "19/26, 3 TD"
+   "line": "161/257, 16 TD, 5 INT"
   },
   {
    "cat": "Rushing Yards",
-   "name": "Mike Washington Jr.",
-   "value": "83",
+   "name": "Ashton Jeanty",
+   "value": "328",
    "unit": "YDS",
-   "line": "25 CAR"
+   "line": "106 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
-   "name": "Brock Bowers",
-   "value": "92",
+   "name": "Tre Tucker",
+   "value": "474",
    "unit": "YDS",
-   "line": "7 REC, 2 TD"
+   "line": "29 REC, 4 TD"
   },
   {
    "cat": "Sacks",
-   "name": "Maxx Crosby",
-   "value": "1",
+   "name": "Malcolm Koonce",
+   "value": "3",
    "unit": "SACKS",
-   "line": "1"
+   "line": "3"
   },
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "12",
+   "value": "68",
    "unit": "TOT",
-   "line": "3 SOLO"
+   "line": "68"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
+  },
+  "game 8": {
+   "ok": true,
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T20:59:17.316Z"
+   "at": "2026-11-01T21:06:18.912Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"

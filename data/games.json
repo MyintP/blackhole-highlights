@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T00:21:21.691Z",
+ "updated": "2026-11-01T21:06:18.912Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1078,6 +1078,159 @@
     "desc": "— Matthew Stafford threw for 195 yards and three touchdowns to become the Rams' career leader in passing TDs, and Los..."
    },
    "attendance": 62550
+  },
+  "401873029": {
+   "id": "401873029",
+   "week": 8,
+   "date": "2026-11-01T18:00Z",
+   "home": false,
+   "opp": {
+    "id": "20",
+    "name": "Jets",
+    "location": "New York",
+    "abbr": "NYJ",
+    "record": "2-6"
+   },
+   "score": {
+    "us": 38,
+    "them": 33
+   },
+   "win": true,
+   "tie": false,
+   "lines": {
+    "us": [
+     7,
+     7,
+     14,
+     10
+    ],
+    "them": [
+     6,
+     17,
+     7,
+     3
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "333",
+     "them": "439"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "238",
+     "them": "273"
+    },
+    {
+     "key": "rushingYards",
+     "us": "95",
+     "them": "166"
+    },
+    {
+     "key": "firstDowns",
+     "us": "22",
+     "them": "26"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "7-11",
+     "them": "4-11"
+    },
+    {
+     "key": "turnovers",
+     "us": "0",
+     "them": "1"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "5-37",
+     "them": "6-32"
+    },
+    {
+     "key": "possessionTime",
+     "us": "29:58",
+     "them": "30:02"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Kirk Cousins",
+      "value": "247",
+      "unit": "YDS",
+      "line": "19/26, 3 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Mike Washington Jr.",
+      "value": "83",
+      "unit": "YDS",
+      "line": "25 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Brock Bowers",
+      "value": "92",
+      "unit": "YDS",
+      "line": "7 REC, 2 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Maxx Crosby",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Nakobe Dean",
+      "value": "12",
+      "unit": "TOT",
+      "line": "2 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Geno Smith",
+      "value": "290",
+      "unit": "YDS",
+      "line": "20/32, 2 TD, 1 INT"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Braelon Allen",
+      "value": "147",
+      "unit": "YDS",
+      "line": "21 CAR, 1 TD"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Adonai Mitchell",
+      "value": "142",
+      "unit": "YDS",
+      "line": "7 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Will McDonald IV",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Jamien Sherwood",
+      "value": "14",
+      "unit": "TOT",
+      "line": "5 SOLO"
+     }
+    ]
+   },
+   "recap": null,
+   "attendance": 70080
   }
  }
 }
