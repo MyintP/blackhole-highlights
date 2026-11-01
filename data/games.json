@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:06:18.912Z",
+ "updated": "2026-11-01T21:47:02.232Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1229,7 +1229,11 @@
      }
     ]
    },
-   "recap": null,
+   "recap": {
+    "title": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
+    "link": "https://www.espn.com/nfl/recap?gameId=401873029",
+    "desc": "— Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on..."
+   },
    "attendance": 70080
   }
  }

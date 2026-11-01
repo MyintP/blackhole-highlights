@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:36:44.808Z",
+ "updated": "2026-11-01T21:47:02.232Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -91,7 +91,11 @@
     "line": "2 SOLO"
    }
   ],
-  "recap": null
+  "recap": {
+   "title": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
+   "link": "https://www.espn.com/nfl/recap?gameId=401873029",
+   "desc": "— Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on..."
+  }
  },
  "schedule": {
   "bye": 13,
@@ -439,7 +443,7 @@
      "name": "Titans",
      "location": "Tennessee",
      "abbr": "TEN",
-     "record": "1-6"
+     "record": "1-7"
     },
     "tv": "Fox",
     "state": "pre",
@@ -461,7 +465,7 @@
      "name": "Cardinals",
      "location": "Arizona",
      "abbr": "ARI",
-     "record": "2-5"
+     "record": "3-5"
     },
     "tv": "CBS",
     "state": "pre",
@@ -525,12 +529,12 @@
     "date": "2026-11-01T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "4:18 - 1st",
+    "detail": "13:27 - 2nd",
     "postponed": false,
     "away": {
      "id": "24",
      "abbr": "LAC",
-     "score": 0,
+     "score": 3,
      "winner": false
     },
     "home": {
@@ -546,12 +550,12 @@
     "date": "2026-11-01T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "9:43 - 1st",
+    "detail": "5:24 - 1st",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": 0,
+     "score": 7,
      "winner": false
     },
     "home": {
@@ -667,12 +671,12 @@
    {
     "id": "4",
     "name": "Cincinnati",
-    "w": 4,
+    "w": 5,
     "l": 2,
     "t": 0,
-    "pct": ".667",
+    "pct": ".714",
     "seed": 6,
-    "diff": "+41",
+    "diff": "+48",
     "us": false
    },
    {
@@ -767,11 +771,11 @@
     "id": "10",
     "name": "Tennessee",
     "w": 1,
-    "l": 6,
+    "l": 7,
     "t": 0,
-    "pct": ".143",
+    "pct": ".125",
     "seed": 15,
-    "diff": "-48",
+    "diff": "-55",
     "us": false
    },
    {
@@ -1053,71 +1057,71 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "game 8": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T21:36:44.808Z"
+   "at": "2026-11-01T21:47:02.232Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
