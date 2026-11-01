@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:06:18.912Z",
+ "updated": "2026-11-01T21:16:39.935Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -373,7 +373,7 @@
      "name": "Browns",
      "location": "Cleveland",
      "abbr": "CLE",
-     "record": "5-2"
+     "record": "5-3"
     },
     "tv": "Fox",
     "state": "pre",
@@ -525,7 +525,7 @@
     "date": "2026-11-01T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "15:00 - 1st",
+    "detail": "10:42 - 1st",
     "postponed": false,
     "away": {
      "id": "24",
@@ -632,25 +632,25 @@
     "us": false
    },
    {
-    "id": "5",
-    "name": "Cleveland",
-    "w": 5,
+    "id": "23",
+    "name": "Pittsburgh",
+    "w": 6,
     "l": 2,
     "t": 0,
-    "pct": ".714",
+    "pct": ".750",
     "seed": 3,
-    "diff": "-13",
+    "diff": "+36",
     "us": false
    },
    {
     "id": "30",
     "name": "Jacksonville",
-    "w": 4,
+    "w": 5,
     "l": 2,
     "t": 0,
-    "pct": ".667",
+    "pct": ".714",
     "seed": 4,
-    "diff": "+50",
+    "diff": "+85",
     "us": false
    },
    {
@@ -665,25 +665,25 @@
     "us": false
    },
    {
-    "id": "23",
-    "name": "Pittsburgh",
-    "w": 5,
-    "l": 2,
-    "t": 0,
-    "pct": ".714",
-    "seed": 6,
-    "diff": "+15",
-    "us": false
-   },
-   {
     "id": "4",
     "name": "Cincinnati",
     "w": 4,
     "l": 2,
     "t": 0,
     "pct": ".667",
-    "seed": 7,
+    "seed": 6,
     "diff": "+41",
+    "us": false
+   },
+   {
+    "id": "5",
+    "name": "Cleveland",
+    "w": 5,
+    "l": 3,
+    "t": 0,
+    "pct": ".625",
+    "seed": 7,
+    "diff": "-34",
     "us": false
    },
    {
@@ -720,24 +720,13 @@
     "us": true
    },
    {
-    "id": "11",
-    "name": "Indianapolis",
-    "w": 2,
-    "l": 5,
-    "t": 0,
-    "pct": ".286",
-    "seed": 11,
-    "diff": "-26",
-    "us": false
-   },
-   {
     "id": "34",
     "name": "Houston",
     "w": 2,
     "l": 5,
     "t": 0,
     "pct": ".286",
-    "seed": 12,
+    "seed": 11,
     "diff": "-5",
     "us": false
    },
@@ -748,8 +737,19 @@
     "l": 6,
     "t": 0,
     "pct": ".250",
-    "seed": 13,
+    "seed": 12,
     "diff": "-18",
+    "us": false
+   },
+   {
+    "id": "11",
+    "name": "Indianapolis",
+    "w": 2,
+    "l": 6,
+    "t": 0,
+    "pct": ".250",
+    "seed": 13,
+    "diff": "-61",
     "us": false
    },
    {
@@ -1053,71 +1053,71 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "game 8": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T21:06:18.912Z"
+   "at": "2026-11-01T21:16:39.935Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
