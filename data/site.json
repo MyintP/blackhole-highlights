@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T18:03:12.901Z",
+ "updated": "2026-11-01T18:13:30.834Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -17,11 +17,14 @@
    "record": "2-5"
   },
   "tv": "Fox",
-  "state": "pre",
+  "state": "in",
   "final": false,
-  "detail": null,
+  "detail": "12:50 - 1st",
   "postponed": false,
-  "score": null,
+  "score": {
+   "us": 0,
+   "them": 3
+  },
   "win": null,
   "tie": false,
   "oppRecord": "2-5",
@@ -289,11 +292,14 @@
      "record": "2-5"
     },
     "tv": "Fox",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": null,
+    "detail": "12:50 - 1st",
     "postponed": false,
-    "score": null,
+    "score": {
+     "us": 0,
+     "them": 3
+    },
     "win": null,
     "tie": false
    },
@@ -505,7 +511,7 @@
     "date": "2026-11-01T18:00Z",
     "state": "in",
     "final": false,
-    "detail": "15:00 - 1st",
+    "detail": "12:50 - 1st",
     "postponed": false,
     "away": {
      "id": "13",
@@ -516,7 +522,7 @@
     "home": {
      "id": "20",
      "abbr": "NYJ",
-     "score": 0,
+     "score": 3,
      "winner": false
     },
     "link": null
@@ -841,18 +847,6 @@
     "higher": true
    },
    {
-    "label": "Yards allowed",
-    "us": {
-     "v": 388.7,
-     "rank": null
-    },
-    "them": {
-     "v": 330.6,
-     "rank": null
-    },
-    "higher": false
-   },
-   {
     "label": "Points allowed",
     "us": {
      "v": 28.142857142857142,
@@ -995,105 +989,77 @@
  },
  "leaders": [
   {
-   "cat": "Passing Yards",
-   "name": "Kirk Cousins",
-   "value": "1,877",
-   "unit": "YDS",
-   "line": "161/257, 16 TD, 5 INT"
-  },
-  {
-   "cat": "Rushing Yards",
-   "name": "Ashton Jeanty",
-   "value": "328",
-   "unit": "YDS",
-   "line": "106 CAR, 1 TD"
-  },
-  {
-   "cat": "Receiving Yards",
-   "name": "Tre Tucker",
-   "value": "474",
-   "unit": "YDS",
-   "line": "29 REC, 4 TD"
-  },
-  {
-   "cat": "Sacks",
-   "name": "Malcolm Koonce",
-   "value": "3",
-   "unit": "SACKS",
-   "line": "3"
-  },
-  {
    "cat": "Tackles",
-   "name": "Nakobe Dean",
-   "value": "68",
+   "name": "Treydan Stukes",
+   "value": "3",
    "unit": "TOT",
-   "line": "68"
+   "line": "1 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T18:03:12.901Z"
+   "at": "2026-11-01T18:13:30.834Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
