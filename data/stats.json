@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:33:36.023Z",
+ "updated": "2026-11-01T02:05:11.544Z",
  "season": 2026,
  "team": [
   {
@@ -430,6 +430,20 @@
   }
  ],
  "roster": [
+  {
+   "id": "4603186",
+   "name": "Jack Bech",
+   "jersey": "18",
+   "pos": "WR",
+   "posName": "Wide Receiver",
+   "group": "Offense",
+   "age": 23,
+   "ht": "6' 1\"",
+   "wt": "214 lbs",
+   "exp": 2,
+   "college": "TCU",
+   "link": "https://www.espn.com/nfl/player/_/id/4603186/jack-bech"
+  },
   {
    "id": "5150247",
    "name": "Malik Benson",
@@ -949,20 +963,6 @@
    "link": "https://www.espn.com/nfl/player/_/id/4682488/dalton-johnson"
   },
   {
-   "id": "4243916",
-   "name": "Patrick Johnson",
-   "jersey": "93",
-   "pos": "DE",
-   "posName": "Defensive End",
-   "group": "Defense",
-   "age": 28,
-   "ht": "6' 2\"",
-   "wt": "248 lbs",
-   "exp": 6,
-   "college": "Tulane",
-   "link": "https://www.espn.com/nfl/player/_/id/4243916/patrick-johnson"
-  },
-  {
    "id": "3121003",
    "name": "Taron Johnson",
    "jersey": "3",
@@ -979,13 +979,13 @@
   {
    "id": "4431414",
    "name": "Tim Keenan III",
-   "jersey": null,
+   "jersey": "91",
    "pos": "DT",
    "posName": "Defensive Tackle",
    "group": "Defense",
    "age": 23,
-   "ht": "6' 1\"",
-   "wt": "327 lbs",
+   "ht": "6' 2\"",
+   "wt": "320 lbs",
    "exp": 0,
    "college": "Alabama",
    "link": "https://www.espn.com/nfl/player/_/id/4431414/tim-keenan-iii"
@@ -1257,20 +1257,6 @@
    "link": "https://www.espn.com/nfl/player/_/id/4360475/chigozie-anusiem"
   },
   {
-   "id": "4603186",
-   "name": "Jack Bech",
-   "jersey": "18",
-   "pos": "WR",
-   "posName": "Wide Receiver",
-   "group": "Injured reserve / out",
-   "age": 23,
-   "ht": "6' 1\"",
-   "wt": "214 lbs",
-   "exp": 2,
-   "college": "TCU",
-   "link": "https://www.espn.com/nfl/player/_/id/4603186/jack-bech"
-  },
-  {
    "id": "4698191",
    "name": "Chris Collier",
    "jersey": "33",
@@ -1311,6 +1297,20 @@
    "exp": 3,
    "college": "Washington State",
    "link": "https://www.espn.com/nfl/player/_/id/4373471/brennan-jackson"
+  },
+  {
+   "id": "4243916",
+   "name": "Patrick Johnson",
+   "jersey": "93",
+   "pos": "DE",
+   "posName": "Defensive End",
+   "group": "Injured reserve / out",
+   "age": 28,
+   "ht": "6' 2\"",
+   "wt": "248 lbs",
+   "exp": 6,
+   "college": "Tulane",
+   "link": "https://www.espn.com/nfl/player/_/id/4243916/patrick-johnson"
   },
   {
    "id": "4688538",
@@ -1584,7 +1584,7 @@
     "cpoeRank": 27
    }
   ],
-  "fetched": "2026-10-31T13:33:36.023Z"
+  "fetched": "2026-11-01T02:05:11.544Z"
  },
  "tendencies": {
   "charted": 1,

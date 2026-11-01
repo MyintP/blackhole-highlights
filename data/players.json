@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-31T13:33:36.023Z",
+ "fetched": "2026-11-01T02:05:11.544Z",
  "throughWeek": 8,
  "players": [
   {
@@ -1699,7 +1699,7 @@
    },
    "jersey": "18",
    "link": "https://www.espn.com/nfl/player/_/id/4603186/jack-bech",
-   "status": "Injured reserve / out"
+   "status": "Offense"
   },
   {
    "id": "dareke-young",
@@ -3515,7 +3515,7 @@
    },
    "jersey": "93",
    "link": "https://www.espn.com/nfl/player/_/id/4243916/patrick-johnson",
-   "status": "Defense"
+   "status": "Injured reserve / out"
   },
   {
    "id": "adam-butler",
@@ -4383,7 +4383,7 @@
     "defPct": 0.26,
     "stPct": 0
    },
-   "jersey": null,
+   "jersey": "91",
    "link": "https://www.espn.com/nfl/player/_/id/4431414/tim-keenan-iii",
    "status": "Defense"
   },
