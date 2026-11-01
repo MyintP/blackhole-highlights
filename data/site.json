@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:07:46.171Z",
+ "updated": "2026-11-01T22:18:10.966Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -529,12 +529,12 @@
     "date": "2026-11-01T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "3:46 - 2nd",
+    "detail": "1:50 - 2nd",
     "postponed": false,
     "away": {
      "id": "24",
      "abbr": "LAC",
-     "score": 6,
+     "score": 9,
      "winner": false
     },
     "home": {
@@ -550,7 +550,7 @@
     "date": "2026-11-01T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "14:08 - 2nd",
+    "detail": "13:04 - 2nd",
     "postponed": false,
     "away": {
      "id": "12",
@@ -1057,67 +1057,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T22:07:46.171Z"
+   "at": "2026-11-01T22:18:10.966Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
