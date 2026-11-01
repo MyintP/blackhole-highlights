@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:15:38.760Z",
+ "updated": "2026-11-01T19:25:58.603Z",
  "season": 2026,
  "record": "3-4",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "2:00 - 2nd",
+  "detail": "Halftime",
   "postponed": false,
   "score": {
    "us": 14,
-   "them": 20
+   "them": 23
   },
   "win": null,
   "tie": false,
@@ -294,11 +294,11 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "2:00 - 2nd",
+    "detail": "Halftime",
     "postponed": false,
     "score": {
      "us": 14,
-     "them": 20
+     "them": 23
     },
     "win": null,
     "tie": false
@@ -511,7 +511,7 @@
     "date": "2026-11-01T18:00Z",
     "state": "in",
     "final": false,
-    "detail": "2:00 - 2nd",
+    "detail": "Halftime",
     "postponed": false,
     "away": {
      "id": "13",
@@ -522,7 +522,7 @@
     "home": {
      "id": "20",
      "abbr": "NYJ",
-     "score": 20,
+     "score": 23,
      "winner": false
     },
     "link": null
@@ -1017,9 +1017,16 @@
    "line": "3 REC, 1 TD"
   },
   {
+   "cat": "Sacks",
+   "name": "Maxx Crosby",
+   "value": "1",
+   "unit": "SACKS",
+   "line": "1"
+  },
+  {
    "cat": "Tackles",
    "name": "Jeremy Chinn",
-   "value": "6",
+   "value": "7",
    "unit": "TOT",
    "line": "1 SOLO"
   }
@@ -1027,67 +1034,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T19:15:38.760Z"
+   "at": "2026-11-01T19:25:58.603Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
