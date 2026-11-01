@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T18:13:30.834Z",
+ "updated": "2026-11-01T18:23:51.732Z",
  "items": [
   {
    "id": "1nod6kd",
@@ -10,7 +10,17 @@
    "kind": "Official",
    "cat": "Games",
    "desc": "Follow along for live updates during game.",
-   "author": null
+   "author": null,
+   "also": [
+    {
+     "id": "nbvafb",
+     "title": "Las Vegas Raiders-New York Jets live updates",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/143564/las-vegas-raiders-new-york-jets-live-updates",
+     "src": "Silver & Black Pride",
+     "date": "2026-11-01T18:16:27.000Z",
+     "kind": "Opinion"
+    }
+   ]
   },
   {
    "id": "98pqr7",
