@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:16:39.935Z",
+ "updated": "2026-11-01T21:26:24.484Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -232,7 +232,7 @@
      "name": "Bills",
      "location": "Buffalo",
      "abbr": "BUF",
-     "record": "5-1"
+     "record": "6-1"
     },
     "tv": "CBS",
     "state": "post",
@@ -525,7 +525,7 @@
     "date": "2026-11-01T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "10:42 - 1st",
+    "detail": "8:39 - 1st",
     "postponed": false,
     "away": {
      "id": "24",
@@ -544,23 +544,23 @@
    {
     "id": "401873033",
     "date": "2026-11-01T21:25Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/1 - 4:25 PM EST",
+    "detail": "15:00 - 1st",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "7",
      "abbr": "DEN",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873033/chiefs-broncos"
+    "link": null
    }
   ],
   "byes": []
@@ -610,25 +610,25 @@
   ],
   "afc": [
    {
+    "id": "2",
+    "name": "Buffalo",
+    "w": 6,
+    "l": 1,
+    "t": 0,
+    "pct": ".857",
+    "seed": 1,
+    "diff": "+52",
+    "us": false
+   },
+   {
     "id": "12",
     "name": "Kansas City",
     "w": 5,
     "l": 1,
     "t": 0,
     "pct": ".833",
-    "seed": 1,
-    "diff": "+40",
-    "us": false
-   },
-   {
-    "id": "2",
-    "name": "Buffalo",
-    "w": 5,
-    "l": 1,
-    "t": 0,
-    "pct": ".833",
     "seed": 2,
-    "diff": "+26",
+    "diff": "+40",
     "us": false
    },
    {
@@ -698,26 +698,26 @@
     "us": false
    },
    {
-    "id": "33",
-    "name": "Baltimore",
-    "w": 4,
-    "l": 3,
-    "t": 0,
-    "pct": ".571",
-    "seed": 9,
-    "diff": "+2",
-    "us": false
-   },
-   {
     "id": "13",
     "name": "Las Vegas",
     "w": 4,
     "l": 4,
     "t": 0,
     "pct": ".500",
-    "seed": 10,
+    "seed": 9,
     "diff": "-9",
     "us": true
+   },
+   {
+    "id": "33",
+    "name": "Baltimore",
+    "w": 4,
+    "l": 4,
+    "t": 0,
+    "pct": ".500",
+    "seed": 10,
+    "diff": "-24",
+    "us": false
    },
    {
     "id": "34",
@@ -1053,71 +1053,71 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "game 8": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T21:16:39.935Z"
+   "at": "2026-11-01T21:26:24.484Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
