@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T23:51:20.171Z",
+ "updated": "2026-11-02T00:01:46.733Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -136,7 +136,7 @@
      "name": "Chargers",
      "location": "Los Angeles",
      "abbr": "LAC",
-     "record": "0-6"
+     "record": "0-7"
     },
     "tv": "CBS",
     "state": "post",
@@ -261,7 +261,7 @@
      "name": "Rams",
      "location": "Los Angeles",
      "abbr": "LAR",
-     "record": "3-4"
+     "record": "4-4"
     },
     "tv": "Fox",
     "state": "post",
@@ -399,7 +399,7 @@
      "name": "Chargers",
      "location": "Los Angeles",
      "abbr": "LAC",
-     "record": "0-6"
+     "record": "0-7"
     },
     "tv": "CBS",
     "state": "pre",
@@ -527,9 +527,9 @@
    {
     "id": "401873032",
     "date": "2026-11-01T21:05Z",
-    "state": "in",
-    "final": false,
-    "detail": "2:00 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "24",
@@ -541,16 +541,16 @@
      "id": "14",
      "abbr": "LAR",
      "score": 24,
-     "winner": false
+     "winner": true
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873032/chargers-rams"
    },
    {
     "id": "401873033",
     "date": "2026-11-01T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "1:06 - 3rd",
+    "detail": "13:13 - 4th",
     "postponed": false,
     "away": {
      "id": "12",
@@ -605,10 +605,10 @@
     "id": "24",
     "name": "LA Chargers",
     "w": 0,
-    "l": 6,
+    "l": 7,
     "t": 0,
     "pct": ".000",
-    "diff": "-61",
+    "diff": "-76",
     "us": false
    }
   ],
@@ -782,11 +782,11 @@
     "id": "24",
     "name": "LA Chargers",
     "w": 0,
-    "l": 6,
+    "l": 7,
     "t": 0,
     "pct": ".000",
     "seed": 16,
-    "diff": "-61",
+    "diff": "-76",
     "us": false
    }
   ]
@@ -1057,67 +1057,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-01T23:51:20.171Z"
+   "at": "2026-11-02T00:01:46.733Z"
   }
  },
  "nflverseTried": "2026-11-01T14:05:25.736Z"
