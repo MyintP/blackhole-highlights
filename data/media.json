@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:28:33.896Z",
+ "updated": "2026-11-02T07:34:30.908Z",
  "youtube": [],
  "podcasts": [
   {
@@ -89,6 +89,13 @@
  ],
  "espn": [
   {
+   "title": "Raiders snap four-game losing streak",
+   "link": "https://www.espn.com/video/clip/_/id/50355079/raiders-snap-four-game-losing-streak",
+   "date": "2026-11-02T03:35:08Z",
+   "desc": "Ryan McFadden recaps Ashton Jeanty's involvement in the Raiders' win over the Jets.",
+   "src": "ESPN"
+  },
+  {
    "title": "Las Vegas Raiders vs. New York Jets: Game Highlights",
    "link": "https://www.espn.com/video/clip/_/id/50351513/game-highlights",
    "date": "2026-11-01T22:01:09Z",
@@ -100,13 +107,6 @@
    "link": "https://www.espn.com/video/clip/_/id/50349515/ashton-jeanty-worst-rb-draft-pick-last-20-years",
    "date": "2026-11-01T18:46:40Z",
    "desc": "Rex Ryan: Ashton Jeanty about the worst RB draft pick in the last 20 years",
-   "src": "ESPN"
-  },
-  {
-   "title": "Can the Raiders get Jalen Nailor more involved?",
-   "link": "https://www.espn.com/video/clip/_/id/50332498/can-raiders-get-jalen-nailor-more-involved",
-   "date": "2026-11-01T13:09:10Z",
-   "desc": "Ryan McFadden breaks down Jalen Nailor's lack of opportunities with the Raiders so far.",
    "src": "ESPN"
   }
  ]

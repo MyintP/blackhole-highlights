@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-01T14:05:25.736Z",
+ "updated": "2026-11-02T07:34:30.908Z",
  "season": 2026,
  "team": [
   {
    "key": "totalPointsPerGame",
    "label": "Points per game",
-   "value": "26.1",
-   "v": 26.14,
+   "value": "27.6",
+   "v": 27.63,
    "rank": "6th"
   },
   {
    "key": "yardsPerGame",
    "label": "Total yards per game",
-   "value": "351.6",
-   "v": 351.571,
-   "rank": "15th"
+   "value": "350.4",
+   "v": 350.375,
+   "rank": "16th"
   },
   {
    "key": "passingYardsPerGame",
    "label": "Passing yards per game",
-   "value": "276.9",
-   "v": 276.857,
+   "value": "273.1",
+   "v": 273.125,
    "rank": "5th"
   },
   {
    "key": "rushingYardsPerGame",
    "label": "Rushing yards per game",
-   "value": "74.7",
-   "v": 74.7,
+   "value": "77.3",
+   "v": 77.3,
    "rank": "31st"
   },
   {
@@ -40,50 +40,50 @@
   {
    "key": "completionPct",
    "label": "Completion %",
-   "value": "63.2",
-   "v": 63.2,
-   "rank": "20th"
+   "value": "64.0",
+   "v": 64,
+   "rank": "18th"
   },
   {
    "key": "QBRating",
    "label": "Passer rating",
-   "value": "97.3",
-   "v": 97.3,
-   "rank": "9th"
+   "value": "101.2",
+   "v": 101.2,
+   "rank": "6th"
   },
   {
    "key": "thirdDownConvPct",
    "label": "3rd-down conversion %",
-   "value": "39.13",
-   "v": 39.13,
-   "rank": "T-16th"
+   "value": "41.75",
+   "v": 41.748,
+   "rank": "10th"
   },
   {
    "key": "redzoneScoringPct",
    "label": "Red-zone scoring %",
-   "value": "85.71",
-   "v": 85.71,
-   "rank": "T-20th"
+   "value": "87.50",
+   "v": 87.5,
+   "rank": "16th"
   },
   {
    "key": "turnOverDifferential",
    "label": "Turnover differential",
-   "value": "4",
-   "v": 4,
-   "rank": "T-5th"
+   "value": "5",
+   "v": 5,
+   "rank": "T-4th"
   },
   {
    "key": "sacks",
    "label": "Defensive sacks",
-   "value": "16",
-   "v": 16,
-   "rank": "T-16th"
+   "value": "18",
+   "v": 18,
+   "rank": "T-14th"
   },
   {
    "key": "interceptions",
    "label": "Interceptions",
-   "value": "5",
-   "v": 5,
+   "value": "6",
+   "v": 6,
    "rank": "T-10th"
   }
  ],
@@ -97,8 +97,8 @@
      "name": "Kirk Cousins",
      "pos": "QB",
      "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
-     "value": 1877,
-     "line": "1,877"
+     "value": 2124,
+     "line": "2,124"
     },
     {
      "id": "4837248",
@@ -127,16 +127,16 @@
      "name": "Ashton Jeanty",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
-     "value": 328,
-     "line": "328"
+     "value": 337,
+     "line": "337"
     },
     {
      "id": "4686658",
      "name": "Mike Washington Jr.",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr",
-     "value": 195,
-     "line": "195"
+     "value": 278,
+     "line": "278"
     },
     {
      "id": "4366963",
@@ -151,8 +151,8 @@
      "name": "Kirk Cousins",
      "pos": "QB",
      "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
-     "value": 4,
-     "line": "4"
+     "value": 7,
+     "line": "7"
     },
     {
      "id": "4837248",
@@ -193,6 +193,14 @@
    "label": "Receiving",
    "rows": [
     {
+     "id": "4432665",
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
+     "value": 547,
+     "line": "547"
+    },
+    {
      "id": "4428718",
      "name": "Tre Tucker",
      "pos": "WR",
@@ -201,28 +209,28 @@
      "line": "474"
     },
     {
-     "id": "4432665",
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
-     "value": 455,
-     "line": "455"
-    },
-    {
      "id": "4890973",
      "name": "Ashton Jeanty",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
-     "value": 312,
-     "line": "312"
+     "value": 376,
+     "line": "376"
     },
     {
      "id": "4429086",
      "name": "Michael Mayer",
      "pos": "TE",
      "link": "https://www.espn.com/nfl/player/_/id/4429086/michael-mayer",
-     "value": 298,
-     "line": "298"
+     "value": 351,
+     "line": "351"
+    },
+    {
+     "id": "4382466",
+     "name": "Jalen Nailor",
+     "pos": "WR",
+     "link": "https://www.espn.com/nfl/player/_/id/4382466/jalen-nailor",
+     "value": 113,
+     "line": "113"
     },
     {
      "id": "4241983",
@@ -231,14 +239,6 @@
      "link": "https://www.espn.com/nfl/player/_/id/4241983/cody-white",
      "value": 112,
      "line": "112"
-    },
-    {
-     "id": "4382466",
-     "name": "Jalen Nailor",
-     "pos": "WR",
-     "link": "https://www.espn.com/nfl/player/_/id/4382466/jalen-nailor",
-     "value": 75,
-     "line": "75"
     },
     {
      "id": "4045305",
@@ -267,30 +267,38 @@
      "name": "Nakobe Dean",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
-     "value": 68,
-     "line": "68"
+     "value": 80,
+     "line": "80"
     },
     {
      "id": "4379416",
      "name": "Quay Walker",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4379416/quay-walker",
-     "value": 52,
-     "line": "52"
+     "value": 61,
+     "line": "61"
     },
     {
      "id": "4043169",
      "name": "Jeremy Chinn",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
-     "value": 46,
-     "line": "46"
+     "value": 56,
+     "line": "56"
     },
     {
      "id": "4697757",
      "name": "Treydan Stukes",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
+     "value": 38,
+     "line": "38"
+    },
+    {
+     "id": "4259561",
+     "name": "Eric Stokes",
+     "pos": "CB",
+     "link": "https://www.espn.com/nfl/player/_/id/4259561/eric-stokes",
      "value": 30,
      "line": "30"
     },
@@ -299,32 +307,24 @@
      "name": "Taron Johnson",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson",
-     "value": 27,
-     "line": "27"
+     "value": 28,
+     "line": "28"
     },
     {
      "id": "4917354",
      "name": "Hezekiah Masses",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
-     "value": 26,
-     "line": "26"
+     "value": 27,
+     "line": "27"
     },
     {
-     "id": "4259561",
-     "name": "Eric Stokes",
-     "pos": "CB",
-     "link": "https://www.espn.com/nfl/player/_/id/4259561/eric-stokes",
+     "id": "3916655",
+     "name": "Maxx Crosby",
+     "pos": "DE",
+     "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
      "value": 22,
      "line": "22"
-    },
-    {
-     "id": "4430330",
-     "name": "Darien Porter",
-     "pos": "CB",
-     "link": "https://www.espn.com/nfl/player/_/id/4430330/darien-porter",
-     "value": 19,
-     "line": "19"
     }
    ]
   },
@@ -332,6 +332,14 @@
    "key": "sacks",
    "label": "Sacks",
    "rows": [
+    {
+     "id": "3916655",
+     "name": "Maxx Crosby",
+     "pos": "DE",
+     "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
+     "value": 3,
+     "line": "3"
+    },
     {
      "id": "4239719",
      "name": "Malcolm Koonce",
@@ -347,14 +355,6 @@
      "link": "https://www.espn.com/nfl/player/_/id/4258194/kwity-paye",
      "value": 3,
      "line": "3"
-    },
-    {
-     "id": "3916655",
-     "name": "Maxx Crosby",
-     "pos": "DE",
-     "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
-     "value": 2,
-     "line": "2"
     },
     {
      "id": "4379416",
@@ -409,6 +409,14 @@
      "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
      "value": 3,
      "line": "3"
+    },
+    {
+     "id": "4043169",
+     "name": "Jeremy Chinn",
+     "pos": "S",
+     "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
+     "value": 1,
+     "line": "1"
     },
     {
      "id": "4426340",
@@ -941,7 +949,7 @@
    "pos": "DT",
    "posName": "Defensive Tackle",
    "group": "Defense",
-   "age": 24,
+   "age": 25,
    "ht": "6' 2\"",
    "wt": "284 lbs",
    "exp": 2,
@@ -1081,7 +1089,7 @@
    "pos": "LB",
    "posName": "Linebacker",
    "group": "Defense",
-   "age": 26,
+   "age": 27,
    "ht": "6' 2\"",
    "wt": "220 lbs",
    "exp": 4,
@@ -1498,7 +1506,7 @@
  "advanced": {
   "throughWeek": 8,
   "teams": 32,
-  "qualifiedQbs": 34,
+  "qualifiedQbs": 35,
   "minDropbacks": 100,
   "metrics": [
    {
@@ -1506,106 +1514,106 @@
     "label": "EPA per play",
     "side": "off",
     "higher": true,
-    "v": 0.013,
-    "rank": 15,
-    "nfl": 0.011
+    "v": 0.041,
+    "rank": 12,
+    "nfl": 0.007
    },
    {
     "key": "sr",
     "label": "Success rate",
     "side": "off",
     "higher": true,
-    "v": 0.429,
-    "rank": 17,
-    "nfl": 0.437
+    "v": 0.438,
+    "rank": 14,
+    "nfl": 0.438
    },
    {
     "key": "pass",
     "label": "EPA per dropback",
     "side": "off",
     "higher": true,
-    "v": 0.156,
-    "rank": 9,
-    "nfl": 0.08
+    "v": 0.201,
+    "rank": 7,
+    "nfl": 0.073
    },
    {
     "key": "rush",
     "label": "EPA per rush",
     "side": "off",
     "higher": true,
-    "v": -0.252,
-    "rank": 31,
-    "nfl": -0.098
+    "v": -0.233,
+    "rank": 30,
+    "nfl": -0.096
    },
    {
     "key": "epa",
     "label": "EPA per play allowed",
     "side": "def",
     "higher": false,
-    "v": 0.038,
-    "rank": 22,
-    "nfl": 0.011
+    "v": 0.062,
+    "rank": 25,
+    "nfl": 0.007
    },
    {
     "key": "sr",
     "label": "Success rate allowed",
     "side": "def",
     "higher": false,
-    "v": 0.47,
-    "rank": 27,
-    "nfl": 0.437
+    "v": 0.473,
+    "rank": 30,
+    "nfl": 0.438
    },
    {
     "key": "pass",
     "label": "EPA per dropback allowed",
     "side": "def",
     "higher": false,
-    "v": 0.138,
-    "rank": 23,
-    "nfl": 0.08
+    "v": 0.158,
+    "rank": 25,
+    "nfl": 0.073
    },
    {
     "key": "rush",
     "label": "EPA per rush allowed",
     "side": "def",
     "higher": false,
-    "v": -0.105,
-    "rank": 13,
-    "nfl": -0.098
+    "v": -0.077,
+    "rank": 21,
+    "nfl": -0.096
    }
   ],
   "passers": [
    {
     "name": "K.Cousins",
-    "dropbacks": 269,
-    "epa": 0.143,
-    "epaRank": 11,
-    "cpoe": -2,
-    "cpoeRank": 27
+    "dropbacks": 296,
+    "epa": 0.185,
+    "epaRank": 9,
+    "cpoe": -0.4,
+    "cpoeRank": 22
    }
   ],
-  "fetched": "2026-11-01T14:05:25.736Z"
+  "fetched": "2026-11-02T07:34:30.908Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.902,
   "rows": [
    {
     "key": "passRate",
     "label": "Pass rate",
     "side": "off",
     "fmt": "pct",
-    "v": 0.648,
-    "rank": 8,
-    "nfl": 0.616
+    "v": 0.63,
+    "rank": 12,
+    "nfl": 0.611
    },
    {
     "key": "earlyPass",
     "label": "Early-down pass rate",
     "side": "off",
     "fmt": "pct",
-    "v": 0.586,
-    "rank": 10,
-    "nfl": 0.56
+    "v": 0.57,
+    "rank": 14,
+    "nfl": 0.556
    },
    {
     "key": "shotgun",
@@ -1657,18 +1665,18 @@
     "label": "No huddle",
     "side": "off",
     "fmt": "pct",
-    "v": 0.085,
+    "v": 0.081,
     "rank": 8,
-    "nfl": 0.064
+    "nfl": 0.065
    },
    {
     "key": "adot",
     "label": "Average depth of target (yds)",
     "side": "off",
     "fmt": "num",
-    "v": 8.125,
+    "v": 8.035,
     "rank": 10,
-    "nfl": 7.781
+    "nfl": 7.748
    },
    {
     "key": "blitz",
@@ -1711,18 +1719,18 @@
     "label": "Sack rate",
     "side": "def",
     "fmt": "pct",
-    "v": 0.064,
+    "v": 0.063,
     "rank": 16,
-    "nfl": 0.06
+    "nfl": 0.062
    },
    {
     "key": "hitRate",
     "label": "QB hit rate",
     "side": "def",
     "fmt": "pct",
-    "v": 0.183,
-    "rank": 4,
-    "nfl": 0.15
+    "v": 0.171,
+    "rank": 6,
+    "nfl": 0.152
    }
   ]
  }

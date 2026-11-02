@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T00:43:41.909Z",
+ "updated": "2026-11-02T07:34:30.908Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -798,43 +798,43 @@
    {
     "label": "Points / game",
     "us": {
-     "v": 26.14,
+     "v": 27.63,
      "rank": "6th"
     },
     "them": {
      "v": 28.14,
-     "rank": "3rd"
+     "rank": "4th"
     },
     "higher": true
    },
    {
     "label": "Total offense",
     "us": {
-     "v": 351.571,
-     "rank": "15th"
+     "v": 350.375,
+     "rank": "16th"
     },
     "them": {
      "v": 377.143,
-     "rank": "9th"
+     "rank": "8th"
     },
     "higher": true
    },
    {
     "label": "Passing offense",
     "us": {
-     "v": 276.857,
+     "v": 273.125,
      "rank": "5th"
     },
     "them": {
      "v": 249.714,
-     "rank": "12th"
+     "rank": "13th"
     },
     "higher": true
    },
    {
     "label": "Rushing offense",
     "us": {
-     "v": 74.7,
+     "v": 77.3,
      "rank": "31st"
     },
     "them": {
@@ -846,7 +846,7 @@
    {
     "label": "Yards allowed",
     "us": {
-     "v": 388.7,
+     "v": 397.1,
      "rank": null
     },
     "them": {
@@ -1021,27 +1021,27 @@
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "1,877",
+   "value": "2,124",
    "unit": "YDS",
-   "line": "161/257, 16 TD, 5 INT"
+   "line": "180/283, 19 TD, 5 INT"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "328",
+   "value": "337",
    "unit": "YDS",
-   "line": "106 CAR, 1 TD"
+   "line": "108 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
-   "name": "Tre Tucker",
-   "value": "474",
+   "name": "Brock Bowers",
+   "value": "547",
    "unit": "YDS",
-   "line": "29 REC, 4 TD"
+   "line": "41 REC, 5 TD"
   },
   {
    "cat": "Sacks",
-   "name": "Malcolm Koonce",
+   "name": "Maxx Crosby",
    "value": "3",
    "unit": "SACKS",
    "line": "3"
@@ -1049,76 +1049,113 @@
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "68",
+   "value": "80",
    "unit": "TOT",
-   "line": "68"
+   "line": "80"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   },
   "videos": {
-   "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "ok": false,
+   "at": "2026-11-02T07:34:30.908Z",
+   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-02T00:43:41.909Z"
+   "at": "2026-11-02T07:34:30.908Z"
   }
  },
- "nflverseTried": "2026-11-01T14:05:25.736Z"
+ "nflverseTried": "2026-11-02T07:34:30.908Z"
 }

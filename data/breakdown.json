@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-01T14:05:25.736Z",
+ "fetched": "2026-11-02T07:34:30.908Z",
  "throughWeek": 8,
  "games": {
   "401872928": {
@@ -2796,6 +2796,416 @@
     {
      "kicker": "M.Gay",
      "dist": 36,
+     "result": "made"
+    }
+   ]
+  },
+  "401873029": {
+   "week": 8,
+   "home": false,
+   "offense": {
+    "plays": 61,
+    "epa": 0.254,
+    "sr": 0.508,
+    "pass": {
+     "plays": 30,
+     "epa": 0.655
+    },
+    "rush": {
+     "plays": 31,
+     "epa": -0.133
+    },
+    "explosive": 4,
+    "third": [
+     9,
+     13
+    ]
+   },
+   "defense": {
+    "plays": 64,
+    "epa": 0.233,
+    "sr": 0.5,
+    "pass": {
+     "plays": 38,
+     "epa": 0.303
+    },
+    "rush": {
+     "plays": 26,
+     "epa": 0.13
+    },
+    "explosive": 10,
+    "third": [
+     4,
+     11
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "12:53",
+     "team": "NYJ",
+     "desc": "(12:53) 19-J.Sanders 21 yard field goal is GOOD, Center-42-T.Hennessy, Holder-14-A.McNamara.",
+     "score": {
+      "us": 0,
+      "them": 3
+     }
+    },
+    {
+     "qtr": 1,
+     "time": "07:29",
+     "team": "LV",
+     "desc": "(7:29) (Shotgun) 8-K.Cousins pass short left to 89-B.Bowers for 12 yards, TOUCHDOWN. Penalty on NYJ-2-J.Brownlee, Defensive Pass Interference, declined.",
+     "score": {
+      "us": 7,
+      "them": 3
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 1,
+     "time": "02:17",
+     "team": "NYJ",
+     "desc": "(2:17) 19-J.Sanders 36 yard field goal is GOOD, Center-42-T.Hennessy, Holder-14-A.McNamara.",
+     "score": {
+      "us": 7,
+      "them": 6
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "11:00",
+     "team": "NYJ",
+     "desc": "(11:00) (Shotgun) 7-G.Smith pass deep middle to 18-I.Williams for 18 yards, TOUCHDOWN. Penalty on LV-28-J.McCoy, Defensive Holding, declined.",
+     "score": {
+      "us": 7,
+      "them": 13
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "10:56",
+     "team": "LV",
+     "desc": "14-A.McNamara kicks 60 yards from NYJ 35 to LV 5. 23-D.Laube for 95 yards, TOUCHDOWN.",
+     "score": {
+      "us": 14,
+      "them": 13
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "06:23",
+     "team": "NYJ",
+     "desc": "(6:23) (Shotgun) 7-G.Smith pass short right to 15-A.Mitchell for 12 yards, TOUCHDOWN.",
+     "score": {
+      "us": 14,
+      "them": 20
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "00:14",
+     "team": "NYJ",
+     "desc": "(:14) 19-J.Sanders 39 yard field goal is GOOD, Center-42-T.Hennessy, Holder-14-A.McNamara.",
+     "score": {
+      "us": 14,
+      "them": 23
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "10:05",
+     "team": "LV",
+     "desc": "(10:05) 8-K.Cousins pass short middle to 89-B.Bowers for 2 yards, TOUCHDOWN.",
+     "score": {
+      "us": 21,
+      "them": 23
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "08:26",
+     "team": "NYJ",
+     "desc": "(8:26) (Shotgun) 0-B.Allen left end for 21 yards, TOUCHDOWN.",
+     "score": {
+      "us": 21,
+      "them": 30
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "04:17",
+     "team": "LV",
+     "desc": "(4:17) 76-C.Rogers reported in as eligible. 8-K.Cousins up the middle for 1 yard, TOUCHDOWN. Penalty on NYJ-52-K.Enagbare, Defensive Offside, declined.",
+     "score": {
+      "us": 28,
+      "them": 30
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "11:37",
+     "team": "LV",
+     "desc": "(11:37) (Shotgun) 8-K.Cousins pass short right to 9-J.Nailor for 2 yards, TOUCHDOWN [92-N.Lynn].",
+     "score": {
+      "us": 35,
+      "them": 30
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "04:35",
+     "team": "NYJ",
+     "desc": "(4:35) 19-J.Sanders 31 yard field goal is GOOD, Center-42-T.Hennessy, Holder-14-A.McNamara.",
+     "score": {
+      "us": 35,
+      "them": 33
+     }
+    },
+    {
+     "qtr": 4,
+     "time": "00:31",
+     "team": "LV",
+     "desc": "(:31) 14-M.Gay 53 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 38,
+      "them": 33
+     }
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 4,
+     "time": "06:11",
+     "wpa": -0.191,
+     "desc": "(6:11) (Shotgun) 7-G.Smith pass deep left to 15-A.Mitchell to LV 13 for 47 yards (31-T.Stukes)."
+    },
+    {
+     "qtr": 4,
+     "time": "15:00",
+     "wpa": 0.184,
+     "desc": "(15:00) (Shotgun) 8-K.Cousins pass short left to 2-A.Jeanty to NYJ 13 for 45 yards (44-J.Sherwood; 29-M.Fitzpatrick)."
+    },
+    {
+     "qtr": 4,
+     "time": "00:14",
+     "wpa": 0.18,
+     "desc": "(:14) (Shotgun) 7-G.Smith pass deep left intended for 5-G.Wilson INTERCEPTED by 11-J.Chinn [98-M.Crosby] at LV -6. Touchback."
+    },
+    {
+     "qtr": 2,
+     "time": "10:56",
+     "wpa": 0.153,
+     "desc": "14-A.McNamara kicks 60 yards from NYJ 35 to LV 5. 23-D.Laube for 95 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 4,
+     "time": "00:20",
+     "wpa": -0.109,
+     "desc": "(:20) (Shotgun) 7-G.Smith pass short left to 5-G.Wilson to 50 for 15 yards (11-J.Chinn). PENALTY on LV-11-J.Chinn, Unnecessary Roughness, 15 yards, enforced at 50."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "NYJ",
+     "qtr": 1,
+     "start": "NYJ 35",
+     "plays": 7,
+     "top": "2:10",
+     "result": "Field goal"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 40",
+     "plays": 10,
+     "top": "5:27",
+     "result": "Touchdown"
+    },
+    {
+     "n": 3,
+     "team": "NYJ",
+     "qtr": 1,
+     "start": "NYJ 35",
+     "plays": 12,
+     "top": "5:10",
+     "result": "Field goal"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 32",
+     "plays": 3,
+     "top": "2:26",
+     "result": "Punt"
+    },
+    {
+     "n": 5,
+     "team": "NYJ",
+     "qtr": 2,
+     "start": "NYJ 30",
+     "plays": 8,
+     "top": "3:51",
+     "result": "Touchdown"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": null,
+     "plays": 0,
+     "top": "0:12",
+     "result": "Touchdown"
+    },
+    {
+     "n": 7,
+     "team": "NYJ",
+     "qtr": 2,
+     "start": "NYJ 35",
+     "plays": 8,
+     "top": "4:26",
+     "result": "Touchdown"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 30",
+     "plays": 5,
+     "top": "2:29",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 9,
+     "team": "NYJ",
+     "qtr": 2,
+     "start": "NYJ 46",
+     "plays": 9,
+     "top": "3:40",
+     "result": "Field goal"
+    },
+    {
+     "n": 10,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 35",
+     "plays": 1,
+     "top": "0:09",
+     "result": "End of half"
+    },
+    {
+     "n": 11,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 35",
+     "plays": 10,
+     "top": "5:01",
+     "result": "Touchdown"
+    },
+    {
+     "n": 12,
+     "team": "NYJ",
+     "qtr": 3,
+     "start": "NYJ 42",
+     "plays": 3,
+     "top": "1:39",
+     "result": "Touchdown"
+    },
+    {
+     "n": 13,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 35",
+     "plays": 10,
+     "top": "4:06",
+     "result": "Touchdown"
+    },
+    {
+     "n": 14,
+     "team": "NYJ",
+     "qtr": 3,
+     "start": "NYJ 35",
+     "plays": 3,
+     "top": "2:41",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 16",
+     "plays": 9,
+     "top": "5:00",
+     "result": "Touchdown"
+    },
+    {
+     "n": 16,
+     "team": "NYJ",
+     "qtr": 4,
+     "start": "NYJ 24",
+     "plays": 3,
+     "top": "1:27",
+     "result": "Punt"
+    },
+    {
+     "n": 17,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 29",
+     "plays": 3,
+     "top": "0:57",
+     "result": "Punt"
+    },
+    {
+     "n": 18,
+     "team": "NYJ",
+     "qtr": 4,
+     "start": "NYJ 19",
+     "plays": 9,
+     "top": "4:38",
+     "result": "Field goal"
+    },
+    {
+     "n": 19,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 35",
+     "plays": 9,
+     "top": "4:04",
+     "result": "Field goal"
+    },
+    {
+     "n": 20,
+     "team": "NYJ",
+     "qtr": 4,
+     "start": "NYJ 35",
+     "plays": 3,
+     "top": "0:20",
+     "result": "Turnover"
+    },
+    {
+     "n": 21,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 20",
+     "plays": 1,
+     "top": "0:07",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 53,
      "result": "made"
     }
    ]

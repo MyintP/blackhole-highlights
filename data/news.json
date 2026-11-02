@@ -1,6 +1,93 @@
 {
- "updated": "2026-11-02T00:43:41.909Z",
+ "updated": "2026-11-02T07:34:30.908Z",
  "items": [
+  {
+   "id": "8tlp3u",
+   "title": "Malosos rompen sequía con triunfo ante los Jets",
+   "link": "https://www.raiders.com/news/malosos-rompen-sequia-con-triunfo-ante-los-jets",
+   "src": "Raiders.com",
+   "date": "2026-11-02T03:58:25.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "Kirk Cousins lanzó tres pases de anotación y Dylan Laube obtuvo un regreso de patada de salida de 95 yardas para encabezar la remontada en Nueva York.",
+   "author": null
+  },
+  {
+   "id": "q26qz6",
+   "title": "Vegas Sports Sunday: Raiders beat Jets, snap losing streak",
+   "link": "https://www.reviewjournal.com/sports/raiders/vegas-sports-sunday-raiders-beat-jets-snap-losing-streak-3908297/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-02T03:17:33.000Z",
+   "kind": "Reporting",
+   "cat": "Games",
+   "desc": "In this episode of Vegas Sports Sunday, the Review-Journal’s Dominic Lavoie and Heidi Fang recap the Raiders’ win over the Jets and dive into the latest in UNLV athletics.",
+   "author": "Las Vegas Review-Journal",
+   "also": [
+    {
+     "id": "f6oyz6",
+     "title": "Raiders snap losing streak, beat Jets in road shootout",
+     "link": "https://www.reviewjournal.com/sports/raiders/raiders-snap-losing-streak-beat-jets-in-road-shootout-3908113/",
+     "src": "Las Vegas Review-Journal",
+     "date": "2026-11-01T21:12:32.000Z",
+     "kind": "Reporting"
+    }
+   ]
+  },
+  {
+   "id": "c6lwbz",
+   "title": "Maxx Crosby Trade Rumors Addressed by One of His Closest Media Personalities",
+   "link": "https://www.raidersbeat.com/maxx-crosby-trade-rumors-addressed-by-one-of-his-closest-media-personalities/",
+   "src": "RaidersBeat",
+   "date": "2026-11-02T03:13:31.000Z",
+   "kind": "Rumor",
+   "cat": "Roster",
+   "desc": "Trade rumors have been swirling around Maxx Crosby for weeks, and while it’s always... The post Maxx Crosby Trade Rumors Addressed by One of His Closest Media Personalities appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "1p20dt8",
+   "title": "Raiders vs. 49ers odds: Opening lines for Week 9 matchup",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-odds/144702/raiders-vs-49ers-odds-week-9-opening-lines-point-spread-total",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-02T02:30:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "The Las Vegas Raiders ended their four-game skid on Sunday. They beat the New York Jets in a second-half comeback, winning 38-33 on the road. Now the Raiders face a tough stretch against the NFC West. First up is the San Francisco 49ers on the road. The 49ers ",
+   "author": "Marcus Johnson"
+  },
+  {
+   "id": "9lc5ve",
+   "title": "Raiders Could Find Kirk Cousins Trade Partner in the Minnesota Vikings",
+   "link": "https://www.raidersbeat.com/raiders-could-find-kirk-cousins-trade-partner-in-the-minnesota-vikings/",
+   "src": "RaidersBeat",
+   "date": "2026-11-02T01:43:56.000Z",
+   "kind": "Opinion",
+   "cat": "Roster",
+   "desc": "Kirk Cousins is focused on the season he is having in Las Vegas, but... The post Raiders Could Find Kirk Cousins Trade Partner in the Minnesota Vikings appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "1w8p53",
+   "title": "Josh Jacobs lawyers: Evidence disputes women’s allegations from his Raiders years",
+   "link": "https://www.reviewjournal.com/sports/raiders/josh-jacobs-lawyers-evidence-disputes-womens-allegations-from-his-raiders-years-3908199/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-02T01:10:46.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Lawyers for Green Bay Packers running back Josh Jacobs say he has “tangible evidence” that disputes allegations made by three women of incidents during his time with the Las Vegas Raiders.",
+   "author": "Steve Megargee The Associated Press"
+  },
+  {
+   "id": "1kh7fig",
+   "title": "‘It’s not always going to be pretty’: Raiders manage margins to take down Jets",
+   "link": "https://www.reviewjournal.com/sports/raiders/its-not-always-going-to-be-pretty-raiders-manage-margins-to-take-down-jets-3908185/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-02T00:49:19.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Outpossessed almost double in the first half, the Raiders flipped the script in the second with lengthy, meticulous scoring drives that kept the Jets offense at bay.",
+   "author": "Sam Gordon"
+  },
   {
    "id": "1ai4674",
    "title": "'It's not always going to be pretty': Raiders show grit to overcome nine-point deficit",
@@ -132,17 +219,6 @@
    "cat": "Games",
    "desc": "Here’s how the Las Vegas Raiders graded out in a win over to the New York Jets at MetLife Stadium in East Rutherford, New Jersey, on Sunday.",
    "author": "Adam Hill"
-  },
-  {
-   "id": "f6oyz6",
-   "title": "Raiders snap losing streak, beat Jets in road shootout",
-   "link": "https://www.reviewjournal.com/sports/raiders/raiders-snap-losing-streak-beat-jets-in-road-shootout-3908113/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-11-01T21:12:32.000Z",
-   "kind": "Reporting",
-   "cat": "Games",
-   "desc": "The Raiders evened their record again with a road victory over the Jets despite New York racking up 439 yards from scrimmage.",
-   "author": "Sam Gordon"
   },
   {
    "id": "1cblo6c",
