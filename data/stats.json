@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T09:25:18.914Z",
+ "updated": "2026-11-03T17:41:52.386Z",
  "season": 2026,
  "team": [
   {
@@ -1516,7 +1516,7 @@
     "higher": true,
     "v": 0.041,
     "rank": 12,
-    "nfl": 0.007
+    "nfl": 0.008
    },
    {
     "key": "sr",
@@ -1534,7 +1534,7 @@
     "higher": true,
     "v": 0.201,
     "rank": 7,
-    "nfl": 0.073
+    "nfl": 0.072
    },
    {
     "key": "rush",
@@ -1543,7 +1543,7 @@
     "higher": true,
     "v": -0.233,
     "rank": 30,
-    "nfl": -0.096
+    "nfl": -0.094
    },
    {
     "key": "epa",
@@ -1552,7 +1552,7 @@
     "higher": false,
     "v": 0.062,
     "rank": 25,
-    "nfl": 0.007
+    "nfl": 0.008
    },
    {
     "key": "sr",
@@ -1570,7 +1570,7 @@
     "higher": false,
     "v": 0.158,
     "rank": 25,
-    "nfl": 0.073
+    "nfl": 0.072
    },
    {
     "key": "rush",
@@ -1579,7 +1579,7 @@
     "higher": false,
     "v": -0.077,
     "rank": 21,
-    "nfl": -0.096
+    "nfl": -0.094
    }
   ],
   "passers": [
@@ -1589,13 +1589,13 @@
     "epa": 0.185,
     "epaRank": 9,
     "cpoe": -0.4,
-    "cpoeRank": 22
+    "cpoeRank": 21
    }
   ],
-  "fetched": "2026-11-03T01:30:23.092Z"
+  "fetched": "2026-11-03T17:41:52.386Z"
  },
  "tendencies": {
-  "charted": 0.902,
+  "charted": 0.992,
   "rows": [
    {
     "key": "passRate",
@@ -1620,45 +1620,45 @@
     "label": "Shotgun or pistol",
     "side": "off",
     "fmt": "pct",
-    "v": 0.603,
-    "rank": 17,
-    "nfl": 0.613
+    "v": 0.57,
+    "rank": 24,
+    "nfl": 0.621
    },
    {
     "key": "motion",
     "label": "Motion at the snap",
     "side": "off",
     "fmt": "pct",
-    "v": 0.614,
-    "rank": 12,
-    "nfl": 0.58
+    "v": 0.623,
+    "rank": 11,
+    "nfl": 0.588
    },
    {
     "key": "playAction",
     "label": "Play action (of dropbacks)",
     "side": "off",
     "fmt": "pct",
-    "v": 0.225,
-    "rank": 14,
-    "nfl": 0.226
+    "v": 0.248,
+    "rank": 12,
+    "nfl": 0.228
    },
    {
     "key": "screen",
     "label": "Screens (of passes)",
     "side": "off",
     "fmt": "pct",
-    "v": 0.086,
-    "rank": 15,
-    "nfl": 0.081
+    "v": 0.084,
+    "rank": 14,
+    "nfl": 0.082
    },
    {
     "key": "rpo",
     "label": "RPOs",
     "side": "off",
     "fmt": "pct",
-    "v": 0.028,
-    "rank": 25,
-    "nfl": 0.046
+    "v": 0.026,
+    "rank": 27,
+    "nfl": 0.05
    },
    {
     "key": "noHuddle",
@@ -1676,43 +1676,43 @@
     "fmt": "num",
     "v": 8.035,
     "rank": 10,
-    "nfl": 7.748
+    "nfl": 7.75
    },
    {
     "key": "blitz",
     "label": "Blitz rate (of dropbacks)",
     "side": "def",
     "fmt": "pct",
-    "v": 0.275,
+    "v": 0.273,
     "rank": 19,
-    "nfl": 0.313
+    "nfl": 0.318
    },
    {
     "key": "rushers",
     "label": "Pass rushers per dropback",
     "side": "def",
     "fmt": "num",
-    "v": 4.303,
+    "v": 4.304,
     "rank": 24,
-    "nfl": 4.395
+    "nfl": 4.4
    },
    {
     "key": "box8",
     "label": "8+ in the box (of runs)",
     "side": "def",
     "fmt": "pct",
-    "v": 0.043,
-    "rank": 26,
-    "nfl": 0.086
+    "v": 0.037,
+    "rank": 27,
+    "nfl": 0.083
    },
    {
     "key": "box",
     "label": "Defenders in the box",
     "side": "def",
     "fmt": "num",
-    "v": 6.321,
-    "rank": 26,
-    "nfl": 6.405
+    "v": 6.33,
+    "rank": 25,
+    "nfl": 6.404
    },
    {
     "key": "sackRate",
@@ -1720,7 +1720,7 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.063,
-    "rank": 16,
+    "rank": 15,
     "nfl": 0.062
    },
    {
