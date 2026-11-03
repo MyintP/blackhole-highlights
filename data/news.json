@@ -1,6 +1,105 @@
 {
- "updated": "2026-11-02T18:11:23.478Z",
+ "updated": "2026-11-03T01:30:23.092Z",
  "items": [
+  {
+   "id": "f19tkn",
+   "title": "Kirk Cousins’ celebratory vibes immaculate from Raiders plane to In-N-Out",
+   "link": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-celebratory-vibes-immaculate-from-raiders-plane-to-in-n-out-3908627/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-03T01:03:34.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "The Raiders hadn’t won in a month, but after Kirk Cousins threw three TD passes and ran for another score to beat the Jets, he led the team straight to In-N-Out Burger for a tasty tradition.",
+   "author": "Las Vegas Review-Journal"
+  },
+  {
+   "id": "1dmbwcs",
+   "title": "By the Numbers: Big plays by all units add up to return Raiders to .500",
+   "link": "https://www.raiders.com/news/by-the-numbers-big-plays-by-all-units-add-up-to-return-raiders-500-nfl-2026",
+   "src": "Raiders.com",
+   "date": "2026-11-03T00:23:17.000Z",
+   "kind": "Official",
+   "cat": "Analysis",
+   "desc": "A look at a few numbers that made the difference on offense, defense and special teams in the Raiders’ 38-33 victory over the Jets.",
+   "author": null
+  },
+  {
+   "id": "xkn603",
+   "title": "Raiders coach Klint Kubiak calls backfield situation a ‘moving target’",
+   "link": "https://www.reviewjournal.com/sports/raiders/raiders-coach-klint-kubiak-calls-backfield-situation-a-moving-target-3908576/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-02T23:05:47.000Z",
+   "kind": "Reporting",
+   "cat": "Coaching",
+   "desc": "The Las Vegas Raiders made a drastic shift in workload for their running backs on Sunday, but coach Klint Kubiak on Monday declined to provide much insight into the distribution of carries moving forward.",
+   "author": "Adam Hill"
+  },
+  {
+   "id": "toqzic",
+   "title": "Stock up, stock down for Raiders after win, including Kirk Cousins’ future",
+   "link": "https://www.reviewjournal.com/sports/raiders/stock-up-stock-down-for-raiders-after-win-including-kirk-cousins-future-3908568/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-02T22:48:55.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Several players raised their stock during Sunday’s win by the Las Vegas Raiders over the New York Jets and a few took a hit, but Kirk Cousins was the game’s biggest winner.",
+   "author": "Adam Hill"
+  },
+  {
+   "id": "10h7p3q",
+   "title": "Josh Jacobs faces scrutiny following celebration in 2-touchdown performance",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/144872/raiders-former-players-week-8-josh-jacobs-klavon-chaisson-gardner-minshew",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-02T22:39:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "Week 8 was kind to the Las Vegas Raiders, as the Raiders managed to get a big win and end a four-game losing streak. But let’s see how the weekend fared for a few old friends: Josh Jacobs, K’Lavon Chaisson and Gardner Minshew. Josh Jacobs Score: 27-19 Packers ",
+   "author": "Matt Holder"
+  },
+  {
+   "id": "11298ff",
+   "title": "Trey Zuhn III gets vote of confidence from Klint Kubiak after Las Vegas Raiders Week 8 win over New York Jets",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/144912/raiders-news-trey-zuhn-starter-klint-kubiak",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-02T22:06:25.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "Right guard has been a trouble spot on the Las Vegas Raiders’ depth chart so far this season. Through eight games/weeks, the Raiders have already had three starters at the position: Jackson Powers-Johnson, Caleb Rogers and Trey Zuhn III. Week 8 against the New",
+   "author": "Matt Holder"
+  },
+  {
+   "id": "1bfwxxy",
+   "title": "Schefter Addresses Raiders’ Latest Trade Rumors",
+   "link": "https://www.raidersbeat.com/schefter-addresses-raiders-latest-trade-rumors/",
+   "src": "RaidersBeat",
+   "date": "2026-11-02T20:12:29.000Z",
+   "kind": "Rumor",
+   "cat": "Roster",
+   "desc": "The NFL trade deadline is just over a week away, and the Raiders are... The post Schefter Addresses Raiders’ Latest Trade Rumors appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "8g34e",
+   "title": "Kirk Cousins silences quarterback change talks in Week 8 win over New York Jets",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/144891/raiders-jets-week-8-winners-losers-kirk-cousins",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-02T20:08:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "The Las Vegas Raiders entered Week 8 needing a win to end a four-game losing streak and to tread water in the AFC Playoff race. While the New York Jets held a two-possession halftime lead, it was mission accomplished for the Raiders by completing the second-ha",
+   "author": "Matt Holder"
+  },
+  {
+   "id": "15jp3ia",
+   "title": "Gutierrez: Cousins keeps cool in guiding Raiders to comeback win",
+   "link": "https://www.raiders.com/news/gutierrez-cousins-keeps-cool-in-guiding-raiders-to-comeback-win",
+   "src": "Raiders.com",
+   "date": "2026-11-02T18:25:12.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "\"I just try to be steady because I know in this league there are going to be ups and downs,\" said Kirk Cousins after throwing three touchdowns against Jets.",
+   "author": null
+  },
   {
    "id": "1qywki5",
    "title": "Raiders rally with resurgent 2nd half to ground Jets 38-33 in road win",

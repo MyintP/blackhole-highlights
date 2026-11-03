@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-02T07:34:30.908Z",
+ "fetched": "2026-11-03T01:30:23.092Z",
  "throughWeek": 8,
  "players": [
   {
@@ -134,11 +134,11 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 469,
+    "games": 8,
+    "off": 532,
     "def": 0,
     "st": 0,
-    "offPct": 0.976,
+    "offPct": 0.979,
     "defPct": 0,
     "stPct": 0
    },
@@ -479,11 +479,11 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 335,
+    "games": 8,
+    "off": 360,
     "def": 0,
     "st": 0,
-    "offPct": 0.699,
+    "offPct": 0.661,
     "defPct": 0,
     "stPct": 0
    },
@@ -606,11 +606,11 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 100,
+    "games": 8,
+    "off": 138,
     "def": 0,
     "st": 0,
-    "offPct": 0.206,
+    "offPct": 0.255,
     "defPct": 0,
     "stPct": 0
    },
@@ -871,13 +871,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 57,
+    "games": 8,
+    "off": 58,
     "def": 0,
-    "st": 164,
-    "offPct": 0.126,
+    "st": 190,
+    "offPct": 0.113,
     "defPct": 0,
-    "stPct": 0.823
+    "stPct": 0.821
    },
    "contact": {
     "carries": 5,
@@ -1101,13 +1101,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 122,
+    "games": 8,
+    "off": 143,
     "def": 0,
-    "st": 80,
-    "offPct": 0.256,
+    "st": 91,
+    "offPct": 0.265,
     "defPct": 0,
-    "stPct": 0.401
+    "stPct": 0.394
    },
    "contact": {
     "carries": 4,
@@ -1249,13 +1249,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 328,
+    "games": 8,
+    "off": 362,
     "def": 0,
     "st": 1,
-    "offPct": 0.687,
+    "offPct": 0.669,
     "defPct": 0,
-    "stPct": 0.006
+    "stPct": 0.005
    },
    "contact": {
     "carries": 2,
@@ -1338,11 +1338,11 @@
     ]
    },
    "snaps": {
-    "games": 6,
-    "off": 231,
+    "games": 7,
+    "off": 260,
     "def": 0,
     "st": 0,
-    "offPct": 0.565,
+    "offPct": 0.55,
     "defPct": 0,
     "stPct": 0
    },
@@ -1499,13 +1499,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 153,
+    "games": 8,
+    "off": 155,
     "def": 0,
-    "st": 56,
-    "offPct": 0.311,
+    "st": 57,
+    "offPct": 0.276,
     "defPct": 0,
-    "stPct": 0.296
+    "stPct": 0.262
    },
    "catching": {
     "broken": 0,
@@ -1687,13 +1687,13 @@
     ]
    },
    "snaps": {
-    "games": 3,
-    "off": 72,
+    "games": 4,
+    "off": 97,
     "def": 0,
     "st": 8,
-    "offPct": 0.367,
+    "offPct": 0.375,
     "defPct": 0,
-    "stPct": 0.1
+    "stPct": 0.075
    },
    "catching": {
     "broken": 1,
@@ -1906,13 +1906,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 66,
+    "games": 8,
+    "off": 71,
     "def": 0,
-    "st": 119,
-    "offPct": 0.137,
+    "st": 137,
+    "offPct": 0.13,
     "defPct": 0,
-    "stPct": 0.599
+    "stPct": 0.594
    },
    "jersey": "81",
    "link": "https://www.espn.com/nfl/player/_/id/4401805/dareke-young",
@@ -2352,13 +2352,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 390,
+    "games": 8,
+    "off": 440,
     "def": 0,
-    "st": 40,
-    "offPct": 0.809,
+    "st": 54,
+    "offPct": 0.806,
     "defPct": 0,
-    "stPct": 0.197
+    "stPct": 0.227
    },
    "catching": {
     "broken": 4,
@@ -2458,11 +2458,11 @@
     ]
    },
    "snaps": {
-    "games": 5,
-    "off": 288,
+    "games": 6,
+    "off": 342,
     "def": 0,
     "st": 0,
-    "offPct": 0.826,
+    "offPct": 0.832,
     "defPct": 0,
     "stPct": 0
    },
@@ -2539,13 +2539,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 158,
+    "games": 8,
+    "off": 187,
     "def": 0,
-    "st": 28,
-    "offPct": 0.333,
+    "st": 36,
+    "offPct": 0.349,
     "defPct": 0,
-    "stPct": 0.136
+    "stPct": 0.15
    },
    "catching": {
     "broken": 1,
@@ -2580,16 +2580,16 @@
    "name": "Kolton Miller",
    "pos": "T",
    "group": null,
-   "games": 7,
+   "games": 8,
    "stats": {},
    "snaps": {
-    "games": 7,
-    "off": 479,
+    "games": 8,
+    "off": 542,
     "def": 0,
-    "st": 35,
+    "st": 41,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.177
+    "stPct": 0.179
    },
    "jersey": "74",
    "link": "https://www.espn.com/nfl/player/_/id/3134312/kolton-miller",
@@ -2600,16 +2600,16 @@
    "name": "Charles Grant",
    "pos": "T",
    "group": null,
-   "games": 7,
+   "games": 8,
    "stats": {},
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
     "def": 0,
-    "st": 35,
+    "st": 40,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.177
+    "stPct": 0.175
    },
    "jersey": "60",
    "link": "https://www.espn.com/nfl/player/_/id/4694505/charles-grant",
@@ -2650,13 +2650,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 479,
+    "games": 8,
+    "off": 542,
     "def": 0,
-    "st": 35,
+    "st": 41,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.177
+    "stPct": 0.179
    },
    "jersey": "71",
    "link": "https://www.espn.com/nfl/player/_/id/4606683/dj-glaze",
@@ -2697,13 +2697,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 479,
+    "games": 8,
+    "off": 542,
     "def": 0,
-    "st": 35,
+    "st": 41,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.177
+    "stPct": 0.179
    },
    "jersey": "70",
    "link": "https://www.espn.com/nfl/player/_/id/4362999/spencer-burford",
@@ -2744,13 +2744,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 223,
+    "games": 8,
+    "off": 225,
     "def": 0,
-    "st": 35,
-    "offPct": 0.439,
+    "st": 41,
+    "offPct": 0.388,
     "defPct": 0,
-    "stPct": 0.177
+    "stPct": 0.179
    },
    "jersey": "76",
    "link": "https://www.espn.com/nfl/player/_/id/4433889/caleb-rogers",
@@ -2761,16 +2761,16 @@
    "name": "Trey Zuhn",
    "pos": "G",
    "group": null,
-   "games": 6,
+   "games": 7,
    "stats": {},
    "snaps": {
-    "games": 6,
-    "off": 21,
+    "games": 7,
+    "off": 84,
     "def": 0,
-    "st": 27,
-    "offPct": 0.048,
+    "st": 33,
+    "offPct": 0.184,
     "defPct": 0,
-    "stPct": 0.162
+    "stPct": 0.166
    },
    "jersey": "66",
    "link": "https://www.espn.com/nfl/player/_/id/4431623/trey-zuhn-iii",
@@ -2831,13 +2831,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 479,
+    "games": 8,
+    "off": 542,
     "def": 0,
-    "st": 5,
+    "st": 6,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.023
+    "stPct": 0.024
    },
    "jersey": "65",
    "link": "https://www.espn.com/nfl/player/_/id/4360499/tyler-linderbaum",
@@ -2958,13 +2958,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 256,
     "def": 0,
-    "st": 28,
-    "offPct": 0.655,
+    "st": 34,
+    "offPct": 0.561,
     "defPct": 0,
-    "stPct": 0.168
+    "stPct": 0.171
    },
    "jersey": "58",
    "link": "https://www.espn.com/nfl/player/_/id/4875295/jackson-powers-johnson",
@@ -3091,13 +3091,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 414,
-    "st": 43,
+    "def": 473,
+    "st": 51,
     "offPct": 0,
-    "defPct": 0.876,
-    "stPct": 0.217
+    "defPct": 0.881,
+    "stPct": 0.221
    },
    "coverage": {
     "targets": 1,
@@ -3218,12 +3218,12 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 285,
+    "def": 328,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.6,
+    "defPct": 0.609,
     "stPct": 0
    },
    "coverage": {
@@ -3346,13 +3346,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 209,
+    "def": 240,
     "st": 14,
     "offPct": 0,
-    "defPct": 0.446,
-    "stPct": 0.069
+    "defPct": 0.45,
+    "stPct": 0.06
    },
    "coverage": {
     "targets": 3,
@@ -3641,13 +3641,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 243,
+    "def": 276,
     "st": 7,
     "offPct": 0,
-    "defPct": 0.509,
-    "stPct": 0.034
+    "defPct": 0.51,
+    "stPct": 0.03
    },
    "passRush": {
     "blitzes": 0,
@@ -3785,12 +3785,12 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 209,
-    "st": 6,
+    "def": 235,
+    "st": 7,
     "offPct": 0,
-    "defPct": 0.44,
+    "defPct": 0.436,
     "stPct": 0.033
    },
    "passRush": {
@@ -3900,13 +3900,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
-    "def": 191,
-    "st": 51,
+    "def": 204,
+    "st": 58,
     "offPct": 0,
-    "defPct": 0.485,
-    "stPct": 0.307
+    "defPct": 0.444,
+    "stPct": 0.294
    },
    "coverage": {
     "targets": 1,
@@ -4052,13 +4052,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
-    "def": 148,
-    "st": 37,
+    "def": 177,
+    "st": 45,
     "offPct": 0,
-    "defPct": 0.365,
-    "stPct": 0.215
+    "defPct": 0.377,
+    "stPct": 0.22
    },
    "coverage": {
     "targets": 2,
@@ -4200,6 +4200,111 @@
    }
   },
   {
+   "id": "tim-keenan",
+   "name": "Tim Keenan III",
+   "pos": "DT",
+   "group": "DL",
+   "games": 2,
+   "stats": {
+    "Defense": [
+     {
+      "k": "def_tackles_solo",
+      "label": "Solo tkl",
+      "v": 1,
+      "rank": 843,
+      "tied": 249
+     },
+     {
+      "k": "def_tackle_assists",
+      "label": "Ast tkl",
+      "v": 2,
+      "rank": null
+     },
+     {
+      "k": "def_tackles_for_loss",
+      "label": "TFL",
+      "v": 1,
+      "rank": 268,
+      "tied": 179
+     },
+     {
+      "k": "def_sacks",
+      "label": "Sacks",
+      "v": 1,
+      "rank": 134,
+      "tied": 126
+     },
+     {
+      "k": "def_qb_hits",
+      "label": "QB hits",
+      "v": 1,
+      "rank": 277,
+      "tied": 147
+     },
+     {
+      "k": "def_interceptions",
+      "label": "INT",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_interception_yards",
+      "label": "INT yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_pass_defended",
+      "label": "PD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_fumbles_forced",
+      "label": "FF",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_opp",
+      "label": "Fum rec",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "fumble_recovery_yards_opp",
+      "label": "Fum ret yds",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "def_safeties",
+      "label": "Safety",
+      "v": 0,
+      "rank": null
+     }
+    ]
+   },
+   "snaps": {
+    "games": 2,
+    "off": 0,
+    "def": 38,
+    "st": 7,
+    "offPct": 0,
+    "defPct": 0.28,
+    "stPct": 0.11
+   },
+   "jersey": "91",
+   "link": "https://www.espn.com/nfl/player/_/id/4431414/tim-keenan-iii",
+   "status": "Defense"
+  },
+  {
    "id": "jj-pegues",
    "name": "JJ Pegues",
    "pos": "DT",
@@ -4315,111 +4420,6 @@
    },
    "jersey": "92",
    "link": "https://www.espn.com/nfl/player/_/id/4430896/jj-pegues",
-   "status": "Defense"
-  },
-  {
-   "id": "tim-keenan",
-   "name": "Tim Keenan III",
-   "pos": "DT",
-   "group": "DL",
-   "games": 2,
-   "stats": {
-    "Defense": [
-     {
-      "k": "def_tackles_solo",
-      "label": "Solo tkl",
-      "v": 1,
-      "rank": 843,
-      "tied": 249
-     },
-     {
-      "k": "def_tackle_assists",
-      "label": "Ast tkl",
-      "v": 2,
-      "rank": null
-     },
-     {
-      "k": "def_tackles_for_loss",
-      "label": "TFL",
-      "v": 1,
-      "rank": 268,
-      "tied": 179
-     },
-     {
-      "k": "def_sacks",
-      "label": "Sacks",
-      "v": 1,
-      "rank": 134,
-      "tied": 126
-     },
-     {
-      "k": "def_qb_hits",
-      "label": "QB hits",
-      "v": 1,
-      "rank": 277,
-      "tied": 147
-     },
-     {
-      "k": "def_interceptions",
-      "label": "INT",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_interception_yards",
-      "label": "INT yds",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_pass_defended",
-      "label": "PD",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_fumbles_forced",
-      "label": "FF",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "fumble_recovery_opp",
-      "label": "Fum rec",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "fumble_recovery_yards_opp",
-      "label": "Fum ret yds",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_tds",
-      "label": "TD",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_safeties",
-      "label": "Safety",
-      "v": 0,
-      "rank": null
-     }
-    ]
-   },
-   "snaps": {
-    "games": 1,
-    "off": 0,
-    "def": 19,
-    "st": 0,
-    "offPct": 0,
-    "defPct": 0.26,
-    "stPct": 0
-   },
-   "jersey": "91",
-   "link": "https://www.espn.com/nfl/player/_/id/4431414/tim-keenan-iii",
    "status": "Defense"
   },
   {
@@ -4542,12 +4542,12 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 470,
+    "def": 534,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.994,
+    "defPct": 0.995,
     "stPct": 0
    },
    "coverage": {
@@ -4672,12 +4672,12 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 469,
+    "def": 533,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.991,
+    "defPct": 0.992,
     "stPct": 0
    },
    "coverage": {
@@ -4823,13 +4823,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 108,
-    "st": 164,
+    "def": 130,
+    "st": 190,
     "offPct": 0,
-    "defPct": 0.227,
-    "stPct": 0.823
+    "defPct": 0.241,
+    "stPct": 0.821
    },
    "coverage": {
     "targets": 3,
@@ -4947,13 +4947,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
     "def": 3,
-    "st": 106,
+    "st": 124,
     "offPct": 0,
-    "defPct": 0.007,
-    "stPct": 0.615
+    "defPct": 0.006,
+    "stPct": 0.607
    },
    "jersey": "55",
    "link": "https://www.espn.com/nfl/player/_/id/4685126/cody-lindenberg",
@@ -5046,6 +5046,15 @@
       "rank": null
      }
     ]
+   },
+   "snaps": {
+    "games": 1,
+    "off": 0,
+    "def": 0,
+    "st": 26,
+    "offPct": 0,
+    "defPct": 0,
+    "stPct": 0.81
    },
    "jersey": "48",
    "link": "https://www.espn.com/nfl/player/_/id/5153665/cian-slone",
@@ -5167,13 +5176,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
     "def": 0,
-    "st": 164,
+    "st": 190,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.823
+    "stPct": 0.821
    },
    "jersey": "50",
    "link": "https://www.espn.com/nfl/player/_/id/4260703/segun-olubi",
@@ -5300,12 +5309,12 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 461,
+    "def": 525,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.977,
+    "defPct": 0.98,
     "stPct": 0
    },
    "coverage": {
@@ -5455,13 +5464,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 369,
+    "def": 411,
     "st": 1,
     "offPct": 0,
-    "defPct": 0.781,
-    "stPct": 0.006
+    "defPct": 0.766,
+    "stPct": 0.005
    },
    "coverage": {
     "targets": 28,
@@ -5609,12 +5618,12 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 265,
+    "def": 294,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.557,
+    "defPct": 0.544,
     "stPct": 0
    },
    "coverage": {
@@ -5735,13 +5744,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
-    "def": 196,
+    "def": 197,
     "st": 74,
     "offPct": 0,
-    "defPct": 0.488,
-    "stPct": 0.427
+    "defPct": 0.421,
+    "stPct": 0.366
    },
    "coverage": {
     "targets": 19,
@@ -5852,13 +5861,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
-    "def": 30,
-    "st": 73,
+    "def": 64,
+    "st": 89,
     "offPct": 0,
-    "defPct": 0.07,
-    "stPct": 0.417
+    "defPct": 0.136,
+    "stPct": 0.429
    },
    "coverage": {
     "targets": 2,
@@ -5976,13 +5985,13 @@
     ]
    },
    "snaps": {
-    "games": 4,
+    "games": 5,
     "off": 0,
     "def": 0,
-    "st": 73,
+    "st": 99,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.643
+    "stPct": 0.676
    },
    "jersey": "25",
    "link": "https://www.espn.com/nfl/player/_/id/4685978/darrell-luter-jr",
@@ -6151,13 +6160,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 473,
+    "def": 537,
     "st": 8,
     "offPct": 0,
     "defPct": 1,
-    "stPct": 0.043
+    "stPct": 0.038
    },
    "coverage": {
     "targets": 17,
@@ -6303,13 +6312,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
-    "def": 362,
-    "st": 17,
+    "def": 426,
+    "st": 24,
     "offPct": 0,
-    "defPct": 0.91,
-    "stPct": 0.108
+    "defPct": 0.923,
+    "stPct": 0.124
    },
    "coverage": {
     "targets": 20,
@@ -6427,13 +6436,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
-    "def": 112,
-    "st": 145,
+    "def": 115,
+    "st": 171,
     "offPct": 0,
-    "defPct": 0.223,
-    "stPct": 0.723
+    "defPct": 0.201,
+    "stPct": 0.734
    },
    "coverage": {
     "targets": 7,
@@ -6624,13 +6633,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
     "def": 0,
-    "st": 74,
+    "st": 87,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.374
+    "stPct": 0.379
    },
    "jersey": "14",
    "link": "https://www.espn.com/nfl/player/_/id/4249087/matt-gay",
@@ -6742,13 +6751,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
     "def": 0,
-    "st": 60,
+    "st": 68,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.304
+    "stPct": 0.298
    },
    "pocket": {
     "badThrows": 0,
@@ -6878,13 +6887,13 @@
     ]
    },
    "snaps": {
-    "games": 7,
+    "games": 8,
     "off": 0,
     "def": 0,
-    "st": 60,
+    "st": 68,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.304
+    "stPct": 0.298
    },
    "jersey": "47",
    "link": "https://www.espn.com/nfl/player/_/id/4243545/alex-ward",
