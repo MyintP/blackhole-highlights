@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:41:52.386Z",
+ "updated": "2026-11-03T23:12:19.527Z",
  "season": 2026,
  "team": [
   {
@@ -1375,6 +1375,20 @@
    "exp": 9,
    "college": "Miami",
    "link": "https://www.espn.com/nfl/player/_/id/2579604/phillip-dorsett-ii"
+  },
+  {
+   "id": "4372378",
+   "name": "Anthony Goodlow",
+   "jersey": "96",
+   "pos": "DE",
+   "posName": "Defensive End",
+   "group": "Practice squad",
+   "age": 26,
+   "ht": "6' 5\"",
+   "wt": "283 lbs",
+   "exp": 1,
+   "college": "Oklahoma State",
+   "link": "https://www.espn.com/nfl/player/_/id/4372378/anthony-goodlow"
   },
   {
    "id": "4693208",
