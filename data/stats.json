@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:30:23.092Z",
+ "updated": "2026-11-03T09:25:18.914Z",
  "season": 2026,
  "team": [
   {
@@ -14,7 +14,7 @@
    "label": "Total yards per game",
    "value": "350.4",
    "v": 350.375,
-   "rank": "16th"
+   "rank": "15th"
   },
   {
    "key": "passingYardsPerGame",
@@ -42,7 +42,7 @@
    "label": "Completion %",
    "value": "64.0",
    "v": 64,
-   "rank": "18th"
+   "rank": "17th"
   },
   {
    "key": "QBRating",
