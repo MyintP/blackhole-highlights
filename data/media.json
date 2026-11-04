@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-04T05:59:59.463Z",
+ "updated": "2026-11-04T21:14:16.483Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Battle of the Bay rivalry reignites for Raiders-49ers Week 9 matchup",
+   "link": "https://www.raiders.com/audio/preview-raiders-49ers-battle-of-the-bay-nfl-week-9-2026-season",
+   "date": "2026-11-04T19:00:00.000Z",
+   "desc": "JT The Brick and Q Myers are joined by Lincoln Kennedy and Cynthia Frelund to preview Week 9 against the San Francisco 49ers on Raiders Weekly.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak on 49ers' red zone offense: 'Gotta get them to kick field goals'",
    "link": "https://www.raiders.com/audio/klint-kubiak-preview-49ers-nfl-week-9-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/klint-kubiak-jets-nfl-week-8-2026-season",
    "date": "2026-10-27T21:00:00.000Z",
    "desc": "Head Coach Klint Kubiak recaps the loss to the Rams and looks ahead to facing Geno Smith and the New York Jets in Week 8.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Eric Stokes embraces the Raiders culture",
-   "link": "https://www.raiders.com/audio/eric-stokes-raiders-culture-nfl-2026-season",
-   "date": "2026-10-27T19:00:00.000Z",
-   "desc": "Raiders host Baron Davis sits down with Eric Stokes on this episode of Raiders: Talk of the Nation.",
    "src": "Raiders.com"
   }
  ],

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T14:18:24.717Z",
+ "updated": "2026-11-04T21:14:16.483Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -921,7 +921,7 @@
     "pos": "WR",
     "injury": "Personal",
     "status": "Out",
-    "ret": "2027-02-15"
+    "ret": "2026-11-15"
    },
    {
     "name": "De'Zhaun Stribling",
@@ -935,6 +935,27 @@
     "pos": "WR",
     "injury": "Ankle",
     "status": "Injured Reserve",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "injury": "Hamstring",
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Mike Evans",
+    "pos": "WR",
+    "injury": "Achilles",
+    "status": "Questionable",
+    "ret": "2026-11-08"
+   },
+   {
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "injury": "Hamstring",
+    "status": "Questionable",
     "ret": "2026-11-08"
    },
    {
@@ -968,28 +989,7 @@
    {
     "name": "Nick Bosa",
     "pos": "DE",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
-    "injury": "Hamstring",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Mike Evans",
-    "pos": "WR",
-    "injury": "Achilles",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Christian McCaffrey",
-    "pos": "RB",
-    "injury": "Hamstring",
+    "injury": "Calf",
     "status": "Questionable",
     "ret": "2026-11-08"
    }
@@ -1036,68 +1036,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-04T14:18:24.717Z"
+   "at": "2026-11-04T21:14:16.483Z"
   }
  },
- "nflverseTried": "2026-11-04T05:59:59.463Z"
+ "nflverseTried": "2026-11-04T21:14:16.483Z"
 }
