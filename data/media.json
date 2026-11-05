@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-05T10:42:22.552Z",
+ "updated": "2026-11-05T18:39:48.451Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Michael Mayer is rewarding the Raiders' investment with a career year",
+   "link": "https://www.raiders.com/audio/michael-mayer-career-year-tight-end-nfl-2026-season",
+   "date": "2026-11-05T18:30:00.000Z",
+   "desc": "Michael Mayer has already set career highs in both receptions and receiving yards through eight games of the 2026 season and currently holds the third-highest catch percentage among tight ends in the NFL. The fourth-year",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Kirk Cousins Presser - 11.4.26",
    "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-49ers-week-9-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/preview-run-game-jets-nfl-week-8-2026-season",
    "date": "2026-10-28T23:00:00.000Z",
    "desc": "JT The Brick and Q Myers are joined by Eric Allen and Cynthia Frelund to preview Week 8 against the New York Jets on Raiders Weekly.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Kirk Cousins Presser - 10.28.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-week-8-jets-2026-season",
-   "date": "2026-10-28T20:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media.",
    "src": "Raiders.com"
   }
  ],
