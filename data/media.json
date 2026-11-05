@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-04T21:14:16.483Z",
+ "updated": "2026-11-05T02:13:03.037Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Kirk Cousins Presser - 11.4.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-49ers-week-9-2026-season",
+   "date": "2026-11-04T23:50:02.000Z",
+   "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Battle of the Bay rivalry reignites for Raiders-49ers Week 9 matchup",
    "link": "https://www.raiders.com/audio/preview-raiders-49ers-battle-of-the-bay-nfl-week-9-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-week-8-jets-2026-season",
    "date": "2026-10-28T20:00:00.000Z",
    "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak on preparing for the Jets offense: 'Make sure we dial in the run defense'",
-   "link": "https://www.raiders.com/audio/klint-kubiak-jets-nfl-week-8-2026-season",
-   "date": "2026-10-27T21:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak recaps the loss to the Rams and looks ahead to facing Geno Smith and the New York Jets in Week 8.",
    "src": "Raiders.com"
   }
  ],
