@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-04T21:14:16.483Z",
+ "fetched": "2026-11-05T10:42:22.552Z",
  "throughWeek": 8,
  "players": [
   {
@@ -1510,10 +1510,7 @@
    "catching": {
     "broken": 0,
     "drops": 2
-   },
-   "jersey": "82",
-   "link": "https://www.espn.com/nfl/player/_/id/4241983/cody-white",
-   "status": "Offense"
+   }
   },
   {
    "id": "jack-bech",

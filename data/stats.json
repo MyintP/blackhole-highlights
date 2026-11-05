@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:14:16.483Z",
+ "updated": "2026-11-05T10:42:22.552Z",
  "season": 2026,
  "team": [
   {
@@ -231,14 +231,6 @@
      "link": "https://www.espn.com/nfl/player/_/id/4382466/jalen-nailor",
      "value": 113,
      "line": "113"
-    },
-    {
-     "id": "4241983",
-     "name": "Cody White",
-     "pos": "WR",
-     "link": "https://www.espn.com/nfl/player/_/id/4241983/cody-white",
-     "value": 112,
-     "line": "112"
     },
     {
      "id": "4045305",
@@ -733,6 +725,20 @@
    "link": "https://www.espn.com/nfl/player/_/id/4433889/caleb-rogers"
   },
   {
+   "id": "5155825",
+   "name": "Carter Runyon",
+   "jersey": "84",
+   "pos": "TE",
+   "posName": "Tight End",
+   "group": "Offense",
+   "age": 25,
+   "ht": "6' 4\"",
+   "wt": "243 lbs",
+   "exp": 2,
+   "college": "Towson",
+   "link": "https://www.espn.com/nfl/player/_/id/5155825/carter-runyon"
+  },
+  {
    "id": "4045305",
    "name": "Ian Thomas",
    "jersey": "80",
@@ -801,20 +807,6 @@
    "exp": 0,
    "college": "Arkansas",
    "link": "https://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr"
-  },
-  {
-   "id": "4241983",
-   "name": "Cody White",
-   "jersey": "82",
-   "pos": "WR",
-   "posName": "Wide Receiver",
-   "group": "Offense",
-   "age": 27,
-   "ht": "6' 3\"",
-   "wt": "227 lbs",
-   "exp": 6,
-   "college": "Michigan State",
-   "link": "https://www.espn.com/nfl/player/_/id/4241983/cody-white"
   },
   {
    "id": "4401805",
@@ -1307,20 +1299,6 @@
    "link": "https://www.espn.com/nfl/player/_/id/4688538/justin-pickett"
   },
   {
-   "id": "5155825",
-   "name": "Carter Runyon",
-   "jersey": "84",
-   "pos": "TE",
-   "posName": "Tight End",
-   "group": "Injured reserve / out",
-   "age": 25,
-   "ht": "6' 4\"",
-   "wt": "243 lbs",
-   "exp": 2,
-   "college": "Towson",
-   "link": "https://www.espn.com/nfl/player/_/id/5155825/carter-runyon"
-  },
-  {
    "id": "4685305",
    "name": "Brandon Cleveland",
    "jersey": "90",
@@ -1606,7 +1584,7 @@
     "cpoeRank": 21
    }
   ],
-  "fetched": "2026-11-04T21:14:16.483Z"
+  "fetched": "2026-11-05T10:42:22.552Z"
  },
  "tendencies": {
   "charted": 1,
