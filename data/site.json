@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T00:03:47.994Z",
+ "updated": "2026-11-06T06:24:28.458Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -657,25 +657,25 @@
     "us": false
    },
    {
+    "id": "30",
+    "name": "Jacksonville",
+    "w": 6,
+    "l": 2,
+    "t": 0,
+    "pct": ".750",
+    "seed": 3,
+    "diff": "+108",
+    "us": false
+   },
+   {
     "id": "23",
     "name": "Pittsburgh",
     "w": 6,
     "l": 2,
     "t": 0,
     "pct": ".750",
-    "seed": 3,
-    "diff": "+36",
-    "us": false
-   },
-   {
-    "id": "30",
-    "name": "Jacksonville",
-    "w": 5,
-    "l": 2,
-    "t": 0,
-    "pct": ".714",
     "seed": 4,
-    "diff": "+85",
+    "diff": "+36",
     "us": false
    },
    {
@@ -737,11 +737,11 @@
     "id": "33",
     "name": "Baltimore",
     "w": 4,
-    "l": 4,
+    "l": 5,
     "t": 0,
-    "pct": ".500",
+    "pct": ".444",
     "seed": 10,
-    "diff": "-24",
+    "diff": "-47",
     "us": false
    },
    {
@@ -824,7 +824,7 @@
     },
     "them": {
      "v": 28.14,
-     "rank": "4th"
+     "rank": "5th"
     },
     "higher": true
    },
@@ -832,7 +832,7 @@
     "label": "Total offense",
     "us": {
      "v": 350.375,
-     "rank": "15th"
+     "rank": "14th"
     },
     "them": {
      "v": 377.143,
@@ -893,13 +893,6 @@
  "injuries": {
   "gameId": "401873047",
   "us": [
-   {
-    "name": "Patrick Johnson",
-    "pos": "DE",
-    "injury": "Neck",
-    "status": "Injured Reserve",
-    "ret": "2026-11-29"
-   },
    {
     "name": "Dont'e Thornton Jr.",
     "pos": "WR",
@@ -1064,104 +1057,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-11-06T00:03:47.994Z",
+   "at": "2026-11-06T06:24:28.458Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-06T00:03:47.994Z"
+   "at": "2026-11-06T06:24:28.458Z"
   }
  },
  "nflverseTried": "2026-11-06T00:03:47.994Z"
