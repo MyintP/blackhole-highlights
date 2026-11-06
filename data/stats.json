@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T06:24:28.458Z",
+ "updated": "2026-11-06T14:56:08.479Z",
  "season": 2026,
  "team": [
   {
@@ -1504,7 +1504,7 @@
   }
  ],
  "advanced": {
-  "throughWeek": 8,
+  "throughWeek": 9,
   "teams": 32,
   "qualifiedQbs": 35,
   "minDropbacks": 100,
@@ -1516,7 +1516,7 @@
     "higher": true,
     "v": 0.041,
     "rank": 12,
-    "nfl": 0.008
+    "nfl": 0.007
    },
    {
     "key": "sr",
@@ -1524,7 +1524,7 @@
     "side": "off",
     "higher": true,
     "v": 0.438,
-    "rank": 14,
+    "rank": 13,
     "nfl": 0.438
    },
    {
@@ -1534,7 +1534,7 @@
     "higher": true,
     "v": 0.201,
     "rank": 7,
-    "nfl": 0.072
+    "nfl": 0.071
    },
    {
     "key": "rush",
@@ -1543,7 +1543,7 @@
     "higher": true,
     "v": -0.233,
     "rank": 30,
-    "nfl": -0.094
+    "nfl": -0.095
    },
    {
     "key": "epa",
@@ -1552,7 +1552,7 @@
     "higher": false,
     "v": 0.062,
     "rank": 25,
-    "nfl": 0.008
+    "nfl": 0.007
    },
    {
     "key": "sr",
@@ -1570,7 +1570,7 @@
     "higher": false,
     "v": 0.158,
     "rank": 25,
-    "nfl": 0.072
+    "nfl": 0.071
    },
    {
     "key": "rush",
@@ -1578,8 +1578,8 @@
     "side": "def",
     "higher": false,
     "v": -0.077,
-    "rank": 21,
-    "nfl": -0.094
+    "rank": 22,
+    "nfl": -0.095
    }
   ],
   "passers": [
@@ -1592,10 +1592,10 @@
     "cpoeRank": 21
    }
   ],
-  "fetched": "2026-11-06T00:03:47.994Z"
+  "fetched": "2026-11-06T14:56:08.479Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.993,
   "rows": [
    {
     "key": "passRate",
@@ -1604,7 +1604,7 @@
     "fmt": "pct",
     "v": 0.63,
     "rank": 12,
-    "nfl": 0.611
+    "nfl": 0.61
    },
    {
     "key": "earlyPass",
@@ -1613,7 +1613,7 @@
     "fmt": "pct",
     "v": 0.57,
     "rank": 14,
-    "nfl": 0.556
+    "nfl": 0.555
    },
    {
     "key": "shotgun",
@@ -1676,7 +1676,7 @@
     "fmt": "num",
     "v": 8.035,
     "rank": 10,
-    "nfl": 7.75
+    "nfl": 7.735
    },
    {
     "key": "blitz",
@@ -1730,7 +1730,7 @@
     "fmt": "pct",
     "v": 0.171,
     "rank": 6,
-    "nfl": 0.152
+    "nfl": 0.151
    }
   ]
  }
