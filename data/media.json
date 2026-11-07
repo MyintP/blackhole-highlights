@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-06T20:48:50.325Z",
+ "updated": "2026-11-07T00:50:13.204Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Joe DeCamillis Presser - 11.6.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-nfl-week-9-49ers-2026-season",
+   "date": "2026-11-06T20:00:00.000Z",
+   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "'It's 49ers. It's Raiders. It means a lot': Greg Papa on his cancer battle and relationship with Mark Davis",
    "link": "https://www.raiders.com/audio/greg-papa-raiders-49ers-mark-davis-nfl-2026",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-nfl-week-8-jets-2026-season",
    "date": "2026-10-30T19:30:00.000Z",
    "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Andrew Janocko and Rob Leonard Presser - 10.29.26",
-   "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-nfl-week-8-jets-2026-season",
-   "date": "2026-10-29T20:00:00.000Z",
-   "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
    "src": "Raiders.com"
   }
  ],

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:48:50.325Z",
+ "updated": "2026-11-07T00:50:13.204Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -894,18 +894,11 @@
   "gameId": "401873047",
   "us": [
    {
-    "name": "Dont'e Thornton Jr.",
-    "pos": "WR",
-    "injury": "Back",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
     "name": "Thomas Booker IV",
     "pos": "DT",
     "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-08"
+    "status": "Out",
+    "ret": "2026-11-15"
    },
    {
     "name": "Darien Porter",
@@ -916,6 +909,27 @@
    }
   ],
   "them": [
+   {
+    "name": "Mike Evans",
+    "pos": "WR",
+    "injury": "Achilles",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Christian Kirk",
+    "pos": "WR",
+    "injury": "Knee - Meniscus",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "injury": "Hamstring",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
    {
     "name": "Brandon Aiyuk",
     "pos": "WR",
@@ -945,65 +959,9 @@
     "ret": "2026-12-06"
    },
    {
-    "name": "Christian Kirk",
-    "pos": "WR",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
-    "injury": "Hamstring",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Mike Evans",
-    "pos": "WR",
-    "injury": "Achilles",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Christian McCaffrey",
-    "pos": "RB",
-    "injury": "Hamstring",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Marques Sigle",
-    "pos": "S",
-    "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Nick Bosa",
-    "pos": "DE",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
     "name": "Siran Neal",
     "pos": "S",
     "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Garret Wallow",
-    "pos": "LB",
-    "injury": "Hamstring",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Luke Gifford",
-    "pos": "LB",
-    "injury": "Groin",
     "status": "Questionable",
     "ret": "2026-11-08"
    },
@@ -1057,67 +1015,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   },
   "videos": {
-   "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "ok": false,
+   "at": "2026-11-07T00:50:13.204Z",
+   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-06T20:48:50.325Z"
+   "at": "2026-11-07T00:50:13.204Z"
   }
  },
  "nflverseTried": "2026-11-06T14:56:08.479Z"
