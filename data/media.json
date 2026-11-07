@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-07T00:50:13.204Z",
+ "updated": "2026-11-07T18:38:53.965Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Ben Solak on how the Raiders match up against the 49ers",
+   "link": "https://www.raiders.com/audio/ben-solak-brock-bowers-raiders-49ers-nfl-week-9-2026-season",
+   "date": "2026-11-07T16:00:00.000Z",
+   "desc": "ESPN's Ben Solak previews Raiders-49ers, shares his thoughts on the Raiders offense and explains what makes Brock Bowers a matchup weapon.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "Brock Bowers talks homecoming game in the Bay Area and facing the 49ers defense",
+   "link": "https://www.raiders.com/audio/brock-bowers-49ers-nfl-week-9-2026-season",
+   "date": "2026-11-07T15:00:00.000Z",
+   "desc": "Tight end Brock Bowers discusses the Raiders offense, returning home to the Bay Area to play in front of his family, the 49ers defense and more.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Joe DeCamillis Presser - 11.6.26",
    "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-nfl-week-9-49ers-2026-season",
@@ -70,20 +84,6 @@
    "link": "https://www.raiders.com/audio/klint-kubiak-presser-jets-recap-nfl-week-8-2026-season",
    "date": "2026-11-02T19:00:00.000Z",
    "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 8 victory against the New York Jets.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Kirk Cousins Postgame Presser | Week 8 vs. Jets",
-   "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-postgame-presser-nfl-week-8-jets-2026-season",
-   "date": "2026-11-01T23:20:00.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media following the Raiders' Week 8 victory against the New York Jets.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Joe DeCamillis Presser - 10.30.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-nfl-week-8-jets-2026-season",
-   "date": "2026-10-30T19:30:00.000Z",
-   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
    "src": "Raiders.com"
   }
  ],

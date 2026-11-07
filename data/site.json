@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T13:53:12.282Z",
+ "updated": "2026-11-07T18:38:53.965Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -910,6 +910,13 @@
   ],
   "them": [
    {
+    "name": "Brandon Aiyuk",
+    "pos": "WR",
+    "injury": "Personal",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
     "name": "Mike Evans",
     "pos": "WR",
     "injury": "Achilles",
@@ -927,13 +934,6 @@
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
     "injury": "Hamstring",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Brandon Aiyuk",
-    "pos": "WR",
-    "injury": "Personal",
     "status": "Out",
     "ret": "2026-11-15"
    },
@@ -1015,67 +1015,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-07T13:53:12.282Z"
+   "at": "2026-11-07T18:38:53.965Z"
   }
  },
  "nflverseTried": "2026-11-07T07:00:11.746Z"
