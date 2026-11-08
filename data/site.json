@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:06:19.677Z",
+ "updated": "2026-11-08T21:16:39.937Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -41,7 +41,7 @@
    "name": "Jets",
    "location": "New York",
    "abbr": "NYJ",
-   "record": "2-6"
+   "record": "2-7"
   },
   "tv": "Fox",
   "state": "post",
@@ -186,7 +186,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "5-2"
+     "record": "6-2"
     },
     "tv": "CBS",
     "state": "post",
@@ -261,7 +261,7 @@
      "name": "Rams",
      "location": "Los Angeles",
      "abbr": "LAR",
-     "record": "4-4"
+     "record": "5-4"
     },
     "tv": "Fox",
     "state": "post",
@@ -286,7 +286,7 @@
      "name": "Jets",
      "location": "New York",
      "abbr": "NYJ",
-     "record": "2-6"
+     "record": "2-7"
     },
     "tv": "Fox",
     "state": "post",
@@ -355,7 +355,7 @@
      "name": "Broncos",
      "location": "Denver",
      "abbr": "DEN",
-     "record": "6-2"
+     "record": "7-2"
     },
     "tv": "CBS",
     "state": "pre",
@@ -421,7 +421,7 @@
      "name": "Broncos",
      "location": "Denver",
      "abbr": "DEN",
-     "record": "6-2"
+     "record": "7-2"
     },
     "tv": "CBS",
     "state": "pre",
@@ -487,7 +487,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "5-2"
+     "record": "6-2"
     },
     "tv": null,
     "state": "pre",
@@ -504,11 +504,32 @@
   "week": 9,
   "games": [
    {
+    "id": "401873041",
+    "date": "2026-11-08T18:00Z",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
+    "postponed": false,
+    "away": {
+     "id": "7",
+     "abbr": "DEN",
+     "score": 26,
+     "winner": true
+    },
+    "home": {
+     "id": "29",
+     "abbr": "CAR",
+     "score": 21,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873041/broncos-panthers"
+   },
+   {
     "id": "401873045",
     "date": "2026-11-08T18:00Z",
-    "state": "in",
-    "final": false,
-    "detail": "1:15 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "20",
@@ -520,51 +541,30 @@
      "id": "12",
      "abbr": "KC",
      "score": 35,
-     "winner": false
+     "winner": true
     },
-    "link": null
-   },
-   {
-    "id": "401873041",
-    "date": "2026-11-08T18:00Z",
-    "state": "in",
-    "final": false,
-    "detail": "2:00 - 4th",
-    "postponed": false,
-    "away": {
-     "id": "7",
-     "abbr": "DEN",
-     "score": 26,
-     "winner": false
-    },
-    "home": {
-     "id": "29",
-     "abbr": "CAR",
-     "score": 21,
-     "winner": false
-    },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873045/jets-chiefs"
    },
    {
     "id": "401873046",
     "date": "2026-11-08T21:05Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/8 - 4:05 PM EST",
+    "detail": "10:16 - 1st",
     "postponed": false,
     "away": {
      "id": "34",
      "abbr": "HOU",
-     "score": null,
+     "score": 7,
      "winner": false
     },
     "home": {
      "id": "24",
      "abbr": "LAC",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873046/texans-chargers"
+    "link": null
    },
    {
     "id": "401873047",
@@ -595,21 +595,21 @@
    {
     "id": "7",
     "name": "Denver",
-    "w": 6,
+    "w": 7,
     "l": 2,
     "t": 0,
-    "pct": ".750",
-    "diff": "+7",
+    "pct": ".778",
+    "diff": "+12",
     "us": false
    },
    {
     "id": "12",
     "name": "Kansas City",
-    "w": 5,
+    "w": 6,
     "l": 2,
     "t": 0,
-    "pct": ".714",
-    "diff": "+36",
+    "pct": ".750",
+    "diff": "+59",
     "us": false
    },
    {
@@ -648,12 +648,12 @@
    {
     "id": "7",
     "name": "Denver",
-    "w": 6,
+    "w": 7,
     "l": 2,
     "t": 0,
-    "pct": ".750",
+    "pct": ".778",
     "seed": 2,
-    "diff": "+7",
+    "diff": "+12",
     "us": false
    },
    {
@@ -679,25 +679,25 @@
     "us": false
    },
    {
+    "id": "12",
+    "name": "Kansas City",
+    "w": 6,
+    "l": 2,
+    "t": 0,
+    "pct": ".750",
+    "seed": 5,
+    "diff": "+59",
+    "us": false
+   },
+   {
     "id": "4",
     "name": "Cincinnati",
     "w": 6,
     "l": 2,
     "t": 0,
     "pct": ".750",
-    "seed": 5,
-    "diff": "+65",
-    "us": false
-   },
-   {
-    "id": "12",
-    "name": "Kansas City",
-    "w": 5,
-    "l": 2,
-    "t": 0,
-    "pct": ".714",
     "seed": 6,
-    "diff": "+36",
+    "diff": "+65",
     "us": false
    },
    {
@@ -756,25 +756,25 @@
     "us": false
    },
    {
-    "id": "20",
-    "name": "NY Jets",
-    "w": 2,
-    "l": 6,
-    "t": 0,
-    "pct": ".250",
-    "seed": 12,
-    "diff": "-18",
-    "us": false
-   },
-   {
     "id": "11",
     "name": "Indianapolis",
     "w": 2,
     "l": 6,
     "t": 0,
     "pct": ".250",
-    "seed": 13,
+    "seed": 12,
     "diff": "-61",
+    "us": false
+   },
+   {
+    "id": "20",
+    "name": "NY Jets",
+    "w": 2,
+    "l": 7,
+    "t": 0,
+    "pct": ".222",
+    "seed": 13,
+    "diff": "-41",
     "us": false
    },
    {
@@ -1050,67 +1050,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T21:06:19.677Z"
+   "at": "2026-11-08T21:16:39.937Z"
   }
  },
  "nflverseTried": "2026-11-08T11:10:02.873Z"
