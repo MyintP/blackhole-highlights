@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:47:44.002Z",
+ "updated": "2026-11-08T21:58:04.506Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "6:10 - 1st",
+  "detail": "1:45 - 1st",
   "postponed": false,
   "score": {
    "us": 0,
-   "them": 7
+   "them": 14
   },
   "win": null,
   "tie": false,
@@ -319,11 +319,11 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "6:10 - 1st",
+    "detail": "1:45 - 1st",
     "postponed": false,
     "score": {
      "us": 0,
-     "them": 7
+     "them": 14
     },
     "win": null,
     "tie": false
@@ -556,7 +556,7 @@
     "date": "2026-11-08T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "14:22 - 2nd",
+    "detail": "8:13 - 2nd",
     "postponed": false,
     "away": {
      "id": "34",
@@ -567,7 +567,7 @@
     "home": {
      "id": "24",
      "abbr": "LAC",
-     "score": 3,
+     "score": 6,
      "winner": false
     },
     "link": null
@@ -577,7 +577,7 @@
     "date": "2026-11-08T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "6:06 - 1st",
+    "detail": "1:11 - 1st",
     "postponed": false,
     "away": {
      "id": "13",
@@ -588,7 +588,7 @@
     "home": {
      "id": "25",
      "abbr": "SF",
-     "score": 7,
+     "score": 14,
      "winner": false
     },
     "link": null
@@ -1030,67 +1030,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T21:47:44.002Z"
+   "at": "2026-11-08T21:58:04.506Z"
   }
  },
  "nflverseTried": "2026-11-08T11:10:02.873Z"

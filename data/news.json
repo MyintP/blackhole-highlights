@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:27:00.936Z",
+ "updated": "2026-11-08T21:58:04.506Z",
  "items": [
   {
    "id": "lbzc9r",
@@ -10,7 +10,17 @@
    "kind": "Official",
    "cat": "Games",
    "desc": "Follow along for live updates during game.",
-   "author": null
+   "author": null,
+   "also": [
+    {
+     "id": "r5ibv4",
+     "title": "Las Vegas Raiders-San Francisco 49ers live updates",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/144371/las-vegas-raiders-san-francisco-49ers-live-updates",
+     "src": "Silver & Black Pride",
+     "date": "2026-11-08T21:43:22.000Z",
+     "kind": "Opinion"
+    }
+   ]
   },
   {
    "id": "14nou04",
