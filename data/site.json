@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:23:52.234Z",
+ "updated": "2026-11-08T21:02:10.402Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -111,7 +111,7 @@
      "name": "Dolphins",
      "location": "Miami",
      "abbr": "MIA",
-     "record": "1-6"
+     "record": "1-7"
     },
     "tv": "Fox",
     "state": "post",
@@ -508,7 +508,7 @@
     "date": "2026-11-08T18:00Z",
     "state": "in",
     "final": false,
-    "detail": "1:33 - 2nd",
+    "detail": "2:08 - 4th",
     "postponed": false,
     "away": {
      "id": "20",
@@ -519,7 +519,7 @@
     "home": {
      "id": "12",
      "abbr": "KC",
-     "score": 14,
+     "score": 35,
      "winner": false
     },
     "link": null
@@ -529,18 +529,18 @@
     "date": "2026-11-08T18:00Z",
     "state": "in",
     "final": false,
-    "detail": "1:27 - 2nd",
+    "detail": "2:53 - 4th",
     "postponed": false,
     "away": {
      "id": "7",
      "abbr": "DEN",
-     "score": 10,
+     "score": 26,
      "winner": false
     },
     "home": {
      "id": "29",
      "abbr": "CAR",
-     "score": 7,
+     "score": 21,
      "winner": false
     },
     "link": null
@@ -781,11 +781,11 @@
     "id": "15",
     "name": "Miami",
     "w": 1,
-    "l": 6,
+    "l": 7,
     "t": 0,
-    "pct": ".143",
+    "pct": ".125",
     "seed": 14,
-    "diff": "-64",
+    "diff": "-74",
     "us": false
    },
    {
@@ -894,6 +894,34 @@
   "gameId": "401873047",
   "us": [
    {
+    "name": "Dont'e Thornton Jr.",
+    "pos": "WR",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Malik Benson",
+    "pos": "WR",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Aidan O'Connell",
+    "pos": "QB",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Dalton Johnson",
+    "pos": "S",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
     "name": "Thomas Booker IV",
     "pos": "DT",
     "injury": "Ankle",
@@ -901,14 +929,49 @@
     "ret": "2026-11-15"
    },
    {
-    "name": "Darien Porter",
-    "pos": "CB",
-    "injury": "Groin",
-    "status": "Questionable",
-    "ret": "2026-11-08"
+    "name": "Bryce Cabeldue",
+    "pos": "G",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
    }
   ],
   "them": [
+   {
+    "name": "Kurtis Rourke",
+    "pos": "QB",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "injury": "Hamstring",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Khalid Kareem",
+    "pos": "DE",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Tatum Bethune",
+    "pos": "LB",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Enrique Cruz Jr.",
+    "pos": "OT",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
    {
     "name": "Mike Evans",
     "pos": "WR",
@@ -920,13 +983,6 @@
     "name": "Brandon Aiyuk",
     "pos": "WR",
     "injury": "Personal",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
-    "injury": "Hamstring",
     "status": "Out",
     "ret": "2026-11-15"
    },
@@ -950,20 +1006,6 @@
     "injury": "Ankle",
     "status": "Injured Reserve",
     "ret": "2026-12-06"
-   },
-   {
-    "name": "Siran Neal",
-    "pos": "S",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-08"
-   },
-   {
-    "name": "Upton Stout",
-    "pos": "CB",
-    "injury": "Shoulder - AC Joint",
-    "status": "Questionable",
-    "ret": "2026-11-08"
    }
   ],
   "opp": "49ers"
@@ -1008,67 +1050,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T19:23:52.234Z"
+   "at": "2026-11-08T21:02:10.402Z"
   }
  },
  "nflverseTried": "2026-11-08T11:10:02.873Z"
