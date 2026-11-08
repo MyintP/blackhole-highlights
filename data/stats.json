@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:10:02.873Z",
+ "updated": "2026-11-08T23:10:26.006Z",
  "season": 2026,
  "team": [
   {
@@ -1515,8 +1515,8 @@
     "side": "off",
     "higher": true,
     "v": 0.041,
-    "rank": 12,
-    "nfl": 0.007
+    "rank": 10,
+    "nfl": 0.005
    },
    {
     "key": "sr",
@@ -1525,7 +1525,7 @@
     "higher": true,
     "v": 0.438,
     "rank": 13,
-    "nfl": 0.438
+    "nfl": 0.436
    },
    {
     "key": "pass",
@@ -1534,7 +1534,7 @@
     "higher": true,
     "v": 0.201,
     "rank": 7,
-    "nfl": 0.071
+    "nfl": 0.07
    },
    {
     "key": "rush",
@@ -1543,7 +1543,7 @@
     "higher": true,
     "v": -0.233,
     "rank": 30,
-    "nfl": -0.095
+    "nfl": -0.096
    },
    {
     "key": "epa",
@@ -1551,8 +1551,8 @@
     "side": "def",
     "higher": false,
     "v": 0.062,
-    "rank": 25,
-    "nfl": 0.007
+    "rank": 26,
+    "nfl": 0.005
    },
    {
     "key": "sr",
@@ -1560,8 +1560,8 @@
     "side": "def",
     "higher": false,
     "v": 0.473,
-    "rank": 30,
-    "nfl": 0.438
+    "rank": 31,
+    "nfl": 0.436
    },
    {
     "key": "pass",
@@ -1570,7 +1570,7 @@
     "higher": false,
     "v": 0.158,
     "rank": 25,
-    "nfl": 0.071
+    "nfl": 0.07
    },
    {
     "key": "rush",
@@ -1578,8 +1578,8 @@
     "side": "def",
     "higher": false,
     "v": -0.077,
-    "rank": 22,
-    "nfl": -0.095
+    "rank": 20,
+    "nfl": -0.096
    }
   ],
   "passers": [
@@ -1592,10 +1592,10 @@
     "cpoeRank": 21
    }
   ],
-  "fetched": "2026-11-08T11:10:02.873Z"
+  "fetched": "2026-11-08T23:10:26.006Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.937,
   "rows": [
    {
     "key": "passRate",
@@ -1604,7 +1604,7 @@
     "fmt": "pct",
     "v": 0.63,
     "rank": 12,
-    "nfl": 0.61
+    "nfl": 0.611
    },
    {
     "key": "earlyPass",
@@ -1613,7 +1613,7 @@
     "fmt": "pct",
     "v": 0.57,
     "rank": 14,
-    "nfl": 0.555
+    "nfl": 0.556
    },
    {
     "key": "shotgun",
@@ -1667,7 +1667,7 @@
     "fmt": "pct",
     "v": 0.081,
     "rank": 8,
-    "nfl": 0.065
+    "nfl": 0.066
    },
    {
     "key": "adot",
@@ -1675,8 +1675,8 @@
     "side": "off",
     "fmt": "num",
     "v": 8.035,
-    "rank": 10,
-    "nfl": 7.735
+    "rank": 11,
+    "nfl": 7.729
    },
    {
     "key": "blitz",
@@ -1720,8 +1720,8 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.063,
-    "rank": 15,
-    "nfl": 0.062
+    "rank": 16,
+    "nfl": 0.063
    },
    {
     "key": "hitRate",
@@ -1730,7 +1730,7 @@
     "fmt": "pct",
     "v": 0.171,
     "rank": 6,
-    "nfl": 0.151
+    "nfl": 0.152
    }
   ]
  }
