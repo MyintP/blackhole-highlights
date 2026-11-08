@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T18:01:19.699Z",
+ "updated": "2026-11-08T18:11:39.140Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -506,44 +506,44 @@
    {
     "id": "401873045",
     "date": "2026-11-08T18:00Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/8 - 1:00 PM EST",
+    "detail": "8:28 - 1st",
     "postponed": false,
     "away": {
      "id": "20",
      "abbr": "NYJ",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "12",
      "abbr": "KC",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873045/jets-chiefs"
+    "link": null
    },
    {
     "id": "401873041",
     "date": "2026-11-08T18:00Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/8 - 1:00 PM EST",
+    "detail": "11:09 - 1st",
     "postponed": false,
     "away": {
      "id": "7",
      "abbr": "DEN",
-     "score": null,
+     "score": 3,
      "winner": false
     },
     "home": {
      "id": "29",
      "abbr": "CAR",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873041/broncos-panthers"
+    "link": null
    },
    {
     "id": "401873046",
@@ -1008,67 +1008,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T18:01:19.699Z"
+   "at": "2026-11-08T18:11:39.140Z"
   }
  },
  "nflverseTried": "2026-11-08T11:10:02.873Z"
