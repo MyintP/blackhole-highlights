@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T23:10:26.006Z",
+ "updated": "2026-11-08T23:20:49.378Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -19,7 +19,7 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "7:46 - 3rd",
+  "detail": "4:09 - 3rd",
   "postponed": false,
   "score": {
    "us": 17,
@@ -319,7 +319,7 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "7:46 - 3rd",
+    "detail": "4:09 - 3rd",
     "postponed": false,
     "score": {
      "us": 17,
@@ -556,12 +556,12 @@
     "date": "2026-11-08T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "10:54 - 3rd",
+    "detail": "8:11 - 3rd",
     "postponed": false,
     "away": {
      "id": "34",
      "abbr": "HOU",
-     "score": 24,
+     "score": 31,
      "winner": false
     },
     "home": {
@@ -577,7 +577,7 @@
     "date": "2026-11-08T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "7:46 - 3rd",
+    "detail": "4:09 - 3rd",
     "postponed": false,
     "away": {
      "id": "13",
@@ -1008,9 +1008,9 @@
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "113",
+   "value": "136",
    "unit": "YDS",
-   "line": "13/17, 1 TD, 1 INT"
+   "line": "15/19, 1 TD, 1 INT"
   },
   {
    "cat": "Rushing Yards",
@@ -1022,9 +1022,9 @@
   {
    "cat": "Receiving Yards",
    "name": "Brock Bowers",
-   "value": "56",
+   "value": "61",
    "unit": "YDS",
-   "line": "4 REC, 1 TD"
+   "line": "5 REC, 1 TD"
   },
   {
    "cat": "Sacks",
@@ -1036,111 +1036,75 @@
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "7",
+   "value": "10",
    "unit": "TOT",
-   "line": "5 SOLO"
+   "line": "6 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T23:10:26.006Z"
+   "at": "2026-11-08T23:20:49.378Z"
   }
  },
  "nflverseTried": "2026-11-08T23:10:26.006Z"
