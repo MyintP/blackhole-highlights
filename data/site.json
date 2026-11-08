@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:16:39.937Z",
+ "updated": "2026-11-08T21:27:00.936Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -17,11 +17,14 @@
    "record": "6-1"
   },
   "tv": "Fox",
-  "state": "pre",
+  "state": "in",
   "final": false,
-  "detail": null,
+  "detail": "15:00 - 1st",
   "postponed": false,
-  "score": null,
+  "score": {
+   "us": 0,
+   "them": 0
+  },
   "win": null,
   "tie": false,
   "oppRecord": "6-1",
@@ -314,11 +317,14 @@
      "record": "6-1"
     },
     "tv": "Fox",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": null,
+    "detail": "15:00 - 1st",
     "postponed": false,
-    "score": null,
+    "score": {
+     "us": 0,
+     "them": 0
+    },
     "win": null,
     "tie": false
    },
@@ -504,27 +510,6 @@
   "week": 9,
   "games": [
    {
-    "id": "401873041",
-    "date": "2026-11-08T18:00Z",
-    "state": "post",
-    "final": true,
-    "detail": "Final",
-    "postponed": false,
-    "away": {
-     "id": "7",
-     "abbr": "DEN",
-     "score": 26,
-     "winner": true
-    },
-    "home": {
-     "id": "29",
-     "abbr": "CAR",
-     "score": 21,
-     "winner": false
-    },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873041/broncos-panthers"
-   },
-   {
     "id": "401873045",
     "date": "2026-11-08T18:00Z",
     "state": "post",
@@ -546,11 +531,32 @@
     "link": "https://www.espn.com/nfl/game/_/gameId/401873045/jets-chiefs"
    },
    {
+    "id": "401873041",
+    "date": "2026-11-08T18:00Z",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
+    "postponed": false,
+    "away": {
+     "id": "7",
+     "abbr": "DEN",
+     "score": 26,
+     "winner": true
+    },
+    "home": {
+     "id": "29",
+     "abbr": "CAR",
+     "score": 21,
+     "winner": false
+    },
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873041/broncos-panthers"
+   },
+   {
     "id": "401873046",
     "date": "2026-11-08T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "10:16 - 1st",
+    "detail": "6:09 - 1st",
     "postponed": false,
     "away": {
      "id": "34",
@@ -561,7 +567,7 @@
     "home": {
      "id": "24",
      "abbr": "LAC",
-     "score": 0,
+     "score": 3,
      "winner": false
     },
     "link": null
@@ -569,23 +575,23 @@
    {
     "id": "401873047",
     "date": "2026-11-08T21:25Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/8 - 4:25 PM EST",
+    "detail": "15:00 - 1st",
     "postponed": false,
     "away": {
      "id": "13",
      "abbr": "LV",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "25",
      "abbr": "SF",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers"
+    "link": null
    }
   ],
   "byes": []
@@ -865,18 +871,6 @@
     "higher": true
    },
    {
-    "label": "Yards allowed",
-    "us": {
-     "v": 397.1,
-     "rank": null
-    },
-    "them": {
-     "v": 312.9,
-     "rank": null
-    },
-    "higher": false
-   },
-   {
     "label": "Points allowed",
     "us": {
      "v": 28.75,
@@ -1012,105 +1006,77 @@
  },
  "leaders": [
   {
-   "cat": "Passing Yards",
-   "name": "Kirk Cousins",
-   "value": "2,124",
-   "unit": "YDS",
-   "line": "180/283, 19 TD, 5 INT"
-  },
-  {
-   "cat": "Rushing Yards",
-   "name": "Ashton Jeanty",
-   "value": "337",
-   "unit": "YDS",
-   "line": "108 CAR, 1 TD"
-  },
-  {
-   "cat": "Receiving Yards",
-   "name": "Brock Bowers",
-   "value": "547",
-   "unit": "YDS",
-   "line": "41 REC, 5 TD"
-  },
-  {
-   "cat": "Sacks",
-   "name": "Maxx Crosby",
-   "value": "3",
-   "unit": "SACKS",
-   "line": "3"
-  },
-  {
    "cat": "Tackles",
-   "name": "Nakobe Dean",
-   "value": "80",
+   "name": "Dareke Young",
+   "value": "1",
    "unit": "TOT",
-   "line": "80"
+   "line": "1 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T21:16:39.937Z"
+   "at": "2026-11-08T21:27:00.936Z"
   }
  },
  "nflverseTried": "2026-11-08T11:10:02.873Z"
