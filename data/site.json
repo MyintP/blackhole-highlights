@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:27:00.936Z",
+ "updated": "2026-11-08T21:37:21.537Z",
  "season": 2026,
  "record": "4-4",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "Fox",
   "state": "in",
   "final": false,
-  "detail": "15:00 - 1st",
+  "detail": "9:22 - 1st",
   "postponed": false,
   "score": {
    "us": 0,
-   "them": 0
+   "them": 7
   },
   "win": null,
   "tie": false,
@@ -164,7 +164,7 @@
      "name": "Saints",
      "location": "New Orleans",
      "abbr": "NO",
-     "record": "2-5"
+     "record": "3-5"
     },
     "tv": "CBS",
     "state": "post",
@@ -319,11 +319,11 @@
     "tv": "Fox",
     "state": "in",
     "final": false,
-    "detail": "15:00 - 1st",
+    "detail": "9:22 - 1st",
     "postponed": false,
     "score": {
      "us": 0,
-     "them": 0
+     "them": 7
     },
     "win": null,
     "tie": false
@@ -383,7 +383,7 @@
      "name": "Browns",
      "location": "Cleveland",
      "abbr": "CLE",
-     "record": "5-3"
+     "record": "5-4"
     },
     "tv": "Fox",
     "state": "pre",
@@ -556,12 +556,12 @@
     "date": "2026-11-08T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "6:09 - 1st",
+    "detail": "2:40 - 1st",
     "postponed": false,
     "away": {
      "id": "34",
      "abbr": "HOU",
-     "score": 7,
+     "score": 10,
      "winner": false
     },
     "home": {
@@ -577,7 +577,7 @@
     "date": "2026-11-08T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "15:00 - 1st",
+    "detail": "9:22 - 1st",
     "postponed": false,
     "away": {
      "id": "13",
@@ -588,7 +588,7 @@
     "home": {
      "id": "25",
      "abbr": "SF",
-     "score": 0,
+     "score": 7,
      "winner": false
     },
     "link": null
@@ -721,11 +721,11 @@
     "id": "5",
     "name": "Cleveland",
     "w": 5,
-    "l": 3,
+    "l": 4,
     "t": 0,
-    "pct": ".625",
+    "pct": ".556",
     "seed": 8,
-    "diff": "-34",
+    "diff": "-35",
     "us": false
    },
    {
@@ -762,25 +762,25 @@
     "us": false
    },
    {
-    "id": "11",
-    "name": "Indianapolis",
-    "w": 2,
-    "l": 6,
-    "t": 0,
-    "pct": ".250",
-    "seed": 12,
-    "diff": "-61",
-    "us": false
-   },
-   {
     "id": "20",
     "name": "NY Jets",
     "w": 2,
     "l": 7,
     "t": 0,
     "pct": ".222",
-    "seed": 13,
+    "seed": 12,
     "diff": "-41",
+    "us": false
+   },
+   {
+    "id": "11",
+    "name": "Indianapolis",
+    "w": 2,
+    "l": 7,
+    "t": 0,
+    "pct": ".222",
+    "seed": 13,
+    "diff": "-65",
     "us": false
    },
    {
@@ -1006,9 +1006,16 @@
  },
  "leaders": [
   {
+   "cat": "Passing Yards",
+   "name": "Kirk Cousins",
+   "value": "0",
+   "unit": "YDS",
+   "line": "0/1"
+  },
+  {
    "cat": "Tackles",
-   "name": "Dareke Young",
-   "value": "1",
+   "name": "Jeremy Chinn",
+   "value": "2",
    "unit": "TOT",
    "line": "1 SOLO"
   }
@@ -1016,67 +1023,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-08T21:27:00.936Z"
+   "at": "2026-11-08T21:37:21.537Z"
   }
  },
  "nflverseTried": "2026-11-08T11:10:02.873Z"
