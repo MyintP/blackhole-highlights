@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T07:51:43.008Z",
+ "updated": "2026-11-09T18:40:08.645Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -948,6 +948,13 @@
   ],
   "them": [
    {
+    "name": "Sam Darnold",
+    "pos": "QB",
+    "injury": "Quadriceps",
+    "status": "Out",
+    "ret": "2026-11-29"
+   },
+   {
     "name": "Leonard Williams",
     "pos": "DT",
     "injury": "Shoulder",
@@ -986,13 +993,6 @@
     "name": "Charles Cross",
     "pos": "OT",
     "injury": "Ankle",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Sam Darnold",
-    "pos": "QB",
-    "injury": "Quadriceps",
     "status": "Out",
     "ret": "2026-11-15"
    },
@@ -1046,69 +1046,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "videos": {
-   "ok": false,
-   "at": "2026-11-09T07:51:43.008Z",
-   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
+   "ok": true,
+   "at": "2026-11-09T18:40:08.645Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-09T07:51:43.008Z"
+   "at": "2026-11-09T18:40:08.645Z"
   }
  },
- "nflverseTried": "2026-11-08T23:10:26.006Z"
+ "nflverseTried": "2026-11-09T18:40:08.645Z"
 }

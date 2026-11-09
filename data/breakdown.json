@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-08T23:10:26.006Z",
+ "fetched": "2026-11-09T18:40:08.645Z",
  "throughWeek": 9,
  "games": {
   "401872928": {
@@ -3206,6 +3206,348 @@
     {
      "kicker": "M.Gay",
      "dist": 53,
+     "result": "made"
+    }
+   ]
+  },
+  "401873047": {
+   "week": 9,
+   "home": false,
+   "offense": {
+    "plays": 49,
+    "epa": -0.3,
+    "sr": 0.408,
+    "pass": {
+     "plays": 34,
+     "epa": -0.324
+    },
+    "rush": {
+     "plays": 15,
+     "epa": -0.248
+    },
+    "explosive": 4,
+    "third": [
+     7,
+     10
+    ]
+   },
+   "defense": {
+    "plays": 70,
+    "epa": 0.214,
+    "sr": 0.514,
+    "pass": {
+     "plays": 34,
+     "epa": 0.445
+    },
+    "rush": {
+     "plays": 36,
+     "epa": -0.004
+    },
+    "explosive": 7,
+    "third": [
+     9,
+     13
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "09:34",
+     "team": "SF",
+     "desc": "(9:34) 23-C.McCaffrey left guard for 1 yard, TOUCHDOWN.",
+     "score": {
+      "us": 0,
+      "them": 7
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 1,
+     "time": "01:58",
+     "team": "SF",
+     "desc": "(1:58) 13-B.Purdy scrambles right end for 1 yard, TOUCHDOWN.",
+     "score": {
+      "us": 0,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "12:43",
+     "team": "LV",
+     "desc": "(12:43) 8-K.Cousins up the middle for 2 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "05:20",
+     "team": "SF",
+     "desc": "(5:20) (Shotgun) 13-B.Purdy pass short left to 23-C.McCaffrey for 12 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 21
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "01:16",
+     "team": "LV",
+     "desc": "(1:16) 14-M.Gay 50 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 21
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "14:54",
+     "team": "SF",
+     "desc": "(14:54) (Shotgun) 8-K.Cousins to LV 24 for -6 yards. FUMBLES, and recovers at LV 23. 8-K.Cousins pass intended for 1-T.Tucker INTERCEPTED by 53-J.Dugger at LV 35. 53-J.Dugger for 35 yards, TOUCHDOWN.",
+     "score": {
+      "us": 10,
+      "them": 28
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "09:34",
+     "team": "LV",
+     "desc": "(9:34) (Shotgun) 8-K.Cousins pass deep middle to 89-B.Bowers for 21 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 28
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "00:44",
+     "team": "SF",
+     "desc": "(:44) (Shotgun) 13-B.Purdy pass deep middle to 17-J.Watkins for 37 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 35
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "05:24",
+     "team": "SF",
+     "desc": "(5:24) 18-E.Pineiro 35 yard field goal is GOOD, Center-46-J.Weeks, Holder-15-C.Waitman.",
+     "score": {
+      "us": 17,
+      "them": 38
+     }
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 1,
+     "time": "13:26",
+     "wpa": -0.094,
+     "desc": "(13:26) (Shotgun) 13-B.Purdy pass short left to 85-G.Kittle to LV 41 for 4 yards (31-T.Stukes)."
+    },
+    {
+     "qtr": 3,
+     "time": "14:54",
+     "wpa": -0.091,
+     "desc": "(14:54) (Shotgun) 8-K.Cousins to LV 24 for -6 yards. FUMBLES, and recovers at LV 23. 8-K.Cousins pass intended for 1-T.Tucker INTERCEPTED by 53-J.Dugger at LV 35. 53-J.Dugger for 35 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 3,
+     "time": "08:01",
+     "wpa": 0.085,
+     "desc": "(8:01) (Shotgun) 13-B.Purdy pass deep right intended for 85-G.Kittle INTERCEPTED by 31-T.Stukes at LV 43. 31-T.Stukes to SF 31 for 26 yards (75-C.Colby)."
+    },
+    {
+     "qtr": 3,
+     "time": "04:19",
+     "wpa": -0.077,
+     "desc": "(4:19) (Shotgun) 8-K.Cousins pass deep middle to 87-M.Mayer to SF 1 for 24 yards (20-U.Stout; 27-J.Brown). FUMBLES (20-U.Stout), RECOVERED by SF-54-F.Warner at SF -2. Touchback."
+    },
+    {
+     "qtr": 2,
+     "time": "12:43",
+     "wpa": 0.072,
+     "desc": "(12:43) 8-K.Cousins up the middle for 2 yards, TOUCHDOWN."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "SF",
+     "qtr": 1,
+     "start": "SF 31",
+     "plays": 12,
+     "top": "5:28",
+     "result": "Touchdown"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 37",
+     "plays": 3,
+     "top": "1:11",
+     "result": "Punt"
+    },
+    {
+     "n": 3,
+     "team": "SF",
+     "qtr": 1,
+     "start": "SF 11",
+     "plays": 13,
+     "top": "6:29",
+     "result": "Touchdown"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 38",
+     "plays": 8,
+     "top": "4:11",
+     "result": "Touchdown"
+    },
+    {
+     "n": 5,
+     "team": "SF",
+     "qtr": 2,
+     "start": "SF 16",
+     "plays": 12,
+     "top": "7:26",
+     "result": "Touchdown"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "SF 42",
+     "plays": 7,
+     "top": "4:03",
+     "result": "Field goal"
+    },
+    {
+     "n": 7,
+     "team": "SF",
+     "qtr": 2,
+     "start": "SF 35",
+     "plays": 1,
+     "top": "1:12",
+     "result": "End of half"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 30",
+     "plays": 1,
+     "top": "0:17",
+     "result": "Opp touchdown"
+    },
+    {
+     "n": 9,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 31",
+     "plays": 9,
+     "top": "5:14",
+     "result": "Touchdown"
+    },
+    {
+     "n": 10,
+     "team": "SF",
+     "qtr": 3,
+     "start": "SF 24",
+     "plays": 3,
+     "top": "1:43",
+     "result": "Turnover"
+    },
+    {
+     "n": 11,
+     "team": "LV",
+     "qtr": 3,
+     "start": "SF 31",
+     "plays": 2,
+     "top": "0:15",
+     "result": "Turnover"
+    },
+    {
+     "n": 12,
+     "team": "SF",
+     "qtr": 3,
+     "start": "SF 31",
+     "plays": 4,
+     "top": "2:01",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 13,
+     "team": "LV",
+     "qtr": 3,
+     "start": "SF 40",
+     "plays": 3,
+     "top": "1:19",
+     "result": "Turnover"
+    },
+    {
+     "n": 14,
+     "team": "SF",
+     "qtr": 3,
+     "start": "SF 20",
+     "plays": 7,
+     "top": "3:35",
+     "result": "Touchdown"
+    },
+    {
+     "n": 15,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 30",
+     "plays": 8,
+     "top": "3:41",
+     "result": "Turnover"
+    },
+    {
+     "n": 16,
+     "team": "SF",
+     "qtr": 4,
+     "start": "SF 20",
+     "plays": 12,
+     "top": "6:34",
+     "result": "Field goal"
+    },
+    {
+     "n": 17,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 22",
+     "plays": 7,
+     "top": "1:31",
+     "result": "Turnover"
+    },
+    {
+     "n": 18,
+     "team": "SF",
+     "qtr": 4,
+     "start": "SF 27",
+     "plays": 6,
+     "top": "3:50",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 50,
      "result": "made"
     }
    ]
