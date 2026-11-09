@@ -1,9 +1,36 @@
 {
- "updated": "2026-11-09T00:12:53.972Z",
+ "updated": "2026-11-09T00:23:25.323Z",
  "season": 2026,
- "record": "4-4",
+ "record": "4-5",
  "divisionPlace": "3rd in AFC West",
  "next": {
+  "id": "401873062",
+  "week": 10,
+  "date": "2026-11-15T21:05Z",
+  "timeTBD": false,
+  "home": true,
+  "opp": {
+   "id": "26",
+   "name": "Seahawks",
+   "location": "Seattle",
+   "abbr": "SEA",
+   "record": "4-4"
+  },
+  "tv": "CBS",
+  "state": "pre",
+  "final": false,
+  "detail": null,
+  "postponed": false,
+  "score": null,
+  "win": null,
+  "tie": false,
+  "oppRecord": "4-4",
+  "venue": {
+   "name": "Allegiant Stadium",
+   "city": "Las Vegas"
+  }
+ },
+ "last": {
   "id": "401873047",
   "week": 9,
   "date": "2026-11-08T21:25Z",
@@ -14,37 +41,7 @@
    "name": "49ers",
    "location": "San Francisco",
    "abbr": "SF",
-   "record": "6-1"
-  },
-  "tv": "Fox",
-  "state": "in",
-  "final": false,
-  "detail": "0:37 - 4th",
-  "postponed": false,
-  "score": {
-   "us": 17,
-   "them": 38
-  },
-  "win": null,
-  "tie": false,
-  "oppRecord": "6-1",
-  "venue": {
-   "name": "Levi's Stadium",
-   "city": "Santa Clara"
-  }
- },
- "last": {
-  "id": "401873029",
-  "week": 8,
-  "date": "2026-11-01T18:00Z",
-  "timeTBD": false,
-  "home": false,
-  "opp": {
-   "id": "20",
-   "name": "Jets",
-   "location": "New York",
-   "abbr": "NYJ",
-   "record": "2-7"
+   "record": "7-1"
   },
   "tv": "Fox",
   "state": "post",
@@ -52,32 +49,32 @@
   "detail": null,
   "postponed": false,
   "score": {
-   "us": 38,
-   "them": 33
+   "us": 17,
+   "them": 38
   },
-  "win": true,
+  "win": false,
   "tie": false,
   "leaders": [
    {
     "cat": "Passing Yards",
     "name": "Kirk Cousins",
-    "value": "247",
+    "value": "216",
     "unit": "YDS",
-    "line": "19/26, 3 TD"
+    "line": "22/32, 1 TD, 3 INT"
    },
    {
     "cat": "Rushing Yards",
-    "name": "Mike Washington Jr.",
-    "value": "83",
+    "name": "Ashton Jeanty",
+    "value": "25",
     "unit": "YDS",
-    "line": "25 CAR"
+    "line": "6 CAR"
    },
    {
     "cat": "Receiving Yards",
     "name": "Brock Bowers",
-    "value": "92",
+    "value": "111",
     "unit": "YDS",
-    "line": "7 REC, 2 TD"
+    "line": "7 REC, 1 TD"
    },
    {
     "cat": "Sacks",
@@ -89,16 +86,12 @@
    {
     "cat": "Tackles",
     "name": "Nakobe Dean",
-    "value": "12",
+    "value": "18",
     "unit": "TOT",
-    "line": "2 SOLO"
+    "line": "7 SOLO"
    }
   ],
-  "recap": {
-   "title": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
-   "link": "https://www.espn.com/nfl/recap?gameId=401873029",
-   "desc": "— Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on..."
-  }
+  "recap": null
  },
  "schedule": {
   "bye": 13,
@@ -314,18 +307,18 @@
      "name": "49ers",
      "location": "San Francisco",
      "abbr": "SF",
-     "record": "6-1"
+     "record": "7-1"
     },
     "tv": "Fox",
-    "state": "in",
-    "final": false,
-    "detail": "0:37 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": null,
     "postponed": false,
     "score": {
      "us": 17,
      "them": 38
     },
-    "win": null,
+    "win": false,
     "tie": false
    },
    {
@@ -556,12 +549,12 @@
     "date": "2026-11-08T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "4:19 - 4th",
+    "detail": "2:00 - 4th",
     "postponed": false,
     "away": {
      "id": "34",
      "abbr": "HOU",
-     "score": 41,
+     "score": 44,
      "winner": false
     },
     "home": {
@@ -575,9 +568,9 @@
    {
     "id": "401873047",
     "date": "2026-11-08T21:25Z",
-    "state": "in",
-    "final": false,
-    "detail": "0:37 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "13",
@@ -589,9 +582,9 @@
      "id": "25",
      "abbr": "SF",
      "score": 38,
-     "winner": false
+     "winner": true
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers"
    }
   ],
   "byes": []
@@ -622,10 +615,10 @@
     "id": "13",
     "name": "Las Vegas",
     "w": 4,
-    "l": 4,
+    "l": 5,
     "t": 0,
-    "pct": ".500",
-    "diff": "-9",
+    "pct": ".444",
+    "diff": "-30",
     "us": true
    },
    {
@@ -732,11 +725,11 @@
     "id": "13",
     "name": "Las Vegas",
     "w": 4,
-    "l": 4,
+    "l": 5,
     "t": 0,
-    "pct": ".500",
+    "pct": ".444",
     "seed": 9,
-    "diff": "-9",
+    "diff": "-30",
     "us": true
    },
    {
@@ -819,8 +812,8 @@
   ]
  },
  "matchup": {
-  "gameId": "401873047",
-  "opp": "49ers",
+  "gameId": "401873062",
+  "opp": "Seahawks",
   "rows": [
    {
     "label": "Points / game",
@@ -829,8 +822,8 @@
      "rank": "6th"
     },
     "them": {
-     "v": 28.14,
-     "rank": "5th"
+     "v": 23.13,
+     "rank": "15th"
     },
     "higher": true
    },
@@ -841,8 +834,8 @@
      "rank": "14th"
     },
     "them": {
-     "v": 377.143,
-     "rank": "8th"
+     "v": 348.875,
+     "rank": "16th"
     },
     "higher": true
    },
@@ -853,8 +846,8 @@
      "rank": "5th"
     },
     "them": {
-     "v": 249.714,
-     "rank": "13th"
+     "v": 239.25,
+     "rank": "T-17th"
     },
     "higher": true
    },
@@ -865,27 +858,39 @@
      "rank": "31st"
     },
     "them": {
-     "v": 127.4,
-     "rank": "8th"
+     "v": 109.6,
+     "rank": "19th"
     },
     "higher": true
    },
    {
-    "label": "Points allowed",
+    "label": "Yards allowed",
     "us": {
-     "v": 28.75,
-     "rank": "31st"
+     "v": 397.1,
+     "rank": null
     },
     "them": {
-     "v": 19.857142857142858,
-     "rank": "6th"
+     "v": 263.1,
+     "rank": null
+    },
+    "higher": false
+   },
+   {
+    "label": "Points allowed",
+    "us": {
+     "v": 29.77777777777778,
+     "rank": "32nd"
+    },
+    "them": {
+     "v": 19.875,
+     "rank": "7th"
     },
     "higher": false
    }
   ]
  },
  "injuries": {
-  "gameId": "401873047",
+  "gameId": "401873062",
   "us": [
    {
     "name": "Dont'e Thornton Jr.",
@@ -939,180 +944,163 @@
   ],
   "them": [
    {
-    "name": "Kurtis Rourke",
-    "pos": "QB",
-    "injury": "Coach's Decision",
+    "name": "Leonard Williams",
+    "pos": "DT",
+    "injury": "Shoulder",
     "status": "Out",
     "ret": "2026-11-15"
    },
    {
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
-    "injury": "Hamstring",
+    "name": "Quenton Nelson",
+    "pos": "G",
+    "injury": "Knee",
     "status": "Out",
     "ret": "2026-11-15"
    },
    {
-    "name": "Khalid Kareem",
-    "pos": "DE",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Tatum Bethune",
+    "name": "Uchenna Nwosu",
     "pos": "LB",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Enrique Cruz Jr.",
-    "pos": "OT",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Mike Evans",
-    "pos": "WR",
-    "injury": "Achilles",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Brandon Aiyuk",
-    "pos": "WR",
-    "injury": "Personal",
-    "status": "Out",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Nate Hobbs",
-    "pos": "CB",
-    "injury": "Groin",
-    "status": "Injured Reserve",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Christian Kirk",
-    "pos": "WR",
-    "injury": "Knee - Meniscus",
-    "status": "Injured Reserve",
-    "ret": "2026-12-06"
-   },
-   {
-    "name": "De'Zhaun Stribling",
-    "pos": "WR",
     "injury": "Ankle",
-    "status": "Injured Reserve",
-    "ret": "2026-12-06"
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Brandon Pili",
+    "pos": "DT",
+    "injury": "Back",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Rashid Shaheed",
+    "pos": "WR",
+    "injury": "Knee",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Charles Cross",
+    "pos": "OT",
+    "injury": "Ankle",
+    "status": "Out",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Sam Darnold",
+    "pos": "QB",
+    "injury": "Quadriceps",
+    "status": "Out",
+    "ret": "2026-11-15"
    }
   ],
-  "opp": "49ers"
+  "opp": "Seahawks"
  },
  "leaders": [
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "216",
+   "value": "2,124",
    "unit": "YDS",
-   "line": "22/32, 1 TD, 3 INT"
+   "line": "180/283, 19 TD, 5 INT"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "25",
+   "value": "337",
    "unit": "YDS",
-   "line": "6 CAR"
+   "line": "108 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
    "name": "Brock Bowers",
-   "value": "111",
+   "value": "547",
    "unit": "YDS",
-   "line": "7 REC, 1 TD"
+   "line": "41 REC, 5 TD"
   },
   {
    "cat": "Sacks",
    "name": "Maxx Crosby",
-   "value": "1",
+   "value": "3",
    "unit": "SACKS",
-   "line": "1"
+   "line": "3"
   },
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "18",
+   "value": "80",
    "unit": "TOT",
-   "line": "7 SOLO"
+   "line": "80"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
+  },
+  "game 9": {
+   "ok": true,
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-11-09T00:12:53.972Z",
+   "at": "2026-11-09T00:23:25.323Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-09T00:12:53.972Z"
+   "at": "2026-11-09T00:23:25.323Z"
   }
  },
  "nflverseTried": "2026-11-08T23:10:26.006Z"
