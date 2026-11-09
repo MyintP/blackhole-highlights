@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T00:23:25.323Z",
+ "updated": "2026-11-09T00:33:56.637Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -14,7 +14,7 @@
    "name": "Seahawks",
    "location": "Seattle",
    "abbr": "SEA",
-   "record": "4-4"
+   "record": "5-4"
   },
   "tv": "CBS",
   "state": "pre",
@@ -24,7 +24,7 @@
   "score": null,
   "win": null,
   "tie": false,
-  "oppRecord": "4-4",
+  "oppRecord": "5-4",
   "venue": {
    "name": "Allegiant Stadium",
    "city": "Las Vegas"
@@ -91,7 +91,11 @@
     "line": "7 SOLO"
    }
   ],
-  "recap": null
+  "recap": {
+   "title": "49ers cruise past Raiders 38-17",
+   "link": "https://www.espn.com/nfl/recap?gameId=401873047",
+   "desc": "— Brock Purdy threw two touchdown passes and ran for another TD and the San Francisco 49ers had five takeaways in the second half to beat the Las Vegas Raiders 38-17 on Sunday."
+  }
  },
  "schedule": {
   "bye": 13,
@@ -132,7 +136,7 @@
      "name": "Chargers",
      "location": "Los Angeles",
      "abbr": "LAC",
-     "record": "0-7"
+     "record": "0-8"
     },
     "tv": "CBS",
     "state": "post",
@@ -332,7 +336,7 @@
      "name": "Seahawks",
      "location": "Seattle",
      "abbr": "SEA",
-     "record": "4-4"
+     "record": "5-4"
     },
     "tv": "CBS",
     "state": "pre",
@@ -398,7 +402,7 @@
      "name": "Chargers",
      "location": "Los Angeles",
      "abbr": "LAC",
-     "record": "0-7"
+     "record": "0-8"
     },
     "tv": "CBS",
     "state": "pre",
@@ -464,7 +468,7 @@
      "name": "Cardinals",
      "location": "Arizona",
      "abbr": "ARI",
-     "record": "3-5"
+     "record": "3-6"
     },
     "tv": "CBS",
     "state": "pre",
@@ -547,15 +551,15 @@
    {
     "id": "401873046",
     "date": "2026-11-08T21:05Z",
-    "state": "in",
-    "final": false,
-    "detail": "2:00 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "34",
      "abbr": "HOU",
      "score": 44,
-     "winner": false
+     "winner": true
     },
     "home": {
      "id": "24",
@@ -563,7 +567,7 @@
      "score": 22,
      "winner": false
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873046/texans-chargers"
    },
    {
     "id": "401873047",
@@ -625,10 +629,10 @@
     "id": "24",
     "name": "LA Chargers",
     "w": 0,
-    "l": 7,
+    "l": 8,
     "t": 0,
     "pct": ".000",
-    "diff": "-76",
+    "diff": "-98",
     "us": false
    }
   ],
@@ -746,12 +750,12 @@
    {
     "id": "34",
     "name": "Houston",
-    "w": 2,
+    "w": 3,
     "l": 5,
     "t": 0,
-    "pct": ".286",
+    "pct": ".375",
     "seed": 11,
-    "diff": "-5",
+    "diff": "+17",
     "us": false
    },
    {
@@ -802,11 +806,11 @@
     "id": "24",
     "name": "LA Chargers",
     "w": 0,
-    "l": 7,
+    "l": 8,
     "t": 0,
     "pct": ".000",
     "seed": 16,
-    "diff": "-76",
+    "diff": "-98",
     "us": false
    }
   ]
@@ -882,8 +886,8 @@
      "rank": "32nd"
     },
     "them": {
-     "v": 19.875,
-     "rank": "7th"
+     "v": 18,
+     "rank": "T-4th"
     },
     "higher": false
    }
@@ -1035,72 +1039,72 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "game 9": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-11-09T00:23:25.323Z",
+   "at": "2026-11-09T00:33:56.637Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-09T00:23:25.323Z"
+   "at": "2026-11-09T00:33:56.637Z"
   }
  },
  "nflverseTried": "2026-11-08T23:10:26.006Z"

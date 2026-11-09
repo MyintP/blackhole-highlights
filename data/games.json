@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T00:23:25.323Z",
+ "updated": "2026-11-09T00:33:56.637Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1379,7 +1379,11 @@
      }
     ]
    },
-   "recap": null,
+   "recap": {
+    "title": "49ers cruise past Raiders 38-17",
+    "link": "https://www.espn.com/nfl/recap?gameId=401873047",
+    "desc": "— Brock Purdy threw two touchdown passes and ran for another TD and the San Francisco 49ers had five takeaways in the second half to beat the Las Vegas Raiders 38-17 on Sunday."
+   },
    "attendance": 71753
   }
  }
