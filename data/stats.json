@@ -1,90 +1,90 @@
 {
- "updated": "2026-11-08T23:10:26.006Z",
+ "updated": "2026-11-09T07:51:43.008Z",
  "season": 2026,
  "team": [
   {
    "key": "totalPointsPerGame",
    "label": "Points per game",
-   "value": "27.6",
-   "v": 27.63,
-   "rank": "6th"
+   "value": "26.4",
+   "v": 26.44,
+   "rank": "8th"
   },
   {
    "key": "yardsPerGame",
    "label": "Total yards per game",
-   "value": "350.4",
-   "v": 350.375,
-   "rank": "14th"
+   "value": "338.1",
+   "v": 338.111,
+   "rank": "20th"
   },
   {
    "key": "passingYardsPerGame",
    "label": "Passing yards per game",
-   "value": "273.1",
-   "v": 273.125,
-   "rank": "5th"
+   "value": "266.8",
+   "v": 266.778,
+   "rank": "6th"
   },
   {
    "key": "rushingYardsPerGame",
    "label": "Rushing yards per game",
-   "value": "77.3",
-   "v": 77.3,
+   "value": "71.3",
+   "v": 71.3,
    "rank": "31st"
   },
   {
    "key": "yardsPerRushAttempt",
    "label": "Yards per rush",
-   "value": "3.0",
-   "v": 3,
-   "rank": "31st"
+   "value": "2.9",
+   "v": 2.9,
+   "rank": "32nd"
   },
   {
    "key": "completionPct",
    "label": "Completion %",
-   "value": "64.0",
-   "v": 64,
-   "rank": "17th"
+   "value": "64.5",
+   "v": 64.5,
+   "rank": "16th"
   },
   {
    "key": "QBRating",
    "label": "Passer rating",
-   "value": "101.2",
-   "v": 101.2,
-   "rank": "6th"
+   "value": "97.0",
+   "v": 97,
+   "rank": "10th"
   },
   {
    "key": "thirdDownConvPct",
    "label": "3rd-down conversion %",
-   "value": "41.75",
-   "v": 41.748,
-   "rank": "10th"
+   "value": "43.75",
+   "v": 43.75,
+   "rank": "7th"
   },
   {
    "key": "redzoneScoringPct",
    "label": "Red-zone scoring %",
-   "value": "87.50",
-   "v": 87.5,
-   "rank": "16th"
+   "value": "85.29",
+   "v": 85.29,
+   "rank": "21st"
   },
   {
    "key": "turnOverDifferential",
    "label": "Turnover differential",
-   "value": "5",
-   "v": 5,
-   "rank": "T-4th"
+   "value": "1",
+   "v": 1,
+   "rank": "T-13th"
   },
   {
    "key": "sacks",
    "label": "Defensive sacks",
-   "value": "18",
-   "v": 18,
-   "rank": "T-14th"
+   "value": "19",
+   "v": 19,
+   "rank": "T-16th"
   },
   {
    "key": "interceptions",
    "label": "Interceptions",
-   "value": "6",
-   "v": 6,
-   "rank": "T-10th"
+   "value": "7",
+   "v": 7,
+   "rank": "T-8th"
   }
  ],
  "players": [
@@ -97,8 +97,8 @@
      "name": "Kirk Cousins",
      "pos": "QB",
      "link": "https://www.espn.com/nfl/player/_/id/14880/kirk-cousins",
-     "value": 2124,
-     "line": "2,124"
+     "value": 2340,
+     "line": "2,340"
     },
     {
      "id": "4837248",
@@ -127,16 +127,16 @@
      "name": "Ashton Jeanty",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
-     "value": 337,
-     "line": "337"
+     "value": 362,
+     "line": "362"
     },
     {
      "id": "4686658",
      "name": "Mike Washington Jr.",
      "pos": "RB",
      "link": "https://www.espn.com/nfl/player/_/id/4686658/mike-washington-jr",
-     "value": 278,
-     "line": "278"
+     "value": 275,
+     "line": "275"
     },
     {
      "id": "4366963",
@@ -163,6 +163,14 @@
      "line": "3"
     },
     {
+     "id": "4432665",
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
+     "value": 2,
+     "line": "2"
+    },
+    {
      "id": "4241961",
      "name": "Connor Heyward",
      "pos": "FB",
@@ -177,14 +185,6 @@
      "link": "https://www.espn.com/nfl/player/_/id/4428718/tre-tucker",
      "value": -6,
      "line": "-6"
-    },
-    {
-     "id": "5150247",
-     "name": "Malik Benson",
-     "pos": "WR",
-     "link": "https://www.espn.com/nfl/player/_/id/5150247/malik-benson",
-     "value": -8,
-     "line": "-8"
     }
    ]
   },
@@ -197,40 +197,40 @@
      "name": "Brock Bowers",
      "pos": "TE",
      "link": "https://www.espn.com/nfl/player/_/id/4432665/brock-bowers",
-     "value": 547,
-     "line": "547"
+     "value": 658,
+     "line": "658"
     },
     {
      "id": "4428718",
      "name": "Tre Tucker",
      "pos": "WR",
      "link": "https://www.espn.com/nfl/player/_/id/4428718/tre-tucker",
-     "value": 474,
-     "line": "474"
-    },
-    {
-     "id": "4890973",
-     "name": "Ashton Jeanty",
-     "pos": "RB",
-     "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
-     "value": 376,
-     "line": "376"
+     "value": 529,
+     "line": "529"
     },
     {
      "id": "4429086",
      "name": "Michael Mayer",
      "pos": "TE",
      "link": "https://www.espn.com/nfl/player/_/id/4429086/michael-mayer",
-     "value": 351,
-     "line": "351"
+     "value": 388,
+     "line": "388"
+    },
+    {
+     "id": "4890973",
+     "name": "Ashton Jeanty",
+     "pos": "RB",
+     "link": "https://www.espn.com/nfl/player/_/id/4890973/ashton-jeanty",
+     "value": 371,
+     "line": "371"
     },
     {
      "id": "4382466",
      "name": "Jalen Nailor",
      "pos": "WR",
      "link": "https://www.espn.com/nfl/player/_/id/4382466/jalen-nailor",
-     "value": 113,
-     "line": "113"
+     "value": 122,
+     "line": "122"
     },
     {
      "id": "4241983",
@@ -253,8 +253,8 @@
      "name": "Jack Bech",
      "pos": "WR",
      "link": "https://www.espn.com/nfl/player/_/id/4603186/jack-bech",
-     "value": 48,
-     "line": "48"
+     "value": 57,
+     "line": "57"
     }
    ]
   },
@@ -267,64 +267,64 @@
      "name": "Nakobe Dean",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
-     "value": 80,
-     "line": "80"
+     "value": 98,
+     "line": "98"
     },
     {
      "id": "4379416",
      "name": "Quay Walker",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4379416/quay-walker",
-     "value": 61,
-     "line": "61"
+     "value": 72,
+     "line": "72"
     },
     {
      "id": "4043169",
      "name": "Jeremy Chinn",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
-     "value": 56,
-     "line": "56"
+     "value": 66,
+     "line": "66"
     },
     {
      "id": "4697757",
      "name": "Treydan Stukes",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
-     "value": 38,
-     "line": "38"
+     "value": 43,
+     "line": "43"
     },
     {
      "id": "4259561",
      "name": "Eric Stokes",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/4259561/eric-stokes",
-     "value": 30,
-     "line": "30"
+     "value": 34,
+     "line": "34"
     },
     {
      "id": "3121003",
      "name": "Taron Johnson",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson",
-     "value": 28,
-     "line": "28"
+     "value": 30,
+     "line": "30"
     },
     {
      "id": "4917354",
      "name": "Hezekiah Masses",
      "pos": "CB",
      "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
-     "value": 27,
-     "line": "27"
+     "value": 30,
+     "line": "30"
     },
     {
-     "id": "3916655",
-     "name": "Maxx Crosby",
-     "pos": "DE",
-     "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
-     "value": 22,
-     "line": "22"
+     "id": "4429560",
+     "name": "Tommy Eichenberg",
+     "pos": "LB",
+     "link": "https://www.espn.com/nfl/player/_/id/4429560/tommy-eichenberg",
+     "value": 27,
+     "line": "27"
     }
    ]
   },
@@ -337,8 +337,8 @@
      "name": "Maxx Crosby",
      "pos": "DE",
      "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
-     "value": 3,
-     "line": "3"
+     "value": 4,
+     "line": "4"
     },
     {
      "id": "4239719",
@@ -411,6 +411,14 @@
      "line": "3"
     },
     {
+     "id": "4697757",
+     "name": "Treydan Stukes",
+     "pos": "S",
+     "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
+     "value": 2,
+     "line": "2"
+    },
+    {
      "id": "4043169",
      "name": "Jeremy Chinn",
      "pos": "S",
@@ -423,14 +431,6 @@
      "name": "Nakobe Dean",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
-     "value": 1,
-     "line": "1"
-    },
-    {
-     "id": "4697757",
-     "name": "Treydan Stukes",
-     "pos": "S",
-     "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
      "value": 1,
      "line": "1"
     }

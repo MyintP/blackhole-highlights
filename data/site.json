@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T00:43:30.415Z",
+ "updated": "2026-11-09T07:51:43.008Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -211,7 +211,7 @@
      "name": "Patriots",
      "location": "New England",
      "abbr": "NE",
-     "record": "5-3"
+     "record": "5-4"
     },
     "tv": "CBS",
     "state": "post",
@@ -707,11 +707,11 @@
     "id": "17",
     "name": "New England",
     "w": 5,
-    "l": 3,
+    "l": 4,
     "t": 0,
-    "pct": ".625",
+    "pct": ".556",
     "seed": 7,
-    "diff": "+22",
+    "diff": "+4",
     "us": false
    },
    {
@@ -822,47 +822,47 @@
    {
     "label": "Points / game",
     "us": {
-     "v": 27.63,
-     "rank": "6th"
+     "v": 26.44,
+     "rank": "8th"
     },
     "them": {
-     "v": 23.13,
-     "rank": "15th"
+     "v": 22.44,
+     "rank": "T-18th"
     },
     "higher": true
    },
    {
     "label": "Total offense",
     "us": {
-     "v": 350.375,
-     "rank": "14th"
+     "v": 338.111,
+     "rank": "20th"
     },
     "them": {
-     "v": 348.875,
-     "rank": "16th"
+     "v": 342.889,
+     "rank": "17th"
     },
     "higher": true
    },
    {
     "label": "Passing offense",
     "us": {
-     "v": 273.125,
-     "rank": "5th"
+     "v": 266.778,
+     "rank": "6th"
     },
     "them": {
-     "v": 239.25,
-     "rank": "T-17th"
+     "v": 232.111,
+     "rank": "19th"
     },
     "higher": true
    },
    {
     "label": "Rushing offense",
     "us": {
-     "v": 77.3,
+     "v": 71.3,
      "rank": "31st"
     },
     "them": {
-     "v": 109.6,
+     "v": 110.8,
      "rank": "19th"
     },
     "higher": true
@@ -870,11 +870,11 @@
    {
     "label": "Yards allowed",
     "us": {
-     "v": 397.1,
+     "v": 399.9,
      "rank": null
     },
     "them": {
-     "v": 263.1,
+     "v": 257.9,
      "rank": null
     },
     "higher": false
@@ -995,6 +995,13 @@
     "injury": "Quadriceps",
     "status": "Out",
     "ret": "2026-11-15"
+   },
+   {
+    "name": "Drew Lock",
+    "pos": "QB",
+    "injury": "Oblique",
+    "status": "Questionable",
+    "ret": "2026-11-15"
    }
   ],
   "opp": "Seahawks"
@@ -1003,104 +1010,104 @@
   {
    "cat": "Passing Yards",
    "name": "Kirk Cousins",
-   "value": "2,124",
+   "value": "2,340",
    "unit": "YDS",
-   "line": "180/283, 19 TD, 5 INT"
+   "line": "202/315, 20 TD, 8 INT"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "337",
+   "value": "362",
    "unit": "YDS",
-   "line": "108 CAR, 1 TD"
+   "line": "114 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
    "name": "Brock Bowers",
-   "value": "547",
+   "value": "658",
    "unit": "YDS",
-   "line": "41 REC, 5 TD"
+   "line": "48 REC, 6 TD"
   },
   {
    "cat": "Sacks",
    "name": "Maxx Crosby",
-   "value": "3",
+   "value": "4",
    "unit": "SACKS",
-   "line": "3"
+   "line": "4"
   },
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "80",
+   "value": "98",
    "unit": "TOT",
-   "line": "80"
+   "line": "98"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   },
   "videos": {
    "ok": false,
-   "at": "2026-11-09T00:43:30.415Z",
+   "at": "2026-11-09T07:51:43.008Z",
    "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-09T00:43:30.415Z"
+   "at": "2026-11-09T07:51:43.008Z"
   }
  },
  "nflverseTried": "2026-11-08T23:10:26.006Z"
