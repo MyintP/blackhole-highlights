@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-09T18:40:08.645Z",
+ "updated": "2026-11-10T01:58:20.593Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Raiders couldn't recover from lopsided first half against the Niners",
+   "link": "https://www.raiders.com/audio/recap-raiders-49ers-nfl-week-9-2026-season",
+   "date": "2026-11-10T01:00:00.000Z",
+   "desc": "Jason Horowitz and Kirk Morrison recap the Raiders' Week 9 matchup against the San Francisco 49ers on Raiders Roundtable.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "Klint Kubiak Presser - 11.9.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-presser-recap-49ers-nfl-week-9-2026-season",
+   "date": "2026-11-09T21:00:00.000Z",
+   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 9 matchup against the San Francisco 49ers.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Kirk Cousins Postgame Presser | Week 9 vs. 49ers",
    "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-postgame-presser-nfl-week-9-49ers-2026-season",
@@ -71,20 +85,6 @@
    "date": "2026-11-03T20:00:00.000Z",
    "desc": "Head Coach Klint Kubiak recaps the win over the Jets and looks ahead to facing Brock Purdy and the San Francisco 49ers in Week 9.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Tim Brown relives the moments that shaped him into Mr. Raider",
-   "link": "https://www.raiders.com/audio/tim-brown-hall-of-fame-heisman-notre-dame-nfl-2026",
-   "date": "2026-11-03T17:30:00.000Z",
-   "desc": "Raiders host Baron Davis sits down with Tim Brown on this episode of Raiders: Talk of the Nation.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Raiders back to .500 with win over Jets",
-   "link": "https://www.raiders.com/audio/recap-raiders-jets-nfl-week-8-2026-season",
-   "date": "2026-11-03T02:00:00.000Z",
-   "desc": "Jason Horowitz and Kirk Morrison recap the Raiders' Week 8 win over the New York Jets on Raiders Roundtable.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
@@ -103,10 +103,10 @@
    "src": "ESPN"
   },
   {
-   "title": "49ers move to 7-1 after 38-17 win over the Raiders",
+   "title": "49ers move to 7-1 with 38-17 win over the Raiders",
    "link": "https://www.espn.com/video/clip/_/id/50427403/49ers-move-7-1-38-17-win-raiders",
-   "date": "2026-11-09T00:27:24Z",
-   "desc": "49ers move to 7-1 after 38-17 win over the Raiders",
+   "date": "2026-11-09T20:53:03Z",
+   "desc": "49ers move to 7-1 with 38-17 win over the Raiders",
    "src": "ESPN"
   },
   {
