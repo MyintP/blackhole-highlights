@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:40:08.645Z",
+ "updated": "2026-11-10T09:37:33.579Z",
  "season": 2026,
  "team": [
   {
@@ -56,7 +56,7 @@
    "label": "3rd-down conversion %",
    "value": "43.75",
    "v": 43.75,
-   "rank": "7th"
+   "rank": "6th"
   },
   {
    "key": "redzoneScoringPct",
@@ -1516,7 +1516,7 @@
     "higher": true,
     "v": 0.012,
     "rank": 16,
-    "nfl": 0.005
+    "nfl": 0.003
    },
    {
     "key": "sr",
@@ -1525,7 +1525,7 @@
     "higher": true,
     "v": 0.435,
     "rank": 16,
-    "nfl": 0.437
+    "nfl": 0.436
    },
    {
     "key": "pass",
@@ -1534,7 +1534,7 @@
     "higher": true,
     "v": 0.153,
     "rank": 10,
-    "nfl": 0.07
+    "nfl": 0.067
    },
    {
     "key": "rush",
@@ -1551,8 +1551,8 @@
     "side": "def",
     "higher": false,
     "v": 0.08,
-    "rank": 27,
-    "nfl": 0.005
+    "rank": 28,
+    "nfl": 0.003
    },
    {
     "key": "sr",
@@ -1561,7 +1561,7 @@
     "higher": false,
     "v": 0.478,
     "rank": 31,
-    "nfl": 0.437
+    "nfl": 0.436
    },
    {
     "key": "pass",
@@ -1570,7 +1570,7 @@
     "higher": false,
     "v": 0.186,
     "rank": 28,
-    "nfl": 0.07
+    "nfl": 0.067
    },
    {
     "key": "rush",
@@ -1592,10 +1592,10 @@
     "cpoeRank": 17
    }
   ],
-  "fetched": "2026-11-09T18:40:08.645Z"
+  "fetched": "2026-11-10T09:37:33.579Z"
  },
  "tendencies": {
-  "charted": 0.903,
+  "charted": 0.897,
   "rows": [
    {
     "key": "passRate",
@@ -1613,7 +1613,7 @@
     "fmt": "pct",
     "v": 0.578,
     "rank": 13,
-    "nfl": 0.556
+    "nfl": 0.555
    },
    {
     "key": "shotgun",
@@ -1675,8 +1675,8 @@
     "side": "off",
     "fmt": "num",
     "v": 8.006,
-    "rank": 12,
-    "nfl": 7.792
+    "rank": 13,
+    "nfl": 7.799
    },
    {
     "key": "blitz",
@@ -1730,7 +1730,7 @@
     "fmt": "pct",
     "v": 0.165,
     "rank": 9,
-    "nfl": 0.152
+    "nfl": 0.153
    }
   ]
  }
