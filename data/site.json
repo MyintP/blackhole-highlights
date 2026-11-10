@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:39:06.451Z",
+ "updated": "2026-11-10T23:08:46.293Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -974,10 +974,10 @@
  "leaders": [
   {
    "cat": "Passing Yards",
-   "name": "Kirk Cousins",
-   "value": "2,340",
+   "name": "Fernando Mendoza",
+   "value": "48",
    "unit": "YDS",
-   "line": "202/315, 20 TD, 8 INT"
+   "line": "6/8"
   },
   {
    "cat": "Rushing Yards",
@@ -1011,68 +1011,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-10T17:39:06.451Z"
+   "at": "2026-11-10T23:08:46.293Z"
   }
  },
- "nflverseTried": "2026-11-10T09:37:33.579Z"
+ "nflverseTried": "2026-11-10T23:08:46.293Z"
 }

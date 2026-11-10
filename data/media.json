@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-10T01:58:20.593Z",
+ "updated": "2026-11-10T23:08:46.293Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak on the challenges of facing Jaxon Smith-Njigba and the Seahawks",
+   "link": "https://www.raiders.com/audio/klint-kubiak-jaxon-smith-njigba-seahawks-2026-nfl-season",
+   "date": "2026-11-10T19:26:27.000Z",
+   "desc": "Head Coach Klint Kubiak recaps the matchup against the 49ers and looks ahead to facing Drew Lock and the Seattle Seahawks in Week 10.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Raiders couldn't recover from lopsided first half against the Niners",
    "link": "https://www.raiders.com/audio/recap-raiders-49ers-nfl-week-9-2026-season",
@@ -78,16 +85,23 @@
    "date": "2026-11-04T19:00:00.000Z",
    "desc": "JT The Brick and Q Myers are joined by Lincoln Kennedy and Cynthia Frelund to preview Week 9 against the San Francisco 49ers on Raiders Weekly.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak on 49ers' red zone offense: 'Gotta get them to kick field goals'",
-   "link": "https://www.raiders.com/audio/klint-kubiak-preview-49ers-nfl-week-9-2026-season",
-   "date": "2026-11-03T20:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak recaps the win over the Jets and looks ahead to facing Brock Purdy and the San Francisco 49ers in Week 9.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
+  {
+   "title": "Schefter explains how the Vikings-Cousins reunion came to be",
+   "link": "https://www.espn.com/video/clip/_/id/50445295/schefter-explains-how-vikings-cousins-reunion-came-be",
+   "date": "2026-11-10T20:26:53Z",
+   "desc": "Schefter explains how the Vikings-Cousins reunion came to be ",
+   "src": "ESPN"
+  },
+  {
+   "title": "Jeff Saturday: Kirk Cousins trade a 'great fit' for Vikings and Raiders",
+   "link": "https://www.espn.com/video/clip/_/id/50444954/kirk-cousins-trade-great-fit-vikings-raiders",
+   "date": "2026-11-10T19:53:06Z",
+   "desc": "Jeff Saturday: Kirk Cousins trade a 'great fit' for Vikings and Raiders",
+   "src": "ESPN"
+  },
   {
    "title": "Raiders not expected to make any trades",
    "link": "https://www.espn.com/video/clip/_/id/50433368/raiders-not-expected-make-trades",
@@ -114,13 +128,6 @@
    "link": "https://www.espn.com/video/clip/_/id/50359898/see-kirk-cousins-trade-option",
    "date": "2026-11-02T18:57:47Z",
    "desc": "Schefter to McAfee: I don't see Kirk Cousins as a trade option",
-   "src": "ESPN"
-  },
-  {
-   "title": "Rex Ryan: Ashton Jeanty about the worst RB draft pick in the last 20 years",
-   "link": "https://www.espn.com/video/clip/_/id/50349515/ashton-jeanty-worst-rb-draft-pick-last-20-years",
-   "date": "2026-11-01T18:46:40Z",
-   "desc": "Rex Ryan: Ashton Jeanty about the worst RB draft pick in the last 20 years",
    "src": "ESPN"
   }
  ]
