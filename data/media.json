@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T14:01:28.759Z",
+ "updated": "2026-11-11T21:14:12.091Z",
  "youtube": [],
  "podcasts": [
   {
@@ -21,6 +21,13 @@
    "link": "https://www.raiders.com/audio/klint-kubiak-jaxon-smith-njigba-seahawks-2026-nfl-season",
    "date": "2026-11-10T19:26:27.000Z",
    "desc": "Head Coach Klint Kubiak recaps the matchup against the 49ers and looks ahead to facing Drew Lock and the Seattle Seahawks in Week 10.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "Nate Robinson on the Raiders, Oakland and more",
+   "link": "https://www.raiders.com/audio/nate-robinson-raiders-oakland-nba-nfl-2026",
+   "date": "2026-11-10T19:00:00.000Z",
+   "desc": "Raiders host Baron Davis sits down with Nate Robinson on this episode of Raiders: Talk of the Nation.",
    "src": "Raiders.com"
   },
   {
@@ -78,16 +85,23 @@
    "date": "2026-11-05T20:00:00.000Z",
    "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Michael Mayer is rewarding the Raiders' investment with a career year",
-   "link": "https://www.raiders.com/audio/michael-mayer-career-year-tight-end-nfl-2026-season",
-   "date": "2026-11-05T18:30:00.000Z",
-   "desc": "Michael Mayer has already set career highs in both receptions and receiving yards through eight games of the 2026 season and currently holds the third-highest catch percentage among tight ends in the NFL. The fourth-year",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
+  {
+   "title": "Behind the Raiders' decision to trade Cousins",
+   "link": "https://www.espn.com/video/clip/_/id/50452788/behind-raiders-decision-trade-cousins",
+   "date": "2026-11-11T14:38:30Z",
+   "desc": "Ryan McFadden details the conversations behind Kirk Cousins' trade to the Minnesota Vikings.",
+   "src": "ESPN"
+  },
+  {
+   "title": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
+   "link": "https://www.espn.com/video/clip/_/id/50452689/was-right-move-raiders-name-mendoza-qb1-cousins-trade",
+   "date": "2026-11-11T14:30:07Z",
+   "desc": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
+   "src": "ESPN"
+  },
   {
    "title": "Schefter explains how the Vikings-Cousins reunion came to be",
    "link": "https://www.espn.com/video/clip/_/id/50445295/schefter-explains-how-vikings-cousins-reunion-came-be",
@@ -100,13 +114,6 @@
    "link": "https://www.espn.com/video/clip/_/id/50444954/kirk-cousins-trade-great-fit-vikings-raiders",
    "date": "2026-11-10T19:53:06Z",
    "desc": "Jeff Saturday: Kirk Cousins trade a 'great fit' for Vikings and Raiders",
-   "src": "ESPN"
-  },
-  {
-   "title": "Schefter to McAfee: I don't see Kirk Cousins as a trade option",
-   "link": "https://www.espn.com/video/clip/_/id/50359898/see-kirk-cousins-trade-option",
-   "date": "2026-11-02T18:57:47Z",
-   "desc": "Schefter to McAfee: I don't see Kirk Cousins as a trade option",
    "src": "ESPN"
   }
  ]
