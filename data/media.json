@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-10T23:08:46.293Z",
+ "updated": "2026-11-11T05:55:12.734Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "2026 NFL Trade Deadline marks new era of Raiders football as Fernando Mendoza named QB1",
+   "link": "https://www.raiders.com/audio/kirk-cousins-2026-nfl-trade-deadline-fernando-mendoza",
+   "date": "2026-11-11T01:30:00.000Z",
+   "desc": "JT The Brick, Paul Gutierrez and Eric Allen react to the 2026 NFL Trade Deadline and the deal to send Kirk Cousins to the Vikings on Raiders Weekly.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "John Spytek and Klint Kubiak Presser - 11.10.26",
+   "link": "https://www.raiders.com/audio/john-spytek-klint-kubiak-presser-nfl-trade-deadline-week-10-2026",
+   "date": "2026-11-10T23:45:00.000Z",
+   "desc": "General Manager John Spytek and Head Coach Klint Kubiak address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak on the challenges of facing Jaxon Smith-Njigba and the Seahawks",
    "link": "https://www.raiders.com/audio/klint-kubiak-jaxon-smith-njigba-seahawks-2026-nfl-season",
@@ -71,20 +85,6 @@
    "date": "2026-11-05T18:30:00.000Z",
    "desc": "Michael Mayer has already set career highs in both receptions and receiving yards through eight games of the 2026 season and currently holds the third-highest catch percentage among tight ends in the NFL. The fourth-year",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Kirk Cousins Presser - 11.4.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-presser-nfl-49ers-week-9-2026-season",
-   "date": "2026-11-04T23:50:02.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Battle of the Bay rivalry reignites for Raiders-49ers Week 9 matchup",
-   "link": "https://www.raiders.com/audio/preview-raiders-49ers-battle-of-the-bay-nfl-week-9-2026-season",
-   "date": "2026-11-04T19:00:00.000Z",
-   "desc": "JT The Brick and Q Myers are joined by Lincoln Kennedy and Cynthia Frelund to preview Week 9 against the San Francisco 49ers on Raiders Weekly.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
@@ -103,24 +103,10 @@
    "src": "ESPN"
   },
   {
-   "title": "Raiders not expected to make any trades",
-   "link": "https://www.espn.com/video/clip/_/id/50433368/raiders-not-expected-make-trades",
-   "date": "2026-11-09T16:04:55Z",
-   "desc": "Ryan McFadden breaks down why the Raiders aren't making any trades before Tuesday's deadline.",
-   "src": "ESPN"
-  },
-  {
    "title": "Sunday's top plays from around the NFL",
    "link": "https://www.espn.com/video/clip/_/id/50428766/sunday-top-plays-nfl",
    "date": "2026-11-09T02:48:09Z",
    "desc": "Sunday's top plays from around the NFL",
-   "src": "ESPN"
-  },
-  {
-   "title": "49ers move to 7-1 with 38-17 win over the Raiders",
-   "link": "https://www.espn.com/video/clip/_/id/50427403/49ers-move-7-1-38-17-win-raiders",
-   "date": "2026-11-09T20:53:03Z",
-   "desc": "49ers move to 7-1 with 38-17 win over the Raiders",
    "src": "ESPN"
   },
   {

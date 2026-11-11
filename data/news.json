@@ -1,6 +1,125 @@
 {
- "updated": "2026-11-10T23:08:46.293Z",
+ "updated": "2026-11-11T05:55:12.734Z",
  "items": [
+  {
+   "id": "g74ajq",
+   "title": "Why Fernando Mendoza is replacing Kirk Cousins as Raiders QB",
+   "link": "https://www.reviewjournal.com/sports/raiders/why-fernando-mendoza-is-replacing-kirk-cousins-as-raiders-qb-3912823/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-11T03:54:58.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Fernando Mendoza will make his first NFL start Sunday against the defending Super Bowl champion Seattle Seahawks at Allegiant Stadium.",
+   "author": "Sam Gordon",
+   "also": [
+    {
+     "id": "rav2u6",
+     "title": "Raiders name Fernando Mendoza starting QB after trading Kirk Cousins",
+     "link": "https://www.espn.com/nfl/story/_/id/50447756/raiders-name-fernando-mendoza-starting-qb-trading-kirk-cousins",
+     "src": "ESPN",
+     "date": "2026-11-11T01:45:03.000Z",
+     "kind": "Reporting"
+    }
+   ]
+  },
+  {
+   "id": "1mlwtkb",
+   "title": "Schultz Explains How Raiders and Vikings Reached Deal for Kirk Cousins",
+   "link": "https://www.raidersbeat.com/schultz-explains-how-raiders-and-vikings-reached-deal-for-kirk-cousins/",
+   "src": "RaidersBeat",
+   "date": "2026-11-11T03:38:15.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "Leading up to the trade deadline, the two trade candidates that consistently came up... The post Schultz Explains How Raiders and Vikings Reached Deal for Kirk Cousins appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "176cke2",
+   "title": "Raiders rookie earns roster spot after Kirk Cousins trade",
+   "link": "https://www.reviewjournal.com/sports/raiders/raiders-rookie-earns-roster-spot-after-kirk-cousins-trade-3912763/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-11T01:28:24.000Z",
+   "kind": "Reporting",
+   "cat": "Roster",
+   "desc": "Raiders defensive tackle Tim Keenan III was signed to the active roster from the practice squad after playing in the past three games.",
+   "author": "Diamond Leung"
+  },
+  {
+   "id": "bwduv3",
+   "title": "Fernando Mendoza’s move to Raiders starting QB impacts secondary ticket market",
+   "link": "https://www.reviewjournal.com/sports/raiders/fernando-mendozas-move-to-raiders-starting-qb-impacts-secondary-ticket-market-3912746/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-11T01:20:07.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Fernando Mendoza’s promotion into the starting quarterback role with the Raiders led to a spike in ticket sales and prices on the secondary market.",
+   "author": "Mick Akers"
+  },
+  {
+   "id": "9lanbs",
+   "title": "Fernando Mendoza, nombrado quarterback titular de los Raiders",
+   "link": "https://www.raiders.com/news/fernando-mendoza-nombrado-quarterback-titular-de-los-raiders",
+   "src": "Raiders.com",
+   "date": "2026-11-11T00:30:00.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "El gerente general, John Spytek, nombró al quarterback novato titular el miércoles por la mañana tras el entrenamiento.",
+   "author": null
+  },
+  {
+   "id": "isdyu1",
+   "title": "Raiders sign rookie defensive tackle to roster",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/145934/raiders-news-tim-keenan-rookie-defensive-tackle-sign",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-11T00:20:35.000Z",
+   "kind": "Opinion",
+   "cat": "Roster",
+   "desc": "In an unsurprising move, the Las Vegas Raiders signed rookie defensive lineman Tim Keenan to the 53-man roster from the practice squad. Keenan takes the roster spot left vacant from the Raiders’ trade of quarterback Kirk Cousins to the Minensota Vikings for a ",
+   "author": "Bill Williamson"
+  },
+  {
+   "id": "gcfpei",
+   "title": "5 things to know about Raiders rookie QB Fernando Mendoza",
+   "link": "https://www.reviewjournal.com/sports/raiders/5-things-to-know-about-raiders-rookie-qb-fernando-mendoza-3912713/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-11T00:06:59.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "After trading Kirk Cousins to the Minnesota Vikings just hours before the NFL trade deadline Tuesday, the 2026 No. 1 overall pick’s first regular-season career start is upon us.",
+   "author": "Trevor Squire"
+  },
+  {
+   "id": "8wb5pc",
+   "title": "Raiders trade deadline notes",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/145905/raiders-trade-deadline-kirk-cousins-fernando-mendoza",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-10T23:26:24.000Z",
+   "kind": "Opinion",
+   "cat": "Roster",
+   "desc": "The Las Vegas Raiders traded quarterback Kirk Cousins to the Minnesota Vikings for a 3rd round pick (the Vikings’ second in the round) Tuesday. it opens the door for the Raiders play No. 1 overall draft pick Fernando Mendoza, who general manager John Spytek co",
+   "author": "Bill Williamson"
+  },
+  {
+   "id": "1vwb8dd",
+   "title": "Fernando Mendoza named Raiders' starting quarterback",
+   "link": "https://www.raiders.com/news/fernando-mendoza-named-raiders-starting-quarterback",
+   "src": "Raiders.com",
+   "date": "2026-11-10T23:07:38.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "The 2026 No. 1 overall pick will get his first NFL start this Sunday against the Seattle Seahawks.",
+   "author": null,
+   "also": [
+    {
+     "id": "s7b433",
+     "title": "Fernando Mendoza named Raiders’ starting QB vs. Seahawks and going forward",
+     "link": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-named-raiders-starting-qb-vs-seahawks-3912665/",
+     "src": "Las Vegas Review-Journal",
+     "date": "2026-11-10T23:01:37.000Z",
+     "kind": "Reporting"
+    }
+   ]
+  },
   {
    "id": "72ea9g",
    "title": "Raiders GM, coach meet with media to discuss Kirk Cousins trade — WATCH LIVE",
@@ -11,17 +130,6 @@
    "cat": "Roster",
    "desc": "Las Vegas Raiders general manager John Spytek and head coach Klint Kubiak are meeting with the media to discuss Tuesday’s trade of quarterback Kirk Cousins.",
    "author": "David Schoen"
-  },
-  {
-   "id": "s7b433",
-   "title": "Fernando Mendoza named Raiders’ starting QB vs. Seahawks and going forward",
-   "link": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-named-raiders-starting-qb-vs-seahawks-3912665/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-11-10T23:01:37.000Z",
-   "kind": "Reporting",
-   "cat": "Games",
-   "desc": "After the trade that sent Kirk Cousins to the Minnesota Vikings, the Raiders on Tuesday named Fernando Mendoza, the top overall draft pick, as their starting quarterback.",
-   "author": "Adam Hill"
   },
   {
    "id": "1swuv9z",
@@ -54,6 +162,17 @@
    "cat": "Roster",
    "desc": "The was a lot of speculation in the last few weeks around what the... The post Reports Conflict on Maxx Crosby Trade Interest appeared first on Raiders Beat .",
    "author": "Warren Mitchell"
+  },
+  {
+   "id": "1bxiyzw",
+   "title": "Las Vegas Raiders get their gold mined by the 49ers",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/145489/raiders-49ers-week-9-review",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-10T22:42:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "The Las Vegas Raiders traveled to Levi’s Stadium in Santa Clara, California, to renew the Battle of the Bay rivalry with the San Francisco 49ers. A rivalry that has meant so much to the two fan bases. Turnovers were the story of this contest. When the clock re",
+   "author": "Philip Robinson"
   },
   {
    "id": "1jtyikj",
@@ -124,6 +243,17 @@
      "kind": "Opinion"
     }
    ]
+  },
+  {
+   "id": "1js3uc1",
+   "title": "Kirk Cousins-Fernando Mendoza leads Las Vegas Raiders’ talk in Week 10 NFL Power Rankings",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/145805/raiders-nfl-power-rankings-week-10-kirk-cousins-fernando-mendoza",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-10T21:35:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "In a surprise twist, the Las Vegas Raiders traded quarterback Kirk Cousins to the Minnesota Vikings shortly before the NFL trade deadline pass on Tuesday afternoon, despite still being alive in the AFC playoff picture with a chance at earning the third and fin",
+   "author": "Matt Holder"
   },
   {
    "id": "kvnd0u",
