@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-10T23:08:46.293Z",
+ "fetched": "2026-11-11T14:01:28.759Z",
  "throughWeek": 9,
  "players": [
   {
@@ -143,20 +143,20 @@
     "stPct": 0
    },
    "contact": {
-    "carries": 20,
+    "carries": 22,
     "ybc": 3,
     "yac": 4,
-    "ybcPer": 0.2,
+    "ybcPer": 0.1,
     "yacPer": 0.2,
     "broken": 0
    },
    "pocket": {
-    "badThrows": 44,
+    "badThrows": 48,
     "drops": 11,
-    "pressured": 72,
-    "blitzed": 78,
+    "pressured": 78,
+    "blitzed": 83,
     "hurried": 24,
-    "hit": 37,
+    "hit": 43,
     "sacked": 11
    }
   },
@@ -486,9 +486,9 @@
     "stPct": 0
    },
    "contact": {
-    "carries": 108,
-    "ybc": 158,
-    "yac": 179,
+    "carries": 114,
+    "ybc": 171,
+    "yac": 191,
     "ybcPer": 1.5,
     "yacPer": 1.7,
     "broken": 7
@@ -613,11 +613,11 @@
     "stPct": 0
    },
    "contact": {
-    "carries": 65,
-    "ybc": 134,
-    "yac": 144,
-    "ybcPer": 2.1,
-    "yacPer": 2.2,
+    "carries": 71,
+    "ybc": 128,
+    "yac": 147,
+    "ybcPer": 1.8,
+    "yacPer": 2.1,
     "broken": 1
    },
    "jersey": "4",
@@ -2583,6 +2583,14 @@
     "defPct": 0,
     "stPct": 0
    },
+   "contact": {
+    "carries": 1,
+    "ybc": 2,
+    "yac": 0,
+    "ybcPer": 2,
+    "yacPer": 0,
+    "broken": 0
+   },
    "catching": {
     "broken": 0,
     "drops": 1
@@ -3229,15 +3237,15 @@
    },
    "passRush": {
     "blitzes": 0,
-    "pressures": 29,
+    "pressures": 31,
     "hurries": 13,
-    "hits": 12,
-    "sacks": 3
+    "hits": 13,
+    "sacks": 4
    },
    "tackling": {
-    "tackles": 22,
+    "tackles": 26,
     "missed": 2,
-    "missedPct": 0.083
+    "missedPct": 0.071
    },
    "jersey": "98",
    "link": "https://www.espn.com/nfl/player/_/id/3916655/maxx-crosby",
@@ -3356,15 +3364,15 @@
    },
    "passRush": {
     "blitzes": 0,
-    "pressures": 10,
+    "pressures": 11,
     "hurries": 3,
-    "hits": 3,
+    "hits": 4,
     "sacks": 3
    },
    "tackling": {
-    "tackles": 16,
+    "tackles": 18,
     "missed": 3,
-    "missedPct": 0.158
+    "missedPct": 0.143
    },
    "jersey": "95",
    "link": "https://www.espn.com/nfl/player/_/id/4258194/kwity-paye",
@@ -3484,8 +3492,8 @@
    },
    "passRush": {
     "blitzes": 0,
-    "pressures": 10,
-    "hurries": 4,
+    "pressures": 11,
+    "hurries": 5,
     "hits": 2,
     "sacks": 3
    },
@@ -4027,26 +4035,26 @@
     "stPct": 0.311
    },
    "coverage": {
-    "targets": 1,
-    "completions": 1,
-    "yards": 2,
-    "td": 0,
+    "targets": 2,
+    "completions": 2,
+    "yards": 14,
+    "td": 1,
     "int": 0,
     "cmpPct": 1,
-    "ydsPerTgt": 2,
-    "rating": 79.2
+    "ydsPerTgt": 7,
+    "rating": 135.4
    },
    "passRush": {
     "blitzes": 0,
-    "pressures": 7,
-    "hurries": 4,
+    "pressures": 8,
+    "hurries": 5,
     "hits": 2,
     "sacks": 1
    },
    "tackling": {
-    "tackles": 11,
+    "tackles": 13,
     "missed": 1,
-    "missedPct": 0.083
+    "missedPct": 0.071
    },
    "jersey": "97",
    "link": "https://www.espn.com/nfl/player/_/id/4429109/tonka-hemingway",
@@ -4656,14 +4664,14 @@
     "stPct": 0
    },
    "coverage": {
-    "targets": 21,
-    "completions": 18,
-    "yards": 195,
+    "targets": 24,
+    "completions": 20,
+    "yards": 214,
     "td": 1,
     "int": 1,
-    "cmpPct": 0.857,
-    "ydsPerTgt": 9.3,
-    "rating": 101.4
+    "cmpPct": 0.833,
+    "ydsPerTgt": 8.9,
+    "rating": 100.3
    },
    "passRush": {
     "blitzes": 23,
@@ -4673,9 +4681,9 @@
     "sacks": 1.5
    },
    "tackling": {
-    "tackles": 81,
-    "missed": 8,
-    "missedPct": 0.09
+    "tackles": 99,
+    "missed": 9,
+    "missedPct": 0.083
    },
    "jersey": "17",
    "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
@@ -4810,26 +4818,26 @@
     "stPct": 0
    },
    "coverage": {
-    "targets": 29,
-    "completions": 22,
-    "yards": 181,
+    "targets": 30,
+    "completions": 23,
+    "yards": 198,
     "td": 0,
     "int": 0,
-    "cmpPct": 0.759,
-    "ydsPerTgt": 6.2,
-    "rating": 91.3
+    "cmpPct": 0.767,
+    "ydsPerTgt": 6.6,
+    "rating": 93.5
    },
    "passRush": {
-    "blitzes": 29,
+    "blitzes": 33,
     "pressures": 4,
     "hurries": 2,
     "hits": 0,
     "sacks": 2
    },
    "tackling": {
-    "tackles": 61,
+    "tackles": 72,
     "missed": 2,
-    "missedPct": 0.032
+    "missedPct": 0.027
    },
    "jersey": "7",
    "link": "https://www.espn.com/nfl/player/_/id/4379416/quay-walker",
@@ -5447,14 +5455,14 @@
     "stPct": 0
    },
    "coverage": {
-    "targets": 44,
-    "completions": 25,
-    "yards": 319,
+    "targets": 46,
+    "completions": 27,
+    "yards": 354,
     "td": 3,
     "int": 0,
-    "cmpPct": 0.568,
-    "ydsPerTgt": 7.3,
-    "rating": 102.4
+    "cmpPct": 0.587,
+    "ydsPerTgt": 7.7,
+    "rating": 104.8
    },
    "passRush": {
     "blitzes": 4,
@@ -5464,9 +5472,9 @@
     "sacks": 1
    },
    "tackling": {
-    "tackles": 30,
-    "missed": 3,
-    "missedPct": 0.091
+    "tackles": 34,
+    "missed": 4,
+    "missedPct": 0.105
    },
    "jersey": "5",
    "link": "https://www.espn.com/nfl/player/_/id/4259561/eric-stokes",
@@ -5602,26 +5610,26 @@
     "stPct": 0.004
    },
    "coverage": {
-    "targets": 28,
-    "completions": 18,
-    "yards": 176,
+    "targets": 29,
+    "completions": 19,
+    "yards": 182,
     "td": 2,
     "int": 0,
-    "cmpPct": 0.643,
+    "cmpPct": 0.655,
     "ydsPerTgt": 6.3,
-    "rating": 105.7
+    "rating": 105.8
    },
    "passRush": {
-    "blitzes": 13,
+    "blitzes": 16,
     "pressures": 4,
     "hurries": 2,
     "hits": 2,
     "sacks": 0
    },
    "tackling": {
-    "tackles": 28,
-    "missed": 2,
-    "missedPct": 0.067
+    "tackles": 30,
+    "missed": 3,
+    "missedPct": 0.091
    },
    "jersey": "3",
    "link": "https://www.espn.com/nfl/player/_/id/3121003/taron-johnson",
@@ -5756,14 +5764,14 @@
     "stPct": 0
    },
    "coverage": {
-    "targets": 29,
-    "completions": 14,
-    "yards": 207,
-    "td": 3,
+    "targets": 31,
+    "completions": 16,
+    "yards": 263,
+    "td": 4,
     "int": 3,
-    "cmpPct": 0.483,
-    "ydsPerTgt": 7.1,
-    "rating": 67
+    "cmpPct": 0.516,
+    "ydsPerTgt": 8.5,
+    "rating": 80.4
    },
    "passRush": {
     "blitzes": 0,
@@ -5773,9 +5781,9 @@
     "sacks": 0
    },
    "tackling": {
-    "tackles": 27,
+    "tackles": 30,
     "missed": 4,
-    "missedPct": 0.129
+    "missedPct": 0.118
    },
    "jersey": "35",
    "link": "https://www.espn.com/nfl/player/_/id/4917354/hezekiah-masses",
@@ -5882,19 +5890,26 @@
     "stPct": 0.32
    },
    "coverage": {
-    "targets": 20,
-    "completions": 11,
-    "yards": 176,
+    "targets": 24,
+    "completions": 13,
+    "yards": 201,
     "td": 1,
     "int": 0,
-    "cmpPct": 0.55,
-    "ydsPerTgt": 8.8,
-    "rating": 101.3
+    "cmpPct": 0.542,
+    "ydsPerTgt": 8.4,
+    "rating": 96
+   },
+   "passRush": {
+    "blitzes": 1,
+    "pressures": 0,
+    "hurries": 0,
+    "hits": 0,
+    "sacks": 0
    },
    "tackling": {
-    "tackles": 18,
+    "tackles": 19,
     "missed": 3,
-    "missedPct": 0.143
+    "missedPct": 0.136
    },
    "jersey": "26",
    "link": "https://www.espn.com/nfl/player/_/id/4430330/darien-porter",
@@ -6026,14 +6041,14 @@
     "stPct": 0.375
    },
    "coverage": {
-    "targets": 4,
+    "targets": 6,
     "completions": 4,
     "yards": 63,
     "td": 1,
     "int": 0,
-    "cmpPct": 1,
-    "ydsPerTgt": 15.8,
-    "rating": 158.3
+    "cmpPct": 0.667,
+    "ydsPerTgt": 10.5,
+    "rating": 141
    },
    "passRush": {
     "blitzes": 1,
@@ -6043,7 +6058,7 @@
     "sacks": 0
    },
    "tackling": {
-    "tackles": 4,
+    "tackles": 6,
     "missed": 0,
     "missedPct": 0
    },
@@ -6325,26 +6340,26 @@
     "stPct": 0.033
    },
    "coverage": {
-    "targets": 22,
-    "completions": 18,
-    "yards": 199,
+    "targets": 23,
+    "completions": 19,
+    "yards": 205,
     "td": 1,
     "int": 1,
-    "cmpPct": 0.818,
-    "ydsPerTgt": 9,
-    "rating": 100.6
+    "cmpPct": 0.826,
+    "ydsPerTgt": 8.9,
+    "rating": 100.2
    },
    "passRush": {
-    "blitzes": 8,
+    "blitzes": 9,
     "pressures": 1,
     "hurries": 0,
     "hits": 0,
     "sacks": 1
    },
    "tackling": {
-    "tackles": 56,
-    "missed": 3,
-    "missedPct": 0.051
+    "tackles": 66,
+    "missed": 4,
+    "missedPct": 0.057
    },
    "jersey": "11",
    "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
@@ -6477,26 +6492,26 @@
     "stPct": 0.169
    },
    "coverage": {
-    "targets": 25,
-    "completions": 15,
-    "yards": 270,
+    "targets": 31,
+    "completions": 20,
+    "yards": 326,
     "td": 3,
-    "int": 1,
-    "cmpPct": 0.6,
-    "ydsPerTgt": 10.8,
-    "rating": 120
+    "int": 2,
+    "cmpPct": 0.645,
+    "ydsPerTgt": 10.5,
+    "rating": 105
    },
    "passRush": {
-    "blitzes": 3,
+    "blitzes": 4,
     "pressures": 0,
     "hurries": 0,
     "hits": 0,
     "sacks": 0
    },
    "tackling": {
-    "tackles": 38,
+    "tackles": 43,
     "missed": 4,
-    "missedPct": 0.095
+    "missedPct": 0.085
    },
    "jersey": "31",
    "link": "https://www.espn.com/nfl/player/_/id/4697757/treydan-stukes",
