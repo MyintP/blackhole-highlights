@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:14:12.091Z",
+ "updated": "2026-11-12T02:49:18.527Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -885,21 +885,35 @@
     "ret": null
    },
    {
-    "name": "Thomas Booker IV",
-    "pos": "DT",
-    "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
     "name": "Trey Zuhn III",
     "pos": "C",
     "injury": "Concussion",
     "status": "Questionable",
     "ret": "2026-11-15"
+   },
+   {
+    "name": "Folorunso Fatukasi",
+    "pos": "DT",
+    "injury": "Shoulder",
+    "status": "Questionable",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Thomas Booker IV",
+    "pos": "DT",
+    "injury": "Ankle",
+    "status": "Questionable",
+    "ret": "2026-11-15"
    }
   ],
   "them": [
+   {
+    "name": "Rashid Shaheed",
+    "pos": "WR",
+    "injury": "",
+    "status": "Out",
+    "ret": null
+   },
    {
     "name": "Sam Darnold",
     "pos": "QB",
@@ -929,23 +943,30 @@
     "ret": "2026-11-15"
    },
    {
-    "name": "Brandon Pili",
-    "pos": "DT",
+    "name": "Derick Hall",
+    "pos": "LB",
     "injury": "Back",
     "status": "Questionable",
     "ret": "2026-11-15"
    },
    {
-    "name": "Rashid Shaheed",
-    "pos": "WR",
-    "injury": "Knee",
+    "name": "Connor O'Toole",
+    "pos": "LB",
+    "injury": "Foot",
     "status": "Questionable",
     "ret": "2026-11-15"
    },
    {
-    "name": "Uchenna Nwosu",
+    "name": "Patrick O'Connell",
     "pos": "LB",
-    "injury": "Ankle",
+    "injury": "Toe",
+    "status": "Questionable",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Anthony Bradford",
+    "pos": "G",
+    "injury": "Knee",
     "status": "Questionable",
     "ret": "2026-11-15"
    },
@@ -953,6 +974,20 @@
     "name": "Drew Lock",
     "pos": "QB",
     "injury": "Oblique",
+    "status": "Questionable",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Brandon Pili",
+    "pos": "DT",
+    "injury": "Back",
+    "status": "Questionable",
+    "ret": "2026-11-15"
+   },
+   {
+    "name": "Uchenna Nwosu",
+    "pos": "LB",
+    "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-15"
    }
@@ -999,68 +1034,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-11T21:14:12.091Z"
+   "at": "2026-11-12T02:49:18.527Z"
   }
  },
- "nflverseTried": "2026-11-11T14:01:28.759Z"
+ "nflverseTried": "2026-11-12T02:49:18.527Z"
 }
