@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T02:49:18.527Z",
+ "updated": "2026-11-12T10:52:57.418Z",
  "season": 2026,
  "team": [
   {
@@ -251,8 +251,8 @@
      "name": "Nakobe Dean",
      "pos": "LB",
      "link": "https://www.espn.com/nfl/player/_/id/4426340/nakobe-dean",
-     "value": 98,
-     "line": "98"
+     "value": 99,
+     "line": "99"
     },
     {
      "id": "4379416",
@@ -267,8 +267,8 @@
      "name": "Jeremy Chinn",
      "pos": "S",
      "link": "https://www.espn.com/nfl/player/_/id/4043169/jeremy-chinn",
-     "value": 66,
-     "line": "66"
+     "value": 65,
+     "line": "65"
     },
     {
      "id": "4697757",
@@ -821,7 +821,7 @@
    "pos": "DT",
    "posName": "Defensive Tackle",
    "group": "Defense",
-   "age": 26,
+   "age": 27,
    "ht": "6' 3\"",
    "wt": "301 lbs",
    "exp": 4,
@@ -1457,6 +1457,20 @@
    "exp": 2,
    "college": "USC",
    "link": "https://www.espn.com/nfl/player/_/id/4686337/greedy-vance"
+  },
+  {
+   "id": "4034530",
+   "name": "Chris Williams",
+   "jersey": null,
+   "pos": "DT",
+   "posName": "Defensive Tackle",
+   "group": "Practice squad",
+   "age": 28,
+   "ht": "6' 2\"",
+   "wt": "298 lbs",
+   "exp": 5,
+   "college": "Wagner",
+   "link": "https://www.espn.com/nfl/player/_/id/4034530/chris-williams"
   },
   {
    "id": "4249616",

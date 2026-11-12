@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T02:49:18.527Z",
+ "updated": "2026-11-12T10:52:57.418Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -1026,111 +1026,75 @@
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "98",
+   "value": "99",
    "unit": "TOT",
-   "line": "98"
+   "line": "99"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-12T02:49:18.527Z"
+   "at": "2026-11-12T10:52:57.418Z"
   }
  },
  "nflverseTried": "2026-11-12T02:49:18.527Z"
