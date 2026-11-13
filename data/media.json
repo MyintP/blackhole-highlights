@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-13T06:30:31.766Z",
+ "updated": "2026-11-13T21:54:19.020Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Joe DeCamillis Presser - 11.13.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-seahawks-nfl-week-10-2026-season",
+   "date": "2026-11-13T21:37:29.000Z",
+   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Andrew Janocko and Rob Leonard Presser - 11.12.26",
    "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-nfl-week-10-seahawks-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/ben-solak-brock-bowers-raiders-49ers-nfl-week-9-2026-season",
    "date": "2026-11-07T16:00:00.000Z",
    "desc": "ESPN's Ben Solak previews Raiders-49ers, shares his thoughts on the Raiders offense and explains what makes Brock Bowers a matchup weapon.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Brock Bowers talks homecoming game in the Bay Area and facing the 49ers defense",
-   "link": "https://www.raiders.com/audio/brock-bowers-49ers-nfl-week-9-2026-season",
-   "date": "2026-11-07T15:00:00.000Z",
-   "desc": "Tight end Brock Bowers discusses the Raiders offense, returning home to the Bay Area to play in front of his family, the 49ers defense and more.",
    "src": "Raiders.com"
   }
  ],
