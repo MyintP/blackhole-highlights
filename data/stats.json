@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:48:09.819Z",
+ "updated": "2026-11-13T06:30:31.766Z",
  "season": 2026,
  "team": [
   {
@@ -63,7 +63,7 @@
    "label": "Red-zone scoring %",
    "value": "85.29",
    "v": 85.29,
-   "rank": "21st"
+   "rank": "20th"
   },
   {
    "key": "turnOverDifferential",
@@ -84,7 +84,7 @@
    "label": "Interceptions",
    "value": "7",
    "v": 7,
-   "rank": "T-8th"
+   "rank": "T-9th"
   }
  ],
  "players": [

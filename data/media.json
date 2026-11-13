@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-13T00:06:42.159Z",
+ "updated": "2026-11-13T06:30:31.766Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Andrew Janocko and Rob Leonard Presser - 11.12.26",
+   "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-nfl-week-10-seahawks-2026-season",
+   "date": "2026-11-13T00:49:26.000Z",
+   "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Cody White has capitalized on every opportunity this season",
    "link": "https://www.raiders.com/audio/cody-white-seahawks-nfl-week-10-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/brock-bowers-49ers-nfl-week-9-2026-season",
    "date": "2026-11-07T15:00:00.000Z",
    "desc": "Tight end Brock Bowers discusses the Raiders offense, returning home to the Bay Area to play in front of his family, the 49ers defense and more.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Joe DeCamillis Presser - 11.6.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-nfl-week-9-49ers-2026-season",
-   "date": "2026-11-06T20:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
    "src": "Raiders.com"
   }
  ],
