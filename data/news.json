@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-13T21:54:19.020Z",
+ "updated": "2026-11-14T02:12:45.233Z",
  "items": [
+  {
+   "id": "7ae2by",
+   "title": "UNLV football among sports teams impacted by FAA’s decision to ground flights",
+   "link": "https://www.reviewjournal.com/sports/unlv/unlv-football/unlv-football-among-sports-teams-impacted-by-faas-decision-to-ground-flights-3913978/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-13T23:39:18.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "The FAA’s decision to ground all flights nationwide Friday threw the sports world into chaos, leaving teams stranded as they tried to reach their destinations.",
+   "author": "Associated Press"
+  },
+  {
+   "id": "hyv6sv",
+   "title": "Las Vegas Raiders-Seattle Seahawks FEED Topic: Monitoring Fernando Mendoza’s 1st start",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146055/raiders-seahawks-week-10-preview-fernando-mendoza-1st-start",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-13T23:21:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "While Kirk Cousins exceeded expectations as the Las Vegas Raiders’ starting quarterback, getting the team to a 4-5 record and in the playoff mix at the halfway point of the season, Week 10 against the Seattle Seahawks will be the official start of the Fernando",
+   "author": "Matt Holder"
+  },
+  {
+   "id": "jh01wi",
+   "title": "Raiders Week 10: Seahawks’ Jaxon Smith-Njigba a supreme challenge",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/145723/raiders-2026-week-10-seahawks-game-preview",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-13T22:45:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "Twice. That’s the exact amount of times Jaxon Smith-Njigba has been limited to under 100-yards receiving in the nine games the Seattle Seahawks have played this season. With 71 receptions for a league-leading 1,036 yards and nine touchdowns, the 6-foot, 197-po",
+   "author": "Ray Aspuria"
+  },
   {
    "id": "g9vhjz",
    "title": "Raiders injury news: Trey Zuhn ready to play Sunday",
@@ -6702,39 +6735,6 @@
    "kind": "Official",
    "cat": "Games",
    "desc": "The Las Vegas Raiders suffered their first setback of the season Sunday, losing a tightly-contested battle to the Kansas City Chiefs, 30-27.",
-   "author": null
-  },
-  {
-   "id": "1vqe5k0",
-   "title": "Live Game Updates: Raiders vs. Chiefs | Week 4",
-   "link": "https://www.raiders.com/news/live-game-updates-las-vegas-raiders-vs-kansas-city-chiefs-week-4-100426-nfl",
-   "src": "Raiders.com",
-   "date": "2026-10-04T20:25:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "Follow along for live updates during the game.",
-   "author": null
-  },
-  {
-   "id": "1875p1b",
-   "title": "Las Vegas Raiders Week 4 Inactives vs. Kansas City Chiefs",
-   "link": "https://www.raiders.com/news/las-vegas-raiders-week-4-inactives-vs-kansas-city-chiefs-100426",
-   "src": "Raiders.com",
-   "date": "2026-10-04T18:55:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "Before the Raiders take the field for Week 4, view the inactive players for today's game.",
-   "author": null
-  },
-  {
-   "id": "xqum2l",
-   "title": "How to watch, listen to and livestream Raiders vs. Chiefs",
-   "link": "https://www.raiders.com/news/how-to-watch-listen-to-livestream-las-vegas-raiders-vs-kansas-city-chiefs-nfl-week-4-100426",
-   "src": "Raiders.com",
-   "date": "2026-10-04T16:00:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "The Raiders return home to face the Chiefs in an AFC West contest between two undefeated teams.",
    "author": null
   }
  ]

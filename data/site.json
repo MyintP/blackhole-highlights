@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T21:54:19.020Z",
+ "updated": "2026-11-14T02:12:45.233Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -878,9 +878,9 @@
   "gameId": "401873062",
   "us": [
    {
-    "name": "Trey Zuhn III",
-    "pos": "C",
-    "injury": "Concussion",
+    "name": "Dont'e Thornton Jr.",
+    "pos": "WR",
+    "injury": "Back",
     "status": "Questionable",
     "ret": "2026-11-15"
    },
@@ -894,9 +894,16 @@
   ],
   "them": [
    {
-    "name": "Sam Darnold",
-    "pos": "QB",
-    "injury": "Quadriceps",
+    "name": "Leonard Williams",
+    "pos": "DT",
+    "injury": "Shoulder",
+    "status": "Out",
+    "ret": "2026-11-29"
+   },
+   {
+    "name": "Quenton Nelson",
+    "pos": "G",
+    "injury": "Knee",
     "status": "Out",
     "ret": "2026-11-29"
    },
@@ -904,64 +911,15 @@
     "name": "Charles Cross",
     "pos": "OT",
     "injury": "Ankle",
-    "status": "Doubtful",
-    "ret": "2026-11-15"
+    "status": "Out",
+    "ret": "2026-11-29"
    },
    {
-    "name": "Quenton Nelson",
-    "pos": "G",
-    "injury": "Knee",
-    "status": "Doubtful",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Derick Hall",
-    "pos": "LB",
-    "injury": "Back",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Leonard Williams",
-    "pos": "DT",
-    "injury": "Shoulder",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Connor O'Toole",
-    "pos": "LB",
-    "injury": "Foot",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Patrick O'Connell",
-    "pos": "LB",
-    "injury": "Toe",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Anthony Bradford",
-    "pos": "G",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Brandon Pili",
-    "pos": "DT",
-    "injury": "Back",
-    "status": "Questionable",
-    "ret": "2026-11-15"
-   },
-   {
-    "name": "Uchenna Nwosu",
-    "pos": "LB",
-    "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-15"
+    "name": "Sam Darnold",
+    "pos": "QB",
+    "injury": "Quadriceps",
+    "status": "Out",
+    "ret": "2026-11-29"
    }
   ],
   "opp": "Seahawks"
@@ -1006,67 +964,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   },
   "videos": {
-   "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "ok": false,
+   "at": "2026-11-14T02:12:45.233Z",
+   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-13T21:54:19.020Z"
+   "at": "2026-11-14T02:12:45.233Z"
   }
  },
  "nflverseTried": "2026-11-13T15:17:12.852Z"
