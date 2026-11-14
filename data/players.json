@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-13T15:17:12.852Z",
+ "fetched": "2026-11-14T10:05:20.393Z",
  "throughWeek": 10,
  "players": [
   {
@@ -7081,10 +7081,7 @@
     "tackles": 0,
     "missed": 1,
     "missedPct": 1
-   },
-   "jersey": "33",
-   "link": "https://www.espn.com/nfl/player/_/id/4698191/chris-collier",
-   "status": "Injured reserve / out"
+   }
   }
  ]
 }
