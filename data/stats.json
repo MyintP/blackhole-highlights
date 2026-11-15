@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:44:00.592Z",
+ "updated": "2026-11-15T09:09:57.842Z",
  "season": 2026,
  "team": [
   {
@@ -703,6 +703,20 @@
    "link": "https://www.espn.com/nfl/player/_/id/4433889/caleb-rogers"
   },
   {
+   "id": "5155825",
+   "name": "Carter Runyon",
+   "jersey": "84",
+   "pos": "TE",
+   "posName": "Tight End",
+   "group": "Offense",
+   "age": 25,
+   "ht": "6' 4\"",
+   "wt": "243 lbs",
+   "exp": 2,
+   "college": "Towson",
+   "link": "https://www.espn.com/nfl/player/_/id/5155825/carter-runyon"
+  },
+  {
    "id": "4045305",
    "name": "Ian Thomas",
    "jersey": "80",
@@ -1387,20 +1401,6 @@
    "exp": 2,
    "college": "Clemson",
    "link": "https://www.espn.com/nfl/player/_/id/4426393/will-putnam"
-  },
-  {
-   "id": "5155825",
-   "name": "Carter Runyon",
-   "jersey": "84",
-   "pos": "TE",
-   "posName": "Tight End",
-   "group": "Practice squad",
-   "age": 25,
-   "ht": "6' 4\"",
-   "wt": "243 lbs",
-   "exp": 2,
-   "college": "Towson",
-   "link": "https://www.espn.com/nfl/player/_/id/5155825/carter-runyon"
   },
   {
    "id": "5153665",
