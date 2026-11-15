@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-15T22:10:41.136Z",
+ "updated": "2026-11-15T23:12:44.891Z",
  "items": [
+  {
+   "id": "10cpkax",
+   "title": "Kirk Cousins has triumphant return as Vikings beat Packers in 1st game after trade",
+   "link": "https://www.reviewjournal.com/sports/raiders/kirk-cousins-has-triumphant-return-as-vikings-beat-packers-in-1st-game-after-trade-3914710/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-15T23:06:25.000Z",
+   "kind": "Reporting",
+   "cat": "Roster",
+   "desc": "Kirk Cousins threw two touchdown passes in his first game after being traded from the Raiders as the Minnesota Vikings beat the Green Bay Packers on Sunday.",
+   "author": "STEVE MEGARGEE AP Sports Writer"
+  },
+  {
+   "id": "utrwvv",
+   "title": "Raiders lose TE Brock Bowers to ankle injury vs. Seahawks",
+   "link": "https://www.espn.com/nfl/story/_/id/50495181/raiders-lose-te-brock-bowers-ankle-injury-vs-seahawks",
+   "src": "ESPN",
+   "date": "2026-11-15T22:54:58.000Z",
+   "kind": "Reporting",
+   "cat": "Injuries",
+   "desc": "Brock Bowers was ruled out of Sunday's matchup against the Seahawks after suffering a right ankle injury in the opening quarter.",
+   "author": null,
+   "also": [
+    {
+     "id": "1h0ifxm",
+     "title": "Brock Bowers returns to the game after an ankle injury",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/146285/raiders-news-brock-bowers-injures-ankle",
+     "src": "Silver & Black Pride",
+     "date": "2026-11-15T21:48:24.000Z",
+     "kind": "Opinion"
+    }
+   ]
+  },
   {
    "id": "5yixng",
    "title": "Raiders star suffers early injury against Seahawks",
@@ -11,17 +43,6 @@
    "cat": "Injuries",
    "desc": "Raiders star tight end Brock Bowers was in and out of the locker room and medical tent with an ankle injury suffered against the Seattle Seahawks.",
    "author": "Adam Hill"
-  },
-  {
-   "id": "1h0ifxm",
-   "title": "Brock Bowers returns to the game after an ankle injury",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/146285/raiders-news-brock-bowers-injures-ankle",
-   "src": "Silver & Black Pride",
-   "date": "2026-11-15T21:48:24.000Z",
-   "kind": "Opinion",
-   "cat": "Injuries",
-   "desc": "The Las Vegas Raiders were riding high after Fernando Mendoza’s first touchdown. However, they received bad news after their first drive of the game. Brock Bowers injured his ankle while blocking on a run play in the first quarter. They took him inside the tar",
-   "author": "Bill Williamson"
   },
   {
    "id": "1oq3il",
@@ -6732,17 +6753,6 @@
    "kind": "Official",
    "cat": "Games",
    "desc": "An uncharacteristic showing from the Raiders resulted in a 45-17 throttling in New England.",
-   "author": null
-  },
-  {
-   "id": "i0h9i0",
-   "title": "Live Game Updates: Raiders at Patriots | Week 5",
-   "link": "https://www.raiders.com/news/live-game-updates-las-vegas-raiders-at-new-england-patriots-nfl-week-5-101126",
-   "src": "Raiders.com",
-   "date": "2026-10-11T17:00:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "Follow along for live updates during the game.",
    "author": null
   }
  ]
