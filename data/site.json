@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:29:20.625Z",
+ "updated": "2026-11-15T21:39:42.823Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "2:32 - 1st",
+  "detail": "14:15 - 2nd",
   "postponed": false,
   "score": {
    "us": 7,
-   "them": 6
+   "them": 7
   },
   "win": null,
   "tie": false,
@@ -344,11 +344,11 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "2:32 - 1st",
+    "detail": "14:15 - 2nd",
     "postponed": false,
     "score": {
      "us": 7,
-     "them": 6
+     "them": 7
     },
     "win": null,
     "tie": false
@@ -538,12 +538,12 @@
     "date": "2026-11-15T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "2:32 - 1st",
+    "detail": "14:15 - 2nd",
     "postponed": false,
     "away": {
      "id": "26",
      "abbr": "SEA",
-     "score": 6,
+     "score": 7,
      "winner": false
     },
     "home": {
@@ -916,7 +916,7 @@
    {
     "name": "Brock Bowers",
     "pos": "TE",
-    "injury": "Leg",
+    "injury": "Undisclosed",
     "status": "Questionable",
     "ret": "2026-11-15"
    }
@@ -970,6 +970,13 @@
     "injury": "Coach's Decision",
     "status": "Out",
     "ret": "2026-11-29"
+   },
+   {
+    "name": "George Holani",
+    "pos": "RB",
+    "injury": "Knee",
+    "status": "Questionable",
+    "ret": "2026-11-15"
    }
   ],
   "opp": "Seahawks"
@@ -978,21 +985,21 @@
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "20",
+   "value": "38",
    "unit": "YDS",
-   "line": "3/3"
+   "line": "6/6"
   },
   {
    "cat": "Rushing Yards",
    "name": "Fernando Mendoza",
-   "value": "11",
+   "value": "19",
    "unit": "YDS",
-   "line": "2 CAR, 1 TD"
+   "line": "3 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
-   "name": "Michael Mayer",
-   "value": "9",
+   "name": "Ian Thomas",
+   "value": "13",
    "unit": "YDS",
    "line": "1 REC"
   },
@@ -1008,73 +1015,73 @@
    "name": "Kwity Paye",
    "value": "2",
    "unit": "TOT",
-   "line": "2 SOLO"
+   "line": "1 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T21:29:20.625Z"
+   "at": "2026-11-15T21:39:42.823Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
