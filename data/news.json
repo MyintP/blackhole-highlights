@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-15T21:50:00.635Z",
+ "updated": "2026-11-15T22:00:19.351Z",
  "items": [
+  {
+   "id": "1h0ifxm",
+   "title": "Brock Bowers returns to the game after an ankle injury",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/146285/raiders-news-brock-bowers-injures-ankle",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-15T21:48:24.000Z",
+   "kind": "Opinion",
+   "cat": "Injuries",
+   "desc": "The Las Vegas Raiders were riding high after Fernando Mendoza’s first touchdown. However, they received bad news after their first drive of the game. Brock Bowers injured his ankle while blocking on a run play in the first quarter. They took him inside the tar",
+   "author": "Bill Williamson"
+  },
   {
    "id": "1oq3il",
    "title": "Fernando Mendoza rushing TD got Raiders off to early lead in first start",
@@ -6733,27 +6744,6 @@
    "cat": "Team",
    "desc": "Raiders starting running back Ashton Jeanty (ankle/foot) will play against the Patriots after being listed as questionable.",
    "author": null
-  },
-  {
-   "id": "etkfm3",
-   "title": "Las Vegas Raiders Week 5 Inactives vs. New England Patriots",
-   "link": "https://www.raiders.com/news/las-vegas-raiders-week-5-inactives-vs-new-england-patriots-101126",
-   "src": "Raiders.com",
-   "date": "2026-10-11T15:32:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "Before the Raiders take the field for Week 5, view the inactive players for today's game.",
-   "author": null,
-   "also": [
-    {
-     "id": "zysj8s",
-     "title": "Raiders announce Week 5 captains vs. New England Patriots",
-     "link": "https://www.raiders.com/news/raiders-announce-week-5-captains-vs-new-england-patriots-101126",
-     "src": "Raiders.com",
-     "date": "2026-10-09T16:00:00.000Z",
-     "kind": "Official"
-    }
-   ]
   }
  ]
 }
