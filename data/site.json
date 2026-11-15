@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:44:57.344Z",
+ "updated": "2026-11-15T19:55:16.949Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -511,7 +511,7 @@
     "date": "2026-11-15T18:00Z",
     "state": "in",
     "final": false,
-    "detail": "13:02 - 3rd",
+    "detail": "9:45 - 3rd",
     "postponed": false,
     "away": {
      "id": "12",
@@ -894,11 +894,32 @@
   ],
   "them": [
    {
+    "name": "Leonard Williams",
+    "pos": "DT",
+    "injury": "Shoulder",
+    "status": "Out",
+    "ret": "2026-11-29"
+   },
+   {
+    "name": "Emanuel Wilson",
+    "pos": "RB",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": null
+   },
+   {
     "name": "Quenton Nelson",
     "pos": "G",
     "injury": "Knee",
     "status": "Out",
     "ret": "2026-11-29"
+   },
+   {
+    "name": "Avery Smith",
+    "pos": "CB",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": null
    },
    {
     "name": "Charles Cross",
@@ -908,18 +929,18 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Leonard Williams",
-    "pos": "DT",
-    "injury": "Shoulder",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
     "name": "Sam Darnold",
     "pos": "QB",
     "injury": "Quadriceps",
     "status": "Out",
     "ret": "2026-11-29"
+   },
+   {
+    "name": "Deven Eastern",
+    "pos": "DT",
+    "injury": "Coach's Decision",
+    "status": "Out",
+    "ret": null
    }
   ],
   "opp": "Seahawks"
@@ -964,67 +985,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T19:44:57.344Z"
+   "at": "2026-11-15T19:55:16.949Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
