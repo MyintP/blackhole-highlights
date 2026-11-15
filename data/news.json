@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-15T20:27:01.547Z",
+ "updated": "2026-11-15T21:08:30.730Z",
  "items": [
+  {
+   "id": "mc55zb",
+   "title": "Live Game Updates: Raiders vs. Seahawks | Week 10",
+   "link": "https://www.raiders.com/news/live-game-updates-raiders-vs-seahawks-week-10",
+   "src": "Raiders.com",
+   "date": "2026-11-15T21:02:20.000Z",
+   "kind": "Official",
+   "cat": "Games",
+   "desc": "Follow along for live updates during game.",
+   "author": null,
+   "also": [
+    {
+     "id": "pweikc",
+     "title": "Las Vegas Raiders-Seattle Seahawks live updates",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/145037/las-vegas-raiders-seattle-seahawks-live-updates",
+     "src": "Silver & Black Pride",
+     "date": "2026-11-15T17:33:00.000Z",
+     "kind": "Opinion"
+    }
+   ]
+  },
   {
    "id": "m63ip2",
    "title": "Las Vegas Raiders discussion: Week 10 live chat during Seahawks game",
@@ -55,17 +76,6 @@
    "cat": "Games",
    "desc": "The game will be the first NFL start for Raiders rookie quarterback Fernando Mendoza, who took over after Kirk Cousins was traded to the Minnesota Vikings on Tuesday.",
    "author": "Las Vegas Review-Journal"
-  },
-  {
-   "id": "pweikc",
-   "title": "Las Vegas Raiders-Seattle Seahawks live updates",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/145037/las-vegas-raiders-seattle-seahawks-live-updates",
-   "src": "Silver & Black Pride",
-   "date": "2026-11-15T17:33:00.000Z",
-   "kind": "Opinion",
-   "cat": "Team",
-   "desc": "The Las Vegas Raiders are hosting the Seattle Seahawks on Sunday. Here is everything to need to know about the contest: First quarter Second quarter:. Third quarter: Fourth quarter: Final score: Raiders SEO change headline Now that the game is over, let’s take",
-   "author": "Bill Williamson"
   },
   {
    "id": "mrsijh",

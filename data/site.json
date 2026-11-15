@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:58:10.471Z",
+ "updated": "2026-11-15T21:08:30.730Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -17,11 +17,14 @@
    "record": "5-4"
   },
   "tv": "CBS",
-  "state": "pre",
+  "state": "in",
   "final": false,
-  "detail": null,
+  "detail": "14:02 - 1st",
   "postponed": false,
-  "score": null,
+  "score": {
+   "us": 0,
+   "them": 0
+  },
   "win": null,
   "tie": false,
   "oppRecord": "5-4",
@@ -339,11 +342,14 @@
      "record": "5-4"
     },
     "tv": "CBS",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": null,
+    "detail": "14:02 - 1st",
     "postponed": false,
-    "score": null,
+    "score": {
+     "us": 0,
+     "them": 0
+    },
     "win": null,
     "tie": false
    },
@@ -511,7 +517,7 @@
     "date": "2026-11-15T18:00Z",
     "state": "in",
     "final": false,
-    "detail": "3:35 - 4th",
+    "detail": "1:14 - 4th",
     "postponed": false,
     "away": {
      "id": "12",
@@ -530,23 +536,23 @@
    {
     "id": "401873062",
     "date": "2026-11-15T21:05Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/15 - 4:05 PM EST",
+    "detail": "14:02 - 1st",
     "postponed": false,
     "away": {
      "id": "26",
      "abbr": "SEA",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "13",
      "abbr": "LV",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873062/seahawks-raiders"
+    "link": null
    },
    {
     "id": "401873065",
@@ -849,18 +855,6 @@
     "higher": true
    },
    {
-    "label": "Yards allowed",
-    "us": {
-     "v": 399.9,
-     "rank": null
-    },
-    "them": {
-     "v": 257.9,
-     "rank": null
-    },
-    "higher": false
-   },
-   {
     "label": "Points allowed",
     "us": {
      "v": 29.77777777777778,
@@ -975,105 +969,84 @@
  },
  "leaders": [
   {
-   "cat": "Passing Yards",
-   "name": "Fernando Mendoza",
-   "value": "48",
-   "unit": "YDS",
-   "line": "6/8"
-  },
-  {
-   "cat": "Rushing Yards",
-   "name": "Ashton Jeanty",
-   "value": "362",
-   "unit": "YDS",
-   "line": "114 CAR, 1 TD"
-  },
-  {
-   "cat": "Receiving Yards",
-   "name": "Brock Bowers",
-   "value": "658",
-   "unit": "YDS",
-   "line": "48 REC, 6 TD"
-  },
-  {
    "cat": "Sacks",
-   "name": "Maxx Crosby",
-   "value": "4",
+   "name": "Taron Johnson",
+   "value": "1",
    "unit": "SACKS",
-   "line": "4"
+   "line": "1"
   },
   {
    "cat": "Tackles",
-   "name": "Nakobe Dean",
-   "value": "99",
+   "name": "Adam Butler",
+   "value": "1",
    "unit": "TOT",
-   "line": "99"
+   "line": "0 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T20:58:10.471Z"
+   "at": "2026-11-15T21:08:30.730Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
