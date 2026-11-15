@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:18:55.381Z",
+ "updated": "2026-11-15T21:29:20.625Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "7:41 - 1st",
+  "detail": "2:32 - 1st",
   "postponed": false,
   "score": {
    "us": 7,
-   "them": 0
+   "them": 6
   },
   "win": null,
   "tie": false,
@@ -114,7 +114,7 @@
      "name": "Dolphins",
      "location": "Miami",
      "abbr": "MIA",
-     "record": "1-7"
+     "record": "1-8"
     },
     "tv": "Fox",
     "state": "post",
@@ -344,11 +344,11 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "7:41 - 1st",
+    "detail": "2:32 - 1st",
     "postponed": false,
     "score": {
      "us": 7,
-     "them": 0
+     "them": 6
     },
     "win": null,
     "tie": false
@@ -538,12 +538,12 @@
     "date": "2026-11-15T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "7:41 - 1st",
+    "detail": "2:32 - 1st",
     "postponed": false,
     "away": {
      "id": "26",
      "abbr": "SEA",
-     "score": 0,
+     "score": 6,
      "winner": false
     },
     "home": {
@@ -748,12 +748,12 @@
    {
     "id": "11",
     "name": "Indianapolis",
-    "w": 2,
+    "w": 3,
     "l": 7,
     "t": 0,
-    "pct": ".222",
+    "pct": ".300",
     "seed": 12,
-    "diff": "-65",
+    "diff": "-63",
     "us": false
    },
    {
@@ -771,11 +771,11 @@
     "id": "15",
     "name": "Miami",
     "w": 1,
-    "l": 7,
+    "l": 8,
     "t": 0,
-    "pct": ".125",
+    "pct": ".111",
     "seed": 14,
-    "diff": "-74",
+    "diff": "-76",
     "us": false
    },
    {
@@ -1005,77 +1005,76 @@
   },
   {
    "cat": "Tackles",
-   "name": "Adam Butler",
-   "value": "1",
+   "name": "Kwity Paye",
+   "value": "2",
    "unit": "TOT",
-   "line": "0 SOLO"
+   "line": "2 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "news: RaidersBeat": {
-   "ok": false,
-   "at": "2026-11-15T21:18:55.381Z",
-   "error": "520 https://raidersbeat.com/feed/"
+   "ok": true,
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T21:18:55.381Z"
+   "at": "2026-11-15T21:29:20.625Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
