@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-15T22:00:19.351Z",
+ "updated": "2026-11-15T22:10:41.136Z",
  "items": [
+  {
+   "id": "5yixng",
+   "title": "Raiders star suffers early injury against Seahawks",
+   "link": "https://www.reviewjournal.com/sports/raiders/raiders-star-suffers-early-injury-against-seahawks-3914668/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-15T21:51:15.000Z",
+   "kind": "Reporting",
+   "cat": "Injuries",
+   "desc": "Raiders star tight end Brock Bowers was in and out of the locker room and medical tent with an ankle injury suffered against the Seattle Seahawks.",
+   "author": "Adam Hill"
+  },
   {
    "id": "1h0ifxm",
    "title": "Brock Bowers returns to the game after an ankle injury",
@@ -6732,17 +6743,6 @@
    "kind": "Official",
    "cat": "Games",
    "desc": "Follow along for live updates during the game.",
-   "author": null
-  },
-  {
-   "id": "u3nuun",
-   "title": "Raiders RB Ashton Jeanty active against Patriots",
-   "link": "https://www.espn.com/nfl/story/_/id/50158033/raiders-rb-ashton-jeanty-active-patriots",
-   "src": "ESPN",
-   "date": "2026-10-11T16:40:22.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "Raiders starting running back Ashton Jeanty (ankle/foot) will play against the Patriots after being listed as questionable.",
    "author": null
   }
  ]
