@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:08:30.730Z",
+ "updated": "2026-11-15T21:18:55.381Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -19,10 +19,10 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "14:02 - 1st",
+  "detail": "7:41 - 1st",
   "postponed": false,
   "score": {
-   "us": 0,
+   "us": 7,
    "them": 0
   },
   "win": null,
@@ -164,7 +164,7 @@
      "name": "Saints",
      "location": "New Orleans",
      "abbr": "NO",
-     "record": "3-5"
+     "record": "3-6"
     },
     "tv": "CBS",
     "state": "post",
@@ -189,7 +189,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "6-2"
+     "record": "7-2"
     },
     "tv": "CBS",
     "state": "post",
@@ -239,7 +239,7 @@
      "name": "Bills",
      "location": "Buffalo",
      "abbr": "BUF",
-     "record": "7-1"
+     "record": "8-1"
     },
     "tv": "CBS",
     "state": "post",
@@ -289,7 +289,7 @@
      "name": "Jets",
      "location": "New York",
      "abbr": "NYJ",
-     "record": "2-7"
+     "record": "2-8"
     },
     "tv": "Fox",
     "state": "post",
@@ -344,10 +344,10 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "14:02 - 1st",
+    "detail": "7:41 - 1st",
     "postponed": false,
     "score": {
-     "us": 0,
+     "us": 7,
      "them": 0
     },
     "win": null,
@@ -386,7 +386,7 @@
      "name": "Browns",
      "location": "Cleveland",
      "abbr": "CLE",
-     "record": "5-4"
+     "record": "6-4"
     },
     "tv": "Fox",
     "state": "pre",
@@ -452,7 +452,7 @@
      "name": "Titans",
      "location": "Tennessee",
      "abbr": "TEN",
-     "record": "1-7"
+     "record": "1-8"
     },
     "tv": "Fox",
     "state": "pre",
@@ -496,7 +496,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "6-2"
+     "record": "7-2"
     },
     "tv": null,
     "state": "pre",
@@ -515,15 +515,15 @@
    {
     "id": "401873058",
     "date": "2026-11-15T18:00Z",
-    "state": "in",
-    "final": false,
-    "detail": "1:14 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
      "score": 35,
-     "winner": false
+     "winner": true
     },
     "home": {
      "id": "1",
@@ -531,14 +531,14 @@
      "score": 13,
      "winner": false
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873058/chiefs-falcons"
    },
    {
     "id": "401873062",
     "date": "2026-11-15T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "14:02 - 1st",
+    "detail": "7:41 - 1st",
     "postponed": false,
     "away": {
      "id": "26",
@@ -549,7 +549,7 @@
     "home": {
      "id": "13",
      "abbr": "LV",
-     "score": 0,
+     "score": 7,
      "winner": false
     },
     "link": null
@@ -583,6 +583,16 @@
  "standings": {
   "west": [
    {
+    "id": "12",
+    "name": "Kansas City",
+    "w": 7,
+    "l": 2,
+    "t": 0,
+    "pct": ".778",
+    "diff": "+81",
+    "us": false
+   },
+   {
     "id": "7",
     "name": "Denver",
     "w": 7,
@@ -590,16 +600,6 @@
     "t": 0,
     "pct": ".778",
     "diff": "+12",
-    "us": false
-   },
-   {
-    "id": "12",
-    "name": "Kansas City",
-    "w": 6,
-    "l": 2,
-    "t": 0,
-    "pct": ".750",
-    "diff": "+59",
     "us": false
    },
    {
@@ -627,34 +627,34 @@
    {
     "id": "2",
     "name": "Buffalo",
-    "w": 7,
+    "w": 8,
     "l": 1,
     "t": 0,
-    "pct": ".875",
+    "pct": ".889",
     "seed": 1,
-    "diff": "+69",
+    "diff": "+88",
     "us": false
    },
    {
-    "id": "7",
-    "name": "Denver",
+    "id": "12",
+    "name": "Kansas City",
     "w": 7,
     "l": 2,
     "t": 0,
     "pct": ".778",
     "seed": 2,
-    "diff": "+12",
+    "diff": "+81",
     "us": false
    },
    {
     "id": "30",
     "name": "Jacksonville",
-    "w": 6,
+    "w": 7,
     "l": 2,
     "t": 0,
-    "pct": ".750",
+    "pct": ".778",
     "seed": 3,
-    "diff": "+108",
+    "diff": "+125",
     "us": false
    },
    {
@@ -669,14 +669,14 @@
     "us": false
    },
    {
-    "id": "12",
-    "name": "Kansas City",
-    "w": 6,
+    "id": "7",
+    "name": "Denver",
+    "w": 7,
     "l": 2,
     "t": 0,
-    "pct": ".750",
+    "pct": ".778",
     "seed": 5,
-    "diff": "+59",
+    "diff": "+12",
     "us": false
    },
    {
@@ -693,12 +693,12 @@
    {
     "id": "5",
     "name": "Cleveland",
-    "w": 5,
+    "w": 6,
     "l": 4,
     "t": 0,
-    "pct": ".556",
+    "pct": ".600",
     "seed": 7,
-    "diff": "-35",
+    "diff": "-32",
     "us": false
    },
    {
@@ -738,22 +738,11 @@
     "id": "34",
     "name": "Houston",
     "w": 3,
-    "l": 5,
+    "l": 6,
     "t": 0,
-    "pct": ".375",
+    "pct": ".333",
     "seed": 11,
-    "diff": "+17",
-    "us": false
-   },
-   {
-    "id": "20",
-    "name": "NY Jets",
-    "w": 2,
-    "l": 7,
-    "t": 0,
-    "pct": ".222",
-    "seed": 12,
-    "diff": "-41",
+    "diff": "+14",
     "us": false
    },
    {
@@ -763,8 +752,19 @@
     "l": 7,
     "t": 0,
     "pct": ".222",
-    "seed": 13,
+    "seed": 12,
     "diff": "-65",
+    "us": false
+   },
+   {
+    "id": "20",
+    "name": "NY Jets",
+    "w": 2,
+    "l": 8,
+    "t": 0,
+    "pct": ".200",
+    "seed": 13,
+    "diff": "-60",
     "us": false
    },
    {
@@ -782,11 +782,11 @@
     "id": "10",
     "name": "Tennessee",
     "w": 1,
-    "l": 7,
+    "l": 8,
     "t": 0,
-    "pct": ".125",
+    "pct": ".111",
     "seed": 15,
-    "diff": "-55",
+    "diff": "-72",
     "us": false
    },
    {
@@ -912,6 +912,13 @@
     "injury": "Coach's Decision",
     "status": "Out",
     "ret": "2026-11-22"
+   },
+   {
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Leg",
+    "status": "Questionable",
+    "ret": "2026-11-15"
    }
   ],
   "them": [
@@ -969,11 +976,32 @@
  },
  "leaders": [
   {
+   "cat": "Passing Yards",
+   "name": "Fernando Mendoza",
+   "value": "20",
+   "unit": "YDS",
+   "line": "3/3"
+  },
+  {
+   "cat": "Rushing Yards",
+   "name": "Fernando Mendoza",
+   "value": "11",
+   "unit": "YDS",
+   "line": "2 CAR, 1 TD"
+  },
+  {
+   "cat": "Receiving Yards",
+   "name": "Michael Mayer",
+   "value": "9",
+   "unit": "YDS",
+   "line": "1 REC"
+  },
+  {
    "cat": "Sacks",
-   "name": "Taron Johnson",
-   "value": "1",
+   "name": "Folorunso Fatukasi",
+   "value": "0.5",
    "unit": "SACKS",
-   "line": "1"
+   "line": "0.5"
   },
   {
    "cat": "Tackles",
@@ -986,67 +1014,68 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "news: RaidersBeat": {
-   "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "ok": false,
+   "at": "2026-11-15T21:18:55.381Z",
+   "error": "520 https://raidersbeat.com/feed/"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T21:08:30.730Z"
+   "at": "2026-11-15T21:18:55.381Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
