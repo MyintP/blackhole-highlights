@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:12:44.891Z",
+ "updated": "2026-11-15T23:23:02.574Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -19,7 +19,7 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "15:00 - 4th",
+  "detail": "11:34 - 4th",
   "postponed": false,
   "score": {
    "us": 10,
@@ -344,7 +344,7 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "15:00 - 4th",
+    "detail": "11:34 - 4th",
     "postponed": false,
     "score": {
      "us": 10,
@@ -538,7 +538,7 @@
     "date": "2026-11-15T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "15:00 - 4th",
+    "detail": "11:30 - 4th",
     "postponed": false,
     "away": {
      "id": "26",
@@ -927,7 +927,7 @@
     "pos": "RB",
     "injury": "Knee",
     "status": "Out",
-    "ret": "2026-11-15"
+    "ret": "2026-11-29"
    },
    {
     "name": "Emanuel Wilson",
@@ -1001,7 +1001,7 @@
    "name": "Fernando Mendoza",
    "value": "85",
    "unit": "YDS",
-   "line": "13/18"
+   "line": "13/19"
   },
   {
    "cat": "Rushing Yards",
@@ -1027,7 +1027,7 @@
   {
    "cat": "Tackles",
    "name": "Quay Walker",
-   "value": "7",
+   "value": "8",
    "unit": "TOT",
    "line": "4 SOLO"
   }
@@ -1035,67 +1035,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T23:12:44.891Z"
+   "at": "2026-11-15T23:23:02.574Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
