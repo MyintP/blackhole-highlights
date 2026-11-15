@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-15T17:12:44.499Z",
+ "updated": "2026-11-15T18:01:27.104Z",
  "current": {
   "gameId": "401873062",
   "week": 10,
-  "asOf": "2026-11-15T17:12:44.499Z",
-  "book": "Draft Kings",
+  "asOf": "2026-11-15T18:01:27.104Z",
+  "book": "DraftKings",
   "us": {
    "spread": "+6.5",
    "spreadOdds": "-110",
@@ -93,9 +93,9 @@
    "spread": "+6.5",
    "ml": "+240",
    "total": 40.5,
-   "asOf": "2026-11-15T17:12:44.499Z",
-   "book": "Draft Kings",
-   "captures": 9
+   "asOf": "2026-11-15T18:01:27.104Z",
+   "book": "DraftKings",
+   "captures": 10
   }
  },
  "record": {
@@ -626,6 +626,15 @@
     "oppMl": "-298",
     "total": 40.5,
     "book": "Draft Kings"
+   },
+   {
+    "asOf": "2026-11-15T18:01:27.104Z",
+    "spread": "+6.5",
+    "spreadOdds": "-110",
+    "ml": "+240",
+    "oppMl": "-298",
+    "total": 40.5,
+    "book": "DraftKings"
    }
   ]
  }
