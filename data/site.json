@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T18:01:27.104Z",
+ "updated": "2026-11-15T18:11:47.724Z",
  "season": 2026,
  "record": "4-5",
  "divisionPlace": "3rd in AFC West",
@@ -509,23 +509,23 @@
    {
     "id": "401873058",
     "date": "2026-11-15T18:00Z",
-    "state": "pre",
+    "state": "in",
     "final": false,
-    "detail": "11/15 - 1:00 PM EST",
+    "detail": "10:19 - 1st",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": null,
+     "score": 0,
      "winner": false
     },
     "home": {
      "id": "1",
      "abbr": "ATL",
-     "score": null,
+     "score": 0,
      "winner": false
     },
-    "link": "https://www.espn.com/nfl/game/_/gameId/401873058/chiefs-falcons"
+    "link": null
    },
    {
     "id": "401873062",
@@ -964,67 +964,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-15T18:01:27.104Z"
+   "at": "2026-11-15T18:11:47.724Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
