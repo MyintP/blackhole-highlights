@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T00:33:56.637Z",
+ "updated": "2026-11-16T00:05:09.852Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1385,6 +1385,159 @@
     "desc": "— Brock Purdy threw two touchdown passes and ran for another TD and the San Francisco 49ers had five takeaways in the second half to beat the Las Vegas Raiders 38-17 on Sunday."
    },
    "attendance": 71753
+  },
+  "401873062": {
+   "id": "401873062",
+   "week": 10,
+   "date": "2026-11-15T21:05Z",
+   "home": true,
+   "opp": {
+    "id": "26",
+    "name": "Seahawks",
+    "location": "Seattle",
+    "abbr": "SEA",
+    "record": "6-4"
+   },
+   "score": {
+    "us": 13,
+    "them": 21
+   },
+   "win": false,
+   "tie": false,
+   "lines": {
+    "us": [
+     7,
+     3,
+     0,
+     3
+    ],
+    "them": [
+     7,
+     0,
+     14,
+     0
+    ]
+   },
+   "box": [
+    {
+     "key": "totalYards",
+     "us": "163",
+     "them": "382"
+    },
+    {
+     "key": "netPassingYards",
+     "us": "98",
+     "them": "232"
+    },
+    {
+     "key": "rushingYards",
+     "us": "65",
+     "them": "150"
+    },
+    {
+     "key": "firstDowns",
+     "us": "12",
+     "them": "17"
+    },
+    {
+     "key": "thirdDownEff",
+     "us": "7-17",
+     "them": "7-12"
+    },
+    {
+     "key": "turnovers",
+     "us": "0",
+     "them": "2"
+    },
+    {
+     "key": "totalPenaltiesYards",
+     "us": "0-0",
+     "them": "2-15"
+    },
+    {
+     "key": "possessionTime",
+     "us": "28:19",
+     "them": "31:41"
+    }
+   ],
+   "leaders": {
+    "us": [
+     {
+      "cat": "Passing Yards",
+      "name": "Fernando Mendoza",
+      "value": "143",
+      "unit": "YDS",
+      "line": "17/29"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Mike Washington Jr.",
+      "value": "23",
+      "unit": "YDS",
+      "line": "8 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Ashton Jeanty",
+      "value": "46",
+      "unit": "YDS",
+      "line": "4 REC"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Maxx Crosby",
+      "value": "1",
+      "unit": "SACKS",
+      "line": "1"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Maxx Crosby",
+      "value": "8",
+      "unit": "TOT",
+      "line": "7 SOLO"
+     }
+    ],
+    "them": [
+     {
+      "cat": "Passing Yards",
+      "name": "Drew Lock",
+      "value": "240",
+      "unit": "YDS",
+      "line": "14/17, 2 TD"
+     },
+     {
+      "cat": "Rushing Yards",
+      "name": "Zach Charbonnet",
+      "value": "94",
+      "unit": "YDS",
+      "line": "20 CAR"
+     },
+     {
+      "cat": "Receiving Yards",
+      "name": "Jaxon Smith-Njigba",
+      "value": "171",
+      "unit": "YDS",
+      "line": "8 REC, 1 TD"
+     },
+     {
+      "cat": "Sacks",
+      "name": "Devon Witherspoon",
+      "value": "2",
+      "unit": "SACKS",
+      "line": "2"
+     },
+     {
+      "cat": "Tackles",
+      "name": "Ernest Jones IV",
+      "value": "10",
+      "unit": "TOT",
+      "line": "5 SOLO"
+     }
+    ]
+   },
+   "recap": null,
+   "attendance": 62624
   }
  }
 }
