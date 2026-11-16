@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:05:09.852Z",
+ "updated": "2026-11-16T01:49:27.212Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1536,7 +1536,11 @@
      }
     ]
    },
-   "recap": null,
+   "recap": {
+    "title": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
+    "link": "https://www.espn.com/nfl/recap?gameId=401873062",
+    "desc": "— Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza."
+   },
    "attendance": 62624
   }
  }

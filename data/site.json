@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:05:09.852Z",
+ "updated": "2026-11-16T01:49:27.212Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -91,7 +91,11 @@
     "line": "7 SOLO"
    }
   ],
-  "recap": null
+  "recap": {
+   "title": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
+   "link": "https://www.espn.com/nfl/recap?gameId=401873062",
+   "desc": "— Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza."
+  }
  },
  "schedule": {
   "bye": 13,
@@ -307,7 +311,7 @@
      "name": "49ers",
      "location": "San Francisco",
      "abbr": "SF",
-     "record": "7-1"
+     "record": "8-1"
     },
     "tv": "Fox",
     "state": "post",
@@ -867,7 +871,7 @@
     },
     "them": {
      "v": 20.666666666666668,
-     "rank": "10th"
+     "rank": "9th"
     },
     "higher": false
    }
@@ -876,13 +880,6 @@
  "injuries": {
   "gameId": "401873075",
   "us": [
-   {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Ankle",
-    "status": "Out",
-    "ret": "2026-11-22"
-   },
    {
     "name": "Malik Benson",
     "pos": "WR",
@@ -923,6 +920,13 @@
     "pos": "G",
     "injury": "Coach's Decision",
     "status": "Out",
+    "ret": "2026-11-22"
+   },
+   {
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Ankle",
+    "status": "Questionable",
     "ret": "2026-11-22"
    },
    {
@@ -1019,71 +1023,72 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "game 10": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   },
   "videos": {
-   "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "ok": false,
+   "at": "2026-11-16T01:49:27.212Z",
+   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-16T00:05:09.852Z"
+   "at": "2026-11-16T01:49:27.212Z"
   }
  },
  "nflverseTried": "2026-11-15T14:11:40.471Z"
