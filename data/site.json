@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:26:06.001Z",
+ "updated": "2026-11-16T20:16:21.693Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -881,13 +881,6 @@
   "gameId": "401873075",
   "us": [
    {
-    "name": "Malik Benson",
-    "pos": "WR",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-22"
-   },
-   {
     "name": "Thomas Booker IV",
     "pos": "DT",
     "injury": "Ankle",
@@ -898,27 +891,6 @@
     "name": "Dont'e Thornton Jr.",
     "pos": "WR",
     "injury": "Back",
-    "status": "Out",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Tristin McCollum",
-    "pos": "S",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Dalton Johnson",
-    "pos": "S",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Bryce Cabeldue",
-    "pos": "G",
-    "injury": "Coach's Decision",
     "status": "Out",
     "ret": "2026-11-22"
    },
@@ -1023,103 +995,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-16T09:26:06.001Z"
+   "at": "2026-11-16T20:16:21.693Z"
   }
  },
  "nflverseTried": "2026-11-16T09:26:06.001Z"
