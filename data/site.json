@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:49:27.212Z",
+ "updated": "2026-11-16T09:26:06.001Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -655,14 +655,14 @@
     "us": false
    },
    {
-    "id": "23",
-    "name": "Pittsburgh",
-    "w": 6,
+    "id": "4",
+    "name": "Cincinnati",
+    "w": 7,
     "l": 2,
     "t": 0,
-    "pct": ".750",
+    "pct": ".778",
     "seed": 4,
-    "diff": "+36",
+    "diff": "+85",
     "us": false
    },
    {
@@ -677,14 +677,14 @@
     "us": false
    },
    {
-    "id": "4",
-    "name": "Cincinnati",
+    "id": "23",
+    "name": "Pittsburgh",
     "w": 6,
-    "l": 2,
+    "l": 3,
     "t": 0,
-    "pct": ".750",
+    "pct": ".667",
     "seed": 6,
-    "diff": "+65",
+    "diff": "+16",
     "us": false
    },
    {
@@ -806,20 +806,20 @@
    {
     "label": "Points / game",
     "us": {
-     "v": 26.44,
-     "rank": "8th"
+     "v": 25.1,
+     "rank": "10th"
     },
     "them": {
      "v": 22,
-     "rank": "20th"
+     "rank": "T-19th"
     },
     "higher": true
    },
    {
     "label": "Total offense",
     "us": {
-     "v": 338.111,
-     "rank": "20th"
+     "v": 325.1,
+     "rank": "23rd"
     },
     "them": {
      "v": 283.667,
@@ -830,31 +830,31 @@
    {
     "label": "Passing offense",
     "us": {
-     "v": 266.778,
-     "rank": "6th"
+     "v": 254.4,
+     "rank": "12th"
     },
     "them": {
      "v": 192.222,
-     "rank": "T-27th"
+     "rank": "27th"
     },
     "higher": true
    },
    {
     "label": "Rushing offense",
     "us": {
-     "v": 71.3,
+     "v": 70.7,
      "rank": "31st"
     },
     "them": {
      "v": 91.4,
-     "rank": "27th"
+     "rank": "26th"
     },
     "higher": true
    },
    {
     "label": "Yards allowed",
     "us": {
-     "v": 399.9,
+     "v": 398.9,
      "rank": null
     },
     "them": {
@@ -934,7 +934,7 @@
     "pos": "DE",
     "injury": "Neck",
     "status": "Questionable",
-    "ret": "2026-11-15"
+    "ret": "2026-11-22"
    }
   ],
   "them": [
@@ -987,109 +987,140 @@
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "48",
+   "value": "191",
    "unit": "YDS",
-   "line": "6/8"
+   "line": "23/37"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "362",
+   "value": "380",
    "unit": "YDS",
-   "line": "114 CAR, 1 TD"
+   "line": "123 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
    "name": "Brock Bowers",
-   "value": "658",
+   "value": "676",
    "unit": "YDS",
-   "line": "48 REC, 6 TD"
+   "line": "50 REC, 6 TD"
   },
   {
    "cat": "Sacks",
    "name": "Maxx Crosby",
-   "value": "4",
+   "value": "5",
    "unit": "SACKS",
-   "line": "4"
+   "line": "5"
   },
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "99",
+   "value": "107",
    "unit": "TOT",
-   "line": "99"
+   "line": "107"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
-  },
-  "game 10": {
-   "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "videos": {
-   "ok": false,
-   "at": "2026-11-16T01:49:27.212Z",
-   "error": "404 https://www.youtube.com/feeds/videos.xml?…"
+   "ok": true,
+   "at": "2026-11-16T09:26:06.001Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-16T01:49:27.212Z"
+   "at": "2026-11-16T09:26:06.001Z"
   }
  },
- "nflverseTried": "2026-11-15T14:11:40.471Z"
+ "nflverseTried": "2026-11-16T09:26:06.001Z"
 }

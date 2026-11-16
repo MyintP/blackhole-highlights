@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-16T01:49:27.212Z",
+ "updated": "2026-11-16T09:26:06.001Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Fernando Mendoza Postgame Presser | Week 10 vs. Seahawks",
+   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-postgame-presser-nfl-week-10-seahawks-2026",
+   "date": "2026-11-16T01:15:00.000Z",
+   "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media following the Raiders' Week 10 matchup against the Seattle Seahawks.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Joe DeCamillis Presser - 11.13.26",
    "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-seahawks-nfl-week-10-2026-season",
@@ -78,16 +85,23 @@
    "date": "2026-11-09T01:35:00.000Z",
    "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media following the Raiders' Week 9 matchup against the San Francisco 49ers.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Ben Solak on how the Raiders match up against the 49ers",
-   "link": "https://www.raiders.com/audio/ben-solak-brock-bowers-raiders-49ers-nfl-week-9-2026-season",
-   "date": "2026-11-07T16:00:00.000Z",
-   "desc": "ESPN's Ben Solak previews Raiders-49ers, shares his thoughts on the Raiders offense and explains what makes Brock Bowers a matchup weapon.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
+  {
+   "title": "Brock Bowers exits Week 10 loss with ankle injury",
+   "link": "https://www.espn.com/video/clip/_/id/50498869/brock-bowers-exits-week-10-loss-ankle-injury",
+   "date": "2026-11-16T05:45:51Z",
+   "desc": "Ryan McFadden reports on Brock Bowers' ankle injury and the latest update from Raiders coach Klint Kubiak.",
+   "src": "ESPN"
+  },
+  {
+   "title": "Big-time offensive plays highlight top NFL plays of Week 10",
+   "link": "https://www.espn.com/video/clip/_/id/50498782/big-offensive-plays-highlight-top-nfl-plays-week-10",
+   "date": "2026-11-16T05:44:46Z",
+   "desc": "Big-time offensive plays highlight top NFL plays of Week 10  ",
+   "src": "ESPN"
+  },
   {
    "title": "Seattle Seahawks vs. Las Vegas Raiders: Game Highlights",
    "link": "https://www.espn.com/video/clip/_/id/50496498/game-highlights",

@@ -1,138 +1,14 @@
 {
- "fetched": "2026-11-15T14:11:40.471Z",
+ "fetched": "2026-11-16T09:26:06.001Z",
  "throughWeek": 10,
  "players": [
   {
    "id": "kirk-cousins",
    "name": "Kirk Cousins",
    "pos": "QB",
-   "group": "QB",
+   "group": null,
    "games": 9,
-   "stats": {
-    "Passing": [
-     {
-      "k": "attempts",
-      "label": "Att",
-      "v": 315,
-      "rank": null
-     },
-     {
-      "k": "completions",
-      "label": "Cmp",
-      "v": 202,
-      "rank": null
-     },
-     {
-      "k": "passing_yards",
-      "label": "Yds",
-      "v": 2340,
-      "rank": 5
-     },
-     {
-      "k": "passing_tds",
-      "label": "TD",
-      "v": 20,
-      "rank": 2
-     },
-     {
-      "k": "passing_interceptions",
-      "label": "INT",
-      "v": 8,
-      "rank": null
-     },
-     {
-      "k": "sacks_suffered",
-      "label": "Sacked",
-      "v": 11,
-      "rank": null
-     },
-     {
-      "k": "passing_first_downs",
-      "label": "1st downs",
-      "v": 117,
-      "rank": 4
-     },
-     {
-      "k": "passing_epa",
-      "label": "EPA",
-      "v": 54.422,
-      "rank": 8
-     },
-     {
-      "k": "passing_cpoe",
-      "label": "CPOE",
-      "v": 0.209,
-      "rank": null
-     }
-    ],
-    "Rushing": [
-     {
-      "k": "carries",
-      "label": "Att",
-      "v": 22,
-      "rank": null
-     },
-     {
-      "k": "rushing_yards",
-      "label": "Yds",
-      "v": 7,
-      "rank": 204,
-      "tied": 3
-     },
-     {
-      "k": "rushing_tds",
-      "label": "TD",
-      "v": 2,
-      "rank": 32,
-      "tied": 23
-     },
-     {
-      "k": "rushing_first_downs",
-      "label": "1st downs",
-      "v": 5,
-      "rank": 92,
-      "tied": 10
-     },
-     {
-      "k": "rushing_fumbles_lost",
-      "label": "Fum lost",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "rushing_epa",
-      "label": "EPA",
-      "v": -7.126,
-      "rank": null
-     }
-    ],
-    "Discipline": [
-     {
-      "k": "penalties",
-      "label": "Penalties",
-      "v": 1,
-      "rank": null
-     },
-     {
-      "k": "penalty_yards",
-      "label": "Pen yds",
-      "v": 10,
-      "rank": null
-     },
-     {
-      "k": "fumbles_total",
-      "label": "Fumbles",
-      "v": 3,
-      "rank": null
-     },
-     {
-      "k": "fumbles_lost_total",
-      "label": "Fum lost",
-      "v": 0,
-      "rank": null
-     }
-    ]
-   },
+   "stats": {},
    "snaps": {
     "games": 9,
     "off": 582,
@@ -165,26 +41,26 @@
    "name": "Fernando Mendoza",
    "pos": "QB",
    "group": "QB",
-   "games": 1,
+   "games": 2,
    "stats": {
     "Passing": [
      {
       "k": "attempts",
       "label": "Att",
-      "v": 8,
+      "v": 37,
       "rank": null
      },
      {
       "k": "completions",
       "label": "Cmp",
-      "v": 6,
+      "v": 23,
       "rank": null
      },
      {
       "k": "passing_yards",
       "label": "Yds",
-      "v": 48,
-      "rank": 52
+      "v": 191,
+      "rank": 47
      },
      {
       "k": "passing_tds",
@@ -201,26 +77,26 @@
      {
       "k": "sacks_suffered",
       "label": "Sacked",
-      "v": 0,
+      "v": 6,
       "rank": null
      },
      {
       "k": "passing_first_downs",
       "label": "1st downs",
-      "v": 3,
-      "rank": 50,
-      "tied": 2
+      "v": 10,
+      "rank": 44,
+      "tied": 3
      },
      {
       "k": "passing_epa",
       "label": "EPA",
-      "v": 1.242,
-      "rank": 32
+      "v": -8.501,
+      "rank": null
      },
      {
       "k": "passing_cpoe",
       "label": "CPOE",
-      "v": 8.817,
+      "v": -3.201,
       "rank": null
      }
     ],
@@ -228,27 +104,29 @@
      {
       "k": "carries",
       "label": "Att",
-      "v": 1,
+      "v": 7,
       "rank": null
      },
      {
       "k": "rushing_yards",
       "label": "Yds",
-      "v": 3,
-      "rank": 226,
-      "tied": 9
+      "v": 25,
+      "rank": 156,
+      "tied": 4
      },
      {
       "k": "rushing_tds",
       "label": "TD",
-      "v": 0,
-      "rank": null
+      "v": 1,
+      "rank": 59,
+      "tied": 51
      },
      {
       "k": "rushing_first_downs",
       "label": "1st downs",
-      "v": 0,
-      "rank": null
+      "v": 3,
+      "rank": 117,
+      "tied": 15
      },
      {
       "k": "rushing_fumbles_lost",
@@ -259,8 +137,8 @@
      {
       "k": "rushing_epa",
       "label": "EPA",
-      "v": -2.939,
-      "rank": null
+      "v": 0.047,
+      "rank": 113
      }
     ]
    },
@@ -299,34 +177,34 @@
    "name": "Ashton Jeanty",
    "pos": "RB",
    "group": "RB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Rushing": [
      {
       "k": "carries",
       "label": "Att",
-      "v": 114,
+      "v": 123,
       "rank": null
      },
      {
       "k": "rushing_yards",
       "label": "Yds",
-      "v": 362,
+      "v": 380,
       "rank": 27
      },
      {
       "k": "rushing_tds",
       "label": "TD",
       "v": 1,
-      "rank": 55,
-      "tied": 50
+      "rank": 59,
+      "tied": 51
      },
      {
       "k": "rushing_first_downs",
       "label": "1st downs",
-      "v": 16,
-      "rank": 30,
-      "tied": 8
+      "v": 17,
+      "rank": 34,
+      "tied": 3
      },
      {
       "k": "rushing_fumbles_lost",
@@ -337,7 +215,7 @@
      {
       "k": "rushing_epa",
       "label": "EPA",
-      "v": -33.037,
+      "v": -37.288,
       "rank": null
      }
     ],
@@ -345,53 +223,53 @@
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 55,
-      "rank": 28,
-      "tied": 3
+      "v": 59,
+      "rank": 30,
+      "tied": 2
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 42,
-      "rank": 20
+      "v": 46,
+      "rank": 21
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 371,
-      "rank": 45
+      "v": 417,
+      "rank": 40
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 3,
-      "rank": 31,
-      "tied": 22
+      "rank": 33,
+      "tied": 29
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 312,
-      "rank": 7
+      "v": 352,
+      "rank": 5
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
-      "v": 16,
-      "rank": 59,
+      "v": 17,
+      "rank": 58,
       "tied": 6
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.177,
+      "v": 0.175,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 2.546,
-      "rank": 179
+      "v": 3.944,
+      "rank": 154
      }
     ],
     "Defense": [
@@ -399,8 +277,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 880,
-      "tied": 251
+      "rank": 905,
+      "tied": 241
      },
      {
       "k": "def_tackle_assists",
@@ -506,35 +384,34 @@
    "name": "Mike Washington Jr.",
    "pos": "RB",
    "group": "RB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Rushing": [
      {
       "k": "carries",
       "label": "Att",
-      "v": 71,
+      "v": 79,
       "rank": null
      },
      {
       "k": "rushing_yards",
       "label": "Yds",
-      "v": 275,
-      "rank": 36,
-      "tied": 2
+      "v": 298,
+      "rank": 33
      },
      {
       "k": "rushing_tds",
       "label": "TD",
       "v": 1,
-      "rank": 55,
-      "tied": 50
+      "rank": 59,
+      "tied": 51
      },
      {
       "k": "rushing_first_downs",
       "label": "1st downs",
       "v": 13,
-      "rank": 43,
-      "tied": 9
+      "rank": 48,
+      "tied": 6
      },
      {
       "k": "rushing_fumbles_lost",
@@ -545,7 +422,7 @@
      {
       "k": "rushing_epa",
       "label": "EPA",
-      "v": -11.078,
+      "v": -14.808,
       "rank": null
      }
     ],
@@ -553,23 +430,23 @@
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 6,
-      "rank": 287,
-      "tied": 21
+      "v": 7,
+      "rank": 284,
+      "tied": 14
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 3,
-      "rank": 307,
-      "tied": 30
+      "v": 4,
+      "rank": 293,
+      "tied": 29
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 11,
-      "rank": 369,
-      "tied": 5
+      "v": 15,
+      "rank": 366,
+      "tied": 4
      },
      {
       "k": "receiving_tds",
@@ -580,8 +457,8 @@
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 18,
-      "rank": 288,
+      "v": 19,
+      "rank": 298,
       "tied": 6
      },
      {
@@ -593,13 +470,13 @@
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.019,
+      "v": 0.021,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": -2.772,
+      "v": -3.048,
       "rank": null
      }
     ]
@@ -630,7 +507,7 @@
    "name": "Dylan Laube",
    "pos": "RB",
    "group": "RB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Rushing": [
      {
@@ -643,22 +520,22 @@
       "k": "rushing_yards",
       "label": "Yds",
       "v": 9,
-      "rank": 196,
-      "tied": 4
+      "rank": 207,
+      "tied": 6
      },
      {
       "k": "rushing_tds",
       "label": "TD",
       "v": 1,
-      "rank": 55,
-      "tied": 50
+      "rank": 59,
+      "tied": 51
      },
      {
       "k": "rushing_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 156,
-      "tied": 53
+      "rank": 164,
+      "tied": 55
      },
      {
       "k": "rushing_fumbles_lost",
@@ -678,21 +555,21 @@
       "k": "targets",
       "label": "Tgt",
       "v": 4,
-      "rank": 328,
-      "tied": 16
+      "rank": 338,
+      "tied": 23
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 4,
-      "rank": 282,
-      "tied": 25
+      "rank": 293,
+      "tied": 29
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 15,
-      "rank": 355,
+      "rank": 366,
       "tied": 4
      },
      {
@@ -705,20 +582,20 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 12,
-      "rank": 321,
-      "tied": 6
+      "rank": 333,
+      "tied": 4
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 292,
+      "rank": 305,
       "tied": 78
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.013,
+      "v": 0.012,
       "rank": null
      },
      {
@@ -733,8 +610,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 880,
-      "tied": 251
+      "rank": 905,
+      "tied": 241
      },
      {
       "k": "def_tackle_assists",
@@ -813,19 +690,19 @@
      {
       "k": "kickoff_returns",
       "label": "KR",
-      "v": 24,
+      "v": 26,
       "rank": null
      },
      {
       "k": "kickoff_return_yards",
       "label": "KR yds",
-      "v": 776,
+      "v": 822,
       "rank": 2
      },
      {
       "k": "punt_returns",
       "label": "PR",
-      "v": 0,
+      "v": 1,
       "rank": null
      },
      {
@@ -858,7 +735,7 @@
      {
       "k": "fumbles_total",
       "label": "Fumbles",
-      "v": 1,
+      "v": 2,
       "rank": null
      },
      {
@@ -895,7 +772,7 @@
    "name": "Connor Heyward",
    "pos": "FB",
    "group": "RB",
-   "games": 8,
+   "games": 9,
    "stats": {
     "Rushing": [
      {
@@ -920,8 +797,8 @@
       "k": "rushing_first_downs",
       "label": "1st downs",
       "v": 3,
-      "rank": 111,
-      "tied": 16
+      "rank": 117,
+      "tied": 15
      },
      {
       "k": "rushing_fumbles_lost",
@@ -933,30 +810,30 @@
       "k": "rushing_epa",
       "label": "EPA",
       "v": 2.038,
-      "rank": 48
+      "rank": 53
      }
     ],
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 2,
-      "rank": 363,
-      "tied": 29
+      "v": 4,
+      "rank": 338,
+      "tied": 23
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 2,
-      "rank": 337,
-      "tied": 33
+      "v": 4,
+      "rank": 293,
+      "tied": 29
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 22,
+      "v": 28,
       "rank": 330,
-      "tied": 5
+      "tied": 2
      },
      {
       "k": "receiving_tds",
@@ -967,37 +844,37 @@
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 24,
-      "rank": 265,
+      "v": 35,
+      "rank": 238,
       "tied": 4
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 292,
+      "rank": 305,
       "tied": 78
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.006,
+      "v": 0.012,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 4.055,
-      "rank": 141
+      "v": 3.767,
+      "rank": 155
      }
     ],
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 1,
-      "rank": 880,
-      "tied": 251
+      "v": 2,
+      "rank": 803,
+      "tied": 102
      },
      {
       "k": "def_tackle_assists",
@@ -1125,7 +1002,7 @@
    "name": "Tre Tucker",
    "pos": "WR",
    "group": "WR",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Rushing": [
      {
@@ -1169,54 +1046,54 @@
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 56,
-      "rank": 27
+      "v": 58,
+      "rank": 32
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 33,
-      "rank": 42,
-      "tied": 6
+      "v": 34,
+      "rank": 50,
+      "tied": 3
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 529,
-      "rank": 20
+      "v": 538,
+      "rank": 24
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 4,
-      "rank": 16,
-      "tied": 15
+      "rank": 19,
+      "tied": 14
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 116,
-      "rank": 94,
-      "tied": 2
+      "v": 118,
+      "rank": 99,
+      "tied": 5
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 22,
-      "rank": 25,
-      "tied": 3
+      "rank": 34,
+      "tied": 4
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.18,
+      "v": 0.172,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 11.495,
-      "rank": 64
+      "v": 11.071,
+      "rank": 73
      }
     ],
     "Defense": [
@@ -1224,8 +1101,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 880,
-      "tied": 251
+      "rank": 905,
+      "tied": 241
      },
      {
       "k": "def_tackle_assists",
@@ -1357,60 +1234,61 @@
    "name": "Jalen Nailor",
    "pos": "WR",
    "group": "WR",
-   "games": 7,
+   "games": 8,
    "stats": {
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 28,
-      "rank": 114,
-      "tied": 7
+      "v": 32,
+      "rank": 104,
+      "tied": 8
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 14,
-      "rank": 146,
-      "tied": 9
+      "v": 15,
+      "rank": 151,
+      "tied": 6
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 122,
-      "rank": 167
+      "v": 121,
+      "rank": 175,
+      "tied": 2
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 102,
-      "tied": 100
+      "rank": 111,
+      "tied": 106
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 28,
-      "rank": 249,
+      "v": 30,
+      "rank": 254,
       "tied": 5
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 9,
-      "rank": 116,
-      "tied": 12
+      "rank": 124,
+      "tied": 14
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.09,
+      "v": 0.095,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": -2.504,
+      "v": -7.092,
       "rank": null
      }
     ]
@@ -1437,61 +1315,62 @@
    "name": "Cody White",
    "pos": "WR",
    "group": "WR",
-   "games": 7,
+   "games": 8,
    "stats": {
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 19,
-      "rank": 163,
-      "tied": 2
+      "v": 20,
+      "rank": 164,
+      "tied": 9
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 8,
-      "rank": 214,
-      "tied": 8
+      "v": 9,
+      "rank": 213,
+      "tied": 10
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 112,
-      "rank": 176
+      "v": 134,
+      "rank": 164,
+      "tied": 3
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 3,
-      "rank": 31,
-      "tied": 22
+      "rank": 33,
+      "tied": 29
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 15,
-      "rank": 302,
-      "tied": 7
+      "rank": 316,
+      "tied": 5
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
-      "v": 8,
-      "rank": 128,
-      "tied": 16
+      "v": 9,
+      "rank": 124,
+      "tied": 14
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.061,
+      "v": 0.059,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 3.111,
-      "rank": 164
+      "v": 5.083,
+      "rank": 130
      }
     ],
     "Defense": [
@@ -1499,8 +1378,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 690,
-      "tied": 87
+      "rank": 713,
+      "tied": 90
      },
      {
       "k": "def_tackle_assists",
@@ -1598,60 +1477,61 @@
    "name": "Jack Bech",
    "pos": "WR",
    "group": "WR",
-   "games": 3,
+   "games": 4,
    "stats": {
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 8,
-      "rank": 259,
-      "tied": 17
+      "v": 15,
+      "rank": 195,
+      "tied": 10
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 6,
-      "rank": 239,
-      "tied": 15
+      "v": 8,
+      "rank": 223,
+      "tied": 10
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 57,
-      "rank": 252
+      "v": 67,
+      "rank": 238,
+      "tied": 4
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 102,
-      "tied": 100
+      "rank": 111,
+      "tied": 106
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 22,
-      "rank": 272,
-      "tied": 2
+      "v": 24,
+      "rank": 276,
+      "tied": 6
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
-      "v": 3,
-      "rank": 225,
-      "tied": 31
+      "v": 4,
+      "rank": 210,
+      "tied": 26
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.026,
+      "v": 0.044,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": -1.151,
+      "v": -4.531,
       "rank": null
      }
     ],
@@ -1660,8 +1540,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 880,
-      "tied": 251
+      "rank": 905,
+      "tied": 241
      },
      {
       "k": "def_tackle_assists",
@@ -1785,28 +1665,28 @@
    "name": "Dareke Young",
    "pos": "WR",
    "group": "WR",
-   "games": 7,
+   "games": 8,
    "stats": {
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
       "v": 3,
-      "rank": 344,
-      "tied": 19
+      "rank": 361,
+      "tied": 15
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 2,
-      "rank": 337,
+      "rank": 350,
       "tied": 33
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 36,
-      "rank": 290,
+      "rank": 306,
       "tied": 4
      },
      {
@@ -1819,36 +1699,36 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 14,
-      "rank": 309,
-      "tied": 6
+      "rank": 321,
+      "tied": 7
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 292,
+      "rank": 305,
       "tied": 78
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.01,
+      "v": 0.009,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
       "v": 1.573,
-      "rank": 206
+      "rank": 216
      }
     ],
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 4,
-      "rank": 624,
-      "tied": 66
+      "v": 5,
+      "rank": 581,
+      "tied": 74
      },
      {
       "k": "def_tackle_assists",
@@ -1927,15 +1807,14 @@
      {
       "k": "kickoff_returns",
       "label": "KR",
-      "v": 11,
+      "v": 12,
       "rank": null
      },
      {
       "k": "kickoff_return_yards",
       "label": "KR yds",
-      "v": 302,
-      "rank": 38,
-      "tied": 2
+      "v": 331,
+      "rank": 38
      },
      {
       "k": "punt_returns",
@@ -2046,21 +1925,21 @@
       "k": "targets",
       "label": "Tgt",
       "v": 9,
-      "rank": 248,
-      "tied": 11
+      "rank": 259,
+      "tied": 10
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 2,
-      "rank": 337,
+      "rank": 350,
       "tied": 33
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 12,
-      "rank": 364,
+      "rank": 375,
       "tied": 5
      },
      {
@@ -2073,8 +1952,8 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 7,
-      "rank": 350,
-      "tied": 9
+      "rank": 366,
+      "tied": 7
      },
      {
       "k": "receiving_first_downs",
@@ -2085,7 +1964,7 @@
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.029,
+      "v": 0.027,
       "rank": null
      },
      {
@@ -2118,7 +1997,7 @@
       "k": "punt_return_yards",
       "label": "PR yds",
       "v": 94,
-      "rank": 17
+      "rank": 20
      },
      {
       "k": "special_teams_tds",
@@ -2165,22 +2044,22 @@
       "k": "targets",
       "label": "Tgt",
       "v": 1,
-      "rank": 392,
-      "tied": 56
+      "rank": 404,
+      "tied": 54
      },
      {
       "k": "receptions",
       "label": "Rec",
       "v": 1,
-      "rank": 370,
-      "tied": 54
+      "rank": 383,
+      "tied": 50
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
       "v": 8,
-      "rank": 383,
-      "tied": 5
+      "rank": 395,
+      "tied": 4
      },
      {
       "k": "receiving_tds",
@@ -2192,8 +2071,8 @@
       "k": "receiving_yards_after_catch",
       "label": "YAC",
       "v": 4,
-      "rank": 374,
-      "tied": 9
+      "rank": 387,
+      "tied": 7
      },
      {
       "k": "receiving_first_downs",
@@ -2211,7 +2090,7 @@
       "k": "receiving_epa",
       "label": "EPA",
       "v": 0.512,
-      "rank": 245
+      "rank": 248
      }
     ],
     "Returns": [
@@ -2225,7 +2104,7 @@
       "k": "kickoff_return_yards",
       "label": "KR yds",
       "v": 80,
-      "rank": 90
+      "rank": 97
      },
      {
       "k": "punt_returns",
@@ -2237,7 +2116,7 @@
       "k": "punt_return_yards",
       "label": "PR yds",
       "v": 18,
-      "rank": 45,
+      "rank": 48,
       "tied": 2
      },
      {
@@ -2266,61 +2145,100 @@
    "name": "Michael Mayer",
    "pos": "TE",
    "group": "TE",
-   "games": 9,
+   "games": 10,
    "stats": {
+    "Rushing": [
+     {
+      "k": "carries",
+      "label": "Att",
+      "v": 1,
+      "rank": null
+     },
+     {
+      "k": "rushing_yards",
+      "label": "Yds",
+      "v": 2,
+      "rank": 245,
+      "tied": 11
+     },
+     {
+      "k": "rushing_tds",
+      "label": "TD",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_first_downs",
+      "label": "1st downs",
+      "v": 1,
+      "rank": 164,
+      "tied": 55
+     },
+     {
+      "k": "rushing_fumbles_lost",
+      "label": "Fum lost",
+      "v": 0,
+      "rank": null
+     },
+     {
+      "k": "rushing_epa",
+      "label": "EPA",
+      "v": 0.59,
+      "rank": 93
+     }
+    ],
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 46,
-      "rank": 51,
+      "v": 49,
+      "rank": 55,
       "tied": 5
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 39,
-      "rank": 22,
-      "tied": 3
+      "v": 41,
+      "rank": 26,
+      "tied": 2
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 388,
-      "rank": 40
+      "v": 404,
+      "rank": 47
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 102,
-      "tied": 100
+      "rank": 111,
+      "tied": 106
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 205,
-      "rank": 29,
-      "tied": 2
+      "v": 213,
+      "rank": 34
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
-      "v": 23,
-      "rank": 22,
-      "tied": 3
+      "v": 24,
+      "rank": 24,
+      "tied": 8
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.148,
+      "v": 0.145,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 8.31,
-      "rank": 92
+      "v": 10.676,
+      "rank": 76
      }
     ],
     "Defense": [
@@ -2328,8 +2246,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 880,
-      "tied": 251
+      "rank": 905,
+      "tied": 241
      },
      {
       "k": "def_tackle_assists",
@@ -2453,7 +2371,7 @@
    "name": "Brock Bowers",
    "pos": "TE",
    "group": "TE",
-   "games": 7,
+   "games": 8,
    "stats": {
     "Rushing": [
      {
@@ -2466,7 +2384,7 @@
       "k": "rushing_yards",
       "label": "Yds",
       "v": 2,
-      "rank": 235,
+      "rank": 245,
       "tied": 11
      },
      {
@@ -2498,52 +2416,52 @@
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 69,
-      "rank": 14
+      "v": 71,
+      "rank": 18
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 48,
+      "v": 50,
       "rank": 14,
-      "tied": 2
+      "tied": 4
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 658,
-      "rank": 10
+      "v": 676,
+      "rank": 13
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 6,
-      "rank": 6,
-      "tied": 4
+      "rank": 7,
+      "tied": 5
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 222,
-      "rank": 24
+      "v": 230,
+      "rank": 26
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
-      "v": 33,
+      "v": 35,
       "rank": 8,
-      "tied": 3
+      "tied": 4
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.222,
+      "v": 0.21,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 37.191,
+      "v": 39.474,
       "rank": 6
      }
     ],
@@ -2604,62 +2522,61 @@
    "name": "Ian Thomas",
    "pos": "TE",
    "group": "TE",
-   "games": 4,
+   "games": 5,
    "stats": {
     "Receiving": [
      {
       "k": "targets",
       "label": "Tgt",
-      "v": 5,
-      "rank": 308,
-      "tied": 20
+      "v": 6,
+      "rank": 298,
+      "tied": 22
      },
      {
       "k": "receptions",
       "label": "Rec",
-      "v": 5,
-      "rank": 254,
-      "tied": 28
+      "v": 6,
+      "rank": 246,
+      "tied": 17
      },
      {
       "k": "receiving_yards",
       "label": "Yds",
-      "v": 60,
-      "rank": 246,
-      "tied": 3
+      "v": 73,
+      "rank": 232
      },
      {
       "k": "receiving_tds",
       "label": "TD",
       "v": 1,
-      "rank": 102,
-      "tied": 100
+      "rank": 111,
+      "tied": 106
      },
      {
       "k": "receiving_yards_after_catch",
       "label": "YAC",
-      "v": 35,
-      "rank": 231,
-      "tied": 3
+      "v": 42,
+      "rank": 218,
+      "tied": 4
      },
      {
       "k": "receiving_first_downs",
       "label": "1st downs",
-      "v": 4,
-      "rank": 201,
-      "tied": 24
+      "v": 5,
+      "rank": 183,
+      "tied": 27
      },
      {
       "k": "target_share",
       "label": "Tgt share",
-      "v": 0.016,
+      "v": 0.018,
       "rank": null
      },
      {
       "k": "receiving_epa",
       "label": "EPA",
-      "v": 7.712,
-      "rank": 97
+      "v": 8.561,
+      "rank": 94
      }
     ]
    },
@@ -3100,42 +3017,42 @@
    "name": "Maxx Crosby",
    "pos": "DE",
    "group": "DL",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 11,
-      "rank": 311,
-      "tied": 22
+      "v": 18,
+      "rank": 201,
+      "tied": 12
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 15,
+      "v": 16,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
-      "v": 5,
-      "rank": 48,
-      "tied": 42
+      "v": 9,
+      "rank": 6,
+      "tied": 8
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
-      "v": 4,
-      "rank": 30,
-      "tied": 12
+      "v": 5,
+      "rank": 20,
+      "tied": 8
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
-      "v": 20,
+      "v": 21,
       "rank": 3,
-      "tied": 2
+      "tied": 3
      },
      {
       "k": "def_interceptions",
@@ -3153,22 +3070,22 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 1,
-      "rank": 276,
-      "tied": 163
+      "rank": 296,
+      "tied": 160
      },
      {
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 1,
-      "rank": 39,
-      "tied": 154
+      "rank": 44,
+      "tied": 162
      },
      {
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
       "v": 1,
-      "rank": 13,
-      "tied": 133
+      "rank": 16,
+      "tied": 138
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -3256,41 +3173,41 @@
    "name": "Kwity Paye",
    "pos": "DE",
    "group": "DL",
-   "games": 8,
+   "games": 9,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 4,
-      "rank": 624,
-      "tied": 66
+      "v": 7,
+      "rank": 476,
+      "tied": 49
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 16,
+      "v": 18,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 3,
-      "rank": 136,
-      "tied": 70
+      "rank": 156,
+      "tied": 67
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 3,
-      "rank": 51,
-      "tied": 29
+      "rank": 62,
+      "tied": 28
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 8,
-      "rank": 44,
+      "rank": 53,
       "tied": 18
      },
      {
@@ -3383,42 +3300,42 @@
    "name": "Malcolm Koonce",
    "pos": "DE",
    "group": "DL",
-   "games": 5,
+   "games": 6,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 6,
-      "rank": 493,
-      "tied": 63
+      "v": 7,
+      "rank": 476,
+      "tied": 49
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 4,
+      "v": 5,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 3,
-      "rank": 51,
-      "tied": 29
+      "rank": 62,
+      "tied": 28
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 6,
-      "rank": 73,
-      "tied": 22
+      "rank": 82,
+      "tied": 25
      },
      {
       "k": "def_interceptions",
@@ -3442,8 +3359,8 @@
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 2,
-      "rank": 12,
-      "tied": 27
+      "rank": 14,
+      "tied": 30
      },
      {
       "k": "fumble_recovery_opp",
@@ -3518,8 +3435,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 690,
-      "tied": 87
+      "rank": 713,
+      "tied": 90
      },
      {
       "k": "def_tackle_assists",
@@ -3543,8 +3460,8 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 300,
-      "tied": 144
+      "rank": 318,
+      "tied": 139
      },
      {
       "k": "def_interceptions",
@@ -3652,42 +3569,42 @@
    "name": "Adam Butler",
    "pos": "DT",
    "group": "DL",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 690,
-      "tied": 87
+      "rank": 713,
+      "tied": 90
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 16,
+      "v": 17,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 0.5,
-      "rank": 289,
-      "tied": 45
+      "rank": 302,
+      "tied": 44
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 212,
-      "tied": 88
+      "rank": 227,
+      "tied": 91
      },
      {
       "k": "def_interceptions",
@@ -3711,8 +3628,8 @@
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 1,
-      "rank": 39,
-      "tied": 154
+      "rank": 44,
+      "tied": 162
      },
      {
       "k": "fumble_recovery_opp",
@@ -3796,42 +3713,42 @@
    "name": "Foley Fatukasi",
    "pos": "DT",
    "group": "DL",
-   "games": 8,
+   "games": 9,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 4,
-      "rank": 624,
-      "tied": 66
+      "rank": 655,
+      "tied": 58
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 11,
+      "v": 12,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
-      "v": 0.5,
-      "rank": 289,
-      "tied": 45
+      "v": 1,
+      "rank": 181,
+      "tied": 121
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 212,
-      "tied": 88
+      "rank": 227,
+      "tied": 91
      },
      {
       "k": "def_interceptions",
@@ -3849,14 +3766,15 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 1,
-      "rank": 276,
-      "tied": 163
+      "rank": 296,
+      "tied": 160
      },
      {
       "k": "def_fumbles_forced",
       "label": "FF",
-      "v": 0,
-      "rank": null
+      "v": 1,
+      "rank": 44,
+      "tied": 162
      },
      {
       "k": "fumble_recovery_opp",
@@ -3937,42 +3855,42 @@
    "name": "Tonka Hemingway",
    "pos": "DT",
    "group": "DL",
-   "games": 7,
+   "games": 8,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 5,
-      "rank": 556,
-      "tied": 68
+      "v": 6,
+      "rank": 525,
+      "tied": 56
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 12,
+      "v": 13,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 2,
-      "rank": 206,
-      "tied": 95
+      "rank": 223,
+      "tied": 99
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1,
-      "rank": 161,
-      "tied": 128
+      "rank": 181,
+      "tied": 121
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
-      "v": 3,
-      "rank": 151,
-      "tied": 61
+      "v": 4,
+      "rank": 130,
+      "tied": 42
      },
      {
       "k": "def_interceptions",
@@ -3990,8 +3908,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 3,
-      "rank": 120,
-      "tied": 61
+      "rank": 138,
+      "tied": 58
      },
      {
       "k": "def_fumbles_forced",
@@ -4072,8 +3990,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 9,
-      "rank": 362,
-      "tied": 43
+      "rank": 397,
+      "tied": 37
      },
      {
       "k": "def_tackle_assists",
@@ -4085,8 +4003,8 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
@@ -4098,8 +4016,8 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 300,
-      "tied": 144
+      "rank": 318,
+      "tied": 139
      },
      {
       "k": "def_interceptions",
@@ -4216,93 +4134,9 @@
    "id": "jonah-laulu",
    "name": "Jonah Laulu",
    "pos": "DT",
-   "group": "DL",
-   "games": 4,
-   "stats": {
-    "Defense": [
-     {
-      "k": "def_tackles_solo",
-      "label": "Solo tkl",
-      "v": 1,
-      "rank": 880,
-      "tied": 251
-     },
-     {
-      "k": "def_tackle_assists",
-      "label": "Ast tkl",
-      "v": 4,
-      "rank": null
-     },
-     {
-      "k": "def_tackles_for_loss",
-      "label": "TFL",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_sacks",
-      "label": "Sacks",
-      "v": 0.5,
-      "rank": 289,
-      "tied": 45
-     },
-     {
-      "k": "def_qb_hits",
-      "label": "QB hits",
-      "v": 3,
-      "rank": 151,
-      "tied": 61
-     },
-     {
-      "k": "def_interceptions",
-      "label": "INT",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_interception_yards",
-      "label": "INT yds",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_pass_defended",
-      "label": "PD",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_fumbles_forced",
-      "label": "FF",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "fumble_recovery_opp",
-      "label": "Fum rec",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "fumble_recovery_yards_opp",
-      "label": "Fum ret yds",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_tds",
-      "label": "TD",
-      "v": 0,
-      "rank": null
-     },
-     {
-      "k": "def_safeties",
-      "label": "Safety",
-      "v": 0,
-      "rank": null
-     }
-    ]
-   },
+   "group": null,
+   "games": 5,
+   "stats": {},
    "snaps": {
     "games": 5,
     "off": 0,
@@ -4337,8 +4171,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 2,
-      "rank": 777,
-      "tied": 103
+      "rank": 803,
+      "tied": 102
      },
      {
       "k": "def_tackle_assists",
@@ -4350,22 +4184,22 @@
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1,
-      "rank": 161,
-      "tied": 128
+      "rank": 181,
+      "tied": 121
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 300,
-      "tied": 144
+      "rank": 318,
+      "tied": 139
      },
      {
       "k": "def_interceptions",
@@ -4447,20 +4281,20 @@
    "name": "JJ Pegues",
    "pos": "DT",
    "group": "DL",
-   "games": 3,
+   "games": 4,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 690,
-      "tied": 87
+      "rank": 713,
+      "tied": 90
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 1,
+      "v": 2,
       "rank": null
      },
      {
@@ -4503,8 +4337,8 @@
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 1,
-      "rank": 39,
-      "tied": 154
+      "rank": 44,
+      "tied": 162
      },
      {
       "k": "fumble_recovery_opp",
@@ -4565,48 +4399,49 @@
    "name": "Nakobe Dean",
    "pos": "LB",
    "group": "LB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 43,
-      "rank": 6
+      "v": 47,
+      "rank": 5,
+      "tied": 2
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 53,
+      "v": 56,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
-      "v": 6,
-      "rank": 29,
-      "tied": 19
+      "v": 7,
+      "rank": 23,
+      "tied": 18
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1.5,
-      "rank": 134,
-      "tied": 27
+      "rank": 153,
+      "tied": 28
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 3,
-      "rank": 151,
-      "tied": 61
+      "rank": 172,
+      "tied": 55
      },
      {
       "k": "def_interceptions",
       "label": "INT",
       "v": 1,
-      "rank": 37,
-      "tied": 105
+      "rank": 44,
+      "tied": 106
      },
      {
       "k": "def_interception_yards",
@@ -4618,21 +4453,22 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 2,
-      "rank": 181,
-      "tied": 95
+      "rank": 196,
+      "tied": 100
      },
      {
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 3,
       "rank": 5,
-      "tied": 7
+      "tied": 9
      },
      {
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
-      "v": 0,
-      "rank": null
+      "v": 1,
+      "rank": 16,
+      "tied": 138
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -4694,42 +4530,42 @@
    "name": "Quay Walker",
    "pos": "LB",
    "group": "LB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 27,
-      "rank": 68,
-      "tied": 11
+      "v": 31,
+      "rank": 50,
+      "tied": 6
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 44,
+      "v": 48,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
-      "v": 6,
-      "rank": 29,
-      "tied": 19
+      "v": 7,
+      "rank": 23,
+      "tied": 18
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 2,
-      "rank": 88,
-      "tied": 46
+      "rank": 98,
+      "tied": 55
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 212,
-      "tied": 88
+      "rank": 227,
+      "tied": 91
      },
      {
       "k": "def_interceptions",
@@ -4758,9 +4594,9 @@
      {
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
-      "v": 1,
-      "rank": 13,
-      "tied": 133
+      "v": 2,
+      "rank": 1,
+      "tied": 15
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -4855,8 +4691,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 10,
-      "rank": 333,
-      "tied": 29
+      "rank": 364,
+      "tied": 33
      },
      {
       "k": "def_tackle_assists",
@@ -4898,8 +4734,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 1,
-      "rank": 276,
-      "tied": 163
+      "rank": 296,
+      "tied": 160
      },
      {
       "k": "def_fumbles_forced",
@@ -5006,8 +4842,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 5,
-      "rank": 556,
-      "tied": 68
+      "rank": 581,
+      "tied": 74
      },
      {
       "k": "def_tackle_assists",
@@ -5202,15 +5038,15 @@
    "name": "Segun Olubi",
    "pos": "LB",
    "group": "LB",
-   "games": 6,
+   "games": 7,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 4,
-      "rank": 624,
-      "tied": 66
+      "v": 5,
+      "rank": 581,
+      "tied": 74
      },
      {
       "k": "def_tackle_assists",
@@ -5330,35 +5166,35 @@
    "name": "Eric Stokes",
    "pos": "CB",
    "group": "DB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 22,
-      "rank": 120,
-      "tied": 20
+      "v": 23,
+      "rank": 139,
+      "tied": 7
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 11,
+      "v": 13,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 2,
-      "rank": 206,
-      "tied": 95
+      "rank": 223,
+      "tied": 99
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1,
-      "rank": 161,
-      "tied": 128
+      "rank": 181,
+      "tied": 121
      },
      {
       "k": "def_qb_hits",
@@ -5381,23 +5217,23 @@
      {
       "k": "def_pass_defended",
       "label": "PD",
-      "v": 3,
-      "rank": 120,
-      "tied": 61
+      "v": 4,
+      "rank": 96,
+      "tied": 42
      },
      {
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 1,
-      "rank": 39,
-      "tied": 154
+      "rank": 44,
+      "tied": 162
      },
      {
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
       "v": 1,
-      "rank": 13,
-      "tied": 133
+      "rank": 16,
+      "tied": 138
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -5485,41 +5321,42 @@
    "name": "Taron Johnson",
    "pos": "CB",
    "group": "DB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 18,
-      "rank": 184,
-      "tied": 14
+      "v": 20,
+      "rank": 180,
+      "tied": 15
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 11,
+      "v": 13,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
-      "v": 0,
-      "rank": null
+      "v": 0.5,
+      "rank": 302,
+      "tied": 44
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
-      "v": 2,
-      "rank": 212,
-      "tied": 88
+      "v": 3,
+      "rank": 172,
+      "tied": 55
      },
      {
       "k": "def_interceptions",
@@ -5537,22 +5374,22 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 2,
-      "rank": 181,
-      "tied": 95
+      "rank": 196,
+      "tied": 100
      },
      {
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 1,
-      "rank": 39,
-      "tied": 154
+      "rank": 44,
+      "tied": 162
      },
      {
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
       "v": 1,
-      "rank": 13,
-      "tied": 133
+      "rank": 16,
+      "tied": 138
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -5640,28 +5477,28 @@
    "name": "Hezekiah Masses",
    "pos": "CB",
    "group": "DB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 18,
-      "rank": 184,
-      "tied": 14
+      "v": 20,
+      "rank": 180,
+      "tied": 15
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 12,
+      "v": 13,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
@@ -5673,15 +5510,15 @@
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 1,
-      "rank": 300,
-      "tied": 144
+      "rank": 318,
+      "tied": 139
      },
      {
       "k": "def_interceptions",
       "label": "INT",
       "v": 3,
       "rank": 8,
-      "tied": 7
+      "tied": 10
      },
      {
       "k": "def_interception_yards",
@@ -5693,8 +5530,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 7,
-      "rank": 24,
-      "tied": 17
+      "rank": 31,
+      "tied": 20
      },
      {
       "k": "def_fumbles_forced",
@@ -5801,8 +5638,8 @@
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 15,
-      "rank": 227,
-      "tied": 26
+      "rank": 247,
+      "tied": 24
      },
      {
       "k": "def_tackle_assists",
@@ -5844,8 +5681,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 5,
-      "rank": 55,
-      "tied": 28
+      "rank": 64,
+      "tied": 32
      },
      {
       "k": "def_fumbles_forced",
@@ -5857,8 +5694,8 @@
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
       "v": 1,
-      "rank": 13,
-      "tied": 133
+      "rank": 16,
+      "tied": 138
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -5920,20 +5757,20 @@
    "name": "Jermod McCoy",
    "pos": "CB",
    "group": "DB",
-   "games": 5,
+   "games": 6,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 3,
-      "rank": 690,
-      "tied": 87
+      "rank": 713,
+      "tied": 90
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 4,
+      "v": 6,
       "rank": null
      },
      {
@@ -5970,8 +5807,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 2,
-      "rank": 181,
-      "tied": 95
+      "rank": 196,
+      "tied": 100
      },
      {
       "k": "def_fumbles_forced",
@@ -6071,15 +5908,15 @@
    "name": "Darrell Luter Jr.",
    "pos": "CB",
    "group": "DB",
-   "games": 2,
+   "games": 3,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 1,
-      "rank": 880,
-      "tied": 251
+      "v": 2,
+      "rank": 803,
+      "tied": 102
      },
      {
       "k": "def_tackle_assists",
@@ -6213,49 +6050,49 @@
    "name": "Jeremy Chinn",
    "pos": "SAF",
    "group": "DB",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 44,
-      "rank": 4,
+      "v": 47,
+      "rank": 5,
       "tied": 2
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 22,
+      "v": 26,
       "rank": null
      },
      {
       "k": "def_tackles_for_loss",
       "label": "TFL",
       "v": 1,
-      "rank": 301,
-      "tied": 170
+      "rank": 322,
+      "tied": 162
      },
      {
       "k": "def_sacks",
       "label": "Sacks",
       "v": 1,
-      "rank": 161,
-      "tied": 128
+      "rank": 181,
+      "tied": 121
      },
      {
       "k": "def_qb_hits",
       "label": "QB hits",
       "v": 2,
-      "rank": 212,
-      "tied": 88
+      "rank": 227,
+      "tied": 91
      },
      {
       "k": "def_interceptions",
       "label": "INT",
       "v": 1,
-      "rank": 37,
-      "tied": 105
+      "rank": 44,
+      "tied": 106
      },
      {
       "k": "def_interception_yards",
@@ -6267,22 +6104,22 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 2,
-      "rank": 181,
-      "tied": 95
+      "rank": 196,
+      "tied": 100
      },
      {
       "k": "def_fumbles_forced",
       "label": "FF",
       "v": 2,
-      "rank": 12,
-      "tied": 27
+      "rank": 14,
+      "tied": 30
      },
      {
       "k": "fumble_recovery_opp",
       "label": "Fum rec",
       "v": 2,
       "rank": 1,
-      "tied": 12
+      "tied": 15
      },
      {
       "k": "fumble_recovery_yards_opp",
@@ -6370,20 +6207,20 @@
    "name": "Treydan Stukes",
    "pos": "SAF",
    "group": "DB",
-   "games": 8,
+   "games": 9,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 23,
-      "rank": 109,
-      "tied": 11
+      "v": 26,
+      "rank": 100,
+      "tied": 17
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 20,
+      "v": 21,
       "rank": null
      },
      {
@@ -6408,8 +6245,8 @@
       "k": "def_interceptions",
       "label": "INT",
       "v": 2,
-      "rank": 15,
-      "tied": 22
+      "rank": 18,
+      "tied": 26
      },
      {
       "k": "def_interception_yards",
@@ -6421,8 +6258,8 @@
       "k": "def_pass_defended",
       "label": "PD",
       "v": 4,
-      "rank": 83,
-      "tied": 37
+      "rank": 96,
+      "tied": 42
      },
      {
       "k": "def_fumbles_forced",
@@ -6522,20 +6359,20 @@
    "name": "Isaiah Pola-Mao",
    "pos": "SAF",
    "group": "DB",
-   "games": 6,
+   "games": 7,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
-      "v": 10,
-      "rank": 333,
-      "tied": 29
+      "v": 11,
+      "rank": 327,
+      "tied": 37
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 6,
+      "v": 7,
       "rank": null
      },
      {
@@ -6646,20 +6483,20 @@
    "name": "Matt Gay",
    "pos": "K",
    "group": "SPEC",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Defense": [
      {
       "k": "def_tackles_solo",
       "label": "Solo tkl",
       "v": 1,
-      "rank": 880,
-      "tied": 251
+      "rank": 905,
+      "tied": 241
      },
      {
       "k": "def_tackle_assists",
       "label": "Ast tkl",
-      "v": 0,
+      "v": 1,
       "rank": null
      },
      {
@@ -6733,20 +6570,20 @@
      {
       "k": "fg_made",
       "label": "FG",
-      "v": 19,
+      "v": 21,
       "rank": 6,
-      "tied": 3
+      "tied": 2
      },
      {
       "k": "fg_att",
       "label": "FGA",
-      "v": 21,
+      "v": 23,
       "rank": null
      },
      {
       "k": "fg_pct",
       "label": "FG %",
-      "v": 0.905,
+      "v": 0.913,
       "rank": null
      },
      {
@@ -6760,19 +6597,19 @@
       "k": "fg_made_50_59",
       "label": "50-59",
       "v": 3,
-      "rank": 11,
+      "rank": 14,
       "tied": 9
      },
      {
       "k": "pat_made",
       "label": "XP",
-      "v": 21,
+      "v": 22,
       "rank": null
      },
      {
       "k": "pat_att",
       "label": "XPA",
-      "v": 21,
+      "v": 22,
       "rank": null
      }
     ],
@@ -6821,7 +6658,7 @@
    "name": "AJ Cole",
    "pos": "P",
    "group": "SPEC",
-   "games": 9,
+   "games": 10,
    "stats": {
     "Passing": [
      {
@@ -6840,7 +6677,7 @@
       "k": "passing_yards",
       "label": "Yds",
       "v": 13,
-      "rank": 59,
+      "rank": 63,
       "tied": 2
      },
      {
@@ -6865,14 +6702,14 @@
       "k": "passing_first_downs",
       "label": "1st downs",
       "v": 1,
-      "rank": 54,
-      "tied": 8
+      "rank": 57,
+      "tied": 10
      },
      {
       "k": "passing_epa",
       "label": "EPA",
       "v": 3.365,
-      "rank": 25
+      "rank": 26
      },
      {
       "k": "passing_cpoe",
@@ -6885,19 +6722,19 @@
      {
       "k": "pt_att",
       "label": "Punts",
-      "v": 27,
+      "v": 34,
       "rank": null
      },
      {
       "k": "pt_yards",
       "label": "Yds",
-      "v": 1378,
+      "v": 1773,
       "rank": null
      },
      {
       "k": "pt_net_yards",
       "label": "Net yds",
-      "v": 1170,
+      "v": 1520,
       "rank": null
      },
      {
@@ -6909,14 +6746,14 @@
      {
       "k": "pt_inside_20",
       "label": "Inside 20",
-      "v": 11,
-      "rank": 22,
+      "v": 14,
+      "rank": 16,
       "tied": 4
      },
      {
       "k": "pt_touchback",
       "label": "TB",
-      "v": 3,
+      "v": 4,
       "rank": null
      }
     ]

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-15T14:11:40.471Z",
+ "fetched": "2026-11-16T09:26:06.001Z",
  "throughWeek": 10,
  "games": {
   "401872928": {
@@ -3548,6 +3548,347 @@
     {
      "kicker": "M.Gay",
      "dist": 50,
+     "result": "made"
+    }
+   ]
+  },
+  "401873062": {
+   "week": 10,
+   "home": true,
+   "offense": {
+    "plays": 59,
+    "epa": -0.24,
+    "sr": 0.322,
+    "pass": {
+     "plays": 39,
+     "epa": -0.252
+    },
+    "rush": {
+     "plays": 20,
+     "epa": -0.216
+    },
+    "explosive": 3,
+    "third": [
+     7,
+     17
+    ]
+   },
+   "defense": {
+    "plays": 54,
+    "epa": 0.09,
+    "sr": 0.481,
+    "pass": {
+     "plays": 24,
+     "epa": 0.318
+    },
+    "rush": {
+     "plays": 30,
+     "epa": -0.093
+    },
+    "explosive": 8,
+    "third": [
+     7,
+     11
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "07:45",
+     "team": "LV",
+     "desc": "(7:45) (Shotgun) 15-F.Mendoza up the middle for 10 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 0
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 1,
+     "time": "02:43",
+     "team": "SEA",
+     "desc": "(2:43) (Shotgun) 2-D.Lock pass deep middle to 10-C.Kupp for 34 yards, TOUCHDOWN.",
+     "score": {
+      "us": 7,
+      "them": 7
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "11:17",
+     "team": "LV",
+     "desc": "(11:17) 14-M.Gay 34 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 10,
+      "them": 7
+     }
+    },
+    {
+     "qtr": 3,
+     "time": "09:34",
+     "team": "SEA",
+     "desc": "(9:34) 8-J.Price left end for 12 yards, TOUCHDOWN.",
+     "score": {
+      "us": 10,
+      "them": 14
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "07:24",
+     "team": "SEA",
+     "desc": "(7:24) (Shotgun) 2-D.Lock pass deep middle to 11-J.Smith-Njigba for 71 yards, TOUCHDOWN.",
+     "score": {
+      "us": 10,
+      "them": 21
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "02:08",
+     "team": "LV",
+     "desc": "(2:08) 14-M.Gay 43 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 13,
+      "them": 21
+     }
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 3,
+     "time": "07:24",
+     "wpa": -0.197,
+     "desc": "(7:24) (Shotgun) 2-D.Lock pass deep middle to 11-J.Smith-Njigba for 71 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "02:43",
+     "wpa": -0.145,
+     "desc": "(2:43) (Shotgun) 2-D.Lock pass deep middle to 10-C.Kupp for 34 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "14:11",
+     "wpa": 0.127,
+     "desc": "(14:11) 2-D.Lock sacked at SEA 42 for -6 yards (sack split by 94-F.Fatukasi and 3-T.Johnson). FUMBLES (94-F.Fatukasi) [3-T.Johnson], touched at SEA 45, RECOVERED by LV-7-Q.Walker at SEA 46."
+    },
+    {
+     "qtr": 3,
+     "time": "09:34",
+     "wpa": -0.081,
+     "desc": "(9:34) 8-J.Price left end for 12 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "00:37",
+     "wpa": 0.067,
+     "desc": "(:37) (Shotgun) 15-F.Mendoza scrambles left end to SEA 39 for 8 yards (13-E.Jones)."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "SEA",
+     "qtr": 1,
+     "start": "SEA 42",
+     "plays": 2,
+     "top": "0:58",
+     "result": "Turnover"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "SEA 46",
+     "plays": 11,
+     "top": "6:21",
+     "result": "Touchdown"
+    },
+    {
+     "n": 3,
+     "team": "SEA",
+     "qtr": 1,
+     "start": "SEA 27",
+     "plays": 8,
+     "top": "5:09",
+     "result": "Touchdown"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 35",
+     "plays": 11,
+     "top": "6:19",
+     "result": "Field goal"
+    },
+    {
+     "n": 5,
+     "team": "SEA",
+     "qtr": 2,
+     "start": "SEA 20",
+     "plays": 3,
+     "top": "2:37",
+     "result": "Punt"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 9",
+     "plays": 8,
+     "top": "4:36",
+     "result": "Punt"
+    },
+    {
+     "n": 7,
+     "team": "SEA",
+     "qtr": 2,
+     "start": "SEA 20",
+     "plays": 3,
+     "top": "1:38",
+     "result": "Punt"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 29",
+     "plays": 6,
+     "top": "1:59",
+     "result": "Punt"
+    },
+    {
+     "n": 9,
+     "team": "SEA",
+     "qtr": 2,
+     "start": "SEA 20",
+     "plays": 1,
+     "top": "0:23",
+     "result": "End of half"
+    },
+    {
+     "n": 10,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 26",
+     "plays": 3,
+     "top": "1:33",
+     "result": "Punt"
+    },
+    {
+     "n": 11,
+     "team": "SEA",
+     "qtr": 3,
+     "start": "SEA 13",
+     "plays": 8,
+     "top": "3:59",
+     "result": "Touchdown"
+    },
+    {
+     "n": 12,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 32",
+     "plays": 3,
+     "top": "1:16",
+     "result": "Punt"
+    },
+    {
+     "n": 13,
+     "team": "SEA",
+     "qtr": 3,
+     "start": "SEA 22",
+     "plays": 3,
+     "top": "1:02",
+     "result": "Touchdown"
+    },
+    {
+     "n": 14,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 25",
+     "plays": 3,
+     "top": "1:27",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "SEA",
+     "qtr": 3,
+     "start": "SEA 16",
+     "plays": 14,
+     "top": "8:33",
+     "result": "Turnover"
+    },
+    {
+     "n": 16,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 13",
+     "plays": 3,
+     "top": "1:29",
+     "result": "Punt"
+    },
+    {
+     "n": 17,
+     "team": "SEA",
+     "qtr": 4,
+     "start": "50",
+     "plays": 6,
+     "top": "3:41",
+     "result": "Missed field goal"
+    },
+    {
+     "n": 18,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 35",
+     "plays": 3,
+     "top": "1:01",
+     "result": "Punt"
+    },
+    {
+     "n": 19,
+     "team": "SEA",
+     "qtr": 4,
+     "start": "SEA 16",
+     "plays": 3,
+     "top": "1:37",
+     "result": "Punt"
+    },
+    {
+     "n": 20,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 31",
+     "plays": 10,
+     "top": "2:18",
+     "result": "Field goal"
+    },
+    {
+     "n": 21,
+     "team": "SEA",
+     "qtr": 4,
+     "start": "SEA 19",
+     "plays": 5,
+     "top": "2:04",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 34,
+     "result": "made"
+    },
+    {
+     "kicker": "M.Gay",
+     "dist": 43,
      "result": "made"
     }
    ]
