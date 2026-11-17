@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-17T03:40:31.140Z",
+ "fetched": "2026-11-17T21:42:07.268Z",
  "throughWeek": 10,
  "games": {
   "401872928": {
@@ -7,15 +7,15 @@
    "home": true,
    "offense": {
     "plays": 65,
-    "epa": -0.029,
+    "epa": -0.015,
     "sr": 0.431,
     "pass": {
      "plays": 32,
-     "epa": 0.027
+     "epa": 0.043
     },
     "rush": {
      "plays": 33,
-     "epa": -0.083
+     "epa": -0.071
     },
     "explosive": 5,
     "third": [
@@ -25,15 +25,15 @@
    },
    "defense": {
     "plays": 55,
-    "epa": -0.242,
+    "epa": -0.179,
     "sr": 0.345,
     "pass": {
      "plays": 40,
-     "epa": -0.183
+     "epa": -0.121
     },
     "rush": {
      "plays": 15,
-     "epa": -0.399
+     "epa": -0.333
     },
     "explosive": 6,
     "third": [
@@ -130,15 +130,15 @@
    "swings": [
     {
      "qtr": 3,
-     "time": "12:52",
-     "wpa": -0.074,
-     "desc": "(12:52) (Shotgun) 2-M.Willis scrambles right end for 14 yards, TOUCHDOWN."
-    },
-    {
-     "qtr": 3,
      "time": "14:34",
      "wpa": -0.069,
      "desc": "(14:34) (No Huddle, Shotgun) 8-K.Cousins pass deep left intended for 18-J.Bech INTERCEPTED by 16-M.Taaffe at MIA 46. 16-M.Taaffe to MIA 48 for 2 yards (18-J.Bech)."
+    },
+    {
+     "qtr": 3,
+     "time": "12:52",
+     "wpa": -0.068,
+     "desc": "(12:52) (Shotgun) 2-M.Willis scrambles right end for 14 yards, TOUCHDOWN."
     },
     {
      "qtr": 2,
@@ -377,7 +377,7 @@
    "home": false,
    "offense": {
     "plays": 60,
-    "epa": -0.098,
+    "epa": -0.049,
     "sr": 0.35,
     "pass": {
      "plays": 33,
@@ -385,7 +385,7 @@
     },
     "rush": {
      "plays": 27,
-     "epa": -0.499
+     "epa": -0.39
     },
     "explosive": 4,
     "third": [
@@ -395,15 +395,15 @@
    },
    "defense": {
     "plays": 67,
-    "epa": -0.301,
-    "sr": 0.343,
+    "epa": -0.246,
+    "sr": 0.328,
     "pass": {
      "plays": 34,
-     "epa": -0.069
+     "epa": -0.089
     },
     "rush": {
      "plays": 33,
-     "epa": -0.54
+     "epa": -0.408
     },
     "explosive": 4,
     "third": [
@@ -769,15 +769,15 @@
    "home": false,
    "offense": {
     "plays": 68,
-    "epa": 0.146,
-    "sr": 0.456,
+    "epa": 0.119,
+    "sr": 0.485,
     "pass": {
      "plays": 43,
-     "epa": 0.303
+     "epa": 0.252
     },
     "rush": {
      "plays": 25,
-     "epa": -0.124
+     "epa": -0.109
     },
     "explosive": 4,
     "third": [
@@ -787,15 +787,15 @@
    },
    "defense": {
     "plays": 74,
-    "epa": -0.071,
-    "sr": 0.541,
+    "epa": -0.043,
+    "sr": 0.527,
     "pass": {
      "plays": 47,
-     "epa": -0.12
+     "epa": -0.067
     },
     "rush": {
      "plays": 27,
-     "epa": 0.013
+     "epa": 0
     },
     "explosive": 4,
     "third": [
@@ -939,13 +939,13 @@
     {
      "qtr": 3,
      "time": "06:40",
-     "wpa": -0.122,
+     "wpa": -0.128,
      "desc": "10-D.Carlson kicks 63 yards from NO 35 to LV 2. 23-D.Laube to LV 30 for 28 yards (33-A.Jennings). FUMBLES (33-A.Jennings), RECOVERED by NO-31-J.Howden at LV 32."
     },
     {
      "qtr": 3,
      "time": "03:29",
-     "wpa": 0.094,
+     "wpa": 0.088,
      "desc": "(3:29) 4-M.Washington right guard pushed ob at NO 1 for 35 yards (21-J.Reid). Las Vegas challenged the short of the goal line ruling, and the play was REVERSED. 4-M.Washington right guard for 36 yards, TOUCHDOWN."
     },
     {
@@ -1178,15 +1178,15 @@
    "home": true,
    "offense": {
     "plays": 81,
-    "epa": 0.075,
+    "epa": 0.063,
     "sr": 0.506,
     "pass": {
      "plays": 54,
-     "epa": 0.248
+     "epa": 0.215
     },
     "rush": {
      "plays": 27,
-     "epa": -0.273
+     "epa": -0.242
     },
     "explosive": 8,
     "third": [
@@ -1196,15 +1196,15 @@
    },
    "defense": {
     "plays": 60,
-    "epa": 0.127,
-    "sr": 0.433,
+    "epa": 0.107,
+    "sr": 0.417,
     "pass": {
      "plays": 36,
-     "epa": 0.063
+     "epa": 0.058
     },
     "rush": {
      "plays": 24,
-     "epa": 0.223
+     "epa": 0.182
     },
     "explosive": 8,
     "third": [
@@ -1352,7 +1352,7 @@
     {
      "qtr": 4,
      "time": "03:21",
-     "wpa": -0.152,
+     "wpa": -0.176,
      "desc": "7-H.Butker kicks 59 yards from KC 35 to LV 6. 81-D.Young to LV 22 for 16 yards (29-X.Nwankpa, 31-J.Bassa). FUMBLES (31-J.Bassa), RECOVERED by KC-43-J.Cochrane at LV 22."
     },
     {
@@ -1599,15 +1599,15 @@
    "home": false,
    "offense": {
     "plays": 60,
-    "epa": -0.034,
-    "sr": 0.417,
+    "epa": -0.027,
+    "sr": 0.433,
     "pass": {
      "plays": 42,
-     "epa": 0.05
+     "epa": 0.037
     },
     "rush": {
      "plays": 18,
-     "epa": -0.231
+     "epa": -0.178
     },
     "explosive": 4,
     "third": [
@@ -1617,15 +1617,15 @@
    },
    "defense": {
     "plays": 72,
-    "epa": 0.366,
+    "epa": 0.316,
     "sr": 0.528,
     "pass": {
      "plays": 45,
-     "epa": 0.696
+     "epa": 0.598
     },
     "rush": {
      "plays": 27,
-     "epa": -0.185
+     "epa": -0.154
     },
     "explosive": 11,
     "third": [
@@ -1993,15 +1993,15 @@
    "home": true,
    "offense": {
     "plays": 66,
-    "epa": 0.127,
-    "sr": 0.455,
+    "epa": 0.11,
+    "sr": 0.439,
     "pass": {
      "plays": 46,
-     "epa": 0.306
+     "epa": 0.267
     },
     "rush": {
      "plays": 20,
-     "epa": -0.285
+     "epa": -0.252
     },
     "explosive": 6,
     "third": [
@@ -2011,15 +2011,15 @@
    },
    "defense": {
     "plays": 65,
-    "epa": 0.185,
-    "sr": 0.477,
+    "epa": 0.132,
+    "sr": 0.492,
     "pass": {
      "plays": 39,
-     "epa": 0.317
+     "epa": 0.244
     },
     "rush": {
      "plays": 26,
-     "epa": -0.012
+     "epa": -0.037
     },
     "explosive": 7,
     "third": [
@@ -2169,7 +2169,7 @@
     {
      "qtr": 4,
      "time": "08:13",
-     "wpa": 0.211,
+     "wpa": 0.205,
      "desc": "(8:13) (Shotgun) 8-K.Cousins pass short right to 1-T.Tucker for 11 yards, TOUCHDOWN."
     },
     {
@@ -2191,10 +2191,10 @@
      "desc": "(9:33) 8-K.Cousins pass deep left to 89-B.Bowers pushed ob at BUF 13 for 29 yards (3-D.Hamlin)."
     },
     {
-     "qtr": 4,
-     "time": "04:49",
-     "wpa": -0.101,
-     "desc": "(4:49) 63-A.Corbett reported in as eligible. 4-J.Cook left guard for 3 yards, TOUCHDOWN."
+     "qtr": 3,
+     "time": "09:00",
+     "wpa": -0.099,
+     "desc": "(9:00) (Shotgun) 8-K.Cousins pass short middle intended for 87-M.Mayer INTERCEPTED by 42-D.Williams at LV 32. 42-D.Williams to LV 32 for no gain (87-M.Mayer)."
     }
    ],
    "drives": [
@@ -2402,15 +2402,15 @@
    "home": true,
    "offense": {
     "plays": 69,
-    "epa": -0.124,
+    "epa": -0.102,
     "sr": 0.362,
     "pass": {
      "plays": 54,
-     "epa": -0.066
+     "epa": -0.045
     },
     "rush": {
      "plays": 15,
-     "epa": -0.334
+     "epa": -0.308
     },
     "explosive": 4,
     "third": [
@@ -2420,15 +2420,15 @@
    },
    "defense": {
     "plays": 69,
-    "epa": 0.152,
+    "epa": 0.148,
     "sr": 0.58,
     "pass": {
      "plays": 32,
-     "epa": 0.217
+     "epa": 0.202
     },
     "rush": {
      "plays": 37,
-     "epa": 0.096
+     "epa": 0.102
     },
     "explosive": 4,
     "third": [
@@ -2805,15 +2805,15 @@
    "home": false,
    "offense": {
     "plays": 61,
-    "epa": 0.254,
-    "sr": 0.508,
+    "epa": 0.228,
+    "sr": 0.525,
     "pass": {
      "plays": 30,
-     "epa": 0.655
+     "epa": 0.569
     },
     "rush": {
      "plays": 31,
-     "epa": -0.133
+     "epa": -0.103
     },
     "explosive": 4,
     "third": [
@@ -2823,15 +2823,15 @@
    },
    "defense": {
     "plays": 64,
-    "epa": 0.233,
-    "sr": 0.5,
+    "epa": 0.182,
+    "sr": 0.516,
     "pass": {
      "plays": 38,
-     "epa": 0.303
+     "epa": 0.229
     },
     "rush": {
      "plays": 26,
-     "epa": 0.13
+     "epa": 0.113
     },
     "explosive": 10,
     "third": [
@@ -3001,7 +3001,7 @@
     {
      "qtr": 2,
      "time": "10:56",
-     "wpa": 0.153,
+     "wpa": 0.14,
      "desc": "14-A.McNamara kicks 60 yards from NYJ 35 to LV 5. 23-D.Laube for 95 yards, TOUCHDOWN."
     },
     {
@@ -3215,15 +3215,15 @@
    "home": false,
    "offense": {
     "plays": 49,
-    "epa": -0.3,
+    "epa": -0.229,
     "sr": 0.408,
     "pass": {
      "plays": 34,
-     "epa": -0.324
+     "epa": -0.24
     },
     "rush": {
      "plays": 15,
-     "epa": -0.248
+     "epa": -0.205
     },
     "explosive": 4,
     "third": [
@@ -3233,15 +3233,15 @@
    },
    "defense": {
     "plays": 70,
-    "epa": 0.214,
+    "epa": 0.184,
     "sr": 0.514,
     "pass": {
      "plays": 34,
-     "epa": 0.445
+     "epa": 0.379
     },
     "rush": {
      "plays": 36,
-     "epa": -0.004
+     "epa": 0.001
     },
     "explosive": 7,
     "third": [
@@ -3357,15 +3357,15 @@
     },
     {
      "qtr": 3,
-     "time": "14:54",
-     "wpa": -0.091,
-     "desc": "(14:54) (Shotgun) 8-K.Cousins to LV 24 for -6 yards. FUMBLES, and recovers at LV 23. 8-K.Cousins pass intended for 1-T.Tucker INTERCEPTED by 53-J.Dugger at LV 35. 53-J.Dugger for 35 yards, TOUCHDOWN."
-    },
-    {
-     "qtr": 3,
      "time": "08:01",
      "wpa": 0.085,
      "desc": "(8:01) (Shotgun) 13-B.Purdy pass deep right intended for 85-G.Kittle INTERCEPTED by 31-T.Stukes at LV 43. 31-T.Stukes to SF 31 for 26 yards (75-C.Colby)."
+    },
+    {
+     "qtr": 3,
+     "time": "14:54",
+     "wpa": -0.081,
+     "desc": "(14:54) (Shotgun) 8-K.Cousins to LV 24 for -6 yards. FUMBLES, and recovers at LV 23. 8-K.Cousins pass intended for 1-T.Tucker INTERCEPTED by 53-J.Dugger at LV 35. 53-J.Dugger for 35 yards, TOUCHDOWN."
     },
     {
      "qtr": 3,
@@ -3376,7 +3376,7 @@
     {
      "qtr": 2,
      "time": "12:43",
-     "wpa": 0.072,
+     "wpa": 0.068,
      "desc": "(12:43) 8-K.Cousins up the middle for 2 yards, TOUCHDOWN."
     }
    ],
@@ -3557,15 +3557,15 @@
    "home": true,
    "offense": {
     "plays": 59,
-    "epa": -0.24,
-    "sr": 0.322,
+    "epa": -0.194,
+    "sr": 0.305,
     "pass": {
      "plays": 39,
-     "epa": -0.252
+     "epa": -0.207
     },
     "rush": {
      "plays": 20,
-     "epa": -0.216
+     "epa": -0.169
     },
     "explosive": 3,
     "third": [
@@ -3575,15 +3575,15 @@
    },
    "defense": {
     "plays": 54,
-    "epa": 0.09,
+    "epa": 0.081,
     "sr": 0.481,
     "pass": {
      "plays": 24,
-     "epa": 0.318
+     "epa": 0.281
     },
     "rush": {
      "plays": 30,
-     "epa": -0.093
+     "epa": -0.08
     },
     "explosive": 8,
     "third": [
@@ -3661,13 +3661,13 @@
     {
      "qtr": 3,
      "time": "07:24",
-     "wpa": -0.197,
+     "wpa": -0.172,
      "desc": "(7:24) (Shotgun) 2-D.Lock pass deep middle to 11-J.Smith-Njigba for 71 yards, TOUCHDOWN."
     },
     {
      "qtr": 1,
      "time": "02:43",
-     "wpa": -0.145,
+     "wpa": -0.137,
      "desc": "(2:43) (Shotgun) 2-D.Lock pass deep middle to 10-C.Kupp for 34 yards, TOUCHDOWN."
     },
     {
@@ -3679,7 +3679,7 @@
     {
      "qtr": 3,
      "time": "09:34",
-     "wpa": -0.081,
+     "wpa": -0.073,
      "desc": "(9:34) 8-J.Price left end for 12 yards, TOUCHDOWN."
     },
     {

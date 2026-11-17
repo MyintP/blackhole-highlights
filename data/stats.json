@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:04:38.866Z",
+ "updated": "2026-11-17T21:42:07.268Z",
  "season": 2026,
  "team": [
   {
@@ -1484,17 +1484,17 @@
     "label": "EPA per play",
     "side": "off",
     "higher": true,
-    "v": -0.012,
+    "v": -0.001,
     "rank": 17,
-    "nfl": 0.005
+    "nfl": 0.012
    },
    {
     "key": "sr",
     "label": "Success rate",
     "side": "off",
     "higher": true,
-    "v": 0.425,
-    "rank": 18,
+    "v": 0.428,
+    "rank": 15,
     "nfl": 0.436
    },
    {
@@ -1502,34 +1502,34 @@
     "label": "EPA per dropback",
     "side": "off",
     "higher": true,
-    "v": 0.114,
-    "rank": 13,
-    "nfl": 0.066
+    "v": 0.107,
+    "rank": 14,
+    "nfl": 0.065
    },
    {
     "key": "rush",
     "label": "EPA per rush",
     "side": "off",
     "higher": true,
-    "v": -0.232,
-    "rank": 30,
-    "nfl": -0.091
+    "v": -0.193,
+    "rank": 31,
+    "nfl": -0.071
    },
    {
     "key": "epa",
     "label": "EPA per play allowed",
     "side": "def",
     "higher": false,
-    "v": 0.081,
+    "v": 0.073,
     "rank": 28,
-    "nfl": 0.005
+    "nfl": 0.012
    },
    {
     "key": "sr",
     "label": "Success rate allowed",
     "side": "def",
     "higher": false,
-    "v": 0.478,
+    "v": 0.477,
     "rank": 32,
     "nfl": 0.436
    },
@@ -1538,34 +1538,34 @@
     "label": "EPA per dropback allowed",
     "side": "def",
     "higher": false,
-    "v": 0.195,
+    "v": 0.169,
     "rank": 28,
-    "nfl": 0.066
+    "nfl": 0.065
    },
    {
     "key": "rush",
     "label": "EPA per rush allowed",
     "side": "def",
     "higher": false,
-    "v": -0.069,
-    "rank": 21,
-    "nfl": -0.091
+    "v": -0.053,
+    "rank": 22,
+    "nfl": -0.071
    }
   ],
   "passers": [
    {
     "name": "F.Mendoza",
     "dropbacks": 43,
-    "epa": -0.198,
+    "epa": -0.17,
     "epaRank": null,
     "cpoe": -3.2,
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-17T03:40:31.140Z"
+  "fetched": "2026-11-17T21:42:07.268Z"
  },
  "tendencies": {
-  "charted": 0.921,
+  "charted": 0.994,
   "rows": [
    {
     "key": "passRate",
@@ -1590,36 +1590,36 @@
     "label": "Shotgun or pistol",
     "side": "off",
     "fmt": "pct",
-    "v": 0.572,
+    "v": 0.578,
     "rank": 24,
-    "nfl": 0.624
+    "nfl": 0.625
    },
    {
     "key": "motion",
     "label": "Motion at the snap",
     "side": "off",
     "fmt": "pct",
-    "v": 0.62,
+    "v": 0.607,
     "rank": 11,
-    "nfl": 0.588
+    "nfl": 0.586
    },
    {
     "key": "playAction",
     "label": "Play action (of dropbacks)",
     "side": "off",
     "fmt": "pct",
-    "v": 0.245,
-    "rank": 12,
-    "nfl": 0.228
+    "v": 0.246,
+    "rank": 13,
+    "nfl": 0.226
    },
    {
     "key": "screen",
     "label": "Screens (of passes)",
     "side": "off",
     "fmt": "pct",
-    "v": 0.09,
+    "v": 0.088,
     "rank": 15,
-    "nfl": 0.083
+    "nfl": 0.082
    },
    {
     "key": "rpo",
@@ -1628,7 +1628,7 @@
     "fmt": "pct",
     "v": 0.031,
     "rank": 24,
-    "nfl": 0.051
+    "nfl": 0.052
    },
    {
     "key": "noHuddle",
@@ -1646,43 +1646,43 @@
     "fmt": "num",
     "v": 7.9,
     "rank": 12,
-    "nfl": 7.833
+    "nfl": 7.83
    },
    {
     "key": "blitz",
     "label": "Blitz rate (of dropbacks)",
     "side": "def",
     "fmt": "pct",
-    "v": 0.272,
+    "v": 0.281,
     "rank": 19,
-    "nfl": 0.318
+    "nfl": 0.314
    },
    {
     "key": "rushers",
     "label": "Pass rushers per dropback",
     "side": "def",
     "fmt": "num",
-    "v": 4.304,
-    "rank": 24,
-    "nfl": 4.403
+    "v": 4.317,
+    "rank": 23,
+    "nfl": 4.397
    },
    {
     "key": "box8",
     "label": "8+ in the box (of runs)",
     "side": "def",
     "fmt": "pct",
-    "v": 0.032,
+    "v": 0.029,
     "rank": 27,
-    "nfl": 0.081
+    "nfl": 0.083
    },
    {
     "key": "box",
     "label": "Defenders in the box",
     "side": "def",
     "fmt": "num",
-    "v": 6.356,
-    "rank": 21,
-    "nfl": 6.399
+    "v": 6.359,
+    "rank": 20,
+    "nfl": 6.397
    },
    {
     "key": "sackRate",
@@ -1699,7 +1699,7 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.163,
-    "rank": 8,
+    "rank": 9,
     "nfl": 0.153
    }
   ]
