@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16T09:26:06.001Z",
+ "fetched": "2026-11-17T03:40:31.140Z",
  "throughWeek": 10,
  "players": [
   {
@@ -143,11 +143,11 @@
     ]
    },
    "snaps": {
-    "games": 1,
-    "off": 10,
+    "games": 2,
+    "off": 69,
     "def": 0,
     "st": 0,
-    "offPct": 0.17,
+    "offPct": 0.585,
     "defPct": 0,
     "stPct": 0
    },
@@ -355,11 +355,11 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 392,
+    "games": 10,
+    "off": 434,
     "def": 0,
     "st": 0,
-    "offPct": 0.659,
+    "offPct": 0.664,
     "defPct": 0,
     "stPct": 0
    },
@@ -482,11 +482,11 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 155,
+    "games": 10,
+    "off": 172,
     "def": 0,
     "st": 0,
-    "offPct": 0.264,
+    "offPct": 0.267,
     "defPct": 0,
     "stPct": 0
    },
@@ -747,13 +747,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 59,
     "def": 0,
-    "st": 208,
-    "offPct": 0.102,
+    "st": 230,
+    "offPct": 0.092,
     "defPct": 0,
-    "stPct": 0.826
+    "stPct": 0.831
    },
    "contact": {
     "carries": 5,
@@ -977,13 +977,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 154,
+    "games": 10,
+    "off": 170,
     "def": 0,
-    "st": 103,
-    "offPct": 0.26,
+    "st": 121,
+    "offPct": 0.261,
     "defPct": 0,
-    "stPct": 0.413
+    "stPct": 0.444
    },
    "contact": {
     "carries": 5,
@@ -1205,11 +1205,11 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 394,
+    "games": 10,
+    "off": 446,
     "def": 0,
     "st": 1,
-    "offPct": 0.666,
+    "offPct": 0.687,
     "defPct": 0,
     "stPct": 0.004
    },
@@ -1294,11 +1294,11 @@
     ]
    },
    "snaps": {
-    "games": 8,
-    "off": 297,
+    "games": 9,
+    "off": 348,
     "def": 0,
     "st": 0,
-    "offPct": 0.574,
+    "offPct": 0.606,
     "defPct": 0,
     "stPct": 0
    },
@@ -1456,13 +1456,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 157,
+    "games": 10,
+    "off": 161,
     "def": 0,
-    "st": 69,
-    "offPct": 0.25,
+    "st": 72,
+    "offPct": 0.232,
     "defPct": 0,
-    "stPct": 0.297
+    "stPct": 0.279
    },
    "catching": {
     "broken": 0,
@@ -1644,13 +1644,13 @@
     ]
    },
    "snaps": {
-    "games": 5,
-    "off": 114,
+    "games": 6,
+    "off": 147,
     "def": 0,
     "st": 8,
-    "offPct": 0.368,
+    "offPct": 0.4,
     "defPct": 0,
-    "stPct": 0.06
+    "stPct": 0.05
    },
    "catching": {
     "broken": 1,
@@ -1863,13 +1863,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 73,
+    "games": 10,
+    "off": 74,
     "def": 0,
-    "st": 149,
-    "offPct": 0.12,
+    "st": 167,
+    "offPct": 0.11,
     "defPct": 0,
-    "stPct": 0.591
+    "stPct": 0.604
    },
    "jersey": "81",
    "link": "https://www.espn.com/nfl/player/_/id/4401805/dareke-young",
@@ -2350,13 +2350,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 478,
+    "games": 10,
+    "off": 527,
     "def": 0,
-    "st": 61,
-    "offPct": 0.801,
+    "st": 65,
+    "offPct": 0.804,
     "defPct": 0,
-    "stPct": 0.239
+    "stPct": 0.231
    },
    "catching": {
     "broken": 4,
@@ -2493,11 +2493,11 @@
     ]
    },
    "snaps": {
-    "games": 7,
-    "off": 392,
+    "games": 8,
+    "off": 403,
     "def": 0,
     "st": 0,
-    "offPct": 0.856,
+    "offPct": 0.773,
     "defPct": 0,
     "stPct": 0
    },
@@ -2581,13 +2581,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 198,
+    "games": 10,
+    "off": 215,
     "def": 0,
-    "st": 43,
-    "offPct": 0.334,
+    "st": 47,
+    "offPct": 0.33,
     "defPct": 0,
-    "stPct": 0.17
+    "stPct": 0.169
    },
    "catching": {
     "broken": 1,
@@ -2618,20 +2618,40 @@
    "status": "Offense"
   },
   {
+   "id": "carter-runyon",
+   "name": "Carter Runyon",
+   "pos": "TE",
+   "group": null,
+   "games": 1,
+   "stats": {},
+   "snaps": {
+    "games": 1,
+    "off": 2,
+    "def": 0,
+    "st": 18,
+    "offPct": 0.03,
+    "defPct": 0,
+    "stPct": 0.72
+   },
+   "jersey": "84",
+   "link": "https://www.espn.com/nfl/player/_/id/5155825/carter-runyon",
+   "status": "Offense"
+  },
+  {
    "id": "kolton-miller",
    "name": "Kolton Miller",
    "pos": "T",
    "group": null,
-   "games": 9,
+   "games": 10,
    "stats": {},
    "snaps": {
-    "games": 9,
-    "off": 592,
+    "games": 10,
+    "off": 651,
     "def": 0,
-    "st": 44,
+    "st": 47,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.174
+    "stPct": 0.169
    },
    "jersey": "74",
    "link": "https://www.espn.com/nfl/player/_/id/3134312/kolton-miller",
@@ -2642,16 +2662,16 @@
    "name": "Charles Grant",
    "pos": "T",
    "group": null,
-   "games": 9,
+   "games": 10,
    "stats": {},
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
     "def": 0,
-    "st": 43,
+    "st": 46,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.171
+    "stPct": 0.166
    },
    "jersey": "60",
    "link": "https://www.espn.com/nfl/player/_/id/4694505/charles-grant",
@@ -2692,13 +2712,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 592,
+    "games": 10,
+    "off": 651,
     "def": 0,
-    "st": 44,
+    "st": 47,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.174
+    "stPct": 0.169
    },
    "jersey": "71",
    "link": "https://www.espn.com/nfl/player/_/id/4606683/dj-glaze",
@@ -2739,13 +2759,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 592,
+    "games": 10,
+    "off": 651,
     "def": 0,
-    "st": 44,
+    "st": 47,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.174
+    "stPct": 0.169
    },
    "jersey": "70",
    "link": "https://www.espn.com/nfl/player/_/id/4362999/spencer-burford",
@@ -2786,13 +2806,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 245,
     "def": 0,
-    "st": 44,
-    "offPct": 0.389,
+    "st": 47,
+    "offPct": 0.35,
     "defPct": 0,
-    "stPct": 0.174
+    "stPct": 0.169
    },
    "jersey": "76",
    "link": "https://www.espn.com/nfl/player/_/id/4433889/caleb-rogers",
@@ -2803,16 +2823,16 @@
    "name": "Trey Zuhn",
    "pos": "G",
    "group": null,
-   "games": 8,
+   "games": 9,
    "stats": {},
    "snaps": {
-    "games": 8,
-    "off": 114,
+    "games": 9,
+    "off": 173,
     "def": 0,
-    "st": 36,
-    "offPct": 0.236,
+    "st": 39,
+    "offPct": 0.321,
     "defPct": 0,
-    "stPct": 0.163
+    "stPct": 0.158
    },
    "jersey": "66",
    "link": "https://www.espn.com/nfl/player/_/id/4431623/trey-zuhn-iii",
@@ -2873,13 +2893,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
-    "off": 592,
+    "games": 10,
+    "off": 651,
     "def": 0,
     "st": 6,
     "offPct": 1,
     "defPct": 0,
-    "stPct": 0.021
+    "stPct": 0.019
    },
    "jersey": "65",
    "link": "https://www.espn.com/nfl/player/_/id/4360499/tyler-linderbaum",
@@ -3000,13 +3020,13 @@
     ]
    },
    "snaps": {
-    "games": 8,
+    "games": 9,
     "off": 256,
     "def": 0,
-    "st": 37,
-    "offPct": 0.491,
+    "st": 40,
+    "offPct": 0.437,
     "defPct": 0,
-    "stPct": 0.167
+    "stPct": 0.162
    },
    "jersey": "58",
    "link": "https://www.espn.com/nfl/player/_/id/4875295/jackson-powers-johnson",
@@ -3134,13 +3154,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 541,
-    "st": 57,
+    "def": 594,
+    "st": 61,
     "offPct": 0,
-    "defPct": 0.887,
-    "stPct": 0.229
+    "defPct": 0.891,
+    "stPct": 0.222
    },
    "coverage": {
     "targets": 1,
@@ -3261,12 +3281,12 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 369,
+    "def": 408,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.603,
+    "defPct": 0.611,
     "stPct": 0
    },
    "coverage": {
@@ -3389,13 +3409,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 260,
+    "def": 286,
     "st": 14,
     "offPct": 0,
-    "defPct": 0.43,
-    "stPct": 0.053
+    "defPct": 0.433,
+    "stPct": 0.048
    },
    "coverage": {
     "targets": 3,
@@ -3684,13 +3704,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 322,
+    "def": 354,
     "st": 7,
     "offPct": 0,
-    "defPct": 0.523,
-    "stPct": 0.027
+    "defPct": 0.527,
+    "stPct": 0.024
    },
    "passRush": {
     "blitzes": 0,
@@ -3829,13 +3849,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 272,
+    "def": 303,
     "st": 7,
     "offPct": 0,
-    "defPct": 0.444,
-    "stPct": 0.029
+    "defPct": 0.454,
+    "stPct": 0.026
    },
    "passRush": {
     "blitzes": 0,
@@ -3944,13 +3964,13 @@
     ]
    },
    "snaps": {
-    "games": 8,
+    "games": 9,
     "off": 0,
-    "def": 237,
-    "st": 67,
+    "def": 272,
+    "st": 74,
     "offPct": 0,
-    "defPct": 0.445,
-    "stPct": 0.311
+    "defPct": 0.463,
+    "stPct": 0.308
    },
    "coverage": {
     "targets": 2,
@@ -4252,13 +4272,13 @@
     ]
    },
    "snaps": {
-    "games": 3,
+    "games": 4,
     "off": 0,
-    "def": 74,
-    "st": 13,
+    "def": 91,
+    "st": 17,
     "offPct": 0,
-    "defPct": 0.35,
-    "stPct": 0.17
+    "defPct": 0.338,
+    "stPct": 0.168
    },
    "passRush": {
     "blitzes": 0,
@@ -4367,13 +4387,13 @@
     ]
    },
    "snaps": {
-    "games": 4,
+    "games": 5,
     "off": 0,
-    "def": 39,
-    "st": 19,
+    "def": 51,
+    "st": 23,
     "offPct": 0,
-    "defPct": 0.14,
-    "stPct": 0.185
+    "defPct": 0.154,
+    "stPct": 0.18
    },
    "coverage": {
     "targets": 1,
@@ -4491,12 +4511,12 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 606,
+    "def": 663,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.993,
+    "defPct": 0.994,
     "stPct": 0
    },
    "coverage": {
@@ -4645,12 +4665,12 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 603,
+    "def": 660,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.99,
+    "defPct": 0.991,
     "stPct": 0
    },
    "coverage": {
@@ -4796,13 +4816,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 160,
-    "st": 208,
+    "def": 165,
+    "st": 230,
     "offPct": 0,
-    "defPct": 0.26,
-    "stPct": 0.826
+    "defPct": 0.243,
+    "stPct": 0.831
    },
    "coverage": {
     "targets": 5,
@@ -4920,13 +4940,13 @@
     ]
    },
    "snaps": {
-    "games": 8,
+    "games": 9,
     "off": 0,
     "def": 3,
-    "st": 142,
+    "st": 164,
     "offPct": 0,
-    "defPct": 0.005,
-    "stPct": 0.639
+    "defPct": 0.004,
+    "stPct": 0.666
    },
    "jersey": "55",
    "link": "https://www.espn.com/nfl/player/_/id/4685126/cody-lindenberg",
@@ -5149,13 +5169,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
     "def": 0,
-    "st": 208,
+    "st": 230,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.826
+    "stPct": 0.831
    },
    "jersey": "50",
    "link": "https://www.espn.com/nfl/player/_/id/4260703/segun-olubi",
@@ -5282,12 +5302,12 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 597,
+    "def": 649,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.981,
+    "defPct": 0.974,
     "stPct": 0
    },
    "coverage": {
@@ -5438,12 +5458,12 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 454,
+    "def": 489,
     "st": 1,
     "offPct": 0,
-    "defPct": 0.747,
+    "defPct": 0.733,
     "stPct": 0.004
    },
    "coverage": {
@@ -5592,12 +5612,12 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 306,
+    "def": 329,
     "st": 0,
     "offPct": 0,
-    "defPct": 0.501,
+    "defPct": 0.491,
     "stPct": 0
    },
    "coverage": {
@@ -5718,13 +5738,13 @@
     ]
    },
    "snaps": {
-    "games": 8,
+    "games": 9,
     "off": 0,
-    "def": 235,
+    "def": 265,
     "st": 74,
     "offPct": 0,
-    "defPct": 0.434,
-    "stPct": 0.32
+    "defPct": 0.444,
+    "stPct": 0.284
    },
    "coverage": {
     "targets": 24,
@@ -5869,13 +5889,13 @@
     ]
    },
    "snaps": {
-    "games": 8,
+    "games": 9,
     "off": 0,
-    "def": 90,
-    "st": 89,
+    "def": 99,
+    "st": 92,
     "offPct": 0,
-    "defPct": 0.164,
-    "stPct": 0.375
+    "defPct": 0.163,
+    "stPct": 0.347
    },
    "coverage": {
     "targets": 6,
@@ -5993,13 +6013,13 @@
     ]
    },
    "snaps": {
-    "games": 6,
+    "games": 7,
     "off": 0,
     "def": 0,
-    "st": 117,
+    "st": 139,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.707
+    "stPct": 0.731
    },
    "jersey": "25",
    "link": "https://www.espn.com/nfl/player/_/id/4685978/darrell-luter-jr",
@@ -6168,13 +6188,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
-    "def": 610,
+    "def": 667,
     "st": 8,
     "offPct": 0,
     "defPct": 1,
-    "stPct": 0.033
+    "stPct": 0.03
    },
    "coverage": {
     "targets": 23,
@@ -6320,13 +6340,13 @@
     ]
    },
    "snaps": {
-    "games": 8,
+    "games": 9,
     "off": 0,
-    "def": 499,
-    "st": 34,
+    "def": 556,
+    "st": 42,
     "offPct": 0,
-    "defPct": 0.933,
-    "stPct": 0.169
+    "defPct": 0.94,
+    "stPct": 0.186
    },
    "coverage": {
     "targets": 31,
@@ -6444,13 +6464,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
     "def": 115,
-    "st": 189,
+    "st": 211,
     "offPct": 0,
-    "defPct": 0.179,
-    "stPct": 0.748
+    "defPct": 0.161,
+    "stPct": 0.761
    },
    "coverage": {
     "targets": 7,
@@ -6641,13 +6661,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
     "def": 0,
-    "st": 94,
+    "st": 101,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.373
+    "stPct": 0.364
    },
    "jersey": "14",
    "link": "https://www.espn.com/nfl/player/_/id/4249087/matt-gay",
@@ -6759,13 +6779,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
     "def": 0,
-    "st": 72,
+    "st": 82,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.286
+    "stPct": 0.297
    },
    "pocket": {
     "badThrows": 0,
@@ -6895,13 +6915,13 @@
     ]
    },
    "snaps": {
-    "games": 9,
+    "games": 10,
     "off": 0,
     "def": 0,
-    "st": 72,
+    "st": 82,
     "offPct": 0,
     "defPct": 0,
-    "stPct": 0.286
+    "stPct": 0.297
    },
    "jersey": "47",
    "link": "https://www.espn.com/nfl/player/_/id/4243545/alex-ward",

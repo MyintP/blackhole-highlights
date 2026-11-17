@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-16T09:26:06.001Z",
+ "updated": "2026-11-17T03:40:31.140Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "A tale of two halves for Raiders and Fernando Mendoza after fast start vs. Seahawks",
+   "link": "https://www.raiders.com/audio/recap-raiders-fernando-mendoza-seahawks-nfl-week-10-2026-season",
+   "date": "2026-11-17T00:00:00.000Z",
+   "desc": "Jason Horowitz and Kirk Morrison recap the Raiders' Week 10 matchup against the Seattle Seahawks on Raiders Roundtable.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "Klint Kubiak Presser - 11.16.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-recap-presser-nfl-week-10-2026-seahawks",
+   "date": "2026-11-16T22:00:00.000Z",
+   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 10 matchup against the Seattle Seahawks.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Fernando Mendoza Postgame Presser | Week 10 vs. Seahawks",
    "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-postgame-presser-nfl-week-10-seahawks-2026",
@@ -71,20 +85,6 @@
    "date": "2026-11-10T01:00:00.000Z",
    "desc": "Jason Horowitz and Kirk Morrison recap the Raiders' Week 9 matchup against the San Francisco 49ers on Raiders Roundtable.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak Presser - 11.9.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-presser-recap-49ers-nfl-week-9-2026-season",
-   "date": "2026-11-09T21:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 9 matchup against the San Francisco 49ers.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Kirk Cousins Postgame Presser | Week 9 vs. 49ers",
-   "link": "https://www.raiders.com/audio/klint-kubiak-kirk-cousins-postgame-presser-nfl-week-9-49ers-2026-season",
-   "date": "2026-11-09T01:35:00.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Kirk Cousins address the media following the Raiders' Week 9 matchup against the San Francisco 49ers.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
@@ -121,13 +121,6 @@
    "link": "https://www.espn.com/video/clip/_/id/50452689/was-right-move-raiders-name-mendoza-qb1-cousins-trade",
    "date": "2026-11-11T14:30:07Z",
    "desc": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
-   "src": "ESPN"
-  },
-  {
-   "title": "Schefter explains how the Vikings-Cousins reunion came to be",
-   "link": "https://www.espn.com/video/clip/_/id/50445295/schefter-explains-how-vikings-cousins-reunion-came-be",
-   "date": "2026-11-10T20:26:53Z",
-   "desc": "Schefter explains how the Vikings-Cousins reunion came to be ",
    "src": "ESPN"
   }
  ]
