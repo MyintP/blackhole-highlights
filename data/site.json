@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:32:23.941Z",
+ "updated": "2026-11-17T13:04:38.866Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -881,17 +881,17 @@
   "gameId": "401873075",
   "us": [
    {
-    "name": "Thomas Booker IV",
-    "pos": "DT",
-    "injury": "Ankle",
-    "status": "Out",
-    "ret": "2026-11-22"
-   },
-   {
     "name": "Dont'e Thornton Jr.",
     "pos": "WR",
     "injury": "Back",
-    "status": "Out",
+    "status": "Questionable",
+    "ret": "2026-11-22"
+   },
+   {
+    "name": "Thomas Booker IV",
+    "pos": "DT",
+    "injury": "Ankle",
+    "status": "Questionable",
     "ret": "2026-11-22"
    },
    {
@@ -911,32 +911,32 @@
   ],
   "them": [
    {
-    "name": "Brandon Jones",
-    "pos": "S",
-    "injury": "Hamstring",
-    "status": "Out",
-    "ret": "2026-11-22"
+    "name": "Eyioma Uwazurike",
+    "pos": "DE",
+    "injury": "Shoulder",
+    "status": "Injured Reserve",
+    "ret": "2026-12-13"
    },
    {
     "name": "Talanoa Hufanga",
     "pos": "S",
     "injury": "Ankle",
-    "status": "Out",
+    "status": "Questionable",
+    "ret": "2026-11-22"
+   },
+   {
+    "name": "Brandon Jones",
+    "pos": "S",
+    "injury": "Hamstring",
+    "status": "Questionable",
     "ret": "2026-11-22"
    },
    {
     "name": "Kris Abrams-Draine",
     "pos": "CB",
     "injury": "Ankle",
-    "status": "Out",
+    "status": "Questionable",
     "ret": "2026-11-22"
-   },
-   {
-    "name": "Eyioma Uwazurike",
-    "pos": "DE",
-    "injury": "Shoulder",
-    "status": "Injured Reserve",
-    "ret": "2026-12-13"
    },
    {
     "name": "Jaylen Waddle",
@@ -995,67 +995,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-17T04:32:23.941Z"
+   "at": "2026-11-17T13:04:38.866Z"
   }
  },
  "nflverseTried": "2026-11-17T03:40:31.140Z"

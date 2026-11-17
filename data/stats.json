@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:40:31.140Z",
+ "updated": "2026-11-17T13:04:38.866Z",
  "season": 2026,
  "team": [
   {
@@ -63,7 +63,7 @@
    "label": "Red-zone scoring %",
    "value": "86.49",
    "v": 86.49,
-   "rank": "T-17th"
+   "rank": "T-18th"
   },
   {
    "key": "turnOverDifferential",
@@ -84,7 +84,7 @@
    "label": "Interceptions",
    "value": "7",
    "v": 7,
-   "rank": "T-10th"
+   "rank": "T-11th"
   }
  ],
  "players": [
@@ -1401,6 +1401,20 @@
    "exp": 2,
    "college": "Clemson",
    "link": "https://www.espn.com/nfl/player/_/id/4426393/will-putnam"
+  },
+  {
+   "id": "3722362",
+   "name": "Brett Rypien",
+   "jersey": null,
+   "pos": "QB",
+   "posName": "Quarterback",
+   "group": "Practice squad",
+   "age": 30,
+   "ht": "6' 2\"",
+   "wt": "202 lbs",
+   "exp": 8,
+   "college": "Boise State",
+   "link": "https://www.espn.com/nfl/player/_/id/3722362/brett-rypien"
   },
   {
    "id": "5153665",
