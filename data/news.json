@@ -1,6 +1,28 @@
 {
- "updated": "2026-11-17T21:42:07.268Z",
+ "updated": "2026-11-18T03:36:25.286Z",
  "items": [
+  {
+   "id": "1q4gzck",
+   "title": "Ranking the Top 10 Draft Picks of John Spytek’s Raiders Tenure",
+   "link": "https://www.raidersbeat.com/ranking-the-top-10-draft-picks-of-john-spyteks-raiders-tenure/",
+   "src": "RaidersBeat",
+   "date": "2026-11-18T00:36:04.000Z",
+   "kind": "Opinion",
+   "cat": "Draft",
+   "desc": "The Raiders have lost six of their last seven games, and as part of... The post Ranking the Top 10 Draft Picks of John Spytek’s Raiders Tenure appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "196sgr",
+   "title": "Las Vegas Raiders offensive line stuffs families-in-need vehicles with Thanksgiving dinners",
+   "link": "https://www.reviewjournal.com/sports/raiders/las-vegas-raiders-offensive-line-stuffs-families-in-need-vehicles-with-thanksgiving-dinners-3915626/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-17T23:46:56.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Members of the Las Vegas Raiders’ offensive line took time off from protecting quarterback Fernando Mendoza on Tuesday to stuff Southern Nevada residents vehicles with Thanksgiving dinners.",
+   "author": "Mick Akers"
+  },
   {
    "id": "usv6ck",
    "title": "1976 Unsung Hero: Mike Rae",
@@ -394,7 +416,17 @@
    "kind": "Reporting",
    "cat": "Team",
    "desc": "Fernando Mendoza called it a “dark day” after the Raiders’ loss to the Seattle Seahawks, but the rookie’s first start in ushering in a new era featured highs and lows.",
-   "author": "Donovan Hicks"
+   "author": "Donovan Hicks",
+   "also": [
+    {
+     "id": "nvsy5k",
+     "title": "Highs and lows of Fernando Mendoza’s starting debut for Las Vegas Raiders",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146478/raiders-seahawks-week-10-fernando-mendoza-film-breakdown",
+     "src": "Silver & Black Pride",
+     "date": "2026-11-17T22:44:00.000Z",
+     "kind": "Opinion"
+    }
+   ]
   },
   {
    "id": "1kqhvki",
@@ -6742,28 +6774,6 @@
    "cat": "Team",
    "desc": "With Allegiant Stadium chock Sunday full of spectators dressed in blue and red, the Raiders fell to the Buffalo Bills, losing their third consecutive game.",
    "author": "Sam Gordon"
-  },
-  {
-   "id": "m5l9gy",
-   "title": "Bills starting safety ejected after spitting toward Raiders players",
-   "link": "https://www.reviewjournal.com/sports/raiders/bills-starting-safety-ejected-after-spitting-toward-raiders-players-3901908/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-18T21:51:45.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "Buffalo Bills safety C.J. Gardner-Johnson was flagged for unsportsmanlike conduct and ejected with 19 seconds to play in the first half of a Sunday matchup with the Las Vegas Raiders at Allegiant Stadium.",
-   "author": "Sam Gordon"
-  },
-  {
-   "id": "16qowhi",
-   "title": "Live Game Updates: Raiders vs. Bills | Week 6",
-   "link": "https://www.raiders.com/news/live-game-updates-las-vegas-raiders-vs-buffalo-bills-week-6-101826",
-   "src": "Raiders.com",
-   "date": "2026-10-18T20:25:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "Follow along for live updates during the game.",
-   "author": null
   }
  ]
 }
