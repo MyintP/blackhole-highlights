@@ -1,6 +1,28 @@
 {
- "updated": "2026-11-18T03:36:25.286Z",
+ "updated": "2026-11-18T12:55:18.706Z",
  "items": [
+  {
+   "id": "9agk4d",
+   "title": "What we learned about Fernando Mendoza from his first NFL start",
+   "link": "https://www.reviewjournal.com/sports/raiders/what-we-learned-about-fernando-mendoza-from-his-first-nfl-start-3915726/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-18T03:09:12.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Here is a look at what can be learned about top pick Fernando Mendoza from his first NFL start with the Las Vegas Raiders.",
+   "author": "Adam Hill"
+  },
+  {
+   "id": "8qkkoj",
+   "title": "Raiders' unofficial depth chart for Week 11 vs. Denver Broncos",
+   "link": "https://www.raiders.com/news/raiders-unofficial-depth-chart-for-week-11-vs-denver-broncos",
+   "src": "Raiders.com",
+   "date": "2026-11-18T01:30:00.000Z",
+   "kind": "Official",
+   "cat": "Roster",
+   "desc": "The Las Vegas Raiders released their updated unofficial depth chart ahead of the Week 11 matchup against the Broncos.",
+   "author": null
+  },
   {
    "id": "1q4gzck",
    "title": "Ranking the Top 10 Draft Picks of John Spytek’s Raiders Tenure",
@@ -6752,28 +6774,6 @@
    "cat": "Coaching",
    "desc": "Here’s how the Raiders graded out in a loss to the Buffalo Bills at Allegiant Stadium on Sunday.",
    "author": "Adam Hill"
-  },
-  {
-   "id": "1ybgd00",
-   "title": "Graney: Loss or not, Raiders show something in bouncing back",
-   "link": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-loss-or-not-raiders-show-something-in-bouncing-back-3901989/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-18T23:53:24.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "Las Vegas might have fallen to Buffalo 33-30 on Sunday, but it was a far cry from last week’s disaster against New England.",
-   "author": "Ed Graney"
-  },
-  {
-   "id": "1qymriw",
-   "title": "Raiders lose at home to Bills for third straight loss after 3-0 start — PHOTOS",
-   "link": "https://www.reviewjournal.com/sports/raiders/raiders-lose-at-home-to-bills-for-third-straight-loss-after-3-0-start-3901959/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-18T23:43:34.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "With Allegiant Stadium chock Sunday full of spectators dressed in blue and red, the Raiders fell to the Buffalo Bills, losing their third consecutive game.",
-   "author": "Sam Gordon"
   }
  ]
 }
