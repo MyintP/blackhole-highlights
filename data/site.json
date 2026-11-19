@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:19:18.012Z",
+ "updated": "2026-11-19T03:09:51.982Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -879,30 +879,30 @@
   "gameId": "401873075",
   "us": [
    {
+    "name": "Tonka Hemingway",
+    "pos": "DT",
+    "injury": "Upper Body",
+    "status": "Questionable",
+    "ret": "2026-11-22"
+   },
+   {
+    "name": "Folorunso Fatukasi",
+    "pos": "DT",
+    "injury": "Toe",
+    "status": "Questionable",
+    "ret": "2026-11-22"
+   },
+   {
+    "name": "Matt Gay",
+    "pos": "PK",
+    "injury": "Hip",
+    "status": "Questionable",
+    "ret": "2026-11-22"
+   },
+   {
     "name": "Brock Bowers",
     "pos": "TE",
     "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Dont'e Thornton Jr.",
-    "pos": "WR",
-    "injury": "Back",
-    "status": "Questionable",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Thomas Booker IV",
-    "pos": "DT",
-    "injury": "Ankle",
-    "status": "Questionable",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Kwity Paye",
-    "pos": "DE",
-    "injury": "Neck",
     "status": "Questionable",
     "ret": "2026-11-22"
    }
@@ -911,7 +911,7 @@
    {
     "name": "Caleb Lohner",
     "pos": "TE",
-    "injury": "Lower Body",
+    "injury": "Foot",
     "status": "Injured Reserve",
     "ret": "2026-11-22"
    },
@@ -923,8 +923,8 @@
     "ret": "2026-12-13"
    },
    {
-    "name": "Talanoa Hufanga",
-    "pos": "S",
+    "name": "Kris Abrams-Draine",
+    "pos": "CB",
     "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-22"
@@ -937,8 +937,8 @@
     "ret": "2026-11-22"
    },
    {
-    "name": "Kris Abrams-Draine",
-    "pos": "CB",
+    "name": "Talanoa Hufanga",
+    "pos": "S",
     "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-22"
@@ -1000,68 +1000,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-18T21:19:18.012Z"
+   "at": "2026-11-19T03:09:51.982Z"
   }
  },
- "nflverseTried": "2026-11-18T12:55:18.706Z"
+ "nflverseTried": "2026-11-19T03:09:51.982Z"
 }

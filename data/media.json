@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-18T21:19:18.012Z",
+ "updated": "2026-11-19T03:09:51.982Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Fernando Mendoza Presser - 11.18.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-presser-nfl-week-11-2026-season",
+   "date": "2026-11-18T23:21:19.000Z",
+   "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak on Fernando Mendoza's first start, prep for the Broncos",
    "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-first-start-broncos-nfl-week-11-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/john-spytek-klint-kubiak-presser-nfl-trade-deadline-week-10-2026",
    "date": "2026-11-10T23:45:00.000Z",
    "desc": "General Manager John Spytek and Head Coach Klint Kubiak address the media.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak on the challenges of facing Jaxon Smith-Njigba and the Seahawks",
-   "link": "https://www.raiders.com/audio/klint-kubiak-jaxon-smith-njigba-seahawks-2026-nfl-season",
-   "date": "2026-11-10T19:26:27.000Z",
-   "desc": "Head Coach Klint Kubiak recaps the matchup against the 49ers and looks ahead to facing Drew Lock and the Seattle Seahawks in Week 10.",
    "src": "Raiders.com"
   }
  ],
