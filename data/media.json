@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-19T21:21:48.054Z",
+ "updated": "2026-11-20T02:58:21.122Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Andrew Janocko and Rob Leonard Presser - 11.19.26",
+   "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-broncos-nfl-week-11-2026-season",
+   "date": "2026-11-19T22:00:00.000Z",
+   "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Fernando Mendoza looks to build on first start in divisional clash with Broncos",
    "link": "https://www.raiders.com/audio/fernando-mendoza-nfl-broncos-week-11-2026-season",
@@ -78,13 +85,6 @@
    "date": "2026-11-12T00:00:00.000Z",
    "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "2026 NFL Trade Deadline marks new era of Raiders football as Fernando Mendoza named QB1",
-   "link": "https://www.raiders.com/audio/kirk-cousins-2026-nfl-trade-deadline-fernando-mendoza",
-   "date": "2026-11-11T01:30:00.000Z",
-   "desc": "JT The Brick, Paul Gutierrez and Eric Allen react to the 2026 NFL Trade Deadline and the deal to send Kirk Cousins to the Vikings on Raiders Weekly.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
@@ -100,13 +100,6 @@
    "link": "https://www.espn.com/video/clip/_/id/50522711/fernando-mendoza-played-too-fast-nfl-debut",
    "date": "2026-11-18T19:44:33Z",
    "desc": "Kurt Warner: Fernando Mendoza played 'too fast' in his NFL debut",
-   "src": "ESPN"
-  },
-  {
-   "title": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
-   "link": "https://www.espn.com/video/clip/_/id/50452689/was-right-move-raiders-name-mendoza-qb1-cousins-trade",
-   "date": "2026-11-11T14:30:07Z",
-   "desc": "Was it the right move for the Raiders to name Mendoza QB1 after Cousins trade?",
    "src": "ESPN"
   }
  ]
