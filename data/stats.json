@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:21:48.054Z",
+ "updated": "2026-11-20T11:18:13.155Z",
  "season": 2026,
  "team": [
   {
@@ -77,7 +77,7 @@
    "label": "Defensive sacks",
    "value": "22",
    "v": 22,
-   "rank": "T-14th"
+   "rank": "T-15th"
   },
   {
    "key": "interceptions",
@@ -1087,7 +1087,7 @@
    "pos": "DE",
    "posName": "Defensive End",
    "group": "Defense",
-   "age": 27,
+   "age": 28,
    "ht": "6' 3\"",
    "wt": "265 lbs",
    "exp": 6,
@@ -1474,7 +1474,7 @@
   }
  ],
  "advanced": {
-  "throughWeek": 10,
+  "throughWeek": 11,
   "teams": 32,
   "qualifiedQbs": 36,
   "minDropbacks": 100,
@@ -1495,7 +1495,7 @@
     "higher": true,
     "v": 0.428,
     "rank": 15,
-    "nfl": 0.436
+    "nfl": 0.435
    },
    {
     "key": "pass",
@@ -1513,7 +1513,7 @@
     "higher": true,
     "v": -0.193,
     "rank": 31,
-    "nfl": -0.071
+    "nfl": -0.072
    },
    {
     "key": "epa",
@@ -1531,7 +1531,7 @@
     "higher": false,
     "v": 0.477,
     "rank": 32,
-    "nfl": 0.436
+    "nfl": 0.435
    },
    {
     "key": "pass",
@@ -1549,7 +1549,7 @@
     "higher": false,
     "v": -0.053,
     "rank": 22,
-    "nfl": -0.071
+    "nfl": -0.072
    }
   ],
   "passers": [
@@ -1562,10 +1562,10 @@
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-19T21:21:48.054Z"
+  "fetched": "2026-11-20T11:18:13.155Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.994,
   "rows": [
    {
     "key": "passRate",
@@ -1573,7 +1573,7 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.638,
-    "rank": 13,
+    "rank": 12,
     "nfl": 0.612
    },
    {
@@ -1582,7 +1582,7 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.587,
-    "rank": 11,
+    "rank": 10,
     "nfl": 0.557
    },
    {
@@ -1637,7 +1637,7 @@
     "fmt": "pct",
     "v": 0.083,
     "rank": 9,
-    "nfl": 0.067
+    "nfl": 0.066
    },
    {
     "key": "adot",
@@ -1646,7 +1646,7 @@
     "fmt": "num",
     "v": 7.9,
     "rank": 12,
-    "nfl": 7.83
+    "nfl": 7.833
    },
    {
     "key": "blitz",
@@ -1690,7 +1690,7 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.065,
-    "rank": 16,
+    "rank": 15,
     "nfl": 0.064
    },
    {
@@ -1699,7 +1699,7 @@
     "side": "def",
     "fmt": "pct",
     "v": 0.163,
-    "rank": 9,
+    "rank": 10,
     "nfl": 0.153
    }
   ]
