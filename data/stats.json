@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:21:03.230Z",
+ "updated": "2026-11-21T17:19:38.967Z",
  "season": 2026,
  "team": [
   {
@@ -1562,10 +1562,10 @@
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-21T01:21:03.230Z"
+  "fetched": "2026-11-21T17:19:38.967Z"
  },
  "tendencies": {
-  "charted": 0.994,
+  "charted": 1,
   "rows": [
    {
     "key": "passRate",
@@ -1655,7 +1655,7 @@
     "fmt": "pct",
     "v": 0.281,
     "rank": 19,
-    "nfl": 0.313
+    "nfl": 0.312
    },
    {
     "key": "rushers",
@@ -1664,7 +1664,7 @@
     "fmt": "num",
     "v": 4.317,
     "rank": 22,
-    "nfl": 4.396
+    "nfl": 4.394
    },
    {
     "key": "box8",
@@ -1682,7 +1682,7 @@
     "fmt": "num",
     "v": 6.359,
     "rank": 20,
-    "nfl": 6.396
+    "nfl": 6.395
    },
    {
     "key": "sackRate",
