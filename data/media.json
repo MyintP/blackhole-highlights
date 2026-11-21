@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-20T11:18:13.155Z",
+ "updated": "2026-11-21T01:21:03.230Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Joe DeCamillis Presser - 11.20.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-broncos-nfl-week-11-2026-season",
+   "date": "2026-11-20T20:00:00.000Z",
+   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Andrew Janocko and Rob Leonard Presser - 11.19.26",
    "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-broncos-nfl-week-11-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/cody-white-seahawks-nfl-week-10-2026-season",
    "date": "2026-11-12T01:00:00.000Z",
    "desc": "Wide receiver Cody White has three touchdowns so far this season and continues to contribute wherever he can for the Silver and Black. The wideout joins Paul Gutierrez to discuss making the most of his opportunities and ",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Fernando Mendoza Presser - 11.11.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-presser-seahawks-week-10-2026-season",
-   "date": "2026-11-12T00:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media.",
    "src": "Raiders.com"
   }
  ],
