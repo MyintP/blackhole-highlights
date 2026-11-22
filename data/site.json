@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:10:30.357Z",
+ "updated": "2026-11-22T23:20:53.812Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -19,7 +19,7 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "Halftime",
+  "detail": "12:36 - 3rd",
   "postponed": false,
   "score": {
    "us": 10,
@@ -369,7 +369,7 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "Halftime",
+    "detail": "12:36 - 3rd",
     "postponed": false,
     "score": {
      "us": 10,
@@ -541,12 +541,12 @@
     "date": "2026-11-22T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "13:01 - 4th",
+    "detail": "9:46 - 4th",
     "postponed": false,
     "away": {
      "id": "20",
      "abbr": "NYJ",
-     "score": 20,
+     "score": 27,
      "winner": false
     },
     "home": {
@@ -562,7 +562,7 @@
     "date": "2026-11-22T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "Halftime",
+    "detail": "12:36 - 3rd",
     "postponed": false,
     "away": {
      "id": "13",
@@ -1007,16 +1007,16 @@
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "127",
+   "value": "131",
    "unit": "YDS",
-   "line": "6/13, 1 TD"
+   "line": "7/14, 1 TD"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "75",
+   "value": "76",
    "unit": "YDS",
-   "line": "9 CAR"
+   "line": "10 CAR"
   },
   {
    "cat": "Receiving Yards",
@@ -1043,103 +1043,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T23:10:30.357Z"
+   "at": "2026-11-22T23:20:53.812Z"
   }
  },
  "nflverseTried": "2026-11-22T23:10:30.357Z"
