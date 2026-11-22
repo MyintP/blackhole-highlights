@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:31:15.189Z",
+ "updated": "2026-11-22T23:41:33.691Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -19,10 +19,10 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "7:38 - 3rd",
+  "detail": "4:24 - 3rd",
   "postponed": false,
   "score": {
-   "us": 10,
+   "us": 17,
    "them": 17
   },
   "win": null,
@@ -369,10 +369,10 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "7:38 - 3rd",
+    "detail": "4:24 - 3rd",
     "postponed": false,
     "score": {
-     "us": 10,
+     "us": 17,
      "them": 17
     },
     "win": null,
@@ -541,7 +541,7 @@
     "date": "2026-11-22T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "3:50 - 4th",
+    "detail": "1:49 - 4th",
     "postponed": false,
     "away": {
      "id": "20",
@@ -552,7 +552,7 @@
     "home": {
      "id": "24",
      "abbr": "LAC",
-     "score": 17,
+     "score": 24,
      "winner": false
     },
     "link": null
@@ -562,12 +562,12 @@
     "date": "2026-11-22T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "7:38 - 3rd",
+    "detail": "4:24 - 3rd",
     "postponed": false,
     "away": {
      "id": "13",
      "abbr": "LV",
-     "score": 10,
+     "score": 17,
      "winner": false
     },
     "home": {
@@ -922,6 +922,13 @@
     "ret": "2026-11-29"
    },
    {
+    "name": "Tim Keenan III",
+    "pos": "DT",
+    "injury": "Knee",
+    "status": "Questionable",
+    "ret": "2026-11-29"
+   },
+   {
     "name": "Adam Butler",
     "pos": "DT",
     "injury": "Concussion",
@@ -934,13 +941,6 @@
     "injury": "Undisclosed",
     "status": "Questionable",
     "ret": "2026-11-22"
-   },
-   {
-    "name": "Tim Keenan III",
-    "pos": "DT",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-29"
    }
   ],
   "them": [
@@ -1007,9 +1007,9 @@
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "131",
+   "value": "150",
    "unit": "YDS",
-   "line": "7/14, 1 TD"
+   "line": "8/15, 2 TD"
   },
   {
    "cat": "Rushing Yards",
@@ -1043,67 +1043,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T23:31:15.189Z"
+   "at": "2026-11-22T23:41:33.691Z"
   }
  },
  "nflverseTried": "2026-11-22T23:10:30.357Z"
