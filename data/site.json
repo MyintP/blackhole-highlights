@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:29:03.411Z",
+ "updated": "2026-11-22T22:39:26.876Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -19,10 +19,10 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "7:39 - 2nd",
+  "detail": "3:55 - 2nd",
   "postponed": false,
   "score": {
-   "us": 0,
+   "us": 3,
    "them": 17
   },
   "win": null,
@@ -369,10 +369,10 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "7:39 - 2nd",
+    "detail": "3:55 - 2nd",
     "postponed": false,
     "score": {
-     "us": 0,
+     "us": 3,
      "them": 17
     },
     "win": null,
@@ -541,7 +541,7 @@
     "date": "2026-11-22T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "Halftime",
+    "detail": "13:23 - 3rd",
     "postponed": false,
     "away": {
      "id": "20",
@@ -562,12 +562,12 @@
     "date": "2026-11-22T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "7:39 - 2nd",
+    "detail": "3:55 - 2nd",
     "postponed": false,
     "away": {
      "id": "13",
      "abbr": "LV",
-     "score": 0,
+     "score": 3,
      "winner": false
     },
     "home": {
@@ -986,9 +986,9 @@
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "36",
+   "value": "40",
    "unit": "YDS",
-   "line": "3/8"
+   "line": "4/10"
   },
   {
    "cat": "Rushing Yards",
@@ -1005,77 +1005,84 @@
    "line": "1 REC"
   },
   {
+   "cat": "Sacks",
+   "name": "Nakobe Dean",
+   "value": "1",
+   "unit": "SACKS",
+   "line": "1"
+  },
+  {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "6",
+   "value": "7",
    "unit": "TOT",
-   "line": "2 SOLO"
+   "line": "3 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T22:29:03.411Z"
+   "at": "2026-11-22T22:39:26.876Z"
   }
  },
  "nflverseTried": "2026-11-22T11:01:52.282Z"
