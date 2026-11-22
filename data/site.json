@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:47:41.172Z",
+ "updated": "2026-11-22T21:58:00.939Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -19,7 +19,7 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "5:41 - 1st",
+  "detail": "15:00 - 2nd",
   "postponed": false,
   "score": {
    "us": 0,
@@ -369,7 +369,7 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "5:41 - 1st",
+    "detail": "15:00 - 2nd",
     "postponed": false,
     "score": {
      "us": 0,
@@ -541,7 +541,7 @@
     "date": "2026-11-22T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "12:01 - 2nd",
+    "detail": "6:36 - 2nd",
     "postponed": false,
     "away": {
      "id": "20",
@@ -562,7 +562,7 @@
     "date": "2026-11-22T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "5:41 - 1st",
+    "detail": "15:00 - 2nd",
     "postponed": false,
     "away": {
      "id": "13",
@@ -1007,75 +1007,75 @@
   {
    "cat": "Tackles",
    "name": "Quay Walker",
-   "value": "2",
+   "value": "5",
    "unit": "TOT",
-   "line": "2 SOLO"
+   "line": "4 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T21:47:41.172Z"
+   "at": "2026-11-22T21:58:00.939Z"
   }
  },
  "nflverseTried": "2026-11-22T11:01:52.282Z"
