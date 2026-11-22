@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:20:53.812Z",
+ "updated": "2026-11-22T23:31:15.189Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -19,7 +19,7 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "12:36 - 3rd",
+  "detail": "7:38 - 3rd",
   "postponed": false,
   "score": {
    "us": 10,
@@ -369,7 +369,7 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "12:36 - 3rd",
+    "detail": "7:38 - 3rd",
     "postponed": false,
     "score": {
      "us": 10,
@@ -541,7 +541,7 @@
     "date": "2026-11-22T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "9:46 - 4th",
+    "detail": "3:50 - 4th",
     "postponed": false,
     "away": {
      "id": "20",
@@ -562,7 +562,7 @@
     "date": "2026-11-22T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "12:36 - 3rd",
+    "detail": "7:38 - 3rd",
     "postponed": false,
     "away": {
      "id": "13",
@@ -922,16 +922,16 @@
     "ret": "2026-11-29"
    },
    {
+    "name": "Adam Butler",
+    "pos": "DT",
+    "injury": "Concussion",
+    "status": "Questionable",
+    "ret": "2026-11-29"
+   },
+   {
     "name": "Dareke Young",
     "pos": "WR",
     "injury": "Undisclosed",
-    "status": "Questionable",
-    "ret": "2026-11-22"
-   },
-   {
-    "name": "Adam Butler",
-    "pos": "DT",
-    "injury": "Head",
     "status": "Questionable",
     "ret": "2026-11-22"
    },
@@ -940,7 +940,7 @@
     "pos": "DT",
     "injury": "Knee",
     "status": "Questionable",
-    "ret": "2026-11-22"
+    "ret": "2026-11-29"
    }
   ],
   "them": [
@@ -1035,75 +1035,75 @@
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "7",
+   "value": "9",
    "unit": "TOT",
-   "line": "3 SOLO"
+   "line": "4 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T23:20:53.812Z"
+   "at": "2026-11-22T23:31:15.189Z"
   }
  },
  "nflverseTried": "2026-11-22T23:10:30.357Z"
