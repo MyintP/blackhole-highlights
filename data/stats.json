@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:19:38.967Z",
+ "updated": "2026-11-22T02:57:55.459Z",
  "season": 2026,
  "team": [
   {
@@ -1179,6 +1179,20 @@
    "link": "https://www.espn.com/nfl/player/_/id/4379416/quay-walker"
   },
   {
+   "id": "4034530",
+   "name": "Chris Williams",
+   "jersey": "72",
+   "pos": "DT",
+   "posName": "Defensive Tackle",
+   "group": "Defense",
+   "age": 28,
+   "ht": "6' 2\"",
+   "wt": "298 lbs",
+   "exp": 5,
+   "college": "Wagner",
+   "link": "https://www.espn.com/nfl/player/_/id/4034530/chris-williams"
+  },
+  {
    "id": "3686689",
    "name": "AJ Cole",
    "jersey": "6",
@@ -1443,20 +1457,6 @@
    "exp": 2,
    "college": "USC",
    "link": "https://www.espn.com/nfl/player/_/id/4686337/greedy-vance"
-  },
-  {
-   "id": "4034530",
-   "name": "Chris Williams",
-   "jersey": null,
-   "pos": "DT",
-   "posName": "Defensive Tackle",
-   "group": "Practice squad",
-   "age": 28,
-   "ht": "6' 2\"",
-   "wt": "298 lbs",
-   "exp": 5,
-   "college": "Wagner",
-   "link": "https://www.espn.com/nfl/player/_/id/4034530/chris-williams"
   },
   {
    "id": "4249616",

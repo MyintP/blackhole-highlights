@@ -1,6 +1,28 @@
 {
- "updated": "2026-11-21T23:02:00.810Z",
+ "updated": "2026-11-22T02:57:55.459Z",
  "items": [
+  {
+   "id": "li6w83",
+   "title": "Raiders tienen un reto de altura en Denver",
+   "link": "https://www.raiders.com/news/raiders-tienen-un-reto-de-altura-en-denver",
+   "src": "Raiders.com",
+   "date": "2026-11-22T01:45:00.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "Las Vegas visita Denver con la urgencia de volver a ganar y la posibilidad de dar un golpe divisional que mantenga al equipo en la pelea.",
+   "author": null
+  },
+  {
+   "id": "1ib6x5g",
+   "title": "Has Bo Nix quieted early-season criticisms ahead of Las Vegas Raiders-Denver Broncos Week 11 matchup?",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146910/raiders-broncos-week-11-preview-bo-nix",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-21T23:32:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "Week 11 reignites a longstanding AFC West rivalry between the Las Vegas Raiders and Denver Broncos. To preview the game, Silver and Black Pride reached out to our frenemies at Mile High Report, and Ian St. Clair was kind enough to answer a few questions about ",
+   "author": "Matt Holder"
+  },
   {
    "id": "1ahlyov",
    "title": "Raiders elevate two players from practice squad ahead of Sunday’s game",
@@ -11,6 +33,28 @@
    "cat": "Roster",
    "desc": "The Las Vegas Raiders have added a tight end and defensive tackle to the active roster ahead of Sunday’s game against the Broncos, but not a kicker.",
    "author": "Adam Hill"
+  },
+  {
+   "id": "dbhc1r",
+   "title": "Division games a true barometer of Raiders progress, or lack of it",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/146560/raiders-week-11-broncos-klint-kubiak",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-21T21:01:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "Divisional games just hit different in the NFL. Featuring the twice-a-year meetings which lead to some heated rematches, the weight division games carry are much heavier than the standard affair of matchups league schedule makers put forth amongst the 32 teams",
+   "author": "Ray Aspuria"
+  },
+  {
+   "id": "7t5e1l",
+   "title": "Raiders fans have a slight gain in confidence heading into Week 11",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-odds/146998/raiders-fans-have-a-slight-gain-in-confidence-heading-into-week-11",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-21T21:00:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "The Las Vegas Raiders have lost six of their seven games. It has been a rough time for fans after the 3-0 start. While they did have playoff aspirations at first, the team has come back to earth. Raider Nation understands this is a young team. The Raiders are ",
+   "author": "Marcus Johnson"
   },
   {
    "id": "1nmi8oc",
@@ -6750,50 +6794,6 @@
    "cat": "Team",
    "desc": "Rhe Rams have more than enough talent to be impose their will this Sunday in Allegiant Stadium and the Raiders will need to be on high alert.",
    "author": null
-  },
-  {
-   "id": "1o6t4zc",
-   "title": "All-Pro Rams receiver leaves practice with injury, status unclear vs. Raiders",
-   "link": "https://www.reviewjournal.com/sports/raiders/all-pro-rams-receiver-leaves-practice-with-injury-status-unclear-vs-raiders-3903767/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-22T23:48:30.000Z",
-   "kind": "Reporting",
-   "cat": "Injuries",
-   "desc": "Puka Nacua, the Las Vegas native and star Los Angeles Rams receiver, went down with a calf injury three days before a game against the Raiders.",
-   "author": "Greg Beacham The Associated Press"
-  },
-  {
-   "id": "1gsce72",
-   "title": "Klint Kubiak knows his Raiders must course correct in the red zone",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-coaching-staff/143474/raiders-2026-red-zone-failures-klint-kubiak",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-22T21:41:00.000Z",
-   "kind": "Opinion",
-   "cat": "Team",
-   "desc": "Klint Kubiak is clearly a big baller, shot caller, of a play caller. That was the reputation the 39-year-old built as an offensive coordinator and a big reason why the Las Vegas Raiders were deliberate and patient in hiring the hot shot as the new head coach t",
-   "author": "Ray Aspuria"
-  },
-  {
-   "id": "17x7pyk",
-   "title": "Bucky's Breakdown: 3 areas the Raiders can clean up in order to get back in the win column",
-   "link": "https://www.raiders.com/news/bucky-s-breakdown-3-areas-the-raiders-can-clean-up-in-order-to-get-back-in-the-win-column",
-   "src": "Raiders.com",
-   "date": "2026-10-22T21:01:34.000Z",
-   "kind": "Official",
-   "cat": "Analysis",
-   "desc": "With the matchup against the reigning MVP on the horizon, the Raiders must fix a defense that has surrendered 30 or more points in three straight games and failed to get off the field in pivotal second-half moments.",
-   "author": null
-  },
-  {
-   "id": "1sitsrn",
-   "title": "Raiders Linked to 5 Players ahead of the Trade Deadline",
-   "link": "https://www.raidersbeat.com/raiders-linked-to-5-players-ahead-of-trade-deadline/",
-   "src": "RaidersBeat",
-   "date": "2026-10-22T20:36:17.000Z",
-   "kind": "Rumor",
-   "cat": "Roster",
-   "desc": "The Raiders have lost three games in a row, but could they still be... The post Raiders Linked to 5 Players ahead of the Trade Deadline appeared first on Raiders Beat .",
-   "author": "Warren Mitchell"
   }
  ]
 }
