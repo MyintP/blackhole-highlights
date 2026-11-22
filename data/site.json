@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:02:14.770Z",
+ "updated": "2026-11-22T17:03:53.861Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -886,16 +886,16 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Folorunso Fatukasi",
-    "pos": "DT",
-    "injury": "Toe",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-22"
    },
    {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Ankle",
+    "name": "Folorunso Fatukasi",
+    "pos": "DT",
+    "injury": "Toe",
     "status": "Questionable",
     "ret": "2026-11-22"
    },
@@ -965,67 +965,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T12:02:14.770Z"
+   "at": "2026-11-22T17:03:53.861Z"
   }
  },
  "nflverseTried": "2026-11-22T11:01:52.282Z"
