@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:08:26.043Z",
+ "updated": "2026-11-22T22:18:46.400Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -19,11 +19,11 @@
   "tv": "CBS",
   "state": "in",
   "final": false,
-  "detail": "13:56 - 2nd",
+  "detail": "10:35 - 2nd",
   "postponed": false,
   "score": {
    "us": 0,
-   "them": 10
+   "them": 17
   },
   "win": null,
   "tie": false,
@@ -369,11 +369,11 @@
     "tv": "CBS",
     "state": "in",
     "final": false,
-    "detail": "13:56 - 2nd",
+    "detail": "10:35 - 2nd",
     "postponed": false,
     "score": {
      "us": 0,
-     "them": 10
+     "them": 17
     },
     "win": null,
     "tie": false
@@ -541,7 +541,7 @@
     "date": "2026-11-22T21:05Z",
     "state": "in",
     "final": false,
-    "detail": "2:24 - 2nd",
+    "detail": "0:19 - 2nd",
     "postponed": false,
     "away": {
      "id": "20",
@@ -562,7 +562,7 @@
     "date": "2026-11-22T21:25Z",
     "state": "in",
     "final": false,
-    "detail": "13:56 - 2nd",
+    "detail": "10:35 - 2nd",
     "postponed": false,
     "away": {
      "id": "13",
@@ -573,7 +573,7 @@
     "home": {
      "id": "7",
      "abbr": "DEN",
-     "score": 10,
+     "score": 17,
      "winner": false
     },
     "link": null
@@ -1006,76 +1006,76 @@
   },
   {
    "cat": "Tackles",
-   "name": "Quay Walker",
-   "value": "5",
+   "name": "Nakobe Dean",
+   "value": "6",
    "unit": "TOT",
-   "line": "4 SOLO"
+   "line": "3 SOLO"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T22:08:26.043Z"
+   "at": "2026-11-22T22:18:46.400Z"
   }
  },
  "nflverseTried": "2026-11-22T11:01:52.282Z"
