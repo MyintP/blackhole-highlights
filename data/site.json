@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:47:04.942Z",
+ "updated": "2026-11-22T20:57:24.514Z",
  "season": 2026,
  "record": "4-6",
  "divisionPlace": "3rd in AFC West",
@@ -186,7 +186,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "7-2"
+     "record": "8-2"
     },
     "tv": "CBS",
     "state": "post",
@@ -471,7 +471,7 @@
      "name": "Cardinals",
      "location": "Arizona",
      "abbr": "ARI",
-     "record": "3-7"
+     "record": "3-8"
     },
     "tv": "CBS",
     "state": "pre",
@@ -493,7 +493,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "7-2"
+     "record": "8-2"
     },
     "tv": null,
     "state": "pre",
@@ -580,11 +580,11 @@
    {
     "id": "12",
     "name": "Kansas City",
-    "w": 7,
+    "w": 8,
     "l": 2,
     "t": 0,
-    "pct": ".778",
-    "diff": "+81",
+    "pct": ".800",
+    "diff": "+108",
     "us": false
    },
    {
@@ -633,12 +633,12 @@
    {
     "id": "12",
     "name": "Kansas City",
-    "w": 7,
+    "w": 8,
     "l": 2,
     "t": 0,
-    "pct": ".778",
+    "pct": ".800",
     "seed": 2,
-    "diff": "+81",
+    "diff": "+108",
     "us": false
    },
    {
@@ -865,7 +865,7 @@
     "label": "Points allowed",
     "us": {
      "v": 28.9,
-     "rank": "T-31st"
+     "rank": "31st"
     },
     "them": {
      "v": 20.666666666666668,
@@ -1028,67 +1028,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-22T20:47:04.942Z"
+   "at": "2026-11-22T20:57:24.514Z"
   }
  },
  "nflverseTried": "2026-11-22T11:01:52.282Z"
