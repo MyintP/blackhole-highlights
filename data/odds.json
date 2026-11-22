@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-22T17:03:53.861Z",
+ "updated": "2026-11-22T18:01:38.577Z",
  "current": {
   "gameId": "401873075",
   "week": 11,
-  "asOf": "2026-11-22T17:03:53.861Z",
-  "book": "Draft Kings",
+  "asOf": "2026-11-22T18:01:38.577Z",
+  "book": "DraftKings",
   "us": {
    "spread": "+10.5",
    "spreadOdds": "-108",
-   "ml": "+443",
+   "ml": "+444",
    "openSpread": "+8.5",
    "openMl": "+330"
   },
   "them": {
    "spread": "-10.5",
    "spreadOdds": "-111",
-   "ml": "-594",
+   "ml": "-596",
    "openSpread": "-8.5",
    "openMl": "-425",
    "abbr": "DEN"
@@ -109,11 +109,11 @@
    "week": 11,
    "opp": "DEN",
    "spread": "+10.5",
-   "ml": "+443",
+   "ml": "+444",
    "total": 40.5,
-   "asOf": "2026-11-22T17:03:53.861Z",
-   "book": "Draft Kings",
-   "captures": 7
+   "asOf": "2026-11-22T18:01:38.577Z",
+   "book": "DraftKings",
+   "captures": 8
   }
  },
  "record": {
@@ -826,6 +826,15 @@
     "oppMl": "-594",
     "total": 40.5,
     "book": "Draft Kings"
+   },
+   {
+    "asOf": "2026-11-22T18:01:38.577Z",
+    "spread": "+10.5",
+    "spreadOdds": "-108",
+    "ml": "+444",
+    "oppMl": "-596",
+    "total": 40.5,
+    "book": "DraftKings"
    }
   ]
  }
