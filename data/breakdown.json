@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-22T23:10:30.357Z",
+ "fetched": "2026-11-23T21:11:40.699Z",
  "throughWeek": 11,
  "games": {
   "401872928": {
@@ -3889,6 +3889,431 @@
     {
      "kicker": "M.Gay",
      "dist": 43,
+     "result": "made"
+    }
+   ]
+  },
+  "401873075": {
+   "week": 11,
+   "home": false,
+   "offense": {
+    "plays": 69,
+    "epa": -0.065,
+    "sr": 0.319,
+    "pass": {
+     "plays": 47,
+     "epa": -0.065
+    },
+    "rush": {
+     "plays": 22,
+     "epa": -0.067
+    },
+    "explosive": 3,
+    "third": [
+     9,
+     18
+    ]
+   },
+   "defense": {
+    "plays": 71,
+    "epa": 0.088,
+    "sr": 0.493,
+    "pass": {
+     "plays": 39,
+     "epa": 0.129
+    },
+    "rush": {
+     "plays": 32,
+     "epa": 0.038
+    },
+    "explosive": 6,
+    "third": [
+     7,
+     14
+    ]
+   },
+   "scoring": [
+    {
+     "qtr": 1,
+     "time": "08:47",
+     "team": "DEN",
+     "desc": "(8:47) 3-W.Lutz 38 yard field goal is GOOD, Center-48-M.Fraboni, Holder-16-J.Crawshaw.",
+     "score": {
+      "us": 0,
+      "them": 3
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "14:54",
+     "team": "DEN",
+     "desc": "(14:54) 63-A.Palczewski reported in as eligible. 10-B.Nix pass short left to 82-A.Trautman for 1 yard, TOUCHDOWN.",
+     "score": {
+      "us": 0,
+      "them": 10
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "10:38",
+     "team": "DEN",
+     "desc": "(10:38) 63-A.Palczewski reported in as eligible. 20-J.Coleman left guard for 1 yard, TOUCHDOWN. LV-91-T.Keenan was injured during the play.",
+     "score": {
+      "us": 0,
+      "them": 17
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 2,
+     "time": "06:46",
+     "team": "LV",
+     "desc": "(6:46) 14-M.Gay 28 yard field goal is GOOD, Center-47-A.Ward, Holder-6-A.Cole.",
+     "score": {
+      "us": 3,
+      "them": 17
+     }
+    },
+    {
+     "qtr": 2,
+     "time": "02:55",
+     "team": "LV",
+     "desc": "(2:55) (Shotgun) 15-F.Mendoza pass deep right to 2-A.Jeanty for 68 yards, TOUCHDOWN.",
+     "score": {
+      "us": 10,
+      "them": 17
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "05:20",
+     "team": "LV",
+     "desc": "(5:20) 15-F.Mendoza pass short right to 80-I.Thomas for 19 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 17
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 3,
+     "time": "00:24",
+     "team": "DEN",
+     "desc": "(:24) (Shotgun) 20-J.Coleman right tackle for 4 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 24
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "09:26",
+     "team": "DEN",
+     "desc": "(9:26) 20-J.Coleman left tackle for 7 yards, TOUCHDOWN.",
+     "score": {
+      "us": 17,
+      "them": 31
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "04:33",
+     "team": "LV",
+     "desc": "(4:33) (Shotgun) 15-F.Mendoza pass short left to 18-J.Bech for 7 yards, TOUCHDOWN. The touchdown was assisted by replay.",
+     "score": {
+      "us": 24,
+      "them": 31
+     },
+     "pat": "XP good"
+    },
+    {
+     "qtr": 4,
+     "time": "02:00",
+     "team": "DEN",
+     "desc": "(2:00) (Shotgun) 15-F.Mendoza pass short left intended for 1-T.Tucker INTERCEPTED by 29-J.McMillian at LV 35. 29-J.McMillian for 35 yards, TOUCHDOWN.",
+     "score": {
+      "us": 24,
+      "them": 38
+     },
+     "pat": "XP good"
+    }
+   ],
+   "swings": [
+    {
+     "qtr": 3,
+     "time": "05:20",
+     "wpa": 0.11,
+     "desc": "(5:20) 15-F.Mendoza pass short right to 80-I.Thomas for 19 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 2,
+     "time": "02:55",
+     "wpa": 0.104,
+     "desc": "(2:55) (Shotgun) 15-F.Mendoza pass deep right to 2-A.Jeanty for 68 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 4,
+     "time": "02:00",
+     "wpa": -0.101,
+     "desc": "(2:00) (Shotgun) 15-F.Mendoza pass short left intended for 1-T.Tucker INTERCEPTED by 29-J.McMillian at LV 35. 29-J.McMillian for 35 yards, TOUCHDOWN."
+    },
+    {
+     "qtr": 1,
+     "time": "13:18",
+     "wpa": -0.082,
+     "desc": "(13:18) (Shotgun) 10-B.Nix pass deep left to 13-P.Bryant to DEN 41 for 20 yards (3-T.Johnson)."
+    },
+    {
+     "qtr": 1,
+     "time": "10:17",
+     "wpa": -0.08,
+     "desc": "(10:17) 6-A.Cole punts 2 yards to LV 24, Center-47-A.Ward, downed by LV-20-I.Pola-Mao."
+    }
+   ],
+   "drives": [
+    {
+     "n": 1,
+     "team": "DEN",
+     "qtr": 1,
+     "start": "DEN 22",
+     "plays": 6,
+     "top": "3:16",
+     "result": "Punt"
+    },
+    {
+     "n": 2,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 13",
+     "plays": 3,
+     "top": "1:36",
+     "result": "Punt"
+    },
+    {
+     "n": 3,
+     "team": "DEN",
+     "qtr": 1,
+     "start": "LV 24",
+     "plays": 4,
+     "top": "1:25",
+     "result": "Field goal"
+    },
+    {
+     "n": 4,
+     "team": "LV",
+     "qtr": 1,
+     "start": "LV 25",
+     "plays": 4,
+     "top": "3:02",
+     "result": "Punt"
+    },
+    {
+     "n": 5,
+     "team": "DEN",
+     "qtr": 1,
+     "start": "DEN 26",
+     "plays": 12,
+     "top": "5:51",
+     "result": "Touchdown"
+    },
+    {
+     "n": 6,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 14",
+     "plays": 3,
+     "top": "1:07",
+     "result": "Punt"
+    },
+    {
+     "n": 7,
+     "team": "DEN",
+     "qtr": 2,
+     "start": "DEN 28",
+     "plays": 6,
+     "top": "3:08",
+     "result": "Touchdown"
+    },
+    {
+     "n": 8,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 25",
+     "plays": 10,
+     "top": "3:52",
+     "result": "Field goal"
+    },
+    {
+     "n": 9,
+     "team": "DEN",
+     "qtr": 2,
+     "start": "DEN 35",
+     "plays": 3,
+     "top": "2:04",
+     "result": "Punt"
+    },
+    {
+     "n": 10,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 16",
+     "plays": 5,
+     "top": "1:54",
+     "result": "Touchdown"
+    },
+    {
+     "n": 11,
+     "team": "DEN",
+     "qtr": 2,
+     "start": "DEN 26",
+     "plays": 6,
+     "top": "1:28",
+     "result": "Punt"
+    },
+    {
+     "n": 12,
+     "team": "LV",
+     "qtr": 2,
+     "start": "LV 26",
+     "plays": 3,
+     "top": "1:06",
+     "result": "Punt"
+    },
+    {
+     "n": 13,
+     "team": "DEN",
+     "qtr": 2,
+     "start": "50",
+     "plays": 2,
+     "top": "0:11",
+     "result": "Turnover"
+    },
+    {
+     "n": 14,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 28",
+     "plays": 3,
+     "top": "2:24",
+     "result": "Punt"
+    },
+    {
+     "n": 15,
+     "team": "DEN",
+     "qtr": 3,
+     "start": "DEN 4",
+     "plays": 9,
+     "top": "4:41",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 16,
+     "team": "LV",
+     "qtr": 3,
+     "start": "DEN 39",
+     "plays": 5,
+     "top": "2:42",
+     "result": "Touchdown"
+    },
+    {
+     "n": 17,
+     "team": "DEN",
+     "qtr": 3,
+     "start": "DEN 28",
+     "plays": 10,
+     "top": "4:53",
+     "result": "Touchdown"
+    },
+    {
+     "n": 18,
+     "team": "LV",
+     "qtr": 3,
+     "start": "LV 30",
+     "plays": 7,
+     "top": "3:08",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 19,
+     "team": "DEN",
+     "qtr": 4,
+     "start": "DEN 46",
+     "plays": 5,
+     "top": "2:51",
+     "result": "Touchdown"
+    },
+    {
+     "n": 20,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 27",
+     "plays": 4,
+     "top": "0:57",
+     "result": "Punt"
+    },
+    {
+     "n": 21,
+     "team": "DEN",
+     "qtr": 4,
+     "start": "DEN 22",
+     "plays": 3,
+     "top": "0:53",
+     "result": "Punt"
+    },
+    {
+     "n": 22,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 31",
+     "plays": 8,
+     "top": "3:02",
+     "result": "Touchdown"
+    },
+    {
+     "n": 23,
+     "team": "DEN",
+     "qtr": 4,
+     "start": "DEN 20",
+     "plays": 3,
+     "top": "2:06",
+     "result": "Punt"
+    },
+    {
+     "n": 24,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 26",
+     "plays": 3,
+     "top": "0:31",
+     "result": "Opp touchdown"
+    },
+    {
+     "n": 25,
+     "team": "LV",
+     "qtr": 4,
+     "start": "LV 35",
+     "plays": 9,
+     "top": "0:55",
+     "result": "Turnover on downs"
+    },
+    {
+     "n": 26,
+     "team": "DEN",
+     "qtr": 4,
+     "start": "DEN 44",
+     "plays": 2,
+     "top": "0:57",
+     "result": "End of half"
+    }
+   ],
+   "kicks": [
+    {
+     "kicker": "M.Gay",
+     "dist": 28,
      "result": "made"
     }
    ]

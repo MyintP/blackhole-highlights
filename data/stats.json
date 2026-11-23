@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:52:45.962Z",
+ "updated": "2026-11-23T21:11:40.699Z",
  "season": 2026,
  "team": [
   {
@@ -1492,17 +1492,17 @@
     "label": "EPA per play",
     "side": "off",
     "higher": true,
-    "v": -0.001,
-    "rank": 17,
-    "nfl": 0.013
+    "v": -0.008,
+    "rank": 19,
+    "nfl": 0.014
    },
    {
     "key": "sr",
     "label": "Success rate",
     "side": "off",
     "higher": true,
-    "v": 0.428,
-    "rank": 16,
+    "v": 0.417,
+    "rank": 22,
     "nfl": 0.436
    },
    {
@@ -1510,8 +1510,8 @@
     "label": "EPA per dropback",
     "side": "off",
     "higher": true,
-    "v": 0.107,
-    "rank": 14,
+    "v": 0.09,
+    "rank": 15,
     "nfl": 0.066
    },
    {
@@ -1519,25 +1519,25 @@
     "label": "EPA per rush",
     "side": "off",
     "higher": true,
-    "v": -0.193,
+    "v": -0.182,
     "rank": 31,
-    "nfl": -0.07
+    "nfl": -0.068
    },
    {
     "key": "epa",
     "label": "EPA per play allowed",
     "side": "def",
     "higher": false,
-    "v": 0.073,
+    "v": 0.074,
     "rank": 28,
-    "nfl": 0.013
+    "nfl": 0.014
    },
    {
     "key": "sr",
     "label": "Success rate allowed",
     "side": "def",
     "higher": false,
-    "v": 0.477,
+    "v": 0.479,
     "rank": 30,
     "nfl": 0.436
    },
@@ -1546,7 +1546,7 @@
     "label": "EPA per dropback allowed",
     "side": "def",
     "higher": false,
-    "v": 0.169,
+    "v": 0.165,
     "rank": 28,
     "nfl": 0.066
    },
@@ -1555,33 +1555,33 @@
     "label": "EPA per rush allowed",
     "side": "def",
     "higher": false,
-    "v": -0.053,
-    "rank": 21,
-    "nfl": -0.07
+    "v": -0.044,
+    "rank": 23,
+    "nfl": -0.068
    }
   ],
   "passers": [
    {
     "name": "F.Mendoza",
-    "dropbacks": 43,
-    "epa": -0.17,
+    "dropbacks": 85,
+    "epa": -0.102,
     "epaRank": null,
-    "cpoe": -3.2,
+    "cpoe": -9.1,
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-22T23:10:30.357Z"
+  "fetched": "2026-11-23T21:11:40.699Z"
  },
  "tendencies": {
-  "charted": 0.956,
+  "charted": 0.932,
   "rows": [
    {
     "key": "passRate",
     "label": "Pass rate",
     "side": "off",
     "fmt": "pct",
-    "v": 0.638,
-    "rank": 10,
+    "v": 0.642,
+    "rank": 9,
     "nfl": 0.612
    },
    {
@@ -1589,7 +1589,7 @@
     "label": "Early-down pass rate",
     "side": "off",
     "fmt": "pct",
-    "v": 0.587,
+    "v": 0.593,
     "rank": 9,
     "nfl": 0.557
    },
@@ -1644,7 +1644,7 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.083,
-    "rank": 10,
+    "rank": 9,
     "nfl": 0.068
    },
    {
@@ -1652,9 +1652,9 @@
     "label": "Average depth of target (yds)",
     "side": "off",
     "fmt": "num",
-    "v": 7.9,
-    "rank": 12,
-    "nfl": 7.836
+    "v": 8,
+    "rank": 10,
+    "nfl": 7.871
    },
    {
     "key": "blitz",
@@ -1697,8 +1697,8 @@
     "label": "Sack rate",
     "side": "def",
     "fmt": "pct",
-    "v": 0.065,
-    "rank": 15,
+    "v": 0.061,
+    "rank": 16,
     "nfl": 0.065
    },
    {
@@ -1706,9 +1706,9 @@
     "label": "QB hit rate",
     "side": "def",
     "fmt": "pct",
-    "v": 0.163,
-    "rank": 11,
-    "nfl": 0.153
+    "v": 0.155,
+    "rank": 12,
+    "nfl": 0.152
    }
   ]
  }

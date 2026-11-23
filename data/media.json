@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-23T08:52:45.962Z",
+ "updated": "2026-11-23T21:11:40.699Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak Presser - 11.23.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-presser-broncos-recap-nfl-week-11-2026-season",
+   "date": "2026-11-23T19:19:11.000Z",
+   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 11 matchup against the Denver Broncos.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Fernando Mendoza Postgame Presser | Week 11 vs. Broncos",
    "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-postgame-presser-nfl-week-11-broncos",
@@ -78,16 +85,16 @@
    "date": "2026-11-16T01:15:00.000Z",
    "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media following the Raiders' Week 10 matchup against the Seattle Seahawks.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Joe DeCamillis Presser - 11.13.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-seahawks-nfl-week-10-2026-season",
-   "date": "2026-11-13T21:37:29.000Z",
-   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
+  {
+   "title": "The good and bad of Fernando Mendoza's 2nd start",
+   "link": "https://www.espn.com/video/clip/_/id/50573256/the-good-bad-fernando-mendoza-2nd-start",
+   "date": "2026-11-23T15:02:33Z",
+   "desc": "Ryan McFadden analyzes Mendoza's last two starts and what they mean for his future as Las Vegas' franchise QB.",
+   "src": "ESPN"
+  },
   {
    "title": "Top NFL plays from Week 11",
    "link": "https://www.espn.com/video/clip/_/id/50569830/top-nfl-plays-week-11",

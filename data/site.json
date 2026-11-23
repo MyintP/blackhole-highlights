@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:52:45.962Z",
+ "updated": "2026-11-23T21:11:40.699Z",
  "season": 2026,
  "record": "4-7",
  "divisionPlace": "3rd in AFC West",
@@ -882,41 +882,6 @@
   "gameId": "401873086",
   "us": [
    {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Ankle",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Dont'e Thornton Jr.",
-    "pos": "WR",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Dalton Johnson",
-    "pos": "S",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Tristin McCollum",
-    "pos": "S",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Bryce Cabeldue",
-    "pos": "G",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
     "name": "Tonka Hemingway",
     "pos": "DT",
     "injury": "Upper Body",
@@ -924,9 +889,9 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Malik Benson",
-    "pos": "WR",
-    "injury": "Coach's Decision",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Ankle",
     "status": "Out",
     "ret": "2026-11-29"
    },
@@ -1017,72 +982,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
-  },
-  "game 11": {
-   "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-23T08:52:45.962Z"
+   "at": "2026-11-23T21:11:40.699Z"
   }
  },
- "nflverseTried": "2026-11-22T23:10:30.357Z"
+ "nflverseTried": "2026-11-23T21:11:40.699Z"
 }

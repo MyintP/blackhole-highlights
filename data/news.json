@@ -1,6 +1,105 @@
 {
- "updated": "2026-11-23T08:52:45.962Z",
+ "updated": "2026-11-23T21:11:40.699Z",
  "items": [
+  {
+   "id": "127m9nf",
+   "title": "App Giveaway coming this Friday!",
+   "link": "https://www.raiders.com/news/app-giveaway-coming-this-friday",
+   "src": "Raiders.com",
+   "date": "2026-11-23T20:00:05.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "On Friday, Nov. 27 at 12 p.m. PT, the Raiders are giving away exclusive Black Friday Raiders prizes.",
+   "author": null
+  },
+  {
+   "id": "b56b11",
+   "title": "Una mejor versión de los Raiders no alcanza ante Denver",
+   "link": "https://www.raiders.com/news/una-mejor-version-de-los-raiders-no-alcanza-ante-denver",
+   "src": "Raiders.com",
+   "date": "2026-11-23T19:40:54.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "Mendoza, Jeanty y Bech encabezaron una ofensiva que fue creciendo durante el partido, pero los Malosos no pudieron ser constantes.",
+   "author": null
+  },
+  {
+   "id": "dndid2",
+   "title": "Gutierrez: Hope abounds with Fernando Mendoza in his second start",
+   "link": "https://www.raiders.com/news/gutierrez-hope-abounds-with-fernando-mendoza-in-his-second-start-raiders",
+   "src": "Raiders.com",
+   "date": "2026-11-23T19:30:00.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "Through two starts, Mendoza has provided excitement for the future to Raider Nation.",
+   "author": null
+  },
+  {
+   "id": "8mximt",
+   "title": "Raiders, Mendoza May Have Found New no. 2 Wideout",
+   "link": "https://www.raidersbeat.com/raiders-mendoza-may-have-found-new-no-2-wideout/",
+   "src": "RaidersBeat",
+   "date": "2026-11-23T19:12:07.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "The Raiders lost 38-24 to the Broncos on Sunday, but there were a few... The post Raiders, Mendoza May Have Found New no. 2 Wideout appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "1j5bbv4",
+   "title": "Fernando Mendoza shows his mettle as Broncos gallop past Raiders 38-24",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-scores-results/147025/raiders-2026-week-11-broncos-game-review",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-23T18:00:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "What looked like a runaway division win by the Denver Broncos instead turned into Las Vegas Raiders rookie quarterback showcasing his mettle on a brisk Mile High Sunday afternoon. Facing yet another stingy defense, the Silver & Black’s prized No. 1 overall pic",
+   "author": "Ray Aspuria"
+  },
+  {
+   "id": "dlgxms",
+   "title": "Raiders Week 12: Meet the Browns",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/138129/raiders-week-12-meet-browns-preview",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-23T16:02:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "The Las Vegas Raiders are preparing to play their 12th regular-season game of the year, the seventh on the road, at the Cleveland Browns on Sunday night. Kickoff is set for 5:20 p.m. PT. Let’s take a quick look at the Browns: Record: The Browns are 6-4 and are",
+   "author": "Bill Williamson"
+  },
+  {
+   "id": "1h7sle8",
+   "title": "Raiders News: Week 11 AFC West roundup, Chiefs keep pace with Broncos",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/147144/raiders-news-week-11-afc-west-broncos-chargers-chiefs",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-23T15:00:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "While we already know that the Denver Broncos managed to get a win in Week 11, taking down the Las Vegas Raiders 38-24 on Sunday, the Broncos are still in a tight battle for first place in the AFC West with the Kansas City Chiefs. Also, we have to take a peek ",
+   "author": "Matt Holder"
+  },
+  {
+   "id": "3tm7qf",
+   "title": "Graney: Second version of Fernando Mendoza better than the first",
+   "link": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-second-version-of-fernando-mendoza-better-than-the-first-3918312/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-23T14:01:17.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Rookie quarterback Fernando Mendoza took a step forward in his second NFL start for the Las Vegas Raiders, despite a costly interception that sealed a loss to Denver.",
+   "author": "Ed Graney"
+  },
+  {
+   "id": "bcbu4c",
+   "title": "Fernando Mendoza feeling ‘more comfortable’ in 2nd Raiders start",
+   "link": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-feeling-more-comfortable-in-2nd-raiders-start-3918308/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-23T14:01:03.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "In completing 18 of 37 passes for 267 yards, Fernando Mendoza helped the Raiders rally from a 17-point deficit and gave them the chance for a late-game tie.",
+   "author": "Sam Gordon"
+  },
   {
    "id": "jlha9a",
    "title": "Despite loss to Broncos, Fernando Mendoza settling in as Raiders' starting QB",
@@ -10,7 +109,17 @@
    "kind": "Reporting",
    "cat": "Games",
    "desc": "Fernando Mendoza, making his second start for the Raiders, had good and bad moments Sunday at Denver. He completed 18 of 37 passes for 267 yards and three touchdowns but was sacked five times and pressured 16 times, and threw a game-sealing pick-six.",
-   "author": null
+   "author": null,
+   "also": [
+    {
+     "id": "w0oqzi",
+     "title": "Fernando Mendoza shows growth despite Las Vegas Raiders’ Week 11 loss to Denver Broncos",
+     "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147168/raiders-broncos-winners-losers-week-11-fernando-mendoza",
+     "src": "Silver & Black Pride",
+     "date": "2026-11-23T20:05:00.000Z",
+     "kind": "Opinion"
+    }
+   ]
   },
   {
    "id": "gvttua",
@@ -6685,105 +6794,6 @@
    "cat": "Games",
    "desc": "It’s time for our weekly tradition of picking Las Vegas Raiders games. The Raiders are hosting the Los Angeles Rams on Sunday at Allegiant Stadium (kickoff is at 1:25 p.m. PT). The Raiders will be trying to snap a three-game losing streak. The Rams are reeling",
    "author": "Bill Williamson"
-  },
-  {
-   "id": "12lh0yw",
-   "title": "What the Raiders are up against in Week 7 with Sean McVay’s Rams",
-   "link": "https://www.reviewjournal.com/sports/raiders/what-the-raiders-are-up-against-in-week-7-with-sean-mcvays-rams-3904623/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-24T14:00:32.000Z",
-   "kind": "Reporting",
-   "cat": "Games",
-   "desc": "The Raiders have lost three straight and will face another tough test Sunday against the Los Angeles Rams.",
-   "author": "Donovan Hicks"
-  },
-  {
-   "id": "1us8ajw",
-   "title": "Nonprofit honors Raiders owner for supporting youth mental health",
-   "link": "https://www.reviewjournal.com/sports/raiders/nonprofit-honors-raiders-owner-for-supporting-youth-mental-health-3904613/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-24T14:00:10.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "Boys Town of Nevada honored Raiders owner Mark Davis at its Impact Gala at the M Resort, just a few miles away from the Raiders’ Henderson practice facility.",
-   "author": "Mick Akers"
-  },
-  {
-   "id": "1b0mq6r",
-   "title": "Raiders special teams duo seeking win, not revenge vs. Rams",
-   "link": "https://www.reviewjournal.com/sports/raiders/raiders-special-teams-duo-seeking-win-not-revenge-vs-rams-3904603/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-24T13:00:24.000Z",
-   "kind": "Reporting",
-   "cat": "Games",
-   "desc": "Raiders special teams coach Joe DeCamillis was fired from the Rams and Matt Gay was allowed to leave in free agency despite winning a Super Bowl together in Los Angeles.",
-   "author": "Adam Hill"
-  },
-  {
-   "id": "1pqk6wc",
-   "title": "How Fernando Mendoza amazes in attacking the Raiders scout team QB role",
-   "link": "https://www.reviewjournal.com/sports/raiders/how-fernando-mendoza-amazes-in-attacking-the-raiders-scout-team-qb-role-3904600/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-24T13:00:12.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "Behind the scenes, rookie Fernando Mendoza has impressed with his diligence and effectiveness as the Raiders’ scout team quarterback mimicking opposing passers.",
-   "author": "Adam Hill"
-  },
-  {
-   "id": "ucbtwo",
-   "title": "Fernando Mendoza is embracing being Raiders' latest Hispanic QB",
-   "link": "https://www.espn.com/nfl/story/_/id/50253768/raiders-qb-fernando-mendoza-hispanic-plunkett-flores",
-   "src": "ESPN",
-   "date": "2026-10-24T10:00:13.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "The rookie's next chapter is inspired by the legacies of a Hispanic coach, QB and a Raiders' fan base embracing the culture.",
-   "author": null
-  },
-  {
-   "id": "rk7ilo",
-   "title": "How Brock Bowers and Michael Mayer are bringing out the best in each other",
-   "link": "https://www.raiders.com/news/how-brock-bowers-and-michael-mayer-are-bringing-out-the-best-in-each-other",
-   "src": "Raiders.com",
-   "date": "2026-10-24T00:29:07.000Z",
-   "kind": "Official",
-   "cat": "Team",
-   "desc": "The Raiders' tight end tandem has formed a great friendship over the years, translating to great results to start the 2026 season.",
-   "author": null
-  },
-  {
-   "id": "1lpmsjq",
-   "title": "Las Vegas Raiders-Los Angeles Rams FEED Topic: Which team will win special teams battle?",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/143765/raiders-rams-week-7-preview-special-teams",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-23T23:15:00.000Z",
-   "kind": "Opinion",
-   "cat": "Team",
-   "desc": "Heading into the Week 7 matchup with the Las Vegas Raiders, the 2026 Los Angeles Rams have drawn comparisons to the 2010 then-San Diego Chargers. That year, the Chargers had the No. 1-ranked offense and No. 1-ranked defense in terms of yards per game, but fini",
-   "author": "Matt Holder"
-  },
-  {
-   "id": "1ji1kz9",
-   "title": "Raiders Week 7: How to attack the Rams stingy defense",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/143483/raiders-2026-week-7-rams-game-preview",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-23T22:30:00.000Z",
-   "kind": "Opinion",
-   "cat": "Games",
-   "desc": "Klint Kubiak will have his hands full this Sunday when his Las Vegas Raiders matchup with the Los Angeles Rams. Ditto for Chris Schula as he’s the man in charge of the Rams defense trying to combat/quell Kubiak’s offense. That’s the high-level tale of the tape",
-   "author": "Ray Aspuria"
-  },
-  {
-   "id": "17kn6ru",
-   "title": "Rams’ injuries pile up ahead of Sunday’s contest against Raiders",
-   "link": "https://www.reviewjournal.com/sports/raiders/rams-injuries-pile-up-ahead-of-sundays-contest-against-raiders-3904276/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-23T21:46:17.000Z",
-   "kind": "Reporting",
-   "cat": "Injuries",
-   "desc": "Star wide receiver Puka Nacua and cornerback Trent McDuffie are questionable to play in the Rams’ game at the Las Vegas Raiders on Sunday.",
-   "author": "Dan Greenspan | The Associated Press"
   }
  ]
 }
