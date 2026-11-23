@@ -1,9 +1,36 @@
 {
- "updated": "2026-11-23T00:43:31.736Z",
+ "updated": "2026-11-23T00:53:49.909Z",
  "season": 2026,
- "record": "4-6",
+ "record": "4-7",
  "divisionPlace": "3rd in AFC West",
  "next": {
+  "id": "401873086",
+  "week": 12,
+  "date": "2026-11-30T01:20Z",
+  "timeTBD": false,
+  "home": false,
+  "opp": {
+   "id": "5",
+   "name": "Browns",
+   "location": "Cleveland",
+   "abbr": "CLE",
+   "record": "6-4"
+  },
+  "tv": "NBC",
+  "state": "pre",
+  "final": false,
+  "detail": null,
+  "postponed": false,
+  "score": null,
+  "win": null,
+  "tie": false,
+  "oppRecord": "6-4",
+  "venue": {
+   "name": "Huntington Bank Field",
+   "city": "Cleveland"
+  }
+ },
+ "last": {
   "id": "401873075",
   "week": 11,
   "date": "2026-11-22T21:25Z",
@@ -14,37 +41,7 @@
    "name": "Broncos",
    "location": "Denver",
    "abbr": "DEN",
-   "record": "7-2"
-  },
-  "tv": "CBS",
-  "state": "in",
-  "final": false,
-  "detail": "1:03 - 4th",
-  "postponed": false,
-  "score": {
-   "us": 24,
-   "them": 38
-  },
-  "win": null,
-  "tie": false,
-  "oppRecord": "7-2",
-  "venue": {
-   "name": "Empower Field at Mile High",
-   "city": "Denver"
-  }
- },
- "last": {
-  "id": "401873062",
-  "week": 10,
-  "date": "2026-11-15T21:05Z",
-  "timeTBD": false,
-  "home": true,
-  "opp": {
-   "id": "26",
-   "name": "Seahawks",
-   "location": "Seattle",
-   "abbr": "SEA",
-   "record": "6-4"
+   "record": "8-2"
   },
   "tv": "CBS",
   "state": "post",
@@ -52,8 +49,8 @@
   "detail": null,
   "postponed": false,
   "score": {
-   "us": 13,
-   "them": 21
+   "us": 24,
+   "them": 38
   },
   "win": false,
   "tie": false,
@@ -61,44 +58,40 @@
    {
     "cat": "Passing Yards",
     "name": "Fernando Mendoza",
-    "value": "143",
+    "value": "267",
     "unit": "YDS",
-    "line": "17/29"
+    "line": "18/37, 3 TD, 1 INT"
    },
    {
     "cat": "Rushing Yards",
-    "name": "Mike Washington Jr.",
-    "value": "23",
+    "name": "Ashton Jeanty",
+    "value": "79",
     "unit": "YDS",
-    "line": "8 CAR"
+    "line": "11 CAR"
    },
    {
     "cat": "Receiving Yards",
     "name": "Ashton Jeanty",
-    "value": "46",
+    "value": "90",
     "unit": "YDS",
-    "line": "4 REC"
+    "line": "5 REC, 1 TD"
    },
    {
     "cat": "Sacks",
-    "name": "Maxx Crosby",
+    "name": "Nakobe Dean",
     "value": "1",
     "unit": "SACKS",
     "line": "1"
    },
    {
     "cat": "Tackles",
-    "name": "Maxx Crosby",
-    "value": "8",
+    "name": "Nakobe Dean",
+    "value": "12",
     "unit": "TOT",
-    "line": "7 SOLO"
+    "line": "6 SOLO"
    }
   ],
-  "recap": {
-   "title": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
-   "link": "https://www.espn.com/nfl/recap?gameId=401873062",
-   "desc": "— Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza."
-  }
+  "recap": null
  },
  "schedule": {
   "bye": 13,
@@ -364,18 +357,18 @@
      "name": "Broncos",
      "location": "Denver",
      "abbr": "DEN",
-     "record": "7-2"
+     "record": "8-2"
     },
     "tv": "CBS",
-    "state": "in",
-    "final": false,
-    "detail": "1:03 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": null,
     "postponed": false,
     "score": {
      "us": 24,
      "them": 38
     },
-    "win": null,
+    "win": false,
     "tie": false
    },
    {
@@ -433,7 +426,7 @@
      "name": "Broncos",
      "location": "Denver",
      "abbr": "DEN",
-     "record": "7-2"
+     "record": "8-2"
     },
     "tv": "CBS",
     "state": "pre",
@@ -560,9 +553,9 @@
    {
     "id": "401873075",
     "date": "2026-11-22T21:25Z",
-    "state": "in",
-    "final": false,
-    "detail": "1:03 - 4th",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "13",
@@ -574,15 +567,25 @@
      "id": "7",
      "abbr": "DEN",
      "score": 38,
-     "winner": false
+     "winner": true
     },
-    "link": null
+    "link": "https://www.espn.com/nfl/game/_/gameId/401873075/raiders-broncos"
    }
   ],
   "byes": []
  },
  "standings": {
   "west": [
+   {
+    "id": "7",
+    "name": "Denver",
+    "w": 8,
+    "l": 2,
+    "t": 0,
+    "pct": ".800",
+    "diff": "+26",
+    "us": false
+   },
    {
     "id": "12",
     "name": "Kansas City",
@@ -594,23 +597,13 @@
     "us": false
    },
    {
-    "id": "7",
-    "name": "Denver",
-    "w": 7,
-    "l": 2,
-    "t": 0,
-    "pct": ".778",
-    "diff": "+12",
-    "us": false
-   },
-   {
     "id": "13",
     "name": "Las Vegas",
     "w": 4,
-    "l": 6,
+    "l": 7,
     "t": 0,
-    "pct": ".400",
-    "diff": "-38",
+    "pct": ".364",
+    "diff": "-52",
     "us": true
    },
    {
@@ -637,14 +630,14 @@
     "us": false
    },
    {
-    "id": "12",
-    "name": "Kansas City",
+    "id": "7",
+    "name": "Denver",
     "w": 8,
     "l": 2,
     "t": 0,
     "pct": ".800",
     "seed": 2,
-    "diff": "+108",
+    "diff": "+26",
     "us": false
    },
    {
@@ -670,14 +663,14 @@
     "us": false
    },
    {
-    "id": "7",
-    "name": "Denver",
-    "w": 7,
+    "id": "12",
+    "name": "Kansas City",
+    "w": 8,
     "l": 2,
     "t": 0,
-    "pct": ".778",
+    "pct": ".800",
     "seed": 5,
-    "diff": "+12",
+    "diff": "+108",
     "us": false
    },
    {
@@ -728,11 +721,11 @@
     "id": "13",
     "name": "Las Vegas",
     "w": 4,
-    "l": 6,
+    "l": 7,
     "t": 0,
-    "pct": ".400",
+    "pct": ".364",
     "seed": 10,
-    "diff": "-38",
+    "diff": "-52",
     "us": true
    },
    {
@@ -804,8 +797,8 @@
   ]
  },
  "matchup": {
-  "gameId": "401873075",
-  "opp": "Broncos",
+  "gameId": "401873086",
+  "opp": "Browns",
   "rows": [
    {
     "label": "Points / game",
@@ -814,8 +807,8 @@
      "rank": "10th"
     },
     "them": {
-     "v": 22,
-     "rank": "T-19th"
+     "v": 18.8,
+     "rank": "27th"
     },
     "higher": true
    },
@@ -826,8 +819,8 @@
      "rank": "23rd"
     },
     "them": {
-     "v": 283.667,
-     "rank": "31st"
+     "v": 339.2,
+     "rank": "20th"
     },
     "higher": true
    },
@@ -838,8 +831,8 @@
      "rank": "12th"
     },
     "them": {
-     "v": 192.222,
-     "rank": "27th"
+     "v": 241.7,
+     "rank": "16th"
     },
     "higher": true
    },
@@ -850,27 +843,39 @@
      "rank": "31st"
     },
     "them": {
-     "v": 91.4,
-     "rank": "27th"
+     "v": 97.5,
+     "rank": "24th"
     },
     "higher": true
    },
    {
-    "label": "Points allowed",
+    "label": "Yards allowed",
     "us": {
-     "v": 28.9,
-     "rank": "30th"
+     "v": 398.9,
+     "rank": null
     },
     "them": {
-     "v": 20.666666666666668,
-     "rank": "8th"
+     "v": 345.6,
+     "rank": null
+    },
+    "higher": false
+   },
+   {
+    "label": "Points allowed",
+    "us": {
+     "v": 29.727272727272727,
+     "rank": "32nd"
+    },
+    "them": {
+     "v": 22,
+     "rank": "T-14th"
     },
     "higher": false
    }
   ]
  },
  "injuries": {
-  "gameId": "401873075",
+  "gameId": "401873086",
   "us": [
    {
     "name": "Dont'e Thornton Jr.",
@@ -952,165 +957,127 @@
   ],
   "them": [
    {
-    "name": "Lil'Jordan Humphrey",
-    "pos": "WR",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-27"
-   },
-   {
-    "name": "Brandon Jones",
+    "name": "Ronnie Hickman",
     "pos": "S",
-    "injury": "Hamstring",
+    "injury": "Concussion",
     "status": "Out",
-    "ret": "2026-11-27"
+    "ret": "2026-11-29"
    },
    {
-    "name": "Sam Ehlinger",
-    "pos": "QB",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-27"
-   },
-   {
-    "name": "Gavin Ortega",
-    "pos": "OT",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-27"
-   },
-   {
-    "name": "Kage Casey",
-    "pos": "OT",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-27"
-   },
-   {
-    "name": "Jordan Jackson",
-    "pos": "DT",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-27"
-   },
-   {
-    "name": "Dallen Bentley",
-    "pos": "TE",
-    "injury": "Coach's Decision",
-    "status": "Out",
-    "ret": "2026-11-27"
-   },
-   {
-    "name": "Caleb Lohner",
-    "pos": "TE",
-    "injury": "Foot",
+    "name": "Michael Burton",
+    "pos": "FB",
+    "injury": "Calf",
     "status": "Injured Reserve",
-    "ret": "2026-11-27"
+    "ret": "2026-12-20"
    }
   ],
-  "opp": "Broncos"
+  "opp": "Browns"
  },
  "leaders": [
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "267",
+   "value": "191",
    "unit": "YDS",
-   "line": "18/37, 3 TD, 1 INT"
+   "line": "23/37"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "79",
+   "value": "380",
    "unit": "YDS",
-   "line": "11 CAR"
+   "line": "123 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
-   "name": "Ashton Jeanty",
-   "value": "90",
+   "name": "Brock Bowers",
+   "value": "676",
    "unit": "YDS",
-   "line": "5 REC, 1 TD"
+   "line": "50 REC, 6 TD"
   },
   {
    "cat": "Sacks",
-   "name": "Nakobe Dean",
-   "value": "1",
+   "name": "Maxx Crosby",
+   "value": "5",
    "unit": "SACKS",
-   "line": "1"
+   "line": "5"
   },
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "12",
+   "value": "107",
    "unit": "TOT",
-   "line": "6 SOLO"
+   "line": "107"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
+  },
+  "game 11": {
+   "ok": true,
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-23T00:43:31.736Z"
+   "at": "2026-11-23T00:53:49.909Z"
   }
  },
  "nflverseTried": "2026-11-22T23:10:30.357Z"
