@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-21T17:19:38.967Z",
+ "updated": "2026-11-23T08:52:45.962Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Fernando Mendoza Postgame Presser | Week 11 vs. Broncos",
+   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-postgame-presser-nfl-week-11-broncos",
+   "date": "2026-11-23T02:00:00.000Z",
+   "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media following the Raiders' Week 11 matchup against the Denver Broncos.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Ian Rapoport on Fernando Mendoza's first start, Brock Bowers and Raiders-Broncos",
    "link": "https://www.raiders.com/audio/ian-rapoport-fernando-mendoza-brock-bowers-broncos-nfl-week-11-2026",
@@ -78,21 +85,21 @@
    "date": "2026-11-13T21:37:29.000Z",
    "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Andrew Janocko and Rob Leonard Presser - 11.12.26",
-   "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-nfl-week-10-seahawks-2026-season",
-   "date": "2026-11-13T00:49:26.000Z",
-   "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
   {
-   "title": "Why Raiders' run defense remains a concern",
-   "link": "https://www.espn.com/video/clip/_/id/50538342/why-raiders-run-defense-remains-concern",
-   "date": "2026-11-20T05:24:00Z",
-   "desc": "Ryan McFadden explains why the Raiders must strengthen their interior defensive line following loss to Seahawks.",
+   "title": "Top NFL plays from Week 11",
+   "link": "https://www.espn.com/video/clip/_/id/50569830/top-nfl-plays-week-11",
+   "date": "2026-11-23T04:30:58Z",
+   "desc": "Top NFL plays from Week 11",
+   "src": "ESPN"
+  },
+  {
+   "title": "Mendoza throws 3 TDs, but Raiders fall to Broncos in Denver",
+   "link": "https://www.espn.com/video/clip/_/id/50567555/mendoza-throws-3-tds-raiders-fall-broncos-denver",
+   "date": "2026-11-23T00:50:54Z",
+   "desc": "Mendoza throws 3 TDs, but Raiders fall to Broncos in Denver",
    "src": "ESPN"
   },
   {

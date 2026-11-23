@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:53:49.909Z",
+ "updated": "2026-11-23T08:52:45.962Z",
  "games": {
   "401872928": {
    "id": "401872928",
@@ -1693,8 +1693,12 @@
      }
     ]
    },
-   "recap": null,
-   "attendance": 0
+   "recap": {
+    "title": "Jonah Coleman powers Broncos past Raiders 38-24 as Denver honors the late Tom Jackson",
+    "link": "https://www.espn.com/nfl/recap?gameId=401873075",
+    "desc": "— Forty years after his retirement from football and 48 hours after his death at age 75, the Denver Broncos set aside a game ball for Tom Jackson..."
+   },
+   "attendance": 76827
   }
  }
 }

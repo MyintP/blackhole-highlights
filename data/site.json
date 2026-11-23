@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:53:49.909Z",
+ "updated": "2026-11-23T08:52:45.962Z",
  "season": 2026,
  "record": "4-7",
  "divisionPlace": "3rd in AFC West",
@@ -91,7 +91,11 @@
     "line": "6 SOLO"
    }
   ],
-  "recap": null
+  "recap": {
+   "title": "Jonah Coleman powers Broncos past Raiders 38-24 as Denver honors the late Tom Jackson",
+   "link": "https://www.espn.com/nfl/recap?gameId=401873075",
+   "desc": "— Forty years after his retirement from football and 48 hours after his death at age 75, the Denver Broncos set aside a game ball for Tom Jackson..."
+  }
  },
  "schedule": {
   "bye": 13,
@@ -307,7 +311,7 @@
      "name": "49ers",
      "location": "San Francisco",
      "abbr": "SF",
-     "record": "8-1"
+     "record": "9-1"
     },
     "tv": "Fox",
     "state": "post",
@@ -641,25 +645,25 @@
     "us": false
    },
    {
-    "id": "30",
-    "name": "Jacksonville",
-    "w": 7,
-    "l": 2,
-    "t": 0,
-    "pct": ".778",
-    "seed": 3,
-    "diff": "+125",
-    "us": false
-   },
-   {
     "id": "4",
     "name": "Cincinnati",
     "w": 7,
     "l": 2,
     "t": 0,
     "pct": ".778",
-    "seed": 4,
+    "seed": 3,
     "diff": "+85",
+    "us": false
+   },
+   {
+    "id": "30",
+    "name": "Jacksonville",
+    "w": 7,
+    "l": 3,
+    "t": 0,
+    "pct": ".700",
+    "seed": 4,
+    "diff": "+120",
     "us": false
    },
    {
@@ -803,8 +807,8 @@
    {
     "label": "Points / game",
     "us": {
-     "v": 25.1,
-     "rank": "10th"
+     "v": 25,
+     "rank": "11th"
     },
     "them": {
      "v": 18.8,
@@ -815,31 +819,31 @@
    {
     "label": "Total offense",
     "us": {
-     "v": 325.1,
-     "rank": "23rd"
+     "v": 332.818,
+     "rank": "22nd"
     },
     "them": {
      "v": 339.2,
-     "rank": "20th"
+     "rank": "19th"
     },
     "higher": true
    },
    {
     "label": "Passing offense",
     "us": {
-     "v": 254.4,
+     "v": 255.545,
      "rank": "12th"
     },
     "them": {
      "v": 241.7,
-     "rank": "16th"
+     "rank": "15th"
     },
     "higher": true
    },
    {
     "label": "Rushing offense",
     "us": {
-     "v": 70.7,
+     "v": 77.3,
      "rank": "31st"
     },
     "them": {
@@ -851,7 +855,7 @@
    {
     "label": "Yards allowed",
     "us": {
-     "v": 398.9,
+     "v": 395.2,
      "rank": null
     },
     "them": {
@@ -877,6 +881,13 @@
  "injuries": {
   "gameId": "401873086",
   "us": [
+   {
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Ankle",
+    "status": "Out",
+    "ret": "2026-11-29"
+   },
    {
     "name": "Dont'e Thornton Jr.",
     "pos": "WR",
@@ -920,18 +931,11 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Ankle",
-    "status": "Out",
-    "ret": "2026-11-29"
-   },
-   {
     "name": "JJ Pegues",
     "pos": "DT",
     "injury": "Forearm",
     "status": "Questionable",
-    "ret": "2026-11-22"
+    "ret": "2026-11-29"
    },
    {
     "name": "Tim Keenan III",
@@ -950,9 +954,9 @@
    {
     "name": "Dareke Young",
     "pos": "WR",
-    "injury": "Undisclosed",
+    "injury": "Neck",
     "status": "Questionable",
-    "ret": "2026-11-22"
+    "ret": "2026-11-29"
    }
   ],
   "them": [
@@ -977,16 +981,16 @@
   {
    "cat": "Passing Yards",
    "name": "Fernando Mendoza",
-   "value": "191",
+   "value": "458",
    "unit": "YDS",
-   "line": "23/37"
+   "line": "41/74, 3 TD, 1 INT"
   },
   {
    "cat": "Rushing Yards",
    "name": "Ashton Jeanty",
-   "value": "380",
+   "value": "459",
    "unit": "YDS",
-   "line": "123 CAR, 1 TD"
+   "line": "134 CAR, 1 TD"
   },
   {
    "cat": "Receiving Yards",
@@ -1005,79 +1009,79 @@
   {
    "cat": "Tackles",
    "name": "Nakobe Dean",
-   "value": "107",
+   "value": "119",
    "unit": "TOT",
-   "line": "107"
+   "line": "119"
   }
  ],
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "game 11": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-23T00:53:49.909Z"
+   "at": "2026-11-23T08:52:45.962Z"
   }
  },
  "nflverseTried": "2026-11-22T23:10:30.357Z"
