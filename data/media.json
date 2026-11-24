@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-23T21:11:40.699Z",
+ "updated": "2026-11-24T17:28:13.314Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Fernando Mendoza takes another step forward in loss to Broncos",
+   "link": "https://www.raiders.com/audio/fernando-mendoza-broncos-recap-nfl-week-11-2026-season",
+   "date": "2026-11-24T01:00:00.000Z",
+   "desc": "Jason Horowitz and Kirk Morrison recap the Raiders' Week 11 matchup against the Denver Broncos on Raiders Roundtable.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak Presser - 11.23.26",
    "link": "https://www.raiders.com/audio/klint-kubiak-presser-broncos-recap-nfl-week-11-2026-season",
@@ -77,13 +84,6 @@
    "link": "https://www.raiders.com/audio/klint-kubiak-recap-presser-nfl-week-10-2026-seahawks",
    "date": "2026-11-16T22:00:00.000Z",
    "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 10 matchup against the Seattle Seahawks.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Fernando Mendoza Postgame Presser | Week 10 vs. Seahawks",
-   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-postgame-presser-nfl-week-10-seahawks-2026",
-   "date": "2026-11-16T01:15:00.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media following the Raiders' Week 10 matchup against the Seattle Seahawks.",
    "src": "Raiders.com"
   }
  ],

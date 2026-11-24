@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-23T21:11:40.699Z",
+ "fetched": "2026-11-24T17:28:13.314Z",
  "throughWeek": 11,
  "games": {
   "401872928": {
@@ -7,15 +7,15 @@
    "home": true,
    "offense": {
     "plays": 65,
-    "epa": -0.015,
-    "sr": 0.431,
+    "epa": 0,
+    "sr": 0.477,
     "pass": {
      "plays": 32,
-     "epa": 0.043
+     "epa": 0.048
     },
     "rush": {
      "plays": 33,
-     "epa": -0.071
+     "epa": -0.046
     },
     "explosive": 5,
     "third": [
@@ -25,15 +25,15 @@
    },
    "defense": {
     "plays": 55,
-    "epa": -0.179,
-    "sr": 0.345,
+    "epa": -0.16,
+    "sr": 0.382,
     "pass": {
      "plays": 40,
-     "epa": -0.121
+     "epa": -0.104
     },
     "rush": {
      "plays": 15,
-     "epa": -0.333
+     "epa": -0.309
     },
     "explosive": 6,
     "third": [
@@ -377,15 +377,15 @@
    "home": false,
    "offense": {
     "plays": 60,
-    "epa": -0.049,
+    "epa": -0.026,
     "sr": 0.35,
     "pass": {
      "plays": 33,
-     "epa": 0.23
+     "epa": 0.25
     },
     "rush": {
      "plays": 27,
-     "epa": -0.39
+     "epa": -0.363
     },
     "explosive": 4,
     "third": [
@@ -395,15 +395,15 @@
    },
    "defense": {
     "plays": 67,
-    "epa": -0.246,
-    "sr": 0.328,
+    "epa": -0.223,
+    "sr": 0.403,
     "pass": {
      "plays": 34,
-     "epa": -0.089
+     "epa": -0.083
     },
     "rush": {
      "plays": 33,
-     "epa": -0.408
+     "epa": -0.367
     },
     "explosive": 4,
     "third": [
@@ -769,15 +769,15 @@
    "home": false,
    "offense": {
     "plays": 68,
-    "epa": 0.119,
+    "epa": 0.13,
     "sr": 0.485,
     "pass": {
      "plays": 43,
-     "epa": 0.252
+     "epa": 0.244
     },
     "rush": {
      "plays": 25,
-     "epa": -0.109
+     "epa": -0.065
     },
     "explosive": 4,
     "third": [
@@ -787,15 +787,15 @@
    },
    "defense": {
     "plays": 74,
-    "epa": -0.043,
-    "sr": 0.527,
+    "epa": -0.035,
+    "sr": 0.581,
     "pass": {
      "plays": 47,
-     "epa": -0.067
+     "epa": -0.066
     },
     "rush": {
      "plays": 27,
-     "epa": 0
+     "epa": 0.019
     },
     "explosive": 4,
     "third": [
@@ -1178,15 +1178,15 @@
    "home": true,
    "offense": {
     "plays": 81,
-    "epa": 0.063,
+    "epa": 0.081,
     "sr": 0.506,
     "pass": {
      "plays": 54,
-     "epa": 0.215
+     "epa": 0.222
     },
     "rush": {
      "plays": 27,
-     "epa": -0.242
+     "epa": -0.2
     },
     "explosive": 8,
     "third": [
@@ -1196,15 +1196,15 @@
    },
    "defense": {
     "plays": 60,
-    "epa": 0.107,
+    "epa": 0.131,
     "sr": 0.417,
     "pass": {
      "plays": 36,
-     "epa": 0.058
+     "epa": 0.083
     },
     "rush": {
      "plays": 24,
-     "epa": 0.182
+     "epa": 0.203
     },
     "explosive": 8,
     "third": [
@@ -1599,15 +1599,15 @@
    "home": false,
    "offense": {
     "plays": 60,
-    "epa": -0.027,
+    "epa": -0.024,
     "sr": 0.433,
     "pass": {
      "plays": 42,
-     "epa": 0.037
+     "epa": 0.034
     },
     "rush": {
      "plays": 18,
-     "epa": -0.178
+     "epa": -0.16
     },
     "explosive": 4,
     "third": [
@@ -1617,15 +1617,15 @@
    },
    "defense": {
     "plays": 72,
-    "epa": 0.316,
-    "sr": 0.528,
+    "epa": 0.311,
+    "sr": 0.514,
     "pass": {
      "plays": 45,
-     "epa": 0.598
+     "epa": 0.58
     },
     "rush": {
      "plays": 27,
-     "epa": -0.154
+     "epa": -0.137
     },
     "explosive": 11,
     "third": [
@@ -1993,15 +1993,15 @@
    "home": true,
    "offense": {
     "plays": 66,
-    "epa": 0.11,
-    "sr": 0.439,
+    "epa": 0.14,
+    "sr": 0.5,
     "pass": {
      "plays": 46,
-     "epa": 0.267
+     "epa": 0.259
     },
     "rush": {
      "plays": 20,
-     "epa": -0.252
+     "epa": -0.134
     },
     "explosive": 6,
     "third": [
@@ -2011,15 +2011,15 @@
    },
    "defense": {
     "plays": 65,
-    "epa": 0.132,
+    "epa": 0.166,
     "sr": 0.492,
     "pass": {
      "plays": 39,
-     "epa": 0.244
+     "epa": 0.259
     },
     "rush": {
      "plays": 26,
-     "epa": -0.037
+     "epa": 0.025
     },
     "explosive": 7,
     "third": [
@@ -2402,15 +2402,15 @@
    "home": true,
    "offense": {
     "plays": 69,
-    "epa": -0.102,
+    "epa": -0.073,
     "sr": 0.362,
     "pass": {
      "plays": 54,
-     "epa": -0.045
+     "epa": -0.029
     },
     "rush": {
      "plays": 15,
-     "epa": -0.308
+     "epa": -0.234
     },
     "explosive": 4,
     "third": [
@@ -2420,15 +2420,15 @@
    },
    "defense": {
     "plays": 69,
-    "epa": 0.148,
-    "sr": 0.58,
+    "epa": 0.186,
+    "sr": 0.623,
     "pass": {
      "plays": 32,
-     "epa": 0.202
+     "epa": 0.22
     },
     "rush": {
      "plays": 37,
-     "epa": 0.102
+     "epa": 0.155
     },
     "explosive": 4,
     "third": [
@@ -2805,15 +2805,15 @@
    "home": false,
    "offense": {
     "plays": 61,
-    "epa": 0.228,
-    "sr": 0.525,
+    "epa": 0.23,
+    "sr": 0.541,
     "pass": {
      "plays": 30,
-     "epa": 0.569
+     "epa": 0.553
     },
     "rush": {
      "plays": 31,
-     "epa": -0.103
+     "epa": -0.083
     },
     "explosive": 4,
     "third": [
@@ -2823,15 +2823,15 @@
    },
    "defense": {
     "plays": 64,
-    "epa": 0.182,
+    "epa": 0.17,
     "sr": 0.516,
     "pass": {
      "plays": 38,
-     "epa": 0.229
+     "epa": 0.178
     },
     "rush": {
      "plays": 26,
-     "epa": 0.113
+     "epa": 0.159
     },
     "explosive": 10,
     "third": [
@@ -3215,15 +3215,15 @@
    "home": false,
    "offense": {
     "plays": 49,
-    "epa": -0.229,
+    "epa": -0.228,
     "sr": 0.408,
     "pass": {
      "plays": 34,
-     "epa": -0.24
+     "epa": -0.254
     },
     "rush": {
      "plays": 15,
-     "epa": -0.205
+     "epa": -0.171
     },
     "explosive": 4,
     "third": [
@@ -3233,15 +3233,15 @@
    },
    "defense": {
     "plays": 70,
-    "epa": 0.184,
-    "sr": 0.514,
+    "epa": 0.173,
+    "sr": 0.557,
     "pass": {
      "plays": 34,
-     "epa": 0.379
+     "epa": 0.332
     },
     "rush": {
      "plays": 36,
-     "epa": 0.001
+     "epa": 0.023
     },
     "explosive": 7,
     "third": [
@@ -3557,15 +3557,15 @@
    "home": true,
    "offense": {
     "plays": 59,
-    "epa": -0.194,
-    "sr": 0.305,
+    "epa": -0.164,
+    "sr": 0.339,
     "pass": {
      "plays": 39,
-     "epa": -0.207
+     "epa": -0.179
     },
     "rush": {
      "plays": 20,
-     "epa": -0.169
+     "epa": -0.134
     },
     "explosive": 3,
     "third": [
@@ -3575,15 +3575,15 @@
    },
    "defense": {
     "plays": 54,
-    "epa": 0.081,
-    "sr": 0.481,
+    "epa": 0.089,
+    "sr": 0.519,
     "pass": {
      "plays": 24,
-     "epa": 0.281
+     "epa": 0.255
     },
     "rush": {
      "plays": 30,
-     "epa": -0.08
+     "epa": -0.045
     },
     "explosive": 8,
     "third": [
@@ -3898,15 +3898,15 @@
    "home": false,
    "offense": {
     "plays": 69,
-    "epa": -0.065,
-    "sr": 0.319,
+    "epa": -0.064,
+    "sr": 0.333,
     "pass": {
      "plays": 47,
-     "epa": -0.065
+     "epa": -0.069
     },
     "rush": {
      "plays": 22,
-     "epa": -0.067
+     "epa": -0.053
     },
     "explosive": 3,
     "third": [
@@ -3916,15 +3916,15 @@
    },
    "defense": {
     "plays": 71,
-    "epa": 0.088,
+    "epa": 0.078,
     "sr": 0.493,
     "pass": {
      "plays": 39,
-     "epa": 0.129
+     "epa": 0.114
     },
     "rush": {
      "plays": 32,
-     "epa": 0.038
+     "epa": 0.033
     },
     "explosive": 6,
     "third": [
