@@ -1,6 +1,105 @@
 {
- "updated": "2026-11-24T17:28:13.314Z",
+ "updated": "2026-11-25T02:14:15.670Z",
  "items": [
+  {
+   "id": "1cjsvj9",
+   "title": "What we learned about Fernando Mendoza from his first NFL road start",
+   "link": "https://www.reviewjournal.com/sports/raiders/what-we-learned-about-fernando-mendoza-from-his-first-nfl-road-start-3919000/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-25T01:33:59.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Here is a look at what can be learned about top pick Fernando Mendoza from his second NFL start with the Las Vegas Raiders and his first taste of life on the road against a division rival in the Denver Broncos.",
+   "author": "Adam Hill"
+  },
+  {
+   "id": "1s1kxhf",
+   "title": "Raiders' unofficial depth chart for Week 12 vs. Cleveland Browns",
+   "link": "https://www.raiders.com/news/raiders-unofficial-depth-chart-for-week-12-vs-cleveland-browns",
+   "src": "Raiders.com",
+   "date": "2026-11-25T00:00:00.000Z",
+   "kind": "Official",
+   "cat": "Roster",
+   "desc": "The Las Vegas Raiders released their updated unofficial depth chart ahead of the Week 12 matchup against the Browns.",
+   "author": null
+  },
+  {
+   "id": "zdwf9d",
+   "title": "Maxx Crosby, Raiders defensive line stuff line of cars with Thanksgiving meals",
+   "link": "https://www.reviewjournal.com/sports/raiders/maxx-crosby-raiders-defensive-line-stuff-line-of-cars-with-thanksgiving-meals-3918923/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-24T23:00:56.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Las Vegas Raiders star Maxx Crosby and members of the team’s defensive line took time off from stuffing gaps to stuff cars with Thanksgiving meals on Tuesday.",
+   "author": "Mick Akers"
+  },
+  {
+   "id": "umh8tg",
+   "title": "‘Madden’ exclusive interview: Simms May",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-history/146938/simms-may-michael-madden-madden-movie",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-24T22:41:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "I got the opportunity to sit down and interview actor Simms May, who portrays Michael Madden in the Amazon Prime Video “Madden” movie. You can check out the full interview, From the Set to the Silver and Black: Simms May on “Madden.” Here’s the link. It was a ",
+   "author": "Philip Robinson"
+  },
+  {
+   "id": "15lqr85",
+   "title": "Lester Hayes, Steve Wisniewski among five Raiders advancing in Pro Football Hall of Fame selection process",
+   "link": "https://www.raiders.com/news/lester-hayes-steve-wisniewski-among-five-raiders-advancing-in-pro-football-hall-of-fame-selection-process",
+   "src": "Raiders.com",
+   "date": "2026-11-24T22:20:29.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "The Pro Football Hall of Fame announced Tuesday their 52 players advancing in the voting process for the Hall of Fame Class of 2027.",
+   "author": null
+  },
+  {
+   "id": "100811l",
+   "title": "Ravens Swindled Themselves with Botched Maxx Crosby Deal",
+   "link": "https://www.raidersbeat.com/ravens-swindled-themselves-on-botched-crosby-deal/",
+   "src": "RaidersBeat",
+   "date": "2026-11-24T21:28:49.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "The Raiders might not have any notable rivals outside of their own division and... The post Ravens Swindled Themselves with Botched Maxx Crosby Deal appeared first on Raiders Beat .",
+   "author": "Warren Mitchell"
+  },
+  {
+   "id": "4rygtg",
+   "title": "Fernando Mendoza draws praise in Week 12 NFL Power Rankings for Las Vegas Raiders",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-power-rankings/147254/raiders-nfl-power-rankings-week-12-fernando-mendoza",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-24T20:01:00.000Z",
+   "kind": "Opinion",
+   "cat": "Games",
+   "desc": "Fernando Mendoza is two games into his tenure as the Las Vegas Raiders’ starting quarterback. While he’s 0-2 in those outings, there have been a handful of promising moments, and he’s coming off a three-touchdown performance against a strong Denver Broncos def",
+   "author": "Matt Holder"
+  },
+  {
+   "id": "lgn70a",
+   "title": "1976 Unsung Hero: Dave Dalby",
+   "link": "https://www.raiders.com/news/1976-unsung-hero-dave-dalby",
+   "src": "Raiders.com",
+   "date": "2026-11-24T20:00:10.000Z",
+   "kind": "Official",
+   "cat": "Team",
+   "desc": "Dalby took over for Hall of Fame center Jim Otto, keeping the ball rolling en route to the Raiders first Super Bowl win.",
+   "author": null
+  },
+  {
+   "id": "19ns726",
+   "title": "Could Puka Nacua be on Raiders’ radar in 2027?",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-rumors/147214/raiders-puka-nacua-2027-offseason",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-24T18:04:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "There is a potential major NFL offseason story looming in Los Angeles. Could superstar wide receiver Puka Nacua really be moved from the Los Angeles Rams? ESPN reporter Jeremy Fowler recently suggested Nacua will be playing elsewhere in 2027. Nacua is a free a",
+   "author": "Bill Williamson"
+  },
   {
    "id": "15urt8a",
    "title": "Jermod McCoy takes major leap",
@@ -6695,105 +6794,6 @@
    "cat": "Injuries",
    "desc": "The Las Vegas Raiders will have both players available who had been listed as questionable for Sunday’s game against the Los Angeles Rams.",
    "author": "Adam Hill"
-  },
-  {
-   "id": "rdtal5",
-   "title": "Raiders-Rams inactives: Mike Washington, Quay Walker are playing",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143878/raiders-rams-inactives-mike-washington-playing",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-25T19:03:13.000Z",
-   "kind": "Opinion",
-   "cat": "Team",
-   "desc": "As expected, Las Vegas Raiders rookie running back Mike Washington will play Sunday against the Los Angeles Rams. Kickoff is at 1:25 p.m. PT. Washington was listed as questionable to play with foot/back injuries. He missed Thursday and Friday’s practices after",
-   "author": "Bill Williamson"
-  },
-  {
-   "id": "102904c",
-   "title": "Las Vegas Raiders Week 7 Inactives vs. Los Angeles Rams",
-   "link": "https://www.raiders.com/news/las-vegas-raiders-week-7-inactives-vs-los-angeles-rams",
-   "src": "Raiders.com",
-   "date": "2026-10-25T18:55:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "Before the Raiders take the field for Week 7, view the inactive players for today's game.",
-   "author": null
-  },
-  {
-   "id": "10uqjp5",
-   "title": "LIVE UPDATES: Raiders look to snap 3-game skid against wounded Rams",
-   "link": "https://www.reviewjournal.com/sports/raiders/live-updates-raiders-look-to-snap-3-game-skid-against-wounded-rams-3904904/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-25T16:00:25.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "The Las Vegas Raiders will try to win their first home game since Week 1 when they host the Los Angeles Rams on Sunday. Check back for updates from the game.",
-   "author": "David Schoen"
-  },
-  {
-   "id": "1og0ws5",
-   "title": "Keys to the Game: Raiders need to set the pace against the Rams",
-   "link": "https://www.raiders.com/news/keys-to-the-game-raiders-need-to-set-the-pace-against-the-rams",
-   "src": "Raiders.com",
-   "date": "2026-10-25T15:00:00.000Z",
-   "kind": "Official",
-   "cat": "Games",
-   "desc": "The Raiders will want to keep Stafford and Co. on the sidelines by winning the time-of-possession battle with an efficient offensive performance.",
-   "author": null
-  },
-  {
-   "id": "1liojw0",
-   "title": "Raiders vs. Rams: How to watch, TV schedule, streaming and more",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-game-information/137812/raiders-vs-rams-how-watch-tv-schedule",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-25T14:20:33.000Z",
-   "kind": "Opinion",
-   "cat": "Games",
-   "desc": "The Las Vegas Raiders will be playing their seventh game (their third at home) of the season as host the Los Angeles Rams on Sunday. Here are all the details you need to know how to follow the game before, during and after the action. Game info: Records: The R",
-   "author": "Bill Williamson"
-  },
-  {
-   "id": "ugyfdm",
-   "title": "What channel is the Raiders vs Rams game on today? Time, TV, streaming",
-   "link": "https://www.reviewjournal.com/sports/raiders/what-channel-is-the-raiders-vs-rams-game-on-today-time-tv-streaming-3904888/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-25T14:11:17.000Z",
-   "kind": "Reporting",
-   "cat": "Games",
-   "desc": "The Las Vegas Raiders are back at Allegiant Stadium on Sunday for a Week 7 matchup against the Los Angeles Rams.",
-   "author": "Las Vegas Review-Journal"
-  },
-  {
-   "id": "1kkh1p6",
-   "title": "Raiders News: Quay Walker downgraded to questionable",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-news/143960/raiders-news-quay-walker-downgraded-to-questionable",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-25T14:00:00.000Z",
-   "kind": "Opinion",
-   "cat": "Injuries",
-   "desc": "The Las Vegas Raiders have been dealt with small injuries for most of the year. Now a new player is dealing with issues heading into Week 7. Linebacker Quay Walker has started the first six games and played solidly. He was on the injury report all week, but af",
-   "author": "Marcus Johnson"
-  },
-  {
-   "id": "13zr63n",
-   "title": "Raiders vs. Rams preview: How they match up, injuries, bold predictions",
-   "link": "https://www.reviewjournal.com/sports/raiders/raiders-vs-rams-preview-how-they-match-up-injuries-bold-predictions-3904877/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-25T13:01:10.000Z",
-   "kind": "Reporting",
-   "cat": "Injuries",
-   "desc": "The Raiders will look to snap a three-game losing streak when a battered and bruised contender off to an ugly start in the Los Angeles Rams visits Allegiant Stadium.",
-   "author": "Adam Hill"
-  },
-  {
-   "id": "14raie",
-   "title": "Writing on the Wall for Raiders’ Former 4th-Round Pick",
-   "link": "https://www.raidersbeat.com/writing-on-the-wall-for-raiders-former-4th-round-pick/",
-   "src": "RaidersBeat",
-   "date": "2026-10-25T02:18:08.000Z",
-   "kind": "Opinion",
-   "cat": "Team",
-   "desc": "Outside of Darien Porter and Tonka Hemingway, the Raiders 2025 draft class isn’t off... The post Writing on the Wall for Raiders’ Former 4th-Round Pick appeared first on Raiders Beat .",
-   "author": "Warren Mitchell"
   }
  ]
 }

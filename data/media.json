@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-24T17:28:13.314Z",
+ "updated": "2026-11-25T02:14:15.670Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak: 'We have to be at our best in the clutch'",
+   "link": "https://www.raiders.com/audio/klint-kubiak-preview-deshaun-watson-browns-nfl-week-12-2026-season",
+   "date": "2026-11-24T18:00:00.000Z",
+   "desc": "Head Coach Klint Kubiak recaps the loss to the Broncos and looks ahead to facing the Cleveland Browns in Week 12.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "Ryan Ochoa has always repped The Shield",
+   "link": "https://www.raiders.com/audio/ryan-ochoa-the-shield-nfl-2026-season",
+   "date": "2026-11-24T17:00:00.000Z",
+   "desc": "Raiders host Baron Davis sits down with Ryan Ochoa on this episode of Raiders: Talk of the Nation.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Fernando Mendoza takes another step forward in loss to Broncos",
    "link": "https://www.raiders.com/audio/fernando-mendoza-broncos-recap-nfl-week-11-2026-season",
@@ -71,20 +85,6 @@
    "date": "2026-11-17T17:00:00.000Z",
    "desc": "Raiders host Baron Davis sits down with Mike Washington Jr. on this episode of Raiders: Talk of the Nation.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "A tale of two halves for Raiders and Fernando Mendoza after fast start vs. Seahawks",
-   "link": "https://www.raiders.com/audio/recap-raiders-fernando-mendoza-seahawks-nfl-week-10-2026-season",
-   "date": "2026-11-17T00:00:00.000Z",
-   "desc": "Jason Horowitz and Kirk Morrison recap the Raiders' Week 10 matchup against the Seattle Seahawks on Raiders Roundtable.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak Presser - 11.16.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-recap-presser-nfl-week-10-2026-seahawks",
-   "date": "2026-11-16T22:00:00.000Z",
-   "desc": "Head Coach Klint Kubiak addresses the media to recap the Raiders' Week 10 matchup against the Seattle Seahawks.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
@@ -100,13 +100,6 @@
    "link": "https://www.espn.com/video/clip/_/id/50569830/top-nfl-plays-week-11",
    "date": "2026-11-23T04:30:58Z",
    "desc": "Top NFL plays from Week 11",
-   "src": "ESPN"
-  },
-  {
-   "title": "Mendoza throws 3 TDs, but Raiders fall to Broncos in Denver",
-   "link": "https://www.espn.com/video/clip/_/id/50567555/mendoza-throws-3-tds-raiders-fall-broncos-denver",
-   "date": "2026-11-23T00:50:54Z",
-   "desc": "Mendoza throws 3 TDs, but Raiders fall to Broncos in Denver",
    "src": "ESPN"
   },
   {
