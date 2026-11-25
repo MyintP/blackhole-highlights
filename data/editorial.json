@@ -1,22 +1,17 @@
 {
  "_help": "Hand-written content. Shown only while gameId matches the next game (ESPN event id from data/site.json next.id). Everything factual on the page comes from site.json and odds.json, which update automatically.",
- "gameId": "401873029",
- "headline": "Four straight losses. The slide stops at <b>MetLife</b>, or it doesn't.",
- "lede": "The Raiders fell to 3-4 after a 35-21 loss to the Rams, their fourth in a row. The Jets are 2-5, score 19.6 points a game (27th) and will be without Breece Hall.",
+ "gameId": "401873086",
+ "headline": "Sunday night in <b>Cleveland</b>: the one test this defense should pass.",
+ "lede": "The Browns are 6-4 and score 18.8 points a game (27th). The Raiders allow 29.7 (32nd). Last game before the bye.",
  "radio": "92.3 FM · 920 AM",
  "pick": {
-  "us": 27,
-  "them": 20,
-  "text": "Raiders by seven. New York's offense ranks 27th in scoring and loses its lead back, and Las Vegas still scores 26.1 a game, sixth in the league.",
+  "us": 20,
+  "them": 23,
+  "text": "Browns by three. The Raiders' defense has allowed 30 or more in seven of eight games, and a rookie sacked 11 times in two starts goes on the road at night.",
   "keys": [
-   { "title": "Lean on Cousins", "text": "He leads the NFL with 16 touchdown passes and the offense ranks 5th in passing yards. Against a 2-5 team, a two-score lead should hold." },
-   { "title": "Find any run game", "text": "The Raiders run for 74.7 yards a game, 31st in the league, and Jeanty had 15 yards on Sunday. Even 100 on the ground keeps the defense off the field." },
-   { "title": "Stop giving up 28", "text": "Las Vegas allows 28.1 points a game (29th) and 388.7 yards. Without Hall, holding the Jets under their 19.6 average is the whole game." }
+   { "title": "Hold them under 20", "text": "Cleveland scores 18.8 a game, 27th. The Raiders haven't held anyone under 20 since Week 2. Do it and they win." },
+   { "title": "Keep Mendoza clean", "text": "Eleven sacks in two starts. Three or fewer on Sunday is the number to watch." },
+   { "title": "Run, even badly", "text": "77.3 rushing yards a game, 31st. Twenty-five carries slows the rush whatever the average." }
   ]
- },
- "milestones": [
-  { "num": "12", "unit": "CATCHES", "name": "Brock Bowers", "text": "To pass Trey McBride's 221 for the most receptions by a tight end in his first three seasons." },
-  { "num": "5.0", "unit": "SACKS", "name": "Maxx Crosby", "text": "For his eighth straight season with at least 7.0 sacks." },
-  { "num": "409", "unit": "RUSH YDS", "name": "Ashton Jeanty", "text": "To pass Marcus Allen's 1,711 for the second-most by a Raider in his first two seasons." }
- ]
+ }
 }

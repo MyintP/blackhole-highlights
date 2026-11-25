@@ -7,12 +7,13 @@
   <div class="wrap">
     <span class="eyebrow">Updated hourly</span>
     <h1>Raiders news</h1>
-    <p>Stories from the team, established outlets and fan sites, newest first. Each one links to its original publisher and is labelled so you know who's talking: <strong>Official</strong>, <strong>Reporting</strong>, <strong>Opinion</strong> or <strong>Rumor</strong>.</p>
+    <p>Everything published about the Raiders, newest first. For what matters most, start with <a href="./">the front page</a>. Stories from the team, established outlets and fan sites each link to their original publisher and are labelled so you know who's talking: <strong>Official</strong>, <strong>Reporting</strong>, <strong>Opinion</strong> or <strong>Rumor</strong>.</p>
   </div>
 </div>
 <!--sections-->
 <section aria-label="News feed" style="border-bottom:0">
   <div class="wrap">
+    <div class="desk-strip" id="desk-strip" hidden></div>
     <form class="filters" id="filters" role="search" aria-label="Filter stories">
       <div class="chips" id="cats" role="group" aria-label="Topic"></div>
       <div class="field">
@@ -21,7 +22,7 @@
         <div class="fld"><label for="f-src">Source</label><select class="input" id="f-src" name="src"><option value="">All sources</option></select></div>
       </div>
     </form>
-    <p class="count-line" id="count" role="status" aria-live="polite"></p>
+    <p class="count-line"><span id="count" role="status" aria-live="polite"></span> <button type="button" class="linkish" id="noise-toggle" hidden></button></p>
     <div id="page-error"></div>
     <div id="feed"><span class="sk h"></span><span class="sk"></span><span class="sk"></span><span class="sk h"></span><span class="sk"></span></div>
     <p style="margin-top:24px;text-align:center"><button class="btn ghost" type="button" id="more" hidden>Show more stories</button></p>

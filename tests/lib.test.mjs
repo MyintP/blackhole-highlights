@@ -111,3 +111,37 @@ test("rewind grades the last four games against the NFL average and the opponent
   assert.equal(L.gpaGrade(r.gpa), "C");
   assert.equal(L.rewind({ games: { games: { a: games.games.a } } }), null, "needs two games");
 });
+
+test("isNoise hides promos and Spanish duplicates, keeps English stories naming Las Vegas or Los Angeles", () => {
+  const n = t => L.isNoise({ title: t });
+  assert.equal(n("App Giveaway coming this Friday!"), true);
+  assert.equal(n("Una mejor versión de los Raiders no alcanza ante Denver"), true);
+  assert.equal(n("Raiders regresan a la Bahía para duelo ante 49ers"), true);
+  assert.equal(n("Las Vegas Raiders' playoff hopes fade after Week 7 loss to Los Angeles Rams"), false);
+  assert.equal(n("Raiders trade Kirk Cousins to Minnesota"), false);
+  assert.equal(n("Klint Kubiak discusses Week 9 contest against 49ers"), false);
+});
+
+test("rankWire puts hard news covered by several outlets above fresher takes and drops noise and old stories", () => {
+  const now = Date.parse("2026-11-11T12:00:00Z"), h = x => new Date(now - x * 36e5).toISOString();
+  const items = [
+    { id: "a", title: "Fans react: winners and losers", kind: "Opinion", cat: "Team", date: h(1) },
+    { id: "b", title: "Raiders trade Kirk Cousins to the Vikings", kind: "Reporting", cat: "Roster", date: h(6), also: [{}, {}] },
+    { id: "c", title: "App Giveaway coming this Friday!", kind: "Official", cat: "Team", date: h(0.5) },
+    { id: "d", title: "Raiders sign a linebacker", kind: "Reporting", cat: "Roster", date: h(24 * 6) },
+    { id: "e", title: "Kickoff moved for next week", kind: "Official", cat: "Games", date: h(-30) },
+  ];
+  assert.deepEqual(L.rankWire(items, { now }).map(i => i.id), ["b", "a"]);
+  assert.deepEqual(L.rankWire(items, { now, noise: true }).map(i => i.id).sort(), ["a", "b", "c"]);
+});
+
+test("deskArticles returns published articles newest first", () => {
+  const desk = { articles: [
+    { id: "old", headline: "Old", date: "2026-11-01T00:00:00Z", body: ["x"] },
+    { id: "new", headline: "New", date: "2026-11-20T00:00:00Z", body: ["x"] },
+    { id: "future", headline: "Future", date: "2099-01-01T00:00:00Z", body: ["x"] },
+    { headline: "No id", date: "2026-11-02T00:00:00Z" },
+  ] };
+  assert.deepEqual(L.deskArticles(desk, Date.parse("2026-11-25T00:00:00Z")).map(a => a.id), ["new", "old"]);
+  assert.deepEqual(L.deskArticles(null), []);
+});

@@ -22,7 +22,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="assets/css/site.css">
 <script>try{var t=localStorage.getItem("bhh-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
@@ -87,12 +87,13 @@
   <div class="wrap">
     <span class="eyebrow">Updated hourly</span>
     <h1>Raiders news</h1>
-    <p>Stories from the team, established outlets and fan sites, newest first. Each one links to its original publisher and is labelled so you know who's talking: <strong>Official</strong>, <strong>Reporting</strong>, <strong>Opinion</strong> or <strong>Rumor</strong>.</p>
+    <p>Everything published about the Raiders, newest first. For what matters most, start with <a href="./">the front page</a>. Stories from the team, established outlets and fan sites each link to their original publisher and are labelled so you know who's talking: <strong>Official</strong>, <strong>Reporting</strong>, <strong>Opinion</strong> or <strong>Rumor</strong>.</p>
   </div>
 </div>
 <nav class="secbar" aria-label="News sections"><div class="wrap"><a href="news.html" aria-current="page">Stories</a><a href="media.html#videos">Our videos</a><a href="media.html#podcasts">Podcasts</a><a href="media.html#espn">ESPN video</a></div></nav>
 <section aria-label="News feed" style="border-bottom:0">
   <div class="wrap">
+    <div class="desk-strip" id="desk-strip" hidden></div>
     <form class="filters" id="filters" role="search" aria-label="Filter stories">
       <div class="chips" id="cats" role="group" aria-label="Topic"></div>
       <div class="field">
@@ -101,7 +102,7 @@
         <div class="fld"><label for="f-src">Source</label><select class="input" id="f-src" name="src"><option value="">All sources</option></select></div>
       </div>
     </form>
-    <p class="count-line" id="count" role="status" aria-live="polite"></p>
+    <p class="count-line"><span id="count" role="status" aria-live="polite"></span> <button type="button" class="linkish" id="noise-toggle" hidden></button></p>
     <div id="page-error"></div>
     <div id="feed"><span class="sk h"></span><span class="sk"></span><span class="sk"></span><span class="sk h"></span><span class="sk"></span></div>
     <p style="margin-top:24px;text-align:center"><button class="btn ghost" type="button" id="more" hidden>Show more stories</button></p>

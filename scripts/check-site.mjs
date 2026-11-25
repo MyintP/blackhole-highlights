@@ -68,6 +68,14 @@ try {
   if ((news.items?.length ?? 0) < 20) fail("data/news.json", `only ${news.items?.length ?? 0} stories`);
   for (const i of news.items) if (!i.title || !/^https?:\/\//.test(i.link) || isNaN(new Date(i.date)) || !i.src || !i.kind) { fail("data/news.json", `bad item ${i.id}`); break; }
   for (const n of ["odds", "stats", "games", "media", "history", "editorial"]) await data(n);
+  const desk = await data("desk");
+  const deskIds = new Set();
+  for (const a of desk.articles || []) {
+    if (!a.id || !/^[a-z0-9-]+$/.test(a.id) || !a.headline || isNaN(new Date(a.date)) || !Array.isArray(a.body) || !a.body.length) { fail("data/desk.json", `bad article ${a.id}`); continue; }
+    if (deskIds.has(a.id)) fail("data/desk.json", `duplicate id ${a.id}`);
+    deskIds.add(a.id);
+    for (const src of a.sources || []) if (!/^https:\/\//.test(src.url || "")) fail("data/desk.json", `${a.id}: source without https url`);
+  }
   // nflverse files appear after the update job's first nflverse pass; until then pages show their empty states
   const optional = async n => { try { return await data(n); } catch (e) { if (e.code === "ENOENT") return null; throw e; } };
   await optional("breakdown");
