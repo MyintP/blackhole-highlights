@@ -310,13 +310,56 @@ export function wireScore(i, now = Date.now()) {
 // Names in a headline (capitalised words, minus the team and common words), used to spread the wire across stories.
 const NAME_STOP = new Set(["raiders", "las", "vegas", "the", "nfl", "week", "sunday", "monday", "despite", "how", "why", "what", "after", "with", "for", "and"]);
 export const headlineNames = t => new Set((String(t || "").match(/\b[A-Z][a-z’']{2,}\b/g) || []).map(w => w.toLowerCase().replace(/[’']s?$/, "")).filter(w => !NAME_STOP.has(w)));
+// A story's topic: names in its headline, plus the surnames of people named in the first sentence of its summary
+// (so "Raiders rookie cornerback makes early impact" is matched to Jermod McCoy). Team nicknames and places in the
+// summary are ignored: almost every summary names an opponent.
+const TEAMS = new Set("cardinals falcons ravens bills panthers bears bengals browns cowboys broncos lions packers texans colts jaguars chiefs chargers rams dolphins vikings patriots saints giants jets eagles steelers 49ers seahawks buccaneers titans commanders raiders nation vegas angeles york bay orleans".split(" "));
+const PERSON = /\b([A-Z][a-z’'.-]+)\s+((?:Mc|Mac|O’|O')?[A-Z][a-z’'-]+)\b/g;
+const nameKey = s => s.toLowerCase().replace(/[’']s?$/, "");
+export function topicKeys(i, known = null) {
+  const head = String(i.title || i.headline || "");
+  const words = head.match(/\b[A-Za-z][a-z’']+\b/g) || [];
+  // Title Case headlines ("Ashton Jeanty, Jack Bech Step Up Against Broncos") capitalise everything: use only people's
+  // names there, plus words already known as names or places from other headlines (`known`, see knownNames).
+  const titleCase = words.length > 3 && words.filter(w => /^[A-Z]/.test(w)).length / words.length > 0.6;
+  const keys = titleCase ? new Set() : headlineNames(head);
+  if (titleCase) {
+    for (const m of head.matchAll(PERSON)) { const last = nameKey(m[2]); if (!TEAMS.has(last) && !NAME_STOP.has(last)) keys.add(last); }
+    if (known) for (const w of words) { const k = nameKey(w); if (known.has(k)) keys.add(k); }
+  }
+  const first = String(i.desc || i.deck || "").split(/(?<=[.!?])\s/)[0];
+  for (const m of first.matchAll(PERSON)) {
+    const last = m[2].toLowerCase().replace(/[’']s?$/, "");
+    if (!TEAMS.has(last) && !NAME_STOP.has(m[1].toLowerCase())) keys.add(last);
+  }
+  for (const t of i.topics || []) keys.add(String(t).toLowerCase());
+  return keys;
+}
+// Strict front-page selection: take ranked stories in order, skipping any that shares a topic with one already shown.
+// `seen` is updated, so the lead, second tier and wire can share one set.
+// Names and places seen in ordinary (sentence case) headlines and summaries, used to read Title Case headlines.
+export function knownNames(items) {
+  const known = new Set();
+  for (const i of items || []) topicKeys(i).forEach(k => known.add(k));
+  return known;
+}
+export function pickByTopic(ranked, n, seen = new Set(), known = knownNames(ranked)) {
+  const out = [];
+  for (const i of ranked) {
+    if (out.length >= n) break;
+    const k = topicKeys(i, known);
+    if ([...k].some(x => seen.has(x))) continue;
+    out.push(i); k.forEach(x => seen.add(x));
+  }
+  return out;
+}
 // Ranked wire: newest-first archive in, most important first out. `days` limits how far back to look.
 // Each story that repeats a name already ranked above it is marked down, so one topic can't fill the wire.
 export function rankWire(items, { now = Date.now(), days = 4, noise = false } = {}) {
   const pool = (items || [])
     .filter(i => { const age = now - new Date(i.date).getTime(); return age >= -36e5 && age < days * 864e5; })
     .filter(i => (noise || !isNoise(i)))
-    .map(i => ({ i, s: wireScore(i, now), names: headlineNames(i.title) }));
+    .map(i => ({ i, s: wireScore(i, now), names: topicKeys(i) }));
   const out = [], seen = new Map();
   while (pool.length) {
     let best = 0, bestS = -1;

@@ -145,3 +145,22 @@ test("deskArticles returns published articles newest first", () => {
   assert.deepEqual(L.deskArticles(desk, Date.parse("2026-11-25T00:00:00Z")).map(a => a.id), ["new", "old"]);
   assert.deepEqual(L.deskArticles(null), []);
 });
+
+test("topicKeys reads people from the summary and names from Title Case headlines", () => {
+  const k = i => [...L.topicKeys(i, new Set(["mendoza", "broncos", "denver"]))].sort();
+  assert.deepEqual(k({ title: "Raiders rookie cornerback makes early impact in 1st career start", desc: "The Raiders inserted rookie Jermod McCoy into the starting lineup. He made a play against the Denver Broncos." }), ["mccoy"]);
+  assert.ok(k({ title: "Raiders, Mendoza May Have Found New No. 2 Wideout" }).includes("mendoza"));
+  assert.ok(k({ title: "Las Vegas Raiders Week 11 Inactives vs. Denver Broncos" }).includes("broncos"));
+  assert.ok(k({ headline: "Eleven sacks", topics: ["Mendoza"] }).includes("mendoza"));
+});
+
+test("pickByTopic keeps one story per topic, including topics already on the page", () => {
+  const items = [
+    { title: "Fernando Mendoza feeling more comfortable" },
+    { title: "Jermod McCoy takes major leap" },
+    { title: "Raiders rookie cornerback makes early impact", desc: "Rookie Jermod McCoy started." },
+    { title: "Raiders hope to get Brock Bowers back soon" },
+  ];
+  const seen = new Set(["mendoza"]);
+  assert.deepEqual(L.pickByTopic(items, 5, seen).map(i => i.title), ["Jermod McCoy takes major leap", "Raiders hope to get Brock Bowers back soon"]);
+});

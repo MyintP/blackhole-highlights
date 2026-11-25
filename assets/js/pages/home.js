@@ -32,14 +32,21 @@ A.runPage($("page-error"), async () => {
     $("fp-body").innerHTML = "";
   } else $("fp-deck").textContent = "No new stories in the last few days.";
 
-  // Second tier: other fresh desk pieces, topped up with the best wire stories, three in all
-  const seconds = [...fresh.filter(a => a !== leadA).map(a => A.deskCardHTML(a))];
-  const wireLeft = wire.filter(w => !leadA ? w !== wire[0] : true);
-  while (seconds.length < 3 && wireLeft.length) seconds.push(A.wireCardHTML(wireLeft.shift()));
-  $("fp-seconds").innerHTML = seconds.join("");
+  // One slot per topic across the whole front page: the lead, the second tier and the wire share `seen`.
+  const seen = new Set();
+  const deskSeconds = fresh.filter(a => a !== leadA);
+  for (const a of [leadA, ...deskSeconds].filter(Boolean)) L.topicKeys(a).forEach(k => seen.add(k));
+  const wirePool = leadA ? wire : wire.slice(1);
+  if (!leadA && wire[0]) L.topicKeys(wire[0]).forEach(k => seen.add(k));
 
-  // The wire: next stories by importance, each with how many outlets covered it
-  $("wire").innerHTML = wireLeft.slice(0, 7).map(i => `<li><span class="w-meta"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span>${esc(i.src)}${i.also?.length ? ` +${i.also.length}` : ""} · ${esc(L.ago(i.date))}</span>` +
+  // Second tier: other fresh desk pieces, topped up with the best wire stories, three in all
+  const known = L.knownNames([...wire, ...fresh]);
+  const wireSeconds = L.pickByTopic(wirePool, Math.max(0, 3 - deskSeconds.length), seen, known);
+  $("fp-seconds").innerHTML = [...deskSeconds.slice(0, 3).map(A.deskCardHTML), ...wireSeconds.map(A.wireCardHTML)].join("");
+
+  // The wire: next stories by importance, each on a topic not already on the page
+  const wireList = L.pickByTopic(wirePool.filter(i => !wireSeconds.includes(i)), 7, seen, known);
+  $("wire").innerHTML = wireList.map(i => `<li><span class="w-meta"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span>${esc(i.src)}${i.also?.length ? ` +${i.also.length}` : ""} · ${esc(L.ago(i.date))}</span>` +
     `<a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></li>`).join("") || `<li>${A.empty("Quiet on the wire.")}</li>`;
 
   // Scoreboard for the next game (or the last result)

@@ -1,10 +1,11 @@
 {
- "_help": "The Black Hole Desk: original articles. Written by AI, checked against the site's data and the linked sources, approved before publishing. body is a list of paragraphs; an item {\"h\": \"...\"} is a subheading. ai: true marks AI-written pieces (shown on the page). Columns by named writers use section \"Column\" and their own byline.",
+ "_help": "The Black Hole Desk: original articles. Written by AI, checked against the site's data and the linked sources, approved before publishing. body is a list of paragraphs; an item {\"h\": \"...\"} is a subheading. ai: true marks AI-written pieces (shown on the page). topics: lower-case names/subjects the piece covers; the front page shows no wire story on the same topic. Columns by named writers use section \"Column\" and their own byline.",
  "articles": [
   {
    "id": "eleven-sacks",
    "section": "The Lead",
    "kicker": "Mendoza Watch",
+   "topics": ["mendoza", "cousins"],
    "headline": "Eleven sacks in two starts. Protect the investment, or ruin it.",
    "deck": "The Raiders traded Kirk Cousins to give the No. 1 pick the job. Two games in, the rookie is being hit faster than he can learn, and that is a coaching problem before it is a quarterback problem.",
    "byline": "The Black Hole Desk",
@@ -13,26 +14,46 @@
    "body": [
     "Fernando Mendoza has started twice for the Raiders. He has been sacked 11 times: six by Seattle in a 21-13 home loss, and five more in Denver on Sunday, where ESPN also counted 16 pressures. That number matters more than any completion percentage, and it is the one the Raiders control.",
     "The trade that made this possible happened on deadline day, 10 November. Las Vegas sent Kirk Cousins back to Minnesota for a 2027 third-round pick. Cousins left with 2,340 yards, 20 touchdowns and eight interceptions in nine starts. Whatever you think of the timing, the decision is made. This season is now about one player's development.",
-    {"h": "What two starts tell us"},
+    {
+     "h": "What two starts tell us"
+    },
     "The first start was survival: 17 of 29 for 143 yards, no touchdowns, in an offense that gained 163 yards all day. The second was the first real look at why he went first overall: 267 yards and three touchdown passes in Denver, against an 8-2 team. It also ended with the pick-six that sealed the game. Both things are true. Rookies do this.",
     "What should worry Las Vegas is the protection. A rookie learning NFL coverages needs time. A rookie sacked five and six times a game learns to bail early, and that habit is harder to coach out than a bad read.",
-    {"h": "What to do with six games left"},
+    {
+     "h": "What to do with six games left"
+    },
     "Run the ball, even badly. The Raiders run for 77.3 yards a game, 31st in the league. A run game doesn't need to be good to slow a pass rush. It needs to exist.",
     "Get the ball out fast. Jack Bech has had the two busiest games of his career since Mendoza took over. Quick, defined throws to him, and to Brock Bowers once he is back, are the cheapest protection there is.",
     "Judge the rest of the year on one question. At 4-7, two and a half games behind the last AFC playoff spot with six to play, the playoffs are a long shot. What can still be won is Mendoza's footing: fewer sacks, more throws on time, week by week. The desk will track exactly that, start by start."
    ],
    "sources": [
-    {"label": "ESPN: Mendoza settling in as starter", "url": "https://www.espn.com/nfl/story/_/id/50569797/fernando-mendoza-settling-raiders-starting-quarterback"},
-    {"label": "Review-Journal: Cousins trade", "url": "https://www.reviewjournal.com/sports/raiders/raiders-trade-kirk-cousins-in-a-blockbuster-deal-on-nfl-trade-deadline-day-3912576/"},
-    {"label": "ABC30: Mendoza named starter, Cousins' totals", "url": "https://abc30.com/post/raiders-name-fernando-mendoza-starting-qb-trading-away-kirk-cousins/20031696/"},
-    {"label": "Review-Journal: Jack Bech and Mendoza", "url": "https://www.reviewjournal.com/sports/raiders/jack-bechs-stock-soars-based-on-connection-with-raiders-qb-fernando-mendoza-3918612/"},
-    {"label": "Box scores and team ranks: this site's Game Center and Stats (ESPN data)", "url": "https://myintp.github.io/blackhole-highlights/games.html#results"}
+    {
+     "label": "ESPN: Mendoza settling in as starter",
+     "url": "https://www.espn.com/nfl/story/_/id/50569797/fernando-mendoza-settling-raiders-starting-quarterback"
+    },
+    {
+     "label": "Review-Journal: Cousins trade",
+     "url": "https://www.reviewjournal.com/sports/raiders/raiders-trade-kirk-cousins-in-a-blockbuster-deal-on-nfl-trade-deadline-day-3912576/"
+    },
+    {
+     "label": "ABC30: Mendoza named starter, Cousins' totals",
+     "url": "https://abc30.com/post/raiders-name-fernando-mendoza-starting-qb-trading-away-kirk-cousins/20031696/"
+    },
+    {
+     "label": "Review-Journal: Jack Bech and Mendoza",
+     "url": "https://www.reviewjournal.com/sports/raiders/jack-bechs-stock-soars-based-on-connection-with-raiders-qb-fernando-mendoza-3918612/"
+    },
+    {
+     "label": "Box scores and team ranks: this site's Game Center and Stats (ESPN data)",
+     "url": "https://myintp.github.io/blackhole-highlights/games.html#results"
+    }
    ]
   },
   {
    "id": "worst-defense",
    "section": "Analysis",
    "kicker": "The Verdict",
+   "topics": ["defense"],
    "headline": "The worst scoring defense in football is the real story of this season.",
    "deck": "The Raiders allow 29.7 points a game, last of 32 teams. Seven of their last eight opponents scored 30 or more. No quarterback fixes that.",
    "byline": "The Black Hole Desk",
@@ -41,21 +62,29 @@
    "body": [
     "Start with the split. In the first three weeks the Raiders allowed 18 points a game and won all three. In the eight games since, they have allowed 34.1 a game and won once, and that win, 38-33 at the Jets, came on a day they gave up 33.",
     "Seven of those eight opponents scored at least 30: Kansas City, New England, Buffalo, the Rams, the Jets, San Francisco and Denver. Only Seattle, with 21, was held under.",
-    {"h": "The offense is not the problem it is made out to be"},
+    {
+     "h": "The offense is not the problem it is made out to be"
+    },
     "The Raiders score 25.0 points a game, 11th in the league, through a quarterback change and a game without Brock Bowers. In six of their seven losses, scoring 25 would still have lost. The one exception was Seattle.",
     "That changes what the rest of the season is for. A rookie quarterback can't be asked to win a shootout every week. Every game Mendoza starts while the defense gives up 30-plus is a game he is chasing from the first quarter, which is exactly when the sacks pile up.",
-    {"h": "The question for the offseason"},
+    {
+     "h": "The question for the offseason"
+    },
     "The debate this year has been about the quarterback. It should be about the other side. Whatever Klint Kubiak and John Spytek decide about the roster, a defense that has allowed 30 or more in seven of eight games is the first thing to fix, and the 2027 draft position this season is building toward should be spent with that in mind.",
     "The test comes on Sunday. Cleveland scores 18.8 points a game, 27th in the league. If this defense can't hold that offense under 25, nothing else in the final six weeks will mean much."
    ],
    "sources": [
-    {"label": "Scores and team ranks: this site's Stats and Game Center (ESPN data)", "url": "https://myintp.github.io/blackhole-highlights/stats.html#team"}
+    {
+     "label": "Scores and team ranks: this site's Stats and Game Center (ESPN data)",
+     "url": "https://myintp.github.io/blackhole-highlights/stats.html#team"
+    }
    ]
   },
   {
    "id": "week-12-cleveland",
    "section": "Game Day",
    "kicker": "Week 12 · at Cleveland",
+   "topics": ["browns", "cleveland"],
    "headline": "Sunday night in Cleveland: the one test this defense should pass.",
    "deck": "The Browns are 6-4 and hold the AFC's sixth seed, but they score 18.8 points a game. The Raiders allow 29.7. Something gives on national television.",
    "byline": "The Black Hole Desk",
@@ -64,15 +93,22 @@
    "body": [
     "Kickoff is Sunday, 29 November, at 5:20 PM Pacific on NBC. It is the Raiders' last game before their bye, and they go into it 4-7 after three straight losses.",
     "Cleveland wins without scoring much. The Browns rank 27th in points (18.8 a game) and 24th in rushing, but allow 22.0, tied for 14th. They are winning low-scoring games, and that is the kind of game the Raiders have not been able to keep.",
-    {"h": "Three things to watch"},
+    {
+     "h": "Three things to watch"
+    },
     "Points allowed. Hold Cleveland under 20 and the Raiders are in it. They have not done it since Week 2.",
     "Sacks. Mendoza has been taken down 11 times in two starts. Three or fewer on Sunday would be real progress, and it starts with a run game that ranks 31st.",
     "Who plays. Brock Bowers, JJ Pegues, Adam Butler, Tim Keenan III, Tonka Hemingway and Dareke Young were listed questionable on the latest report. Bowers back would change what this offense can do quickly. Check Game Center for Friday's final statuses.",
-    {"h": "The pick"},
+    {
+     "h": "The pick"
+    },
     "Browns 23, Raiders 20. The Raiders' defense has not earned the benefit of the doubt, and a rookie sacked 11 times in two starts is going on the road at night. If the Raiders win, it will be because the defense finally did its job."
    ],
    "sources": [
-    {"label": "Matchup, injuries and odds: this site's Game Center (ESPN data)", "url": "https://myintp.github.io/blackhole-highlights/games.html#next"}
+    {
+     "label": "Matchup, injuries and odds: this site's Game Center (ESPN data)",
+     "url": "https://myintp.github.io/blackhole-highlights/games.html#next"
+    }
    ]
   }
  ]
