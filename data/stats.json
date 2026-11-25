@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:28:13.314Z",
+ "updated": "2026-11-25T12:33:58.837Z",
  "season": 2026,
  "team": [
   {
@@ -1313,6 +1313,20 @@
    "link": "https://www.espn.com/nfl/player/_/id/4688538/justin-pickett"
   },
   {
+   "id": "5150999",
+   "name": "David Blay Jr.",
+   "jersey": null,
+   "pos": "DT",
+   "posName": "Defensive Tackle",
+   "group": "Practice squad",
+   "age": 23,
+   "ht": "6' 2\"",
+   "wt": "292 lbs",
+   "exp": 0,
+   "college": "Miami",
+   "link": "https://www.espn.com/nfl/player/_/id/5150999/david-blay-jr"
+  },
+  {
    "id": "4685305",
    "name": "Brandon Cleveland",
    "jersey": "90",
@@ -1453,18 +1467,18 @@
    "link": "https://www.espn.com/nfl/player/_/id/5153665/cian-slone"
   },
   {
-   "id": "4686337",
-   "name": "Greedy Vance",
-   "jersey": "22",
+   "id": "4428932",
+   "name": "A.J. Woods",
+   "jersey": null,
    "pos": "CB",
    "posName": "Cornerback",
    "group": "Practice squad",
    "age": 25,
-   "ht": "5' 9\"",
-   "wt": "177 lbs",
-   "exp": 2,
-   "college": "USC",
-   "link": "https://www.espn.com/nfl/player/_/id/4686337/greedy-vance"
+   "ht": "5' 11\"",
+   "wt": "195 lbs",
+   "exp": 1,
+   "college": "Pittsburgh",
+   "link": "https://www.espn.com/nfl/player/_/id/4428932/aj-woods"
   },
   {
    "id": "4249616",
@@ -1570,10 +1584,10 @@
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-24T17:28:13.314Z"
+  "fetched": "2026-11-25T12:33:58.837Z"
  },
  "tendencies": {
-  "charted": 0.994,
+  "charted": 1,
   "rows": [
    {
     "key": "passRate",
@@ -1600,7 +1614,7 @@
     "fmt": "pct",
     "v": 0.587,
     "rank": 23,
-    "nfl": 0.627
+    "nfl": 0.623
    },
    {
     "key": "motion",
@@ -1609,7 +1623,7 @@
     "fmt": "pct",
     "v": 0.598,
     "rank": 12,
-    "nfl": 0.585
+    "nfl": 0.582
    },
    {
     "key": "playAction",
@@ -1618,7 +1632,7 @@
     "fmt": "pct",
     "v": 0.237,
     "rank": 14,
-    "nfl": 0.226
+    "nfl": 0.224
    },
    {
     "key": "screen",
@@ -1663,7 +1677,7 @@
     "fmt": "pct",
     "v": 0.285,
     "rank": 17,
-    "nfl": 0.31
+    "nfl": 0.308
    },
    {
     "key": "rushers",
@@ -1708,7 +1722,7 @@
     "fmt": "pct",
     "v": 0.155,
     "rank": 12,
-    "nfl": 0.152
+    "nfl": 0.153
    }
   ]
  }
