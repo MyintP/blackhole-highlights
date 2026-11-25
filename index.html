@@ -6,16 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Black Hole Highlights","url":"https://myintp.github.io/blackhole-highlights/","potentialAction":{"@type":"SearchAction","target":"https://myintp.github.io/blackhole-highlights/search.html?q={query}","query-input":"required name=query"}}</script>
 <script type="module" src="assets/js/pages/home.js"></script>
-<title>Black Hole Highlights: Las Vegas Raiders news, scores, stats and odds</title>
-<meta name="description" content="Las Vegas Raiders news, game previews, scores, injuries, betting odds and stats in one place, updated every hour. Fan-run, not affiliated with the team.">
+<title>Black Hole Highlights: Las Vegas Raiders news, analysis, scores and stats</title>
+<meta name="description" content="The Raiders front page: original analysis from the Black Hole Desk, the day's biggest Raiders stories ranked by importance, the next game, injuries, odds and stats.">
 <link rel="canonical" href="https://myintp.github.io/blackhole-highlights/">
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <meta name="theme-color" content="#09090b">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://myintp.github.io/blackhole-highlights/">
 <meta property="og:site_name" content="Black Hole Highlights">
-<meta property="og:title" content="Black Hole Highlights: Las Vegas Raiders news, scores, stats and odds">
-<meta property="og:description" content="Las Vegas Raiders news, game previews, scores, injuries, betting odds and stats in one place, updated every hour. Fan-run, not affiliated with the team.">
+<meta property="og:title" content="Black Hole Highlights: Las Vegas Raiders news, analysis, scores and stats">
+<meta property="og:description" content="The Raiders front page: original analysis from the Black Hole Desk, the day's biggest Raiders stories ranked by importance, the next game, injuries, odds and stats.">
 <meta property="og:image" content="https://myintp.github.io/blackhole-highlights/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -23,7 +23,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <link rel="stylesheet" href="assets/css/site.css">
 <script>try{var t=localStorage.getItem("bhh-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
@@ -84,26 +84,44 @@
 <div class="notice" id="notice" role="status" hidden><div class="wrap"></div></div>
 
 <main id="main" tabindex="-1">
-<div class="hero">
-  <canvas id="disk" aria-hidden="true"></canvas>
-  <div class="wrap">
-    <div>
-      <span class="eyebrow" id="h-eyebrow">Las Vegas Raiders fan hub</span>
-      <h1 id="h-title">Raiders news, scores and stats, <b>updated hourly</b>.</h1>
-      <p class="lede" id="h-lede">Breaking news, the next game, injuries, odds and the numbers that matter, in one place.</p>
-      <div class="actions"><a class="btn" href="games.html#next">Game Center</a><a class="btn ghost" href="news.html">All Raiders news</a></div>
-      <noscript><p class="lede">This site loads scores, odds and news with JavaScript. Turn it on to see them, or browse <a href="https://www.raiders.com/news/">Raiders.com</a> and <a href="https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders">ESPN</a> directly.</p></noscript>
-    </div>
-    <div id="h-board"><div class="board" aria-hidden="true"><span class="sk h"></span><span class="sk t"></span><span class="sk"></span></div></div>
+<div class="masthead">
+  <div class="wrap wide">
+    <span id="mh-date">Las Vegas Raiders</span>
+    <span class="mh-motto">The Raiders, edited.</span>
+    <span id="mh-record"></span>
   </div>
 </div>
-<nav class="secbar jumpbar" aria-label="On this page"><div class="wrap">
-  <a href="#gameweek">Game week</a><a href="#rewind" id="jump-rewind">The Rewind</a><a href="#news">News</a><a href="#stats">Numbers</a><a href="#explore">More</a>
+<div class="wrap wide" id="page-error"></div>
+
+<section id="front" class="front" aria-label="Front page">
+  <div class="wrap wide fp-grid">
+    <article class="fp-lead" id="fp-lead">
+      <span class="fp-kicker" id="fp-kicker">The Lead</span>
+      <h1 class="fp-h1" id="fp-h1"><a href="news.html">Raiders news, analysis and the next game</a></h1>
+      <p class="fp-deck" id="fp-deck"><span class="sk"></span><span class="sk"></span></p>
+      <p class="byline" id="fp-byline"></p>
+      <div class="fp-body" id="fp-body"></div>
+      <noscript><p class="fp-deck">This front page loads stories with JavaScript. Turn it on, or read <a href="https://www.raiders.com/news/">Raiders.com</a> and <a href="https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders">ESPN</a> directly.</p></noscript>
+    </article>
+    <aside class="fp-rail" aria-label="Next game and the wire">
+      <div class="fp-board" id="h-board"><div class="board" aria-hidden="true"><span class="sk h"></span><span class="sk t"></span><span class="sk"></span></div></div>
+      <div class="fp-wire">
+        <h2 class="panel-title" id="wire-h">The wire</h2>
+        <p class="fp-note">The biggest Raiders stories elsewhere, ranked by importance, not time.</p>
+        <ol class="wire" id="wire" aria-labelledby="wire-h"><li><span class="sk"></span></li><li><span class="sk"></span></li></ol>
+        <a class="more" href="news.html">All news</a>
+      </div>
+    </aside>
+    <div class="fp-seconds" id="fp-seconds"></div>
+  </div>
+</section>
+
+<nav class="secbar jumpbar" aria-label="On this page"><div class="wrap wide">
+  <a href="#front">Front page</a><a href="#gameweek">Game week</a><a href="#rewind" id="jump-rewind">The Rewind</a><a href="#stats">Numbers</a><a href="#explore">More</a>
 </div></nav>
-<div class="wrap" id="page-error"></div>
 
 <section id="gameweek" aria-labelledby="gw-h">
-  <div class="wrap">
+  <div class="wrap wide">
     <div class="sec-head"><h2 id="gw-h">Game week</h2><a class="more" href="games.html#next">Full preview</a></div>
     <div class="grid-3">
       <div id="pick"><div class="card"><span class="sk h"></span><span class="sk t"></span></div></div>
@@ -114,31 +132,14 @@
 </section>
 
 <section id="rewind" class="rewind" aria-labelledby="rw-h" hidden>
-  <div class="wrap">
+  <div class="wrap wide">
     <div class="sec-head"><h2 id="rw-h">The Rewind</h2><a class="more" href="rewind.html">Full breakdown</a></div>
     <div id="rw-body"></div>
   </div>
 </section>
 
-<section id="news" aria-labelledby="news-h">
-  <div class="wrap">
-    <div class="sec-head"><h2 id="news-h">Top stories</h2><a class="more" href="news.html">All news</a></div>
-    <div class="split">
-      <div>
-        <div id="lead"><div class="lead"><span class="sk h"></span><span class="sk"></span><span class="sk"></span></div></div>
-        <ul class="stories" id="top-stories"></ul>
-      </div>
-      <aside class="sticky latest-panel" aria-labelledby="latest-h">
-        <h3 class="panel-title" id="latest-h">Latest</h3>
-        <ul class="stories compact" id="latest"><li class="story"><span class="sk"></span><span class="sk"></span></li></ul>
-        <p style="margin-top:14px"><a class="more" href="news.html">More news</a></p>
-      </aside>
-    </div>
-  </div>
-</section>
-
 <section id="stats" aria-labelledby="stats-h">
-  <div class="wrap">
+  <div class="wrap wide">
     <div class="sec-head"><h2 id="stats-h">By the numbers</h2><a class="more" href="stats.html">Team stats</a></div>
     <div id="sotd" class="sotd-slot"><div class="sotd"><span class="sk h"></span><span class="sk t"></span></div></div>
     <div class="kpis tnum" id="kpis"><div class="kpi"><span class="sk"></span></div></div>
@@ -146,13 +147,13 @@
 </section>
 
 <section id="explore" aria-labelledby="ex-h" style="border-bottom:0">
-  <div class="wrap">
+  <div class="wrap wide">
     <h2 id="ex-h" class="vh">More on the site</h2>
     <div class="explore">
+      <a href="story.html"><b>The Desk</b><span>Every original article, analysis and column</span></a>
       <a href="games.html#schedule"><b>Schedule and results</b><span>Every game, box scores, drives and the biggest plays</span></a>
       <a href="stats.html#standings"><b>Standings and stats</b><span>AFC West, team ranks, EPA and tendencies</span></a>
       <a href="players.html"><b>Players and roster</b><span>A profile for every Raider who has played</span></a>
-      <a href="media.html"><b>Videos and podcasts</b><span>Our channel, official podcasts and ESPN video</span></a>
     </div>
   </div>
 </section>

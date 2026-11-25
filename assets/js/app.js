@@ -603,3 +603,18 @@ export function scorecardHTML(rw) {
     <p>The scorecard is computed from the site's data and updates after each game. The four unit grades compare EPA (expected points added, from nflverse play-by-play) per play over the last ${rw.n} games with the NFL average for the season so far: A is 0.10 or more better than average, B 0.04, C within 0.04, D 0.04 worse, F 0.10 or more worse. Ball security, discipline and third downs are graded on the margin against the opponents in those games. A needs at least +1 turnover, 20 fewer penalty yards or a third-down rate 15 points higher, per game; B needs +0.5, 8 yards or 5 points; D and F are the same amounts the other way. The overall grade is the average of the subjects, A = 4 to F = 0.</p>
   </details>`;
 }
+
+// ---------- The Black Hole Desk (original articles from data/desk.json) ----------
+export const deskHref = a => `story.html?id=${encodeURIComponent(a.id)}`;
+export const bylineHTML = a =>
+  `By <b>${esc(a.byline || "The Black Hole Desk")}</b>${a.ai ? ' <span class="badge ai" title="Written by AI, fact-checked and approved before publishing">AI</span>' : ""} · <time datetime="${esc(a.date)}">${esc(L.fmt(a.date, { weekday: "long", month: "long", day: "numeric" }))}</time>`;
+export const deskBodyHTML = (a, n = Infinity) =>
+  (a.body || []).slice(0, n).map(p => (typeof p === "string" ? `<p>${esc(p)}</p>` : p?.h ? `<h2>${esc(p.h)}</h2>` : "")).join("");
+// A desk article as a front-page or list card
+export const deskCardHTML = a =>
+  `<article class="fp-second"><span class="fp-kicker">${esc(a.kicker || a.section)}</span><h3><a href="${deskHref(a)}">${esc(a.headline)}</a></h3>` +
+  `${a.deck ? `<p>${esc(a.deck)}</p>` : ""}<p class="byline">${bylineHTML(a)}</p></article>`;
+// A wire story (someone else's) as a front-page card
+export const wireCardHTML = i =>
+  `<article class="fp-second"><span class="fp-kicker">${esc(i.cat)} · ${esc(i.src)}</span><h3><a class="ext" href="${L.url(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>` +
+  `${i.desc ? `<p>${esc(i.desc)}</p>` : ""}<p class="byline"><span class="badge ${i.kind.toLowerCase()}">${esc(i.kind)}</span> ${esc(L.ago(i.date))}${i.also?.length ? ` · ${i.also.length + 1} outlets` : ""}</p></article>`;

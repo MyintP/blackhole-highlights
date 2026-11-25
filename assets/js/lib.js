@@ -288,3 +288,92 @@ export function rewind({ games, breakdown, advanced } = {}, n = 4) {
   };
 }
 export const gpaGrade = g => (g == null ? "-" : g >= 3.5 ? "A" : g >= 2.5 ? "B" : g >= 1.5 ? "C" : g >= 0.75 ? "D" : "F");
+
+// ---------- The wire: editorial ranking of the news feed ----------
+// Promotions, giveaways and Spanish-language duplicates of English stories are noise: kept in the archive, hidden by default.
+const NOISE = /\b(giveaway|sweepstakes|tickets?|app|presented by|watch party|merch|shop|cheerleaders?|raiderettes|alumni|foundation|community|crucial catch|salute to service|my cause|wallpapers?|schedule release|uniform|photos?)\b/i;
+const SPANISH = /\b(los|las|la|el|de|en|una|ante|del|para|con|contra|semana|juego|por|tras|sin)\b/gi;
+export const isNoise = i => NOISE.test(i.title || "") || ((i.title || "").replace(/\b(las\s+vegas|los\s+angeles)\b/gi, "").match(SPANISH) || []).length >= 2;
+// Hard news (moves, injuries, jobs, the starting QB) outranks takes, roundups, polls and mock drafts.
+const HARD = /\b(trade[sd]?|acquire[sd]?|signs?|signed|re-sign|release[sd]?|waive[sd]?|cuts?|placed|activated|injured reserve|ir|fired|hires?|hired|named|starter|starting|start|benched|suspend(ed|ed)?|out for|season-ending|torn|surgery|eliminat\w*|extension|contract|demot\w*|promot\w*|interim)\b/i;
+const SOFT = /(^raiders news:|roundup|mailbag|mock|poll|\bfans\b|grades?\b|winners and losers|takeaways|what to watch|predictions?|stock (up|down|soars)|by the numbers|meet the|film room|rewind|podcast|live (game )?updates|live blog|how to watch|odds|picks?\b|ranking)/i;
+const KIND_W = { Reporting: 4, Official: 3, Opinion: 1.5, Rumor: 1 };
+const CAT_W = { Roster: 3, Coaching: 3, Injuries: 2.5, Games: 1.5, Draft: 1, Analysis: 1, Team: 1 };
+export function wireScore(i, now = Date.now()) {
+  if (isNoise(i)) return 0;
+  const hours = Math.max(0, (now - new Date(i.date).getTime()) / 36e5);
+  let s = (KIND_W[i.kind] ?? 2) + (CAT_W[i.cat] ?? 1) + Math.min(i.also?.length || 0, 3) * 1.5;
+  if (HARD.test(i.title)) s += 3;
+  if (SOFT.test(i.title)) s -= 2;
+  return Math.max(0.1, s) * Math.exp(-hours / 36);
+}
+// Names in a headline (capitalised words, minus the team and common words), used to spread the wire across stories.
+const NAME_STOP = new Set(["raiders", "las", "vegas", "the", "nfl", "week", "sunday", "monday", "despite", "how", "why", "what", "after", "with", "for", "and"]);
+export const headlineNames = t => new Set((String(t || "").match(/\b[A-Z][a-z’']{2,}\b/g) || []).map(w => w.toLowerCase().replace(/[’']s?$/, "")).filter(w => !NAME_STOP.has(w)));
+// A story's topic: names in its headline, plus the surnames of people named in the first sentence of its summary
+// (so "Raiders rookie cornerback makes early impact" is matched to Jermod McCoy). Team nicknames and places in the
+// summary are ignored: almost every summary names an opponent.
+const TEAMS = new Set("cardinals falcons ravens bills panthers bears bengals browns cowboys broncos lions packers texans colts jaguars chiefs chargers rams dolphins vikings patriots saints giants jets eagles steelers 49ers seahawks buccaneers titans commanders raiders nation vegas angeles york bay orleans".split(" "));
+const PERSON = /\b([A-Z][a-z’'.-]+)\s+((?:Mc|Mac|O’|O')?[A-Z][a-z’'-]+)\b/g;
+const nameKey = s => s.toLowerCase().replace(/[’']s?$/, "");
+export function topicKeys(i, known = null) {
+  const head = String(i.title || i.headline || "");
+  const words = head.match(/\b[A-Za-z][a-z’']+\b/g) || [];
+  // Title Case headlines ("Ashton Jeanty, Jack Bech Step Up Against Broncos") capitalise everything: use only people's
+  // names there, plus words already known as names or places from other headlines (`known`, see knownNames).
+  const titleCase = words.length > 3 && words.filter(w => /^[A-Z]/.test(w)).length / words.length > 0.6;
+  const keys = titleCase ? new Set() : headlineNames(head);
+  if (titleCase) {
+    for (const m of head.matchAll(PERSON)) { const last = nameKey(m[2]); if (!TEAMS.has(last) && !NAME_STOP.has(last)) keys.add(last); }
+    if (known) for (const w of words) { const k = nameKey(w); if (known.has(k)) keys.add(k); }
+  }
+  const first = String(i.desc || i.deck || "").split(/(?<=[.!?])\s/)[0];
+  for (const m of first.matchAll(PERSON)) {
+    const last = m[2].toLowerCase().replace(/[’']s?$/, "");
+    if (!TEAMS.has(last) && !NAME_STOP.has(m[1].toLowerCase())) keys.add(last);
+  }
+  for (const t of i.topics || []) keys.add(String(t).toLowerCase());
+  return keys;
+}
+// Strict front-page selection: take ranked stories in order, skipping any that shares a topic with one already shown.
+// `seen` is updated, so the lead, second tier and wire can share one set.
+// Names and places seen in ordinary (sentence case) headlines and summaries, used to read Title Case headlines.
+export function knownNames(items) {
+  const known = new Set();
+  for (const i of items || []) topicKeys(i).forEach(k => known.add(k));
+  return known;
+}
+export function pickByTopic(ranked, n, seen = new Set(), known = knownNames(ranked)) {
+  const out = [];
+  for (const i of ranked) {
+    if (out.length >= n) break;
+    const k = topicKeys(i, known);
+    if ([...k].some(x => seen.has(x))) continue;
+    out.push(i); k.forEach(x => seen.add(x));
+  }
+  return out;
+}
+// Ranked wire: newest-first archive in, most important first out. `days` limits how far back to look.
+// Each story that repeats a name already ranked above it is marked down, so one topic can't fill the wire.
+export function rankWire(items, { now = Date.now(), days = 4, noise = false } = {}) {
+  const pool = (items || [])
+    .filter(i => { const age = now - new Date(i.date).getTime(); return age >= -36e5 && age < days * 864e5; })
+    .filter(i => (noise || !isNoise(i)))
+    .map(i => ({ i, s: wireScore(i, now), names: topicKeys(i) }));
+  const out = [], seen = new Map();
+  while (pool.length) {
+    let best = 0, bestS = -1;
+    pool.forEach((x, k) => {
+      const repeats = Math.max(0, ...[...x.names].map(n => seen.get(n) || 0));
+      const s = x.s * 0.45 ** repeats;
+      if (s > bestS) { bestS = s; best = k; }
+    });
+    const [x] = pool.splice(best, 1);
+    out.push(x.i);
+    for (const n of x.names) seen.set(n, (seen.get(n) || 0) + 1);
+  }
+  return out;
+}
+// Desk articles: newest first, only those published (date in the past).
+export const deskArticles = (desk, now = Date.now()) =>
+  (desk?.articles || []).filter(a => a.id && a.headline && new Date(a.date).getTime() <= now).sort((a, b) => b.date.localeCompare(a.date));
