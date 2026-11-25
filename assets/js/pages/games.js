@@ -64,7 +64,7 @@ A.runPage($("page-error"), async () => {
 
   // Open a result when arriving from a schedule card or the score strip (#g-<id>, #g-<id>-box, #g-<id>-plays)
   const openHash = () => {
-    const el = location.hash.startsWith("#g-") && document.getElementById(location.hash.slice(1)), res = el?.closest("details.result");
+    const el = location.hash.startsWith("#g-") ? document.getElementById(location.hash.slice(1)) : null, res = el?.closest("details.result");
     if (res) { res.open = true; el.querySelector(":scope > details.drives")?.setAttribute("open", ""); el.scrollIntoView(); }
   };
   openHash(); addEventListener("hashchange", openHash);
