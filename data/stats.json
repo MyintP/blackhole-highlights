@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:57:50.758Z",
+ "updated": "2026-11-26T23:41:25.797Z",
  "season": 2026,
  "team": [
   {
@@ -1496,7 +1496,7 @@
   }
  ],
  "advanced": {
-  "throughWeek": 11,
+  "throughWeek": 12,
   "teams": 32,
   "qualifiedQbs": 36,
   "minDropbacks": 100,
@@ -1508,7 +1508,7 @@
     "higher": true,
     "v": 0.008,
     "rank": 17,
-    "nfl": 0.018
+    "nfl": 0.019
    },
    {
     "key": "sr",
@@ -1517,7 +1517,7 @@
     "higher": true,
     "v": 0.433,
     "rank": 19,
-    "nfl": 0.446
+    "nfl": 0.447
    },
    {
     "key": "pass",
@@ -1535,7 +1535,7 @@
     "higher": true,
     "v": -0.144,
     "rank": 31,
-    "nfl": -0.047
+    "nfl": -0.044
    },
    {
     "key": "epa",
@@ -1544,7 +1544,7 @@
     "higher": false,
     "v": 0.084,
     "rank": 28,
-    "nfl": 0.018
+    "nfl": 0.019
    },
    {
     "key": "sr",
@@ -1553,7 +1553,7 @@
     "higher": false,
     "v": 0.503,
     "rank": 32,
-    "nfl": 0.446
+    "nfl": 0.447
    },
    {
     "key": "pass",
@@ -1570,8 +1570,8 @@
     "side": "def",
     "higher": false,
     "v": -0.013,
-    "rank": 26,
-    "nfl": -0.047
+    "rank": 25,
+    "nfl": -0.044
    }
   ],
   "passers": [
@@ -1584,10 +1584,10 @@
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-26T04:53:47.978Z"
+  "fetched": "2026-11-26T23:41:25.797Z"
  },
  "tendencies": {
-  "charted": 1,
+  "charted": 0.987,
   "rows": [
    {
     "key": "passRate",
@@ -1596,7 +1596,7 @@
     "fmt": "pct",
     "v": 0.642,
     "rank": 9,
-    "nfl": 0.613
+    "nfl": 0.612
    },
    {
     "key": "earlyPass",
@@ -1668,7 +1668,7 @@
     "fmt": "num",
     "v": 8,
     "rank": 10,
-    "nfl": 7.863
+    "nfl": 7.866
    },
    {
     "key": "blitz",
@@ -1722,7 +1722,7 @@
     "fmt": "pct",
     "v": 0.155,
     "rank": 12,
-    "nfl": 0.153
+    "nfl": 0.152
    }
   ]
  }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:57:50.758Z",
+ "updated": "2026-11-26T23:41:25.797Z",
  "season": 2026,
  "record": "4-7",
  "divisionPlace": "3rd in AFC West",
@@ -893,7 +893,7 @@
     },
     "them": {
      "v": 22,
-     "rank": "T-14th"
+     "rank": "14th"
     },
     "higher": false
    }
@@ -910,6 +910,13 @@
     "ret": "2026-11-29"
    },
    {
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Ankle",
+    "status": "Questionable",
+    "ret": "2026-11-29"
+   },
+   {
     "name": "Tonka Hemingway",
     "pos": "DT",
     "injury": "Upper Body",
@@ -920,13 +927,6 @@
     "name": "Adam Butler",
     "pos": "DT",
     "injury": "Concussion",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
@@ -947,16 +947,16 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Quincy Williams",
-    "pos": "LB",
-    "injury": "Knee",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "injury": "Quadriceps",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
    {
-    "name": "Blake Whiteheart",
-    "pos": "TE",
-    "injury": "Hip",
+    "name": "Quincy Williams",
+    "pos": "LB",
+    "injury": "Knee",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
@@ -992,20 +992,6 @@
     "name": "Derek Barnett",
     "pos": "DE",
     "injury": "Hamstring",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Harold Fannin Jr.",
-    "pos": "TE",
-    "injury": "Groin",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Denzel Boston",
-    "pos": "WR",
-    "injury": "Quadriceps",
     "status": "Questionable",
     "ret": "2026-11-29"
    }
@@ -1052,68 +1038,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-26T14:57:50.758Z"
+   "at": "2026-11-26T23:41:25.797Z"
   }
  },
- "nflverseTried": "2026-11-26T04:53:47.978Z"
+ "nflverseTried": "2026-11-26T23:41:25.797Z"
 }

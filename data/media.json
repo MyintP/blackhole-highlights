@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-26T04:53:47.978Z",
+ "updated": "2026-11-26T23:41:25.797Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Andrew Janocko and Rob Leonard Presser - 11.26.26",
+   "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-nfl-week-12-2026",
+   "date": "2026-11-26T22:27:43.000Z",
+   "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
+   "src": "Raiders.com"
+  },
   {
    "title": "Klint Kubiak and Fernando Mendoza Presser - 11.25.26",
    "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-presser-browns-nfl-week-12-2026-season",
@@ -78,23 +85,9 @@
    "date": "2026-11-18T23:21:19.000Z",
    "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media.",
    "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak on Fernando Mendoza's first start, prep for the Broncos",
-   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-first-start-broncos-nfl-week-11-2026-season",
-   "date": "2026-11-17T20:52:45.000Z",
-   "desc": "Head Coach Klint Kubiak recaps the loss to the Seahawks and looks ahead to facing the Denver Broncos in Week 11.",
-   "src": "Raiders.com"
   }
  ],
  "espn": [
-  {
-   "title": "The good and bad of Fernando Mendoza's 2nd start",
-   "link": "https://www.espn.com/video/clip/_/id/50573256/the-good-bad-fernando-mendoza-2nd-start",
-   "date": "2026-11-23T15:02:33Z",
-   "desc": "Ryan McFadden analyzes Mendoza's last two starts and what they mean for his future as Las Vegas' franchise QB.",
-   "src": "ESPN"
-  },
   {
    "title": "Christian Bale: You don't get many people like Al Davis",
    "link": "https://www.espn.com/video/clip/_/id/50532442/get-many-people-al-davis",
