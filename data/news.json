@@ -1,6 +1,72 @@
 {
- "updated": "2026-11-25T22:22:53.193Z",
+ "updated": "2026-11-26T04:53:47.978Z",
  "items": [
+  {
+   "id": "60bmhd",
+   "title": "‘It will be special’: Raiders’ Eichenberg set for homecoming in Cleveland",
+   "link": "https://www.reviewjournal.com/sports/raiders/raiders-eichenberg-set-for-homecoming-at-cleveland-stadium-3919426/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-26T01:36:53.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Linebacker Tommy Eichenberg is set to play just 15 minutes from his childhood home as the Raiders head to Cleveland to play the Browns in primetime.",
+   "author": "Adam Hill"
+  },
+  {
+   "id": "16s1k9u",
+   "title": "How is Fernando Mendoza prepping for his first NFL primetime start?",
+   "link": "https://www.reviewjournal.com/sports/raiders/how-is-fernando-mendoza-prepping-for-his-first-nfl-primetime-start-3919422/",
+   "src": "Las Vegas Review-Journal",
+   "date": "2026-11-26T01:04:51.000Z",
+   "kind": "Reporting",
+   "cat": "Team",
+   "desc": "Fernando Mendoza and the Las Vegas Raiders play the Cleveland Browns on “Sunday Night Football.” The quarterback was a fixture in primetime games last season in college.",
+   "author": "Sam Gordon"
+  },
+  {
+   "id": "1vli9z2",
+   "title": "Deshaun Watson and No. 1 pick Fernando Mendoza face primetime pressure in Browns' matchup vs Raiders",
+   "link": "https://www.espn.com/nfl/preview?gameId=401873086",
+   "src": "ESPN",
+   "date": "2026-11-25T23:47:32.000Z",
+   "kind": "Reporting",
+   "cat": "Games",
+   "desc": "— Deshaun Watson and Fernando Mendoza have plenty to prove when Cleveland hosts Las Vegas on Sunday night.",
+   "author": null
+  },
+  {
+   "id": "fls3v",
+   "title": "Game Preview: Raiders hit the road again for primetime test against Browns",
+   "link": "https://www.raiders.com/news/game-preview-raiders-hit-the-road-again-for-primetime-test-against-browns",
+   "src": "Raiders.com",
+   "date": "2026-11-25T23:41:01.000Z",
+   "kind": "Official",
+   "cat": "Games",
+   "desc": "The stage is set for Sunday Night Football between the Silver and Black and the Dawg Pound.",
+   "author": null
+  },
+  {
+   "id": "16qj4fj",
+   "title": "Raiders offense gets back on track without Brock Bowers",
+   "link": "https://www.silverandblackpride.com/las-vegas-raiders-analysis/147241/lraiders-offense-fernando-mendoza-brock-bowers",
+   "src": "Silver & Black Pride",
+   "date": "2026-11-25T22:41:00.000Z",
+   "kind": "Opinion",
+   "cat": "Team",
+   "desc": "The Las Vegas Raiders offense, led by rookie quarterback Fernando Mendoza and a running game that featured Ashton Jeanty, got back on track. Nearly overcoming a horrendous start and without offensive weapon Brock Bowers causing mass disruption and chaos. The d",
+   "author": "Philip Robinson"
+  },
+  {
+   "id": "198ig87",
+   "title": "Raiders-Browns Week 12 Injury Report",
+   "link": "https://www.raiders.com/news/raiders-browns-week-12-injury-report",
+   "src": "Raiders.com",
+   "date": "2026-11-25T22:10:00.000Z",
+   "kind": "Official",
+   "cat": "Injuries",
+   "desc": "Take a look at the Raiders' injury report as the team prepares to face the Cleveland Browns",
+   "author": null
+  },
   {
    "id": "19ql94t",
    "title": "Jermod McCoy shows promise during 1st start for Las Vegas Raiders in Week 11 vs. Denver Broncos",
@@ -6708,82 +6774,6 @@
    "cat": "Team",
    "desc": "The Raiders lost a fourth straight game Sunday in which they surrendered at least 30 points, and one of the defensive leaders says some mistakes will no longer be ignored.",
    "author": "Adam Hill"
-  },
-  {
-   "id": "a5xywl",
-   "title": "Graney: The Raiders are defenseless — they can’t stop you right now",
-   "link": "https://www.reviewjournal.com/sports/sports-columns/ed-graney/graney-the-raiders-are-defenseless-they-cant-stop-you-right-now-3905248/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-26T13:00:29.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "The Las Vegas Raiders have surrendered at least 30 points in four straight games, all losses, the latest a defeat to the Los Angeles Rams on Sunday.",
-   "author": "Ed Graney"
-  },
-  {
-   "id": "q1vafa",
-   "title": "Raiders’ red-zone woes continue as losses mount",
-   "link": "https://www.reviewjournal.com/sports/raiders/raiders-red-zone-woes-continue-as-losses-mount-3905245/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-26T13:00:17.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "The Las Vegas Raiders are near the top of the league in reaching the red zone, but among the worst at converting touchdowns once they get there.",
-   "author": "Adam Hill"
-  },
-  {
-   "id": "2i4c5n",
-   "title": "Fernando Mendoza starts as Raiders QB? Klint Kubiak ‘thinking about everything’",
-   "link": "https://www.reviewjournal.com/sports/raiders/fernando-mendoza-starts-as-raiders-qb-klint-kubiak-thinking-about-everything-3905146/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-26T03:29:17.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "Klint Kubiak said he didn’t consider playing Fernando Mendoza as the Raiders trailed the Rams, but added, “I think at this point, we’re thinking about everything.”",
-   "author": "Sam Gordon",
-   "also": [
-    {
-     "id": "1gtdppz",
-     "title": "Raiders' Kubiak on switching to QB Mendoza: 'We're thinking about everything'",
-     "link": "https://www.espn.com/nfl/story/_/id/50284090/thinking-everything",
-     "src": "ESPN",
-     "date": "2026-10-26T02:26:19.000Z",
-     "kind": "Reporting"
-    }
-   ]
-  },
-  {
-   "id": "18zrcg",
-   "title": "Vegas Sports Sunday: Raiders lose 4th straight. Is it time to start Mendoza?",
-   "link": "https://www.reviewjournal.com/sports/raiders/vegas-sports-sunday-raiders-lose-4th-straight-is-it-time-to-start-mendoza-3905135/",
-   "src": "Las Vegas Review-Journal",
-   "date": "2026-10-26T03:06:27.000Z",
-   "kind": "Reporting",
-   "cat": "Team",
-   "desc": "In this episode of Vegas Sports Sunday, the Review Journal’s Heidi Fang and Dominic Lavoie recap the Raiders’ loss to the Rams, high school football, NBA expansion and more.",
-   "author": "Las Vegas Review-Journal"
-  },
-  {
-   "id": "wey98h",
-   "title": "Raiders Getting Closer to Turning to Mendoza",
-   "link": "https://www.raidersbeat.com/raiders-getting-closer-to-turning-to-mendoza/",
-   "src": "RaidersBeat",
-   "date": "2026-10-26T02:51:50.000Z",
-   "kind": "Opinion",
-   "cat": "Team",
-   "desc": "The Raiders couldn’t ask for more than what Kirk Cousins has given the team... The post Raiders Getting Closer to Turning to Mendoza appeared first on Raiders Beat .",
-   "author": "Warren Mitchell"
-  },
-  {
-   "id": "1sls59x",
-   "title": "Raiders vs. Jets odds: Opening lines for Week 8 matchup",
-   "link": "https://www.silverandblackpride.com/las-vegas-raiders-odds/143957/raiders-vs-jets-odds-week-8-opening-lines-point-spread-total",
-   "src": "Silver & Black Pride",
-   "date": "2026-10-26T02:31:00.000Z",
-   "kind": "Opinion",
-   "cat": "Games",
-   "desc": "The Las Vegas Raiders have lost four straight after a 3-0 start. This time, they fell at home to the LA Rams, 35-18. It’s been a struggle, and the coaching staff is looking for answers. Next up for the Silver and Black is a matchup against the New York Jets. T",
-   "author": "Marcus Johnson"
   }
  ]
 }
