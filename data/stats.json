@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:53:47.978Z",
+ "updated": "2026-11-26T14:57:50.758Z",
  "season": 2026,
  "team": [
   {
@@ -21,7 +21,7 @@
    "label": "Passing yards per game",
    "value": "255.5",
    "v": 255.545,
-   "rank": "12th"
+   "rank": "11th"
   },
   {
    "key": "rushingYardsPerGame",
@@ -49,7 +49,7 @@
    "label": "Passer rating",
    "value": "94.3",
    "v": 94.3,
-   "rank": "11th"
+   "rank": "10th"
   },
   {
    "key": "thirdDownConvPct",
@@ -63,14 +63,14 @@
    "label": "Red-zone scoring %",
    "value": "87.50",
    "v": 87.5,
-   "rank": "T-14th"
+   "rank": "T-15th"
   },
   {
    "key": "turnOverDifferential",
    "label": "Turnover differential",
    "value": "3",
    "v": 3,
-   "rank": "T-11th"
+   "rank": "T-10th"
   },
   {
    "key": "sacks",
