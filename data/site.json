@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:41:25.797Z",
+ "updated": "2026-11-27T08:04:24.645Z",
  "season": 2026,
  "record": "4-7",
  "divisionPlace": "3rd in AFC West",
@@ -186,7 +186,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "8-2"
+     "record": "8-3"
     },
     "tv": "CBS",
     "state": "post",
@@ -236,7 +236,7 @@
      "name": "Bills",
      "location": "Buffalo",
      "abbr": "BUF",
-     "record": "9-1"
+     "record": "10-1"
     },
     "tv": "CBS",
     "state": "post",
@@ -496,7 +496,7 @@
      "name": "Chiefs",
      "location": "Kansas City",
      "abbr": "KC",
-     "record": "8-2"
+     "record": "8-3"
     },
     "tv": null,
     "state": "pre",
@@ -515,21 +515,21 @@
    {
     "id": "401873082",
     "date": "2026-11-27T01:20Z",
-    "state": "pre",
-    "final": false,
-    "detail": "11/26 - 8:20 PM EST",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "12",
      "abbr": "KC",
-     "score": null,
+     "score": 10,
      "winner": false
     },
     "home": {
      "id": "2",
      "abbr": "BUF",
-     "score": null,
-     "winner": false
+     "score": 13,
+     "winner": true
     },
     "link": "https://www.espn.com/nfl/game/_/gameId/401873082/chiefs-bills"
    },
@@ -615,10 +615,10 @@
     "id": "12",
     "name": "Kansas City",
     "w": 8,
-    "l": 2,
+    "l": 3,
     "t": 0,
-    "pct": ".800",
-    "diff": "+108",
+    "pct": ".727",
+    "diff": "+105",
     "us": false
    },
    {
@@ -646,12 +646,12 @@
    {
     "id": "2",
     "name": "Buffalo",
-    "w": 9,
+    "w": 10,
     "l": 1,
     "t": 0,
-    "pct": ".900",
+    "pct": ".909",
     "seed": 1,
-    "diff": "+105",
+    "diff": "+108",
     "us": false
    },
    {
@@ -691,11 +691,11 @@
     "id": "12",
     "name": "Kansas City",
     "w": 8,
-    "l": 2,
+    "l": 3,
     "t": 0,
-    "pct": ".800",
+    "pct": ".727",
     "seed": 5,
-    "diff": "+108",
+    "diff": "+105",
     "us": false
    },
    {
@@ -857,7 +857,7 @@
     },
     "them": {
      "v": 241.7,
-     "rank": "15th"
+     "rank": "14th"
     },
     "higher": true
    },
@@ -910,16 +910,16 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "injury": "Ankle",
+    "name": "Tonka Hemingway",
+    "pos": "DT",
+    "injury": "Upper Body",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
    {
-    "name": "Tonka Hemingway",
-    "pos": "DT",
-    "injury": "Upper Body",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
@@ -1038,103 +1038,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-26T23:41:25.797Z"
+   "at": "2026-11-27T08:04:24.645Z"
   }
  },
  "nflverseTried": "2026-11-26T23:41:25.797Z"

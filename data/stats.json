@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:41:25.797Z",
+ "updated": "2026-11-27T08:04:24.645Z",
  "season": 2026,
  "team": [
   {
@@ -56,14 +56,14 @@
    "label": "3rd-down conversion %",
    "value": "43.54",
    "v": 43.537,
-   "rank": "6th"
+   "rank": "7th"
   },
   {
    "key": "redzoneScoringPct",
    "label": "Red-zone scoring %",
    "value": "87.50",
    "v": 87.5,
-   "rank": "T-15th"
+   "rank": "T-16th"
   },
   {
    "key": "turnOverDifferential",
@@ -77,14 +77,14 @@
    "label": "Defensive sacks",
    "value": "23",
    "v": 23,
-   "rank": "T-15th"
+   "rank": "T-17th"
   },
   {
    "key": "interceptions",
    "label": "Interceptions",
    "value": "8",
    "v": 8,
-   "rank": "T-10th"
+   "rank": "T-12th"
   }
  ],
  "players": [
@@ -1109,7 +1109,7 @@
    "pos": "DT",
    "posName": "Defensive Tackle",
    "group": "Defense",
-   "age": 24,
+   "age": 25,
    "ht": "6' 2\"",
    "wt": "325 lbs",
    "exp": 2,
