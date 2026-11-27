@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:04:24.645Z",
+ "updated": "2026-11-27T18:05:30.196Z",
  "season": 2026,
  "team": [
   {
@@ -1498,7 +1498,7 @@
  "advanced": {
   "throughWeek": 12,
   "teams": 32,
-  "qualifiedQbs": 36,
+  "qualifiedQbs": 37,
   "minDropbacks": 100,
   "metrics": [
    {
@@ -1570,7 +1570,7 @@
     "side": "def",
     "higher": false,
     "v": -0.013,
-    "rank": 25,
+    "rank": 26,
     "nfl": -0.044
    }
   ],
@@ -1584,10 +1584,10 @@
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-26T23:41:25.797Z"
+  "fetched": "2026-11-27T18:05:30.196Z"
  },
  "tendencies": {
-  "charted": 0.987,
+  "charted": 0.976,
   "rows": [
    {
     "key": "passRate",
@@ -1604,8 +1604,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.593,
-    "rank": 9,
-    "nfl": 0.558
+    "rank": 8,
+    "nfl": 0.557
    },
    {
     "key": "shotgun",
@@ -1658,7 +1658,7 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.083,
-    "rank": 9,
+    "rank": 8,
     "nfl": 0.068
    },
    {
@@ -1667,8 +1667,8 @@
     "side": "off",
     "fmt": "num",
     "v": 8,
-    "rank": 10,
-    "nfl": 7.866
+    "rank": 11,
+    "nfl": 7.904
    },
    {
     "key": "blitz",
