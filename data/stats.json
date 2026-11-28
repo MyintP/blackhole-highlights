@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:05:30.196Z",
+ "updated": "2026-11-28T10:09:46.610Z",
  "season": 2026,
  "team": [
   {
@@ -14,7 +14,7 @@
    "label": "Total yards per game",
    "value": "332.8",
    "v": 332.818,
-   "rank": "22nd"
+   "rank": "21st"
   },
   {
    "key": "passingYardsPerGame",
@@ -63,14 +63,14 @@
    "label": "Red-zone scoring %",
    "value": "87.50",
    "v": 87.5,
-   "rank": "T-16th"
+   "rank": "T-15th"
   },
   {
    "key": "turnOverDifferential",
    "label": "Turnover differential",
    "value": "3",
    "v": 3,
-   "rank": "T-10th"
+   "rank": "T-9th"
   },
   {
    "key": "sacks",
@@ -84,7 +84,7 @@
    "label": "Interceptions",
    "value": "8",
    "v": 8,
-   "rank": "T-12th"
+   "rank": "T-13th"
   }
  ],
  "players": [
@@ -1207,7 +1207,7 @@
    "pos": "P",
    "posName": "Punter",
    "group": "Special teams",
-   "age": 30,
+   "age": 31,
    "ht": "6' 4\"",
    "wt": "220 lbs",
    "exp": 8,
@@ -1507,8 +1507,8 @@
     "side": "off",
     "higher": true,
     "v": 0.008,
-    "rank": 17,
-    "nfl": 0.019
+    "rank": 16,
+    "nfl": 0.018
    },
    {
     "key": "sr",
@@ -1517,7 +1517,7 @@
     "higher": true,
     "v": 0.433,
     "rank": 19,
-    "nfl": 0.447
+    "nfl": 0.446
    },
    {
     "key": "pass",
@@ -1526,7 +1526,7 @@
     "higher": true,
     "v": 0.092,
     "rank": 13,
-    "nfl": 0.059
+    "nfl": 0.058
    },
    {
     "key": "rush",
@@ -1535,7 +1535,7 @@
     "higher": true,
     "v": -0.144,
     "rank": 31,
-    "nfl": -0.044
+    "nfl": -0.046
    },
    {
     "key": "epa",
@@ -1544,7 +1544,7 @@
     "higher": false,
     "v": 0.084,
     "rank": 28,
-    "nfl": 0.019
+    "nfl": 0.018
    },
    {
     "key": "sr",
@@ -1553,7 +1553,7 @@
     "higher": false,
     "v": 0.503,
     "rank": 32,
-    "nfl": 0.447
+    "nfl": 0.446
    },
    {
     "key": "pass",
@@ -1562,7 +1562,7 @@
     "higher": false,
     "v": 0.159,
     "rank": 28,
-    "nfl": 0.059
+    "nfl": 0.058
    },
    {
     "key": "rush",
@@ -1571,7 +1571,7 @@
     "higher": false,
     "v": -0.013,
     "rank": 26,
-    "nfl": -0.044
+    "nfl": -0.046
    }
   ],
   "passers": [
@@ -1584,10 +1584,10 @@
     "cpoeRank": null
    }
   ],
-  "fetched": "2026-11-27T18:05:30.196Z"
+  "fetched": "2026-11-28T10:09:46.610Z"
  },
  "tendencies": {
-  "charted": 0.976,
+  "charted": 0.97,
   "rows": [
    {
     "key": "passRate",
@@ -1595,8 +1595,8 @@
     "side": "off",
     "fmt": "pct",
     "v": 0.642,
-    "rank": 9,
-    "nfl": 0.612
+    "rank": 8,
+    "nfl": 0.611
    },
    {
     "key": "earlyPass",
@@ -1668,7 +1668,7 @@
     "fmt": "num",
     "v": 8,
     "rank": 11,
-    "nfl": 7.904
+    "nfl": 7.901
    },
    {
     "key": "blitz",

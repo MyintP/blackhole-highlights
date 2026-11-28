@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:23:58.520Z",
+ "updated": "2026-11-28T10:09:46.610Z",
  "season": 2026,
  "record": "4-7",
  "divisionPlace": "3rd in AFC West",
@@ -841,7 +841,7 @@
     "label": "Total offense",
     "us": {
      "v": 332.818,
-     "rank": "22nd"
+     "rank": "21st"
     },
     "them": {
      "v": 339.2,
@@ -903,16 +903,16 @@
   "gameId": "401873086",
   "us": [
    {
-    "name": "Tonka Hemingway",
+    "name": "Tim Keenan III",
     "pos": "DT",
-    "injury": "Upper Body",
+    "injury": "Knee",
     "status": "Out",
     "ret": "2026-12-13"
    },
    {
-    "name": "Tim Keenan III",
-    "pos": "DT",
-    "injury": "Knee",
+    "name": "Jackson Powers-Johnson",
+    "pos": "G",
+    "injury": "Achilles",
     "status": "Out",
     "ret": "2026-12-13"
    },
@@ -924,9 +924,9 @@
     "ret": "2026-12-13"
    },
    {
-    "name": "Jackson Powers-Johnson",
-    "pos": "G",
-    "injury": "Achilles",
+    "name": "Tonka Hemingway",
+    "pos": "DT",
+    "injury": "Upper Body",
     "status": "Out",
     "ret": "2026-12-13"
    },
@@ -975,16 +975,16 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Denzel Boston",
-    "pos": "WR",
-    "injury": "Quadriceps",
+    "name": "Austin Barber",
+    "pos": "OT",
+    "injury": "Knee",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
    {
-    "name": "Austin Barber",
-    "pos": "OT",
-    "injury": "Knee",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "injury": "Quadriceps",
     "status": "Questionable",
     "ret": "2026-11-29"
    }
@@ -1031,68 +1031,104 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse play-by-play": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse charting": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse player stats": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse PFR def": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse PFR rec": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse PFR rush": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse PFR pass": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse snap counts": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
+  },
+  "nflverse player profiles": {
+   "ok": true,
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-28T01:23:58.520Z"
+   "at": "2026-11-28T10:09:46.610Z"
   }
  },
- "nflverseTried": "2026-11-27T18:05:30.196Z"
+ "nflverseTried": "2026-11-28T10:09:46.610Z"
 }
