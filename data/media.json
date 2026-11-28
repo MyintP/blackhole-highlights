@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-27T08:04:24.645Z",
+ "updated": "2026-11-28T01:23:58.520Z",
  "youtube": [],
  "podcasts": [
+  {
+   "title": "Klint Kubiak and Joe DeCamillis Presser - 11.27.26",
+   "link": "https://www.raiders.com/audio/klint-kubiak-joe-decamillis-presser-browns-nfl-week-12-2026-season",
+   "date": "2026-11-27T20:30:00.000Z",
+   "desc": "Head Coach Klint Kubiak and special teams coordinator Joe DeCamillis address the media.",
+   "src": "Raiders.com"
+  },
+  {
+   "title": "Jeremy Chinn on providing veteran leadership and preparing for SNF in Cleveland",
+   "link": "https://www.raiders.com/audio/jeremy-chinn-browns-nfl-week-12-2026-season-andrew-siciliano-james-jones",
+   "date": "2026-11-27T18:00:00.000Z",
+   "desc": "Andrew Siciliano and James Jones preview the Raiders' upcoming Week 12 matchup against the Cleveland Browns. Then safety Jeremy Chinn discusses being a source of veteran leadership for a young Raiders team and preparing ",
+   "src": "Raiders.com"
+  },
   {
    "title": "Andrew Janocko and Rob Leonard Presser - 11.26.26",
    "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-nfl-week-12-2026",
@@ -70,20 +84,6 @@
    "link": "https://www.raiders.com/audio/andrew-janocko-rob-leonard-presser-broncos-nfl-week-11-2026-season",
    "date": "2026-11-19T22:00:00.000Z",
    "desc": "Offensive coordinator Andrew Janocko and defensive coordinator Rob Leonard address the media.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Fernando Mendoza looks to build on first start in divisional clash with Broncos",
-   "link": "https://www.raiders.com/audio/fernando-mendoza-nfl-broncos-week-11-2026-season",
-   "date": "2026-11-19T17:00:00.000Z",
-   "desc": "JT The Brick and Q Myers are joined by Lincoln Kennedy and Cynthia Frelund to preview Week 11 against the Denver Broncos on Raiders Weekly.",
-   "src": "Raiders.com"
-  },
-  {
-   "title": "Klint Kubiak and Fernando Mendoza Presser - 11.18.26",
-   "link": "https://www.raiders.com/audio/klint-kubiak-fernando-mendoza-presser-nfl-week-11-2026-season",
-   "date": "2026-11-18T23:21:19.000Z",
-   "desc": "Head Coach Klint Kubiak and QB Fernando Mendoza address the media.",
    "src": "Raiders.com"
   }
  ],

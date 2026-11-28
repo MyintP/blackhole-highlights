@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:05:30.196Z",
+ "updated": "2026-11-28T01:23:58.520Z",
  "season": 2026,
  "record": "4-7",
  "divisionPlace": "3rd in AFC West",
@@ -41,7 +41,7 @@
    "name": "Broncos",
    "location": "Denver",
    "abbr": "DEN",
-   "record": "8-2"
+   "record": "8-3"
   },
   "tv": "CBS",
   "state": "post",
@@ -361,7 +361,7 @@
      "name": "Broncos",
      "location": "Denver",
      "abbr": "DEN",
-     "record": "8-2"
+     "record": "8-3"
     },
     "tv": "CBS",
     "state": "post",
@@ -430,7 +430,7 @@
      "name": "Broncos",
      "location": "Denver",
      "abbr": "DEN",
-     "record": "8-2"
+     "record": "8-3"
     },
     "tv": "CBS",
     "state": "pre",
@@ -536,21 +536,21 @@
    {
     "id": "401873083",
     "date": "2026-11-27T20:00Z",
-    "state": "pre",
-    "final": false,
-    "detail": "11/27 - 3:00 PM EST",
+    "state": "post",
+    "final": true,
+    "detail": "Final",
     "postponed": false,
     "away": {
      "id": "7",
      "abbr": "DEN",
-     "score": null,
+     "score": 5,
      "winner": false
     },
     "home": {
      "id": "23",
      "abbr": "PIT",
-     "score": null,
-     "winner": false
+     "score": 27,
+     "winner": true
     },
     "link": "https://www.espn.com/nfl/game/_/gameId/401873083/broncos-steelers"
    },
@@ -605,10 +605,10 @@
     "id": "7",
     "name": "Denver",
     "w": 8,
-    "l": 2,
+    "l": 3,
     "t": 0,
-    "pct": ".800",
-    "diff": "+26",
+    "pct": ".727",
+    "diff": "+4",
     "us": false
    },
    {
@@ -658,11 +658,11 @@
     "id": "7",
     "name": "Denver",
     "w": 8,
-    "l": 2,
+    "l": 3,
     "t": 0,
-    "pct": ".800",
+    "pct": ".727",
     "seed": 2,
-    "diff": "+26",
+    "diff": "+4",
     "us": false
    },
    {
@@ -699,25 +699,25 @@
     "us": false
    },
    {
+    "id": "23",
+    "name": "Pittsburgh",
+    "w": 7,
+    "l": 4,
+    "t": 0,
+    "pct": ".636",
+    "seed": 6,
+    "diff": "+35",
+    "us": false
+   },
+   {
     "id": "5",
     "name": "Cleveland",
     "w": 6,
     "l": 4,
     "t": 0,
     "pct": ".600",
-    "seed": 6,
-    "diff": "-32",
-    "us": false
-   },
-   {
-    "id": "23",
-    "name": "Pittsburgh",
-    "w": 6,
-    "l": 4,
-    "t": 0,
-    "pct": ".600",
     "seed": 7,
-    "diff": "+13",
+    "diff": "-32",
     "us": false
    },
    {
@@ -903,6 +903,34 @@
   "gameId": "401873086",
   "us": [
    {
+    "name": "Tonka Hemingway",
+    "pos": "DT",
+    "injury": "Upper Body",
+    "status": "Out",
+    "ret": "2026-12-13"
+   },
+   {
+    "name": "Tim Keenan III",
+    "pos": "DT",
+    "injury": "Knee",
+    "status": "Out",
+    "ret": "2026-12-13"
+   },
+   {
+    "name": "Adam Butler",
+    "pos": "DT",
+    "injury": "Concussion",
+    "status": "Out",
+    "ret": "2026-12-13"
+   },
+   {
+    "name": "Jackson Powers-Johnson",
+    "pos": "G",
+    "injury": "Achilles",
+    "status": "Out",
+    "ret": "2026-12-13"
+   },
+   {
     "name": "Patrick Johnson",
     "pos": "DE",
     "injury": "Neck",
@@ -910,9 +938,16 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Tonka Hemingway",
+    "name": "Darrell Luter Jr.",
+    "pos": "CB",
+    "injury": "Knee",
+    "status": "Questionable",
+    "ret": "2026-11-29"
+   },
+   {
+    "name": "JJ Pegues",
     "pos": "DT",
-    "injury": "Upper Body",
+    "injury": "Elbow",
     "status": "Questionable",
     "ret": "2026-11-29"
    },
@@ -922,23 +957,16 @@
     "injury": "Ankle",
     "status": "Questionable",
     "ret": "2026-11-29"
-   },
-   {
-    "name": "Adam Butler",
-    "pos": "DT",
-    "injury": "Concussion",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Tim Keenan III",
-    "pos": "DT",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-29"
    }
   ],
   "them": [
+   {
+    "name": "Derek Barnett",
+    "pos": "DE",
+    "injury": "Hamstring",
+    "status": "Out",
+    "ret": "2026-12-06"
+   },
    {
     "name": "Raheim Sanders",
     "pos": "RB",
@@ -954,44 +982,9 @@
     "ret": "2026-11-29"
    },
    {
-    "name": "Quincy Williams",
-    "pos": "LB",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Isaiah McGuire",
-    "pos": "DE",
-    "injury": "Calf",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Ronnie Hickman",
-    "pos": "S",
-    "injury": "Concussion",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Elgton Jenkins",
-    "pos": "C",
-    "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
     "name": "Austin Barber",
     "pos": "OT",
     "injury": "Knee",
-    "status": "Questionable",
-    "ret": "2026-11-29"
-   },
-   {
-    "name": "Derek Barnett",
-    "pos": "DE",
-    "injury": "Hamstring",
     "status": "Questionable",
     "ret": "2026-11-29"
    }
@@ -1038,103 +1031,67 @@
  "sources": {
   "schedule": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "standings": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "game preview": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "roster": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "team stats": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "player stats": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "scoreboard": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse play-by-play": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse charting": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse player stats": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse PFR def": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse PFR rec": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse PFR rush": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse PFR pass": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse snap counts": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
-  },
-  "nflverse player profiles": {
-   "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "matchup": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "injuries": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "news: Raiders.com": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "news: Las Vegas Review-Journal": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "news: Silver & Black Pride": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "news: RaidersBeat": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "news: ESPN": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "videos": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   },
   "podcasts": {
    "ok": true,
-   "at": "2026-11-27T18:05:30.196Z"
+   "at": "2026-11-28T01:23:58.520Z"
   }
  },
  "nflverseTried": "2026-11-27T18:05:30.196Z"
